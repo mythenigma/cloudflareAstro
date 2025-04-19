@@ -14,7 +14,7 @@ When it comes to showcasing your work, especially for designers or anyone in cre
 
 ## 🔐 Why Choose MaiPDF?
 
-Here’s what makes MaiPDF stand out:
+Here’s what makes MaiPDF stand out :
 
 - **Secure PDF Links**  
   Generate one-time or multi-use access links to your PDF files. Set view limits or expiry times to protect sensitive content.
