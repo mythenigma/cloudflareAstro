@@ -14,4 +14,14 @@ export default defineConfig({
       enabled: true,
     },
   }),
+  vite: {
+    build: {
+      rollupOptions: {
+        input: {
+          main: './index.html',
+          favicon: './public/maipdf-images/favicon.svg',
+        },
+      },
+    },
+  },
 });
