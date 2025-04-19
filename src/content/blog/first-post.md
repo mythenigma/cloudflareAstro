@@ -1,6 +1,6 @@
 ---
 title: "Introduction to MaiPDF"
-description: "Lorem ipsum dolor sit amet"
+description: "Intro of MaiPDF"
 pubDate: "Jul 15 2024"
 ---
 
