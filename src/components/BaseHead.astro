@@ -45,3 +45,31 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<script>
+  // Set initial theme based on user preference or system settings
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (savedTheme) {
+    document.documentElement.classList.add(savedTheme);
+  } else if (prefersDarkMode) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.add('light');
+  }
+</script>
+
+<script>
+  // Define the toggleTheme function globally
+  window.toggleTheme = () => {
+    const htmlElement = document.documentElement;
+    const isDarkMode = htmlElement.classList.contains('dark');
+    if (isDarkMode) {
+      htmlElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
+    } else {
+      htmlElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  };
+</script>

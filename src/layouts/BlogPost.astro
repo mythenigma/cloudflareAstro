@@ -19,15 +19,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				max-width: 100%;
 				margin: 0;
 			}
-			.hero-image {
-				width: 100%;
-			}
-			.hero-image img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
-			}
 			.prose {
 				width: 720px;
 				max-width: calc(100% - 2em);
@@ -52,32 +43,35 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				font-style: italic;
 			}
 		</style>
+		<script>
+			// Removed toggleTheme functionality as requested
+		</script>
 	</head>
 
 	<body>
 		<Header />
 		<main>
-			<article>
-				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt={heroImage.split('/').pop()} loading="lazy" />}
-				</div>
-				<div class="prose">
-					<div class="title">
-						<div class="date">
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
-						</div>
-						<h1>{title}</h1>
-						<hr />
+			<article class="prose mx-auto">
+				<header class="mb-8">
+					<h1 class="text-4xl font-bold mb-4">{title}</h1>
+					<div class="hero-image">
+						{heroImage && <img width={1020} height={510} src={heroImage} alt={heroImage.split('/').pop()} loading="lazy" />}
 					</div>
+					<p class="text-gray-600 text-sm">
+						Published on <FormattedDate date={pubDate} />
+						{updatedDate && (
+							<span> | Updated on <FormattedDate date={updatedDate} /></span>
+						)}
+					</p>
+				</header>
+
+				<section>
 					<slot />
-				</div>
+				</section>
+
+				<footer class="mt-12 border-t pt-4 text-sm text-gray-500">
+					<p>Thank you for reading! Feel free to share your thoughts in the comments below.</p>
+				</footer>
 			</article>
 		</main>
 		<Footer />
