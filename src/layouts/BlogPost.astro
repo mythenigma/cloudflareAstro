@@ -41,6 +41,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.last-updated-on {
 				font-style: italic;
+				}
+			article img {
+				max-width: 100%;
+				height: auto;
+				width: 400px; /* Set a consistent width for all images */
+				margin: 1em 0; /* Add spacing around images */
 			}
 		</style>
 		<script>
@@ -70,7 +76,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				</section>
 
 				<footer class="mt-12 border-t pt-4 text-sm text-gray-500">
-					<p>Thank you for reading! Feel free to share your thoughts in the comments below.</p>
+					<p>Thank you for reading! Feel free to reach out using the contact info below.</p>
 				</footer>
 			</article>
 		</main>

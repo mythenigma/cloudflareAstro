@@ -1,5 +1,5 @@
 ---
-title: "First post"
+title: "Introduction to MaiPDF"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 15 2024"
 ---
