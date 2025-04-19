@@ -66,3 +66,13 @@ hr {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+[data-theme="dark"] {
+  --accent: #ff5733;
+  --gray-light: 50, 50, 50;
+  --gray: 200, 200, 200;
+  --gray-dark: 240, 240, 240;
+  --black: 255, 255, 255;
+  background-color: rgb(var(--gray-dark));
+  color: rgb(var(--gray));
+}

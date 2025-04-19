@@ -40,6 +40,7 @@ import { SITE_TITLE } from '../consts';
 				>
 			</a>
 		</div>
+		<button onclick="toggleTheme()">Toggle Theme</button>
 	</nav>
 </header>
 <style>
@@ -83,3 +84,15 @@ import { SITE_TITLE } from '../consts';
 		}
 	}
 </style>
+<script>
+  const toggleTheme = () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  };
+
+  // Set theme on page load
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+</script>
