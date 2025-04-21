@@ -4,10 +4,18 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & { slug: string };
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, slug } = Astro.props;
+
+// Extract keywords from the title and description for finding related posts
+const titleWords = title.toLowerCase().split(/\s+/).filter(word => word.length > 4);
+const descWords = description ? description.toLowerCase().split(/\s+/).filter(word => word.length > 4) : [];
+const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])].slice(0, 5);
+
+// Generate related post suggestions based on title, description, and tags
 ---
 
 <html lang="en">
@@ -15,71 +23,352 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 		<style>
 			main {
-				width: calc(100% - 2em);
+				width: 100%;
 				max-width: 100%;
 				margin: 0;
+				background-color: #fafafa;
 			}
+			
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 1.5rem;
+			}
+			
 			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
+				width: 100%;
+				max-width: 850px; /* More readable width */
 				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
+				padding: 2rem 0;
+				color: #333;
+				font-family: 'Inter', sans-serif;
+				font-size: 1.3rem;
+				line-height: 1.8;
+				position: relative;
 			}
+			
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
+				margin-bottom: 3rem;
+				padding-bottom: 1.5rem;
+				text-align: left;
+				border-bottom: 1px solid #eee;
 			}
+			
 			.title h1 {
-				margin: 0 0 0.5em 0;
+				margin: 0 0 0.8rem 0;
+				font-weight: 800;
+				font-size: 3.4rem;
+				line-height: 1.2;
+				letter-spacing: -0.02em;
+				color: #222;
 			}
+			
+			.title-icon {
+				width: 40px;
+				height: 40px;
+				object-fit: cover;
+				border-radius: 50%;
+				margin-left: 0.5rem;
+				vertical-align: middle;
+			}
+			
 			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				color: #666;
+				font-size: 1.1rem;
+				margin-bottom: 0.5rem;
 			}
+			
 			.last-updated-on {
 				font-style: italic;
-				}
+				font-size: 0.9rem;
+				margin-top: 0.3rem;
+			}
+			
+			/* Modern image styling with more precise control */
 			article img {
-				max-width: 100%;
-				height: auto;
-				width: 400px; /* Set a consistent width for all images */
-				margin: 1em 0; /* Add spacing around images */
+				width: 100px; /* Further reduced from 120px for smaller images */
+				max-height: 80px; /* Limit height to maintain proportion */
+				object-fit: cover;
+				border-radius: 4px;
+				box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 1rem 0.5rem 0;
+				float: left;
+				clear: left;
+			}
+			
+			/* Add size classes for more flexibility */
+			article img.tiny {
+				width: 60px;
+				max-height: 60px;
+			}
+			
+			article img.small {
+				width: 100px;
+				max-height: 80px;
+			}
+			
+			article img.medium {
+				width: 150px;
+				max-height: 120px;
+			}
+			
+			article img.icon {
+				width: 32px;
+				height: 32px;
+				margin: 0 0.5rem;
+				float: none;
+				vertical-align: middle;
+				display: inline-block;
+			}
+			
+			/* Override float for images in links */
+			article a img {
+				float: none;
+				vertical-align: middle;
+				margin: 0 0.5rem;
+			}
+			
+			/* Clear floats after paragraphs containing images */
+			article p:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			
+			/* Image caption styling */
+			figure {
+				width: 100px; /* Match the new smaller image width */
+				margin: 0 1.5rem 1rem 0;
+				float: left;
+				clear: left;
+			}
+			
+			figure.tiny {
+				width: 60px;
+			}
+			
+			figure.small {
+				width: 100px;
+			}
+			
+			figure.medium {
+				width: 150px;
+			}
+			
+			figcaption {
+				width: 100%;
+				font-size: 0.8rem;
+				color: #666;
+				font-style: italic;
+				margin-top: 0.5rem;
+				text-align: left;
+			}
+			
+			/* Modern typography */
+			article h2 {
+				font-size: 2.2rem;
+				font-weight: 700;
+				margin: 2.5rem 0 1rem;
+				border-bottom: 2px solid #f0f0f0;
+				padding-bottom: 0.5rem;
+				color: #222;
+				clear: both; /* Clear image floats */
+			}
+			
+			article h3 {
+				font-size: 1.8rem;
+				font-weight: 600;
+				margin: 2rem 0 0.8rem;
+				color: #333;
+				clear: both; /* Clear image floats */
+			}
+			
+			article p {
+				margin-bottom: 1.5rem;
+				font-size: 1.2rem;
+				line-height: 1.7;
+			}
+			
+			article ul, article ol {
+				margin: 1.5rem 0;
+				padding-left: 2rem;
+				font-size: 1.2rem;
+				line-height: 1.7;
+			}
+			
+			article li {
+				margin-bottom: 0.5rem;
+			}
+			
+			/* Modern blockquote */
+			article blockquote {
+				border-left: 4px solid #3498db;
+				background-color: #f8f9fa;
+				padding: 1.2rem 1.5rem;
+				margin: 1.5rem 0;
+				border-radius: 0 4px 4px 0;
+				position: relative;
+				font-size: 1.1rem;
+				color: #555;
+				clear: both; /* Clear image floats */
+			}
+			
+			article blockquote::before {
+				content: "\201C";
+				position: absolute;
+				top: -0.5rem;
+				left: -0.2rem;
+				font-size: 3rem;
+				color: rgba(52, 152, 219, 0.2);
+				font-family: Georgia, serif;
+			}
+			
+			/* Code blocks */
+			article pre {
+				background-color: #2d2d2d;
+				color: #f8f8f2;
+				padding: 1.2rem;
+				border-radius: 6px;
+				overflow-x: auto;
+				margin: 2rem 0;
+				font-size: 0.95rem;
+				clear: both; /* Clear image floats */
+			}
+			
+			article code {
+				font-family: 'Fira Code', 'Menlo', 'Monaco', monospace;
+			}
+			
+			article :not(pre) > code {
+				background-color: #f0f0f0;
+				color: #e74c3c;
+				padding: 0.2rem 0.4rem;
+				border-radius: 3px;
+				font-size: 0.9em;
+			}
+			
+			/* Links */
+			article a {
+				color: #3498db;
+				text-decoration: none;
+				border-bottom: 1px solid transparent;
+				transition: border-color 0.2s ease;
+			}
+			
+			article a:hover {
+				border-bottom-color: #3498db;
+			}
+			
+			/* Better mobile responsiveness */
+			@media (max-width: 768px) {
+				.prose {
+					padding: 1.5rem 1rem;
+					font-size: 1.1rem;
+				}
+				
+				.title h1 {
+					font-size: 2.4rem;
+				}
+				
+				article h2 {
+					font-size: 1.8rem;
+				}
+				
+				article h3 {
+					font-size: 1.5rem;
+				}
+				
+				article p, article ul, article ol {
+					font-size: 1.1rem;
+				}
+				
+				article img, figure {
+					width: 80px; /* Even smaller on mobile */
+					margin-right: 0.8rem;
+					margin-bottom: 0.8rem;
+				}
+				
+				article blockquote {
+					font-size: 1rem;
+					padding: 1rem 1.2rem;
+				}
 			}
 		</style>
-		<script>
-			// Removed toggleTheme functionality as requested
-		</script>
 	</head>
 
 	<body>
 		<Header />
 		<main>
-			<article class="prose mx-auto">
-				<header class="mb-8">
-					<h1 class="text-4xl font-bold mb-4">{title}</h1>
-					<div class="hero-image">
-						{heroImage && <img width={1020} height={510} src={heroImage} alt={heroImage.split('/').pop()} loading="lazy" />}
+			<div class="container">
+				<article>
+					<div class="prose">
+						<div class="title">
+							<h1>{title} {heroImage && <img class="title-icon" src={heroImage} alt="" />}</h1>
+							<div class="date">
+								<FormattedDate date={pubDate} />
+								{
+									updatedDate && (
+										<div class="last-updated-on">
+											Last updated on <FormattedDate date={updatedDate} />
+										</div>
+									)
+								}
+							</div>
+						</div>
+						<div class="content-wrapper">
+							<slot />
+						</div>
+						<RelatedPosts currentPost={slug} tags={keywordTags} />
 					</div>
-					<p class="text-gray-600 text-sm">
-						Published on <FormattedDate date={pubDate} />
-						{updatedDate && (
-							<span> | Updated on <FormattedDate date={updatedDate} /></span>
-						)}
-					</p>
-				</header>
-
-				<section>
-					<slot />
-				</section>
-
-				<footer class="mt-12 border-t pt-4 text-sm text-gray-500">
-					<p>Thank you for reading! Feel free to reach out using the contact info below.</p>
-				</footer>
-			</article>
+				</article>
+			</div>
 		</main>
 		<Footer />
+
+		<script>
+			// Convert regular img tags to figure with captions based on alt text
+			document.addEventListener('DOMContentLoaded', () => {
+				const articleImages = document.querySelectorAll('article p > img');
+				
+				articleImages.forEach(img => {
+					// Skip images that are inside links or already in figure elements
+					if (img.parentElement.tagName === 'A' || 
+						img.parentElement.tagName === 'FIGURE' ||
+						img.parentElement.parentElement.tagName === 'FIGURE') return;
+					
+					// Create figure and figcaption if alt text exists
+					if (img.alt && img.alt.trim() !== '') {
+						const figure = document.createElement('figure');
+						const figcaption = document.createElement('figcaption');
+						
+						figcaption.textContent = img.alt;
+						
+						// Clone the image to prevent DOM manipulation issues
+						const imgClone = img.cloneNode(true);
+						
+						// Replace the image with the figure
+						img.parentNode.insertBefore(figure, img);
+						figure.appendChild(imgClone);
+						figure.appendChild(figcaption);
+						img.remove();
+					}
+				});
+				
+				// Add smooth scrolling to anchor links
+				document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+					anchor.addEventListener('click', function(e) {
+						e.preventDefault();
+						const targetEl = document.querySelector(this.getAttribute('href'));
+						if (targetEl) {
+							targetEl.scrollIntoView({
+								behavior: 'smooth'
+							});
+						}
+					});
+				});
+			});
+		</script>
 	</body>
 </html>

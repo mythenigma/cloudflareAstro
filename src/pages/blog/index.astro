@@ -9,6 +9,19 @@ import FormattedDate from '../../components/FormattedDate.astro';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const sections = {
+	English: posts.filter((post) => !post.id.includes('/')), // English markdown files are directly under blog
+	Chinese: posts.filter((post) => post.id.startsWith('cn/')),
+	French: posts.filter((post) => post.id.startsWith('fr/')),
+	German: posts.filter((post) => post.id.startsWith('de/')),
+	Japanese: posts.filter((post) => post.id.startsWith('jp/')),
+	Korean: posts.filter((post) => post.id.startsWith('kr/')),
+	Spanish: posts.filter((post) => post.id.startsWith('es/')),
+};
+
+// Flag sections with content to display
+const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => posts.length > 0);
 ---
 
 <!doctype html>
@@ -16,95 +29,170 @@ const posts = (await getCollection('blog')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
+			.blog-header {
 				text-align: center;
+				padding: 2rem 0;
+				background: linear-gradient(to right, #4a6cf7, #2563eb);
+				color: white;
+				margin-bottom: 2rem;
+				border-radius: 0 0 1rem 1rem;
 			}
-			ul li:first-child img {
+			
+			.container {
 				width: 100%;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 1rem;
 			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
+			
+			.sections-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 1.5rem;
+				margin-bottom: 3rem;
 			}
-			ul li img {
+			
+			.section-box {
+				background: white;
+				border-radius: 0.75rem;
+				box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+				overflow: hidden;
+				height: 450px;
+				display: flex;
+				flex-direction: column;
+				transition: transform 0.3s, box-shadow 0.3s;
+			}
+			
+			.section-box:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+			}
+			
+			.section-header {
+				background: linear-gradient(to right, #4a6cf7, #2563eb);
+				color: white;
+				padding: 1rem;
+				font-weight: bold;
+				font-size: 1.25rem;
+				text-align: center;
+				border-bottom: 2px solid #e5e7eb;
+			}
+			
+			.section-content {
+				flex-grow: 1;
+				overflow-y: auto;
+				scrollbar-width: thin;
+				padding: 0.5rem;
+			}
+			
+			.section-content::-webkit-scrollbar {
+				width: 6px;
+			}
+			
+			.section-content::-webkit-scrollbar-thumb {
+				background-color: rgba(74, 108, 247, 0.5);
+				border-radius: 3px;
+			}
+			
+			.section-content::-webkit-scrollbar-track {
+				background: #f1f1f1;
+			}
+			
+			.post-item {
+				padding: 1rem;
+				border-bottom: 1px solid #e5e7eb;
+				transition: background-color 0.2s;
+			}
+			
+			.post-item:hover {
+				background-color: #f9fafb;
+			}
+			
+			.post-item:last-child {
+				border-bottom: none;
+			}
+			
+			.post-title {
+				font-size: 1.125rem;
+				font-weight: 600;
+				color: #111827;
 				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
 				display: block;
 			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
+			
+			.post-date {
+				font-size: 0.75rem;
+				color: #6b7280;
+				margin-bottom: 0.5rem;
 			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
+			
+			.post-description {
+				font-size: 0.875rem;
+				color: #4b5563;
+				line-height: 1.5;
 			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
+			
+			.empty-section {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				color: #9ca3af;
+				font-style: italic;
+				text-align: center;
+				padding: 2rem;
 			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
+			
+			@media (max-width: 768px) {
+				.sections-grid {
+					grid-template-columns: 1fr;
 				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
+				
+				.section-box {
+					height: 350px;
 				}
 			}
 		</style>
 	</head>
-	<body>
+	<body class="bg-gray-50">
 		<Header />
-		<main class="max-w-4xl mx-auto px-6 py-12">
-			<h1 class="text-4xl font-bold mb-8">Blog</h1>
-			<ul class="space-y-8">
-				{posts.map((post) => (
-					<li class="border-b pb-4">
-						<a href={`/blog/${post.id}/`} class="block hover:text-blue-600">
-							<h2 class="text-2xl font-semibold">{post.data.title}</h2>
-						</a>
-						<p class="text-gray-600 text-sm mb-2">
-							Published on <FormattedDate date={post.data.pubDate} />
-						</p>
-						<p class="text-gray-800">
-							{post.data.description}
-						</p>
-					</li>
+		
+		<div class="blog-header">
+			<div class="container">
+				<h1 class="text-4xl font-bold">Our Blog</h1>
+				<p class="mt-2 text-xl opacity-80">Explore our latest articles and insights</p>
+			</div>
+		</div>
+		
+		<main class="container">
+			<div class="sections-grid">
+				{Object.entries(sections).map(([language, posts]) => (
+					<div class="section-box">
+						<div class="section-header">
+							{language}
+						</div>
+						<div class="section-content">
+							{posts.length > 0 ? (
+								posts.map((post) => (
+									<a href={`/blog/${post.id}/`} class="post-item block">
+										<h3 class="post-title">{post.data.title}</h3>
+										<p class="post-date">
+											<FormattedDate date={post.data.pubDate} />
+										</p>
+										<p class="post-description">{post.data.description}</p>
+									</a>
+								))
+							) : (
+								<div class="empty-section">
+									<p>No articles available in {language} yet.<br/>Check back soon!</p>
+								</div>
+							)}
+						</div>
+					</div>
 				))}
-			</ul>
+			</div>
 		</main>
+		
 		<Footer />
 	</body>
 </html>

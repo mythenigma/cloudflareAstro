@@ -1,6 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import SearchBar from './SearchBar.astro';
 ---
 
 <header>
@@ -11,10 +12,13 @@ import { SITE_TITLE } from '../consts';
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
+		<div class="search-wrapper">
+			<SearchBar />
+		</div>
 		<div class="social-links">
 			<!-- Removed 3 icons as requested -->
 		</div>
-		<button onclick="toggleTheme()">Toggle Theme</button>
+		<button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
 	</nav>
 </header>
 <style>
@@ -41,6 +45,8 @@ import { SITE_TITLE } from '../consts';
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0.5em 0;
 	}
 	nav a {
 		padding: 1em 0.5em;
@@ -59,9 +65,53 @@ import { SITE_TITLE } from '../consts';
 	.social-links a {
 		display: flex;
 	}
-	@media (max-width: 720px) {
+	
+	.search-wrapper {
+		flex: 1;
+		max-width: 400px;
+		margin: 0 1rem;
+	}
+	
+	.theme-toggle {
+		padding: 0.5em 1em;
+		background: rgba(var(--accent), 0.1);
+		color: rgb(var(--accent));
+		border: 1px solid rgba(var(--accent), 0.2);
+		border-radius: 4px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+	
+	.theme-toggle:hover {
+		background: rgba(var(--accent), 0.2);
+	}
+
+	@media (max-width: 768px) {
+		nav {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		
+		.internal-links {
+			order: 2;
+			width: 100%;
+			margin: 0.5em 0;
+		}
+		
+		.search-wrapper {
+			order: 3;
+			max-width: 100%;
+			width: 100%;
+			margin: 0.5em 0;
+		}
+		
 		.social-links {
 			display: none;
+		}
+		
+		.theme-toggle {
+			order: 4;
+			margin: 0.5em 0;
 		}
 	}
 </style>

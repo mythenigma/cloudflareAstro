@@ -1,0 +1,884 @@
+[
+  {
+    "title": "Benefits of PDF Access Control",
+    "url": "/blog/benefits-of-pdf-access-control",
+    "type": "article",
+    "content": "\n# 🔐 MaiPDF: A Free and Simple Way to Share PDF Files Online\n\n<div class=\"intro-panel\">\n  MaiPDF is a free online platform that lets you easily share"
+  },
+  {
+    "title": "🚀 No Sign-Up Needed {#no-signup}",
+    "url": "/blog/benefits-of-pdf-access-control#-no-sign-up-needed-no-signup",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🛡️ Smart Access Controls for Better Security {#security}",
+    "url": "/blog/benefits-of-pdf-access-control#️-smart-access-controls-for-better-security-security",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🌟 Why These Features Matter {#benefits}",
+    "url": "/blog/benefits-of-pdf-access-control#-why-these-features-matter-benefits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🌐 Designed for Everyone {#for-everyone}",
+    "url": "/blog/benefits-of-pdf-access-control#-designed-for-everyone-for-everyone",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Introduction to MaiPDF",
+    "url": "/blog/first-post",
+    "type": "article",
+    "content": "\n![MaiPDF Landing Page](../../../public/maipdf-images/maipdf%20landing%20page.png)\n\nWhen it comes to showcasing your work, especially for designers or"
+  },
+  {
+    "title": "Why You Should Use PDF Links for Your Portfolio",
+    "url": "/blog/first-post#why-you-should-use-pdf-links-for-your-portfolio",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Joe's Guide to MaiPDF",
+    "url": "/blog/joe",
+    "type": "article",
+    "content": "\nWhen it comes to showcasing your work, especially for designers or anyone in creative fields, sharing a physical portfolio just isn’t the most effici"
+  },
+  {
+    "title": "🚀 Introducing MaiPDF",
+    "url": "/blog/joe#-introducing-maipdf",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🔐 Why Choose MaiPDF?",
+    "url": "/blog/joe#-why-choose-maipdf",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🛠 Use Cases",
+    "url": "/blog/joe#-use-cases",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🌐 Related Projects",
+    "url": "/blog/joe#-related-projects",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🎯 What's Next?",
+    "url": "/blog/joe#-whats-next",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Replace a Shared PDF File Without Changing the Link",
+    "url": "/blog/modify-pdf-links",
+    "type": "article",
+    "content": "\n# 🔄 Replace a Shared PDF File Without Changing the Link\n\n<div class=\"intro-panel\">\n  <p>Sometimes you share a PDF and later realize you need to make"
+  },
+  {
+    "title": "🔗 Example Link",
+    "url": "/blog/modify-pdf-links#-example-link",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🔧 Replacement Portal",
+    "url": "/blog/modify-pdf-links#-replacement-portal",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🛠️ How to Replace a PDF on MaiPDF",
+    "url": "/blog/modify-pdf-links#️-how-to-replace-a-pdf-on-maipdf",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "✅ Benefits of This System",
+    "url": "/blog/modify-pdf-links#-benefits-of-this-system",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Enhancing Document Security with MaiPDF",
+    "url": "/blog/pdf-security-features",
+    "type": "article",
+    "content": "\n# 🔒 Enhancing Document Security with MaiPDF\n\n<div class=\"intro-panel\">\n  In an era where data breaches and unauthorized access are common, securing "
+  },
+  {
+    "title": "🛡️ Key Security Features",
+    "url": "/blog/pdf-security-features#️-key-security-features",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "💼 Practical Applications",
+    "url": "/blog/pdf-security-features#-practical-applications",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "✅ Conclusion",
+    "url": "/blog/pdf-security-features#-conclusion",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "PDF Share Online: Simple, Secure, and Registration-Free",
+    "url": "/blog/pdf-share-online",
+    "type": "article",
+    "content": "\n# PDF Share Online: Simple, Secure, and Registration-Free\n\nSharing PDFs online shouldn't be complicated. With MaiPDF, you can share your documents in"
+  },
+  {
+    "title": "🚀 Share PDFs Instantly",
+    "url": "/blog/pdf-share-online#-share-pdfs-instantly",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "No Registration Required",
+    "url": "/blog/pdf-share-online#no-registration-required",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "⏰ Flexible Access Control",
+    "url": "/blog/pdf-share-online#-flexible-access-control",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Your Documents, Your Rules",
+    "url": "/blog/pdf-share-online#your-documents-your-rules",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🎯 Custom View Limits",
+    "url": "/blog/pdf-share-online#-custom-view-limits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Control Document Access",
+    "url": "/blog/pdf-share-online#control-document-access",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "💡 How It Works",
+    "url": "/blog/pdf-share-online#-how-it-works",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🌟 Key Benefits",
+    "url": "/blog/pdf-share-online#-key-benefits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Why Choose MaiPDF?",
+    "url": "/blog/pdf-share-online#why-choose-maipdf",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "📊 Perfect For",
+    "url": "/blog/pdf-share-online#-perfect-for",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🔒 Security Features",
+    "url": "/blog/pdf-share-online#-security-features",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🚦 Getting Started",
+    "url": "/blog/pdf-share-online#-getting-started",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Ready to Share?",
+    "url": "/blog/pdf-share-online#ready-to-share",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Start Sharing Now",
+    "url": "/blog/pdf-share-online#start-sharing-now",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "The Benefits of Secure PDF Sharing with MaiPDF",
+    "url": "/blog/pdf-sharing-benefits",
+    "type": "article",
+    "content": "\n# The Benefits of Secure PDF Sharing with MaiPDF\n\n## Introduction\n\nSharing PDF files securely is a growing concern for businesses, educators, and ind"
+  },
+  {
+    "title": "Introduction",
+    "url": "/blog/pdf-sharing-benefits#introduction",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Key Features of MaiPDF",
+    "url": "/blog/pdf-sharing-benefits#key-features-of-maipdf",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "1. Access Control Options",
+    "url": "/blog/pdf-sharing-benefits#1-access-control-options",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "2. Preventing Downloads",
+    "url": "/blog/pdf-sharing-benefits#2-preventing-downloads",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "3. Instant Sharing",
+    "url": "/blog/pdf-sharing-benefits#3-instant-sharing",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Practical Use Cases",
+    "url": "/blog/pdf-sharing-benefits#practical-use-cases",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "For Businesses",
+    "url": "/blog/pdf-sharing-benefits#for-businesses",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "For Educators",
+    "url": "/blog/pdf-sharing-benefits#for-educators",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "For Freelancers",
+    "url": "/blog/pdf-sharing-benefits#for-freelancers",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Conclusion",
+    "url": "/blog/pdf-sharing-benefits#conclusion",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Practical Use Cases for PDF View Limits: Real-World Applications",
+    "url": "/blog/pdf-view-limits-use-cases",
+    "type": "article",
+    "content": "\n# Practical Use Cases for PDF View Limits: Real-World Applications\n\n<br>\n\nPDF view limits offer practical solutions for various document sharing scen"
+  },
+  {
+    "title": "🏢 Business Applications",
+    "url": "/blog/pdf-view-limits-use-cases#-business-applications",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Document Security & Control",
+    "url": "/blog/pdf-view-limits-use-cases#document-security--control",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "📚 Educational Use Cases",
+    "url": "/blog/pdf-view-limits-use-cases#-educational-use-cases",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Academic Control & Distribution",
+    "url": "/blog/pdf-view-limits-use-cases#academic-control--distribution",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "⚖️ Professional Services",
+    "url": "/blog/pdf-view-limits-use-cases#️-professional-services",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Secure Document Management",
+    "url": "/blog/pdf-view-limits-use-cases#secure-document-management",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "💡 Implementation Guide",
+    "url": "/blog/pdf-view-limits-use-cases#-implementation-guide",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Best Practices Table",
+    "url": "/blog/pdf-view-limits-use-cases#best-practices-table",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Security Considerations",
+    "url": "/blog/pdf-view-limits-use-cases#security-considerations",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "📊 Industry-Specific Applications",
+    "url": "/blog/pdf-view-limits-use-cases#-industry-specific-applications",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Implementation Matrix",
+    "url": "/blog/pdf-view-limits-use-cases#implementation-matrix",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🔄 Getting Started",
+    "url": "/blog/pdf-view-limits-use-cases#-getting-started",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "📈 Success Metrics",
+    "url": "/blog/pdf-view-limits-use-cases#-success-metrics",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Ready to Implement?",
+    "url": "/blog/pdf-view-limits-use-cases#ready-to-implement",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Preventing PDF Downloads",
+    "url": "/blog/prevent-pdf-downloads",
+    "type": "article",
+    "content": "\n# 🔒 Preventing PDF Downloads: Secure Your Documents\n\n<div class=\"intro-panel\">\n  In today's digital age, sharing documents online is both convenient"
+  },
+  {
+    "title": "🛡️ Why Prevent Downloads?",
+    "url": "/blog/prevent-pdf-downloads#️-why-prevent-downloads",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🔧 Methods for Preventing Downloads",
+    "url": "/blog/prevent-pdf-downloads#-methods-for-preventing-downloads",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "💡 Best Practices for Document Security",
+    "url": "/blog/prevent-pdf-downloads#-best-practices-for-document-security",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🌟 MaiPDF's Approach to Download Prevention",
+    "url": "/blog/prevent-pdf-downloads#-maipdfs-approach-to-download-prevention",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "The Power of QR Codes for PDF Access: Streamlining Content Sharing",
+    "url": "/blog/qr-codes-for-pdf-access",
+    "type": "article",
+    "content": "\n# The Power of QR Codes for PDF Access: Streamlining Content Sharing\n\n## Introduction\n\nQR codes have revolutionized the way we share and access digit"
+  },
+  {
+    "title": "Introduction",
+    "url": "/blog/qr-codes-for-pdf-access#introduction",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "How QR Codes Simplify PDF Access",
+    "url": "/blog/qr-codes-for-pdf-access#how-qr-codes-simplify-pdf-access",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "1. Instant Access",
+    "url": "/blog/qr-codes-for-pdf-access#1-instant-access",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "2. Easy Sharing",
+    "url": "/blog/qr-codes-for-pdf-access#2-easy-sharing",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "3. Enhanced Professionalism",
+    "url": "/blog/qr-codes-for-pdf-access#3-enhanced-professionalism",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Practical Use Cases",
+    "url": "/blog/qr-codes-for-pdf-access#practical-use-cases",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "For Businesses",
+    "url": "/blog/qr-codes-for-pdf-access#for-businesses",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "For Educators",
+    "url": "/blog/qr-codes-for-pdf-access#for-educators",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "For Freelancers",
+    "url": "/blog/qr-codes-for-pdf-access#for-freelancers",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Advantages of Using QR Codes for PDFs",
+    "url": "/blog/qr-codes-for-pdf-access#advantages-of-using-qr-codes-for-pdfs",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Conclusion",
+    "url": "/blog/qr-codes-for-pdf-access#conclusion",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Why QR Codes Are the Future of Digital Document Distribution",
+    "url": "/blog/qr-codes-future-digital-distribution",
+    "type": "article",
+    "content": "\n# Why QR Codes Are the Future of Digital Document Distribution\n\n## Introduction\n\nAs the world becomes increasingly digital, QR codes are emerging as "
+  },
+  {
+    "title": "Introduction",
+    "url": "/blog/qr-codes-future-digital-distribution#introduction",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "The Role of QR Codes in Digital Document Sharing",
+    "url": "/blog/qr-codes-future-digital-distribution#the-role-of-qr-codes-in-digital-document-sharing",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "1. Instant Access",
+    "url": "/blog/qr-codes-future-digital-distribution#1-instant-access",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "2. Versatility",
+    "url": "/blog/qr-codes-future-digital-distribution#2-versatility",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "3. Enhanced Security",
+    "url": "/blog/qr-codes-future-digital-distribution#3-enhanced-security",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Trends in QR Code Usage",
+    "url": "/blog/qr-codes-future-digital-distribution#trends-in-qr-code-usage",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Growing Adoption",
+    "url": "/blog/qr-codes-future-digital-distribution#growing-adoption",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Integration with Advanced Technologies",
+    "url": "/blog/qr-codes-future-digital-distribution#integration-with-advanced-technologies",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "The Future of QR Codes in Document Distribution",
+    "url": "/blog/qr-codes-future-digital-distribution#the-future-of-qr-codes-in-document-distribution",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Improved Accessibility",
+    "url": "/blog/qr-codes-future-digital-distribution#improved-accessibility",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Broader Applications",
+    "url": "/blog/qr-codes-future-digital-distribution#broader-applications",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Conclusion",
+    "url": "/blog/qr-codes-future-digital-distribution#conclusion",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "How to Generate Secure PDF Links for Easy Sharing",
+    "url": "/blog/secure-pdf-links",
+    "type": "article",
+    "content": "\n# How to Generate Secure PDF Links for Easy Sharing\n\n## Introduction\n\nSharing PDFs securely is essential in today's digital world. MaiPDF provides a "
+  },
+  {
+    "title": "Introduction",
+    "url": "/blog/secure-pdf-links#introduction",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Steps to Generate Secure PDF Links",
+    "url": "/blog/secure-pdf-links#steps-to-generate-secure-pdf-links",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "1. Upload Your PDF",
+    "url": "/blog/secure-pdf-links#1-upload-your-pdf",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "2. Configure Access Settings",
+    "url": "/blog/secure-pdf-links#2-configure-access-settings",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "3. Generate the Link",
+    "url": "/blog/secure-pdf-links#3-generate-the-link",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Advantages of Secure PDF Links",
+    "url": "/blog/secure-pdf-links#advantages-of-secure-pdf-links",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Conclusion",
+    "url": "/blog/secure-pdf-links#conclusion",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Secure PDF Sharing: Control Access with View Limits",
+    "url": "/blog/secure-pdf-view-limits",
+    "type": "article",
+    "content": "\n# Secure PDF Sharing: Control Access with View Limits\n\nIn today's digital world, controlling who can access your documents and how many times they ca"
+  },
+  {
+    "title": "🔒 Understanding View Limits",
+    "url": "/blog/secure-pdf-view-limits#-understanding-view-limits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "What Are View Limits?",
+    "url": "/blog/secure-pdf-view-limits#what-are-view-limits",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🛡️ Security Benefits",
+    "url": "/blog/secure-pdf-view-limits#️-security-benefits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Enhanced Document Protection",
+    "url": "/blog/secure-pdf-view-limits#enhanced-document-protection",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "💡 Practical Applications",
+    "url": "/blog/secure-pdf-view-limits#-practical-applications",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "When to Use View Limits",
+    "url": "/blog/secure-pdf-view-limits#when-to-use-view-limits",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🎯 Setting View Limits",
+    "url": "/blog/secure-pdf-view-limits#-setting-view-limits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Easy Implementation",
+    "url": "/blog/secure-pdf-view-limits#easy-implementation",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "📊 Monitoring and Control",
+    "url": "/blog/secure-pdf-view-limits#-monitoring-and-control",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Track Document Access",
+    "url": "/blog/secure-pdf-view-limits#track-document-access",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🚀 Real-World Benefits",
+    "url": "/blog/secure-pdf-view-limits#-real-world-benefits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Practical Advantages",
+    "url": "/blog/secure-pdf-view-limits#practical-advantages",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🔐 Security Features",
+    "url": "/blog/secure-pdf-view-limits#-security-features",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Comprehensive Protection",
+    "url": "/blog/secure-pdf-view-limits#comprehensive-protection",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "📈 Implementation Tips",
+    "url": "/blog/secure-pdf-view-limits#-implementation-tips",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Maximizing Security",
+    "url": "/blog/secure-pdf-view-limits#maximizing-security",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Ready to Secure Your PDFs?",
+    "url": "/blog/secure-pdf-view-limits#ready-to-secure-your-pdfs",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Security Best Practices for PDF Sharing",
+    "url": "/blog/security-best-practices",
+    "type": "article",
+    "content": "\n# Security Best Practices for PDF Sharing\n\nIn today's digital landscape, sharing PDFs securely is crucial for protecting sensitive information. Here'"
+  },
+  {
+    "title": "🔒 Essential Security Practices",
+    "url": "/blog/security-best-practices#-essential-security-practices",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Access Control",
+    "url": "/blog/security-best-practices#access-control",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Link Security",
+    "url": "/blog/security-best-practices#link-security",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🛡️ Document Protection",
+    "url": "/blog/security-best-practices#️-document-protection",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Preventive Measures",
+    "url": "/blog/security-best-practices#preventive-measures",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Risk Management",
+    "url": "/blog/security-best-practices#risk-management",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "💼 Business Security",
+    "url": "/blog/security-best-practices#-business-security",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Corporate Guidelines",
+    "url": "/blog/security-best-practices#corporate-guidelines",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Compliance Requirements",
+    "url": "/blog/security-best-practices#compliance-requirements",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🔐 Advanced Security",
+    "url": "/blog/security-best-practices#-advanced-security",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Enhanced Protection",
+    "url": "/blog/security-best-practices#enhanced-protection",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Monitoring Tools",
+    "url": "/blog/security-best-practices#monitoring-tools",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "📊 Security Monitoring",
+    "url": "/blog/security-best-practices#-security-monitoring",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Track Document Access",
+    "url": "/blog/security-best-practices#track-document-access",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🎯 Implementation Steps",
+    "url": "/blog/security-best-practices#-implementation-steps",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Security Setup",
+    "url": "/blog/security-best-practices#security-setup",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "🌟 Best Practices",
+    "url": "/blog/security-best-practices#-best-practices",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Document Sharing",
+    "url": "/blog/security-best-practices#document-sharing",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Security Maintenance",
+    "url": "/blog/security-best-practices#security-maintenance",
+    "type": "heading",
+    "depth": 3
+  },
+  {
+    "title": "Ready to Secure Your Documents?",
+    "url": "/blog/security-best-practices#ready-to-secure-your-documents",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "Setting View Limits for PDF Links: Control Access Effectively",
+    "url": "/blog/setting-view-limits",
+    "type": "article",
+    "content": "\n# Setting View Limits for PDF Links: Control Access Effectively\n\n<div class=\"intro-panel\">\n  <p>In today's digital landscape, controlling access to s"
+  },
+  {
+    "title": "🎯 Understanding View Limits",
+    "url": "/blog/setting-view-limits#-understanding-view-limits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🔧 How to Set View Limits",
+    "url": "/blog/setting-view-limits#-how-to-set-view-limits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "💡 Benefits of Using View Limits",
+    "url": "/blog/setting-view-limits#-benefits-of-using-view-limits",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🛡️ Best Practices",
+    "url": "/blog/setting-view-limits#️-best-practices",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🎯 Use Cases",
+    "url": "/blog/setting-view-limits#-use-cases",
+    "type": "heading",
+    "depth": 2
+  },
+  {
+    "title": "🔄 What Happens When Views Are Exhausted?",
+    "url": "/blog/setting-view-limits#-what-happens-when-views-are-exhausted",
+    "type": "heading",
+    "depth": 2
+  }
+]

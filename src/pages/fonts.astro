@@ -1,0 +1,182 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Font Showcase - ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+		<style>
+			.font-showcase {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 2rem 1rem;
+			}
+			.font-card {
+				background: white;
+				border-radius: 8px;
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+				padding: 1.5rem;
+				margin-bottom: 2rem;
+			}
+			.font-header {
+				border-bottom: 1px solid #eee;
+				padding-bottom: 0.75rem;
+				margin-bottom: 1rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.font-name {
+				font-size: 1.5rem;
+				font-weight: bold;
+			}
+			.font-source {
+				font-size: 0.875rem;
+				color: #666;
+			}
+			.weight-showcase {
+				margin: 1rem 0;
+			}
+			.weight-example {
+				margin-bottom: 0.5rem;
+			}
+			.lorem-paragraph {
+				margin: 1rem 0;
+				line-height: 1.6;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main class="font-showcase">
+			<h1 class="text-4xl font-bold mb-6 text-center">Font Showcase</h1>
+			<p class="text-lg text-center mb-8">
+				This page demonstrates the various free fonts available in this project.
+			</p>
+			
+			<!-- Atkinson (Default) -->
+			<div class="font-card">
+				<div class="font-header">
+					<div class="font-name">Atkinson Hyperlegible</div>
+					<div class="font-source">Local Font Files</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+			
+			<!-- Inter -->
+			<div class="font-card font-inter">
+				<div class="font-header">
+					<div class="font-name">Inter</div>
+					<div class="font-source">Local Font Files</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+			
+			<!-- Montserrat -->
+			<div class="font-card font-montserrat">
+				<div class="font-header">
+					<div class="font-name">Montserrat</div>
+					<div class="font-source">Google Fonts</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 500;">Medium (500) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 600;">SemiBold (600) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+			
+			<!-- Roboto -->
+			<div class="font-card font-roboto">
+				<div class="font-header">
+					<div class="font-name">Roboto</div>
+					<div class="font-source">Google Fonts</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 300;">Light (300) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 500;">Medium (500) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+			
+			<!-- Source Sans Pro -->
+			<div class="font-card font-source">
+				<div class="font-header">
+					<div class="font-name">Source Sans Pro</div>
+					<div class="font-source">Google Fonts</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 600;">SemiBold (600) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+			
+			<!-- Lato -->
+			<div class="font-card font-lato">
+				<div class="font-header">
+					<div class="font-name">Lato</div>
+					<div class="font-source">Google Fonts</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 300;">Light (300) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+			
+			<!-- Open Sans -->
+			<div class="font-card font-opensans">
+				<div class="font-header">
+					<div class="font-name">Open Sans</div>
+					<div class="font-source">Google Fonts</div>
+				</div>
+				<div class="weight-showcase">
+					<div class="weight-example" style="font-weight: 400;">Regular (400) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 600;">SemiBold (600) - The quick brown fox jumps over the lazy dog.</div>
+					<div class="weight-example" style="font-weight: 700;">Bold (700) - The quick brown fox jumps over the lazy dog.</div>
+				</div>
+				<p class="lorem-paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget feugiat sapien. Sed eleifend, mauris nec ultricies lacinia, 
+					nisi metus elementum nisi, in finibus arcu nulla a arcu.
+				</p>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

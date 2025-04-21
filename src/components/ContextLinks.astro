@@ -1,0 +1,86 @@
+---
+// ContextLinks.astro - Insert contextual links to related posts based on keywords
+import { getCollection } from 'astro:content';
+
+const { content } = Astro.props;
+
+// Get all blog posts for linking
+const allPosts = await getCollection('blog');
+
+// Function to safely insert links without breaking HTML
+function insertContextualLinks(content) {
+  if (!content) return '';
+  
+  // Map of keywords to post URLs for linking
+  const linkMap = {};
+  
+  // Create a mapping of important keywords to posts
+  allPosts.forEach(post => {
+    if (!post.data.title) return;
+    
+    // Extract keyword from title (the most important word)
+    const titleWords = post.data.title
+      .replace(/[^\w\s]/g, '')
+      .split(/\s+/)
+      .filter(word => 
+        word.length > 4 && 
+        !['about', 'after', 'again', 'below', 'could', 'every', 'first', 'found', 'great', 'house', 'large', 'learn', 'never', 'other', 'place', 'small', 'these', 'thing', 'think', 'three', 'where', 'which', 'world', 'would', 'their'].includes(word.toLowerCase())
+      );
+      
+    // Use specific PDF-related keywords if present, otherwise use the longest word
+    const pdfKeywords = ['security', 'limits', 'replace', 'modify', 'prevent', 'download', 'benefits', 'access', 'control', 'features'];
+    
+    let keyword = '';
+    for (const kw of pdfKeywords) {
+      if (post.data.title.toLowerCase().includes(kw)) {
+        keyword = kw;
+        break;
+      }
+    }
+    
+    // If no PDF keyword found, use the longest meaningful word
+    if (!keyword && titleWords.length > 0) {
+      keyword = titleWords.sort((a, b) => b.length - a.length)[0].toLowerCase();
+    }
+    
+    if (keyword && keyword.length > 4) {
+      linkMap[keyword] = `/blog/${post.slug}`;
+    }
+  });
+  
+  // Don't process content already inside links or code blocks
+  let processedContent = content;
+  const linkKeys = Object.keys(linkMap).sort((a, b) => b.length - a.length);
+  
+  // Replace keywords with links (only first occurrence to avoid over-linking)
+  for (const keyword of linkKeys) {
+    // Only replace if not already in a link and is a stand-alone word
+    const regex = new RegExp(`(?<!<a[^>]*?>)(?<!href="|src=")\\b(${keyword})\\b(?![^<]*?<\/a>)`, 'i');
+    if (regex.test(processedContent)) {
+      processedContent = processedContent.replace(
+        regex,
+        `<a href="${linkMap[keyword]}" class="context-link">$1</a>`
+      );
+    }
+  }
+  
+  return processedContent;
+}
+
+const processedContent = insertContextualLinks(content);
+---
+
+<div class="content-with-links" set:html={processedContent} />
+
+<style>
+  .context-link {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px dashed #3498db;
+    transition: background-color 0.2s;
+  }
+  
+  .context-link:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+  }
+</style>

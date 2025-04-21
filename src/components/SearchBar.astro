@@ -1,0 +1,297 @@
+---
+// SearchBar.astro - A client-side search component using FlexSearch
+---
+
+<div class="search-container">
+  <div class="search-wrapper">
+    <input 
+      type="text" 
+      id="search-input" 
+      placeholder="Search blog posts..." 
+      class="search-input"
+      aria-label="Search blog posts"
+    />
+    <div id="search-results" class="search-results"></div>
+  </div>
+</div>
+
+<style>
+  .search-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .search-wrapper {
+    position: relative;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px 16px;
+    border: 2px solid rgba(var(--gray), 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(var(--gray-light), 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: rgba(var(--accent), 0.6);
+    box-shadow: 0 0 0 3px rgba(var(--accent), 0.2);
+  }
+
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin-top: 8px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-height: 400px;
+    overflow-y: auto;
+    display: none;
+  }
+
+  .search-results.show {
+    display: block;
+  }
+
+  .search-result-item {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(var(--gray-light), 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .search-result-item:hover {
+    background-color: rgba(var(--accent), 0.1);
+  }
+
+  .search-result-item:last-child {
+    border-bottom: none;
+  }
+
+  .search-result-item h3 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    color: rgba(var(--black), 0.9);
+  }
+
+  .search-result-item p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(var(--gray-dark), 0.8);
+  }
+
+  .search-result-item .result-url {
+    color: rgba(var(--accent), 0.8);
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  .search-result-item.heading {
+    padding-left: calc(16px + 8px * var(--depth-offset, 0));
+  }
+
+  .search-result-item.heading::before {
+    content: "#";
+    margin-right: 8px;
+    color: rgba(var(--accent), 0.6);
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .search-container {
+      max-width: 100%;
+    }
+  }
+</style>
+
+<script>
+  // Import FlexSearch
+  import * as FlexSearch from 'flexsearch';
+
+  // Initialize search when the DOM is loaded
+  document.addEventListener('DOMContentLoaded', initSearch);
+
+  async function initSearch() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    
+    if (!searchInput || !searchResults) return;
+
+    // Create FlexSearch index
+    const index = new FlexSearch.Document({
+      document: {
+        id: "url",
+        index: ["title", "content"],
+        store: ["title", "url", "type", "depth"]
+      }
+    });
+
+    // Load search index data
+    try {
+      const response = await fetch('/search-index.json');
+      if (!response.ok) throw new Error('Failed to load search index');
+      
+      const searchData = await response.json();
+      
+      // Add all items to the index
+      searchData.forEach(item => {
+        index.add({
+          ...item,
+          content: item.content || ''
+        });
+      });
+
+      // Setup search input event
+      searchInput.addEventListener('input', debounce(async (e) => {
+        const query = e.target.value.trim();
+        
+        if (query.length < 2) {
+          searchResults.classList.remove('show');
+          searchResults.innerHTML = '';
+          return;
+        }
+
+        // Perform search
+        const results = await index.search(query, { enrich: true });
+        
+        // Flatten and limit results
+        const flatResults = results
+          .flatMap(result => result.result)
+          .slice(0, 10); // Limit to 10 results
+        
+        // Update UI
+        if (flatResults.length > 0) {
+          searchResults.innerHTML = flatResults.map(result => {
+            const item = result.doc;
+            const isHeading = item.type === 'heading';
+            
+            return `
+              <div 
+                class="search-result-item ${isHeading ? 'heading' : ''}" 
+                data-url="${item.url}"
+                ${isHeading ? `style="--depth-offset: ${item.depth - 2};"` : ''}
+              >
+                <h3>${item.title}</h3>
+                ${item.content ? `<p>${highlightText(item.content, query)}</p>` : ''}
+                <div class="result-url">${formatUrl(item.url)}</div>
+              </div>
+            `;
+          }).join('');
+          
+          searchResults.classList.add('show');
+          
+          // Add click event for search results
+          document.querySelectorAll('.search-result-item').forEach(item => {
+            item.addEventListener('click', () => {
+              window.location.href = item.dataset.url;
+            });
+          });
+        } else {
+          searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
+          searchResults.classList.add('show');
+        }
+      }, 200));
+
+      // Close results when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+          searchResults.classList.remove('show');
+        }
+      });
+
+      // Allow keyboard navigation
+      searchInput.addEventListener('keydown', (e) => {
+        if (!searchResults.classList.contains('show')) return;
+        
+        const items = searchResults.querySelectorAll('.search-result-item');
+        const activeItem = searchResults.querySelector('.search-result-item.active');
+        
+        // Down arrow
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          if (!activeItem) {
+            items[0]?.classList.add('active');
+          } else {
+            const nextItem = activeItem.nextElementSibling;
+            if (nextItem) {
+              activeItem.classList.remove('active');
+              nextItem.classList.add('active');
+            }
+          }
+        }
+        
+        // Up arrow
+        if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (!activeItem) {
+            items[items.length - 1]?.classList.add('active');
+          } else {
+            const prevItem = activeItem.previousElementSibling;
+            if (prevItem) {
+              activeItem.classList.remove('active');
+              prevItem.classList.add('active');
+            }
+          }
+        }
+        
+        // Enter key
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          if (activeItem) {
+            window.location.href = activeItem.dataset.url;
+          } else if (items.length > 0) {
+            window.location.href = items[0].dataset.url;
+          }
+        }
+        
+        // Escape key
+        if (e.key === 'Escape') {
+          searchResults.classList.remove('show');
+        }
+      });
+    } catch (error) {
+      console.error('Error initializing search:', error);
+    }
+  }
+
+  // Helper function to debounce search input
+  function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+  }
+
+  // Helper function to highlight search terms in text
+  function highlightText(text, query) {
+    if (!query || !text) return text;
+    
+    try {
+      const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      return text.replace(regex, '<mark>$1</mark>');
+    } catch (e) {
+      return text;
+    }
+  }
+
+  // Helper function to format URLs for display
+  function formatUrl(url) {
+    if (!url) return '';
+    
+    // Extract the path after the domain, remove trailing slashes
+    const path = url.replace(/^https?:\/\/[^\/]+/, '').replace(/^\/|\/$/g, '');
+    
+    // Format sections with arrows
+    return path.split('/').join(' » ').replace('#', ' » ');
+  }
+</script>
