@@ -45,3 +45,10 @@ MaiPDF 不保留用户的文件副本，所有文件会在设定条件达成后�
 MaiPDF，让 PDF 分享更简单、更安全。
 
 立即体验：[https://maipdf.com](https://maipdf.com)
+
+---
+
+## 您可能还喜欢：
+
+- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](/blog/cn/dynamic-watermarks-on-pdf-cn/)
+- [修改链接：保持共享 PDF 的灵活性](/blog/cn/modify-link/)

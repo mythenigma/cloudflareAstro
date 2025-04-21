@@ -2,14 +2,14 @@
 title: "Secure PDF Sharing: Control Access with View Limits"
 description: "Learn how to enhance document security by setting view limits on your shared PDFs with MaiPDF."
 pubDate: "Apr 19 2024"
-heroImage: "../../../public/maipdf-images/security%20level%20in%20pdf%20setting.png"
+heroImage: "/maipdf-images/security%20level%20in%20pdf%20setting.png"
 ---
 
 # Secure PDF Sharing: Control Access with View Limits
 
 In today's digital world, controlling who can access your documents and how many times they can view them is crucial. MaiPDF's view limit feature provides a powerful solution for maintaining document security while sharing PDFs online.
 
-![Security Level Settings](../../../public/maipdf-images/security%20level%20in%20pdf%20setting.png)
+![Security Level Settings](/maipdf-images/security%20level%20in%20pdf%20setting.png)
 
 > **Security Tip**: Setting view limits ensures your documents are accessed only the intended number of times, preventing unauthorized sharing.
 
@@ -26,7 +26,7 @@ View limits are restrictions you can set on your shared PDFs that control how ma
 > - Prevent unauthorized redistribution
 > - Maintain document control
 
-![Security Settings](../../../public/maipdf-images/security%20setting.png)
+![Security Settings](/maipdf-images/security%20setting.png)
 
 ## 🛡️ Security Benefits
 
@@ -66,7 +66,7 @@ View limits are restrictions you can set on your shared PDFs that control how ma
 > - Private contracts
 > - Sensitive correspondence
 
-![PDF Native View](../../../public/maipdf-images/pdf%20native%20view%20on%20ui.png)
+![PDF Native View](/maipdf-images/pdf%20native%20view%20on%20ui.png)
 
 ## 🎯 Setting View Limits
 
@@ -88,7 +88,7 @@ View limits are restrictions you can set on your shared PDFs that control how ma
 
 ### Track Document Access
 
-![Check PDF Open Result](../../../public/maipdf-images/check%20pdf%20open%20result.png)
+![Check PDF Open Result](/maipdf-images/check%20pdf%20open%20result.png)
 
 > **Usage Insights**
 >
@@ -159,4 +159,4 @@ Take control of your document security today with MaiPDF's view limit feature. P
 
 > **Get Started Now**
 >
-> Visit [MaiPDF](https://maipdf.com) to start securing your PDF documents with customizable view limits. 
+> Visit [MaiPDF](https://maipdf.com) to start securing your PDF documents with customizable view limits.

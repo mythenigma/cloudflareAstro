@@ -198,3 +198,11 @@ heroImage: "/maipdf-images/security level in pdf setting.png"
 <div class="cta-container">
   <p><strong>Ready to try it out?</strong> Visit <a href="https://maipdf.com">MaiPDF</a> and start controlling your PDF access today.</p>
 </div>
+
+---
+
+## You might also like:
+
+- [Benefits of PDF Access Control](/blog/benefits-of-pdf-access-control/)
+- [Free Online DRM for PDF – Simple, Secure, No Software Needed](/blog/free-online-drm-for-pdf/)
+- [How MaiPDF Helps You Share PDF Files Securely](/blog/share-pdf-securely/)
