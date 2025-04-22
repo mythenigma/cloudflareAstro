@@ -320,7 +320,9 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 						<div class="content-wrapper">
 							<slot />
 						</div>
-						<RelatedPosts currentPost={slug} tags={keywordTags} />
+						{slug && !slug.includes('/cn/') && !slug.includes('/fr/') && !slug.includes('/jp/') && !slug.includes('/gr/') && (
+							<RelatedPosts currentPost={slug} tags={keywordTags} />
+						)}
 					</div>
 				</article>
 			</div>

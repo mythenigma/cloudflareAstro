@@ -50,5 +50,5 @@ MaiPDF，让 PDF 分享更简单、更安全。
 
 ## 您可能还喜欢：
 
-- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](/blog/cn/dynamic-watermarks-on-pdf-cn/)
-- [修改链接：保持共享 PDF 的灵活性](/blog/cn/modify-link/)
+- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](../../cn/dynamic-watermarks-on-pdf-cn)
+- [修改链接：保持共享 PDF 的灵活性](../../cn/modify-link)

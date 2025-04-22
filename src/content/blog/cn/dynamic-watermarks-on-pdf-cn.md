@@ -163,8 +163,8 @@ heroImage: "/maifle/页面上显示水印位置.png"
 
 ## 您可能还喜欢：
 
-- [修改链接：保持共享 PDF 的灵活性](/blog/cn/modify-link/)
-- [MaiPDF：轻松分享 PDF 的免费在线平台](/blog/cn/easy-pdf-sharing/)
+- [修改链接：保持共享 PDF 的灵活性](../../cn/modify-link)
+- [MaiPDF：轻松分享 PDF 的免费在线平台](../../cn/easy-pdf-sharing)
 
 <style>
   /* 基础样式 */

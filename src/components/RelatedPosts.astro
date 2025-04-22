@@ -35,22 +35,37 @@ function scoreRelevance(post, tags) {
   return score;
 }
 
-// Extract slug from the post ID (e.g., "blog/post-name.md" -> "post-name")
-function getSlugFromId(id) {
-  if (!id) return '';
-  const filename = id.split('/').pop() || '';
-  return filename.replace(/\.md$/, '');
+// Extract slug from the post ID (only handle main blog folder files)
+function getPostPathInfo(id) {
+  if (!id) return { slug: '' };
+  
+  const pathParts = id.split('/');
+  const filename = pathParts.pop() || '';
+  const slug = filename.replace(/\.md$/, '');
+  
+  return { slug };
+}
+
+// Skip component if the current post is not in the main blog folder
+// This component only handles files directly under /blog/, not subfolders
+if (typeof currentPost === 'string' && currentPost.includes('/blog/') && currentPost.split('/').length > 3) {
+  return; // Exit for posts in subfolders (cn/, fr/, etc.)
 }
 
 // Filter out the current post and get related posts
 const relatedPosts = allPosts
   .filter(post => post.id !== currentPost)
-  // Add a relevance score and slug to each post
+  // Add path info
   .map(post => ({
     ...post,
-    slug: getSlugFromId(post.id),
+    ...getPostPathInfo(post.id),
     relevanceScore: scoreRelevance(post, tags)
   }))
+  // Only handle posts directly under /blog/, not in subfolders
+  .filter(post => {
+    const pathParts = post.id.split('/');
+    return pathParts.length <= 3; // blog/post.md (3 parts)
+  })
   // Sort by relevance score (higher first) then by date (newer first)
   .sort((a, b) => {
     if (b.relevanceScore !== a.relevanceScore) {

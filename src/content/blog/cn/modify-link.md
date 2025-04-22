@@ -51,5 +51,5 @@ pubDate: "2025-04-21"
 
 ## 您可能还喜欢：
 
-- [MaiPDF：轻松分享 PDF 的免费在线平台](/blog/cn/easy-pdf-sharing/)
-- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](/blog/cn/dynamic-watermarks-on-pdf-cn/)
+- [MaiPDF：轻松分享 PDF 的免费在线平台](../../cn/easy-pdf-sharing)
+- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](../../cn/dynamic-watermarks-on-pdf-cn)
