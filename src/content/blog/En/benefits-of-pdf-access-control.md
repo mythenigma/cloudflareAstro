@@ -1,7 +1,7 @@
 ---
 title: "Benefits of PDF Access Control"
 description: "Explore how MaiPDF's access control features enhance security and usability for sharing PDF files online."
-pubDate: "Apr 19 2025"
+pubDate: "2025-04-19"
 heroImage: "/maipdf-images/security level in pdf setting.png"
 ---
 
