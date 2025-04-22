@@ -11,12 +11,12 @@ const posts = (await getCollection('blog')).sort(
 );
 
 const sections = {
-	English: posts.filter((post) => !post.id.includes('/')), // English markdown files are directly under blog
+	English: posts.filter((post) => post.id.startsWith('En/')),
 	Chinese: posts.filter((post) => post.id.startsWith('cn/')),
 	French: posts.filter((post) => post.id.startsWith('fr/')),
 	German: posts.filter((post) => post.id.startsWith('de/')),
-	Japanese: posts.filter((post) => post.id.startsWith('jp/')),
-	Korean: posts.filter((post) => post.id.startsWith('kr/')),
+	Japanese: posts.filter((post) => post.id.startsWith('ja/')),
+	Korean: posts.filter((post) => post.id.startsWith('ko/')),
 	Spanish: posts.filter((post) => post.id.startsWith('es/')),
 };
 

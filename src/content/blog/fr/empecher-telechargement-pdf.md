@@ -1,7 +1,7 @@
 ---
 title: "Empêcher le Téléchargement des PDF"
 description: "Apprenez à sécuriser vos fichiers PDF en empêchant les téléchargements non autorisés."
-pubDate: "Apr 19 2025"
+pubDate: "2025-04-19"
 heroImage: "/maipdf-images/pdf icon of no printing no downloading.png"
 tags: ["Sécurité PDF", "Protection contre le téléchargement", "Confidentialité des documents", "Contrôle d'accès"]
 ---

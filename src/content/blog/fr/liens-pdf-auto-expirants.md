@@ -1,7 +1,7 @@
 ---
 title: "Liens PDF Auto-Expirants"
 description: "Comment utiliser les liens PDF auto-expirants pour améliorer la sécurité de vos documents et contrôler l'accès à vos contenus sensibles."
-pubDate: "Apr 20 2025"
+pubDate: "2025-04-20"
 heroImage: "/maipdf-images/security level in pdf setting.png"
 tags: ["Sécurité PDF", "Liens temporaires", "Contrôle d'accès", "Partage de documents"]
 ---

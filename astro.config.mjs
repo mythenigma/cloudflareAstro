@@ -20,6 +20,10 @@ export default defineConfig({
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: 'wrap' }]
     ],
+    // Ensure image paths are processed correctly
+    shikiConfig: {
+      theme: 'github-light',
+    }
   },
   vite: {
     build: {
@@ -30,5 +34,7 @@ export default defineConfig({
         },
       },
     },
+    // Add this to ensure images are properly referenced
+    assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg'],
   },
 });

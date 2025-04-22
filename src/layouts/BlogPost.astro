@@ -10,6 +10,9 @@ type Props = CollectionEntry<'blog'>['data'] & { slug: string };
 
 const { title, description, pubDate, updatedDate, heroImage, tags, slug } = Astro.props;
 
+// Fix the heroImage path if needed
+const heroImagePath = heroImage?.startsWith('/') ? heroImage : `/${heroImage}`;
+
 // Extract keywords from the title and description for finding related posts
 const titleWords = title.toLowerCase().split(/\s+/).filter(word => word.length > 4);
 const descWords = description ? description.toLowerCase().split(/\s+/).filter(word => word.length > 4) : [];
@@ -305,7 +308,7 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 				<article>
 					<div class="prose">
 						<div class="title">
-							<h1>{title} {heroImage && <img class="title-icon" src={heroImage} alt="" />}</h1>
+							<h1>{title} {heroImage && <img class="title-icon" src={heroImagePath} alt="" />}</h1>
 							<div class="date">
 								<FormattedDate date={pubDate} />
 								{
@@ -320,7 +323,7 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 						<div class="content-wrapper">
 							<slot />
 						</div>
-						{slug && !slug.includes('/cn/') && !slug.includes('/fr/') && !slug.includes('/jp/') && !slug.includes('/gr/') && (
+						{slug && !slug.includes('/cn/') && !slug.includes('/fr/') && !slug.includes('/ja/') && !slug.includes('/ko/') && !slug.includes('/de/') && !slug.includes('/es/') && (
 							<RelatedPosts currentPost={slug} tags={keywordTags} />
 						)}
 					</div>
@@ -332,6 +335,14 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 		<script>
 			// Convert regular img tags to figure with captions based on alt text
 			document.addEventListener('DOMContentLoaded', () => {
+				// Fix any image paths that might be incorrect
+				document.querySelectorAll('img').forEach(img => {
+					if (img.src.includes('../../../public/')) {
+						// Fix incorrect image paths
+						img.src = img.src.replace('../../../public/', '/');
+					}
+				});
+
 				const articleImages = document.querySelectorAll('article p > img');
 				
 				articleImages.forEach(img => {
