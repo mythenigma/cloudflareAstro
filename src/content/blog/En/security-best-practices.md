@@ -1,15 +1,15 @@
 ---
-title: "Security Best Practices for PDF Sharing"
-description: "Learn essential security practices for sharing PDFs safely and protecting sensitive information with MaiPDF."
-pubDate: "Apr 19 2024"
-heroImage: "/maipdf-images/security level in pdf setting.png"
+title: "PDF Security Best Practices: Protecting Your Documents Online"
+description: "Discover the most effective strategies to secure your PDF documents when sharing them online."
+pubDate: "Apr 19 2025"
+heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
 ---
 
 # Security Best Practices for PDF Sharing
 
 In today's digital landscape, sharing PDFs securely is crucial for protecting sensitive information. Here's your comprehensive guide to implementing security best practices with MaiPDF.
 
-![Security Level Settings](/maipdf-images/security level in pdf setting.png)
+![Security Level Settings](/maipdf-images/security_level_in_pdf_setting.png)
 
 > **Security Alert**: Implementing proper security measures is essential when sharing sensitive documents online.
 
@@ -33,7 +33,7 @@ In today's digital landscape, sharing PDFs securely is crucial for protecting se
 > - Avoid public posting
 > - Set expiration when needed
 
-![Security Settings](/maipdf-images/security setting.png)
+![Security Settings](/maipdf-images/security_setting.png)
 
 ## 🛡️ Document Protection
 
@@ -75,7 +75,7 @@ In today's digital landscape, sharing PDFs securely is crucial for protecting se
 > - Security regulations
 > - Industry standards
 
-![PDF Native View](/maipdf-images/pdf native view on ui.png)
+![PDF Native View](/maipdf-images/pdf_native_view_on_ui.png)
 
 ## 🔐 Advanced Security
 
@@ -101,7 +101,7 @@ In today's digital landscape, sharing PDFs securely is crucial for protecting se
 
 ### Track Document Access
 
-![Check PDF Open Result](/maipdf-images/check pdf open result.png)
+![Check PDF Open Result](/maipdf-images/check_pdf_open_result.png)
 
 > **Monitoring Features**
 >

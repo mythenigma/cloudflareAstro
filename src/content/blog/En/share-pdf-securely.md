@@ -2,7 +2,7 @@
 title: "How MaiPDF Helps You Share PDF Files Securely – Without Downloads, Edits, or Risk"
 description: "Learn how MaiPDF provides a smarter way to share and protect your documents with advanced security features and access controls."
 pubDate: "Apr 22 2025"
-heroImage: "/maipdf-images/share pdf wordwide.png"
+heroImage: "/maipdf-images/share_pdf_wordwide.png"
 ---
 
 # 🔒 How MaiPDF Helps You Share PDF Files Securely
@@ -20,7 +20,7 @@ Here's how MaiPDF protects your PDF files effectively:
 
 MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and drop your file onto the upload area.
 
-![Upload Section](/maipdf-images/upload section.png)
+![Upload Section](/maipdf-images/upload_section.png)
 
 ### 2. Share via a Unique Reading Link
 
@@ -34,7 +34,7 @@ MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and 
     <p>This link opens the document in a secure online viewer, with no download or printing options by default.</p>
   </div>
   <div class="feature-image">
-    <img src="/maipdf-images/result of pdf link and qr code.png" alt="Secure PDF Link Example" class="medium">
+    <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="Secure PDF Link Example" class="medium">
   </div>
 </div>
 
@@ -42,7 +42,7 @@ MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and 
 
 <div class="feature-section reverse">
   <div class="feature-image">
-    <img src="/maipdf-images/security setting.png" alt="Security Settings" class="medium">
+    <img src="/maipdf-images/security_setting.png" alt="Security Settings" class="medium">
   </div>
   <div class="feature-content">
     <p>You can set up:</p>
@@ -70,7 +70,7 @@ MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and 
     <p>This makes it easy to update mistakes, refresh content, or extend access—all without breaking the link.</p>
   </div>
   <div class="feature-image">
-    <img src="/maipdf-images/pdf change setting after sent.png" alt="Update PDF Content" class="medium">
+    <img src="/maipdf-images/pdf_change_setting_after_sent.png" alt="Update PDF Content" class="medium">
   </div>
 </div>
 
@@ -79,7 +79,7 @@ MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and 
 <div class="use-case-container">
   <div class="use-case-item">
     <div class="use-case-icon">
-      <img src="/maipdf-images/pdf native view on ui.png" alt="Document Viewing" class="tiny">
+      <img src="/maipdf-images/pdf_native_view_on_ui.png" alt="Document Viewing" class="tiny">
     </div>
     <div class="use-case-content">
       <h3>Business Documents</h3>
@@ -89,7 +89,7 @@ MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and 
   
   <div class="use-case-item">
     <div class="use-case-icon">
-      <img src="/maipdf-images/security level in pdf setting.png" alt="Security Levels" class="tiny">
+      <img src="/maipdf-images/security_level_in_pdf_setting.png" alt="Security Levels" class="tiny">
     </div>
     <div class="use-case-content">
       <h3>Sensitive Drafts</h3>
@@ -99,7 +99,7 @@ MaiPDF makes it easy to upload your PDF. Simply visit the website, and drag and 
   
   <div class="use-case-item">
     <div class="use-case-icon">
-      <img src="/maipdf-images/pdf icon of no printing no downloading.png" alt="Prevent Downloads" class="tiny">
+      <img src="/maipdf-images/pdf_icon_of_no_printing_no_downloading.png" alt="Prevent Downloads" class="tiny">
     </div>
     <div class="use-case-content">
       <h3>Content Updates</h3>

@@ -16,7 +16,7 @@ As the world becomes increasingly digital, QR codes are emerging as a key tool f
 
 QR codes provide instant access to documents with a simple scan, eliminating the need for typing URLs or downloading attachments. This is especially beneficial for mobile users.
 
-![PDF Link and QR Code](/maipdf-images/result of pdf link and qr code.png)
+![PDF Link and QR Code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ### 2. Versatility
 
@@ -25,13 +25,13 @@ QR codes can be used in a variety of formats, including:
 - **Printed Materials**: Add QR codes to brochures, posters, or business cards.
 - **Digital Platforms**: Embed QR codes in emails, websites, or presentations.
 
-![Share PDF Worldwide](/maipdf-images/share pdf wordwide.png)
+![Share PDF Worldwide](/maipdf-images/share_pdf_wordwide.png)
 
 ### 3. Enhanced Security
 
 When combined with MaiPDF’s access control features, QR codes ensure that only authorized users can access your documents. This adds an extra layer of security to your document sharing process.
 
-![Security Settings](/maipdf-images/security setting.png)
+![Security Settings](/maipdf-images/security_setting.png)
 
 ## Trends in QR Code Usage
 

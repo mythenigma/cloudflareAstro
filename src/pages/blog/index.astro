@@ -11,7 +11,7 @@ const posts = (await getCollection('blog')).sort(
 );
 
 const sections = {
-	English: posts.filter((post) => post.id.startsWith('En/')),
+	English: posts.filter((post) => post.id.startsWith('en/')),
 	Chinese: posts.filter((post) => post.id.startsWith('cn/')),
 	French: posts.filter((post) => post.id.startsWith('fr/')),
 	German: posts.filter((post) => post.id.startsWith('de/')),

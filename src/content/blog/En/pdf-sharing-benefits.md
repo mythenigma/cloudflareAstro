@@ -16,19 +16,19 @@ Sharing PDF files securely is a growing concern for businesses, educators, and i
 
 MaiPDF allows you to set specific access controls for your PDFs. You can limit the number of views, restrict access to specific email addresses, and even set expiration dates for your shared links.
 
-![Access Control Settings](/maipdf-images/put email addresses in security setting.png)
+![Access Control Settings](/maipdf-images/put_email_addresses_in_security_setting.png)
 
 ### 2. Preventing Downloads
 
 One of MaiPDF's standout features is the ability to prevent downloads. This ensures that your content remains view-only, reducing the risk of unauthorized distribution.
 
-![Prevent Downloads](/maipdf-images/pdf icon of no printing no downloading.png)
+![Prevent Downloads](/maipdf-images/pdf_icon_of_no_printing_no_downloading.png)
 
 ### 3. Instant Sharing
 
 MaiPDF makes it easy to share your PDFs instantly via secure links or QR codes. This is particularly useful for quick, professional sharing without the need for email attachments.
 
-![Share PDF Worldwide](/maipdf-images/share pdf wordwide.png)
+![Share PDF Worldwide](/maipdf-images/share_pdf_wordwide.png)
 
 ## Practical Use Cases
 

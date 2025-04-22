@@ -16,7 +16,7 @@ Sharing PDFs securely is essential in today's digital world. MaiPDF provides a s
 
 Start by uploading your PDF to MaiPDF. The platform ensures your file is securely stored and ready for sharing.
 
-![Upload Section](/maipdf-images/upload section.png)
+![Upload Section](/maipdf-images/upload_section.png)
 
 ### 2. Configure Access Settings
 
@@ -26,17 +26,17 @@ MaiPDF allows you to customize access settings for your PDF. You can:
 - **Set Expiration Dates**: Automatically revoke access after a certain date.
 - **Restrict Access by Email**: Ensure only specific users can view the document.
 
-![Access Control Settings](/maipdf-images/put email addresses in security setting.png)
+![Access Control Settings](/maipdf-images/put_email_addresses_in_security_setting.png)
 
 ### 3. Generate the Link
 
 Once your settings are configured, generate a secure link for your PDF. This link can be shared via email, messaging apps, or embedded in a website.
 
-![PDF Link and QR Code](/maipdf-images/result of pdf link and qr code.png)
+![PDF Link and QR Code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## QR Codes for Quick Access
 
-![Result of PDF Link and QR Code](/maipdf-images/result of pdf link and qr code.png)
+![Result of PDF Link and QR Code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Advantages of Secure PDF Links
 
