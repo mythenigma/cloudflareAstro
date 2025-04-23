@@ -35,22 +35,26 @@ function scoreRelevance(post, tags) {
   return score;
 }
 
-// Extract slug from the post ID (only handle main blog folder files)
+// Extract language and slug from the post ID
 function getPostPathInfo(id) {
-  if (!id) return { slug: '' };
+  if (!id) return { slug: '', language: '' };
   
   const pathParts = id.split('/');
   const filename = pathParts.pop() || '';
   const slug = filename.replace(/\.md$/, '');
+  const language = pathParts.length > 1 ? pathParts[1] : ''; // Get language folder (en, ko, etc.)
   
-  return { slug };
+  return { slug, language };
 }
 
-// Skip component if the current post is not in the main blog folder
-// This component only handles files directly under /blog/, not subfolders
-if (typeof currentPost === 'string' && currentPost.includes('/blog/') && currentPost.split('/').length > 3) {
-  return; // Exit for posts in subfolders (cn/, fr/, etc.)
+// Skip if currentPost is not properly defined
+if (!currentPost) {
+  return;
 }
+
+// Extract current post language and slug
+const currentPostInfo = getPostPathInfo(currentPost);
+const currentLanguage = currentPostInfo.language;
 
 // Filter out the current post and get related posts
 const relatedPosts = allPosts
@@ -61,11 +65,8 @@ const relatedPosts = allPosts
     ...getPostPathInfo(post.id),
     relevanceScore: scoreRelevance(post, tags)
   }))
-  // Only handle posts directly under /blog/, not in subfolders
-  .filter(post => {
-    const pathParts = post.id.split('/');
-    return pathParts.length <= 3; // blog/post.md (3 parts)
-  })
+  // Only show posts from the same language folder
+  .filter(post => post.language === currentLanguage)
   // Sort by relevance score (higher first) then by date (newer first)
   .sort((a, b) => {
     if (b.relevanceScore !== a.relevanceScore) {
@@ -83,7 +84,7 @@ const relatedPosts = allPosts
       {relatedPosts.map(post => (
         <div class="related-post">
           <div class="related-post-content">
-            <a href={`/blog/${post.slug}`} class="related-title">
+            <a href={`/blog/${currentLanguage}/${post.slug}`} class="related-title">
               {post.data.title}
             </a>
             <div class="related-date">
