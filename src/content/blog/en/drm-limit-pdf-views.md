@@ -75,6 +75,74 @@ It's important to note that MaiPDF doesn't modify the original PDF file or embed
 - When you need offline enforcement of permissions
 - For long-term document protection with complex rights management
 
+## 🔄 What's the Difference? View Limits vs. Expiration Dates
+
+When talking about controlling access to shared PDFs, two common approaches exist:
+
+| Concept | How It Works |
+|---------|-------------|
+| Expiration Date | PDF becomes unavailable after a set date or time |
+| View Limit | PDF becomes unavailable after being opened X times |
+
+Many users expect expiration dates, but they can sometimes feel too rigid—or too vague. What if a user never opens the file before the deadline? Or opens it once, then forgets?
+
+Limiting the number of views offers a more usage-based approach: the file stays alive until it's actually accessed, and then expires naturally after a defined number of opens.
+
+## 🎯 Why Limit PDF by Open Count?
+
+Limiting by view count is ideal when:
+
+- You only want someone to view your document once or twice, no matter when
+- You're sharing confidential material that shouldn't be revisited endlessly
+- You need a way to track access and enforce temporary availability without relying on a calendar
+
+This method gives you, the sender, more control over how long the content lives—based on engagement, not time.
+
+## 🧩 How MaiPDF Does It
+
+Unlike platforms that rely on fixed expiry dates, MaiPDF takes a code-based and view-count-based approach to access control.
+
+Here's how it works:
+
+### 🔑 Dual-Code System
+
+When you upload a file, MaiPDF gives you:
+
+- A read code (for recipients to view the file)
+- An edit code (for you to manage the file's settings)
+
+With the edit code, you can:
+
+- Set how many times the file can be opened (e.g., 3 views max)
+- Adjust the view limit later—even after sharing
+- Disable the file at any time
+
+### 👁 Flexible View Limits
+
+You're not locking the file to a date—you're controlling how many times it's accessed.
+Whether it's opened today or next month, the limit will still apply.
+
+This makes it ideal for:
+
+- Internal team documents
+- Educational material
+- Sensitive business proposals
+
+## 🧠 Why It Matters
+
+View limits are more aligned with intent-based control:
+
+- 📅 Expiration dates assume time = value
+- 👀 View limits focus on actual usage = value
+
+Plus, with edit codes, you can update limits, deactivate links, or even change access settings without re-uploading the file. That's something traditional PDF protections or email attachments can't do.
+
+### 🚫 What MaiPDF Doesn't Do (By Design)
+
+To avoid confusion: MaiPDF does not currently support expiration by time or date.
+
+This is intentional. Instead of trying to predict when a document should expire, it puts the emphasis on how often it's opened, and gives you the tools to adjust that freely.
+
 ## 🧭 Is View Limiting Right for You?
 
 ![Share PDF worldwide with controls](/maipdf-images/share_pdf_wordwide.png)
@@ -88,5 +156,7 @@ If you're looking for a lightweight, link-based solution to restrict how many ti
 - Time-sensitive reports and documents
 - Educational materials with access restrictions
 - Internal documents that need controlled distribution
+
+Your file lives for as long as it needs to—and no longer than it should.
 
 [Try MaiPDF for secure PDF sharing with view limits →](https://maipdf.com)
