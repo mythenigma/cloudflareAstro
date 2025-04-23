@@ -6,9 +6,9 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 
-type Props = CollectionEntry<'blog'>['data'] & { slug: string };
+type Props = CollectionEntry<'blog'>['data'] & { slug: string; id: string };
 
-const { title, description, pubDate, updatedDate, heroImage, tags, slug } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, slug, id } = Astro.props;
 
 // Fix the heroImage path if needed
 const heroImagePath = heroImage?.startsWith('/') ? heroImage : `/${heroImage}`;
@@ -323,7 +323,12 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 						<div class="content-wrapper">
 							<slot />
 						</div>
-						<RelatedPosts currentPost={`blog/${slug}`} tags={keywordTags} />
+						
+						<!-- Show related posts with the full post ID -->
+						<RelatedPosts 
+							currentPost={Astro.props.id} 
+							tags={keywordTags} 
+						/>
 					</div>
 				</article>
 			</div>

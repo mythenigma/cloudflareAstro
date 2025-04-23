@@ -8,8 +8,16 @@ const { currentPost, tags = [], limit = 3 } = Astro.props;
 // Get all blog posts
 const allPosts = await getCollection('blog');
 
-// PDF-related common keywords to match posts
-const pdfKeywords = ['pdf', 'security', 'share', 'link', 'view', 'limit', 'secure', 'download', 'access', 'control', 'qr', 'code'];
+// Headers by language
+const headerText = {
+  'en': 'You Might Also Like',
+  'ko': '함께 볼만한 글',
+  'ja': 'おすすめの記事',
+  'de': 'Das könnte Ihnen auch gefallen',
+  'fr': 'Vous pourriez aussi aimer',
+  'es': 'También podría interesarte',
+  'cn': '您可能还喜欢'
+};
 
 // Function to score post relevance
 function scoreRelevance(post, tags) {
@@ -20,71 +28,57 @@ function scoreRelevance(post, tags) {
   
   // Score based on matching tags/keywords
   tags.forEach(tag => {
-    if (title.includes(tag.toLowerCase())) {
+    if (post.data.tags && post.data.tags.includes(tag)) {
+      score += 3; // Highest score for exact tag matches
+    } else if (title.includes(tag.toLowerCase())) {
       score += 2; // Higher score for title matches
-    }
-  });
-  
-  // Add score for PDF-related keywords
-  pdfKeywords.forEach(keyword => {
-    if (title.includes(keyword)) {
-      score += 1;
     }
   });
   
   return score;
 }
 
-// Extract language and slug from the post ID
-function getPostPathInfo(id) {
-  if (!id) return { slug: '', language: '' };
-  
-  const pathParts = id.split('/');
-  const filename = pathParts.pop() || '';
-  const slug = filename.replace(/\.md$/, '');
-  const language = pathParts.length > 1 ? pathParts[1] : ''; // Get language folder (en, ko, etc.)
-  
-  return { slug, language };
+// Get the language from a post ID
+function getLanguageFromPostId(id) {
+  if (!id) return 'en'; // Default to English
+  const parts = id.split('/');
+  // The language should be the first part of the ID
+  return parts.length > 0 ? parts[0] : 'en';
 }
 
-// Skip if currentPost is not properly defined
-if (!currentPost) {
-  return;
-}
+// Determine the current language
+const currentLanguage = getLanguageFromPostId(currentPost);
 
-// Extract current post language and slug
-const currentPostInfo = getPostPathInfo(currentPost);
-const currentLanguage = currentPostInfo.language;
-
-// Filter out the current post and get related posts
+// Filter related posts to the same language as the current post
 const relatedPosts = allPosts
-  .filter(post => post.id !== currentPost)
-  // Add path info
+  .filter(post => {
+    return post.id !== currentPost && post.id.startsWith(currentLanguage + '/');
+  })
   .map(post => ({
     ...post,
-    ...getPostPathInfo(post.id),
     relevanceScore: scoreRelevance(post, tags)
   }))
-  // Only show posts from the same language folder
-  .filter(post => post.language === currentLanguage)
-  // Sort by relevance score (higher first) then by date (newer first)
   .sort((a, b) => {
     if (b.relevanceScore !== a.relevanceScore) {
       return b.relevanceScore - a.relevanceScore;
     }
+    // If same relevance, sort by date (newest first)
     return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
   })
   .slice(0, limit);
+
+// Get the localized header text based on current language
+const header = headerText[currentLanguage] || headerText['en']; // Fallback to English
 ---
 
 {relatedPosts.length > 0 && (
   <div class="related-posts">
-    <h3 class="related-header">You Might Also Like</h3>
+    <h3 class="related-header">{header}</h3>
     <div class="related-grid">
       {relatedPosts.map(post => (
         <div class="related-post">
           <div class="related-post-content">
-            <a href={`/blog/${currentLanguage}/${post.slug}`} class="related-title">
+            <a href={`/blog/${post.id}`} class="related-title">
               {post.data.title}
             </a>
             <div class="related-date">
