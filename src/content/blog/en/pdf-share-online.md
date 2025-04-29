@@ -8,7 +8,7 @@ pubDate: "Apr 19 2025"
 
 Sharing PDFs online shouldn't be complicated. With MaiPDF, you can share your documents instantly without the hassle of creating an account or dealing with expiration dates.
 
-![MaiPDF Landing Page](../../../public/maipdf-images/maipdf%20landing%20page.png)
+![MaiPDF Landing Page](/maipdf-images/maipdf_landing_page.png)
 
 > **Quick Tip**: Start sharing PDFs in seconds - no registration, no complications, just drag, drop, and share.
 
@@ -23,7 +23,7 @@ Sharing PDFs online shouldn't be complicated. With MaiPDF, you can share your do
 > - No password to remember
 > - Start sharing in seconds
 
-![PDF Native View](../../../public/maipdf-images/pdf%20native%20view%20on%20ui.png)
+![PDF Native View](/maipdf-images/pdf_native_view_on_ui.png)
 
 ## ⏰ Flexible Access Control
 
@@ -36,7 +36,7 @@ Sharing PDFs online shouldn't be complicated. With MaiPDF, you can share your do
 > - Set custom view limits
 > - Full control over document access
 
-![Security Settings](../../../public/maipdf-images/security%20setting.png)
+![Security Settings](/maipdf-images/security_setting.png)
 
 ## 🎯 Custom View Limits
 
@@ -57,7 +57,7 @@ Sharing PDFs online shouldn't be complicated. With MaiPDF, you can share your do
 > 2. Set view limits (optional)
 > 3. Share the link
 
-![Check PDF Open Result](../../../public/maipdf-images/check%20pdf%20open%20result.png)
+![Check PDF Open Result](/maipdf-images/check_pdf_open_result.png)
 
 ## 🌟 Key Benefits
 
@@ -119,4 +119,4 @@ Experience the simplest way to share PDFs online with MaiPDF. No registration, n
 
 > **Ready to Try?**
 >
-> Visit [MaiPDF](https://maipdf.com) and start sharing your PDFs with confidence today! 
+> Visit [MaiPDF](https://maipdf.com) and start sharing your PDFs with confidence today!

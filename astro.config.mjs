@@ -8,8 +8,21 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
-  integrations: [mdx(), sitemap()],
+  site: "https://article.maipdf.com",
+  integrations: [
+    mdx(), 
+    sitemap({
+      filter: (page) => !page.includes('/blog-backup/'),
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+      customPages: [
+        'https://article.maipdf.com/about',
+        'https://article.maipdf.com/contact',
+        'https://article.maipdf.com/pricing'
+      ],
+    })
+  ],
   adapter: cloudflare({
     platformProxy: {
       enabled: true,

@@ -16,25 +16,25 @@ pubDate: "Apr 19 2025"
   <div class="feature-card">
     <h3>👁️ View Limits</h3>
     <p>MaiPDF allows you to set a maximum number of views for your shared PDFs. Once the limit is reached, the document becomes inaccessible, ensuring controlled access.</p>
-    <img src="/maipdf-images/security%20level%20in%20pdf%20setting.png" alt="View Limits" />
+    <img src="/maipdf-images/security_level_in_pdf_setting.png" alt="View Limits" />
   </div>
 
   <div class="feature-card">
     <h3>✉️ Email Verification</h3>
     <p>To ensure only authorized users can access your PDFs, MaiPDF supports email verification. Recipients must verify their email address before viewing the document.</p>
-    <img src="/maipdf-images/get%20email%20verification%20before%20read.jpg" alt="Email Verification" />
+    <img src="/maipdf-images/get_email_verification_before_read.jpg" alt="Email Verification" />
   </div>
 
   <div class="feature-card">
     <h3>⏱️ Expiration Dates</h3>
     <p>Set expiration dates for your shared links to automatically revoke access after a specific period. This feature is ideal for time-sensitive documents.</p>
-    <img src="/maipdf-images/pdf%20change%20setting%20after%20sent.png" alt="Expiration Settings" />
+    <img src="/maipdf-images/pdf_change_setting_after_sent.png" alt="Expiration Settings" />
   </div>
 
   <div class="feature-card">
     <h3>🚫 Preventing Downloads</h3>
     <p>MaiPDF ensures your PDFs remain view-only by preventing downloads. This feature is particularly useful for protecting intellectual property and sensitive information.</p>
-    <img src="/maipdf-images/pdf%20icon%20of%20no%20printing%20no%20downloading.png" alt="Prevent Downloads" />
+    <img src="/maipdf-images/pdf_icon_of_no_printing_no_downloading.png" alt="Prevent Downloads" />
   </div>
 </div>
 

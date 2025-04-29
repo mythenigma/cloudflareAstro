@@ -4,7 +4,7 @@ description: "Intro of MaiPDF"
 pubDate: "Jul 15 2024"
 ---
 
-![MaiPDF Landing Page](../../../public/maipdf-images/maipdf%20landing%20page.png)
+![MaiPDF Landing Page](/maipdf-images/maipdf_landing_page.png)
 
 When it comes to showcasing your work, especially for designers or anyone in creative fields, sharing a physical portfolio just isn’t the most efficient method anymore. Instead, generating a PDF link is a modern solution that allows you to share your work instantly, securely, and without limits.
 
@@ -20,7 +20,7 @@ Whether you’re a freelance designer, an artist, or someone who needs to regula
 
 4️. **Professional Appearance** – Instead of sending a large email attachment or physical portfolio, a clean PDF link or even a QR code linked to your work adds a professional touch to your sharing method. It’s simple, direct, and leaves a lasting impression.
 
-![PDF Icon of No Printing No Downloading](../../../public/maipdf-images/pdf%20icon%20of%20no%20printing%20no%20downloading.png)
+![PDF Icon of No Printing No Downloading](/maipdf-images/pdf_icon_of_no_printing_no_downloading.png)
 
 Whether you’re a freelance designer or employed at a creative agency, sending your portfolio as a secure PDF link is a smart, effective way to share your work with potential clients, collaborators, or employers. Plus, with MaiPDF’s customizable features, you can enhance the security of your documents, knowing your designs are protected.
 
