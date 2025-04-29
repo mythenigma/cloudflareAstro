@@ -2,7 +2,6 @@
 title: "Enhancing Document Security with MaiPDF"
 description: "Discover how MaiPDF's security features protect your documents from unauthorized access and distribution."
 pubDate: "Apr 19 2025"
-heroImage: "/maipdf-images/security level in pdf setting.png"
 ---
 
 # 🔒 Enhancing Document Security with MaiPDF
@@ -38,8 +37,6 @@ heroImage: "/maipdf-images/security level in pdf setting.png"
     <img src="/maipdf-images/pdf%20icon%20of%20no%20printing%20no%20downloading.png" alt="Prevent Downloads" />
   </div>
 </div>
-
-![MaiPDF Interface with Access Options](/maipdf-images/pdf native view on ui.png)
 
 ## 💼 Practical Applications
 
