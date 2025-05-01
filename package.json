@@ -28,6 +28,7 @@
     "remark": "^15.0.1",
     "remark-parse": "^11.0.0",
     "remark-stringify": "^11.0.0",
+    "sharp": "^0.34.1",
     "typescript": "5.8.2",
     "unist-util-visit": "^5.0.0"
   },
@@ -45,7 +46,8 @@
     "dev": "astro dev",
     "preview": "astro build && wrangler dev",
     "types": "wrangler types",
-    "generate-search-index": "node src/scripts/generate-search-index.js"
+    "generate-search-index": "node src/scripts/generate-search-index.js",
+    "optimize-images": "node src/scripts/optimize-images.js"
   },
   "type": "module"
 }

@@ -1,0 +1,81 @@
+---
+// OptimizedImage.astro - Enhanced version with WebP support and responsive images
+interface Props {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  loading?: "lazy" | "eager";
+  decoding?: "async" | "sync" | "auto";
+  class?: string;
+  sizes?: string;
+}
+
+const { 
+  src, 
+  alt, 
+  width, 
+  height, 
+  loading = "lazy", 
+  decoding = "async", 
+  class: className = "",
+  sizes = "(max-width: 480px) 100vw, (max-width: 768px) 75vw, 50vw"
+} = Astro.props;
+
+// Check if the image is from maipdf-images directory and if we've optimized it
+const isMaiPdfImage = src.includes('/maipdf-images/') && !src.includes('/optimized/');
+const originalExt = src.split('.').pop()?.toLowerCase();
+
+// Construct optimized image path if it's a maipdf image
+const baseImageName = isMaiPdfImage ? src.split('/').pop()?.split('.')[0] : '';
+const optimizedBasePath = isMaiPdfImage ? `/maipdf-images/optimized/${baseImageName}` : '';
+
+// For responsive images
+const responsiveSizes = [480, 768, 1024, 1280];
+---
+
+{isMaiPdfImage ? (
+  <picture>
+    {/* WebP source */}
+    <source
+      type="image/webp"
+      srcset={`${optimizedBasePath}.webp, 
+              ${responsiveSizes.map(size => `${optimizedBasePath}-${size}.webp ${size}w`).join(', ')}`}
+      sizes={sizes}
+    />
+    {/* Fallback to original format */}
+    <source
+      srcset={`${src}, 
+              ${responsiveSizes.map(size => `${optimizedBasePath}-${size}.${originalExt} ${size}w`).join(', ')}`}
+      sizes={sizes}
+    />
+    <img 
+      src={src} 
+      alt={alt} 
+      width={width} 
+      height={height} 
+      loading={loading} 
+      decoding={decoding}
+      class={className}
+    />
+  </picture>
+) : (
+  /* For non-maipdf images or already optimized images, use standard img */
+  <img 
+    src={src} 
+    alt={alt} 
+    width={width} 
+    height={height} 
+    loading={loading} 
+    decoding={decoding}
+    class={className}
+  />
+)}
+
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>

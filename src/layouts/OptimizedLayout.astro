@@ -1,0 +1,47 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import '../styles/global.css';
+import OptimizedImage from '../components/OptimizedImage.astro';
+
+// Register our OptimizedImage component globally for MDX
+const components = { img: OptimizedImage };
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const { title, description, image } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <ViewTransitions />
+    
+    <!-- Preload strategy for critical resources -->
+    <link rel="preload" as="font" href="/fonts/atkinson-regular.woff" type="font/woff" crossorigin />
+    
+    <!-- Preconnect to any third-party domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<script>
+  // Add lazy loading to all images that don't have loading attribute
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('img:not([loading])');
+    images.forEach(img => {
+      img.setAttribute('loading', 'lazy');
+      img.setAttribute('decoding', 'async');
+    });
+  });
+</script>

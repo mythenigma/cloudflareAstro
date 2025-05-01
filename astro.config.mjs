@@ -5,12 +5,16 @@ import sitemap from "@astrojs/sitemap";
 import cloudflare from "@astrojs/cloudflare";
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import { remarkOptimizeImages } from './src/utils/remarkOptimizeImages.js';
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://article.maipdf.com",
   integrations: [
-    mdx(), 
+    mdx({
+      // Apply the image optimization to MDX files too
+      remarkPlugins: [remarkOptimizeImages],
+    }), 
     sitemap({
       filter: (page) => !page.includes('/blog-backup/'),
       changefreq: 'weekly',
@@ -29,6 +33,7 @@ export default defineConfig({
     },
   }),
   markdown: {
+    remarkPlugins: [remarkOptimizeImages],
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: 'wrap' }]
