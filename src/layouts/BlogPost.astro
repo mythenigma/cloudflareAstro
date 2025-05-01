@@ -1,12 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import OptimizedImage from '../components/OptimizedImage.astro';
-import Layout from './Layout.astro';
+// Removed Layout import since BlogPost is already wrapped in Layout in the parent page
 
 type Props = CollectionEntry<'blog'>['data'] & { slug: string; id: string };
 
@@ -24,94 +21,92 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 const lang = slug?.includes('/cn/') ? 'zh-CN' : 'en';
 ---
 
-<Layout title={title} description={description} image={heroImage} lang={lang}>
-  <div class="container">
-    <article>
-      <div class="prose">
-        <div class="title">
-          <h1>{title} {heroImage && <OptimizedImage class="title-icon" src={heroImagePath} alt="" loading="eager" />}</h1>
-          <div class="date">
-            <FormattedDate date={pubDate} />
-            {
-              updatedDate && (
-                <div class="last-updated-on">
-                  Last updated on <FormattedDate date={updatedDate} />
-                </div>
-              )
-            }
-          </div>
+<div class="container">
+  <article>
+    <div class="prose">
+      <div class="title">
+        <h1>{title} {heroImage && <OptimizedImage class="title-icon" src={heroImagePath} alt="" loading="eager" />}</h1>
+        <div class="date">
+          <FormattedDate date={pubDate} />
+          {
+            updatedDate && (
+              <div class="last-updated-on">
+                Last updated on <FormattedDate date={updatedDate} />
+              </div>
+            )
+          }
         </div>
-        <div class="content-wrapper">
-          <slot />
-        </div>
-        
-        <!-- Show related posts with the full post ID -->
-        <RelatedPosts 
-          currentPost={id} 
-          tags={keywordTags} 
-        />
       </div>
-    </article>
-  </div>
-  
-  <!-- Script for handling images and smooth scrolling -->
-  <script>
-    // Convert regular img tags to figure with captions based on alt text
-    document.addEventListener('DOMContentLoaded', () => {
-      // Fix any image paths that might be incorrect
-      document.querySelectorAll('img').forEach(img => {
-        if (img.src.includes('../../../public/')) {
-          // Fix incorrect image paths
-          img.src = img.src.replace('../../../public/', '/');
-          // Add lazy loading to all images that don't already have it
-          if (!img.hasAttribute('loading')) {
-            img.setAttribute('loading', 'lazy');
-            img.setAttribute('decoding', 'async');
-          }
-        }
-      });
+      <div class="content-wrapper">
+        <slot />
+      </div>
+      
+      <!-- Show related posts with the full post ID -->
+      <RelatedPosts 
+        currentPost={id} 
+        tags={keywordTags} 
+      />
+    </div>
+  </article>
+</div>
 
-      const articleImages = document.querySelectorAll('article p > img');
-      
-      articleImages.forEach(img => {
-        // Skip images that are inside links or already in figure elements
-        if (img.parentElement.tagName === 'A' || 
-          img.parentElement.tagName === 'FIGURE' ||
-          img.parentElement.parentElement.tagName === 'FIGURE') return;
-        
-        // Create figure and figcaption if alt text exists
-        if (img.alt && img.alt.trim() !== '') {
-          const figure = document.createElement('figure');
-          const figcaption = document.createElement('figcaption');
-          
-          figcaption.textContent = img.alt;
-          
-          // Clone the image to prevent DOM manipulation issues
-          const imgClone = img.cloneNode(true);
-          
-          // Replace the image with the figure
-          img.parentNode.insertBefore(figure, img);
-          figure.appendChild(imgClone);
-          figure.appendChild(figcaption);
-          img.remove();
+<!-- Script for handling images and smooth scrolling -->
+<script>
+  // Convert regular img tags to figure with captions based on alt text
+  document.addEventListener('DOMContentLoaded', () => {
+    // Fix any image paths that might be incorrect
+    document.querySelectorAll('img').forEach(img => {
+      if (img.src.includes('../../../public/')) {
+        // Fix incorrect image paths
+        img.src = img.src.replace('../../../public/', '/');
+        // Add lazy loading to all images that don't already have it
+        if (!img.hasAttribute('loading')) {
+          img.setAttribute('loading', 'lazy');
+          img.setAttribute('decoding', 'async');
         }
-      });
+      }
+    });
+
+    const articleImages = document.querySelectorAll('article p > img');
+    
+    articleImages.forEach(img => {
+      // Skip images that are inside links or already in figure elements
+      if (img.parentElement.tagName === 'A' || 
+        img.parentElement.tagName === 'FIGURE' ||
+        img.parentElement.parentElement.tagName === 'FIGURE') return;
       
-      // Add smooth scrolling to anchor links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-          e.preventDefault();
-          const targetEl = document.querySelector(this.getAttribute('href'));
-          if (targetEl) {
-            targetEl.scrollIntoView({
-              behavior: 'smooth'
-            });
-          }
-        });
+      // Create figure and figcaption if alt text exists
+      if (img.alt && img.alt.trim() !== '') {
+        const figure = document.createElement('figure');
+        const figcaption = document.createElement('figcaption');
+        
+        figcaption.textContent = img.alt;
+        
+        // Clone the image to prevent DOM manipulation issues
+        const imgClone = img.cloneNode(true);
+        
+        // Replace the image with the figure
+        img.parentNode.insertBefore(figure, img);
+        figure.appendChild(imgClone);
+        figure.appendChild(figcaption);
+        img.remove();
+      }
+    });
+    
+    // Add smooth scrolling to anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetEl = document.querySelector(this.getAttribute('href'));
+        if (targetEl) {
+          targetEl.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
       });
     });
-  </script>
-</Layout>
+  });
+</script>
 
 <style>
   .container {
