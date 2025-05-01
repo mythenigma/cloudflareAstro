@@ -55,7 +55,61 @@
 
 body {
   font-family: "Atkinson", sans-serif;
-  @apply text-gray-800 bg-white dark:text-gray-200 dark:bg-gray-900;
+  @apply text-gray-800 bg-white dark:text-gray-100 dark:bg-gray-900;
+}
+
+/* Dark mode improvements for readability */
+body.dark-mode {
+  color: rgba(255, 255, 255, 0.9); /* Brighter text for dark mode */
+}
+
+body.dark-mode p, 
+body.dark-mode li, 
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode .date,
+body.dark-mode .post-date,
+body.dark-mode .post-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+body.dark-mode blockquote {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode .card,
+body.dark-mode .feature-card,
+body.dark-mode .step,
+body.dark-mode .section-box {
+  background: rgba(30, 41, 59, 0.8);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode .card-grid > *:nth-child(odd) {
+  background-color: rgba(30, 41, 59, 0.7);
+}
+
+body.dark-mode .card-grid > *:nth-child(even) {
+  background-color: rgba(30, 41, 59, 0.9);
+}
+
+body.dark-mode .post-title {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Adjust link colors for dark mode */
+body.dark-mode a {
+  color: #ff8c66; /* Lighter version of the accent color */
+}
+
+body.dark-mode a:hover {
+  color: #ffaa88;
 }
 
 /* Font utility classes */
