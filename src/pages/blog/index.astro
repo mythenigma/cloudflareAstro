@@ -115,6 +115,11 @@ const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => post
 			display: block;
 		}
 		
+		 .post-title-offline {
+			color: #14b8a6;
+			font-weight: 700;
+		}
+		
 		.post-date {
 			font-size: 0.75rem;
 			color: #6b7280;
@@ -165,15 +170,27 @@ const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => post
 					</div>
 					<div class="section-content">
 						{posts.length > 0 ? (
-							posts.map((post) => (
-								<a href={`/blog/${post.id}/`} class="post-item block">
-									<h3 class="post-title">{post.data.title}</h3>
-									<p class="post-date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-									<p class="post-description">{post.data.description}</p>
-								</a>
-							))
+							posts.map((post) => {
+								const offlineKeywords = [
+									"offline", // English
+									"离线",    // Chinese
+									"オフライン", // Japanese
+									"오프라인", // Korean
+									"hors ligne" // French
+								];
+								const isOffline =
+									offlineKeywords.some(keyword => post.data.title.toLowerCase().includes(keyword)) ||
+									(post.data.tags && post.data.tags.some(tag => offlineKeywords.some(keyword => tag.toLowerCase().includes(keyword))));
+								return (
+									<a href={`/blog/${post.id}/`} class="post-item block">
+										<h3 class={`post-title${isOffline ? ' post-title-offline' : ''}`}>{post.data.title}</h3>
+										<p class="post-date">
+											<FormattedDate date={post.data.pubDate} />
+										</p>
+										<p class="post-description">{post.data.description}</p>
+									</a>
+								);
+							})
 						) : (
 							<div class="empty-section">
 								<p>No articles available in {language} yet.<br/>Check back soon!</p>
