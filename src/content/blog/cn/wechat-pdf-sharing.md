@@ -149,3 +149,21 @@ MaiPDF的微信分享功能广泛适用于各种场景：
 - [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](../../cn/dynamic-watermarks-on-pdf-cn)
 - [修改链接：保持共享 PDF 的灵活性](../../cn/modify-link)
 - [MaiPDF：轻松分享 PDF 的免费在线平台](../../cn/easy-pdf-sharing)
+
+## 📱 微信PDF分享简介
+
+![首页](/cn2025May/home.png)
+
+在微信中分享PDF文件，MaiPDF提供了简单高效的解决方案。用户只需上传PDF，便可获得专属链接和二维码，轻松分享给微信好友或群组。
+
+### 上传PDF并生成链接
+
+![上传PDF](/cn2025May/maipdf_upload_pdf_cn.png)
+
+访问MaiPDF.cn，将您的PDF文件拖拽至指定区域，系统将自动处理文件并生成分享链接。
+
+### 链接与二维码
+
+![链接结果](/cn2025May/maipdf_link_result.png)
+
+上传完成后，您将获得一个链接和一个二维码。您可以复制链接直接发送给好友，也可以将二维码保存并分享至朋友圈。

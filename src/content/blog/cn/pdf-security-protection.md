@@ -187,9 +187,9 @@ MaiPDF强大的追踪功能让文档的每次访问都一目了然：
   </div>
 </div>
 
-## 🏢 典型应用场景 {#use-cases}
+## 📊 PDF安全保护简介
 
-![MaiPDF功能界面](/maifle/maipdf整体功能页面.png)
+![全部功能](/cn2025May/all_funcs_in_maipdf_cn.png)
 
 MaiPDF的安全防护功能在多种场景下发挥重要作用：
 

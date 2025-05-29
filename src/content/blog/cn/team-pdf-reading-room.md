@@ -283,3 +283,17 @@ tags: ["团队协作", "PDF分享", "线上阅读室", "小组管理", "资料�
 - [零成本 PDF 分享：把文件秒变链接与二维码](../../cn/zero-cost-pdf-sharing)
 - [二维码一扫，PDF随时随地看](../../cn/qrcode-pdf-sharing)
 - [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](../../cn/dynamic-watermarks-on-pdf-cn)
+
+## 📚 团队PDF阅览室简介
+
+![首页](/cn2025May/home.png)
+
+## 关键功能一览
+
+### 上传与管理
+
+![上传PDF](/cn2025May/maipdf_upload_pdf_cn.png)
+
+### 权限与访问
+
+![访问结果](/cn2025May/acess_result.png)

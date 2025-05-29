@@ -36,6 +36,12 @@ tags: ["智能分享", "PDF传递", "文档管理", "在线阅读"]
   </div>
 </div>
 
+## 📄 智能PDF分享简介
+
+![首页](/cn2025May/home.png)
+
+MaiPDF是一款创新的PDF分享工具，旨在通过智能化的操作流程和强大的安全性能，提升用户的PDF文件分享体验。无论是个人用户还是企业团队，MaiPDF都能提供便捷、高效的文件传递解决方案。
+
 ## 📊 传统方式 VS MaiPDF智能分享 {#comparison}
 
 <div class="table-container">

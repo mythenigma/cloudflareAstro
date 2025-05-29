@@ -510,6 +510,10 @@ Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向�
 - [智能PDF分享新体验，三步搞定文件传递](../../cn/smart-pdf-sharing)
 - [PDF在线预览，无需下载更便捷](../../cn/pdf-online-preview)
 
+## 🖼️ 动态二维码水印简介
+
+![首页](/cn2025May/home.png)
+
 <style>
   /* 自定义样式 */
   .intro-panel {
