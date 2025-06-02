@@ -5,6 +5,7 @@ import sitemap from "@astrojs/sitemap";
 import cloudflare from "@astrojs/cloudflare";
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeRaw from 'rehype-raw';
 import { remarkOptimizeImages } from './src/utils/remarkOptimizeImages.js';
 
 // https://astro.build/config
@@ -31,13 +32,17 @@ export default defineConfig({
     platformProxy: {
       enabled: true,
     },
-  }),
-  markdown: {
+  }),  markdown: {
     remarkPlugins: [remarkOptimizeImages],
     rehypePlugins: [
+      rehypeRaw,
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: 'wrap' }]
     ],
+    // Enable HTML in markdown
+    remarkRehype: {
+      allowDangerousHtml: true
+    },
     // Ensure image paths are processed correctly
     shikiConfig: {
       theme: 'github-light',

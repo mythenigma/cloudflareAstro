@@ -4,17 +4,18 @@ description: "如何免费将PDF转换为链接和二维码，实现便捷分享
 pubDate: "May 1 2025"
 heroImage: "/maifle/PDF链接生成的时候显示的信息.png"
 tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
+styles: ["blog-post.css"]
 ---
 
-# 零成本 PDF 分享：把文件秒变链接与二维码
+# 零成本 PDF 分享：把文件秒变链接与二维码 {.title}
 
 <div class="intro-panel">
-  在日常学习、求职、社交乃至兴趣交流中，我们经常需要把一份 PDF 发送给朋友、同学或社群。但手机里动辄几十兆的文件——如何在微信、微博或邮件里快速、不失质感、还维持一点隐私控制？本指南将告诉你如何用一款免费在线工具（无需下载 App，也不收费用）完成整个流程。
+在日常学习、求职、社交乃至兴趣交流中，我们经常需要把一份 PDF 发送给朋友、同学或社群。但手机里动辄几十兆的文件——如何在微信、微博或邮件里快速、不失质感、还维持一点隐私控制？本指南将告诉你如何用一款免费在线工具（无需下载 App，也不收费用）完成整个流程。
 </div>
 
 <div class="hero-image-container">
-  <img src="/maifle/maipdf整体功能页面.png" alt="MaiPDF完整功能展示" class="hero-feature-image">
-  <p class="image-caption">MaiPDF 完整功能界面一览</p>
+<img src="/maifle/maipdf整体功能页面.png" alt="MaiPDF完整功能展示" class="hero-feature-image">
+<p class="image-caption">MaiPDF 完整功能界面一览</p>
 </div>
 
 ## 1️⃣ 个人用户常见烦恼 {#common-problems}
@@ -33,7 +34,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         <p><strong>隐藏痛点：</strong>招聘方可能打不开手机附件；发送后无法收回</p>
       </div>
     </div>
-
     <div class="problem-card">
       <div class="problem-icon">🛒</div>
       <h3>网购二手</h3>
@@ -42,7 +42,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         <p><strong>隐藏痛点：</strong>图片压缩失真，文档信息模糊</p>
       </div>
     </div>
-
     <div class="problem-card">
       <div class="problem-icon">📚</div>
       <h3>课程作业</h3>
@@ -51,7 +50,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         <p><strong>隐藏痛点：</strong>需提前下载 App；链接可能过期；无阅读统计</p>
       </div>
     </div>
-
     <div class="problem-card">
       <div class="problem-icon">📖</div>
       <h3>电子书分享</h3>
@@ -85,35 +83,30 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
       <p class="feature-status">完全免费</p>
       <p>一键把 PDF 生成网页地址，任何人都能在线查看</p>
     </div>
-
     <div class="feature-card free">
       <div class="feature-icon">📱</div>
       <h4>二维码同步生成</h4>
       <p class="feature-status">完全免费</p>
       <p>适合打印或投屏展示扫码，线下分享更便捷</p>
     </div>
-
     <div class="feature-card free">
       <div class="feature-icon">🔢</div>
       <h4>阅读次数限制</h4>
       <p class="feature-status">完全免费</p>
       <p>防止链接被无限转发，保护文档隐私</p>
     </div>
-
     <div class="feature-card free">
       <div class="feature-icon">⏰</div>
       <h4>单次阅读时长</h4>
       <p class="feature-status">完全免费</p>
       <p>避免长时间暴露，自动过期保护</p>
     </div>
-
     <div class="feature-card free">
       <div class="feature-icon">⬇️</div>
       <h4>下载开关</h4>
       <p class="feature-status">完全免费</p>
       <p>可禁止对方保存到本地，仅允许在线查看</p>
     </div>
-
     <div class="feature-card free">
       <div class="feature-icon">📊</div>
       <h4>访问记录</h4>
@@ -121,7 +114,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
       <p>查看谁、何时、用什么设备打开了你的文档</p>
     </div>
   </div>
-
   <div class="tip-box">
     <p><strong>💡 提示：</strong>企业多团队可按需升级定制，但个人版永久免费，功能即上所示</p>
   </div>
@@ -140,13 +132,11 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
       <div class="step-number">01</div>
       <div class="step-content">
         <h4>🚀 拖拽上传</h4>
-        <p>打开浏览器 → 进入平台首页 → 将 PDF 拖入上传框（文件大小≤100 MB）</p>
-        
+        <p>打开浏览器 → 进入平台首页 → 将 PDF 拖入上传框（文件大小≤100 MB）</p>  
         <div class="step-image-container">
           <img src="/maifle/MaiPDF中的上传界面.png" alt="上传界面演示" class="step-image">
           <p class="image-caption">直接拖拽PDF文件到上传区域即可</p>
         </div>
-
         <div class="step-tips">
           <h5>💡 上传小贴士：</h5>
           <ul>
@@ -157,18 +147,15 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         </div>
       </div>
     </div>
-
     <div class="step-item">
       <div class="step-number">02</div>
       <div class="step-content">
         <h4>⚙️ 设置小参数</h4>
         <p>根据你的需要配置访问权限，保护文档安全</p>
-
         <div class="step-image-container">
           <img src="/maifle/没加电话验证的设置界面.png" alt="设置界面详解" class="step-image">
           <p class="image-caption">灵活的权限设置，满足不同场景需求</p>
         </div>
-
         <div class="settings-grid">
           <div class="setting-card">
             <h5>🔢 打开次数</h5>
@@ -176,14 +163,12 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
             <p><strong>范围：</strong>1～9999次</p>
             <p>控制文档可被查看的总次数</p>
           </div>
-
           <div class="setting-card">
             <h5>⏱️ 阅读时长</h5>
             <p><strong>默认：</strong>30分钟</p>
             <p><strong>范围：</strong>1～120分钟</p>
             <p>单次访问的最长阅读时间</p>
           </div>
-
           <div class="setting-card">
             <h5>⬇️ 下载权限</h5>
             <p><strong>默认：</strong>关闭</p>
@@ -193,18 +178,15 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         </div>
       </div>
     </div>
-
     <div class="step-item">
       <div class="step-number">03</div>
       <div class="step-content">
         <h4>📋 复制链接 / 保存二维码</h4>
         <p>获取分享链接和二维码，开始便捷分享</p>
-
         <div class="step-image-container">
           <img src="/maifle/PDF链接生成的时候显示的信息.png" alt="生成结果展示" class="step-image">
           <p class="image-caption">同时生成链接和二维码，适应不同分享场景</p>
         </div>
-
         <div class="sharing-options">
           <div class="option-card">
             <h5>🔗 分享链接</h5>
@@ -213,7 +195,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
               <code>https://maipdf.cn/view/abc123</code>
             </div>
           </div>
-
           <div class="option-card">
             <h5>📱 二维码</h5>
             <p>保存二维码图片，适合线下展示和打印</p>
@@ -270,7 +251,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         </div>
       </div>
     </div>
-
     <div class="comparison-item">
       <div class="method-header cloud">
         <h4>☁️ 云盘分享</h4>
@@ -297,7 +277,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         </div>
       </div>
     </div>
-
     <div class="comparison-item">
       <div class="method-header screenshot">
         <h4>📸 图片截图</h4>
@@ -324,7 +303,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         </div>
       </div>
     </div>
-
     <div class="comparison-item featured">
       <div class="method-header maipdf">
         <h4>🚀 MaiPDF</h4>
@@ -388,8 +366,7 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         <p class="image-caption">设置访问限制，保护个人隐私</p>
       </div>
     </div>
-
-    <div class="tip-card sharing">
+ <div class="tip-card sharing">
       <div class="tip-icon">📚</div>
       <h4>电子书试读分享</h4>
       <div class="tip-content">
@@ -406,7 +383,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         <p class="image-caption">制作电子书试读版，控制阅读时长</p>
       </div>
     </div>
-
     <div class="tip-card academic">
       <div class="tip-icon">🎓</div>
       <h4>作业提交追踪</h4>
@@ -425,7 +401,6 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
         <p class="image-caption">详细的访问记录，确认老师已查看作业</p>
       </div>
     </div>
-
     <div class="tip-card business">
       <div class="tip-icon">💼</div>
       <h4>商务文档分享</h4>
@@ -544,219 +519,478 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
   </div>
 </div>
 
-<style>
-  /* 页面整体样式 */
+<style>  /* 页面整体样式 */
   .intro-panel {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 2rem;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
   }
 
+  .intro-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
   /* 英雄图片容器 */
   .hero-image-container {
     text-align: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
   }
 
   .hero-feature-image {
     width: 100%;
     max-width: 800px;
-    border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-    transition: transform 0.3s ease;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: all 0.4s ease;
   }
 
   .hero-feature-image:hover {
-    transform: translateY(-4px);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.25);
   }
 
   .image-caption {
-    margin-top: 0.5rem;
-    color: #666;
+    margin-top: 1rem;
+    color: #64748b;
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500;
   }
-
   /* 问题展示部分 */
   .problems-section {
-    margin: 3rem 0;
+    margin: 4rem 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #e3f2fd 100%);
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .problems-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+    pointer-events: none;
   }
 
   .section-intro {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 1;
   }
 
   .section-intro p {
-    font-size: 1.1rem;
-    color: #555;
+    font-size: 1.3rem;
+    color: #475569;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .problems-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+    position: relative;
+    z-index: 1;
   }
 
   .problem-card {
-    background: white;
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    border-left: 4px solid #e74c3c;
-    transition: transform 0.3s ease;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 
+      0 10px 40px rgba(0,0,0,0.08),
+      0 4px 12px rgba(0,0,0,0.03);
+    border: 1px solid rgba(248, 250, 252, 0.8);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .problem-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b6b 0%, #ee5a24 100%);
+    border-radius: 1.5rem 1.5rem 0 0;
   }
 
   .problem-card:hover {
-    transform: translateY(-2px);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+      0 20px 60px rgba(0,0,0,0.15),
+      0 8px 20px rgba(0,0,0,0.1);
   }
 
   .problem-icon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
   }
 
   .problem-card h3 {
-    color: #e74c3c;
-    margin-bottom: 1rem;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
 
   .problem-detail p {
-    margin: 0.5rem 0;
-    line-height: 1.5;
+    margin: 1rem 0;
+    line-height: 1.7;
+    color: #4a5568;
   }
 
   .problem-detail strong {
-    color: #333;
+    color: #2d3748;
+    font-weight: 600;
+    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .conclusion-box {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    margin-top: 2rem;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
     text-align: center;
     font-weight: 600;
+    font-size: 1.2rem;
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
   }
 
+  .conclusion-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
   /* 解决方案部分 */
   .solution-section {
-    margin: 3rem 0;
+    margin: 4rem 0;
+    background: linear-gradient(135deg, #f1f5f9 0%, #e0f2fe 100%);
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .solution-section::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: -30%;
+    width: 80%;
+    height: 80%;
+    background: radial-gradient(circle, rgba(52, 152, 219, 0.08) 0%, transparent 70%);
+    pointer-events: none;
   }
 
   .solution-header {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    gap: 3rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 
+      0 10px 40px rgba(0,0,0,0.08),
+      0 4px 12px rgba(0,0,0,0.03);
+    position: relative;
+    z-index: 1;
+  }
+
+  .solution-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+    border-radius: 1.5rem 1.5rem 0 0;
   }
 
   .solution-image {
-    width: 300px;
-    border-radius: 8px;
+    width: 350px;
+    border-radius: 1rem;
+    box-shadow: 0 15px 35px rgba(52, 152, 219, 0.2);
+    transition: transform 0.4s ease;
+  }
+
+  .solution-image:hover {
+    transform: scale(1.05);
   }
 
   .solution-intro h3 {
-    color: #3498db;
+    color: #2d3748;
     margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .solution-intro p {
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.6;
   }
 
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+    position: relative;
+    z-index: 1;
   }
 
   .feature-card {
-    background: white;
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 
+      0 10px 40px rgba(0,0,0,0.08),
+      0 4px 12px rgba(0,0,0,0.03);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #27ae60 0%, #2ecc71 100%);
+    border-radius: 1.5rem 1.5rem 0 0;
   }
 
   .feature-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+      0 20px 60px rgba(0,0,0,0.15),
+      0 8px 20px rgba(0,0,0,0.1);
   }
 
   .feature-card.free {
-    border-top: 4px solid #27ae60;
+    border: 2px solid #27ae60;
   }
 
   .feature-icon {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+  }
+
+  .feature-card h4 {
+    color: #2d3748;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
   }
 
   .feature-status {
     color: #27ae60;
-    font-weight: bold;
-    margin: 0.5rem 0;
+    font-weight: 700;
+    margin: 1rem 0;
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    font-size: 0.9rem;
+  }
+
+  .feature-card p:last-child {
+    color: #4a5568;
+    line-height: 1.6;
+    margin: 0;
   }
 
   .tip-box {
-    background: #fff3cd;
-    border: 1px solid #ffeaa7;
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 2rem 0;
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 2px solid #f39c12;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 3rem 0;
+    position: relative;
+    overflow: hidden;
   }
 
+  .tip-box::before {
+    content: '💡';
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .tip-box p {
+    margin: 0;
+    padding-left: 3rem;
+    color: #856404;
+    font-weight: 500;
+    line-height: 1.6;
+  }
   /* 教程部分 */
   .tutorial-section {
-    margin: 3rem 0;
+    margin: 4rem 0;
+    background: linear-gradient(135deg, #fafbfc 0%, #e8f5e8 100%);
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tutorial-section::before {
+    content: '';
+    position: absolute;
+    bottom: -50%;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(39, 174, 96, 0.08) 0%, transparent 70%);
+    pointer-events: none;
   }
 
   .tutorial-intro {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 2rem;
-    border-radius: 12px;
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+  }
+
+  .tutorial-intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .tutorial-intro h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .tutorial-intro p {
+    margin: 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    line-height: 1.6;
   }
 
   .steps-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    position: relative;
+    z-index: 1;
   }
 
   .step-item {
     display: flex;
     align-items: flex-start;
-    gap: 2rem;
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    gap: 3rem;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 
+      0 10px 40px rgba(0,0,0,0.08),
+      0 4px 12px rgba(0,0,0,0.03);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .step-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+
+  .step-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 
+      0 20px 60px rgba(0,0,0,0.12),
+      0 8px 20px rgba(0,0,0,0.08);
   }
 
   .step-number {
     flex-shrink: 0;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-weight: 700;
     margin-top: 1rem;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    position: relative;
+  }
+
+  .step-number::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    z-index: -1;
+    opacity: 0.3;
   }
 
   .step-content {
@@ -764,32 +998,70 @@ tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
   }
 
   .step-content h4 {
-    color: #2c3e50;
-    margin-bottom: 1rem;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .step-content > p {
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
   }
 
   .step-image-container {
-    margin: 1.5rem 0;
+    margin: 2rem 0;
     text-align: center;
   }
 
   .step-image {
     width: 100%;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    max-width: 700px;
+    border-radius: 1rem;
+    box-shadow: 
+      0 20px 40px rgba(0,0,0,0.1),
+      0 8px 16px rgba(0,0,0,0.06);
+    transition: transform 0.4s ease;
+  }
+
+  .step-image:hover {
+    transform: scale(1.02);
   }
 
   .step-tips {
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-top: 1rem;
+    background: linear-gradient(135deg, #e8f5e8 0%, #f0f9ff 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
     border-left: 4px solid #3498db;
+    position: relative;
+  }
+
+  .step-tips::before {
+    content: '💡';
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .step-tips h5 {
-    color: #3498db;
+    color: #2d3748;
+    margin: 0 0 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .step-tips ul {
+    margin: 0;
+    padding-left: 4rem;
+    color: #4a5568;
+    line-height: 1.6;
+  }
+
+  .step-tips li {
     margin-bottom: 0.5rem;
   }
 

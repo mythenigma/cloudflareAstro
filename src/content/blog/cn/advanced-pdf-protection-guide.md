@@ -835,15 +835,15 @@ AI智能检测异常行为，防患于未然
 
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 3rem; border-radius: 15px; text-align: center; margin: 2rem 0;">
 
-### 🚀 立即行动：开启你的PDF安全之旅
+### 🚀 立即体验MaiPDF
 
-**5分钟快速上手指南**：
+**免费使用所有功能，无需注册费用**：
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; border-radius: 10px; text-align: center;">
 <strong>🎯 第1步</strong><br>
-<small>访问MaiPDF平台<br>创建你的安全账户<br>选择适合的服务套餐</small>
+<small>访问MaiPDF平台<br>注册免费账户<br>立即开始使用</small>
 </div>
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1.5rem; border-radius: 10px; text-align: center;">
@@ -858,83 +858,87 @@ AI智能检测异常行为，防患于未然
 
 </div>
 
-**💎 特惠活动正在进行**：
+**💝 完全免费使用**：
 
-<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); border-radius: 12px; padding: 2rem; margin: 1.5rem 0; border: 2px solid #f59e0b;">
+<div style="background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%); border-radius: 12px; padding: 2rem; margin: 1.5rem 0; border: 2px solid #10b981;">
 <div style="text-align: center; margin-bottom: 1rem;">
-<strong style="font-size: 1.5rem; color: #d97706;">🎉 新用户专享：首月8.8折优惠</strong>
+<strong style="font-size: 1.5rem; color: #15803d;">🎉 MaiPDF完全免费使用</strong>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
-
-<div style="background: white; border-radius: 8px; padding: 1rem; text-align: center;">
-<strong>💪 基础版</strong><br>
-<span style="color: #dc2626; font-size: 1.2rem;">¥19.9/月</span><br>
-<small>适合个人用户<br>基础安全防护</small>
+<div style="background: white; border-radius: 8px; padding: 2rem; text-align: center; margin: 1rem 0;">
+<div style="font-size: 2rem; margin-bottom: 1rem;">🆓</div>
+<strong style="font-size: 1.3rem; color: #15803d;">完全免费版</strong><br>
+<div style="margin: 1rem 0;">
+<span style="color: #22c55e; font-size: 1.5rem; font-weight: bold;">¥0</span>
+<span style="color: #6b7280;">/永久免费</span>
 </div>
-
-<div style="background: white; border-radius: 8px; padding: 1rem; text-align: center; border: 2px solid #10b981;">
-<strong>🏆 专业版</strong><br>
-<span style="color: #dc2626; font-size: 1.2rem;">¥39.9/月</span><br>
-<small>适合小团队<br>高级安全功能</small>
-</div>
-
-<div style="background: white; border-radius: 8px; padding: 1rem; text-align: center;">
-<strong>👑 企业版</strong><br>
-<span style="color: #dc2626; font-size: 1.2rem;">¥99.9/月</span><br>
-<small>适合大企业<br>全套安全解决方案</small>
-</div>
-
-</div>
-
-<div style="text-align: center; margin-top: 1rem;">
-<strong>🎁 使用优惠码：SAFE2025 享受额外5%折扣</strong>
+<div style="text-align: left; margin: 1rem 0;">
+<div style="margin: 0.5rem 0;">✅ 无限制PDF上传</div>
+<div style="margin: 0.5rem 0;">✅ 完整安全防护功能</div>
+<div style="margin: 0.5rem 0;">✅ 动态水印保护</div>
+<div style="margin: 0.5rem 0;">✅ 访问次数控制</div>
+<div style="margin: 0.5rem 0;">✅ 详细查看统计</div>
+<div style="margin: 0.5rem 0;">✅ 所有高级功能</div>
 </div>
 </div>
 
-**📞 专业支持团队**：
+<div style="background: #fef3c7; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+<strong>📢 关于页面广告</strong><br>
+<small>• 免费版本在PDF查看页面会显示少量广告<br>
+• 广告不影响文档安全性和功能使用<br>
+• 如需去除广告，可选择付费去广告服务<br>
+• 去广告费用极低，一次性付费长期有效</small>
+</div>
+</div>
+
+**📞 免费技术支持**：
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0;">
 
 <div style="background: #ecfdf5; border: 1px solid #10b981; border-radius: 8px; padding: 1rem;">
-<strong>💬 7×24小时在线客服</strong><br>
-<small>• 微信: MaiPDF_Support<br>
-• QQ群: 888666999<br>
-• 电话: 400-888-6666<br>
-• 邮箱: support@maipdf.com</small>
+<strong>💬 在线客服支持</strong><br>
+<small>• 官网在线客服系统<br>
+• 常见问题FAQ<br>
+• 邮箱: support@maipdf.com<br>
+• 工作时间快速响应</small>
 </div>
 
 <div style="background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; padding: 1rem;">
-<strong>🎓 免费培训资源</strong><br>
-<small>• 在线视频教程<br>
+<strong>🎓 免费学习资源</strong><br>
+<small>• 在线使用教程<br>
 • 安全最佳实践指南<br>
-• 定期安全知识分享<br>
-• 一对一专家咨询</small>
+• 视频操作演示<br>
+• 用户使用手册</small>
 </div>
 
 </div>
 
-**🌟 成功案例分享**：
+**🌟 用户真实反馈**：
 
 <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
-<strong>"感谢MaiPDF！我们公司的合同泄露问题彻底解决了，现在每个文档都有专属身份标识，再也不用担心被恶意传播。这套系统简直是神器！"</strong><br>
+<strong>"MaiPDF真的很实用！完全免费就能使用这么强大的功能，水印保护和访问控制让我的商业文档分享更安心了。页面上的小广告完全不影响使用。"</strong><br>
 <small style="color: #6b7280;">—— 张总，某科技公司CEO</small>
 </div>
 
 <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
-<strong>"作为律师，客户资料的保密性至关重要。MaiPDF的多重防护让我们可以放心地在云端处理敏感文档，水印功能特别实用！"</strong><br>
-<small style="color: #6b7280;">—— 李律师，某知名律所合伙人</small>
+<strong>"作为律师，客户资料保密很重要。MaiPDF免费提供的安全功能已经完全满足我们的需求，如果后续需要无广告版本再考虑付费去广告。"</strong><br>
+<small style="color: #6b7280;">—— 李律师，某律所合伙人</small>
 </div>
 
 ## 🚀 开启你的PDF安全之旅
 
-**现在就行动起来**：
+**🚀 立即开始使用**：
 
 1. **🎯 评估现有文档风险**：哪些文档需要立即保护？
 2. **📋 制定安全策略**：根据不同场景选择合适的保护措施
 3. **⚡ 开始实际操作**：从最重要的文档开始设置保护
 4. **📊 监控效果评估**：定期检查保护措施的有效性
 5. **🔄 持续优化改进**：根据使用经验不断完善安全设置
+
+<div style="background: #f0fdf4; border: 1px solid #22c55e; border-radius: 8px; padding: 1.5rem; margin: 1rem 0;">
+<strong>💡 温馨提示</strong><br>
+MaiPDF完全免费提供所有安全功能，让每个用户都能享受企业级的文档保护。如果您希望获得无广告的纯净体验，可以选择我们的去广告服务，费用低廉且一次性付费。
+</div>
 
 **让MaiPDF成为你的数字文档守护神，在这个充满挑战的数字时代中，守护每一份珍贵的信息资产！**
 

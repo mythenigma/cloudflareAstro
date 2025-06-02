@@ -504,7 +504,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
         </ul>
       </div>
     </div>
-    
     <div class="timeline-item">
       <div class="timeline-marker">2</div>
       <div class="timeline-content">
@@ -516,8 +515,7 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
           <li>重要面试可开启手机验证</li>
         </ul>
       </div>
-    </div>
-    
+    </div> 
     <div class="timeline-item">
       <div class="timeline-marker">3</div>
       <div class="timeline-content">
@@ -530,7 +528,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
         </ul>
       </div>
     </div>
-    
     <div class="timeline-item">
       <div class="timeline-marker">4</div>
       <div class="timeline-content">

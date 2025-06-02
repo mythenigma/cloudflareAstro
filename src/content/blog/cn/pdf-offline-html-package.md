@@ -283,51 +283,75 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
 <style>
   /* Base styles */
   .intro-panel {
-    background: linear-gradient(to right, #f8fafc, #e2e8f0);
-    border-left: 4px solid #3b82f6;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
     font-size: 1.1rem;
     line-height: 1.6;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
   }
   
+  .intro-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }  
   /* Tables */
   .comparison-table, .features-table {
     width: 100%;
     margin: 1.5rem 0;
     border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
   
   .comparison-table th, .features-table th {
-    background-color: #f1f5f9;
-    padding: 0.75rem;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: white;
+    padding: 1rem 0.75rem;
     text-align: left;
     font-weight: 600;
-    border: 1px solid #e2e8f0;
+    border: none;
+    font-size: 1.05rem;
   }
   
   .comparison-table td, .features-table td {
-    padding: 0.75rem;
-    border: 1px solid #e2e8f0;
+    padding: 0.875rem 0.75rem;
+    border: none;
+    border-bottom: 1px solid #e2e8f0;
     vertical-align: top;
+    transition: background-color 0.2s ease;
   }
   
   .comparison-table tr:nth-child(even), .features-table tr:nth-child(even) {
     background-color: #f8fafc;
   }
   
+  .comparison-table tr:hover, .features-table tr:hover {
+    background-color: #e0f2fe;
+  }  
   /* Key need */
   .key-need {
-    background: #f0f9ff;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
     border-left: 4px solid #0ea5e9;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 0;
-    font-size: 1.1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.75rem;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.1);
   }
-  
-  /* Steps container */
+    /* Steps container */
   .steps-container {
     margin: 2rem 0;
   }
@@ -336,13 +360,23 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
     display: flex;
     margin-bottom: 2rem;
     align-items: flex-start;
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .step-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
   }
   
   .step-number {
-    background: #3b82f6;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
     color: white;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -350,6 +384,8 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
     font-weight: bold;
     margin-right: 1.5rem;
     flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+    font-size: 1.1rem;
   }
   
   .step-content {
@@ -358,77 +394,232 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
   
   .step-content h3 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    color: #3b82f6;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+    color: #1e3a8a;
+    font-weight: 700;
   }
   
   .step-content p {
     margin: 0;
     margin-bottom: 0.5rem;
     font-size: 1.05rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    color: #475569;
   }
   
   .step-content img {
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     display: block;
     float: none;
-    margin: 0.75rem 0;
+    margin: 1rem 0;
     max-width: 100%;
+    transition: transform 0.2s ease;
   }
   
+  .step-content img:hover {
+    transform: scale(1.02);
+  }  
   /* Note box */
   .note-box {
-    background: #f1f5f9;
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
     border-left: 4px solid #64748b;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 0;
-    font-size: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.75rem;
+    margin: 2rem 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 12px rgba(100, 116, 139, 0.1);
+    position: relative;
   }
   
+  .note-box::before {
+    content: '💡';
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .note-box p {
+    margin-left: 2rem;
+  }  
   /* Use cases */
   .use-cases-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
   }
   
   .use-case-card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    padding: 1.5rem;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 2rem 1.5rem;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .use-case-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 50%, #06b6d4 100%);
   }
   
   .use-case-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
   }
   
   .use-case-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #3b82f6;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    text-align: center;
   }
   
   .use-case-card h3 {
     margin-top: 0;
-    margin-bottom: 0.75rem;
-    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
     color: #1e3a8a;
+    font-weight: 700;
+    text-align: center;
+  }
+    .use-case-card p {
+    margin: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #475569;
+    text-align: center;
   }
   
-  .use-case-card p {
+  /* FAQ Section */
+  .faq-section {
+    margin: 2rem 0;
+  }
+  
+  .faq-item {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+  }
+  
+  .faq-question {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: 1.5rem 2rem;
     margin: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    line-height: 1.5;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .faq-question p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #1e3a8a;
+    font-weight: 600;
+  }
+  
+  .faq-answer {
+    padding: 1.5rem 2rem;
+  }
+  
+  .faq-answer p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
     color: #475569;
+  }
+  
+  /* Conclusion and CTA */
+  .conclusion-panel {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin: 3rem 0;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .conclusion-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  
+  .conclusion-panel p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  
+  .cta-section {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(59, 130, 246, 0.4);
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .use-cases-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .step-item {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .step-number {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
   }
   
   /* FAQ section */

@@ -1,0 +1,63 @@
+/* Blog post styles */
+.intro-panel {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.hero-image-container {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.hero-feature-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  transition: all 0.4s ease;
+}
+
+.hero-feature-image:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+.image-caption {
+  margin-top: 1rem;
+  color: #64748b;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Problem section styles */
+.problems-section {
+  margin: 4rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e3f2fd 100%);
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add all the other styles from the markdown file here */
+/* ... */

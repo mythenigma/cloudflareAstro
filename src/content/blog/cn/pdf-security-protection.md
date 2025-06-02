@@ -165,17 +165,14 @@ MaiPDF强大的追踪功能让文档的每次访问都一目了然：
       <h4>🕒 时间追踪</h4>
       <p>精确记录每次文档被打开的具体时间</p>
     </div>
-    
     <div class="feature-block">
       <h4>📍 地理位置</h4>
       <p>基于IP地址显示阅读者的大致地理位置</p>
-    </div>
-    
+    </div>  
     <div class="feature-block">
       <h4>💻 设备信息</h4>
       <p>记录访问者使用的设备类型和浏览器</p>
-    </div>
-    
+    </div> 
     <div class="feature-block">
       <h4>⏱️ 阅读时长</h4>
       <p>统计每次阅读的持续时间，了解阅读深度</p>
