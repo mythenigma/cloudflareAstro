@@ -19,6 +19,10 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 
 // Get language from filename or defaults to 'en'
 const lang = slug?.includes('/cn/') ? 'zh-CN' : 'en';
+
+// Determine the target website based on language
+const targetWebsite = lang === 'zh-CN' ? 'https://maipdf.cn' : 'https://maipdf.com';
+const buttonText = lang === 'zh-CN' ? '立即体验 MaiPDF' : 'Try MaiPDF Now';
 ---
 
 <div class="container">
@@ -36,9 +40,15 @@ const lang = slug?.includes('/cn/') ? 'zh-CN' : 'en';
             )
           }
         </div>
-      </div>
-      <div class="content-wrapper">
+      </div>      <div class="content-wrapper">
         <slot />
+      </div>
+      
+      <!-- CTA Button -->
+      <div class="cta-container">
+        <a href={targetWebsite} target="_blank" rel="noopener noreferrer" class="cta-button">
+          {buttonText}
+        </a>
       </div>
       
       <!-- Show related posts with the full post ID -->
@@ -336,9 +346,58 @@ const lang = slug?.includes('/cn/') ? 'zh-CN' : 'en';
     border-bottom: 1px solid transparent;
     transition: border-color 0.2s ease;
   }
-  
-  article a:hover {
+    article a:hover {
     border-bottom-color: #3498db;
+  }
+  
+  /* CTA Button Styling */
+  .cta-container {
+    margin: 3rem 0;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    border-bottom: none !important;
+  }
+  
+  .cta-button:active {
+    transform: translateY(0);
+  }
+  
+  .cta-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+  }
+  
+  .cta-button:hover::before {
+    left: 100%;
   }
   
   /* Better mobile responsiveness */
