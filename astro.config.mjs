@@ -6,7 +6,6 @@ import cloudflare from "@astrojs/cloudflare";
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeRaw from 'rehype-raw';
-import { remarkOptimizeImages } from './src/utils/remarkOptimizeImages.js';
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,7 +13,7 @@ export default defineConfig({
   integrations: [
     mdx({
       // Apply the image optimization to MDX files too
-      remarkPlugins: [remarkOptimizeImages],
+      // remarkPlugins: [remarkOptimizeImages],
     }), 
     sitemap({
       filter: (page) => !page.includes('/blog-backup/'),
@@ -33,7 +32,7 @@ export default defineConfig({
       enabled: true,
     },
   }),  markdown: {
-    remarkPlugins: [remarkOptimizeImages],
+    // remarkPlugins: [remarkOptimizeImages],
     rehypePlugins: [
       rehypeRaw,
       rehypeSlug,

@@ -2,7 +2,7 @@
 title: "ソーシャルメディアPDF共有完全ガイド"
 description: "Facebook、Twitter、LinkedInなどのプラットフォームでPDF文書を効率的に共有。プラットフォームの制限を回避し、モバイルアクセスと専門的なプレゼンテーションを確保。"
 pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/social-media-sharing.jpg"
+heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
 tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モバイル最適化"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モ�
 
 ソーシャルメディアプラットフォームは通常、直接的なPDFアップロードをサポートしていないか、表示体験が劣っています。MaiPDFは専門的なソリューションを提供し、任意のソーシャルプラットフォームでPDFコンテンツを効率的に共有し、オーディエンスが簡単にアクセスできることを確保します。
 
-![ソーシャルメディア共有](/maipdf-images/social-media-sharing.jpg)
+![ソーシャルメディア共有](/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png)
 
 ## ソーシャルプラットフォームのPDF共有課題
 
@@ -24,7 +24,7 @@ tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モ�
 
 **専門性不足**：ファイルリンクが十分に専門的に見えず、ブランドイメージに影響します。
 
-![文書アップロード](/maipdf-images/upload-process.jpg)
+![文書アップロード](/2025MayMaiPDF/upload_in_cloudshare.png)
 
 ## MaiPDFソーシャル共有の利点
 
@@ -38,7 +38,7 @@ tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モ�
 
 **詳細統計**：ソーシャル共有の表示データとユーザー行動をリアルタイムで把握します。
 
-![クイック共有](/maipdf-images/sharing-options.jpg)
+![クイック共有](/2025MayMaiPDF/result_link_qr_cloudshare.png)
 
 ## プラットフォーム別共有戦略
 
@@ -66,7 +66,7 @@ MaiPDFリンクを使用して、Facebookユーザーがモバイルデバイス
 
 LinkedInの専門的環境では高品質の文書プレゼンテーションが必要で、MaiPDFは専門的イメージを確保します。
 
-![文書ビューア](/maipdf-images/document-viewer.jpg)
+![文書ビューア](/maifle/页面上显示水印位置.png)
 
 ### Twitter高速共有
 
@@ -92,7 +92,7 @@ Twitterの高速環境では即座のアクセスが必要で、MaiPDFリンク�
 
 Instagramは主にビジュアルプラットフォームですが、MaiPDFリンクは深いコンテンツへのアクセスを提供します。
 
-![モバイル最適化](/maipdf-images/mobile-access.jpg)
+![モバイル最適化](/maifle/用户输入短信的页面.jpg)
 
 ## ソーシャル共有ベストプラクティス
 
@@ -106,7 +106,7 @@ Instagramは主にビジュアルプラットフォームですが、MaiPDFリ�
 
 **インタラクション奨励**：コメントと共有を招待し、エンゲージメントを増加。
 
-![高度な制御](/maipdf-images/advanced-controls.jpg)
+![高度な制御](/2025MayMaiPDF/settings_in_cloudshare.png)
 
 ## コンテンツタイプの提案
 
@@ -122,7 +122,7 @@ Instagramは主にビジュアルプラットフォームですが、MaiPDFリ�
 
 各コンテンツタイプはソーシャルプラットフォームの特性に適したプレゼンテーション方法が必要です。
 
-![専門的ワークフロー](/maipdf-images/professional-workflow.jpg)
+![専門的ワークフロー](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ## ソーシャル共有効果の追跡
 

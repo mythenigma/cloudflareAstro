@@ -40,7 +40,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-![MaiPDF首页](./maifle/maipdf的首页入口.png)
+![MaiPDF首页](/maifle/maipdf的首页入口.png)
 
 ## 😫 传统PDF分享的痛苦真相：你是否也被这些问题困扰？
 
@@ -103,7 +103,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-![PDF链接生成](./maifle/PDF链接生成的时候显示的信息.png)
+![PDF链接生成](/maifle/PDF链接生成的时候显示的信息.png)
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
 
@@ -161,7 +161,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-![生成二维码示例](./maifle/maipdf示例把PDF生成二维码.png)
+![生成二维码示例](/maifle/maipdf示例把PDF生成二维码.png)
 
 </div>
 
@@ -211,7 +211,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-![没加电话验证的设置界面](./maifle/没加电话验证的设置界面.png)
+![没加电话验证的设置界面](/maifle/没加电话验证的设置界面.png)
 
 </div>
 
@@ -286,7 +286,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 **每个访问都在你掌控中**：
 
-![访问统计数据](./maifle/阅读记录查询结果示例.png)
+![访问统计数据](/maifle/阅读记录查询结果示例.png)
 
 **详细统计信息**：
 - 🕐 **访问时间**：精确到秒的访问记录
@@ -350,7 +350,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-![MaiPDF上传界面](./maifle/MaiPDF中的上传界面.png)
+![MaiPDF上传界面](/maifle/MaiPDF中的上传界面.png)
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
 
@@ -416,7 +416,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-![替换文件功能](./maifle/替换文件的页面.png)
+![替换文件功能](/maifle/替换文件的页面.png)
 
 ### 🔄 文档更新不重来
 

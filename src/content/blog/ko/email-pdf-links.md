@@ -2,7 +2,7 @@
 title: "이메일 첨부파일 대신 PDF 링크 전송: 더 빠르고 전문적"
 description: "큰 이메일 첨부파일을 깔끔한 PDF 링크로 교체하세요. 크기 제한을 우회하고, 전달을 보장하며, 수신자에게 더 나은 모바일 접근성을 제공합니다."
 pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/professional-email.jpg"
+heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
 tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 의사소통"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 이메일 첨부파일은 문제가 많습니다 - 크기 제한, 전달 문제, 모바일 보기 어려움. MaiPDF는 더 나은 해결책을 제공합니다: PDF를 전문적인 링크로 변환하여 이메일 커뮤니케이션을 향상시키고 안정적인 전달을 보장합니다.
 
-![전문적 이메일 커뮤니케이션](/maipdf-images/professional-email.jpg)
+![전문적 이메일 커뮤니케이션](/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png)
 
 ## 기존 이메일 첨부파일의 문제점
 
@@ -24,7 +24,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 **버전 관리**: 여러 이메일 첨부파일은 어떤 버전이 최신인지 혼란을 야기할 수 있습니다.
 
-![이메일 공유를 위한 업로드](/maipdf-images/upload-process.jpg)
+![이메일 공유를 위한 업로드](/2025MayMaiPDF/upload_in_cloudshare.png)
 
 ## 이메일에서 PDF 링크가 더 잘 작동하는 이유
 
@@ -38,7 +38,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 **실시간 통계**: 누가 언제 문서를 봤는지 알 수 있습니다.
 
-![빠른 공유 옵션](/maipdf-images/sharing-options.jpg)
+![빠른 공유 옵션](/2025MayMaiPDF/result_link_qr_cloudshare.png)
 
 ## 실제 사용 사례
 
@@ -52,7 +52,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 **학술 논문**: 연구자들이 이메일 제한 없이 많은 차트와 데이터가 포함된 논문을 공유합니다.
 
-![문서 보기 경험](/maipdf-images/document-viewer.jpg)
+![문서 보기 경험](/maifle/页面上显示水印位置.png)
 
 ## 이메일 PDF 링크 설정
 
@@ -64,7 +64,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 링크는 생성 후 즉시 사용 가능하며, 처리 시간을 기다릴 필요가 없습니다.
 
-![모바일 접근](/maipdf-images/mobile-access.jpg)
+![모바일 접근](/maifle/用户输入短信的页面.jpg)
 
 ## 수신자를 위한 혜택
 
@@ -78,7 +78,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 **안전한 보기**: 악성 소프트웨어 걱정 없이 안전한 환경에서 문서를 봅니다.
 
-![고급 공유 제어](/maipdf-images/advanced-controls.jpg)
+![고급 공유 제어](/2025MayMaiPDF/settings_in_cloudshare.png)
 
 ## 전문적 이메일 모범 사례
 
@@ -94,7 +94,7 @@ tags: ["이메일 첨부파일", "PDF 링크", "이메일 전달", "전문적 �
 
 MaiPDF는 PDF 링크를 전문적인 워크플로우에 원활하게 통합하여 커뮤니케이션 효율성을 향상시킵니다.
 
-![전문적 워크플로우](/maipdf-images/professional-workflow.jpg)
+![전문적 워크플로우](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ## MaiPDF 이메일 링크 시작하기
 

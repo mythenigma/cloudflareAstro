@@ -2,7 +2,7 @@
 title: "Share Your Resume Safely: Create a Secure PDF Link"
 description: "Protect your personal information when job hunting. Learn how to share your resume as a secure, professional PDF link with download control and access tracking."
 pubDate: "Jul 05 2025"
-heroImage: "/maipdf-images/professional-workflow.jpg"
+heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
 tags: ["resume sharing", "job hunting", "PDF security", "secure link"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["resume sharing", "job hunting", "PDF security", "secure link"]
 
 When you're job hunting, your resume is your calling card, but it also contains sensitive personal information. Emailing it as a standard attachment can leave you vulnerable. MaiPDF lets you share your resume as a secure, professional link, giving you full control over your data.
 
-![Secure Resume Sharing](/maipdf-images/professional-workflow.jpg)
+![Secure Resume Sharing](/2025MayMaiPDF/result_link_qr_cloudshare.png)
 
 ## Why Emailing Your Resume is Risky
 
@@ -25,7 +25,7 @@ Using MaiPDF to create a link for your resume solves these problems and adds a l
 ### Control Downloads
 Enable the "View-Only" mode to prevent recruiters and hiring managers from downloading your resume. They can view it online, but they can't keep a local copy. This is perfect for initial applications, protecting your information until you're further along in the hiring process.
 
-![Disable Downloads](/maipdf-images/advanced-controls.jpg)
+![Disable Downloads](/2025MayMaiPDF/settings_in_cloudshare.png)
 
 ### Track When Your Resume is Viewed
 Ever wonder if a recruiter has seen your application? With MaiPDF, you get access to view analytics. You can see when your resume was opened, giving you valuable insight into the application process and helping you time your follow-ups.
