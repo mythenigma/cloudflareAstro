@@ -1,5 +1,5 @@
 ---
-title: "企业文件自毁系统：MaiPDF让敏感文档"阅后即焚"的完整指南"
+title: "企业文件自毁系统：MaiPDF让敏感文档阅后即焚的完整指南"
 description: "深入解析企业级文件自毁需求，详细介绍MaiPDF如何通过访问控制、时间限制、水印追踪等功能实现PDF文档的智能销毁，保护企业数据安全。"
 pubDate: "Jul 16 2025"
 heroImage: "/maifle/setting_example.png"
