@@ -416,6 +416,27 @@ A: 可以设置过期时间，也可以设置为永久有效。你完全控制�
 
 ---
 
+## 📚 相关文章
+
+**高级PDF安全功能**：
+- [如何将PDF文件限制访问次数](/blog/cn/pdf-access-limit-control-guide) - 控制文档访问权限
+- [如何让发送的文件不被复制](/blog/cn/prevent-file-copying-protection-guide) - 防止文件被复制
+- [如何给文件添加DRM数字证书](/blog/cn/drm-digital-certificate-file-protection-guide) - 企业级文件保护
+- [PDF设置不可打印](/blog/cn/pdf-disable-printing-protection-guide) - 控制打印权限
+
+**PDF分享和管理**：
+- [如何把PDF生成链接](/blog/cn/maipdf-link-generation-guide) - PDF链接生成
+- [如何统计外发文件的打开次数](/blog/cn/file-open-statistics-tracking-guide) - 文件使用统计
+- [如何让手机扫一扫就能阅读PDF](/blog/cn/mobile-qr-scan-read-pdf-guide) - 移动端PDF阅读
+- [如何设置PDF到期自毁](/blog/cn/maipdf-expiration-self-destruct-guide) - PDF过期设置
+
+**移动端和二维码解决方案**：
+- [如何把PDF生成H5进行发送](/blog/cn/maipdf-h5-generation-guide) - PDF转H5
+- [PDF设置打开次数](/blog/cn/maipdf-view-count-setting-guide) - 打开次数限制
+- [如何设置PDF到期自毁](/blog/cn/maipdf-expiration-self-destruct-guide) - PDF过期设置
+
+---
+
 **MaiPDF - 让PDF分享变得简单、安全、高效！**
 
 立即访问 [maipdf.com](https://maipdf.com) 开始使用，体验前所未有的PDF二维码分享！

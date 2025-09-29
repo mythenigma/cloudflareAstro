@@ -362,4 +362,25 @@ tags: ["文件保护", "防复制", "文档安全", "版权保护", "文件控�
 
 ---
 
+## 📚 相关文章
+
+**高级PDF安全功能**：
+- [如何将PDF文件限制访问次数](/blog/cn/pdf-access-limit-control-guide) - 控制文档访问权限
+- [如何给文件添加DRM数字证书](/blog/cn/drm-digital-certificate-file-protection-guide) - 企业级文件保护
+- [PDF设置不可打印](/blog/cn/pdf-disable-printing-protection-guide) - 控制打印权限
+- [如何设置PDF到期自毁](/blog/cn/maipdf-expiration-self-destruct-guide) - PDF过期设置
+
+**PDF分享和管理**：
+- [如何把PDF生成链接](/blog/cn/maipdf-link-generation-guide) - PDF链接生成
+- [如何把PDF生成二维码](/blog/cn/maipdf-qrcode-generation-guide) - PDF二维码生成
+- [如何统计外发文件的打开次数](/blog/cn/file-open-statistics-tracking-guide) - 文件使用统计
+- [如何让手机扫一扫就能阅读PDF](/blog/cn/mobile-qr-scan-read-pdf-guide) - 移动端PDF阅读
+
+**移动端和二维码解决方案**：
+- [如何把PDF生成H5进行发送](/blog/cn/maipdf-h5-generation-guide) - PDF转H5
+- [PDF设置打开次数](/blog/cn/maipdf-view-count-setting-guide) - 打开次数限制
+- [如何设置PDF到期自毁](/blog/cn/maipdf-expiration-self-destruct-guide) - PDF过期设置
+
+---
+
 *想要实现文件防复制保护？访问 [MaiPDF.com](https://maipdf.com) 立即体验专业的文件保护功能，确保您的文档安全不被复制！*
