@@ -2,7 +2,7 @@
 title: "Wie generiert man PDF-Sharing-Links mit einem Klick? MaiPDF macht das Teilen von Dateien effizienter!"
 description: "Verabschieden Sie sich von komplexen Methoden zum Dateiaustausch! MaiPDF ermöglicht die Ein-Klick-Generierung von PDF-Sharing-Links, Login-freie Ansicht, E-Mail-Verifizierungsunterstützung und ultraschnellen Zugriff über Cloudflare R2. Machen Sie das Dateiteilen so einfach wie das Senden einer Nachricht."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "/maipdf-images/result of pdf link and qr code.png"
 tags: ["PDF-Sharing", "Dateiverwaltung", "Arbeitseffizienz", "MaiPDF", "Link-Generierung"]
 ---
 

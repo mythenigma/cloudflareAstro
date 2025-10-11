@@ -2,7 +2,7 @@
 title: "MaiPDF：安全分享 PDF 的最佳选择，让你的文件更可控"
 description: "在工作、教学、科研中需要安全分享PDF？MaiPDF提供限制打开次数、禁止下载打印、邮箱验证等多重安全保护，基于Cloudflare R2存储，让PDF分享既高效又安全可控。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-4.jpg"
+heroImage: "/maipdf-images/security setting.png"
 tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 ---
 

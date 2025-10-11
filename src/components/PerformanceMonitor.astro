@@ -1,0 +1,127 @@
+---
+// PerformanceMonitor.astro - Client-side performance monitoring
+---
+
+<script>
+  // Performance monitoring script
+  if (typeof window !== 'undefined') {
+    // Monitor Core Web Vitals
+    function sendToAnalytics(metric) {
+      // You can send this to your analytics service
+      console.log('Performance Metric:', metric);
+      
+      // Example: Send to Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('event', metric.name, {
+          event_category: 'Web Vitals',
+          value: Math.round(metric.value),
+          event_label: metric.id,
+          non_interaction: true,
+        });
+      }
+    }
+
+    // Measure Largest Contentful Paint (LCP)
+    function measureLCP() {
+      new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        const lastEntry = entries[entries.length - 1];
+        sendToAnalytics({
+          name: 'LCP',
+          value: lastEntry.startTime,
+          id: lastEntry.element?.tagName || 'unknown'
+        });
+      }).observe({ entryTypes: ['largest-contentful-paint'] });
+    }
+
+    // Measure First Input Delay (FID)
+    function measureFID() {
+      new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        entries.forEach((entry) => {
+          sendToAnalytics({
+            name: 'FID',
+            value: entry.processingStart - entry.startTime,
+            id: entry.target?.tagName || 'unknown'
+          });
+        });
+      }).observe({ entryTypes: ['first-input'] });
+    }
+
+    // Measure Cumulative Layout Shift (CLS)
+    function measureCLS() {
+      let clsValue = 0;
+      new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        entries.forEach((entry) => {
+          if (!entry.hadRecentInput) {
+            clsValue += entry.value;
+          }
+        });
+        sendToAnalytics({
+          name: 'CLS',
+          value: clsValue,
+          id: 'cumulative'
+        });
+      }).observe({ entryTypes: ['layout-shift'] });
+    }
+
+    // Measure First Contentful Paint (FCP)
+    function measureFCP() {
+      new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        entries.forEach((entry) => {
+          if (entry.name === 'first-contentful-paint') {
+            sendToAnalytics({
+              name: 'FCP',
+              value: entry.startTime,
+              id: 'first-contentful-paint'
+            });
+          }
+        });
+      }).observe({ entryTypes: ['paint'] });
+    }
+
+    // Initialize performance monitoring when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        measureLCP();
+        measureFID();
+        measureCLS();
+        measureFCP();
+      });
+    } else {
+      measureLCP();
+      measureFID();
+      measureCLS();
+      measureFCP();
+    }
+
+    // Monitor page load time
+    window.addEventListener('load', () => {
+      const navigation = performance.getEntriesByType('navigation')[0];
+      if (navigation) {
+        sendToAnalytics({
+          name: 'Page Load Time',
+          value: navigation.loadEventEnd - navigation.fetchStart,
+          id: 'page-load'
+        });
+      }
+    });
+
+    // Monitor resource loading
+    function monitorResources() {
+      const resources = performance.getEntriesByType('resource');
+      resources.forEach((resource) => {
+        if (resource.duration > 1000) { // Log resources taking more than 1 second
+          console.warn('Slow resource:', resource.name, resource.duration + 'ms');
+        }
+      });
+    }
+
+    // Monitor resources after page load
+    window.addEventListener('load', () => {
+      setTimeout(monitorResources, 1000);
+    });
+  }
+</script>

@@ -182,7 +182,7 @@ const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => post
 									offlineKeywords.some(keyword => post.data.title.toLowerCase().includes(keyword)) ||
 									(post.data.tags && post.data.tags.some(tag => offlineKeywords.some(keyword => tag.toLowerCase().includes(keyword))));
 								return (
-									<a href={`/blog/${post.id}/`} class="post-item block">
+									<a href={`/blog/${post.id}`} class="post-item block">
 										<h3 class={`post-title${isOffline ? ' post-title-offline' : ''}`}>{post.data.title}</h3>
 										<p class="post-date">
 											<FormattedDate date={post.data.pubDate} />

@@ -2,7 +2,7 @@
 title: "MaiPDF: Sichererer und effizienterer Online-PDF-Austausch"
 description: "Revolutionieren Sie Ihren PDF-Austausch mit MaiPDFs fortschrittlichen Sicherheitsfunktionen. Keine E-Mail-Anhänge, unbefugten Zugriffe oder verlorenen Dokumente mehr. Entdecken Sie, wie Profis die Dokumentenverteilung revolutionieren."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF", "Sicherheit", "Dokumentenmanagement", "Business-Tools", "Digitale Transformation"]
 ---
 

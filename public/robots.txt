@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://article.maipdf.com/sitemap-index.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Disallow certain paths
+Disallow: /blog-backup/
+Disallow: /_astro/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow important files
+Allow: /favicon.svg
+Allow: /manifest.json
+Allow: /search-index.json

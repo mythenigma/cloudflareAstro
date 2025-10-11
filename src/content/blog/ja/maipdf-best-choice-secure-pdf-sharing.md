@@ -2,7 +2,7 @@
 title: "MaiPDF：安全なPDF共有の最良の選択 - ファイルを完全にコントロール"
 description: "仕事、教育、研究で安全なPDF共有が必要ですか？MaiPDFは閲覧制限、ダウンロード/印刷制限、メール認証などのセキュリティ機能を提供。Cloudflare R2による企業レベルの保護。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-4.jpg"
+heroImage: "/maipdf-images/security setting.png"
 tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", "アクセス制御"]
 ---
 

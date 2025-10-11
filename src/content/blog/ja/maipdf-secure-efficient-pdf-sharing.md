@@ -2,7 +2,7 @@
 title: "MaiPDF：より安全で効率的なオンラインPDF共有方式"
 description: "MaiPDFの高度なセキュリティ機能でPDF共有を変革。もうメール添付ファイル、不正アクセス、文書紛失はありません。専門家がどのように文書配布を革新しているかをご紹介します。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF", "セキュリティ", "文書管理", "ビジネスツール", "デジタル変革"]
 ---
 

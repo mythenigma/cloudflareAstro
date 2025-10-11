@@ -2,7 +2,7 @@
 title: "MaiPDF: Die beste Wahl für sicheres PDF-Sharing - Vollständige Dateikontrolle"
 description: "Benötigen Sie sicheres PDF-Sharing für Arbeit, Bildung oder Forschung? MaiPDF bietet Anzeigenlimits, Download-/Druckbeschränkungen, E-Mail-Verifizierung und weitere Sicherheitsfunktionen. Basiert auf Cloudflare R2 für Unternehmens-Schutz."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-4.jpg"
+heroImage: "/maipdf-images/security setting.png"
 tags: ["PDF Sicherheit", "Dateischutz", "Sicheres Teilen", "MaiPDF", "Zugriffskontrolle"]
 ---
 

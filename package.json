@@ -40,14 +40,18 @@
   },
   "scripts": {
     "astro": "astro",
-    "build": "node src/scripts/generate-search-index.js && astro build",
+    "build": "npm run generate-search-index && npm run optimize-images && astro build",
+    "build:fast": "astro build",
     "check": "astro build && tsc && wrangler deploy --dry-run",
-    "deploy": "node src/scripts/generate-search-index.js && astro build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:fast": "npm run build:fast && wrangler deploy",
     "dev": "astro dev",
     "preview": "astro build && wrangler dev",
     "types": "wrangler types",
     "generate-search-index": "node src/scripts/generate-search-index.js",
-    "optimize-images": "node src/scripts/optimize-images.js"
+    "optimize-images": "node src/scripts/optimize-images.js",
+    "analyze": "npm run build && npx astro build --mode analyze",
+    "lighthouse": "npm run build && npx lighthouse http://localhost:4321 --output html --output-path ./lighthouse-report.html"
   },
   "type": "module"
 }

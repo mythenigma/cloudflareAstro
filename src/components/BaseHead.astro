@@ -2,27 +2,76 @@
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
+import StructuredData from './StructuredData.astro';
 
 interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	article?: {
+		pubDate: string;
+		updatedDate?: string;
+		tags?: string[];
+	};
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
+const { title, description, image = '/maipdf-images/maipdf landing page.png', article } = Astro.props;
+
+// Generate breadcrumb data
+const breadcrumbItems = [
+	{ name: "Home", url: "https://article.maipdf.com" }
+];
+
+if (Astro.url.pathname.startsWith('/blog')) {
+	breadcrumbItems.push({ name: "Blog", url: "https://article.maipdf.com/blog" });
+	
+	// Add language breadcrumb if applicable
+	const pathParts = Astro.url.pathname.split('/').filter(Boolean);
+	if (pathParts.length > 1) {
+		const language = pathParts[1];
+		const languageNames = {
+			'en': 'English',
+			'cn': '中文',
+			'fr': 'Français',
+			'de': 'Deutsch',
+			'ja': '日本語',
+			'ko': '한국어',
+			'es': 'Español'
+		};
+		if (languageNames[language]) {
+			breadcrumbItems.push({ 
+				name: languageNames[language], 
+				url: `https://article.maipdf.com/blog/${language}` 
+			});
+		}
+	}
+	
+	// Add current page
+	if (pathParts.length > 2) {
+		breadcrumbItems.push({ 
+			name: title, 
+			url: canonicalURL.href 
+		});
+	}
+}
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="manifest" href="/manifest.json" />
 <meta name="generator" content={Astro.generator} />
 
-<!-- Font preloads -->
+<!-- Font preloads - Critical fonts only -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
+
+<!-- Preconnect to Google Fonts for better performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
@@ -48,6 +97,45 @@ const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 
 <!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9224406325142860" crossorigin="anonymous"></script>
+
+<!-- Additional SEO Meta Tags -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow" />
+<meta name="bingbot" content="index, follow" />
+
+<!-- Language and Region -->
+<meta name="language" content="en" />
+<meta name="geo.region" content="US" />
+<meta name="geo.placename" content="United States" />
+
+<!-- Mobile App Meta Tags -->
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="MaiPDF Articles" />
+
+<!-- Theme Color -->
+<meta name="theme-color" content="#2337ff" />
+<meta name="msapplication-TileColor" content="#2337ff" />
+
+<!-- Structured Data -->
+<StructuredData type="WebSite" data={{ name: "MaiPDF Articles", description: "Learn about PDF security, sharing, and management with MaiPDF" }} />
+<StructuredData type="Organization" data={{}} />
+<StructuredData type="BreadcrumbList" data={{ items: breadcrumbItems }} />
+
+{article && (
+	<StructuredData 
+		type="Article" 
+		data={{
+			title,
+			description,
+			image,
+			pubDate: article.pubDate,
+			updatedDate: article.updatedDate,
+			tags: article.tags
+		}} 
+	/>
+)}
 
 <!-- Removing CSP temporarily to allow AdSense to function correctly -->
 <!-- AdSense often requires dynamic loading of resources which makes CSP challenging -->

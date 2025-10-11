@@ -2,7 +2,7 @@
 title: "PDF 如何一键生成分享链接？MaiPDF 让文件分享更高效！"
 description: "告别复杂的文件分享方式！MaiPDF让PDF文件一键生成分享链接，免登录查看，支持邮箱验证，基于Cloudflare R2提供极速访问。让文件分享像发消息一样简单。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "/maipdf-images/result of pdf link and qr code.png"
 tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
 ---
 

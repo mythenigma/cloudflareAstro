@@ -2,7 +2,7 @@
 title: "PDFをQRコードに変換する方法？MaiPDFでワンクリック解決！"
 description: "より効率的なPDF共有をお求めですか？MaiPDFでPDFのQRコードをワンクリック生成。スキャンで即表示、アクセス制御、メール認証、ダウンロード制限などのセキュリティ機能付き。会議、教育、ビジネスシーンに最適。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF QRコード", "ファイル共有", "MaiPDF", "QRコード生成", "モバイルオフィス"]
 ---
 

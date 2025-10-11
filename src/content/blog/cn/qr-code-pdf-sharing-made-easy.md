@@ -2,7 +2,7 @@
 title: "如何把 PDF 生成为二维码？用 MaiPDF 一键搞定！"
 description: "想让PDF分享更高效？MaiPDF帮您一键生成PDF二维码，扫码即看，支持访问控制、邮箱验证、下载限制等安全功能。适用于会议、教学、企业内部等多种场景。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF二维码", "文件分享", "MaiPDF", "二维码生成", "移动办公"]
 ---
 

@@ -1,0 +1,104 @@
+---
+// StructuredData.astro - JSON-LD structured data for better SEO
+interface Props {
+  type: 'Article' | 'WebSite' | 'Organization' | 'BreadcrumbList';
+  data: any;
+}
+
+const { type, data } = Astro.props;
+
+// Generate structured data based on type
+function generateStructuredData(type: string, data: any) {
+  const baseUrl = 'https://article.maipdf.com';
+  
+  switch (type) {
+    case 'WebSite':
+      return {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": data.name || "MaiPDF Articles",
+        "url": baseUrl,
+        "description": data.description || "Learn about PDF security, sharing, and management with MaiPDF",
+        "publisher": {
+          "@type": "Organization",
+          "name": "MaiPDF",
+          "url": "https://maipdf.com"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${baseUrl}/blog?q={search_term_string}`
+          },
+          "query-input": "required name=search_term_string"
+        }
+      };
+      
+    case 'Article':
+      return {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": data.title,
+        "description": data.description,
+        "image": data.image ? new URL(data.image, baseUrl).href : undefined,
+        "author": {
+          "@type": "Organization",
+          "name": "MaiPDF Team",
+          "url": "https://maipdf.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "MaiPDF",
+          "url": "https://maipdf.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/favicon.svg`
+          }
+        },
+        "datePublished": data.pubDate,
+        "dateModified": data.updatedDate || data.pubDate,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": new URL(Astro.url.pathname, baseUrl).href
+        },
+        "articleSection": data.tags?.[0] || "PDF Management",
+        "keywords": data.tags?.join(', ') || "PDF, security, sharing, management"
+      };
+      
+    case 'Organization':
+      return {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MaiPDF",
+        "url": "https://maipdf.com",
+        "logo": `${baseUrl}/favicon.svg`,
+        "description": "Secure PDF sharing and management platform",
+        "sameAs": [
+          "https://maipdf.com",
+          "https://maipdf.cn"
+        ]
+      };
+      
+    case 'BreadcrumbList':
+      return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": data.items?.map((item: any, index: number) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "name": item.name,
+          "item": item.url
+        })) || []
+      };
+      
+    default:
+      return {};
+  }
+}
+
+const structuredData = generateStructuredData(type, data);
+---
+
+{Object.keys(structuredData).length > 0 && (
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+)}

@@ -40,7 +40,7 @@ async function generateSearchIndex() {
     const fileSlug = fileName.replace(/\.md$/, '');
     
     // Construct URL with language path included
-    const url = `/blog/${language}/${fileSlug}/`;
+    const url = `/blog/${language}/${fileSlug}`;
     
     // Extract keywords from the file name by splitting on hyphens, underscores, and case changes
     const fileNameKeywords = fileSlug

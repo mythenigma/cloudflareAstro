@@ -2,7 +2,7 @@
 title: "PDFを一键でシェアリンクを生成する方法は？MaiPDFでファイル共有をより効率的に！"
 description: "複雑なファイル共有方法とお別れ！MaiPDFでPDFファイルのワンクリック共有リンク生成、ログイン不要での閲覧、メール認証サポート、Cloudflare R2による超高速アクセスを実現。ファイル共有をメッセージ送信のように簡単にします。"
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "/maipdf-images/result of pdf link and qr code.png"
 tags: ["PDF共有", "ファイル管理", "作業効率", "MaiPDF", "リンク生成"]
 ---
 

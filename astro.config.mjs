@@ -10,6 +10,7 @@ import rehypeRaw from 'rehype-raw';
 // https://astro.build/config
 export default defineConfig({
   site: "https://article.maipdf.com",
+  trailingSlash: 'never', // 统一使用不带尾部斜杠的URL结构
   integrations: [
     mdx({
       // Apply the image optimization to MDX files too
@@ -24,14 +25,23 @@ export default defineConfig({
         'https://article.maipdf.com/about',
         'https://article.maipdf.com/contact',
         'https://article.maipdf.com/pricing'
-      ],
+      ]
     })
   ],
   adapter: cloudflare({
     platformProxy: {
       enabled: true,
     },
-  }),  markdown: {
+  }),
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        limitInputPixels: false,
+      },
+    },
+  },
+  markdown: {
     // remarkPlugins: [remarkOptimizeImages],
     rehypePlugins: [
       rehypeRaw,

@@ -2,7 +2,7 @@
 title: "Wie verwandelt man PDFs in QR-Codes? Mit MaiPDF ein Klick und fertig!"
 description: "Wollen Sie effizienteres PDF-Sharing? MaiPDF hilft Ihnen, PDF-QR-Codes mit einem Klick zu generieren. Scannen zum sofortigen Anzeigen, mit Zugriffskontrolle, E-Mail-Verifizierung, Download-Beschränkungen und weiteren Sicherheitsfunktionen. Perfekt für Meetings, Bildung und Geschäftsszenarien."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF QR-Code", "Datei-Sharing", "MaiPDF", "QR-Code Generator", "Mobile Office"]
 ---
 

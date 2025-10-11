@@ -2,7 +2,7 @@
 title: "How to Convert PDFs to QR Codes? MaiPDF One-Click Solution!"
 description: "Want more efficient PDF sharing? MaiPDF helps you generate PDF QR codes with one click. Scan to view instantly, with access control, email verification, download restrictions and more security features. Perfect for meetings, education, and business scenarios."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF QR Code", "File Sharing", "MaiPDF", "QR Code Generator", "Mobile Office"]
 ---
 

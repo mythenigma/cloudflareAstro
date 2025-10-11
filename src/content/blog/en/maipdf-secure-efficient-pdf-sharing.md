@@ -2,7 +2,7 @@
 title: "MaiPDF: The Smarter Way to Share PDFs Securely and Efficiently"
 description: "Transform your PDF sharing with MaiPDF's advanced security features. No more email attachments, unauthorized access, or lost documents. Discover how professionals are revolutionizing document distribution."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/maipdf-images/maipdf landing page.png"
 tags: ["PDF", "Security", "Document Management", "Business Tools", "Digital Transformation"]
 ---
 

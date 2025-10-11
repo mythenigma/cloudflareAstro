@@ -2,7 +2,7 @@
 title: "How to Generate PDF Sharing Links with One Click? MaiPDF Makes File Sharing More Efficient!"
 description: "Say goodbye to complex file sharing methods! MaiPDF enables one-click PDF sharing link generation, no-login viewing, email verification support, and ultra-fast access powered by Cloudflare R2. Make file sharing as simple as sending a message."
 pubDate: "Sep 09 2025"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "/maipdf-images/result of pdf link and qr code.png"
 tags: ["PDF Sharing", "File Management", "Work Efficiency", "MaiPDF", "Link Generation"]
 ---
 

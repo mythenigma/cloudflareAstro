@@ -44,7 +44,7 @@ function insertContextualLinks(content) {
     }
     
     if (keyword && keyword.length > 4) {
-      linkMap[keyword] = `/blog/${post.slug}`;
+      linkMap[keyword] = `/blog/${post.id}`;
     }
   });
   
