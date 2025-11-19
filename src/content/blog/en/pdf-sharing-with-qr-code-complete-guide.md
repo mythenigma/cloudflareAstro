@@ -468,3 +468,4 @@ MaiPDF offers free QR code generation with all security features. Upload your PD
 - [How to Share PDFs with Access Control and View Limits](/blog/en/how-to-share-pdfs-with-access-control-and-view-limits)
 - [Mobile QR Code PDF Reading: Complete Guide](/blog/en/mobile-qr-code-pdf-reading)
 
+

@@ -435,3 +435,4 @@ MaiPDF offers free access control and view limit features with no registration r
 - [How to Share PDFs That Recipients Can't Download or Copy](/blog/en/how-to-share-pdfs-that-recipients-cant-download-or-copy)
 - [PDF Access Control: Complete Guide](/blog/en/pdf-access-control-setting-view-limits-time-restrictions)
 
+
