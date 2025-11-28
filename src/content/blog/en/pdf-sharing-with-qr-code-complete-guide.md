@@ -469,3 +469,4 @@ MaiPDF offers free QR code generation with all security features. Upload your PD
 - [Mobile QR Code PDF Reading: Complete Guide](/blog/en/mobile-qr-code-pdf-reading)
 
 
+
