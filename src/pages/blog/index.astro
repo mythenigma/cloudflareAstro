@@ -115,9 +115,22 @@ const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => post
 			display: block;
 		}
 		
-		 .post-title-offline {
-			color: #14b8a6;
+		.post-title-offline {
+			color: #667eea;
 			font-weight: 700;
+			position: relative;
+			padding-left: 0.75rem;
+		}
+		
+		.post-title-offline::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 4px;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			border-radius: 2px;
 		}
 		
 		.post-date {
@@ -176,11 +189,15 @@ const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => post
 									"离线",    // Chinese
 									"オフライン", // Japanese
 									"오프라인", // Korean
-									"hors ligne" // French
+									"hors ligne", // French
+									"offline", // German
+									"sin conexión" // Spanish
 								];
 								const isOffline =
 									offlineKeywords.some(keyword => post.data.title.toLowerCase().includes(keyword)) ||
-									(post.data.tags && post.data.tags.some(tag => offlineKeywords.some(keyword => tag.toLowerCase().includes(keyword))));
+									(post.data.tags && post.data.tags.some(tag => offlineKeywords.some(keyword => tag.toLowerCase().includes(keyword)))) ||
+									post.id.toLowerCase().includes('offline') ||
+									post.id.toLowerCase().includes('离线');
 								return (
 									<a href={`/blog/${post.id}`} class="post-item block">
 										<h3 class={`post-title${isOffline ? ' post-title-offline' : ''}`}>{post.data.title}</h3>

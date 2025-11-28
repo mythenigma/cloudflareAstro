@@ -17,7 +17,7 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
 <div class="feature-section">
   <div class="feature-content">
     <p><strong>Offline Readable:</strong> Converts original PDFs into standalone HTML packages that can be opened on a local machine. As long as the local browser supports HTML5/JavaScript, it can be read offline.</p>
-    <p><strong>Embedded DRM:</strong> HTML has built-in scripts that perform permission checks locally (view count, expiration date, etc.) and record reading logs, similar to Adobe DRM or Locklizard PDC, but without requiring specialized readers.</p>
+    <p><strong>Embedded DRM:</strong> HTML has built-in scripts that perform permission checks locally (view count, expiration date, etc.), similar to Adobe DRM or Locklizard PDC, but without requiring specialized readers.</p>
   </div>
   <div class="feature-image">
     <img src="/offlinepages/security_setting.png" alt="MaiPDF security settings interface" class="medium">
@@ -47,14 +47,9 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
         <td>JS intercepts common shortcuts and menu options</td>
       </tr>
       <tr>
-        <td>Encryption Method</td>
-        <td>Server-side AES-256 encryption during upload → generates encrypted HTML</td>
-        <td>Key stored in script, requires validation process to decrypt</td>
-      </tr>
-      <tr>
-        <td>Tracking & Statistics</td>
-        <td>Locally records first/last open time, IP, device info, synchronizes with server</td>
-        <td>Uploads only when user's device is online</td>
+        <td>Network Verification</td>
+        <td>Requires network connection for initial verification when opening</td>
+        <td>After verification, can be viewed offline; logs sync when online</td>
       </tr>
       <tr>
         <td>Cross-platform</td>
@@ -116,7 +111,7 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
     <div class="step-number">5</div>
     <div class="step-content">
       <h3>Local Opening</h3>
-      <p>Recipients double-click index.html to read offline; if their device is online, logs are transmitted in the background.</p>
+      <p>Recipients double-click index.html to open. Initial network verification is required, then the file can be viewed offline. If device is online, logs are transmitted in the background.</p>
       <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="Opening HTML file locally" class="small">
     </div>
   </div>
@@ -153,13 +148,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
     </div>
   </div>
   
-  <div class="tech-item">
-    <div class="tech-icon">💧</div>
-    <div class="tech-content">
-      <h3>Optional Watermarking</h3>
-      <p>Offline package can embed dynamic watermarks (Email, timestamps), rendered on Canvas layer.</p>
-    </div>
-  </div>
 </div>
 
 ## 5️⃣ Common Limitations & Considerations
@@ -179,15 +167,11 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       </tr>
       <tr>
         <td>Browser Compatibility</td>
-        <td>Requires JavaScript enabled; minimal/privacy browsers may block local storage, preventing statistics collection.</td>
-      </tr>
-      <tr>
-        <td>Delayed Offline Statistics</td>
-        <td>If readers remain offline, logs will only transmit after they connect to the internet.</td>
+        <td>Requires JavaScript enabled; minimal/privacy browsers may block local storage, preventing view count tracking.</td>
       </tr>
       <tr>
         <td>Secondary Distribution Risk</td>
-        <td>While view limits/dates can be set, screen recording or photos can't be prevented. Sensitive content still requires legal protection or watermarking.</td>
+        <td>While view limits/dates can be set, screen recording or photos can't be prevented. Sensitive content still requires legal protection.</td>
       </tr>
       <tr>
         <td>Free Allocation</td>
@@ -239,20 +223,39 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
 
 ## You might also like:
 
-- [MaiPDF Dynamic Watermark Feature: Precise Tracking of Reading Behavior](../../en/dynamic-watermarks-on-pdf/)
+- [How to Share PDFs Securely Online with Dynamic Watermarks](../../en/how-to-share-pdfs-securely-online-with-dynamic-watermarks/)
 - [Setting PDF View Limits: Effectively Control Document Distribution](../../en/setting-view-limits/)
 - [Email Verification: Enhancing PDF Document Access Security](../../en/email-verification/)
 
 <style>
   /* Base styles */
   .intro-panel {
-    background: linear-gradient(to right, #f8fafc, #e2e8f0);
-    border-left: 4px solid #3b82f6;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
     font-size: 1.1rem;
     line-height: 1.6;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .intro-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none;
+  }
+  
+  .intro-panel p {
+    position: relative;
+    z-index: 1;
   }
   
   /* Feature area layout */
