@@ -1,0 +1,50 @@
+# CloudflareAstro Blog Project - LLM Configuration
+
+## Project Overview
+- **Framework**: Astro 5.6.0
+- **Deployment**: Cloudflare Workers
+- **Type**: Static Blog Site with Content Collections
+- **Domain**: article.maipdf.com
+
+## Content Structure
+- **Blog Posts**: 400+ articles in multiple languages (en, cn, fr, de, ja, ko, es)
+- **Content Types**:
+  - Online PDF Sharing (Blue theme)
+  - Offline PDF DRM (Purple theme)
+  - Maiimg Image Sharing (Orange theme)
+
+## Key Features
+- SEO optimized with sitemap generation
+- RSS feed support
+- Search index with 7000+ entries
+- Image optimization (WebP conversion)
+- Multi-language support
+
+## Build Commands
+- `npm run build` - Full build with search index and image optimization
+- `npm run build:fast` - Fast build without optimization
+- `npm run dev` - Development server
+
+## Sitemap
+- Auto-generated via @astrojs/sitemap
+- Location: dist/sitemap-index.xml, dist/sitemap-0.xml
+- Updated on each build
+
+## Content Guidelines
+- Articles should target long-tail keywords
+- Include relevant images from public/ directories
+- Use appropriate color themes (blue/purple/orange) based on content type
+- Set pubDate appropriately for scheduling
+
+## Image Directories
+- /public/2025MayMaiPDF/ - Online PDF sharing screenshots
+- /public/offlinepages/ - Offline PDF DRM screenshots
+- /public/maiimg/ - Maiimg platform screenshots
+- /public/maipdf-images/ - General MaiPDF images
+
+## Notes
+- Blog list page automatically highlights offline articles with purple color
+- Articles with "offline" in title/tags/slug get special styling
+- Maiimg articles use orange gradient theme
+- All articles should include proper frontmatter with title, description, pubDate, heroImage, tags
+

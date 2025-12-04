@@ -382,3 +382,4 @@ MaiPDF offers comprehensive settings configuration for free with no registration
 - [PDF Access Control: Complete Guide](/blog/en/pdf-access-control-complete-guide)
 - [How to Protect PDF When Sharing Online](/blog/en/how-to-protect-pdf-when-sharing-online)
 
+

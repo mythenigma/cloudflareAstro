@@ -60,10 +60,71 @@ const buttonText = lang === 'zh-CN' ? '立即体验 MaiPDF' : 'Try MaiPDF Now';
   </article>
 </div>
 
-<!-- Script for handling images and smooth scrolling -->
+<!-- Mermaid script for rendering flowcharts -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
-  // Convert regular img tags to figure with captions based on alt text
   document.addEventListener('DOMContentLoaded', () => {
+    // Initialize Mermaid
+    if (typeof mermaid !== 'undefined') {
+      mermaid.initialize({ 
+        startOnLoad: true,
+        theme: 'default',
+        flowchart: {
+          useMaxWidth: true,
+          htmlLabels: true,
+          curve: 'basis'
+        }
+      });
+      
+      // Find all mermaid code blocks and convert them
+      // Check for code blocks with class containing 'mermaid' or Mermaid syntax
+      const allCodeBlocks = document.querySelectorAll('pre code');
+      const mermaidKeywords = ['flowchart', 'graph', 'gantt', 'sequenceDiagram', 'classDiagram', 'stateDiagram', 'erDiagram', 'journey', 'gitgraph', 'pie', 'requirement'];
+      
+      const mermaidBlocks = Array.from(allCodeBlocks).filter(block => {
+        const classList = block.className || '';
+        const parentPre = block.parentElement;
+        const preClass = parentPre ? (parentPre.className || '') : '';
+        const textContent = block.textContent.trim();
+        
+        // Check if it's marked as mermaid (language-mermaid, mermaid, etc.)
+        if (classList.includes('mermaid') || preClass.includes('mermaid') || 
+            classList.includes('language-mermaid')) {
+          return true;
+        }
+        
+        // Check if it starts with any Mermaid keyword
+        return mermaidKeywords.some(keyword => textContent.startsWith(keyword));
+      });
+      
+      console.log('Found mermaid blocks:', mermaidBlocks.length);
+      
+      mermaidBlocks.forEach((block, index) => {
+        const mermaidCode = block.textContent.trim();
+        if (mermaidCode) {
+          const mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = mermaidCode;
+          mermaidDiv.id = `mermaid-${index}`;
+          
+          // Replace the code block with the mermaid div
+          const pre = block.parentElement;
+          if (pre && pre.parentElement) {
+            pre.parentElement.replaceChild(mermaidDiv, pre);
+            console.log('Converted mermaid block:', index);
+          }
+        }
+      });
+      
+      // Wait a bit for DOM to update, then render all mermaid diagrams
+      setTimeout(() => {
+        const mermaidElements = document.querySelectorAll('.mermaid');
+        console.log('Mermaid elements to render:', mermaidElements.length);
+        if (mermaidElements.length > 0) {
+          mermaid.run();
+        }
+      }, 100);
+    }
     // Fix any image paths that might be incorrect
     document.querySelectorAll('img').forEach(img => {
       if (img.src.includes('../../../public/')) {
@@ -337,6 +398,23 @@ const buttonText = lang === 'zh-CN' ? '立即体验 MaiPDF' : 'Try MaiPDF Now';
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-size: 0.9em;
+  }
+  
+  /* Mermaid diagram styling */
+  .mermaid {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-x: auto;
+  }
+  
+  /* Hide mermaid code blocks that haven't been converted yet */
+  pre code.language-mermaid,
+  pre code[class*="mermaid"] {
+    display: none;
   }
   
   /* Links */

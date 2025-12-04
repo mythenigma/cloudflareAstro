@@ -384,3 +384,4 @@ MaiPDF offers all access control features for free with no registration required
 - [PDF Security Best Practices: Complete Guide](/blog/en/pdf-security-best-practices-complete-guide-document-protection)
 - [How to Protect PDF When Sharing Online](/blog/en/how-to-protect-pdf-when-sharing-online)
 
+
