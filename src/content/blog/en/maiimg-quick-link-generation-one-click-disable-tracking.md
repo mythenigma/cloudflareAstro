@@ -1,7 +1,7 @@
 ---
 title: "Maiimg: Quick Link Generation, One-Click Disable, and Access Tracking"
 description: "Maiimg makes image sharing simple: instant link generation, one-click disable, and real-time access tracking. No registration required, completely free, professional image sharing solution."
-pubDate: "Dec 04 2025"
+pubDate: "Dec 05 2025"
 heroImage: "/maiimg/maiimg-head.png"
 tags: ["Maiimg", "Quick Links", "One-Click Disable", "Access Tracking", "Image Sharing"]
 ---
@@ -147,6 +147,26 @@ tags: ["Maiimg", "Quick Links", "One-Click Disable", "Access Tracking", "Image S
 
 **Scenario: Event photo sharing**
 
+```mermaid
+flowchart TD
+    Start([Start]) --> A[Upload Event Photos]
+    A --> B[Quick Link Generation]
+    B --> C[Generate QR Code]
+    C --> D[Share with Participants]
+    D --> E[Participants Open Link]
+    E --> F[View Access Records]
+    F --> G[Analyze Spread Effectiveness]
+    G --> H[Understand Engagement]
+    H --> I{One Week After Event?}
+    I -->|Yes| J[One-Click Disable]
+    I -->|No| K[Continue Sharing]
+    J --> L[Protect Participant Privacy]
+    L --> End([End])
+    K --> E
+```
+
+**Process:**
+
 1. **Quick link generation**
    - Event ends, upload photos immediately
    - Links generated in seconds
@@ -178,6 +198,24 @@ tags: ["Maiimg", "Quick Links", "One-Click Disable", "Access Tracking", "Image S
 
 **Need:** Quickly share product images with clients, understand viewing situation, close access after campaign
 
+```mermaid
+flowchart TD
+    Start([Start]) --> A[Upload Product Images]
+    A --> B[Quick Link Generation]
+    B --> C[Share Link with Clients]
+    C --> D[Client Opens Link]
+    D --> E[View Access Records]
+    E --> F{Client Viewed?}
+    F -->|Yes| G[Follow Up Client]
+    F -->|No| H[Remind Client]
+    G --> I{Campaign Ended?}
+    H --> I
+    I -->|Yes| J[One-Click Disable]
+    I -->|No| K[Keep Link Active]
+    J --> End([Complete])
+    K --> D
+```
+
 **Solution:**
 1. Upload product images, **quick link generation**
 2. Share link with clients
@@ -187,6 +225,25 @@ tags: ["Maiimg", "Quick Links", "One-Click Disable", "Access Tracking", "Image S
 ### Case 2: Event Photo Instant Sharing
 
 **Need:** Share event photos immediately, track spread effectiveness, protect privacy after event
+
+```mermaid
+flowchart TD
+    Start([Start]) --> A[Upload Photos at Event]
+    A --> B[Quick Link and QR Code Generation]
+    B --> C[Display QR Code Offline]
+    B --> D[Share Link Online]
+    C --> E[Participants Scan QR Code]
+    D --> F[User Clicks Link]
+    E --> G[View Access Records]
+    F --> G
+    G --> H[Analyze Spread Effectiveness]
+    H --> I{One Week After Event?}
+    I -->|Yes| J[One-Click Disable]
+    I -->|No| K[Continue Sharing]
+    J --> L[Protect Participant Privacy]
+    L --> End([Complete])
+    K --> D
+```
 
 **Solution:**
 1. Upload photos at event, **quick link and QR code generation**

@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF: Quick Link Generation, One-Click Disable, and Access Tracking"
 description: "MaiPDF makes PDF sharing simple: instant link generation, one-click disable, and real-time access tracking. No registration required, completely free, professional PDF sharing solution."
-pubDate: "Dec 04 2025"
+pubDate: "Dec 05 2025"
 heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
 tags: ["MaiPDF", "Quick Links", "One-Click Disable", "Access Tracking", "PDF Sharing"]
 ---
@@ -151,6 +151,27 @@ tags: ["MaiPDF", "Quick Links", "One-Click Disable", "Access Tracking", "PDF Sha
 
 **Scenario: Business contract sharing**
 
+```mermaid
+flowchart TD
+    Start([Start]) --> A[Upload Contract PDF]
+    A --> B[Quick Link Generation]
+    B --> C[Share Link with Clients]
+    C --> D[Client Opens Link]
+    D --> E[View Access Records]
+    E --> F{Client Viewed?}
+    F -->|Yes| G[Analyze Client Focus]
+    F -->|No| H[Remind Client]
+    G --> I{Contract Signed?}
+    H --> I
+    I -->|Yes| J[One-Click Disable]
+    I -->|No| K[Keep Link Active]
+    J --> L[Protect Contract Privacy]
+    L --> End([End])
+    K --> D
+```
+
+**Process:**
+
 1. **Quick link generation**
    - Upload contract PDF
    - Links generated in seconds
@@ -183,6 +204,24 @@ tags: ["MaiPDF", "Quick Links", "One-Click Disable", "Access Tracking", "PDF Sha
 
 **Need:** Quickly share contract with clients, understand viewing situation, close access after signing
 
+```mermaid
+flowchart TD
+    Start([Start]) --> A[Upload Contract PDF]
+    A --> B[Quick Link Generation]
+    B --> C[Share Link with Clients]
+    C --> D[Client Opens Link]
+    D --> E[View Access Records]
+    E --> F{Client Viewed?}
+    F -->|Yes| G[Follow Up Client]
+    F -->|No| H[Remind Client]
+    G --> I{Contract Signed?}
+    H --> I
+    I -->|Yes| J[One-Click Disable]
+    I -->|No| K[Keep Link Active]
+    J --> End([Complete])
+    K --> D
+```
+
 **Solution:**
 1. Upload contract PDF, **quick link generation**
 2. Share link with clients
@@ -192,6 +231,24 @@ tags: ["MaiPDF", "Quick Links", "One-Click Disable", "Access Tracking", "PDF Sha
 ### Case 2: Product Manual Instant Sharing
 
 **Need:** Quickly share product manual with potential clients, track viewing effectiveness, protect privacy after campaign
+
+```mermaid
+flowchart TD
+    Start([Start]) --> A[Upload Product Manual PDF]
+    A --> B[Quick Link and QR Code Generation]
+    B --> C[Display QR Code Offline]
+    B --> D[Share Link Online]
+    C --> E[Client Scans QR Code]
+    D --> F[User Clicks Link]
+    E --> G[View Access Records]
+    F --> G
+    G --> H[Analyze Spread Effectiveness]
+    H --> I{Campaign Ended?}
+    I -->|Yes| J[One-Click Disable]
+    I -->|No| K[Continue Sharing]
+    J --> End([Complete])
+    K --> D
+```
 
 **Solution:**
 1. Upload product manual PDF, **quick link and QR code generation**
