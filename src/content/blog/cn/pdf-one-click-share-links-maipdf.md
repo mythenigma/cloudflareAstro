@@ -236,6 +236,9 @@ tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
     padding: 1.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
+    overflow: visible;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .scenario-card:hover {
@@ -253,12 +256,16 @@ tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: #2d3748;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .scenario-desc {
     color: #4a5568;
     font-size: 0.9rem;
     line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .comparison-section {
@@ -497,27 +504,20 @@ MaiPDF 使用 **Cloudflare R2** 作为底层文件存储技术：
 
 <div class="scenarios-section">
   <h2 style="text-align: center; margin-bottom: 2rem; color: #2d3748;">MaiPDF 适用场景</h2>
-  
   <div class="scenario-grid">
     <div class="scenario-card">
       <span class="scenario-emoji">💼</span>
       <h3 class="scenario-title">工作场景</h3>
       <p class="scenario-desc">设计方案、项目报告、报价单，一键生成链接发给客户，更高效专业。</p>
-    </div>
-
-    <div class="scenario-card">
+    </div><div class="scenario-card">
       <span class="scenario-emoji">📚</span>
       <h3 class="scenario-title">教育教学</h3>
       <p class="scenario-desc">老师上传讲义、试卷、案例，学生直接点链接查看，免去下载麻烦。</p>
-    </div>
-
-    <div class="scenario-card">
+    </div><div class="scenario-card">
       <span class="scenario-emoji">🔬</span>
       <h3 class="scenario-title">学术研究</h3>
       <p class="scenario-desc">分享论文、参考文献，避免邮件附件过大或权限受限的问题。</p>
-    </div>
-
-    <div class="scenario-card">
+    </div><div class="scenario-card">
       <span class="scenario-emoji">👥</span>
       <h3 class="scenario-title">团队协作</h3>
       <p class="scenario-desc">项目文件集中在 MaiPDF，统一生成链接分享，管理方便高效。</p>
@@ -589,13 +589,11 @@ MaiPDF 使用 **Cloudflare R2** 作为底层文件存储技术：
       <h3 class="step-title">上传 PDF</h3>
       <p class="step-desc">拖拽或选择要分享的PDF文件</p>
     </div>
-
     <div class="step-item">
       <div class="step-number">2</div>
       <h3 class="step-title">设置权限</h3>
       <p class="step-desc">选择访问方式和安全级别</p>
     </div>
-
     <div class="step-item">
       <div class="step-number">3</div>
       <h3 class="step-title">分享链接</h3>

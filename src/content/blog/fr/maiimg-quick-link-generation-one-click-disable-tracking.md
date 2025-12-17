@@ -161,3 +161,4 @@ flowchart TD
 3. **Consulter les enregistrements d'ouverture**, comprendre l'efficacité de diffusion des photos
 4. Une semaine après l'événement, **désactiver le lien en un clic**
 
+

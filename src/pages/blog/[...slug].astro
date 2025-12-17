@@ -15,12 +15,28 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
+
+// Determine language from slug
+const langMap: Record<string, string> = {
+	'cn': 'zh-CN',
+	'en': 'en',
+	'fr': 'fr',
+	'de': 'de',
+	'ja': 'ja',
+	'ko': 'ko',
+	'es': 'es'
+};
+
+const pathParts = post.id.split('/');
+const language = pathParts[0] || 'en';
+const lang = langMap[language] || 'en';
 ---
 
 <Layout 
 	title={post.data.title} 
 	description={post.data.description} 
 	image={post.data.heroImage}
+	lang={lang}
 	article={{
 		pubDate: post.data.pubDate.toISOString(),
 		updatedDate: post.data.updatedDate?.toISOString(),

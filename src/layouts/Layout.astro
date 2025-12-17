@@ -10,20 +10,26 @@ interface Props {
 	description?: string;
 	image?: string;
 	lang?: string;
+	article?: {
+		pubDate: string;
+		updatedDate?: string;
+		tags?: string[];
+	};
 }
 
 const { 
 	title = SITE_TITLE, 
 	description = SITE_DESCRIPTION, 
 	image,
-	lang = 'en' // Default to English, but allow override
+	lang = 'en', // Default to English, but allow override
+	article
 } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang={lang}>
 	<head>
-		<BaseHead title={title} description={description} image={image} />
+		<BaseHead title={title} description={description} image={image} article={article} />
 		
 		<!-- AdSense Debug Script -->
 		<script is:inline>

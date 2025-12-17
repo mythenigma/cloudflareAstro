@@ -168,3 +168,4 @@ flowchart TD
 3. **Zugriffsaufzeichnungen anzeigen**, Verbreitungseffektivität des Handbuchs verstehen
 4. Eine Woche nach Kampagne, **Link mit einem Klick deaktivieren**
 
+
