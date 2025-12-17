@@ -169,3 +169,4 @@ flowchart TD
 4. Une semaine après la campagne, **désactiver le lien en un clic**
 
 
+
