@@ -24,14 +24,42 @@ const breadcrumbItems = [
 	{ name: "Home", url: "https://article.maipdf.com" }
 ];
 
+// Generate hreflang links for blog posts
+let hreflangLinks: Array<{ lang: string; url: string }> = [];
+const pathParts = Astro.url.pathname.split('/').filter(Boolean);
+
+if (Astro.url.pathname.startsWith('/blog/') && pathParts.length >= 3) {
+	const slug = pathParts.slice(2).join('/');
+	const langMap: Record<string, string> = {
+		'cn': 'zh-CN',
+		'en': 'en',
+		'fr': 'fr',
+		'de': 'de',
+		'ja': 'ja',
+		'ko': 'ko',
+		'es': 'es'
+	};
+	const baseUrl = 'https://article.maipdf.com/blog/';
+	const supportedLangs = Object.keys(langMap);
+	
+	supportedLangs.forEach(lang => {
+		const langCode = langMap[lang];
+		const altUrl = baseUrl + lang + '/' + slug;
+		hreflangLinks.push({ lang: langCode, url: altUrl });
+	});
+	
+	// Add x-default
+	const defaultUrl = baseUrl + 'en/' + slug;
+	hreflangLinks.push({ lang: 'x-default', url: defaultUrl });
+}
+
 if (Astro.url.pathname.startsWith('/blog')) {
 	breadcrumbItems.push({ name: "Blog", url: "https://article.maipdf.com/blog" });
 	
 	// Add language breadcrumb if applicable
-	const pathParts = Astro.url.pathname.split('/').filter(Boolean);
 	if (pathParts.length > 1) {
 		const language = pathParts[1];
-		const languageNames = {
+		const languageNames: Record<string, string> = {
 			'en': 'English',
 			'cn': '中文',
 			'fr': 'Français',
@@ -43,7 +71,7 @@ if (Astro.url.pathname.startsWith('/blog')) {
 		if (languageNames[language]) {
 			breadcrumbItems.push({ 
 				name: languageNames[language], 
-				url: `https://article.maipdf.com/blog/${language}` 
+				url: 'https://article.maipdf.com/blog/' + language
 			});
 		}
 	}
@@ -77,33 +105,9 @@ if (Astro.url.pathname.startsWith('/blog')) {
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Language and hreflang tags for blog posts -->
-{(() => {
-	if (Astro.url.pathname.startsWith('/blog/')) {
-		const pathParts = Astro.url.pathname.split('/').filter(Boolean);
-		if (pathParts.length >= 3) {
-			const currentLang = pathParts[1];
-			const slug = pathParts.slice(2).join('/');
-			const langMap: Record<string, string> = {
-				'cn': 'zh-CN',
-				'en': 'en',
-				'fr': 'fr',
-				'de': 'de',
-				'ja': 'ja',
-				'ko': 'ko',
-				'es': 'es'
-			};
-			const supportedLangs = Object.keys(langMap);
-			return supportedLangs.map(lang => {
-				const langCode = langMap[lang];
-				const altUrl = `https://article.maipdf.com/blog/${lang}/${slug}`;
-				return <link rel="alternate" hreflang={langCode} href={altUrl} />;
-			}).concat([
-				<link rel="alternate" hreflang="x-default" href={`https://article.maipdf.com/blog/en/${pathParts.slice(2).join('/')}`} />
-			]);
-		}
-	}
-	return null;
-})()}
+{hreflangLinks.map(link => (
+	<link rel="alternate" hreflang={link.lang} href={link.url} />
+))}
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
