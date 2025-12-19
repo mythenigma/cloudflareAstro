@@ -1,7 +1,7 @@
 ---
 title: "PDF加密防止转发：全面保护文档安全的完整指南"
 description: "学习如何通过PDF加密技术防止文档被转发。了解密码保护、访问控制、水印加密等多种加密方法，确保您的PDF文档不会被未经授权地传播和分享。"
-pubDate: "Dec 17 2025"
+pubDate: "Dec 19 2025"
 heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
 tags: ["PDF加密", "防止转发", "文档安全", "密码保护", "访问控制"]
 ---
