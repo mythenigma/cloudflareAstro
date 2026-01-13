@@ -1,0 +1,241 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+    <marker id="arrowhead-small" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#64748b"/>
+    </marker>
+  </defs>
+  <!-- 背景 -->
+  <rect width="1000" height="800" fill="#f8fafc"/>
+  
+  <!-- 标题 -->
+  <text x="500" y="35" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    DRM 数字证书文件保护系统
+  </text>
+  
+  <text x="500" y="60" font-size="12" fill="#64748b" text-anchor="middle">
+    企业级数字版权管理 - 完整的文件加密、权限控制和追踪体系
+  </text>
+  
+  <!-- 上半部分：系统架构 -->
+  <g>
+    <rect x="30" y="85" width="940" height="280" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+    <text x="500" y="115" font-size="14" font-weight="bold" fill="#0c4a6e">🏗️ DRM 系统架构</text>
+    
+    <!-- PKI 基础设施 -->
+    <g>
+      <rect x="50" y="135" width="180" height="100" fill="white" stroke="#0284c7" stroke-width="2" rx="4"/>
+      <text x="140" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#0c4a6e">🔑 PKI 基础设施</text>
+      <text x="140" y="180" font-size="10" text-anchor="middle" fill="#475569">根证书机构 (CA)</text>
+      <text x="140" y="195" font-size="10" text-anchor="middle" fill="#475569">中间证书机构</text>
+      <text x="140" y="210" font-size="10" text-anchor="middle" fill="#475569">用户终端证书</text>
+      <text x="140" y="225" font-size="10" text-anchor="middle" fill="#475569">证书信任链</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 230 185 L 280 185" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 加密引擎 -->
+    <g>
+      <rect x="280" y="135" width="180" height="100" fill="white" stroke="#0284c7" stroke-width="2" rx="4"/>
+      <text x="370" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#0c4a6e">🔐 加密引擎</text>
+      <text x="370" y="180" font-size="10" text-anchor="middle" fill="#475569">对称加密 (AES-256)</text>
+      <text x="370" y="195" font-size="10" text-anchor="middle" fill="#475569">非对称加密 (RSA)</text>
+      <text x="370" y="210" font-size="10" text-anchor="middle" fill="#475569">混合加密方案</text>
+      <text x="370" y="225" font-size="10" text-anchor="middle" fill="#475569">数字签名机制</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 460 185 L 510 185" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 权限管理 -->
+    <g>
+      <rect x="510" y="135" width="180" height="100" fill="white" stroke="#0284c7" stroke-width="2" rx="4"/>
+      <text x="600" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#0c4a6e">👥 权限管理</text>
+      <text x="600" y="180" font-size="10" text-anchor="middle" fill="#475569">基础权限控制</text>
+      <text x="600" y="195" font-size="10" text-anchor="middle" fill="#475569">高级权限策略</text>
+      <text x="600" y="210" font-size="10" text-anchor="middle" fill="#475569">时间和次数限制</text>
+      <text x="600" y="225" font-size="10" text-anchor="middle" fill="#475569">设备和位置限制</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 690 185 L 740 185" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 监控审计 -->
+    <g>
+      <rect x="740" y="135" width="180" height="100" fill="white" stroke="#0284c7" stroke-width="2" rx="4"/>
+      <text x="830" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#0c4a6e">📊 监控审计</text>
+      <text x="830" y="180" font-size="10" text-anchor="middle" fill="#475569">实时监控系统</text>
+      <text x="830" y="195" font-size="10" text-anchor="middle" fill="#475569">完整审计日志</text>
+      <text x="830" y="210" font-size="10" text-anchor="middle" fill="#475569">异常告警机制</text>
+      <text x="830" y="225" font-size="10" text-anchor="middle" fill="#475569">数据分析报告</text>
+    </g>
+    
+    <!-- 文档管理工作流 -->
+    <g>
+      <rect x="50" y="250" width="870" height="100" fill="#f0f9ff" stroke="#3b82f6" stroke-width="1" rx="4"/>
+      <text x="500" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">📋 文档管理工作流</text>
+      
+      <!-- 工作流步骤 -->
+      <circle cx="110" cy="310" r="20" fill="#3b82f6"/>
+      <text x="110" y="318" font-size="14" text-anchor="middle" fill="white">1</text>
+      <text x="110" y="335" font-size="9" text-anchor="middle" fill="#1e293b">上传文件</text>
+      
+      <path d="M 130 310 L 170 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="210" cy="310" r="20" fill="#3b82f6"/>
+      <text x="210" y="318" font-size="14" text-anchor="middle" fill="white">2</text>
+      <text x="210" y="335" font-size="9" text-anchor="middle" fill="#1e293b">加密处理</text>
+      
+      <path d="M 230 310 L 270 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="310" cy="310" r="20" fill="#3b82f6"/>
+      <text x="310" y="318" font-size="14" text-anchor="middle" fill="white">3</text>
+      <text x="310" y="335" font-size="9" text-anchor="middle" fill="#1e293b">配置权限</text>
+      
+      <path d="M 330 310 L 370 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="410" cy="310" r="20" fill="#3b82f6"/>
+      <text x="410" y="318" font-size="14" text-anchor="middle" fill="white">4</text>
+      <text x="410" y="335" font-size="9" text-anchor="middle" fill="#1e293b">签发证书</text>
+      
+      <path d="M 430 310 L 470 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="510" cy="310" r="20" fill="#3b82f6"/>
+      <text x="510" y="318" font-size="14" text-anchor="middle" fill="white">5</text>
+      <text x="510" y="335" font-size="9" text-anchor="middle" fill="#1e293b">分发证书</text>
+      
+      <path d="M 530 310 L 570 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="610" cy="310" r="20" fill="#3b82f6"/>
+      <text x="610" y="318" font-size="14" text-anchor="middle" fill="white">6</text>
+      <text x="610" y="335" font-size="9" text-anchor="middle" fill="#1e293b">使用验证</text>
+      
+      <path d="M 630 310 L 670 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="710" cy="310" r="20" fill="#3b82f6"/>
+      <text x="710" y="318" font-size="14" text-anchor="middle" fill="white">7</text>
+      <text x="710" y="335" font-size="9" text-anchor="middle" fill="#1e293b">监控追踪</text>
+      
+      <path d="M 730 310 L 770 310" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead-small)"/>
+      
+      <circle cx="810" cy="310" r="20" fill="#3b82f6"/>
+      <text x="810" y="318" font-size="14" text-anchor="middle" fill="white">8</text>
+      <text x="810" y="335" font-size="9" text-anchor="middle" fill="#1e293b">证书撤销</text>
+    </g>
+  </g>
+  
+  <!-- 中间部分：加密方案对比 -->
+  <g>
+    <rect x="30" y="385" width="940" height="200" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
+    <text x="500" y="415" font-size="14" font-weight="bold" fill="#166534">🔐 三层加密防护体系</text>
+    
+    <!-- 对称加密 -->
+    <g>
+      <rect x="50" y="435" width="280" height="140" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+      <text x="190" y="460" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">第一层：对称加密</text>
+      <text x="190" y="480" font-size="10" text-anchor="middle" fill="#475569">✓ 算法：AES-256</text>
+      <text x="190" y="495" font-size="10" text-anchor="middle" fill="#475569">✓ 用途：文件内容加密</text>
+      <text x="190" y="510" font-size="10" text-anchor="middle" fill="#475569">✓ 优势：高效、安全</text>
+      <text x="190" y="525" font-size="10" text-anchor="middle" fill="#475569">✓ 密钥：动态生成管理</text>
+      <text x="190" y="540" font-size="10" text-anchor="middle" fill="#475569">✓ 速度：快速加密解密</text>
+      <text x="190" y="555" font-size="10" text-anchor="middle" fill="#475569">✓ 强度：企业级安全</text>
+    </g>
+    
+    <!-- 非对称加密 -->
+    <g>
+      <rect x="360" y="435" width="280" height="140" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+      <text x="500" y="460" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">第二层：非对称加密</text>
+      <text x="500" y="480" font-size="10" text-anchor="middle" fill="#475569">✓ 算法：RSA-2048</text>
+      <text x="500" y="495" font-size="10" text-anchor="middle" fill="#475569">✓ 用途：密钥交换保护</text>
+      <text x="500" y="510" font-size="10" text-anchor="middle" fill="#475569">✓ 优势：安全可靠</text>
+      <text x="500" y="525" font-size="10" text-anchor="middle" fill="#475569">✓ 密钥：公钥私钥分离</text>
+      <text x="500" y="540" font-size="10" text-anchor="middle" fill="#475569">✓ 身份：数字签名验证</text>
+      <text x="500" y="555" font-size="10" text-anchor="middle" fill="#475569">✓ 完整：确保不被篡改</text>
+    </g>
+    
+    <!-- 混合加密 -->
+    <g>
+      <rect x="670" y="435" width="280" height="140" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+      <text x="810" y="460" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">第三层：混合加密</text>
+      <text x="810" y="480" font-size="10" text-anchor="middle" fill="#475569">✓ 结合：对称+非对称</text>
+      <text x="810" y="495" font-size="10" text-anchor="middle" fill="#475569">✓ 优势：性能与安全</text>
+      <text x="810" y="510" font-size="10" text-anchor="middle" fill="#475569">✓ 证书：完整证书链</text>
+      <text x="810" y="525" font-size="10" text-anchor="middle" fill="#475569">✓ 验证：多重身份验证</text>
+      <text x="810" y="540" font-size="10" text-anchor="middle" fill="#475569">✓ 追踪：操作日志记录</text>
+      <text x="810" y="555" font-size="10" text-anchor="middle" fill="#475569">✓ 备份：恢复机制完善</text>
+    </g>
+  </g>
+  
+  <!-- 下半部分：权限生命周期 -->
+  <g>
+    <rect x="30" y="605" width="940" height="170" fill="#fce7f3" stroke="#ec4899" stroke-width="2" rx="8"/>
+    <text x="500" y="635" font-size="14" font-weight="bold" fill="#831843">🔄 证书生命周期管理</text>
+    
+    <!-- 申请 -->
+    <g>
+      <rect x="60" y="660" width="170" height="100" fill="white" stroke="#ec4899" stroke-width="2" rx="4"/>
+      <text x="145" y="680" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">📝 证书申请</text>
+      <text x="145" y="700" font-size="9" text-anchor="middle" fill="#475569">身份验证</text>
+      <text x="145" y="715" font-size="9" text-anchor="middle" fill="#475569">权限审核</text>
+      <text x="145" y="730" font-size="9" text-anchor="middle" fill="#475569">证书生成</text>
+      <text x="145" y="745" font-size="9" text-anchor="middle" fill="#475569">分发证书</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 230 710 L 270 710" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 使用 -->
+    <g>
+      <rect x="270" y="660" width="170" height="100" fill="white" stroke="#ec4899" stroke-width="2" rx="4"/>
+      <text x="355" y="680" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">⚙️ 证书使用</text>
+      <text x="355" y="700" font-size="9" text-anchor="middle" fill="#475569">身份验证</text>
+      <text x="355" y="715" font-size="9" text-anchor="middle" fill="#475569">权限验证</text>
+      <text x="355" y="730" font-size="9" text-anchor="middle" fill="#475569">操作记录</text>
+      <text x="355" y="745" font-size="9" text-anchor="middle" fill="#475569">异常监控</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 440 710 L 480 710" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 更新 -->
+    <g>
+      <rect x="480" y="660" width="170" height="100" fill="white" stroke="#ec4899" stroke-width="2" rx="4"/>
+      <text x="565" y="680" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">🔄 证书更新</text>
+      <text x="565" y="700" font-size="9" text-anchor="middle" fill="#475569">到期提醒</text>
+      <text x="565" y="715" font-size="9" text-anchor="middle" fill="#475569">证书续期</text>
+      <text x="565" y="730" font-size="9" text-anchor="middle" fill="#475569">权限调整</text>
+      <text x="565" y="745" font-size="9" text-anchor="middle" fill="#475569">安全审计</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 650 710 L 690 710" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 撤销 -->
+    <g>
+      <rect x="690" y="660" width="170" height="100" fill="white" stroke="#ec4899" stroke-width="2" rx="4"/>
+      <text x="775" y="680" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">❌ 证书撤销</text>
+      <text x="775" y="700" font-size="9" text-anchor="middle" fill="#475569">撤销申请</text>
+      <text x="775" y="715" font-size="9" text-anchor="middle" fill="#475569">撤销原因</text>
+      <text x="775" y="730" font-size="9" text-anchor="middle" fill="#475569">权限回收</text>
+      <text x="775" y="745" font-size="9" text-anchor="middle" fill="#475569">数据清理</text>
+    </g>
+    
+    <!-- 箭头 -->
+    <path d="M 860 710 L 900 710" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 循环回申请 -->
+    <path d="M 900 660 Q 500 550 60 660" stroke="#64748b" stroke-width="2" fill="none" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 核心优势说明 -->
+  <g>
+    <rect x="30" y="795" width="940" height="5" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="2"/>
+  </g>
+</svg>

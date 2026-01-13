@@ -1,0 +1,132 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Maiimg Free Image Hosting Workflow
+  </text>
+  
+  <!-- Step 1: Visit & Upload -->
+  <rect x="50" y="80" width="180" height="100" fill="#3b82f6" rx="10"/>
+  <text x="140" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📤 Upload</text>
+  <text x="140" y="135" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Visit Maiimg.com</text>
+  <text x="140" y="155" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Drag &amp; Drop or Select</text>
+  <text x="140" y="170" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Up to 25 images (50MB each)</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 230 130 L 290 130" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: File Validation -->
+  <rect x="290" y="80" width="180" height="100" fill="#10b981" rx="10"/>
+  <text x="380" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">✅ Validate</text>
+  <text x="380" y="135" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Check Format</text>
+  <text x="380" y="155" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">PNG, JPG, GIF, WebP</text>
+  <text x="380" y="170" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Size &lt; 50MB</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 470 130 L 530 130" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Generate Links -->
+  <rect x="530" y="80" width="180" height="100" fill="#f59e0b" rx="10"/>
+  <text x="620" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔗 Generate</text>
+  <text x="620" y="135" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Auto-Generate Link</text>
+  <text x="620" y="155" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Auto-Generate QR Code</text>
+  <text x="620" y="170" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Gallery View Link</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 620 180 L 620 240" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Configure Access (Optional) -->
+  <rect x="530" y="240" width="180" height="100" fill="#8b5cf6" rx="10"/>
+  <text x="620" y="270" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">⚙️ Configure</text>
+  <text x="620" y="295" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View Limits (Optional)</text>
+  <text x="620" y="315" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Expiration Date</text>
+  <text x="620" y="330" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Download Control</text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 530 290 L 470 290" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Share -->
+  <rect x="290" y="240" width="180" height="100" fill="#ec4899" rx="10"/>
+  <text x="380" y="270" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📢 Share</text>
+  <text x="380" y="295" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Email, Messaging Apps</text>
+  <text x="380" y="315" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Print QR Code</text>
+  <text x="380" y="330" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Embed in Websites</text>
+  
+  <!-- Arrow 5 -->
+  <path d="M 290 290 L 230 290" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 6: Track & Monitor -->
+  <rect x="50" y="240" width="180" height="100" fill="#06b6d4" rx="10"/>
+  <text x="140" y="270" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📊 Track</text>
+  <text x="140" y="295" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Real-Time Analytics</text>
+  <text x="140" y="315" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View Records</text>
+  <text x="140" y="330" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Access Statistics</text>
+  
+  <!-- Key Features Section -->
+  <rect x="50" y="400" width="800" height="260" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="10"/>
+  
+  <text x="450" y="435" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e" font-family="Arial, sans-serif">
+    Maiimg Key Features
+  </text>
+  
+  <!-- Feature 1: No Registration -->
+  <g>
+    <rect x="70" y="460" width="160" height="180" fill="white" stroke="#3b82f6" stroke-width="2" rx="6"/>
+    <text x="150" y="485" font-size="15" font-weight="bold" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif">🚫 No Registration</text>
+    <text x="150" y="510" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Upload immediately</text>
+    <text x="150" y="530" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Zero barriers</text>
+    <text x="150" y="550" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">No account needed</text>
+    <text x="150" y="570" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Instant access</text>
+    <text x="150" y="590" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Completely free</text>
+    <text x="150" y="610" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">No hidden fees</text>
+    <text x="150" y="630" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Start sharing now</text>
+  </g>
+  
+  <!-- Feature 2: Large File Size -->
+  <g>
+    <rect x="250" y="460" width="160" height="180" fill="white" stroke="#10b981" stroke-width="2" rx="6"/>
+    <text x="330" y="485" font-size="15" font-weight="bold" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif">📦 Large Files</text>
+    <text x="330" y="510" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">50MB per image</text>
+    <text x="330" y="530" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">vs 32MB standard</text>
+    <text x="330" y="550" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Batch upload</text>
+    <text x="330" y="570" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Up to 25 images</text>
+    <text x="330" y="590" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">No total limit</text>
+    <text x="330" y="610" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Instant upload</text>
+    <text x="330" y="630" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Fast processing</text>
+  </g>
+  
+  <!-- Feature 3: Access Control -->
+  <g>
+    <rect x="430" y="460" width="160" height="180" fill="white" stroke="#f59e0b" stroke-width="2" rx="6"/>
+    <text x="510" y="485" font-size="15" font-weight="bold" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif">🔒 Access Control</text>
+    <text x="510" y="510" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">View limits</text>
+    <text x="510" y="530" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Expiration dates</text>
+    <text x="510" y="550" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Download control</text>
+    <text x="510" y="570" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Time restrictions</text>
+    <text x="510" y="590" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Full control</text>
+    <text x="510" y="610" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">One-click disable</text>
+    <text x="510" y="630" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Secure sharing</text>
+  </g>
+  
+  <!-- Feature 4: QR Codes & Tracking -->
+  <g>
+    <rect x="610" y="460" width="160" height="180" fill="white" stroke="#8b5cf6" stroke-width="2" rx="6"/>
+    <text x="690" y="485" font-size="15" font-weight="bold" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif">📱 QR &amp; Tracking</text>
+    <text x="690" y="510" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Auto QR codes</text>
+    <text x="690" y="530" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Print-ready format</text>
+    <text x="690" y="550" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Real-time tracking</text>
+    <text x="690" y="570" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">View analytics</text>
+    <text x="690" y="590" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Access records</text>
+    <text x="690" y="610" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Mobile-friendly</text>
+    <text x="690" y="630" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Offline sharing</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+      <polygon points="0 0, 12 6, 0 12" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

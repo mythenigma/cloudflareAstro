@@ -1,0 +1,207 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  
+  <!-- 标题 -->
+  <text x="500" y="35" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    MaiPDF vs 传统分享方式对比
+  </text>
+  
+  <!-- 说明 -->
+  <text x="500" y="60" font-size="12" fill="#64748b" text-anchor="middle">
+    MaiPDF 提供企业级的安全分享能力，相比传统方式优势明显
+  </text>
+  
+  <!-- 表格标题行 -->
+  <g>
+    <!-- 功能列标题 -->
+    <rect x="30" y="85" width="180" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1" rx="4"/>
+    <text x="120" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="white">功能特性</text>
+    
+    <!-- MaiPDF 标题 -->
+    <rect x="220" y="85" width="190" height="50" fill="#10b981" stroke="#64748b" stroke-width="1" rx="4"/>
+    <text x="315" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="white">MaiPDF</text>
+    
+    <!-- 邮件附件 标题 -->
+    <rect x="420" y="85" width="180" height="50" fill="#ef4444" stroke="#64748b" stroke-width="1" rx="4"/>
+    <text x="510" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="white">邮件附件</text>
+    
+    <!-- 普通网盘 标题 -->
+    <rect x="610" y="85" width="180" height="50" fill="#ef4444" stroke="#64748b" stroke-width="1" rx="4"/>
+    <text x="700" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="white">普通网盘</text>
+    
+    <!-- Google Drive 标题 -->
+    <rect x="800" y="85" width="170" height="50" fill="#ef4444" stroke="#64748b" stroke-width="1" rx="4"/>
+    <text x="885" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="white">Google Drive</text>
+  </g>
+  
+  <!-- 行1：访问次数控制 -->
+  <g>
+    <rect x="30" y="145" width="180" height="60" fill="#f0fdf4" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    <text x="120" y="165" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">🔢</text>
+    <text x="120" y="183" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">访问次数控制</text>
+    <text x="120" y="198" font-size="10" text-anchor="middle" fill="#475569">精确控制打开次数</text>
+    
+    <rect x="220" y="145" width="190" height="60" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="315" y="180" font-size="20" text-anchor="middle" fill="#16a34a">✓</text>
+    <text x="315" y="198" font-size="10" text-anchor="middle" fill="#16a34a">完全控制</text>
+    
+    <rect x="420" y="145" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="510" y="180" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="510" y="198" font-size="10" text-anchor="middle" fill="#b91c1c">无法控制</text>
+    
+    <rect x="610" y="145" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="700" y="180" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="700" y="198" font-size="10" text-anchor="middle" fill="#b91c1c">无法控制</text>
+    
+    <rect x="800" y="145" width="170" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="885" y="180" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="885" y="198" font-size="10" text-anchor="middle" fill="#b91c1c">无法控制</text>
+  </g>
+  
+  <!-- 行2：禁止下载/打印 -->
+  <g>
+    <rect x="30" y="215" width="180" height="60" fill="#f0fdf4" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    <text x="120" y="235" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">🚫</text>
+    <text x="120" y="253" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">禁止下载/打印</text>
+    <text x="120" y="268" font-size="10" text-anchor="middle" fill="#475569">防止本地保存</text>
+    
+    <rect x="220" y="215" width="190" height="60" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="315" y="250" font-size="20" text-anchor="middle" fill="#16a34a">✓</text>
+    <text x="315" y="268" font-size="10" text-anchor="middle" fill="#16a34a">完全禁止</text>
+    
+    <rect x="420" y="215" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="510" y="250" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="510" y="268" font-size="10" text-anchor="middle" fill="#b91c1c">无法禁止</text>
+    
+    <rect x="610" y="215" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="700" y="250" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="700" y="268" font-size="10" text-anchor="middle" fill="#b91c1c">基本无效</text>
+    
+    <rect x="800" y="215" width="170" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="885" y="250" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="885" y="268" font-size="10" text-anchor="middle" fill="#b91c1c">容易绕过</text>
+  </g>
+  
+  <!-- 行3：身份验证 -->
+  <g>
+    <rect x="30" y="285" width="180" height="60" fill="#f0fdf4" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    <text x="120" y="305" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">✅</text>
+    <text x="120" y="323" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">访问者身份验证</text>
+    <text x="120" y="338" font-size="10" text-anchor="middle" fill="#475569">确认谁在看</text>
+    
+    <rect x="220" y="285" width="190" height="60" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="315" y="320" font-size="20" text-anchor="middle" fill="#16a34a">✓</text>
+    <text x="315" y="338" font-size="10" text-anchor="middle" fill="#16a34a">邮箱/手机验证</text>
+    
+    <rect x="420" y="285" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="510" y="320" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="510" y="338" font-size="10" text-anchor="middle" fill="#b91c1c">无验证机制</text>
+    
+    <rect x="610" y="285" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="700" y="320" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="700" y="338" font-size="10" text-anchor="middle" fill="#b91c1c">基础验证</text>
+    
+    <rect x="800" y="285" width="170" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="885" y="320" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="885" y="338" font-size="10" text-anchor="middle" fill="#b91c1c">可匿名访问</text>
+  </g>
+  
+  <!-- 行4：访问记录追踪 -->
+  <g>
+    <rect x="30" y="355" width="180" height="60" fill="#f0fdf4" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    <text x="120" y="375" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">📊</text>
+    <text x="120" y="393" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">访问记录追踪</text>
+    <text x="120" y="408" font-size="10" text-anchor="middle" fill="#475569">掌握每次访问</text>
+    
+    <rect x="220" y="355" width="190" height="60" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="315" y="390" font-size="20" text-anchor="middle" fill="#16a34a">✓</text>
+    <text x="315" y="408" font-size="10" text-anchor="middle" fill="#16a34a">详细记录</text>
+    
+    <rect x="420" y="355" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="510" y="390" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="510" y="408" font-size="10" text-anchor="middle" fill="#b91c1c">无记录</text>
+    
+    <rect x="610" y="355" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="700" y="390" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="700" y="408" font-size="10" text-anchor="middle" fill="#b91c1c">有限记录</text>
+    
+    <rect x="800" y="355" width="170" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="885" y="390" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="885" y="408" font-size="10" text-anchor="middle" fill="#b91c1c">基础统计</text>
+  </g>
+  
+  <!-- 行5：动态水印 -->
+  <g>
+    <rect x="30" y="425" width="180" height="60" fill="#f0fdf4" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    <text x="120" y="445" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">💧</text>
+    <text x="120" y="463" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">动态水印防护</text>
+    <text x="120" y="478" font-size="10" text-anchor="middle" fill="#475569">防止恶意转发</text>
+    
+    <rect x="220" y="425" width="190" height="60" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="315" y="460" font-size="20" text-anchor="middle" fill="#16a34a">✓</text>
+    <text x="315" y="478" font-size="10" text-anchor="middle" fill="#16a34a">个性化水印</text>
+    
+    <rect x="420" y="425" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="510" y="460" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="510" y="478" font-size="10" text-anchor="middle" fill="#b91c1c">无水印功能</text>
+    
+    <rect x="610" y="425" width="180" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="700" y="460" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="700" y="478" font-size="10" text-anchor="middle" fill="#b91c1c">无水印功能</text>
+    
+    <rect x="800" y="425" width="170" height="60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="885" y="460" font-size="20" text-anchor="middle" fill="#b91c1c">✗</text>
+    <text x="885" y="478" font-size="10" text-anchor="middle" fill="#b91c1c">无水印功能</text>
+  </g>
+  
+  <!-- 行6：安全存储 -->
+  <g>
+    <rect x="30" y="495" width="180" height="60" fill="#f0fdf4" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    <text x="120" y="515" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">🔐</text>
+    <text x="120" y="533" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">企业级安全存储</text>
+    <text x="120" y="548" font-size="10" text-anchor="middle" fill="#475569">稳定可靠</text>
+    
+    <rect x="220" y="495" width="190" height="60" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="315" y="530" font-size="20" text-anchor="middle" fill="#16a34a">✓</text>
+    <text x="315" y="548" font-size="10" text-anchor="middle" fill="#16a34a">Cloudflare R2</text>
+    
+    <rect x="420" y="495" width="180" height="60" fill="#fecaca" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="510" y="530" font-size="20" text-anchor="middle" fill="#b91c1c">◐</text>
+    <text x="510" y="548" font-size="10" text-anchor="middle" fill="#b91c1c">基础安全</text>
+    
+    <rect x="610" y="495" width="180" height="60" fill="#fecaca" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="700" y="530" font-size="20" text-anchor="middle" fill="#b91c1c">◐</text>
+    <text x="700" y="548" font-size="10" text-anchor="middle" fill="#b91c1c">中等安全</text>
+    
+    <rect x="800" y="495" width="170" height="60" fill="#fecaca" stroke="#ef4444" stroke-width="2" rx="4"/>
+    <text x="885" y="530" font-size="20" text-anchor="middle" fill="#b91c1c">◐</text>
+    <text x="885" y="548" font-size="10" text-anchor="middle" fill="#b91c1c">中等安全</text>
+  </g>
+  
+  <!-- 底部总结 -->
+  <g>
+    <rect x="30" y="575" width="940" height="105" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+    
+    <text x="50" y="600" font-size="14" font-weight="bold" fill="#0c4a6e">📌 MaiPDF 的核心优势总结：</text>
+    
+    <text x="50" y="625" font-size="12" fill="#1e293b">
+      ✓ 企业级权限控制：精确到每一次访问，掌控访问次数、有效期、下载权限
+    </text>
+    
+    <text x="50" y="650" font-size="12" fill="#1e293b">
+      ✓ 完整的安全防护：邮箱/手机验证、动态水印、禁止下载打印，多重防线
+    </text>
+    
+    <text x="50" y="675" font-size="12" fill="#1e293b">
+      ✓ 精准的数据追踪：详细记录每次访问的时间、IP、设备等信息，了解文档流转全过程
+    </text>
+  </g>
+</svg>

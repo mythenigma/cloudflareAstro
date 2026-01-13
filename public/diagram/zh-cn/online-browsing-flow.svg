@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#f59e0b"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="1000" height="650" fill="#f8fafc"/>
+  
+  <!-- 标题 -->
+  <text x="500" y="35" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    PDF 在线浏览工作流程
+  </text>
+  
+  <!-- 左侧：文件上传和处理 -->
+  <g>
+    <rect x="30" y="70" width="420" height="550" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="8"/>
+    <text x="240" y="100" font-size="16" font-weight="bold" fill="#1e40af">📤 服务器端处理</text>
+    
+    <!-- 步骤1 -->
+    <rect x="50" y="130" width="380" height="70" fill="white" stroke="#3b82f6" stroke-width="2" rx="4"/>
+    <text x="240" y="155" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e40af">1️⃣ 接收 PDF 文件</text>
+    <text x="240" y="175" font-size="11" text-anchor="middle" fill="#475569">检验格式、大小、完整性</text>
+    <text x="240" y="192" font-size="11" text-anchor="middle" fill="#475569">生成唯一 ID 标识</text>
+    
+    <!-- 箭头 -->
+    <path d="M 240 200 L 240 240" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 步骤2 -->
+    <rect x="50" y="240" width="380" height="70" fill="white" stroke="#3b82f6" stroke-width="2" rx="4"/>
+    <text x="240" y="265" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e40af">2️⃣ 云端存储处理</text>
+    <text x="240" y="285" font-size="11" text-anchor="middle" fill="#475569">上传到 Cloudflare R2</text>
+    <text x="240" y="302" font-size="11" text-anchor="middle" fill="#475569">加密存储、全球CDN加速</text>
+    
+    <!-- 箭头 -->
+    <path d="M 240 310 L 240 350" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 步骤3 -->
+    <rect x="50" y="350" width="380" height="70" fill="white" stroke="#3b82f6" stroke-width="2" rx="4"/>
+    <text x="240" y="375" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e40af">3️⃣ 权限配置</text>
+    <text x="240" y="395" font-size="11" text-anchor="middle" fill="#475569">保存访问次数、有效期、水印等设置</text>
+    <text x="240" y="412" font-size="11" text-anchor="middle" fill="#475569">创建数据库记录</text>
+    
+    <!-- 箭头 -->
+    <path d="M 240 420 L 240 460" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 步骤4 -->
+    <rect x="50" y="460" width="380" height="120" fill="white" stroke="#3b82f6" stroke-width="2" rx="4"/>
+    <text x="240" y="485" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e40af">4️⃣ 生成分享链接</text>
+    <text x="240" y="505" font-size="11" text-anchor="middle" fill="#475569">生成唯一访问链接: https://maipdf.cn/view/xxx</text>
+    <text x="240" y="525" font-size="11" text-anchor="middle" fill="#475569">生成二维码图片</text>
+    <text x="240" y="545" font-size="11" text-anchor="middle" fill="#475569">返回管理界面和分享码</text>
+    <text x="240" y="565" font-size="11" text-anchor="middle" fill="#475569">用户可随时修改或停止分享</text>
+  </g>
+  
+  <!-- 中间：分享渠道 -->
+  <g>
+    <rect x="480" y="70" width="40" height="550" fill="#f5f5f5" stroke="#d1d5db" stroke-width="1" rx="4"/>
+    
+    <!-- 分享箭头 -->
+    <path d="M 450 250 L 480 250" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrowhead-orange)"/>
+    <text x="465" y="240" font-size="11" fill="#f59e0b" font-weight="bold">分享</text>
+    
+    <!-- 接收箭头 -->
+    <path d="M 520 350 L 550 350" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead-green)"/>
+    <text x="485" y="340" font-size="11" fill="#10b981" font-weight="bold">查看</text>
+  </g>
+  
+  <!-- 右侧：客户端展示和查看 -->
+  <g>
+    <rect x="550" y="70" width="420" height="550" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
+    <text x="760" y="100" font-size="16" font-weight="bold" fill="#166534">👁️ 客户端展示</text>
+    
+    <!-- 步骤1 -->
+    <rect x="570" y="130" width="380" height="70" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="760" y="155" font-size="13" font-weight="bold" text-anchor="middle" fill="#166534">1️⃣ 用户访问链接</text>
+    <text x="760" y="175" font-size="11" text-anchor="middle" fill="#475569">点击链接或扫描二维码</text>
+    <text x="760" y="192" font-size="11" text-anchor="middle" fill="#475569">浏览器打开 PDF 查看页面</text>
+    
+    <!-- 箭头 -->
+    <path d="M 760 200 L 760 240" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 步骤2 -->
+    <rect x="570" y="240" width="380" height="70" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="760" y="265" font-size="13" font-weight="bold" text-anchor="middle" fill="#166534">2️⃣ 身份验证（可选）</text>
+    <text x="760" y="285" font-size="11" text-anchor="middle" fill="#475569">如设置了验证，用户需邮箱/手机验证</text>
+    <text x="760" y="302" font-size="11" text-anchor="middle" fill="#475569">系统记录验证信息</text>
+    
+    <!-- 箭头 -->
+    <path d="M 760 310 L 760 350" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 步骤3 -->
+    <rect x="570" y="350" width="380" height="70" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="760" y="375" font-size="13" font-weight="bold" text-anchor="middle" fill="#166534">3️⃣ 在线浏览 PDF</text>
+    <text x="760" y="395" font-size="11" text-anchor="middle" fill="#475569">服务器实时渲染 PDF 内容</text>
+    <text x="760" y="412" font-size="11" text-anchor="middle" fill="#475569">显示动态水印、禁止下载等功能</text>
+    
+    <!-- 箭头 -->
+    <path d="M 760 420 L 760 460" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 步骤4 -->
+    <rect x="570" y="460" width="380" height="120" fill="white" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="760" y="485" font-size="13" font-weight="bold" text-anchor="middle" fill="#166534">4️⃣ 系统自动追踪</text>
+    <text x="760" y="505" font-size="11" text-anchor="middle" fill="#475569">记录访问时间、IP 地址、设备信息</text>
+    <text x="760" y="525" font-size="11" text-anchor="middle" fill="#475569">统计阅读时长、页面停留时间</text>
+    <text x="760" y="545" font-size="11" text-anchor="middle" fill="#475569">检查访问次数是否达到限制</text>
+    <text x="760" y="565" font-size="11" text-anchor="middle" fill="#475569">达到限制后立即失效</text>
+  </g>
+</svg>

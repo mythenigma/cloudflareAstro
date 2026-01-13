@@ -1,0 +1,181 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="700" fill="#f8fafc"/>
+  
+  <!-- 标题 -->
+  <text x="450" y="35" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    PDF 安全分享的完整流程
+  </text>
+  
+  <!-- 第一阶段：文件上传阶段 -->
+  <g>
+    <rect x="50" y="70" width="800" height="130" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+    <text x="60" y="95" font-size="14" font-weight="bold" fill="#0c4a6e">📤 第一步：文件上传与识别</text>
+    
+    <!-- 用户选择 -->
+    <circle cx="120" cy="165" r="30" fill="#3b82f6"/>
+    <text x="120" y="170" font-size="18" text-anchor="middle" fill="white">👤</text>
+    <text x="120" y="195" font-size="12" text-anchor="middle" fill="#1e293b">用户</text>
+    
+    <!-- 箭头1 -->
+    <path d="M 150 165 L 210 165" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 选择文件 -->
+    <rect x="210" y="140" width="100" height="50" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="4"/>
+    <text x="260" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#92400e">选择文件</text>
+    <text x="260" y="180" font-size="11" text-anchor="middle" fill="#92400e">拖拽或浏览</text>
+    
+    <!-- 箭头2 -->
+    <path d="M 310 165 L 370 165" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 上传到服务器 -->
+    <rect x="370" y="140" width="100" height="50" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="4"/>
+    <text x="420" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e40af">上传服务器</text>
+    <text x="420" y="180" font-size="11" text-anchor="middle" fill="#1e40af">Cloudflare R2</text>
+    
+    <!-- 箭头3 -->
+    <path d="M 470 165 L 530 165" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 验证和处理 -->
+    <rect x="530" y="140" width="100" height="50" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="4"/>
+    <text x="580" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">验证处理</text>
+    <text x="580" y="180" font-size="11" text-anchor="middle" fill="#166534">生成ID</text>
+    
+    <!-- 箭头4 -->
+    <path d="M 630 165 L 690 165" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 存储完成 -->
+    <rect x="690" y="140" width="100" height="50" fill="#f3e8ff" stroke="#a855f7" stroke-width="2" rx="4"/>
+    <text x="740" y="160" font-size="12" font-weight="bold" text-anchor="middle" fill="#6b21a8">存储完成</text>
+    <text x="740" y="180" font-size="11" text-anchor="middle" fill="#6b21a8">等待配置</text>
+  </g>
+  
+  <!-- 第二阶段：权限配置 -->
+  <g>
+    <rect x="50" y="220" width="800" height="140" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
+    <text x="60" y="245" font-size="14" font-weight="bold" fill="#166534">⚙️ 第二步：权限配置与安全设置</text>
+    
+    <!-- 配置项1 -->
+    <rect x="80" y="270" width="130" height="75" fill="white" stroke="#10b981" stroke-width="2" rx="4"/>
+    <text x="145" y="290" font-size="12" font-weight="bold" text-anchor="middle" fill="#047857">🔢 访问次数</text>
+    <text x="145" y="310" font-size="10" text-anchor="middle" fill="#475569">限制打开次数</text>
+    <text x="145" y="325" font-size="10" text-anchor="middle" fill="#475569">如：3次、10次、无限</text>
+    <text x="145" y="340" font-size="10" text-anchor="middle" fill="#475569">防止过度传播</text>
+    
+    <!-- 配置项2 -->
+    <rect x="230" y="270" width="130" height="75" fill="white" stroke="#10b981" stroke-width="2" rx="4"/>
+    <text x="295" y="290" font-size="12" font-weight="bold" text-anchor="middle" fill="#047857">⏱️ 有效期</text>
+    <text x="295" y="310" font-size="10" text-anchor="middle" fill="#475569">设置过期时间</text>
+    <text x="295" y="325" font-size="10" text-anchor="middle" fill="#475569">如：7天、30天、1年</text>
+    <text x="295" y="340" font-size="10" text-anchor="middle" fill="#475569">时间到自动失效</text>
+    
+    <!-- 配置项3 -->
+    <rect x="380" y="270" width="130" height="75" fill="white" stroke="#10b981" stroke-width="2" rx="4"/>
+    <text x="445" y="290" font-size="12" font-weight="bold" text-anchor="middle" fill="#047857">🚫 下载权限</text>
+    <text x="445" y="310" font-size="10" text-anchor="middle" fill="#475569">启用/禁用下载</text>
+    <text x="445" y="325" font-size="10" text-anchor="middle" fill="#475569">仅在线浏览</text>
+    <text x="445" y="340" font-size="10" text-anchor="middle" fill="#475569">防止本地保存</text>
+    
+    <!-- 配置项4 -->
+    <rect x="530" y="270" width="130" height="75" fill="white" stroke="#10b981" stroke-width="2" rx="4"/>
+    <text x="595" y="290" font-size="12" font-weight="bold" text-anchor="middle" fill="#047857">💧 动态水印</text>
+    <text x="595" y="310" font-size="10" text-anchor="middle" fill="#475569">个性化水印</text>
+    <text x="595" y="325" font-size="10" text-anchor="middle" fill="#475569">显示访问者信息</text>
+    <text x="595" y="340" font-size="10" text-anchor="middle" fill="#475569">防止恶意转发</text>
+    
+    <!-- 配置项5 -->
+    <rect x="680" y="270" width="130" height="75" fill="white" stroke="#10b981" stroke-width="2" rx="4"/>
+    <text x="745" y="290" font-size="12" font-weight="bold" text-anchor="middle" fill="#047857">✅ 身份验证</text>
+    <text x="745" y="310" font-size="10" text-anchor="middle" fill="#475569">邮箱/手机验证</text>
+    <text x="745" y="325" font-size="10" text-anchor="middle" fill="#475569">确认访问者身份</text>
+    <text x="745" y="340" font-size="10" text-anchor="middle" fill="#475569">掌控谁在看</text>
+  </g>
+  
+  <!-- 第三阶段：链接生成与分享 -->
+  <g>
+    <rect x="50" y="380" width="800" height="130" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+    <text x="60" y="405" font-size="14" font-weight="bold" fill="#92400e">🔗 第三步：生成链接与二维码</text>
+    
+    <!-- 生成链接 -->
+    <circle cx="180" cy="470" r="35" fill="#f59e0b"/>
+    <text x="180" y="478" font-size="20" text-anchor="middle" fill="white">🔗</text>
+    <text x="180" y="520" font-size="11" text-anchor="middle" fill="#1e293b">在线浏览链接</text>
+    
+    <!-- 箭头 -->
+    <path d="M 215 470 L 280 470" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 生成二维码 -->
+    <circle cx="350" cy="470" r="35" fill="#f59e0b"/>
+    <text x="350" y="478" font-size="20" text-anchor="middle" fill="white">📱</text>
+    <text x="350" y="520" font-size="11" text-anchor="middle" fill="#1e293b">二维码</text>
+    
+    <!-- 箭头 -->
+    <path d="M 385 470 L 450 470" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 分享渠道 -->
+    <rect x="450" y="435" width="300" height="70" fill="white" stroke="#f59e0b" stroke-width="2" rx="4"/>
+    <text x="600" y="455" font-size="12" font-weight="bold" text-anchor="middle" fill="#92400e">选择分享渠道</text>
+    <text x="600" y="475" font-size="11" text-anchor="middle" fill="#475569">微信 | 邮件 | QQ | 钉钉 | 社交媒体</text>
+    <text x="600" y="493" font-size="11" text-anchor="middle" fill="#475569">网站嵌入 | 打印海报 | 其他渠道</text>
+  </g>
+  
+  <!-- 第四阶段：用户查看与追踪 -->
+  <g>
+    <rect x="50" y="530" width="800" height="140" fill="#fce7f3" stroke="#ec4899" stroke-width="2" rx="8"/>
+    <text x="60" y="555" font-size="14" font-weight="bold" fill="#831843">👁️ 第四步：用户查看与访问追踪</text>
+    
+    <!-- 用户接收 -->
+    <circle cx="130" cy="625" r="30" fill="#ec4899"/>
+    <text x="130" y="630" font-size="18" text-anchor="middle" fill="white">👥</text>
+    <text x="130" y="660" font-size="11" text-anchor="middle" fill="#1e293b">接收方</text>
+    
+    <!-- 箭头 -->
+    <path d="M 160 625 L 220 625" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 点击链接 -->
+    <rect x="220" y="600" width="100" height="50" fill="#fbcfe8" stroke="#ec4899" stroke-width="2" rx="4"/>
+    <text x="270" y="620" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">点击链接</text>
+    <text x="270" y="637" font-size="10" text-anchor="middle" fill="#831843">或扫描二维码</text>
+    
+    <!-- 箭头 -->
+    <path d="M 320 625 L 380 625" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 在线阅读 -->
+    <rect x="380" y="600" width="100" height="50" fill="#fbcfe8" stroke="#ec4899" stroke-width="2" rx="4"/>
+    <text x="430" y="620" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">在线阅读</text>
+    <text x="430" y="637" font-size="10" text-anchor="middle" fill="#831843">即点即看</text>
+    
+    <!-- 箭头 -->
+    <path d="M 480 625 L 540 625" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 系统记录 -->
+    <rect x="540" y="600" width="100" height="50" fill="#fbcfe8" stroke="#ec4899" stroke-width="2" rx="4"/>
+    <text x="590" y="620" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">系统记录</text>
+    <text x="590" y="637" font-size="10" text-anchor="middle" fill="#831843">访问数据</text>
+    
+    <!-- 箭头 -->
+    <path d="M 640 625 L 700 625" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 追踪完成 -->
+    <rect x="700" y="600" width="100" height="50" fill="#fbcfe8" stroke="#ec4899" stroke-width="2" rx="4"/>
+    <text x="750" y="620" font-size="11" font-weight="bold" text-anchor="middle" fill="#831843">统计分析</text>
+    <text x="750" y="637" font-size="10" text-anchor="middle" fill="#831843">数据导出</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <g>
+    <text x="50" y="690" font-size="12" fill="#475569">
+      💡 提示：整个过程中，管理者始终掌控访问权限，可以随时修改设置或停止分享
+    </text>
+  </g>
+</svg>

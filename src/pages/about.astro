@@ -6,6 +6,7 @@ import Layout from '../layouts/BlogPost.astro';
   title="About MaiPDF"
   description="Learn about MaiPDF and its features for secure PDF sharing"
   pubDate={new Date('August 08 2021')}
+  lang="zh-CN"
 >
   <section class="prose mx-auto">
     <h1>About MaiPDF</h1>
@@ -34,4 +35,391 @@ import Layout from '../layouts/BlogPost.astro';
       <span class="text-purple-600 font-bold">Stay</span> tuned as we continue to enhance MaiPDF, privnote.chat, and iplogger.icu, and thank you for being part of this journey. If you're new to any of these platforms, feel free to explore and get started with securely sharing your PDFs, messages, and tracking website visitors!
     </p>
   </section>
+
+  <!-- Diagrams Section -->
+  <section class="diagrams-section">
+    <div class="diagrams-container">
+      <h2>📊 Complete Diagram Gallery - Visual Guides to Our Features</h2>
+      
+      <!-- Language Selector -->
+      <div class="language-selector">
+        <button class="lang-btn active" onclick="filterDiagrams('all')">All Languages</button>
+        <button class="lang-btn" onclick="filterDiagrams('zh-cn')">中文 (Chinese)</button>
+        <button class="lang-btn" onclick="filterDiagrams('en')">English</button>
+      </div>
+
+      <!-- Chinese Diagrams -->
+      <div class="diagrams-group" data-language="zh-cn">
+        <h3>🇨🇳 中文流程图 (Chinese Flowcharts)</h3>
+        
+        <div class="diagram-list">
+          <!-- 1. MaiPDF Workflow -->
+          <div class="diagram-item">
+            <h4>📋 MaiPDF 核心工作流程</h4>
+            <p class="diagram-subtitle">MaiPDF Core Workflow</p>
+            <img src="/diagram/zh-cn/maipdf-workflow.svg" alt="MaiPDF Workflow" class="diagram-svg">
+            <p class="diagram-desc">展示从上传 PDF &rarr; 配置权限 &rarr; 生成链接 &rarr; 分享文档 &rarr; 用户查看 &rarr; 追踪统计的完整流程</p>
+          </div>
+
+          <!-- 2. PDF Sharing Process -->
+          <div class="diagram-item">
+            <h4>🔐 PDF 安全分享流程</h4>
+            <p class="diagram-subtitle">PDF Secure Sharing Process</p>
+            <img src="/diagram/zh-cn/pdf-sharing-process.svg" alt="PDF Sharing Process" class="diagram-svg">
+            <p class="diagram-desc">分为4个阶段：文件上传、权限配置、链接生成、用户查看与追踪</p>
+          </div>
+
+          <!-- 3. Online Browsing Flow -->
+          <div class="diagram-item">
+            <h4>🌐 PDF 在线浏览工作流程</h4>
+            <p class="diagram-subtitle">Online PDF Browsing Workflow</p>
+            <img src="/diagram/zh-cn/online-browsing-flow.svg" alt="Online Browsing Flow" class="diagram-svg">
+            <p class="diagram-desc">展示服务器端处理 vs 客户端展示的完整技术流程</p>
+          </div>
+
+          <!-- 4. Comparison -->
+          <div class="diagram-item">
+            <h4>⚖️ MaiPDF 功能对比</h4>
+            <p class="diagram-subtitle">MaiPDF Feature Comparison</p>
+            <img src="/diagram/zh-cn/maipdf-comparison.svg" alt="MaiPDF Comparison" class="diagram-svg">
+            <p class="diagram-desc">MaiPDF vs 传统分享方式的6个维度对比</p>
+          </div>
+
+          <!-- 5. Offline DRM Flow -->
+          <div class="diagram-item">
+            <h4>📦 离线 PDF DRM 模式流程</h4>
+            <p class="diagram-subtitle">Offline PDF DRM Mode Workflow</p>
+            <img src="/diagram/zh-cn/offline-drm-flow.svg" alt="Offline DRM Flow" class="diagram-svg">
+            <p class="diagram-desc">无需网络连接，从上传 &rarr; 加密 &rarr; 生成离线包 &rarr; 本地打开的完整流程</p>
+          </div>
+
+          <!-- 6. DRM Digital Certificate -->
+          <div class="diagram-item">
+            <h4>🔑 DRM 数字证书系统</h4>
+            <p class="diagram-subtitle">DRM Digital Certificate System</p>
+            <img src="/diagram/zh-cn/drm-digital-certificate.svg" alt="DRM Digital Certificate" class="diagram-svg">
+            <p class="diagram-desc">企业级数字版权管理系统架构、三层加密防护和证书生命周期管理</p>
+          </div>
+
+          <!-- 7. QR Code Sharing -->
+          <div class="diagram-item">
+            <h4>📱 PDF 二维码分享流程</h4>
+            <p class="diagram-subtitle">PDF QR Code Sharing Flow</p>
+            <img src="/diagram/zh-cn/qrcode-sharing-flow.svg" alt="QR Code Sharing" class="diagram-svg">
+            <p class="diagram-desc">从 PDF 上传 &rarr; 权限配置 &rarr; 二维码生成 &rarr; 多渠道分享 &rarr; 用户扫描查看</p>
+          </div>
+
+          <!-- 8. Image Sharing Features -->
+          <div class="diagram-item">
+            <h4>🖼️ 图片分享三大功能</h4>
+            <p class="diagram-subtitle">Image Sharing Three Features (Maiimg)</p>
+            <img src="/diagram/zh-cn/image-sharing-three-features.svg" alt="Image Sharing Features" class="diagram-svg">
+            <p class="diagram-desc">快速生成链接 &rarr; 一键禁用 &rarr; 查看打开记录的完整功能演示</p>
+          </div>
+
+          <!-- 9. Team Collaboration -->
+          <div class="diagram-item">
+            <h4>👥 PDF 团队协作流程</h4>
+            <p class="diagram-subtitle">PDF Team Collaboration Workflow</p>
+            <img src="/diagram/zh-cn/team-collaboration-workflow.svg" alt="Team Collaboration" class="diagram-svg">
+            <p class="diagram-desc">从初始分享 &rarr; 反馈收集 &rarr; 版本迭代 &rarr; 最终审批的完整协作工作流</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- English Diagrams -->
+      <div class="diagrams-group" data-language="en">
+        <h3>🇺🇸 English Flowcharts</h3>
+        
+        <div class="diagram-list">
+          <!-- 1. Maiimg Image Hosting Workflow -->
+          <div class="diagram-item">
+            <h4>📤 Maiimg Free Image Hosting Workflow</h4>
+            <p class="diagram-subtitle">Maiimg Image Hosting Workflow</p>
+            <img src="/diagram/en/maiimg-image-hosting-workflow.svg" alt="Maiimg Image Hosting Workflow" class="diagram-svg">
+            <p class="diagram-desc">Complete workflow from upload &rarr; validation &rarr; link generation &rarr; access configuration &rarr; sharing &rarr; tracking</p>
+          </div>
+
+          <!-- 2. Maiimg QR Code Sharing -->
+          <div class="diagram-item">
+            <h4>📱 Maiimg QR Code Image Sharing Workflow</h4>
+            <p class="diagram-subtitle">Maiimg QR Code Sharing Workflow</p>
+            <img src="/diagram/en/maiimg-qr-code-sharing-workflow.svg" alt="Maiimg QR Code Sharing" class="diagram-svg">
+            <p class="diagram-desc">Upload &rarr; configure &rarr; auto-generate QR &rarr; download &rarr; distribute &rarr; scan &amp; access workflow</p>
+          </div>
+
+          <!-- 3. MaiPDF One-Click Sharing -->
+          <div class="diagram-item">
+            <h4>🔗 MaiPDF One-Click PDF Sharing Workflow</h4>
+            <p class="diagram-subtitle">MaiPDF One-Click Sharing Workflow</p>
+            <img src="/diagram/en/maipdf-one-click-sharing-workflow.svg" alt="MaiPDF One-Click Sharing" class="diagram-svg">
+            <p class="diagram-desc">Upload &rarr; configure &rarr; generate link &rarr; share &rarr; view &rarr; track complete workflow</p>
+          </div>
+
+          <!-- 4. Maiimg Access Control -->
+          <div class="diagram-item">
+            <h4>🔒 Maiimg Secure Image Sharing - Access Control</h4>
+            <p class="diagram-subtitle">Maiimg Access Control Workflow</p>
+            <img src="/diagram/en/maiimg-access-control-workflow.svg" alt="Maiimg Access Control" class="diagram-svg">
+            <p class="diagram-desc">Upload &rarr; configure access control &rarr; advanced security &rarr; secure sharing &rarr; verify access &rarr; monitor &amp; control</p>
+          </div>
+
+          <!-- 5. PDF Dynamic Watermark -->
+          <div class="diagram-item">
+            <h4>💧 MaiPDF Dynamic Watermark Tracking Workflow</h4>
+            <p class="diagram-subtitle">PDF Dynamic Watermark Workflow</p>
+            <img src="/diagram/en/pdf-dynamic-watermark-workflow.svg" alt="PDF Dynamic Watermark" class="diagram-svg">
+            <p class="diagram-desc">Upload &rarr; enable watermark &rarr; share link &rarr; user opens &rarr; track access &rarr; trace leak source</p>
+          </div>
+
+          <!-- 6. Offline PDF DRM -->
+          <div class="diagram-item">
+            <h4>📦 MaiPDF Offline PDF DRM Workflow</h4>
+            <p class="diagram-subtitle">Offline PDF DRM Workflow</p>
+            <img src="/diagram/en/offline-pdf-drm-workflow.svg" alt="Offline PDF DRM" class="diagram-svg">
+            <p class="diagram-desc">Upload → configure permissions → generate package → distribute → local opening → DRM enforcement</p>
+          </div>
+
+          <!-- 7. Maiimg Bulk Sharing -->
+          <div class="diagram-item">
+            <h4>📁 Maiimg Bulk Image Sharing Workflow</h4>
+            <p class="diagram-subtitle">Maiimg Bulk Sharing Workflow</p>
+            <img src="/diagram/en/maiimg-bulk-sharing-workflow.svg" alt="Maiimg Bulk Sharing" class="diagram-svg">
+            <p class="diagram-desc">Select multiple → batch upload → create gallery → configure security → generate & share → track analytics</p>
+          </div>
+
+          <!-- 8. PDF QR Code Generation -->
+          <div class="diagram-item">
+            <h4>📱 MaiPDF QR Code Generation Workflow</h4>
+            <p class="diagram-subtitle">PDF QR Code Generation Workflow</p>
+            <img src="/diagram/en/pdf-qr-code-generation-workflow.svg" alt="PDF QR Code Generation" class="diagram-svg">
+            <p class="diagram-desc">Upload → configure settings → generate QR code → download/print → distribute → scan & access</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </Layout>
+
+<script>
+function filterDiagrams(language) {
+  // Update button states
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  event.target.classList.add('active');
+
+  // Show/hide diagram sections
+  const groups = document.querySelectorAll('.diagrams-group');
+  
+  if (language === 'all') {
+    groups.forEach(group => {
+      group.style.display = 'block';
+    });
+  } else {
+    groups.forEach(group => {
+      if (group.dataset.language === language) {
+        group.style.display = 'block';
+      } else {
+        group.style.display = 'none';
+      }
+    });
+  }
+}
+</script>
+
+<style>
+/* Import Chinese font for proper character display */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap');
+
+/* Emoji font support */
+@font-face {
+  font-family: 'Apple Color Emoji';
+  src: local('Apple Color Emoji');
+}
+
+@font-face {
+  font-family: 'Segoe UI Emoji';
+  src: local('Segoe UI Emoji');
+}
+
+@font-face {
+  font-family: 'Noto Color Emoji';
+  src: local('Noto Color Emoji');
+}
+
+/* Ensure all text elements use Chinese font with emoji support */
+.prose {
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif !important;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose p,
+.prose span,
+.prose a {
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif !important;
+}
+
+.diagrams-section {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 2px solid #e2e8f0;
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.diagrams-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.diagrams-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1e293b;
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.language-selector {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.lang-btn {
+  padding: 0.75rem 1.5rem;
+  background: #e2e8f0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.lang-btn:hover {
+  background: #cbd5e1;
+}
+
+.lang-btn.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #1e40af;
+}
+
+.diagrams-group {
+  margin-bottom: 4rem;
+}
+
+.diagrams-group h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+  color: #1e293b;
+}
+
+.diagram-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.diagram-item {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.diagram-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.diagram-item h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #1e40af;
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.diagram-subtitle {
+  margin: 0 0 1.5rem 0;
+  color: #64748b;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.diagram-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  background: #f8fafc;
+  margin: 1.5rem 0;
+  border: 1px solid #e2e8f0;
+}
+
+.diagram-desc {
+  margin: 0;
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.diagrams-group h3 {
+  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.coming-soon-message {
+  background: #f8fafc;
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #64748b;
+}
+
+.coming-soon-message p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.coming-soon-message p:first-child {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+@media (max-width: 768px) {
+  .diagrams-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .language-selector {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .lang-btn {
+    width: 100%;
+  }
+
+  .diagram-item {
+    padding: 1.5rem;
+  }
+
+  .diagram-svg {
+    margin: 1rem 0;
+  }
+}
+</style>

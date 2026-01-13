@@ -1,0 +1,114 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    MaiPDF 核心工作流程
+  </text>
+  
+  <!-- 步骤 1: 上传 PDF -->
+  <rect x="50" y="80" width="160" height="80" fill="#3b82f6" rx="8"/>
+  <text x="130" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="white">📤 上传</text>
+  <text x="130" y="135" font-size="12" text-anchor="middle" fill="white">选择或拖拽</text>
+  <text x="130" y="152" font-size="12" text-anchor="middle" fill="white">PDF 文件</text>
+  
+  <!-- 箭头 1 -->
+  <path d="M 210 120 L 270 120" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤 2: 配置权限 -->
+  <rect x="270" y="80" width="160" height="80" fill="#10b981" rx="8"/>
+  <text x="350" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="white">⚙️ 配置</text>
+  <text x="350" y="135" font-size="12" text-anchor="middle" fill="white">设置访问次数</text>
+  <text x="350" y="152" font-size="12" text-anchor="middle" fill="white">有效期与权限</text>
+  
+  <!-- 箭头 2 -->
+  <path d="M 430 120 L 490 120" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤 3: 生成链接 -->
+  <rect x="490" y="80" width="160" height="80" fill="#f59e0b" rx="8"/>
+  <text x="570" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="white">🔗 生成</text>
+  <text x="570" y="135" font-size="12" text-anchor="middle" fill="white">链接和二维码</text>
+  <text x="570" y="152" font-size="12" text-anchor="middle" fill="white">一键分享</text>
+  
+  <!-- 箭头 3 -->
+  <path d="M 570 160 L 570 220" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤 4: 分享文档 -->
+  <rect x="490" y="220" width="160" height="80" fill="#8b5cf6" rx="8"/>
+  <text x="570" y="250" font-size="16" font-weight="bold" text-anchor="middle" fill="white">📢 分享</text>
+  <text x="570" y="275" font-size="12" text-anchor="middle" fill="white">微信、邮件、</text>
+  <text x="570" y="292" font-size="12" text-anchor="middle" fill="white">社交平台</text>
+  
+  <!-- 箭头 4 -->
+  <path d="M 490 260 L 430 260" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤 5: 用户查看 -->
+  <rect x="270" y="220" width="160" height="80" fill="#ec4899" rx="8"/>
+  <text x="350" y="250" font-size="16" font-weight="bold" text-anchor="middle" fill="white">👁️ 查看</text>
+  <text x="350" y="275" font-size="12" text-anchor="middle" fill="white">在线浏览</text>
+  <text x="350" y="292" font-size="12" text-anchor="middle" fill="white">即点即看</text>
+  
+  <!-- 箭头 5 -->
+  <path d="M 270 260 L 210 260" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤 6: 追踪统计 -->
+  <rect x="50" y="220" width="160" height="80" fill="#06b6d4" rx="8"/>
+  <text x="130" y="250" font-size="16" font-weight="bold" text-anchor="middle" fill="white">📊 追踪</text>
+  <text x="130" y="275" font-size="12" text-anchor="middle" fill="white">访问记录</text>
+  <text x="130" y="292" font-size="12" text-anchor="middle" fill="white">数据统计</text>
+  
+  <!-- 核心功能区域 -->
+  <rect x="50" y="360" width="700" height="200" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+  
+  <text x="400" y="390" font-size="18" font-weight="bold" text-anchor="middle" fill="#0c4a6e">
+    MaiPDF 的核心安全功能
+  </text>
+  
+  <!-- 功能项 -->
+  <g>
+    <rect x="70" y="420" width="140" height="120" fill="white" stroke="#3b82f6" stroke-width="2" rx="4"/>
+    <text x="140" y="445" font-size="14" font-weight="bold" text-anchor="middle" fill="#3b82f6">🔢 访问次数控制</text>
+    <text x="140" y="465" font-size="11" text-anchor="middle" fill="#475569">限制打开次数</text>
+    <text x="140" y="480" font-size="11" text-anchor="middle" fill="#475569">防止过度传播</text>
+    <text x="140" y="495" font-size="11" text-anchor="middle" fill="#475569">超过次数自动失效</text>
+    <text x="140" y="510" font-size="11" text-anchor="middle" fill="#475569">安全有保障</text>
+  </g>
+  
+  <g>
+    <rect x="230" y="420" width="140" height="120" fill="white" stroke="#10b981" stroke-width="2" rx="4"/>
+    <text x="300" y="445" font-size="14" font-weight="bold" text-anchor="middle" fill="#10b981">🚫 禁止下载打印</text>
+    <text x="300" y="465" font-size="11" text-anchor="middle" fill="#475569">仅在线查看</text>
+    <text x="300" y="480" font-size="11" text-anchor="middle" fill="#475569">禁止本地保存</text>
+    <text x="300" y="495" font-size="11" text-anchor="middle" fill="#475569">禁止打印输出</text>
+    <text x="300" y="510" font-size="11" text-anchor="middle" fill="#475569">防止信息泄露</text>
+  </g>
+  
+  <g>
+    <rect x="390" y="420" width="140" height="120" fill="white" stroke="#f59e0b" stroke-width="2" rx="4"/>
+    <text x="460" y="445" font-size="14" font-weight="bold" text-anchor="middle" fill="#f59e0b">💧 动态水印</text>
+    <text x="460" y="465" font-size="11" text-anchor="middle" fill="#475569">个性化水印</text>
+    <text x="460" y="480" font-size="11" text-anchor="middle" fill="#475569">显示访问者信息</text>
+    <text x="460" y="495" font-size="11" text-anchor="middle" fill="#475569">防止恶意转发</text>
+    <text x="460" y="510" font-size="11" text-anchor="middle" fill="#475569">泄密可溯源</text>
+  </g>
+  
+  <g>
+    <rect x="550" y="420" width="140" height="120" fill="white" stroke="#8b5cf6" stroke-width="2" rx="4"/>
+    <text x="620" y="445" font-size="14" font-weight="bold" text-anchor="middle" fill="#8b5cf6">✅ 身份验证</text>
+    <text x="620" y="465" font-size="11" text-anchor="middle" fill="#475569">邮箱验证</text>
+    <text x="620" y="480" font-size="11" text-anchor="middle" fill="#475569">手机验证</text>
+    <text x="620" y="495" font-size="11" text-anchor="middle" fill="#475569">确认访问者身份</text>
+    <text x="620" y="510" font-size="11" text-anchor="middle" fill="#475569">掌控谁在看</text>
+  </g>
+</svg>
