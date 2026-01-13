@@ -7,7 +7,10 @@ import OptimizedImage from '../components/OptimizedImage.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & { slug: string; id: string };
 
-const { title, description, pubDate, updatedDate, heroImage, tags, slug, id } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, slug: slugProp, id } = Astro.props;
+
+// Prefer explicit slug prop; fall back to id for brand detection
+const slug = slugProp || id || '';
 
 // Fix the heroImage path if needed
 const heroImagePath = heroImage?.startsWith('/') ? heroImage : `/${heroImage}`;
@@ -20,9 +23,17 @@ const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])]
 // Get language from filename or defaults to 'en'
 const lang = slug?.includes('/cn/') ? 'zh-CN' : 'en';
 
-// Determine the target website based on language
-const targetWebsite = lang === 'zh-CN' ? 'https://maipdf.cn' : 'https://maipdf.com';
-const buttonText = lang === 'zh-CN' ? '立即体验 MaiPDF' : 'Try MaiPDF Now';
+// Determine brand (Maiimg vs MaiPDF) from slug
+const isMaiimg = slug?.includes('maiimg');
+
+// Determine the target website and CTA text based on brand and language
+const targetWebsite = isMaiimg
+  ? (lang === 'zh-CN' ? 'https://maiimg.cn' : 'https://maiimg.com')
+  : (lang === 'zh-CN' ? 'https://maipdf.cn' : 'https://maipdf.com');
+
+const buttonText = isMaiimg
+  ? (lang === 'zh-CN' ? '立即体验 Maiimg' : 'Try Maiimg Now')
+  : (lang === 'zh-CN' ? '立即体验 MaiPDF' : 'Try MaiPDF Now');
 ---
 
 <div class="container">
