@@ -1,0 +1,77 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Access Control Flow
+  </text>
+  
+  <!-- User -->
+  <rect x="50" y="120" width="150" height="120" fill="#3b82f6" rx="15"/>
+  <text x="125" y="165" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">👤</text>
+  <text x="125" y="220" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">User</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 200 180 L 280 180" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Check -->
+  <rect x="280" y="120" width="150" height="120" fill="#f59e0b" rx="15"/>
+  <text x="355" y="165" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔒</text>
+  <text x="355" y="220" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Verify</text>
+  
+  <!-- Decision -->
+  <path d="M 430 180 L 500 180 L 500 100 L 430 100 Z" fill="#10b981" stroke="#059669" stroke-width="2"/>
+  <text x="465" y="145" font-size="16" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Allowed?</text>
+  
+  <!-- Yes Path -->
+  <path d="M 500 100 L 650 100" stroke="#10b981" stroke-width="4" fill="none" marker-end="url(#arrowhead-green)"/>
+  <text x="575" y="95" font-size="14" fill="#059669" font-family="Arial, sans-serif">Yes</text>
+  
+  <!-- No Path -->
+  <path d="M 500 180 L 650 180" stroke="#ef4444" stroke-width="4" fill="none" marker-end="url(#arrowhead-red)"/>
+  <text x="575" y="185" font-size="14" fill="#dc2626" font-family="Arial, sans-serif">No</text>
+  
+  <!-- Access Granted -->
+  <rect x="650" y="60" width="150" height="120" fill="#10b981" rx="15"/>
+  <text x="725" y="105" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">✅</text>
+  <text x="725" y="160" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Access</text>
+  
+  <!-- Access Denied -->
+  <rect x="650" y="140" width="150" height="120" fill="#ef4444" rx="15"/>
+  <text x="725" y="185" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">❌</text>
+  <text x="725" y="240" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Blocked</text>
+  
+  <!-- Features -->
+  <rect x="50" y="300" width="750" height="150" fill="#ffffff" rx="15" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="425" y="335" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Control Methods</text>
+  
+  <circle cx="120" cy="390" r="35" fill="#dbeafe"/>
+  <text x="120" y="400" font-size="30" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif">📧</text>
+  <text x="120" y="430" font-size="14" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Email</text>
+  
+  <circle cx="300" cy="390" r="35" fill="#fce7f3"/>
+  <text x="300" y="400" font-size="30" text-anchor="middle" fill="#9f1239" font-family="Arial, sans-serif">🔑</text>
+  <text x="300" y="430" font-size="14" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Password</text>
+  
+  <circle cx="480" cy="390" r="35" fill="#dcfce7"/>
+  <text x="480" y="400" font-size="30" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif">📱</text>
+  <text x="480" y="430" font-size="14" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Phone</text>
+  
+  <circle cx="660" cy="390" r="35" fill="#fef3c7"/>
+  <text x="660" y="400" font-size="30" text-anchor="middle" fill="#92400e" font-family="Arial, sans-serif">⏱️</text>
+  <text x="660" y="430" font-size="14" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Time Limit</text>
+  
+  <!-- Arrow marker definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#64748b"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#10b981"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#ef4444"/>
+    </marker>
+  </defs>
+</svg>

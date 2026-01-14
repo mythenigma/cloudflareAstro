@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <rect width="900" height="320" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">分享方式对比</text>
+  
+  <!-- Method 1: Link -->
+  <rect x="40" y="70" width="190" height="210" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="135" y="105" font-size="36" text-anchor="middle">🔗</text>
+  <text x="135" y="155" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">链接分享</text>
+  <text x="135" y="175" font-size="9" text-anchor="middle" fill="#475569">✅ 快速简单</text>
+  <text x="135" y="190" font-size="9" text-anchor="middle" fill="#475569">✅ 即时生效</text>
+  <text x="135" y="205" font-size="9" text-anchor="middle" fill="#475569">❌ 需要点击</text>
+  <text x="135" y="220" font-size="9" text-anchor="middle" fill="#475569">❌ 易被复制</text>
+  <text x="135" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#1e40af">最快30秒</text>
+  
+  <!-- Method 2: QR Code -->
+  <rect x="260" y="70" width="190" height="210" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="2" rx="8"/>
+  <text x="355" y="105" font-size="36" text-anchor="middle">📱</text>
+  <text x="355" y="155" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">二维码分享</text>
+  <text x="355" y="175" font-size="9" text-anchor="middle" fill="#475569">✅ 视觉吸引</text>
+  <text x="355" y="190" font-size="9" text-anchor="middle" fill="#475569">✅ 易于分享</text>
+  <text x="355" y="205" font-size="9" text-anchor="middle" fill="#475569">✅ 可追踪</text>
+  <text x="355" y="220" font-size="9" text-anchor="middle" fill="#475569">❌ 需要扫码</text>
+  <text x="355" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#4c1d95">最流行</text>
+  
+  <!-- Method 3: Email -->
+  <rect x="480" y="70" width="190" height="210" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="575" y="105" font-size="36" text-anchor="middle">📧</text>
+  <text x="575" y="155" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">邮件分享</text>
+  <text x="575" y="175" font-size="9" text-anchor="middle" fill="#475569">✅ 正式专业</text>
+  <text x="575" y="190" font-size="9" text-anchor="middle" fill="#475569">✅ 记录完整</text>
+  <text x="575" y="205" font-size="9" text-anchor="middle" fill="#475569">✅ 可追踪</text>
+  <text x="575" y="220" font-size="9" text-anchor="middle" fill="#475569">❌ 需要邮箱</text>
+  <text x="575" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">最正式</text>
+  
+  <!-- Method 4: Social -->
+  <rect x="700" y="70" width="160" height="210" fill="#fee2e2" stroke="#dc2626" stroke-width="2" rx="8"/>
+  <text x="780" y="105" font-size="36" text-anchor="middle">📲</text>
+  <text x="780" y="155" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">社交分享</text>
+  <text x="780" y="175" font-size="9" text-anchor="middle" fill="#475569">✅ 触达广</text>
+  <text x="780" y="190" font-size="9" text-anchor="middle" fill="#475569">✅ 易传播</text>
+  <text x="780" y="205" font-size="9" text-anchor="middle" fill="#475569">✅ 可追踪</text>
+  <text x="780" y="220" font-size="9" text-anchor="middle" fill="#475569">❌ 隐私风险</text>
+  <text x="780" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#7f1d1d">最广传</text>
+</svg>

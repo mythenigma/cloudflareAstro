@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  <text x="500" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">企业文档管理最佳实践</text>
+  
+  <rect x="30" y="85" width="940" height="150" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+  <text x="500" y="115" font-size="14" font-weight="bold" fill="#0c4a6e">文档分类管理</text>
+  
+  <rect x="60" y="135" width="170" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="145" y="155" font-size="10" font-weight="bold" text-anchor="middle" fill="#0c4a6e">机密文档</text>
+  <text x="145" y="175" font-size="9" text-anchor="middle" fill="#475569">最高级别保护</text>
+  <text x="145" y="190" font-size="9" text-anchor="middle" fill="#475569">核心机密</text>
+  
+  <rect x="250" y="135" width="170" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="335" y="155" font-size="10" font-weight="bold" text-anchor="middle" fill="#0c4a6e">内部文档</text>
+  <text x="335" y="175" font-size="9" text-anchor="middle" fill="#475569">员工可访问</text>
+  <text x="335" y="190" font-size="9" text-anchor="middle" fill="#475569">部门共享</text>
+  
+  <rect x="440" y="135" width="170" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="525" y="155" font-size="10" font-weight="bold" text-anchor="middle" fill="#0c4a6e">合作文档</text>
+  <text x="525" y="175" font-size="9" text-anchor="middle" fill="#475569">外部可访问</text>
+  <text x="525" y="190" font-size="9" text-anchor="middle" fill="#475569">协议管理</text>
+  
+  <rect x="630" y="135" width="170" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="715" y="155" font-size="10" font-weight="bold" text-anchor="middle" fill="#0c4a6e">公开文档</text>
+  <text x="715" y="175" font-size="9" text-anchor="middle" fill="#475569">公众可见</text>
+  <text x="715" y="190" font-size="9" text-anchor="middle" fill="#475569">营销宣传</text>
+  
+  <rect x="820" y="135" width="140" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="890" y="155" font-size="10" font-weight="bold" text-anchor="middle" fill="#0c4a6e">归档文档</text>
+  <text x="890" y="175" font-size="9" text-anchor="middle" fill="#475569">历史记录</text>
+  <text x="890" y="190" font-size="9" text-anchor="middle" fill="#475569">保留备份</text>
+  
+  <rect x="30" y="260" width="940" height="150" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="500" y="290" font-size="14" font-weight="bold" fill="#92400e">访问权限管理</text>
+  
+  <rect x="60" y="310" width="180" height="90" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="150" y="335" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">所有者权限</text>
+  <text x="150" y="355" font-size="9" text-anchor="middle" fill="#475569">完全控制删除</text>
+  <text x="150" y="370" font-size="9" text-anchor="middle" fill="#475569">分享和转移</text>
+  
+  <rect x="260" y="310" width="180" height="90" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="350" y="335" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">编辑权限</text>
+  <text x="350" y="355" font-size="9" text-anchor="middle" fill="#475569">修改内容</text>
+  <text x="350" y="370" font-size="9" text-anchor="middle" fill="#475569">添加评论</text>
+  
+  <rect x="460" y="310" width="180" height="90" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="550" y="335" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">查看权限</text>
+  <text x="550" y="355" font-size="9" text-anchor="middle" fill="#475569">只读访问</text>
+  <text x="550" y="370" font-size="9" text-anchor="middle" fill="#475569">禁止修改</text>
+  
+  <rect x="660" y="310" width="160" height="90" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="740" y="335" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">限制权限</text>
+  <text x="740" y="355" font-size="9" text-anchor="middle" fill="#475569">预览only</text>
+  <text x="740" y="370" font-size="9" text-anchor="middle" fill="#475569">时间限制</text>
+  
+  <rect x="830" y="310" width="140" height="90" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="900" y="335" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">无权限</text>
+  <text x="900" y="355" font-size="9" text-anchor="middle" fill="#475569">无法访问</text>
+  <text x="900" y="370" font-size="9" text-anchor="middle" fill="#475569">被拒绝</text>
+  
+  <rect x="30" y="435" width="940" height="250" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
+  <text x="500" y="465" font-size="14" font-weight="bold" fill="#166534">文档生命周期管理流程</text>
+  
+  <circle cx="80" cy="530" r="20" fill="#22c55e"/>
+  <text x="80" y="538" font-size="11" text-anchor="middle" fill="white">1</text>
+  <text x="80" y="565" font-size="9" text-anchor="middle" fill="#1e293b">创建</text>
+  
+  <path d="M 100 530 L 140 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="180" cy="530" r="20" fill="#22c55e"/>
+  <text x="180" y="538" font-size="11" text-anchor="middle" fill="white">2</text>
+  <text x="180" y="565" font-size="9" text-anchor="middle" fill="#1e293b">审核</text>
+  
+  <path d="M 200 530 L 240 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="280" cy="530" r="20" fill="#22c55e"/>
+  <text x="280" y="538" font-size="11" text-anchor="middle" fill="white">3</text>
+  <text x="280" y="565" font-size="9" text-anchor="middle" fill="#1e293b">批准</text>
+  
+  <path d="M 300 530 L 340 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="380" cy="530" r="20" fill="#22c55e"/>
+  <text x="380" y="538" font-size="11" text-anchor="middle" fill="white">4</text>
+  <text x="380" y="565" font-size="9" text-anchor="middle" fill="#1e293b">发布</text>
+  
+  <path d="M 400 530 L 440 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="480" cy="530" r="20" fill="#22c55e"/>
+  <text x="480" y="538" font-size="11" text-anchor="middle" fill="white">5</text>
+  <text x="480" y="565" font-size="9" text-anchor="middle" fill="#1e293b">使用</text>
+  
+  <path d="M 500 530 L 540 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="580" cy="530" r="20" fill="#22c55e"/>
+  <text x="580" y="538" font-size="11" text-anchor="middle" fill="white">6</text>
+  <text x="580" y="565" font-size="9" text-anchor="middle" fill="#1e293b">更新</text>
+  
+  <path d="M 600 530 L 640 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="680" cy="530" r="20" fill="#22c55e"/>
+  <text x="680" y="538" font-size="11" text-anchor="middle" fill="white">7</text>
+  <text x="680" y="565" font-size="9" text-anchor="middle" fill="#1e293b">审核</text>
+  
+  <path d="M 700 530 L 740 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="780" cy="530" r="20" fill="#22c55e"/>
+  <text x="780" y="538" font-size="11" text-anchor="middle" fill="white">8</text>
+  <text x="780" y="565" font-size="9" text-anchor="middle" fill="#1e293b">归档</text>
+  
+  <path d="M 800 530 L 840 530" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="880" cy="530" r="20" fill="#22c55e"/>
+  <text x="880" y="538" font-size="11" text-anchor="middle" fill="white">9</text>
+  <text x="880" y="565" font-size="9" text-anchor="middle" fill="#1e293b">销毁</text>
+  
+  <rect x="60" y="600" width="880" height="70" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="500" y="625" font-size="10" font-weight="bold" text-anchor="middle" fill="#166534">每个阶段都有完整的审计记录、权限检查和版本控制</text>
+  <text x="500" y="645" font-size="9" text-anchor="middle" fill="#475569">确保文档安全合规 追踪全生命周期 快速恢复历史版本</text>
+</svg>

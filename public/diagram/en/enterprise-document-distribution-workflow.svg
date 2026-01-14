@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1100 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1100" height="750" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="550" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Enterprise Document Distribution Workflow
+  </text>
+  
+  <!-- Step 1: Document Preparation -->
+  <rect x="50" y="90" width="200" height="130" fill="#3b82f6" rx="12"/>
+  <text x="150" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📄 Prepare</text>
+  <text x="150" y="145" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Business documents</text>
+  <text x="150" y="165" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Contracts, proposals</text>
+  <text x="150" y="185" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Training materials</text>
+  <text x="150" y="205" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Legal documents</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 155 L 320 155" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Upload & Configure -->
+  <rect x="320" y="90" width="200" height="130" fill="#10b981" rx="12"/>
+  <text x="420" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">☁️ Upload</text>
+  <text x="420" y="145" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Upload to platform</text>
+  <text x="420" y="165" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Configure security</text>
+  <text x="420" y="185" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Set access rules</text>
+  <text x="420" y="205" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Enable tracking</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 420 220 L 420 290" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Security Configuration -->
+  <rect x="320" y="290" width="200" height="130" fill="#f59e0b" rx="12"/>
+  <text x="420" y="320" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔒 Security</text>
+  <text x="420" y="345" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Email verification</text>
+  <text x="420" y="365" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Domain restrictions</text>
+  <text x="420" y="385" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View limits</text>
+  <text x="420" y="405" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Expiration dates</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 520 355 L 620 355" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Distribution -->
+  <rect x="620" y="290" width="200" height="130" fill="#8b5cf6" rx="12"/>
+  <text x="720" y="320" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📤 Distribute</text>
+  <text x="720" y="345" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Generate secure links</text>
+  <text x="720" y="365" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Send to teams/clients</text>
+  <text x="720" y="385" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">QR codes for events</text>
+  <text x="720" y="405" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Bulk distribution</text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 720 420 L 720 490" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Monitor & Track -->
+  <rect x="620" y="490" width="200" height="130" fill="#ef4444" rx="12"/>
+  <text x="720" y="520" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📊 Monitor</text>
+  <text x="720" y="545" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Track access in real-time</text>
+  <text x="720" y="565" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View analytics</text>
+  <text x="720" y="585" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Monitor engagement</text>
+  <text x="720" y="605" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Generate reports</text>
+  
+  <!-- Arrow 5 -->
+  <path d="M 620 555 L 520 555" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 6: Manage & Control -->
+  <rect x="320" y="490" width="200" height="130" fill="#06b6d4" rx="12"/>
+  <text x="420" y="520" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">⚙️ Manage</text>
+  <text x="420" y="545" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Revoke access anytime</text>
+  <text x="420" y="565" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Update settings</text>
+  <text x="420" y="585" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Modify permissions</text>
+  <text x="420" y="605" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Compliance tracking</text>
+  
+  <!-- Enterprise Features Box -->
+  <rect x="850" y="90" width="200" height="530" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="950" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Enterprise Features</text>
+  
+  <rect x="870" y="150" width="160" height="70" fill="#dbeafe" rx="8"/>
+  <text x="950" y="175" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif">🔐 Access Control</text>
+  <text x="950" y="195" font-size="12" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif">Email verification</text>
+  <text x="950" y="210" font-size="12" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif">Domain restrictions</text>
+  
+  <rect x="870" y="230" width="160" height="70" fill="#fce7f3" rx="8"/>
+  <text x="950" y="255" font-size="14" font-weight="bold" text-anchor="middle" fill="#9f1239" font-family="Arial, sans-serif">📊 Analytics</text>
+  <text x="950" y="275" font-size="12" text-anchor="middle" fill="#881337" font-family="Arial, sans-serif">Usage tracking</text>
+  <text x="950" y="290" font-size="12" text-anchor="middle" fill="#881337" font-family="Arial, sans-serif">Engagement metrics</text>
+  
+  <rect x="870" y="310" width="160" height="70" fill="#dcfce7" rx="8"/>
+  <text x="950" y="335" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif">💧 Watermarking</text>
+  <text x="950" y="355" font-size="12" text-anchor="middle" fill="#14532d" font-family="Arial, sans-serif">Dynamic watermarks</text>
+  <text x="950" y="370" font-size="12" text-anchor="middle" fill="#14532d" font-family="Arial, sans-serif">Document protection</text>
+  
+  <rect x="870" y="390" width="160" height="70" fill="#fef3c7" rx="8"/>
+  <text x="950" y="415" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e" font-family="Arial, sans-serif">⏱️ Expiration</text>
+  <text x="950" y="435" font-size="12" text-anchor="middle" fill="#78350f" font-family="Arial, sans-serif">Time-limited access</text>
+  <text x="950" y="450" font-size="12" text-anchor="middle" fill="#78350f" font-family="Arial, sans-serif">Auto-expire links</text>
+  
+  <rect x="870" y="470" width="160" height="70" fill="#e0e7ff" rx="8"/>
+  <text x="950" y="495" font-size="14" font-weight="bold" text-anchor="middle" fill="#3730a3" font-family="Arial, sans-serif">📋 Compliance</text>
+  <text x="950" y="515" font-size="12" text-anchor="middle" fill="#312e81" font-family="Arial, sans-serif">GDPR compliant</text>
+  <text x="950" y="530" font-size="12" text-anchor="middle" fill="#312e81" font-family="Arial, sans-serif">Audit trails</text>
+  
+  <rect x="870" y="550" width="160" height="70" fill="#f3e8ff" rx="8"/>
+  <text x="950" y="575" font-size="14" font-weight="bold" text-anchor="middle" fill="#6b21a8" font-family="Arial, sans-serif">🚫 Protection</text>
+  <text x="950" y="595" font-size="12" text-anchor="middle" fill="#581c87" font-family="Arial, sans-serif">No download</text>
+  <text x="950" y="610" font-size="12" text-anchor="middle" fill="#581c87" font-family="Arial, sans-serif">No printing</text>
+  
+  <!-- Use Cases Box -->
+  <rect x="50" y="640" width="470" height="90" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="285" y="665" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Enterprise Use Cases</text>
+  
+  <circle cx="70" cy="690" r="5" fill="#3b82f6"/>
+  <text x="85" y="695" font-size="13" fill="#475569" font-family="Arial, sans-serif">Client proposals &amp; contracts</text>
+  
+  <circle cx="70" cy="710" r="5" fill="#10b981"/>
+  <text x="85" y="715" font-size="13" fill="#475569" font-family="Arial, sans-serif">Training materials &amp; manuals</text>
+  
+  <circle cx="280" cy="690" r="5" fill="#f59e0b"/>
+  <text x="295" y="695" font-size="13" fill="#475569" font-family="Arial, sans-serif">Legal documents &amp; compliance</text>
+  
+  <circle cx="280" cy="710" r="5" fill="#8b5cf6"/>
+  <text x="295" y="715" font-size="13" fill="#475569" font-family="Arial, sans-serif">Internal reports &amp; documentation</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <rect width="900" height="280" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">QR码分享 - 3步完成</text>
+  
+  <!-- Step 1 -->
+  <rect x="40" y="70" width="200" height="160" fill="#c7d2fe" stroke="#6366f1" stroke-width="2" rx="8"/>
+  <text x="140" y="110" font-size="40" text-anchor="middle">📤</text>
+  <text x="140" y="160" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e293b">上传文件</text>
+  <text x="140" y="180" font-size="10" text-anchor="middle" fill="#475569">PDF 或图片</text>
+  <text x="140" y="200" font-size="10" text-anchor="middle" fill="#475569">即时完成</text>
+  
+  <!-- Arrow -->
+  <path d="M 240 150 L 310 150" stroke="#6366f1" stroke-width="3" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2 -->
+  <rect x="310" y="70" width="200" height="160" fill="#a78bfa" stroke="#8b5cf6" stroke-width="2" rx="8"/>
+  <text x="410" y="110" font-size="40" text-anchor="middle">🎯</text>
+  <text x="410" y="160" font-size="13" font-weight="bold" text-anchor="middle" fill="white">生成二维码</text>
+  <text x="410" y="180" font-size="10" text-anchor="middle" fill="white">自动生成</text>
+  <text x="410" y="200" font-size="10" text-anchor="middle" fill="white">一键下载</text>
+  
+  <!-- Arrow -->
+  <path d="M 510 150 L 580 150" stroke="#8b5cf6" stroke-width="3" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3 -->
+  <rect x="580" y="70" width="280" height="160" fill="#fcd34d" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="720" y="110" font-size="40" text-anchor="middle">📱</text>
+  <text x="720" y="160" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e293b">分享二维码</text>
+  <text x="720" y="180" font-size="10" text-anchor="middle" fill="#92400e">微信 • 邮件 • 海报</text>
+  <text x="720" y="200" font-size="10" text-anchor="middle" fill="#92400e">用户扫码即可查看</text>
+  
+  <!-- Bottom info -->
+  <rect x="40" y="250" width="820" height="25" fill="#e0e7ff" rx="4"/>
+  <text x="450" y="268" font-size="11" text-anchor="middle" fill="#312e81">🎁 免费生成 | 📊 实时追踪扫码数量 | 📍 记录扫码位置</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

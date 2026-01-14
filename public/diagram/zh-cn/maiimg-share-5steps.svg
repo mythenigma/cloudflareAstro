@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ec4899"/>
+    </marker>
+  </defs>
+  
+  <rect width="900" height="300" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">Maiimg 图片分享流程</text>
+  
+  <!-- Step 1 -->
+  <circle cx="100" cy="140" r="50" fill="#ff6b6b"/>
+  <text x="100" y="130" font-size="36" text-anchor="middle">📸</text>
+  <text x="100" y="215" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">选择图片</text>
+  <text x="100" y="235" font-size="9" text-anchor="middle" fill="#666">单张或多张</text>
+  
+  <!-- Arrow -->
+  <path d="M 150 140 L 220 140" stroke="#ec4899" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 2 -->
+  <circle cx="280" cy="140" r="50" fill="#f783ac"/>
+  <text x="280" y="130" font-size="36" text-anchor="middle">⬆️</text>
+  <text x="280" y="215" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">上传文件</text>
+  <text x="280" y="235" font-size="9" text-anchor="middle" fill="#666">秒级完成</text>
+  
+  <!-- Arrow -->
+  <path d="M 330 140 L 400 140" stroke="#f783ac" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 3 -->
+  <circle cx="460" cy="140" r="50" fill="#f06595"/>
+  <text x="460" y="130" font-size="36" text-anchor="middle">⚙️</text>
+  <text x="460" y="215" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">配置权限</text>
+  <text x="460" y="235" font-size="9" text-anchor="middle" fill="#666">可选设置</text>
+  
+  <!-- Arrow -->
+  <path d="M 510 140 L 580 140" stroke="#f06595" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 4 -->
+  <circle cx="640" cy="140" r="50" fill="#d92e7f"/>
+  <text x="640" y="130" font-size="36" text-anchor="middle">🔗</text>
+  <text x="640" y="215" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">获取链接</text>
+  <text x="640" y="235" font-size="9" text-anchor="middle" fill="#666">一键分享</text>
+  
+  <!-- Arrow -->
+  <path d="M 690 140 L 760 140" stroke="#d92e7f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 5 -->
+  <circle cx="820" cy="140" r="50" fill="#be185d"/>
+  <text x="820" y="130" font-size="36" text-anchor="middle">✨</text>
+  <text x="820" y="215" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">分享给他人</text>
+  <text x="820" y="235" font-size="9" text-anchor="middle" fill="#666">完成分享</text>
+  
+  <!-- Bottom benefits -->
+  <rect x="50" y="260" width="800" height="30" fill="#fdf2f8" stroke="#ec4899" stroke-width="1" rx="4"/>
+  <text x="450" y="282" font-size="11" text-anchor="middle" fill="#831843">✅ 免费无限 | ✅ 无需登录 | ✅ 实时追踪 | ✅ 一键禁用</text>
+</svg>

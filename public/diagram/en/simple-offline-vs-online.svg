@@ -1,0 +1,44 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Offline vs Online
+  </text>
+  
+  <!-- Offline Column -->
+  <rect x="50" y="100" width="380" height="380" fill="#ffffff" rx="20" stroke="#3b82f6" stroke-width="3"/>
+  <text x="240" y="140" font-size="28" font-weight="bold" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif">📦 Offline</text>
+  
+  <circle cx="240" cy="220" r="60" fill="#3b82f6"/>
+  <text x="240" y="230" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📥</text>
+  <text x="240" y="300" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Download</text>
+  <text x="240" y="330" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">HTML Package</text>
+  
+  <circle cx="240" cy="380" r="60" fill="#10b981"/>
+  <text x="240" y="390" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">💻</text>
+  <text x="240" y="460" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">View Offline</text>
+  <text x="240" y="490" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">No Internet</text>
+  
+  <!-- Online Column -->
+  <rect x="470" y="100" width="380" height="380" fill="#ffffff" rx="20" stroke="#10b981" stroke-width="3"/>
+  <text x="660" y="140" font-size="28" font-weight="bold" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif">🌐 Online</text>
+  
+  <circle cx="660" cy="220" r="60" fill="#10b981"/>
+  <text x="660" y="230" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">☁️</text>
+  <text x="660" y="300" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Upload</text>
+  <text x="660" y="330" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">To Server</text>
+  
+  <circle cx="660" cy="380" r="60" fill="#f59e0b"/>
+  <text x="660" y="390" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔗</text>
+  <text x="660" y="460" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Access Online</text>
+  <text x="660" y="490" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">Via Link</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

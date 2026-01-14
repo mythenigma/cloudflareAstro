@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3b82f6"/>
+    </marker>
+  </defs>
+  
+  <rect width="900" height="300" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">快速分享 3 步</text>
+  
+  <!-- Step 1 -->
+  <circle cx="120" cy="150" r="60" fill="#3b82f6"/>
+  <text x="120" y="140" font-size="36" text-anchor="middle" fill="white">📤</text>
+  <text x="120" y="225" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e293b">上传文件</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 180 150 L 270 150" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 2 -->
+  <circle cx="330" cy="150" r="60" fill="#10b981"/>
+  <text x="330" y="140" font-size="36" text-anchor="middle" fill="white">⚙️</text>
+  <text x="330" y="225" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e293b">配置权限</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 390 150 L 480 150" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 3 -->
+  <circle cx="540" cy="150" r="60" fill="#f59e0b"/>
+  <text x="540" y="140" font-size="36" text-anchor="middle" fill="white">🔗</text>
+  <text x="540" y="225" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e293b">获取链接</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 600 150 L 690 150" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Step 4 - Result -->
+  <circle cx="750" cy="150" r="60" fill="#8b5cf6"/>
+  <text x="750" y="140" font-size="36" text-anchor="middle" fill="white">✨</text>
+  <text x="750" y="225" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e293b">分享出去</text>
+  
+  <!-- Bottom Tips -->
+  <rect x="50" y="260" width="800" height="25" fill="#e0f2fe" rx="4"/>
+  <text x="450" y="278" font-size="11" text-anchor="middle" fill="#0c4a6e">⏱️ 30秒完成 | 📱 支持链接和二维码 | 🔒 即时生效</text>
+</svg>

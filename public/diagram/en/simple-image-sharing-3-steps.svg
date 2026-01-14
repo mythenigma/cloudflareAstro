@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Image Sharing in 3 Steps
+  </text>
+  
+  <!-- Step 1: Upload -->
+  <circle cx="150" cy="200" r="80" fill="#3b82f6"/>
+  <text x="150" y="195" font-size="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🖼️</text>
+  <text x="150" y="300" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Upload</text>
+  <text x="150" y="330" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">Images</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 230 200 L 320 200" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Gallery -->
+  <circle cx="400" cy="200" r="80" fill="#10b981"/>
+  <text x="400" y="195" font-size="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📸</text>
+  <text x="400" y="300" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Gallery</text>
+  <text x="400" y="330" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">Auto-Created</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 480 200 L 570 200" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Share -->
+  <circle cx="650" cy="200" r="80" fill="#f59e0b"/>
+  <text x="650" y="195" font-size="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔗</text>
+  <text x="650" y="300" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Share</text>
+  <text x="650" y="330" font-size="16" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">Link &amp; QR</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

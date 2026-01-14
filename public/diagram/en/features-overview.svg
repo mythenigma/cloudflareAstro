@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700');
+      text { font-family: 'Roboto', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  <text x="500" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">MaiPDF Core Features Overview</text>
+  
+  <rect x="30" y="85" width="280" height="600" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+  <text x="170" y="115" font-size="13" font-weight="bold" fill="#0c4a6e">Online Mode</text>
+  
+  <rect x="50" y="140" width="240" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="170" y="165" font-size="11" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Instant Sharing</text>
+  <text x="170" y="185" font-size="9" text-anchor="middle" fill="#475569">Generate links immediately</text>
+  <text x="170" y="200" font-size="9" text-anchor="middle" fill="#475569">No installation required</text>
+  
+  <rect x="50" y="245" width="240" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="170" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Access Control</text>
+  <text x="170" y="290" font-size="9" text-anchor="middle" fill="#475569">Limit view counts</text>
+  <text x="170" y="305" font-size="9" text-anchor="middle" fill="#475569">Set expiration dates</text>
+  
+  <rect x="50" y="350" width="240" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="170" y="375" font-size="11" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Real-time Tracking</text>
+  <text x="170" y="395" font-size="9" text-anchor="middle" fill="#475569">Monitor who viewed</text>
+  <text x="170" y="410" font-size="9" text-anchor="middle" fill="#475569">Track access times</text>
+  
+  <rect x="50" y="455" width="240" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
+  <text x="170" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Watermarking</text>
+  <text x="170" y="500" font-size="9" text-anchor="middle" fill="#475569">Dynamic watermarks</text>
+  <text x="170" y="515" font-size="9" text-anchor="middle" fill="#475569">Prevent unauthorized sharing</text>
+  
+  <rect x="330" y="85" width="280" height="600" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="470" y="115" font-size="13" font-weight="bold" fill="#92400e">Offline Mode</text>
+  
+  <rect x="350" y="140" width="240" height="85" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="470" y="165" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">DRM Protection</text>
+  <text x="470" y="185" font-size="9" text-anchor="middle" fill="#475569">AES-256 encryption</text>
+  <text x="470" y="200" font-size="9" text-anchor="middle" fill="#475569">No server required</text>
+  
+  <rect x="350" y="245" width="240" height="85" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="470" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">Offline Viewing</text>
+  <text x="470" y="290" font-size="9" text-anchor="middle" fill="#475569">Works without internet</text>
+  <text x="470" y="305" font-size="9" text-anchor="middle" fill="#475569">Self-contained package</text>
+  
+  <rect x="350" y="350" width="240" height="85" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="470" y="375" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">Local Protection</text>
+  <text x="470" y="395" font-size="9" text-anchor="middle" fill="#475569">No printing allowed</text>
+  <text x="470" y="410" font-size="9" text-anchor="middle" fill="#475569">No downloading enabled</text>
+  
+  <rect x="350" y="455" width="240" height="85" fill="white" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="470" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">Time-based Expiry</text>
+  <text x="470" y="500" font-size="9" text-anchor="middle" fill="#475569">Automatic access expiration</text>
+  <text x="470" y="515" font-size="9" text-anchor="middle" fill="#475569">View limit enforcement</text>
+  
+  <rect x="630" y="85" width="340" height="600" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
+  <text x="800" y="115" font-size="13" font-weight="bold" fill="#166534">Enterprise Features</text>
+  
+  <rect x="650" y="140" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="800" y="165" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Team Collaboration</text>
+  <text x="800" y="185" font-size="9" text-anchor="middle" fill="#475569">Share with teams</text>
+  <text x="800" y="200" font-size="9" text-anchor="middle" fill="#475569">Collect feedback</text>
+  
+  <rect x="650" y="245" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="800" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Audit Logs</text>
+  <text x="800" y="290" font-size="9" text-anchor="middle" fill="#475569">Complete access history</text>
+  <text x="800" y="305" font-size="9" text-anchor="middle" fill="#475569">Compliance ready</text>
+  
+  <rect x="650" y="350" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="800" y="375" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Version Control</text>
+  <text x="800" y="395" font-size="9" text-anchor="middle" fill="#475569">Track document versions</text>
+  <text x="800" y="410" font-size="9" text-anchor="middle" fill="#475569">Easy rollback support</text>
+  
+  <rect x="650" y="455" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="800" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Analytics Dashboard</text>
+  <text x="800" y="500" font-size="9" text-anchor="middle" fill="#475569">Detailed usage reports</text>
+  <text x="800" y="515" font-size="9" text-anchor="middle" fill="#475569">Export statistics</text>
+</svg>

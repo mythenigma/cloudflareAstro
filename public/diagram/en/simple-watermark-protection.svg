@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Watermark Protection
+  </text>
+  
+  <!-- Document -->
+  <rect x="50" y="120" width="150" height="200" fill="#3b82f6" rx="15"/>
+  <text x="125" y="200" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📄</text>
+  <text x="125" y="280" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Document</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 200 220 L 280 220" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Add Watermark -->
+  <rect x="280" y="120" width="150" height="200" fill="#f59e0b" rx="15"/>
+  <text x="355" y="200" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">💧</text>
+  <text x="355" y="280" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Add</text>
+  <text x="355" y="305" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Watermark</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 430 220 L 510 220" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Protected Document -->
+  <rect x="510" y="120" width="150" height="200" fill="#10b981" rx="15"/>
+  <text x="585" y="200" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔒</text>
+  <text x="585" y="280" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Protected</text>
+  
+  <!-- Features -->
+  <rect x="200" y="360" width="400" height="100" fill="#ffffff" rx="15" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="400" y="390" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Dynamic Watermark Features</text>
+  
+  <circle cx="250" cy="440" r="25" fill="#dbeafe"/>
+  <text x="250" y="450" font-size="20" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif">👤</text>
+  <text x="250" y="475" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Viewer Info</text>
+  
+  <circle cx="350" cy="440" r="25" fill="#fce7f3"/>
+  <text x="350" y="450" font-size="20" text-anchor="middle" fill="#9f1239" font-family="Arial, sans-serif">📅</text>
+  <text x="350" y="475" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Date/Time</text>
+  
+  <circle cx="450" cy="440" r="25" fill="#dcfce7"/>
+  <text x="450" y="450" font-size="20" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif">🌐</text>
+  <text x="450" y="475" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">IP Address</text>
+  
+  <circle cx="550" cy="440" r="25" fill="#fef3c7"/>
+  <text x="550" y="450" font-size="20" text-anchor="middle" fill="#92400e" font-family="Arial, sans-serif">🔍</text>
+  <text x="550" y="475" font-size="12" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Traceable</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

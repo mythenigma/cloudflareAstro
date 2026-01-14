@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  <text x="500" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">PDF文件安全生命周期</text>
+  
+  <rect x="50" y="85" width="900" height="140" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+  <text x="500" y="115" font-size="14" font-weight="bold" fill="#0c4a6e">上传和初始化阶段</text>
+  
+  <circle cx="110" cy="180" r="25" fill="#3b82f6"/>
+  <text x="110" y="190" font-size="12" text-anchor="middle" fill="white">1</text>
+  
+  <path d="M 135 180 L 175 180" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="220" cy="180" r="25" fill="#3b82f6"/>
+  <text x="220" y="190" font-size="12" text-anchor="middle" fill="white">2</text>
+  
+  <path d="M 245 180 L 285 180" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="330" cy="180" r="25" fill="#3b82f6"/>
+  <text x="330" y="190" font-size="12" text-anchor="middle" fill="white">3</text>
+  
+  <path d="M 355 180 L 395 180" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="440" cy="180" r="25" fill="#3b82f6"/>
+  <text x="440" y="190" font-size="12" text-anchor="middle" fill="white">4</text>
+  
+  <path d="M 465 180 L 505 180" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="550" cy="180" r="25" fill="#3b82f6"/>
+  <text x="550" y="190" font-size="12" text-anchor="middle" fill="white">5</text>
+  
+  <path d="M 575 180 L 615 180" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="660" cy="180" r="25" fill="#3b82f6"/>
+  <text x="660" y="190" font-size="12" text-anchor="middle" fill="white">6</text>
+  
+  <text x="110" y="230" font-size="10" text-anchor="middle" fill="#1e293b">用户上传</text>
+  <text x="220" y="230" font-size="10" text-anchor="middle" fill="#1e293b">格式验证</text>
+  <text x="330" y="230" font-size="10" text-anchor="middle" fill="#1e293b">病毒扫描</text>
+  <text x="440" y="230" font-size="10" text-anchor="middle" fill="#1e293b">加密存储</text>
+  <text x="550" y="230" font-size="10" text-anchor="middle" fill="#1e293b">生成ID</text>
+  <text x="660" y="230" font-size="10" text-anchor="middle" fill="#1e293b">初始化完成</text>
+  
+  <rect x="50" y="250" width="900" height="140" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="500" y="280" font-size="14" font-weight="bold" fill="#92400e">共享和使用阶段</text>
+  
+  <circle cx="110" cy="335" r="25" fill="#f59e0b"/>
+  <text x="110" y="345" font-size="12" text-anchor="middle" fill="white">7</text>
+  
+  <path d="M 135 335 L 175 335" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="220" cy="335" r="25" fill="#f59e0b"/>
+  <text x="220" y="345" font-size="12" text-anchor="middle" fill="white">8</text>
+  
+  <path d="M 245 335 L 285 335" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="330" cy="335" r="25" fill="#f59e0b"/>
+  <text x="330" y="345" font-size="12" text-anchor="middle" fill="white">9</text>
+  
+  <path d="M 355 335 L 395 335" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="440" cy="335" r="25" fill="#f59e0b"/>
+  <text x="440" y="345" font-size="12" text-anchor="middle" fill="white">10</text>
+  
+  <path d="M 465 335 L 505 335" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="550" cy="335" r="25" fill="#f59e0b"/>
+  <text x="550" y="345" font-size="12" text-anchor="middle" fill="white">11</text>
+  
+  <path d="M 575 335 L 615 335" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="660" cy="335" r="25" fill="#f59e0b"/>
+  <text x="660" y="345" font-size="12" text-anchor="middle" fill="white">12</text>
+  
+  <text x="110" y="385" font-size="10" text-anchor="middle" fill="#1e293b">生成链接</text>
+  <text x="220" y="385" font-size="10" text-anchor="middle" fill="#1e293b">权限配置</text>
+  <text x="330" y="385" font-size="10" text-anchor="middle" fill="#1e293b">发送通知</text>
+  <text x="440" y="385" font-size="10" text-anchor="middle" fill="#1e293b">用户打开</text>
+  <text x="550" y="385" font-size="10" text-anchor="middle" fill="#1e293b">在线查看</text>
+  <text x="660" y="385" font-size="10" text-anchor="middle" fill="#1e293b">数据记录</text>
+  
+  <rect x="50" y="410" width="900" height="140" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="8"/>
+  <text x="500" y="440" font-size="14" font-weight="bold" fill="#b91c1c">终止和清理阶段</text>
+  
+  <circle cx="110" cy="495" r="25" fill="#ef4444"/>
+  <text x="110" y="505" font-size="12" text-anchor="middle" fill="white">13</text>
+  
+  <path d="M 135 495 L 175 495" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="220" cy="495" r="25" fill="#ef4444"/>
+  <text x="220" y="505" font-size="12" text-anchor="middle" fill="white">14</text>
+  
+  <path d="M 245 495 L 285 495" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="330" cy="495" r="25" fill="#ef4444"/>
+  <text x="330" y="505" font-size="12" text-anchor="middle" fill="white">15</text>
+  
+  <path d="M 355 495 L 395 495" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="440" cy="495" r="25" fill="#ef4444"/>
+  <text x="440" y="505" font-size="12" text-anchor="middle" fill="white">16</text>
+  
+  <text x="110" y="545" font-size="10" text-anchor="middle" fill="#1e293b">用户禁用</text>
+  <text x="220" y="545" font-size="10" text-anchor="middle" fill="#1e293b">链接失效</text>
+  <text x="330" y="545" font-size="10" text-anchor="middle" fill="#1e293b">安全删除</text>
+  <text x="440" y="545" font-size="10" text-anchor="middle" fill="#1e293b">存档记录</text>
+  
+  <rect x="50" y="570" width="900" height="110" fill="#f3e8ff" stroke="#a855f7" stroke-width="2" rx="8"/>
+  <text x="500" y="595" font-size="12" font-weight="bold" fill="#6b21a8">核心保护机制</text>
+  <text x="500" y="615" font-size="10" text-anchor="middle" fill="#475569">军事级加密 | 多层验证 | 实时监控 | 自动销毁 | 完整审计日志 | 合规保证</text>
+</svg>

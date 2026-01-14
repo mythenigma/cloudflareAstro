@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Email Verification &amp; Access Control Workflow
+  </text>
+  
+  <!-- Step 1: Upload & Configure -->
+  <rect x="50" y="90" width="200" height="120" fill="#3b82f6" rx="12"/>
+  <text x="150" y="120" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📤 Upload PDF</text>
+  <text x="150" y="145" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Upload document</text>
+  <text x="150" y="165" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Enable email verification</text>
+  <text x="150" y="185" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Set access restrictions</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 150 L 320 150" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Generate Secure Link -->
+  <rect x="320" y="90" width="200" height="120" fill="#10b981" rx="12"/>
+  <text x="420" y="120" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔗 Generate Link</text>
+  <text x="420" y="145" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Create sharing link</text>
+  <text x="420" y="165" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Configure restrictions</text>
+  <text x="420" y="185" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Set allowed emails</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 420 210 L 420 280" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Recipient Accesses Link -->
+  <rect x="320" y="280" width="200" height="120" fill="#f59e0b" rx="12"/>
+  <text x="420" y="310" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">👤 Access Link</text>
+  <text x="420" y="335" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Recipient clicks link</text>
+  <text x="420" y="355" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Redirected to access page</text>
+  <text x="420" y="375" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Email prompt shown</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 520 340 L 620 340" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Email Verification -->
+  <rect x="620" y="280" width="200" height="120" fill="#8b5cf6" rx="12"/>
+  <text x="720" y="310" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">✉️ Verify Email</text>
+  <text x="720" y="335" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Enter email address</text>
+  <text x="720" y="355" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Receive verification code</text>
+  <text x="720" y="375" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Enter code to verify</text>
+  
+  <!-- Decision Diamond -->
+  <polygon points="720,420 800,440 720,460 640,440" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  <text x="720" y="435" font-size="14" font-weight="bold" text-anchor="middle" fill="#78350f" font-family="Arial, sans-serif">Email</text>
+  <text x="720" y="450" font-size="14" font-weight="bold" text-anchor="middle" fill="#78350f" font-family="Arial, sans-serif">Allowed?</text>
+  
+  <!-- Yes Path -->
+  <path d="M 720 460 L 720 520" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead-green)"/>
+  <text x="730" y="495" font-size="12" fill="#059669" font-family="Arial, sans-serif">Yes</text>
+  
+  <!-- No Path -->
+  <path d="M 640 440 L 550 440 L 550 520" stroke="#ef4444" stroke-width="3" fill="none" marker-end="url(#arrowhead-red)"/>
+  <text x="595" y="435" font-size="12" fill="#dc2626" font-family="Arial, sans-serif">No</text>
+  
+  <!-- Step 5: Access Granted -->
+  <rect x="620" y="520" width="200" height="120" fill="#10b981" rx="12"/>
+  <text x="720" y="550" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">✅ Access Granted</text>
+  <text x="720" y="575" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View PDF document</text>
+  <text x="720" y="595" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Access logged</text>
+  <text x="720" y="615" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Tracking enabled</text>
+  
+  <!-- Step 6: Access Denied -->
+  <rect x="320" y="520" width="200" height="120" fill="#ef4444" rx="12"/>
+  <text x="420" y="550" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">❌ Access Denied</text>
+  <text x="420" y="575" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Email not authorized</text>
+  <text x="420" y="595" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Access blocked</text>
+  <text x="420" y="615" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Security maintained</text>
+  
+  <!-- Access Control Methods Box -->
+  <rect x="50" y="450" width="240" height="190" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="170" y="480" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Access Control Methods</text>
+  
+  <rect x="70" y="500" width="200" height="40" fill="#dbeafe" rx="8"/>
+  <text x="170" y="520" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif">📧 Email Verification</text>
+  <text x="170" y="535" font-size="12" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif">Require specific emails</text>
+  
+  <rect x="70" y="550" width="200" height="40" fill="#fce7f3" rx="8"/>
+  <text x="170" y="570" font-size="14" font-weight="bold" text-anchor="middle" fill="#9f1239" font-family="Arial, sans-serif">🔑 Password Protection</text>
+  <text x="170" y="585" font-size="12" text-anchor="middle" fill="#881337" font-family="Arial, sans-serif">Additional security layer</text>
+  
+  <rect x="70" y="600" width="200" height="40" fill="#dcfce7" rx="8"/>
+  <text x="170" y="620" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif">📱 Phone Verification</text>
+  <text x="170" y="635" font-size="12" text-anchor="middle" fill="#14532d" font-family="Arial, sans-serif">Two-factor authentication</text>
+  
+  <!-- Arrow marker definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#10b981"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ef4444"/>
+    </marker>
+  </defs>
+</svg>

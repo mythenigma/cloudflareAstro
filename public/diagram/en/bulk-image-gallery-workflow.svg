@@ -1,0 +1,135 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    Bulk Image Gallery Sharing Workflow
+  </text>
+  
+  <!-- Step 1: Select Multiple Images -->
+  <rect x="50" y="90" width="200" height="130" fill="#3b82f6" rx="12"/>
+  <text x="150" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🖼️ Select Images</text>
+  <text x="150" y="145" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Choose up to 25 images</text>
+  <text x="150" y="165" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">PNG, JPG, GIF, WebP</text>
+  <text x="150" y="185" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Max 50MB each</text>
+  <text x="150" y="205" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Drag &amp; drop or browse</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 155 L 320 155" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Bulk Upload -->
+  <rect x="320" y="90" width="200" height="130" fill="#10b981" rx="12"/>
+  <text x="420" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📤 Upload</text>
+  <text x="420" y="145" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Bulk upload process</text>
+  <text x="420" y="165" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Automatic validation</text>
+  <text x="420" y="185" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Format checking</text>
+  <text x="420" y="205" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Size verification</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 420 220 L 420 290" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Create Gallery -->
+  <rect x="320" y="290" width="200" height="130" fill="#f59e0b" rx="12"/>
+  <text x="420" y="320" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🖼️ Gallery</text>
+  <text x="420" y="345" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Auto-create gallery</text>
+  <text x="420" y="365" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Organize images</text>
+  <text x="420" y="385" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Generate unique link</text>
+  <text x="420" y="405" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Create QR code</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 520 355 L 620 355" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Configure Settings -->
+  <rect x="620" y="290" width="200" height="130" fill="#8b5cf6" rx="12"/>
+  <text x="720" y="320" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">⚙️ Configure</text>
+  <text x="720" y="345" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Set view limits</text>
+  <text x="720" y="365" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Expiration date</text>
+  <text x="720" y="385" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Download control</text>
+  <text x="720" y="405" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Access restrictions</text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 720 420 L 720 490" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Share Gallery -->
+  <rect x="620" y="490" width="200" height="130" fill="#ef4444" rx="12"/>
+  <text x="720" y="520" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔗 Share</text>
+  <text x="720" y="545" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Copy gallery link</text>
+  <text x="720" y="565" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Share QR code</text>
+  <text x="720" y="585" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Email to recipients</text>
+  <text x="720" y="605" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Social media sharing</text>
+  
+  <!-- Arrow 5 -->
+  <path d="M 620 555 L 520 555" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 6: Track & Manage -->
+  <rect x="320" y="490" width="200" height="130" fill="#06b6d4" rx="12"/>
+  <text x="420" y="520" font-size="18" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📊 Track</text>
+  <text x="420" y="545" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View access records</text>
+  <text x="420" y="565" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Track gallery views</text>
+  <text x="420" y="585" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Monitor engagement</text>
+  <text x="420" y="605" font-size="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Delete anytime</text>
+  
+  <!-- Use Cases Box -->
+  <rect x="50" y="450" width="240" height="170" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="170" y="480" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Use Cases</text>
+  
+  <rect x="70" y="500" width="200" height="40" fill="#dbeafe" rx="8"/>
+  <text x="170" y="520" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif">📸 Event Photography</text>
+  <text x="170" y="535" font-size="12" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif">Share event photo galleries</text>
+  
+  <rect x="70" y="550" width="200" height="40" fill="#fce7f3" rx="8"/>
+  <text x="170" y="570" font-size="14" font-weight="bold" text-anchor="middle" fill="#9f1239" font-family="Arial, sans-serif">🛍️ Product Galleries</text>
+  <text x="170" y="585" font-size="12" text-anchor="middle" fill="#881337" font-family="Arial, sans-serif">E-commerce product images</text>
+  
+  <rect x="70" y="600" width="200" height="40" fill="#dcfce7" rx="8"/>
+  <text x="170" y="620" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif">🎨 Portfolio Showcase</text>
+  <text x="170" y="635" font-size="12" text-anchor="middle" fill="#14532d" font-family="Arial, sans-serif">Designer portfolios</text>
+  
+  <!-- Benefits Box -->
+  <rect x="850" y="90" width="120" height="530" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="910" y="120" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Benefits</text>
+  
+  <circle cx="870" cy="160" r="5" fill="#3b82f6"/>
+  <text x="885" y="165" font-size="12" fill="#475569" font-family="Arial, sans-serif">Save time</text>
+  
+  <circle cx="870" cy="200" r="5" fill="#10b981"/>
+  <text x="885" y="205" font-size="12" fill="#475569" font-family="Arial, sans-serif">Single link</text>
+  
+  <circle cx="870" cy="240" r="5" fill="#f59e0b"/>
+  <text x="885" y="245" font-size="12" fill="#475569" font-family="Arial, sans-serif">Unified control</text>
+  
+  <circle cx="870" cy="280" r="5" fill="#8b5cf6"/>
+  <text x="885" y="285" font-size="12" fill="#475569" font-family="Arial, sans-serif">Centralized</text>
+  
+  <circle cx="870" cy="320" r="5" fill="#ef4444"/>
+  <text x="885" y="325" font-size="12" fill="#475569" font-family="Arial, sans-serif">tracking</text>
+  
+  <circle cx="870" cy="360" r="5" fill="#06b6d4"/>
+  <text x="885" y="365" font-size="12" fill="#475569" font-family="Arial, sans-serif">Professional</text>
+  
+  <circle cx="870" cy="400" r="5" fill="#3b82f6"/>
+  <text x="885" y="405" font-size="12" fill="#475569" font-family="Arial, sans-serif">presentation</text>
+  
+  <circle cx="870" cy="440" r="5" fill="#10b981"/>
+  <text x="885" y="445" font-size="12" fill="#475569" font-family="Arial, sans-serif">Easy sharing</text>
+  
+  <circle cx="870" cy="480" r="5" fill="#f59e0b"/>
+  <text x="885" y="485" font-size="12" fill="#475569" font-family="Arial, sans-serif">QR codes</text>
+  
+  <circle cx="870" cy="520" r="5" fill="#8b5cf6"/>
+  <text x="885" y="525" font-size="12" fill="#475569" font-family="Arial, sans-serif">Instant access</text>
+  
+  <circle cx="870" cy="560" r="5" fill="#ef4444"/>
+  <text x="885" y="565" font-size="12" fill="#475569" font-family="Arial, sans-serif">Secure</text>
+  
+  <circle cx="870" cy="600" r="5" fill="#06b6d4"/>
+  <text x="885" y="605" font-size="12" fill="#475569" font-family="Arial, sans-serif">Flexible</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

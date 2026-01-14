@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <rect width="900" height="350" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">文件替换流程</text>
+  
+  <!-- Step 1 -->
+  <rect x="50" y="80" width="160" height="130" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="130" y="115" font-size="32" text-anchor="middle">📋</text>
+  <text x="130" y="160" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">进入管理</text>
+  <text x="130" y="177" font-size="9" text-anchor="middle" fill="#475569">找到要替换的</text>
+  
+  <!-- Arrow -->
+  <path d="M 210 145 L 270 145" stroke="#3b82f6" stroke-width="2" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2 -->
+  <rect x="270" y="80" width="160" height="130" fill="#c7d2fe" stroke="#6366f1" stroke-width="2" rx="8"/>
+  <text x="350" y="115" font-size="32" text-anchor="middle">🔄</text>
+  <text x="350" y="160" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">点击替换</text>
+  <text x="350" y="177" font-size="9" text-anchor="middle" fill="#475569">选择替换选项</text>
+  
+  <!-- Arrow -->
+  <path d="M 430 145 L 490 145" stroke="#6366f1" stroke-width="2" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3 -->
+  <rect x="490" y="80" width="160" height="130" fill="#fecaca" stroke="#ef4444" stroke-width="2" rx="8"/>
+  <text x="570" y="115" font-size="32" text-anchor="middle">📤</text>
+  <text x="570" y="160" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">上传新文件</text>
+  <text x="570" y="177" font-size="9" text-anchor="middle" fill="#475569">选择新的文件</text>
+  
+  <!-- Arrow -->
+  <path d="M 650 145 L 710 145" stroke="#ef4444" stroke-width="2" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4 -->
+  <rect x="710" y="80" width="140" height="130" fill="#d1fae5" stroke="#10b981" stroke-width="2" rx="8"/>
+  <text x="780" y="115" font-size="32" text-anchor="middle">✅</text>
+  <text x="780" y="160" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">完成替换</text>
+  <text x="780" y="177" font-size="9" text-anchor="middle" fill="#475569">即刻生效</text>
+  
+  <!-- Benefits -->
+  <text x="450" y="260" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">替换的优势</text>
+  
+  <!-- Benefit 1 -->
+  <rect x="80" y="290" width="150" height="45" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="155" y="305" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">🔗 链接不变</text>
+  <text x="155" y="322" font-size="9" text-anchor="middle" fill="#166534">分享链接仍然有效</text>
+  
+  <!-- Benefit 2 -->
+  <rect x="260" y="290" width="150" height="45" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="335" y="305" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">⏱️ 秒级生效</text>
+  <text x="335" y="322" font-size="9" text-anchor="middle" fill="#166534">用户立即看到新文件</text>
+  
+  <!-- Benefit 3 -->
+  <rect x="440" y="290" width="150" height="45" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="515" y="305" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">📊 数据保留</text>
+  <text x="515" y="322" font-size="9" text-anchor="middle" fill="#166534">访问记录不清除</text>
+  
+  <!-- Benefit 4 -->
+  <rect x="620" y="290" width="150" height="45" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="4"/>
+  <text x="695" y="305" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">🛡️ 权限不变</text>
+  <text x="695" y="322" font-size="9" text-anchor="middle" fill="#166534">原有设置保持不变</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

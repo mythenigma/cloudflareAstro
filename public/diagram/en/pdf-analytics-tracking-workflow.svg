@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1000 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="750" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    PDF Analytics &amp; Tracking Workflow
+  </text>
+  
+  <!-- Step 1: Upload & Configure -->
+  <rect x="50" y="90" width="200" height="120" fill="#3b82f6" rx="12"/>
+  <text x="150" y="120" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📤 Upload PDF</text>
+  <text x="150" y="145" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Upload document</text>
+  <text x="150" y="165" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Enable tracking</text>
+  <text x="150" y="185" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Configure analytics</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 150 L 320 150" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Share Document -->
+  <rect x="320" y="90" width="200" height="120" fill="#10b981" rx="12"/>
+  <text x="420" y="120" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">🔗 Share Link</text>
+  <text x="420" y="145" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Generate sharing link</text>
+  <text x="420" y="165" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Send to recipients</text>
+  <text x="420" y="185" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">QR code option</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 420 210 L 420 280" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Access Tracking -->
+  <rect x="320" y="280" width="200" height="120" fill="#f59e0b" rx="12"/>
+  <text x="420" y="310" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">👁️ Track Access</text>
+  <text x="420" y="335" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View count tracking</text>
+  <text x="420" y="355" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Unique viewers</text>
+  <text x="420" y="375" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Time &amp; date stamps</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 520 340 L 620 340" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Analytics Dashboard -->
+  <rect x="620" y="280" width="200" height="120" fill="#8b5cf6" rx="12"/>
+  <text x="720" y="310" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📊 Analytics</text>
+  <text x="720" y="335" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View statistics</text>
+  <text x="720" y="355" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Device breakdown</text>
+  <text x="720" y="375" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Geographic data</text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 720 400 L 720 480" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Business Insights -->
+  <rect x="620" y="480" width="200" height="120" fill="#ef4444" rx="12"/>
+  <text x="720" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">💼 Insights</text>
+  <text x="720" y="535" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Engagement metrics</text>
+  <text x="720" y="555" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Conversion tracking</text>
+  <text x="720" y="575" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Data-driven decisions</text>
+  
+  <!-- Side Panel: Key Metrics -->
+  <rect x="50" y="450" width="240" height="150" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="170" y="480" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">Key Metrics Tracked</text>
+  
+  <circle cx="70" cy="510" r="6" fill="#3b82f6"/>
+  <text x="85" y="515" font-size="13" fill="#475569" font-family="Arial, sans-serif">View counts &amp; unique viewers</text>
+  
+  <circle cx="70" cy="535" r="6" fill="#10b981"/>
+  <text x="85" y="540" font-size="13" fill="#475569" font-family="Arial, sans-serif">Access time &amp; duration</text>
+  
+  <circle cx="70" cy="560" r="6" fill="#f59e0b"/>
+  <text x="85" y="565" font-size="13" fill="#475569" font-family="Arial, sans-serif">Device &amp; browser info</text>
+  
+  <circle cx="70" cy="585" r="6" fill="#8b5cf6"/>
+  <text x="85" y="590" font-size="13" fill="#475569" font-family="Arial, sans-serif">Geographic location data</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

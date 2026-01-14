@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <rect width="900" height="300" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">使用场景 - 商务合同</text>
+  
+  <!-- Box 1 -->
+  <rect x="40" y="70" width="160" height="150" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="120" y="100" font-size="32" text-anchor="middle">📄</text>
+  <text x="120" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">上传合同</text>
+  <text x="120" y="163" font-size="9" text-anchor="middle" fill="#475569">保密文件</text>
+  <text x="120" y="178" font-size="9" text-anchor="middle" fill="#475569">需要保护</text>
+  
+  <!-- Arrow -->
+  <path d="M 200 145 L 255 145" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Box 2 -->
+  <rect x="255" y="70" width="160" height="150" fill="#c7d2fe" stroke="#6366f1" stroke-width="2" rx="8"/>
+  <text x="335" y="100" font-size="32" text-anchor="middle">🔐</text>
+  <text x="335" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">配置权限</text>
+  <text x="335" y="163" font-size="9" text-anchor="middle" fill="#475569">设置查看次数</text>
+  <text x="335" y="178" font-size="9" text-anchor="middle" fill="#475569">最多3次</text>
+  
+  <!-- Arrow -->
+  <path d="M 415 145 L 470 145" stroke="#6366f1" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Box 3 -->
+  <rect x="470" y="70" width="160" height="150" fill="#fecaca" stroke="#ef4444" stroke-width="2" rx="8"/>
+  <text x="550" y="100" font-size="32" text-anchor="middle">💧</text>
+  <text x="550" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">添加水印</text>
+  <text x="550" y="163" font-size="9" text-anchor="middle" fill="#475569">显示查看者</text>
+  <text x="550" y="178" font-size="9" text-anchor="middle" fill="#475569">防止转发</text>
+  
+  <!-- Arrow -->
+  <path d="M 630 145 L 685 145" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Box 4 -->
+  <rect x="685" y="70" width="160" height="150" fill="#d1fae5" stroke="#10b981" stroke-width="2" rx="8"/>
+  <text x="765" y="100" font-size="32" text-anchor="middle">📧</text>
+  <text x="765" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">邮件分享</text>
+  <text x="765" y="163" font-size="9" text-anchor="middle" fill="#475569">发送给签署方</text>
+  <text x="765" y="178" font-size="9" text-anchor="middle" fill="#475569">正式记录</text>
+  
+  <!-- Bottom result -->
+  <rect x="40" y="245" width="805" height="45" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="450" y="265" font-size="12" font-weight="bold" text-anchor="middle" fill="#92400e">✅ 合同安全分享 | ✅ 追踪签署进度 | ✅ 防止泄露</text>
+  <text x="450" y="283" font-size="10" text-anchor="middle" fill="#b45309">可以随时禁用链接，签署完成后立即失效</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

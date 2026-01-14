@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <rect width="800" height="280" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">一键禁用链接</text>
+  
+  <!-- Step 1 - Enter management -->
+  <rect x="40" y="80" width="140" height="140" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="110" y="120" font-size="40" text-anchor="middle">📋</text>
+  <text x="110" y="180" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">进入管理</text>
+  <text x="110" y="200" font-size="9" text-anchor="middle" fill="#92400e">打开管理界面</text>
+  
+  <!-- Arrow -->
+  <path d="M 180 150 L 230 150" stroke="#f59e0b" stroke-width="2" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2 - Select link -->
+  <rect x="230" y="80" width="140" height="140" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="300" y="120" font-size="40" text-anchor="middle">🔗</text>
+  <text x="300" y="180" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">选择链接</text>
+  <text x="300" y="200" font-size="9" text-anchor="middle" fill="#1e40af">找到要禁用的</text>
+  
+  <!-- Arrow -->
+  <path d="M 370 150 L 420 150" stroke="#3b82f6" stroke-width="2" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3 - Click disable -->
+  <rect x="420" y="80" width="140" height="140" fill="#fee2e2" stroke="#dc2626" stroke-width="2" rx="8"/>
+  <text x="490" y="120" font-size="40" text-anchor="middle">🛑</text>
+  <text x="490" y="180" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">点击禁用</text>
+  <text x="490" y="200" font-size="9" text-anchor="middle" fill="#7f1d1d">确认禁用</text>
+  
+  <!-- Arrow -->
+  <path d="M 560 150 L 610 150" stroke="#dc2626" stroke-width="2" fill="none" 
+        marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4 - Complete -->
+  <rect x="610" y="80" width="150" height="140" fill="#d1fae5" stroke="#059669" stroke-width="2" rx="8"/>
+  <text x="685" y="120" font-size="40" text-anchor="middle">✅</text>
+  <text x="685" y="180" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">链接失效</text>
+  <text x="685" y="200" font-size="9" text-anchor="middle" fill="#065f46">即刻生效</text>
+  
+  <!-- Bottom info -->
+  <rect x="40" y="240" width="720" height="25" fill="#e0f2fe" rx="4"/>
+  <text x="400" y="258" font-size="11" text-anchor="middle" fill="#0c4a6e">⚡ 秒级生效 | 无法恢复 | 用户无法访问 | 100% 安全</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

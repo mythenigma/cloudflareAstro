@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+  </defs>
+  
+  <rect width="900" height="320" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e293b">安全防护 4 大功能</text>
+  
+  <!-- Feature 1 -->
+  <rect x="40" y="70" width="190" height="220" fill="#fff3cd" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="135" y="100" font-size="32" text-anchor="middle">🔢</text>
+  <text x="135" y="145" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">访问次数控制</text>
+  <text x="135" y="170" font-size="10" text-anchor="middle" fill="#475569">限制打开次数</text>
+  <text x="135" y="188" font-size="10" text-anchor="middle" fill="#475569">防止过度传播</text>
+  <text x="135" y="220" font-size="24" font-weight="bold" text-anchor="middle" fill="#f59e0b">3</text>
+  <text x="135" y="250" font-size="9" text-anchor="middle" fill="#856404">可设置1-999次</text>
+  
+  <!-- Feature 2 -->
+  <rect x="260" y="70" width="190" height="220" fill="#e8f5e9" stroke="#10b981" stroke-width="2" rx="8"/>
+  <text x="355" y="100" font-size="32" text-anchor="middle">⏰</text>
+  <text x="355" y="145" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">过期时间设置</text>
+  <text x="355" y="170" font-size="10" text-anchor="middle" fill="#475569">自动失效时间</text>
+  <text x="355" y="188" font-size="10" text-anchor="middle" fill="#475569">时间到自动停用</text>
+  <text x="355" y="220" font-size="24" font-weight="bold" text-anchor="middle" fill="#10b981">7</text>
+  <text x="355" y="250" font-size="9" text-anchor="middle" fill="#065f46">最多可设置90天</text>
+  
+  <!-- Feature 3 -->
+  <rect x="480" y="70" width="190" height="220" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="2" rx="8"/>
+  <text x="575" y="100" font-size="32" text-anchor="middle">💧</text>
+  <text x="575" y="145" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">动态水印</text>
+  <text x="575" y="170" font-size="10" text-anchor="middle" fill="#475569">个性化水印显示</text>
+  <text x="575" y="188" font-size="10" text-anchor="middle" fill="#475569">防止内容泄露</text>
+  <text x="575" y="220" font-size="24" font-weight="bold" text-anchor="middle" fill="#8b5cf6">👤</text>
+  <text x="575" y="250" font-size="9" text-anchor="middle" fill="#4c1d95">显示查看者信息</text>
+  
+  <!-- Feature 4 -->
+  <rect x="700" y="70" width="190" height="220" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="795" y="100" font-size="32" text-anchor="middle">🔐</text>
+  <text x="795" y="145" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">身份验证</text>
+  <text x="795" y="170" font-size="10" text-anchor="middle" fill="#475569">邮箱/手机验证</text>
+  <text x="795" y="188" font-size="10" text-anchor="middle" fill="#475569">掌控谁在看</text>
+  <text x="795" y="220" font-size="24" font-weight="bold" text-anchor="middle" fill="#3b82f6">✔️</text>
+  <text x="795" y="250" font-size="9" text-anchor="middle" fill="#1e40af">验证后才能查看</text>
+</svg>

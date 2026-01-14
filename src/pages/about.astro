@@ -1,12 +1,23 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BlogPost from '../layouts/BlogPost.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout
   title="About MaiPDF"
   description="Learn about MaiPDF and its features for secure PDF sharing"
-  pubDate={new Date('August 08 2021')}
   lang="zh-CN"
+>
+<!-- Preload Chinese font for proper character display -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<BlogPost
+  title="About MaiPDF"
+  description="Learn about MaiPDF and its features for secure PDF sharing"
+  pubDate={new Date('August 08 2021')}
+  slug=""
+  id="about"
 >
   <section class="prose mx-auto">
     <h1>About MaiPDF</h1>
@@ -199,6 +210,7 @@ import Layout from '../layouts/BlogPost.astro';
       </div>
     </div>
   </section>
+</BlogPost>
 </Layout>
 
 <script>

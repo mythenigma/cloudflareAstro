@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  <text x="500" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">MaiPDF 核心功能对比</text>
+  
+  <!-- 功能对比表格 -->
+  <rect x="30" y="80" width="940" height="600" fill="white" stroke="#cbd5e1" stroke-width="1" rx="8"/>
+  
+  <!-- 表头 -->
+  <rect x="30" y="80" width="235" height="80" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+  <text x="147" y="110" font-size="12" font-weight="bold" text-anchor="middle" fill="#0c4a6e">功能特性</text>
+  
+  <rect x="265" y="80" width="235" height="80" fill="#f3e8ff" stroke="#a855f7" stroke-width="1"/>
+  <text x="382" y="110" font-size="12" font-weight="bold" text-anchor="middle" fill="#6b21a8">在线模式</text>
+  
+  <rect x="500" y="80" width="235" height="80" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="617" y="110" font-size="12" font-weight="bold" text-anchor="middle" fill="#92400e">离线模式</text>
+  
+  <rect x="735" y="80" width="235" height="80" fill="#f0fdf4" stroke="#22c55e" stroke-width="1"/>
+  <text x="852" y="110" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">企业版</text>
+  
+  <!-- 功能行1：实时追踪 -->
+  <rect x="30" y="160" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="190" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">实时追踪</text>
+  
+  <rect x="265" y="160" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="190" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="500" y="160" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="190" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="735" y="160" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="190" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <!-- 功能行2：动态水印 -->
+  <rect x="30" y="220" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="250" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">动态水印</text>
+  
+  <rect x="265" y="220" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="250" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="500" y="220" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="250" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="735" y="220" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="250" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <!-- 功能行3：离线访问 -->
+  <rect x="30" y="280" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="310" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">离线访问</text>
+  
+  <rect x="265" y="280" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="310" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="500" y="280" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="310" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="735" y="280" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="310" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <!-- 功能行4：打印保护 -->
+  <rect x="30" y="340" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="370" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">打印保护</text>
+  
+  <rect x="265" y="340" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="370" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="500" y="340" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="370" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="735" y="340" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="370" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <!-- 功能行5：团队管理 -->
+  <rect x="30" y="400" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="430" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">团队管理</text>
+  
+  <rect x="265" y="400" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="430" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="500" y="400" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="430" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="735" y="400" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="430" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <!-- 功能行6：审计日志 -->
+  <rect x="30" y="460" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="490" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">审计日志</text>
+  
+  <rect x="265" y="460" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="490" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <rect x="500" y="460" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="490" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="735" y="460" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="490" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+  
+  <!-- 功能行7：版本控制 -->
+  <rect x="30" y="520" width="235" height="60" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="147" y="550" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">版本控制</text>
+  
+  <rect x="265" y="520" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="382" y="550" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="500" y="520" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="617" y="550" font-size="14" text-anchor="middle" fill="#ef4444">✕</text>
+  
+  <rect x="735" y="520" width="235" height="60" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="852" y="550" font-size="14" text-anchor="middle" fill="#22c55e">✓</text>
+</svg>
