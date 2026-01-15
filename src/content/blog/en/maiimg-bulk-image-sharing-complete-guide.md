@@ -185,48 +185,48 @@ Maiimg is a secure image sharing platform that enables bulk uploads of up to 25 
 
 ## Advanced Features
 
-### Gallery Management
+<div class="two-col">
+  <div class="two-col-card">
+    <h3>Gallery Management</h3>
 
-**Organization:**
-- Single gallery for all images
-- Unified access control
-- Centralized settings
-- Batch operations
+    <h4>Organization</h4>
+    <ul>
+      <li>Single gallery for all images</li>
+      <li>Unified access control</li>
+      <li>Centralized settings</li>
+      <li>Batch operations</li>
+    </ul>
 
-**Customization:**
-- Gallery title (optional)
-- Custom settings per gallery
-- Individual image controls
-- Unified expiration
+    <h4>Customization</h4>
+    <ul>
+      <li>Gallery title (optional)</li>
+      <li>Custom settings per gallery</li>
+      <li>Individual image controls</li>
+      <li>Unified expiration</li>
+    </ul>
+  </div>
 
-### Security Controls
+  <div class="two-col-card">
+    <h3>Security & Tracking</h3>
 
-**Access Protection:**
-- View limit enforcement
-- Time-based restrictions
-- Expiration management
-- Access revocation
+    <h4>Access Protection</h4>
+    <ul>
+      <li>View limit enforcement</li>
+      <li>Time-based restrictions</li>
+      <li>Expiration management</li>
+      <li>Access revocation</li>
+    </ul>
 
-**Privacy Features:**
-- No public indexing
-- Secure link generation
-- Access logging
-- Delete anytime
-
-### Analytics and Tracking
-
-**Available Metrics:**
-- Total view count
-- Views per image
-- Access timestamps
-- Geographic data
-- Device information
-
-**Tracking Benefits:**
-- Monitor engagement
-- Understand audience
-- Optimize sharing strategy
-- Measure effectiveness
+    <h4>Privacy & Analytics</h4>
+    <ul>
+      <li>No public indexing</li>
+      <li>Secure link generation</li>
+      <li>Access logging</li>
+      <li>Total views / timestamps / device info</li>
+      <li>Delete anytime</li>
+    </ul>
+  </div>
+</div>
 
 ## Use Cases
 
