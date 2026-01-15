@@ -51,4 +51,10 @@
   <text x="780" y="205" font-size="9" text-anchor="middle" fill="#475569">✅ 可追踪</text>
   <text x="780" y="220" font-size="9" text-anchor="middle" fill="#475569">❌ 隐私风险</text>
   <text x="780" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#7f1d1d">最广传</text>
+
+  <g id="platform-watermark">
+    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
+  </g>
 </svg>

@@ -47,4 +47,10 @@
   <text x="760" y="460" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">4系统自动追踪</text>
   <text x="760" y="477" font-size="9" text-anchor="middle" fill="#475569">记录访问时间IP地址</text>
   <text x="760" y="491" font-size="9" text-anchor="middle" fill="#475569">检查访问次数限制</text>
+
+  <g id="platform-watermark">
+    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
+  </g>
 </svg>

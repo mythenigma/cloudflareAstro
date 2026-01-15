@@ -10,13 +10,19 @@ import rehypeRaw from 'rehype-raw';
 // https://astro.build/config
 export default defineConfig({
   site: "https://article.maipdf.com",
-  trailingSlash: 'never', // 统一使用不带尾部斜杠的URL结构
+  // Canonical URL policy:
+  // - Keep URLs without trailing slashes to avoid duplicate indexing.
+  // - Runtime 301 canonicalization is implemented in `src/middleware.ts`.
+  trailingSlash: 'never',
   integrations: [
     mdx({
       // Apply the image optimization to MDX files too
       // remarkPlugins: [remarkOptimizeImages],
     }), 
     sitemap({
+      // NOTE:
+      // - Sitemap is generated at build time (astro build) into dist/sitemap-*.xml
+      // - If you add/rename many posts, rebuild to refresh sitemap and avoid stale URLs in GSC.
       filter: (page) => !page.includes('/blog-backup/'),
       changefreq: 'weekly',
       priority: 0.7,

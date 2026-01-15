@@ -3,6 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
 import StructuredData from './StructuredData.astro';
+import { getCollection } from 'astro:content';
 
 interface Props {
 	title: string;
@@ -40,17 +41,32 @@ if (Astro.url.pathname.startsWith('/blog/') && pathParts.length >= 3) {
 		'es': 'es'
 	};
 	const baseUrl = 'https://article.maipdf.com/blog/';
-	const supportedLangs = Object.keys(langMap);
-	
-	supportedLangs.forEach(lang => {
-		const langCode = langMap[lang];
-		const altUrl = baseUrl + lang + '/' + slug;
+
+	// Only emit hreflang alternates for translations that actually exist.
+	// Previously we emitted every supported language, which caused Google to crawl many non-existent URLs (404).
+	const posts = await getCollection('blog');
+	const available = posts
+		.map((p) => {
+			const parts = p.id.split('/');
+			const pLang = parts[0];
+			const pSlug = parts.slice(1).join('/');
+			return { pLang, pSlug };
+		})
+		.filter(({ pLang, pSlug }) => pSlug === slug && Boolean(langMap[pLang]));
+
+	available.forEach(({ pLang }) => {
+		const langCode = langMap[pLang];
+		const altUrl = baseUrl + pLang + '/' + slug;
 		hreflangLinks.push({ lang: langCode, url: altUrl });
 	});
-	
-	// Add x-default
-	const defaultUrl = baseUrl + 'en/' + slug;
-	hreflangLinks.push({ lang: 'x-default', url: defaultUrl });
+
+	// Add x-default to an actually-existing language version (prefer en if present)
+	const defaultLang = available.some(({ pLang }) => pLang === 'en')
+		? 'en'
+		: (available[0]?.pLang);
+	if (defaultLang) {
+		hreflangLinks.push({ lang: 'x-default', url: baseUrl + defaultLang + '/' + slug });
+	}
 }
 
 if (Astro.url.pathname.startsWith('/blog')) {
