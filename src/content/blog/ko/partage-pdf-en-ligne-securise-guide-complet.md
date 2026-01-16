@@ -16,8 +16,7 @@ tags: ["PDF"]
 
 ![Diagram](/diagram/en/features-overview.svg)
 
-## Key points
-
-- What it is: a quick overview of the topic.
-- Why it matters: reduce confusion and make sharing safer.
-- Next step: check the diagram above and apply the idea to your workflow.
+## 핵심 포인트
+- 요약: 주제에 대한 간단한 개요.
+- 중요성: 혼란을 줄이고 공유를 더 안전하게 만듭니다.
+- 다음 단계: 위의 다이어그램을 확인하고 아이디어를 워크플로우에 적용하세요.

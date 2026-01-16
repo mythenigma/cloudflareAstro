@@ -16,8 +16,7 @@ tags: ["PDF"]
 
 ![Diagram](/diagram/en/offline-pdf-drm-workflow.svg)
 
-## Key points
-
-- What it is: a quick overview of the topic.
-- Why it matters: reduce confusion and make sharing safer.
-- Next step: check the diagram above and apply the idea to your workflow.
+## Wichtige Punkte
+- Was es ist: ein schneller Überblick über das Thema.
+- Warum es wichtig ist: Verwirrung reduzieren und das Teilen sicherer machen.
+- Nächster Schritt: Überprüfen Sie das obige Diagramm und wenden Sie die Idee auf Ihren Workflow an.

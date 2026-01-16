@@ -16,8 +16,7 @@ tags: ["PDF", "Watermark"]
 
 ![Diagram](/diagram/en/simple-watermark-protection.svg)
 
-## Key points
-
-- What it is: a quick overview of the topic.
-- Why it matters: reduce confusion and make sharing safer.
-- Next step: check the diagram above and apply the idea to your workflow.
+## Puntos clave
+- Qué es: una descripción rápida del tema.
+- Por qué es importante: reducir la confusión y hacer que el intercambio sea más seguro.
+- Próximo paso: revise el diagrama anterior y aplique la idea a su flujo de trabajo.

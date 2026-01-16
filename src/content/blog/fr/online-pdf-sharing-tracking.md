@@ -16,8 +16,7 @@ tags: ["PDF"]
 
 ![Diagram](/diagram/en/pdf-analytics-tracking-workflow.svg)
 
-## Key points
-
-- What it is: a quick overview of the topic.
-- Why it matters: reduce confusion and make sharing safer.
-- Next step: check the diagram above and apply the idea to your workflow.
+## Points clés
+- De quoi il s'agit : un aperçu rapide du sujet.
+- Pourquoi c'est important : réduire la confusion et rendre le partage plus sûr.
+- Prochaine étape : consultez le diagramme ci-dessus et appliquez l'idée à votre flux de travail.

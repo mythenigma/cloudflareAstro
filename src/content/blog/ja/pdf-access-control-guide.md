@@ -16,8 +16,7 @@ tags: ["PDF", "Access Control"]
 
 ![Diagram](/diagram/en/simple-access-control-flow.svg)
 
-## Key points
-
-- What it is: a quick overview of the topic.
-- Why it matters: reduce confusion and make sharing safer.
-- Next step: check the diagram above and apply the idea to your workflow.
+## 重要なポイント
+- 概要：トピックの簡単な概要。
+- 重要性：混乱を減らし、共有をより安全にします。
+- 次のステップ：上記の図を確認し、アイデアをワークフローに適用してください。
