@@ -50,7 +50,7 @@ Digital Rights Management (DRM)-Lösungen können:
 
 - Beschränkungen in die Datei einbetten
 - Spezielle PDF-Reader erfordern
-- Anzeigen, Drucken, Kopieren und sogar Screenshots kontrollieren
+- Anzeigen, Drucken, Kopieren und sogar Screenshots erschweren
 
 Aber: Diese Tools sind oft teuer und für Unternehmenseinsatz konzipiert.
 

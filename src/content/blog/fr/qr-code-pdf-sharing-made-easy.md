@@ -14,6 +14,29 @@ tags: ["Partage de PDF", "Code QR", "Événements en Direct", "Outils Numérique
   <p>Bienvenue dans le futur du partage de PDF—rapide, fluide et sans e-mail.</p>
 </div>
 
+## Pourquoi partager des PDF
+
+- Envoyer vite (devis, supports, slides)
+- Éviter les grosses pièces jointes et les renvois
+- Permettre d’ouvrir en un seul geste
+
+## Pourquoi les codes QR
+
+- Pas de copier-coller
+- Parfait en présentiel (affiches, stands, salles de classe)
+- Friction minimale pour le lecteur
+
+## Comment MaiPDF aide
+
+MaiPDF transforme « partager → scanner → ouvrir » en une chaîne courte :
+
+```mermaid
+flowchart TD
+  A[Télécharger le PDF] --> B[Générer lien / QR]
+  B --> C[Afficher sur écran / affiche / message]
+  C --> D[Scanner et ouvrir]
+```
+
 ![Exemple de partage par code QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## 🧠 Pourquoi Éviter l'E-mail?

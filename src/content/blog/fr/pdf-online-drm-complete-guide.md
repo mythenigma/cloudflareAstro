@@ -91,7 +91,7 @@ flowchart TD
 - Blocage des téléchargements
 - Prévention de l'impression
 - Prévention de la copie
-- Détection de capture d'écran
+- Détection de capture d'écran (limitée)
 
 ## Fonctionnalités DRM PDF en Ligne
 

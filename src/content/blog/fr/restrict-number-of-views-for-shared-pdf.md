@@ -50,7 +50,7 @@ Les solutions de Gestion des Droits Numériques (DRM) peuvent :
 
 - Intégrer des restrictions dans le fichier
 - Nécessiter des lecteurs PDF spéciaux
-- Contrôler la visualisation, l'impression, la copie, et même les captures d'écran
+- Contrôler la visualisation, l'impression, la copie, et même la dissuasion des captures d'écran
 
 Mais : ces outils sont souvent coûteux et conçus pour une utilisation en entreprise.
 

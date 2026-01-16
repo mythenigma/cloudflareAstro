@@ -42,7 +42,7 @@
   <text x="720" y="310" font-size="20" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">📊 Analytics</text>
   <text x="720" y="335" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">View statistics</text>
   <text x="720" y="355" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Device breakdown</text>
-  <text x="720" y="375" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Geographic data</text>
+  <text x="720" y="375" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif">IP location (approx.)</text>
   
   <!-- Arrow 4 -->
   <path d="M 720 400 L 720 480" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
@@ -68,7 +68,7 @@
   <text x="85" y="565" font-size="13" fill="#475569" font-family="Arial, sans-serif">Device &amp; browser info</text>
   
   <circle cx="70" cy="585" r="6" fill="#8b5cf6"/>
-  <text x="85" y="590" font-size="13" fill="#475569" font-family="Arial, sans-serif">Geographic location data</text>
+  <text x="85" y="590" font-size="13" fill="#475569" font-family="Arial, sans-serif">IP location (approx.)</text>
   
   <!-- Arrow marker definition -->
   <defs>

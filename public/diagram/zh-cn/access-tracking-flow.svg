@@ -62,8 +62,8 @@
   
   <!-- Card 2 -->
   <rect x="240" y="290" width="160" height="40" fill="#e0f2fe" stroke="#0284c7" stroke-width="1" rx="4"/>
-  <text x="320" y="305" font-size="11" text-anchor="middle" fill="#0c4a6e">🌍 地理位置</text>
-  <text x="320" y="322" font-size="9" text-anchor="middle" fill="#0c4a6e">城市级精确度</text>
+  <text x="320" y="305" font-size="11" text-anchor="middle" fill="#0c4a6e">🌐 IP位置</text>
+  <text x="320" y="322" font-size="9" text-anchor="middle" fill="#0c4a6e">仅大概区域</text>
   
   <!-- Card 3 -->
   <rect x="430" y="290" width="160" height="40" fill="#e0f2fe" stroke="#0284c7" stroke-width="1" rx="4"/>

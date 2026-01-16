@@ -17,7 +17,22 @@ tags: ["PDF-Analytics", "Tracking", "Security Monitoring", "Visueller Guide"]
 
 - **Erste Öffnung**
 - **Wiederholte Öffnungen**
-- **Basis-Signale zu Gerät/Standort**
+- **Basis-Signale zu Gerät / IP (ungefähr)**
+
+## Wenn etwas auffällt
+
+- **Datei ersetzen**: gleicher Lesecode, neuer Inhalt & neue Einstellungen
+- **Link deaktivieren**: Zugriff sofort stoppen
+
+```mermaid
+flowchart LR
+  A[Link geteilt] --> B[Zugriff getrackt]
+  B --> C{Auffällig?}
+  C -- Nein --> D[Normal nachfassen]
+  C -- Ja --> E[Ersetzen oder deaktivieren]
+```
+
+![Gleicher Link, neuer Inhalt](/diagram/de/replace-link-redirect-style-b.svg)
 
 ## Einfacher Use Case
 

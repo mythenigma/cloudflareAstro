@@ -55,7 +55,7 @@ Dans un monde numérique où la sécurité des documents est primordiale, le par
 - Affichage de l'adresse IP
 - Horodatage automatique
 - Informations personnalisées
-- Protection contre les captures d'écran
+- Dissuasion des captures d'écran
 
 **Avantages :**
 - Traçabilité complète

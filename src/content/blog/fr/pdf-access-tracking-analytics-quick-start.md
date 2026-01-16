@@ -17,7 +17,22 @@ tags: ["Analytics PDF", "Suivi", "Surveillance sécurité", "Guide visuel"]
 
 - **Moment de la première ouverture**
 - **Réouvertures**
-- **Signaux de base appareil/localisation**
+- **Signaux de base appareil / IP (approximatif)**
+
+## Si quelque chose semble anormal
+
+- **Remplacer le fichier** : garder le même code de lecture, changer contenu et réglages
+- **Désactiver le lien** : couper l’accès immédiatement si besoin
+
+```mermaid
+flowchart LR
+  A[Lien partagé] --> B[Accès suivi]
+  B --> C{Anormal ?}
+  C -- Non --> D[Relancer normalement]
+  C -- Oui --> E[Remplacer ou désactiver]
+```
+
+![Lien identique, contenu mis à jour](/diagram/fr/replace-link-redirect-style-b.svg)
 
 ## Un cas d’usage simple
 

@@ -91,7 +91,7 @@ flowchart TD
 - Download-Blockierung
 - Druck-Verhinderung
 - Kopier-Verhinderung
-- Screenshot-Erkennung
+- Screenshot-Erkennung (begrenzt)
 
 ## PDF Online DRM-Funktionen
 

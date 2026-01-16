@@ -14,6 +14,29 @@ tags: ["PDF-Freigabe", "QR-Code", "Live-Veranstaltungen", "Digitale Werkzeuge"]
   <p>Willkommen in der Zukunft der PDF-Freigabe—schnell, nahtlos und ohne E-Mail.</p>
 </div>
 
+## Warum PDFs teilen
+
+- Schnell senden (Angebote, Handouts, Folien)
+- Keine großen Anhänge oder erneutes Versenden
+- Ein Tipp genügt zum Öffnen
+
+## Warum QR‑Codes
+
+- Kein Kopieren/Einfügen
+- Ideal vor Ort (Poster, Messestand, Klassenzimmer)
+- Geringste Reibung für Empfänger
+
+## Wie MaiPDF hilft
+
+MaiPDF macht „Teilen → Scannen → Öffnen“ ganz kurz:
+
+```mermaid
+flowchart TD
+  A[PDF hochladen] --> B[Link / QR erzeugen]
+  B --> C[Auf Bildschirm / Poster / Chat teilen]
+  C --> D[Scannen und öffnen]
+```
+
 ![QR-Code-Sharing-Beispiel](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## 🧠 Warum auf E-Mail verzichten?

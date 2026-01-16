@@ -14,6 +14,29 @@ tags: ["PDF Sharing", "QR Code", "Live Events", "Digital Tools"]
   <p>Welcome to the future of PDF sharing—fast, seamless, and email-free.</p>
 </div>
 
+## Why share PDFs
+
+- Send files fast (quotes, handouts, slides)
+- Avoid big attachments and re-sends
+- Let people open with one tap
+
+## Why QR codes
+
+- No copy/paste
+- Perfect for offline/onsite use (posters, booths, classrooms)
+- Lowest friction for recipients
+
+## How MaiPDF solves it
+
+MaiPDF turns “share → scan → open” into one short path:
+
+```mermaid
+flowchart TD
+  A[Upload PDF] --> B[Generate link / QR]
+  B --> C[Place on poster / screen / chat]
+  C --> D[Scan and open]
+```
+
 ![QR Code Sharing Example](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## 🧠 Why Skip Email?

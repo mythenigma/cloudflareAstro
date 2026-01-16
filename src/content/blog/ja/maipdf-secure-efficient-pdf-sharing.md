@@ -362,7 +362,7 @@ tags: ["PDF", "セキュリティ", "文書管理", "ビジネスツール", "�
       <div class="feature-icon">👁️</div>
       <div class="feature-text">
         <div class="feature-title">閲覧専用保護</div>
-        <div class="feature-desc">受信者は読むことはできますが、ダウンロード、印刷、スクリーンショットはできません</div>
+        <div class="feature-desc">受信者は読むことはできますが、ダウンロード、印刷、スクリーンショットは抑止されます（完全には防げません）</div>
       </div>
     </div>
 

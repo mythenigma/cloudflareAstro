@@ -362,7 +362,7 @@ tags: ["PDF", "Sicherheit", "Dokumentenmanagement", "Business-Tools", "Digitale 
       <div class="feature-icon">👁️</div>
       <div class="feature-text">
         <div class="feature-title">Nur-Ansicht-Schutz</div>
-        <div class="feature-desc">Empfänger können lesen, aber nicht herunterladen, drucken oder Screenshots machen</div>
+        <div class="feature-desc">Empfänger können lesen, aber nicht herunterladen, drucken oder Screenshots sind erschwert</div>
       </div>
     </div>
 

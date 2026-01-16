@@ -17,7 +17,22 @@ tags: ["PDF Analytics", "Tracking", "Security Monitoring", "Diagrams"]
 
 - **First open time**
 - **Repeat opens**
-- **Basic device/location signals**
+- **Basic device / IP signals (approx.)**
+
+## If something looks off
+
+- **Replace the file**: keep the same reading code, swap in new content/settings
+- **Disable the link**: stop access immediately when needed
+
+```mermaid
+flowchart LR
+  A[Share link] --> B[Access tracked]
+  B --> C{Abnormal?}
+  C -- No --> D[Follow up normally]
+  C -- Yes --> E[Replace file or disable link]
+```
+
+![Same link, updated content](/diagram/en/replace-link-redirect-style-b.svg)
 
 ## A simple use case
 
