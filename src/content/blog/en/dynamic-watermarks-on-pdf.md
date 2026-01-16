@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Watermarks on PDF"
 description: "Learn how to add dynamic watermarks to PDF files for secure sharing and tracking."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 15 2025"
 tags: ["PDF", "Watermark", "Security"]
 ---
 

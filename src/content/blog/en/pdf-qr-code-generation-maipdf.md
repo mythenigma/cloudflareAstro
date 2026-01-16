@@ -1,7 +1,7 @@
 ---
 title: "PDF QR Code Generation with MaiPDF"
 description: "Generate QR codes for PDF files with MaiPDF. Share PDFs easily via QR codes without requiring recipients to sign up."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 15 2025"
 heroImage: "/cn2025May/maipdf_link_result.png"
 tags: ["PDF QR Code", "Document Sharing", "QR Code", "MaiPDF"]
 ---
