@@ -212,13 +212,51 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
 
 <style>
   .intro-panel {
-    background: linear-gradient(to right, #f8fafc, #e2e8f0);
-    border-left: 4px solid #3b82f6;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 0;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .intro-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  
+  .intro-panel p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #1e293b;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 0.5rem;
+  }
+  
+  h3 {
+    color: #334155;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
   
   .problems-grid {
@@ -234,11 +272,12 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     border-radius: 0.75rem;
     padding: 1.5rem;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .problem-card:hover {
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.15);
   }
   
   .problem-icon {
@@ -250,6 +289,8 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     margin: 0 0 0.5rem 0;
     color: #dc2626;
     font-size: 1.25rem;
+    border-bottom: none;
+    padding-bottom: 0;
   }
   
   .problem-content p {
@@ -263,9 +304,10 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     gap: 2rem;
     align-items: center;
     margin: 2rem 0;
-    background: #f0f9ff;
+    background: #f8fafc;
     padding: 2rem;
     border-radius: 1rem;
+    border: 1px solid #e2e8f0;
   }
   
   .feature-content {
@@ -281,11 +323,17 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   }
   
   .security-section {
-    background: #fefce8;
+    background: #f8fafc;
     padding: 2rem;
     border-radius: 1rem;
-    border-left: 4px solid #eab308;
+    border-left: 4px solid #667eea;
     margin: 2rem 0;
+  }
+  
+  .security-section h3 {
+    color: #667eea;
+    border-bottom: none;
+    padding-bottom: 0;
   }
   
   .security-features {
@@ -302,6 +350,7 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     padding: 1.5rem;
     border-radius: 0.75rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
   }
   
   .security-icon {
@@ -311,13 +360,13 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   
   .security-text h4 {
     margin: 0 0 0.5rem 0;
-    color: #92400e;
+    color: #1e293b;
     font-size: 1.1rem;
   }
   
   .security-text p {
     margin: 0;
-    color: #451a03;
+    color: #475569;
     line-height: 1.5;
   }
   
@@ -332,11 +381,12 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    background: #f3f4f6;
+    background: #f1f5f9;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     font-weight: 500;
-    color: #374151;
+    color: #334155;
+    border: 1px solid #cbd5e1;
   }
   
   .use-case-icon {
@@ -344,11 +394,17 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   }
   
   .tech-section {
-    background: #f0fdf4;
+    background: #f8fafc;
     padding: 2rem;
     border-radius: 1rem;
-    border-left: 4px solid #22c55e;
+    border-left: 4px solid #667eea;
     margin: 2rem 0;
+  }
+  
+  .tech-section h3 {
+    color: #667eea;
+    border-bottom: none;
+    padding-bottom: 0;
   }
   
   .tech-advantages {
@@ -364,11 +420,13 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     border-radius: 0.75rem;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
   }
   
   .tech-card:hover {
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
   }
   
   .tech-icon {
@@ -378,35 +436,41 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   
   .tech-content h4 {
     margin: 0 0 0.5rem 0;
-    color: #16a34a;
+    color: #1e293b;
     font-size: 1.25rem;
   }
   
   .tech-content p {
     margin: 0;
-    color: #166534;
+    color: #475569;
     line-height: 1.5;
   }
   
   .comparison-note {
-    background: #dcfce7;
+    background: #ede9fe;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     margin-top: 1.5rem;
-    border: 1px solid #bbf7d0;
+    border: 1px solid #c4b5fd;
   }
   
   .comparison-note p {
     margin: 0;
-    color: #166534;
+    color: #5b21b6;
   }
   
   .conclusion-section {
-    background: #faf5ff;
+    background: #f8fafc;
     padding: 2rem;
     border-radius: 1rem;
-    border-left: 4px solid #8b5cf6;
+    border-left: 4px solid #667eea;
     margin: 2rem 0;
+  }
+  
+  .conclusion-section h3 {
+    color: #667eea;
+    border-bottom: none;
+    padding-bottom: 0;
   }
   
   .summary-grid {
@@ -424,6 +488,7 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     padding: 1.5rem;
     border-radius: 0.75rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
   }
   
   .summary-icon {
@@ -433,28 +498,32 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   
   .summary-text h4 {
     margin: 0 0 0.5rem 0;
-    color: #7c3aed;
+    color: #1e293b;
     font-size: 1.1rem;
   }
   
   .summary-text p {
     margin: 0;
-    color: #581c87;
+    color: #475569;
     line-height: 1.5;
   }
   
   .cta-section {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-align: center;
     padding: 3rem 2rem;
     border-radius: 1rem;
     margin: 3rem 0;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
   }
   
   .cta-section h3 {
     margin: 0 0 1rem 0;
     font-size: 1.75rem;
+    color: white;
+    border-bottom: none;
+    padding-bottom: 0;
   }
   
   .cta-section p {
@@ -466,17 +535,34 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   .cta-button a {
     display: inline-block;
     background: white;
-    color: #6366f1;
+    color: #667eea;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   .cta-button a:hover {
     transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  strong {
+    color: #667eea;
+    font-weight: 600;
+  }
+  
+  ul, ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+  }
+  
+  li {
+    margin: 0.75rem 0;
+    line-height: 1.7;
   }
   
   @media (max-width: 768px) {
@@ -493,6 +579,11 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     
     .use-cases {
       grid-template-columns: 1fr;
+    }
+    
+    .intro-panel {
+      padding: 1.5rem;
+      font-size: 1rem;
     }
   }
 </style>
