@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF：更安全、更高效的在线 PDF 分享方式"
 description: "探索 MaiPDF 如何通过免登录访问、邮箱验证和 Cloudflare R2 技术，提供比传统网盘更安全、更便捷的 PDF 分享解决方案。"
-pubDate: "Sep 09 2025"
+pubDate: "Jan 16 2026"
 heroImage: "/maipdf-images/secure-pdf-sharing.png"
 tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
 ---
