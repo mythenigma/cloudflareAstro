@@ -1,7 +1,7 @@
 ---
 title: "Maiimg Qrcode Generation Guide"
 description: "A short, practical note about maiimg qrcode generation guide, with a diagram."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 16 2026"
 tags: ["QR Code"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["QR Code"]
   <p>A short, practical note about maiimg qrcode generation guide, with a diagram.</p>
 </div>
 
-![Diagram](/diagram/en/pdf-qr-code-generation-workflow.svg)
+![Diagram](/diagram/en/maiimg-qr-code-sharing-workflow.svg)
 
 ## Key points
 

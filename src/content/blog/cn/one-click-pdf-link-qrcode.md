@@ -32,7 +32,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 1️⃣ 为什么选择链接分享？ {#why-link-sharing}
+## 1️⃣ 为什么选择链接分享？
 
 <div class="modern-challenges-section">
   <div class="challenges-intro">
@@ -121,7 +121,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 2️⃣ MaiPDF：功能特色一览 {#maipdf-features}
+## 2️⃣ MaiPDF：功能特色一览
 
 <div class="features-showcase">
   <div class="features-intro-horizontal">
@@ -215,7 +215,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 3️⃣ 三步操作指南（1分钟上手） {#quick-guide}
+## 3️⃣ 三步操作指南（1分钟上手）
 
 <div class="quick-guide-section">
   <div class="guide-intro">
@@ -283,7 +283,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 4️⃣ 实用场景配置建议 {#practical-scenarios}
+## 4️⃣ 实用场景配置建议
 
 <div class="scenarios-section">
   <div class="scenarios-intro">
@@ -447,7 +447,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 5️⃣ 对比分析：链接分享的优势 {#comparison-analysis}
+## 5️⃣ 对比分析：链接分享的优势
 
 <div class="comparison-section">
   <div class="comparison-intro">
@@ -527,7 +527,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 6️⃣ 常见问题解答 {#faq}
+## 6️⃣ 常见问题解答
 
 <div class="faq-section-modern">
   <div class="faq-intro">
@@ -581,7 +581,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 7️⃣ 创意应用场景 {#creative-applications}
+## 7️⃣ 创意应用场景
 
 <div class="creative-section">
   <div class="creative-intro">
@@ -636,7 +636,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
   </div>
 </div>
 
-## 8️⃣ 立即开始体验 {#get-started}
+## 8️⃣ 立即开始体验
 
 <div class="cta-section-modern">
   <div class="cta-container">
@@ -661,7 +661,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       </div>   
       <div class="cta-buttons">
         <a href="https://maipdf.cn" class="cta-primary">立即免费体验</a>
-        <a href="#quick-guide" class="cta-secondary">查看操作指南</a>
+        <a href="#三步操作指南" class="cta-secondary">查看操作指南</a>
       </div>
     </div>
     

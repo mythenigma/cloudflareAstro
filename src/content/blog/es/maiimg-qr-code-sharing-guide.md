@@ -1,7 +1,7 @@
 ---
 title: "Guía rápida: Maiimg QR Code Sharing Guide"
 description: "Un artículo corto sobre maiimg qr code sharing guide, con diagrama."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 16 2026"
 tags: ["QR Code"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["QR Code"]
   <p>Un artículo corto sobre maiimg qr code sharing guide, con diagrama.</p>
 </div>
 
-![Diagram](/diagram/en/pdf-qr-code-generation-workflow.svg)
+![Diagram](/diagram/es/maiimg-qr-code-sharing-workflow.svg)
 
 ## Key points
 

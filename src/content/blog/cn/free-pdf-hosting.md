@@ -2,7 +2,7 @@
 title: "免费PDF托管：MaiPDF安全链接管理平台"
 description: "免费在线上传、分享和控制PDF文档。无需注册，查看限制、验证码，使用MaiPDF安全查看器防止下载。"
 pubDate: "Apr 21 2025"
-heroImage: "/maipdf-images/maipdf landing page.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
 ---
 

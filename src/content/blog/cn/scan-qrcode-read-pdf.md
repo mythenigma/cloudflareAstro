@@ -6,7 +6,7 @@ heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享", "移动办公"]
 ---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem; border-radius: 15px; text-align: center; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; border-radius: 15px; text-align: center; margin: 1rem 0;">
 
 # 📱 二维码PDF神器：一扫即看，告别传输烦恼
 
@@ -20,10 +20,10 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1.5rem 0;">
 
-<div style="text-align: center; padding: 1.5rem; background: #fef2f2; border-radius: 12px;">
-<div style="font-size: 2.5rem; margin-bottom: 1rem;">😤</div>
+<div style="text-align: center; padding: 1rem; background: #fef2f2; border-radius: 12px;">
+<div style="font-size: 2rem; margin-bottom: 0.5rem;">😤</div>
 <strong>传统困境</strong><br>
 <small>微信发不了PDF<br>邮件传输太慢<br>下载占用空间</small>
 </div>
@@ -46,31 +46,31 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 ## 😫 传统PDF分享的痛苦真相：你是否也被这些问题困扰？
 
-<div style="background: #f0f9ff; border-left: 4px solid #0ea5e9; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
+<div style="background: #f0f9ff; border-left: 4px solid #0ea5e9; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
 
 **还在为这些场景抓狂吗？**
-- 💬 **微信群里想发个PDF**：结果被告知"不支持此文件格式"
+- 💬 **微信群里想发个PDF**：虽然可以发送，但文件会失效且无法修改
 - 📧 **邮件发送PDF**：接收方下载等半天，打开还要安装软件
 - 💾 **U盘传输文件**：找U盘、传文件、病毒扫描，一套流程下来累死人
 - 🔒 **文件安全担忧**：发出去的PDF谁看了、看了多少遍，完全不知道
 
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1.5rem 0;">
 
-<div style="background: #fef2f2; padding: 2rem; border-radius: 12px; border-left: 4px solid #ef4444;">
-<div style="font-size: 2rem; text-align: center; margin-bottom: 1rem;">⚠️</div>
+<div style="background: #fef2f2; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ef4444;">
+<div style="font-size: 1.5rem; text-align: center; margin-bottom: 0.75rem;">⚠️</div>
 <strong>平台限制魔咒</strong><br>
 <div style="font-size: 0.9rem; margin-top: 1rem; color: #666;">
-• 微信不支持PDF直发<br>
+• 微信发送PDF会失效且无法修改<br>
 • QQ传输被压缩变形<br>
 • 钉钉上传限制大小<br>
 • 企业微信审核超慢
 </div>
 </div>
 
-<div style="background: #fffbeb; padding: 2rem; border-radius: 12px; border-left: 4px solid #f59e0b;">
-<div style="font-size: 2rem; text-align: center; margin-bottom: 1rem;">⏳</div>
+<div style="background: #fffbeb; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #f59e0b;">
+<div style="font-size: 1.5rem; text-align: center; margin-bottom: 0.75rem;">⏳</div>
 <strong>传输耗时噩梦</strong><br>
 <div style="font-size: 0.9rem; margin-top: 1rem; color: #666;">
 • 大文件传输动辄几分钟<br>
@@ -80,8 +80,8 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 </div>
 </div>
 
-<div style="background: #f0fdf4; padding: 2rem; border-radius: 12px; border-left: 4px solid #22c55e;">
-<div style="font-size: 2rem; text-align: center; margin-bottom: 1rem;">🔍</div>
+<div style="background: #f0fdf4; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #22c55e;">
+<div style="font-size: 1.5rem; text-align: center; margin-bottom: 0.75rem;">🔍</div>
 <strong>安全隐忧黑洞</strong><br>
 <div style="font-size: 0.9rem; margin-top: 1rem; color: #666;">
 • 文件传播完全失控<br>
@@ -95,7 +95,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 ## 🎯 MaiPDF二维码革命：让PDF分享如丝般顺滑！
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 2rem; border-radius: 12px; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
 
 ### 🚀 告别传统烦恼，迎接分享新时代
 
@@ -107,7 +107,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 ![PDF链接生成](/maifle/PDF链接生成的时候显示的信息.png)
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin: 1.5rem 0;">
 
 <div>
 
@@ -171,7 +171,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 ## 🛠️ 强大功能矩阵：每个细节都为用户着想
 
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0; text-align: center;">
 
 ### 🎯 不只是二维码，更是完整的PDF分享生态系统
 
@@ -179,7 +179,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin: 1.5rem 0;">
 
 <div>
 
@@ -189,7 +189,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 **一键生成，多重选择**：
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 0.75rem; margin: 1rem 0;">
 
 <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.8); border-radius: 8px;">
 <div style="font-size: 1.5rem;">📱</div>
@@ -255,7 +255,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin: 1.5rem 0;">
 
 <div>
 
@@ -308,7 +308,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 </div>
 
-<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0;">
 
 ### 📱 零负担体验
 
@@ -322,28 +322,28 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 ## 🚀 使用教程：3步搞定PDF分享
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 2rem; border-radius: 12px; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
 
 ### 📖 小白也能秒上手的超简单操作
 
 **从PDF文件到二维码分享，只需3步，耗时不到1分钟！**
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1.5rem 0;">
 
 <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
-<div style="font-size: 2rem; margin-bottom: 0.5rem;">📤</div>
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📤</div>
 <strong>Step 1: 上传</strong><br>
 <small>拖拽PDF到浏览器<br>或点击选择文件</small>
 </div>
 
 <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
-<div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">⚙️</div>
 <strong>Step 2: 设置</strong><br>
 <small>配置访问权限<br>和安全选项</small>
 </div>
 
 <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
-<div style="font-size: 2rem; margin-bottom: 0.5rem;">📱</div>
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📱</div>
 <strong>Step 3: 分享</strong><br>
 <small>获取二维码<br>一键分享给他人</small>
 </div>
@@ -354,7 +354,7 @@ tags: ["PDF分享", "二维码", "在线预览", "文件传输", "微信分享",
 
 ![MaiPDF上传界面](/maifle/MaiPDF中的上传界面.png)
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin: 1.5rem 0;">
 
 <div>
 

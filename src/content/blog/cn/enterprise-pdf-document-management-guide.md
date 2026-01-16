@@ -2,7 +2,7 @@
 title: "企业PDF文档管理完整指南：安全高效的企业文档分发"
 description: "学习企业PDF文档管理。完整指南涵盖企业文档分发、多人共享、客户分享以及企业PDF分享的最佳实践。"
 pubDate: "Nov 28 2025"
-heroImage: "/maipdf-images/maipdf landing page.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["企业文档管理", "PDF管理", "文档分发", "企业安全", "多人共享"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["企业文档管理", "PDF管理", "文档分发", "企业安全", "多�
 
 
 
-![MaiPDF企业PDF分享](/maipdf-images/maipdf landing page.png)
+![MaiPDF企业PDF分享](/maipdf-images/maipdf_landing_page.png)
 
 ## 为什么PDF分享对企业很重要
 

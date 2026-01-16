@@ -112,8 +112,9 @@ flowchart TD
 
 **Situations That Cannot Be Completely Prevented:**
 - ⚠️ Screenshots: Users can still take screenshots
-- ⚠️ Printing: If printing is allowed, users can print and scan
 - ⚠️ Screen Recording: Users can use screen recording tools
+
+**Note:** The disable download feature automatically disables printing, because printing to PDF is equivalent to downloading. Therefore, after setting disable download, users cannot save documents through printing.
 
 **Recommended Combinations:**
 - Combine with watermark feature to track sources even from screenshots
@@ -151,13 +152,13 @@ flowchart TD
 
 **A:** No. The disable download feature does not affect document loading speed.
 
-### Q4: Can I temporarily allow downloads?
+### Q4: Can I temporarily allow downloads after disabling them?
 
-**A:** Yes. You can modify download permissions in settings at any time to allow or disable downloads.
+**A:** No. Once you set disable download, you cannot modify this property. If you need to allow downloads, you need to re-upload the PDF and generate a new share link.
 
 ### Q5: Can I still print after disabling downloads?
 
-**A:** This depends on your print settings. You can disable both downloads and printing, or only disable downloads while allowing printing.
+**A:** No. The disable download feature automatically disables printing. If printing were allowed, users could save the document as a PDF file through "Print to PDF", which is equivalent to downloading. Therefore, disabling downloads and disabling printing are linked and cannot be set separately.
 
 ## Summary
 

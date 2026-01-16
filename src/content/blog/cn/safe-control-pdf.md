@@ -172,9 +172,6 @@ MaiPDF 采用公有云对象存储，数据在传输及静态存储过程中均�
 ---
 
 **📞 联系我们**  
-如果您对 MaiPDF 有任何疑问或建议，欢迎通过以下方式联系我们：
-- 🌐 官网：[www.maipdf.com](https://www.maipdf.com)
-- 📧 邮箱：support@maipdf.com
-- 💬 在线客服：官网右下角聊天窗口
+如果您对 MaiPDF 有任何疑问或建议，请访问 [MaiPDF首页](https://maipdf.com) 查看页面底部的联系方式。您可以在首页底部找到我们的邮箱地址和其他联系方式。
 
 ![联系我们](/images/blog/contact-us-footer.jpg)

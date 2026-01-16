@@ -345,14 +345,7 @@ MaiPDF团队正在开发更多H5功能：
 
 ## 📞 技术支持
 
-如果在使用过程中遇到问题，可以通过以下方式获取帮助：
-
-- 📧 **邮箱支持**：support@maipdf.com
-- 💬 **在线客服**：网站右下角聊天窗口
-- 📚 **帮助文档**：maipdf.com/help
-- 🐛 **问题反馈**：maipdf.com/feedback
-- 💡 **使用教程**：maipdf.com/tutorials
-- 🎥 **视频教程**：maipdf.com/videos
+如果在使用过程中遇到问题，需要技术支持或帮助，请访问 [MaiPDF首页](https://maipdf.com) 查看页面底部的联系方式。您可以在首页底部找到我们的邮箱地址和其他联系方式。
 
 ## 🔍 常见问题解答
 

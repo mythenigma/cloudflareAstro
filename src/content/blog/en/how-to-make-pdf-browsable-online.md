@@ -32,7 +32,7 @@ In the mobile internet era, **PDF online browsing** has become a basic requireme
 
 **Various Inconveniences of Traditional Methods**:
 
-📱 **WeChat Doesn't Support**: Social platforms like WeChat cannot directly share PDF files  
+📱 **WeChat Sharing Limitations**: While WeChat can send PDFs, files will expire and cannot be modified after sending  
 💾 **Downloads Take Space**: Insufficient phone storage, unable to download large files for viewing  
 ⏰ **Long Wait Times**: Download → Install → Open, cumbersome and time-consuming steps  
 🔧 **Software Dependencies**: Need to install PDF readers, version compatibility issues  
@@ -50,7 +50,7 @@ In the mobile internet era, **PDF online browsing** has become a basic requireme
 <ul>
 <li><strong>Click and View</strong>: No downloads needed, browser opens directly</li>
 <li><strong>Lightning Fast</strong>: Cloud optimization, rapid rendering display</li>
-<li><strong>Real-time Updates</strong>: Content changes take effect immediately</li>
+<li><strong>Real-time Updates</strong>: Content changes take effect immediately, no need to resend</li>
 <li><strong>No Cache Usage</strong>: Doesn't occupy device storage space</li>
 </ul>
 </div>
@@ -71,7 +71,8 @@ In the mobile internet era, **PDF online browsing** has become a basic requireme
 <li><strong>One-click Link Generation</strong>: Supports both link and QR code sharing</li>
 <li><strong>Break Platform Limits</strong>: WeChat, QQ, etc. can all share directly</li>
 <li><strong>Batch Distribution</strong>: Upload once, share everywhere</li>
-<li><strong>Permanently Valid</strong>: Links remain stable and usable long-term</li>
+<li><strong>Permanently Valid</strong>: Links remain stable and usable long-term, won't expire like WeChat files</li>
+<li><strong>Can Modify Anytime</strong>: Can update content after sending, link stays the same</li>
 </ul>
 </div>
 

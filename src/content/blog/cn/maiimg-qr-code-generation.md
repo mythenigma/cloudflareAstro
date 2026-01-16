@@ -1,7 +1,7 @@
 ---
 title: "Maiimg 二维码生成"
 description: "一篇简短说明：Maiimg 二维码生成（附流程图）。"
-pubDate: "Jan 15 2026"
+pubDate: "Jan 16 2026"
 tags: ["QR Code"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Maiimg 安全图片分享与二维码功能介绍"
 description: "一篇简短说明：Maiimg 安全图片分享与二维码功能介绍（附流程图）。"
-pubDate: "Jan 15 2026"
+pubDate: "Jan 16 2026"
 tags: ["QR Code", "Image Sharing"]
 ---
 

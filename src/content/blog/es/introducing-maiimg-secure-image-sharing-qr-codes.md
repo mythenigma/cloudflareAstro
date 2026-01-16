@@ -1,7 +1,7 @@
 ---
 title: "Guía rápida: Introducing Maiimg Secure Image Sharing QR Codes"
 description: "Un artículo corto sobre introducing maiimg secure image sharing qr codes, con diagrama."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 16 2026"
 tags: ["QR Code", "Image Sharing"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["QR Code", "Image Sharing"]
   <p>Un artículo corto sobre introducing maiimg secure image sharing qr codes, con diagrama.</p>
 </div>
 
-![Diagram](/diagram/en/pdf-qr-code-generation-workflow.svg)
+![Diagram](/diagram/es/maiimg-qr-code-sharing-workflow.svg)
 
 ## Key points
 

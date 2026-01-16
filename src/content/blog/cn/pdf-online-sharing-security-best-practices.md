@@ -2,7 +2,7 @@
 title: "PDF在线分享安全最佳实践：保护文档的完整指南"
 description: "学习PDF在线分享的安全最佳实践。完整指南涵盖加密、访问控制、水印、下载防护等PDF安全分享的最佳方法。"
 pubDate: "Nov 28 2025"
-heroImage: "/maipdf-images/maipdf landing page.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["PDF安全", "文档保护", "在线分享", "安全实践", "PDF加密"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["PDF安全", "文档保护", "在线分享", "安全实践", "PDF加密"]
 
 
 
-![MaiPDF PDF保护功能](/maipdf-images/maipdf landing page.png)
+![MaiPDF PDF保护功能](/maipdf-images/maipdf_landing_page.png)
 
 ## 为什么PDF保护很重要
 
