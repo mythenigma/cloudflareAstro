@@ -643,7 +643,7 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 
     <div class="scenario-card">
       <span class="scenario-emoji">👥</span>
-      <h3 class="scenario-title">团队协作</h3>
+      <h3 class="scenario-title">多人共享</h3>
       <p class="scenario-desc">核心资料集中管理，可追踪访问记录，团队成员权限分级，确保信息安全有序流转。</p>
     </div>
   </div>

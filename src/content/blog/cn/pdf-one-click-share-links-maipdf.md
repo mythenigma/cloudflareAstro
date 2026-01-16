@@ -519,7 +519,7 @@ MaiPDF 使用 **Cloudflare R2** 作为底层文件存储技术：
       <p class="scenario-desc">分享论文、参考文献，避免邮件附件过大或权限受限的问题。</p>
     </div><div class="scenario-card">
       <span class="scenario-emoji">👥</span>
-      <h3 class="scenario-title">团队协作</h3>
+      <h3 class="scenario-title">多人共享</h3>
       <p class="scenario-desc">项目文件集中在 MaiPDF，统一生成链接分享，管理方便高效。</p>
     </div>
   </div>
@@ -611,7 +611,7 @@ MaiPDF 让这个过程变得更轻松：
 ✅ **免登录查看** → 链接一发，立刻查看  
 ✅ **邮箱验证** → 安全可控  
 ✅ **Cloudflare R2 存储** → 稳定、快速、可靠  
-✅ **多场景适用** → 工作、学习、团队协作都能用  
+✅ **多场景适用** → 工作、学习、多人共享都能用  
 
 <div class="cta-section">
   <h2 class="cta-title">开始高效的PDF分享之旅</h2>

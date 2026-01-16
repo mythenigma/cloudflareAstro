@@ -1,243 +1,57 @@
 ---
-title: "Replace a Shared PDF File Without Changing the Link"
-description: "Learn how to update a shared PDF file while keeping the original link intact using MaiPDF's document replacement portal."
-pubDate: "Apr 19 2025"
+title: "Replace a PDF Without Changing the Link"
+description: "Keep the same reading link while swapping in a new file and settings using MaiPDF."
+pubDate: "Jan 16 2026"
 heroImage: "/maipdf-images/pdf change setting after sent.png"
+tags: ["PDF", "Link management", "Updates"]
 ---
 
-# 🔄 Replace a Shared PDF File Without Changing the Link
+# Replace a PDF Without Changing the Link
 
 <div class="intro-panel">
-  <p>Sometimes you share a PDF and later realize you need to make updates—fix an error, replace outdated content, or update a design. MaiPDF gives you a way to do that without changing the original sharing link.</p>
+  <p><strong>The reading code stays the same.</strong> The content and access settings are replaced by the new link’s version.</p>
 </div>
 
-<div class="feature-highlight">
-  <div class="feature-content">
-    <p>You can simply redirect an old reading link to a new PDF file using the document replacement portal. All security settings (like open limits, access time, and download restrictions) will stay the same—only the file content changes.</p>
-  </div>
-  <div class="feature-image">
-    <img src="/maipdf-images/pdf%20change%20setting%20after%20sent.png" alt="PDF Change Setting After Sent" />
-  </div>
-</div>
+![Same link, updated content](/diagram/en/replace-link-redirect-style-b.svg)
 
-## 🔗 Example Link
+## Why people replace links
 
-<div class="example-box">
-  <div class="example-title">
-    <span class="icon">🔗</span> Example Link:
-  </div>
-  <div class="example-content">
-    <a href="https://maipdf.com/file/a67fc93884ad24@pdf" class="example-link">https://maipdf.com/file/a67fc93884ad24@pdf</a>
-  </div>
-  
-  <div class="explanation">
-    <h3>In this example:</h3>
-    <div class="code-highlight">
-      <span class="highlight-label">The Reading Code:</span> <code>a67fc93884ad24</code>
-      <ul>
-        <li>This code is what appears after <code>/file/</code> and before <code>@pdf</code>.</li>
-        <li>It is the unique identifier for the document that viewers use to access the PDF. It's also what you will use when replacing the file.</li>
-      </ul>
-    </div>
-  </div>
-</div>
+- Fix mistakes after sharing
+- Update pricing or versions
+- Change access settings (views, time, verification, download, watermark, alert email)
+- Retract content by replacing with a blank PDF
 
-## 🔧 Replacement Portal
+## How MaiPDF helps
 
-<div class="portal-card">
-  <div class="portal-header">
-    <span class="icon">📍</span> Replacement Portal:
-  </div>
-  <div class="portal-link">
-    <a href="https://maipdf.com/pdf/hahachange.php" class="portal-url">https://maipdf.com/pdf/hahachange.php</a>
-  </div>
-  <div class="portal-image">
-    <img src="/maipdf-images/result%20of%20pdf%20link%20and%20qr%20code.png" alt="Result of PDF Link and QR Code" />
-  </div>
-</div>
+MaiPDF replaces everything in one go:
 
-## 🛠️ How to Replace a PDF on MaiPDF
+- **Link stays the same**
+- **Content updates**
+- **Settings follow the new link** (no manual rework)
 
-<div class="steps-container">
-  <div class="step">
-    <div class="step-number">1</div>
-    <div class="step-content">
-      <h3>Visit the Replacement Portal</h3>
-      <p>Go to <a href="https://maipdf.com/pdf/hahachange.php">https://maipdf.com/pdf/hahachange.php</a>.</p>
-    </div>
-  </div>
-  
-  <div class="step">
-    <div class="step-number">2</div>
-    <div class="step-content">
-      <h3>Enter the Original File's Info</h3>
-      <ul>
-        <li><strong>Reading Code</strong>: e.g., <code>a67fc93884ad24</code>.</li>
-        <li><strong>Control Code</strong>: The secret code paired with the original PDF, which gives you permission to manage it.</li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="step">
-    <div class="step-number">3</div>
-    <div class="step-content">
-      <h3>Enter the New File's Info</h3>
-      <ul>
-        <li><strong>New Reading Code</strong>: The code of the new PDF you just uploaded to MaiPDF (you'll find it in its own link, like <code>/file/newcode@pdf</code>).</li>
-        <li><strong>New Control Code</strong>: The code paired with the new file.</li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="step">
-    <div class="step-number">4</div>
-    <div class="step-content">
-      <h3>Click "Update File"</h3>
-      <p>This action will link the original reading code (<code>a67fc93884ad24</code>) to the new PDF, keeping all the access controls (like open count, time limit, etc.) exactly the same.</p>
-    </div>
-  </div>
-  
-  <div class="step">
-    <div class="step-number">5</div>
-    <div class="step-content">
-      <h3>Confirmation</h3>
-      <p>After clicking "Update File," you'll see a success message confirming the replacement. Now, anyone who visits the original link will automatically view the new PDF.</p>
-    </div>
-  </div>
-</div>
+## Quick steps
 
-## ✅ Benefits of This System
+1. Open the replacement portal: https://maipdf.com/pdf/hahachange.php
+2. Enter old reading code + control code
+3. Enter new reading code + control code
+4. Click **Update File**
 
-<div class="benefits-grid">
-  <div class="benefit-card">
-    <div class="benefit-icon">🔄</div>
-    <div class="benefit-content">
-      <h3>Keep your original link unchanged</h3>
-      <p>No need to resend anything.</p>
-    </div>
-  </div>
-  
-  <div class="benefit-card">
-    <div class="benefit-icon">⏱️</div>
-    <div class="benefit-content">
-      <h3>Save time</h3>
-      <p>No need to redo settings or permissions.</p>
-    </div>
-  </div>
-  
-  <div class="benefit-card">
-    <div class="benefit-icon">🔒</div>
-    <div class="benefit-content">
-      <h3>Update securely</h3>
-      <p>Only those with the control codes can manage the files.</p>
-    </div>
-  </div>
-  
-  <div class="benefit-card">
-    <div class="benefit-icon">👁️</div>
-    <div class="benefit-content">
-      <h3>Invisible to recipients</h3>
-      <p>They'll just see the updated content without knowing a replacement happened.</p>
-    </div>
-  </div>
-</div>
+```mermaid
+flowchart TD
+  A[Old link already shared] --> B[Open replacement portal]
+  B --> C[Enter old reading code + control code]
+  B --> D[Enter new reading code + control code]
+  D --> E[Click Update File]
+  E --> F[Old reading code stays]
+  F --> G[Content & settings replaced]
+```
 
-<div class="conclusion-box">
-  <p>MaiPDF gives you the flexibility to share, update, and control your documents—all through a simple interface.</p>
-  <div class="cta-button">
-    <a href="https://maipdf.com/pdf/hahachange.php">Try it now</a>
-  </div>
-</div>
+## Use cases
 
-<style>
-  .intro-panel {
-    background: linear-gradient(to right, #f8fafc, #e2e8f0);
-    border-left: 4px solid #3b82f6;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 0;
-    font-size: 1.1rem;
-    line-height: 1.6;
-  }
-  
-  .feature-highlight {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: center;
-    margin: 2rem 0;
-    background: white;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  }
-  
-  .feature-content {
-    font-size: 1.1rem;
-    line-height: 1.6;
-  }
-  
-  .feature-image img {
-    width: 100%;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .example-box {
-    background: white;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    margin: 2rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  }
-  
-  .example-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #3b82f6;
-    display: flex;
-    align-items: center;
-  }
-  
-  .icon {
-    margin-right: 0.5rem;
-    font-size: 1.3rem;
-  }
-  
-  .example-content {
-    margin-bottom: 1.5rem;
-  }
-  
-  .example-link {
-    display: inline-block;
-    background: #f1f5f9;
-    padding: 0.75rem 1rem;
-    border-radius: 0.25rem;
-    font-family: monospace;
-    font-size: 1rem;
-    color: #3b82f6;
-    word-break: break-all;
-  }
-  
-  .explanation h3 {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-    color: #475569;
-  }
-  
-  .code-highlight {
-    background: #f8fafc;
-    border-left: 3px solid #3b82f6;
-    padding: 1rem;
-    border-radius: 0 0.25rem 0.25rem 0;
-  }
-  
-  .highlight-label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+- Contract revisions
+- Price list updates
+- Training materials
+- Emergency revoke (upload a blank PDF, then replace)
   
   code {
     background: #e2e8f0;

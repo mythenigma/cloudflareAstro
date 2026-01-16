@@ -1,26 +1,26 @@
 ---
-title: "团队协作读PDF的正确流程：反馈、版本、审批怎么串起来"
-description: "用流程图把团队协作串起来：分享→收集反馈→版本迭代→审批发布，避免“多版本乱飞”。"
+title: "多人共享读PDF的正确流程：反馈、版本、审批怎么串起来"
+description: "用流程图把多人共享串起来：分享→收集反馈→版本迭代→审批发布，避免“多版本乱飞”。"
 pubDate: "Jan 15 2026"
-tags: ["团队协作", "版本管理", "审批流程", "PDF分享"]
+tags: ["多人共享", "版本管理", "审批流程", "PDF分享"]
 ---
 
-# 团队协作读PDF的正确流程：反馈、版本、审批怎么串起来
+# 多人共享读PDF的正确流程：反馈、版本、审批怎么串起来
 
 <div class="intro-panel">
-  <p>团队协作最大的成本不是“发文件”，而是<strong>对齐</strong>：大家看的是否同一版？反馈是否能追踪？谁最终拍板？这张流程图把协作链路一次讲清。</p>
+  <p>多人共享最大的成本不是“发文件”，而是<strong>对齐</strong>：大家看的是否同一版？反馈是否能追踪？谁最终拍板？这张流程图把共享链路一次讲清。</p>
 </div>
 
-![PDF团队协作流程](/diagram/zh-cn/team-collaboration-workflow.svg)
+![PDF多人共享流程](/diagram/zh-cn/team-collaboration-workflow.svg)
 
-## 一套更稳的协作链路
+## 一套更稳的共享链路
 
 <div class="steps-container">
   <div class="step-item">
     <div class="step-number">1</div>
     <div class="step-content">
       <h3>统一入口分享</h3>
-      <p>团队只认一个入口（链接/二维码/协作页面），避免群里到处转文件。</p>
+      <p>团队只认一个入口（链接/二维码/共享页面），避免群里到处转文件。</p>
     </div>
   </div>
   <div class="step-item">
@@ -46,7 +46,7 @@ tags: ["团队协作", "版本管理", "审批流程", "PDF分享"]
   </div>
 </div>
 
-## 常见协作问题与对应解法
+## 常见共享问题与对应解法
 
 | 问题 | 常见后果 | 更稳的做法 |
 | --- | --- | --- |

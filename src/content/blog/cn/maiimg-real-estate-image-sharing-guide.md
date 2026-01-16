@@ -117,5 +117,5 @@ Maiimg帮助房产行业实现：
 
 **延伸阅读：**
 - [Maiimg二维码图片分享：完整指南](/blog/cn/maiimg-qr-code-sharing-guide)
-- [Maiimg产品图片协作指南](/blog/cn/maiimg-product-image-collaboration-guide)
+- [Maiimg产品图片共享指南](/blog/cn/maiimg-product-image-collaboration-guide)
 - [Maiimg批量图片分享：完整指南](/blog/cn/maiimg-bulk-image-sharing-guide)

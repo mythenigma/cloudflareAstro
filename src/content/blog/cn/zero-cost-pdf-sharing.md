@@ -458,7 +458,7 @@ styles: ["blog-post.css"]
     <div class="note-icon">💡</div>
     <div class="note-content">
       <h4>进阶需求</h4>
-      <p>如果未来有更进阶的需求（比如品牌 LOGO、团队协作后台、API集成），企业版付费模块可随时升级，但普通个人场景完全没必要花钱。</p>
+      <p>如果未来有更进阶的需求（比如品牌 LOGO、多人共享后台、API集成），企业版付费模块可随时升级，但普通个人场景完全没必要花钱。</p>
     </div>
   </div>
 </div>

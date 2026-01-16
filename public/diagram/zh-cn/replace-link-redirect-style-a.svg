@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700');
+      text { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <marker id="arrowA" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <text x="480" y="34" font-size="22" font-weight="700" text-anchor="middle" fill="#0f172a">旧阅读码不变，内容与设置换成新链接</text>
+
+  <!-- Old box -->
+  <text x="220" y="70" font-size="16" font-weight="600" text-anchor="middle" fill="#1e293b">旧链接（阅读码不变）</text>
+  <rect x="70" y="90" width="300" height="260" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="95" y="110" width="250" height="60" rx="8" fill="#e2e8f0" stroke="#cbd5f5"/>
+  <text x="220" y="145" font-size="16" text-anchor="middle" fill="#0f172a">URL / QR</text>
+  <line x1="95" y1="180" x2="345" y2="180" stroke="#cbd5f5" stroke-width="2"/>
+  <text x="220" y="215" font-size="14" text-anchor="middle" fill="#64748b">文件（旧）</text>
+  <text x="220" y="238" font-size="12" text-anchor="middle" fill="#94a3b8">内容/版本</text>
+  <text x="220" y="268" font-size="14" text-anchor="middle" fill="#64748b">阅读设置（旧）</text>
+  <text x="220" y="291" font-size="12" text-anchor="middle" fill="#94a3b8">次数/时长/验证/下载</text>
+  <text x="220" y="310" font-size="12" text-anchor="middle" fill="#94a3b8">水印/提醒邮箱</text>
+  <line x1="130" y1="208" x2="310" y2="222" stroke="#ef4444" stroke-width="3"/>
+  <line x1="130" y1="262" x2="310" y2="276" stroke="#ef4444" stroke-width="3"/>
+
+  <!-- New box inside a frame -->
+  <text x="740" y="70" font-size="16" font-weight="600" text-anchor="middle" fill="#1e293b">新链接</text>
+  <rect x="570" y="85" width="320" height="275" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="600" y="100" width="260" height="250" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="625" y="120" width="210" height="60" rx="8" fill="#e2e8f0" stroke="#cbd5f5"/>
+  <text x="730" y="155" font-size="16" text-anchor="middle" fill="#0f172a">URL / QR</text>
+  <line x1="625" y1="190" x2="835" y2="190" stroke="#cbd5f5" stroke-width="2"/>
+  <text x="730" y="220" font-size="14" text-anchor="middle" fill="#0f172a">文件（新）</text>
+  <text x="730" y="243" font-size="12" text-anchor="middle" fill="#64748b">内容/版本</text>
+  <text x="730" y="272" font-size="14" text-anchor="middle" fill="#0f172a">阅读设置（新）</text>
+  <text x="730" y="295" font-size="12" text-anchor="middle" fill="#64748b">次数/时长/验证/下载</text>
+  <text x="730" y="314" font-size="12" text-anchor="middle" fill="#64748b">水印/提醒邮箱</text>
+
+  <!-- Arrow new -> old -->
+  <path d="M 600 250 C 520 230, 430 230, 370 250" stroke="#ef4444" stroke-width="3" fill="none" marker-end="url(#arrowA)"/>
+  <text x="485" y="230" font-size="12" text-anchor="middle" fill="#ef4444">内容与设置替换到旧链接</text>
+
+  <g id="platform-watermark">
+    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
+  </g>
+</svg>

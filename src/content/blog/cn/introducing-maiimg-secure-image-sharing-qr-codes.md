@@ -1,6 +1,6 @@
 ---
-title: "Introducing Maiimg Secure Image Sharing QR Codes"
-description: "一篇简短说明：Introducing Maiimg Secure Image Sharing QR Codes（附流程图）。"
+title: "Maiimg 安全图片分享与二维码功能介绍"
+description: "一篇简短说明：Maiimg 安全图片分享与二维码功能介绍（附流程图）。"
 pubDate: "Jan 15 2026"
 tags: ["QR Code", "Image Sharing"]
 ---
@@ -8,16 +8,16 @@ tags: ["QR Code", "Image Sharing"]
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->
 <!-- Keep this slug stable to avoid creating new 404s in the future. -->
 
-# Introducing Maiimg Secure Image Sharing QR Codes
+# Maiimg 安全图片分享与二维码功能介绍
 
 <div class="intro-panel">
-  <p>一篇简短说明：Introducing Maiimg Secure Image Sharing QR Codes（附流程图）。</p>
+  <p>一篇简短说明：Maiimg 安全图片分享与二维码功能介绍（附流程图）。</p>
 </div>
 
 ![Diagram](/diagram/zh-cn/qrcode-sharing-flow.svg)
 
-## Key points
+## 要点速览
 
-- What it is: a quick overview of the topic.
-- Why it matters: reduce confusion and make sharing safer.
-- Next step: check the diagram above and apply the idea to your workflow.
+- 它是什么：快速说明该主题。
+- 为什么重要：减少误解，让分享更安全。
+- 下一步：参考上方流程图，将方法应用到你的工作流。

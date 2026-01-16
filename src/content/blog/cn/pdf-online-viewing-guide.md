@@ -479,7 +479,7 @@ heroImage: "/maifle/展示PDF列子.png"
 <div style="padding: 1.5rem; background: #f8fafc; border: 2px solid #cbd5e1; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
 
 **需求画像**：
-高安全性、易管理、团队协作、数据统计
+高安全性、易管理、多人共享、数据统计
 
 **黄金配置**：
 ```yaml

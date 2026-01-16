@@ -8,6 +8,8 @@ tags: ["PDF打印限制", "下载限制", "内容保护", "水印保护", "MaiPD
 
 # MaiPDF打印限制设置指南：如何禁止PDF文档的打印和下载
 
+
+
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin-bottom: 2rem;">
 
 # 🖨️ PDF打印限制神器
@@ -322,7 +324,7 @@ tags: ["PDF打印限制", "下载限制", "内容保护", "水印保护", "MaiPD
 **控制选项**：
 - 查看次数：限制最大查看次数
 - 时间控制：设置查看时长限制
-- 过期时间：设置链接失效时间
+- 到期日期（仅离线版）：设置链接失效时间
 - 地理位置：限制特定地区访问
 
 ## 📊 打印限制的监控和管理

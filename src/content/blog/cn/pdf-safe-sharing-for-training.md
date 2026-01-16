@@ -8,6 +8,8 @@ heroImage: "/maifle/maipdf整体功能页面.png"
 
 # 培训资料怎么发才安全？别再把PDF随便甩群里了
 
+
+
 <div style="background: linear-gradient(90deg, #e0e7ff 0%, #f0fdfa 100%); padding: 2rem 1.5rem; border-radius: 1.5rem; margin-bottom: 2rem;">
 作为一个做教育培训的同行，我相信你一定遇到过下面这些事：
 
@@ -86,7 +88,7 @@ heroImage: "/maifle/maipdf整体功能页面.png"
 
 - <strong>如何批量生成专属链接？</strong><br>
   支持批量导入学员名单，自动生成每人专属访问码和二维码。
-- <strong>能不能设置访问次数和有效期？</strong><br>
+- <strong>能不能设置访问次数和有效期（仅离线版）？</strong><br>
   可以灵活设置每个链接的最大打开次数和失效时间。
 - <strong>如果学员忘记了链接怎么办？</strong><br>
   可随时后台重发，或生成新的专属码。

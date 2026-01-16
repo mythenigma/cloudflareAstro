@@ -132,4 +132,4 @@ Maiimg让活动照片交付变得：
 **延伸阅读：**
 - [Maiimg批量图片分享：完整指南](/blog/cn/maiimg-bulk-image-sharing-guide)
 - [Maiimg二维码图片分享：完整指南](/blog/cn/maiimg-qr-code-sharing-guide)
-- [Maiimg产品图片协作指南](/blog/cn/maiimg-product-image-collaboration-guide)
+- [Maiimg产品图片共享指南](/blog/cn/maiimg-product-image-collaboration-guide)
