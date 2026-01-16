@@ -20,7 +20,7 @@ Convertir un PDF en un enlace transforma cómo compartes documentos. En lugar de
 
 **A Esto**: Compartir un enlace limpio como `https://maipdf.com/file/abc123@pdf` en el que cualquiera puede hacer clic para ver inmediatamente.
 
-![Sube Tu PDF](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Sube Tu PDF](/maipdf-images/upload_section.png)
 
 ## Cómo Funciona la Conversión de PDF a Enlace
 
@@ -34,7 +34,7 @@ El proceso es notablemente simple:
 
 **Paso 4 - Compartir**: Copia el enlace y compártelo en cualquier lugar: correo electrónico, mensajes de texto, redes sociales o sitios web.
 
-![Resultados de Generación de Enlace](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Resultados de Generación de Enlace](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Conclusión: Convertir PDF en Enlace
 

@@ -2,7 +2,7 @@
 title: "WeChat PDF-Teilung: PDFs in WeChat Teilen"
 description: "Erfahren Sie, wie Sie PDFs in WeChat teilen können. Verwenden Sie MaiPDF, um PDFs in WeChat zu teilen, ohne Dateigrößenbeschränkungen oder Komprimierungsprobleme."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["WeChat PDF-Teilung", "PDF in WeChat", "WeChat-Dateiteilen", "PDF-Teilung"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["WeChat PDF-Teilung", "PDF in WeChat", "WeChat-Dateiteilen", "PDF-Teilung
 
 WeChat ist eine der beliebtesten Messaging-Plattformen, aber das Teilen von PDFs in WeChat kann aufgrund von Dateigrößenbeschränkungen und Komprimierungsproblemen schwierig sein. MaiPDF bietet eine einfache Lösung für das Teilen von PDFs in WeChat.
 
-![MaiPDF Homepage](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Homepage](/maipdf-images/maipdf_landing_page.png)
 
 ## Warum PDFs in WeChat Teilen?
 

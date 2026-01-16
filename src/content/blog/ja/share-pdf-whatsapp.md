@@ -24,7 +24,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **プロフェッショナルな外観**：クリーンなリンクは、ビジネス会話で大きなファイル添付よりプロフェッショナルに見えます。
 
-![アップロードしてリンク生成](/2025MayMaiPDF/upload_in_cloudshare.png)
+![アップロードしてリンク生成](/maipdf-images/upload_section.png)
 
 ## WhatsAppでPDFをリンクで共有する方法
 
@@ -32,7 +32,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **ステップ2：リンクをコピー** - メッセージングに最適なクリーンでプロフェッショナルなURLを取得。
 
-![リンク生成結果](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![リンク生成結果](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 **ステップ3：WhatsAppに貼り付け** - WhatsAppの会話にリンクを貼り付けて送信するだけ。
 
@@ -72,7 +72,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **アクセス追跡**：共有文書がいつ、どのくらいの頻度で表示されているかを監視。
 
-![設定構成](/2025MayMaiPDF/settings_in_cloudshare.png)
+![設定構成](/maipdf-images/security_setting.png)
 
 **時間制限**：時間敏感な情報に有効期限を設定。
 
@@ -136,7 +136,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **イベント共有**：WhatsAppステータスのQRコードを通じてイベントプログラム、スケジュール、情報を共有。
 
-![QRコード生成](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![QRコード生成](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## WhatsApp PDF共有の管理
 
@@ -148,7 +148,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **使用監視**：エンゲージメントレベルを追跡し、どの文書が最も人気かを確認。
 
-![いつでも設定変更](/2025MayMaiPDF/changefilesetting.png)
+![いつでも設定変更](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## WhatsApp PDF共有のベストプラクティス
 
@@ -172,7 +172,7 @@ WhatsAppリンクでPDF共有を始める準備はできましたか？
 4. **WhatsAppで共有**：任意の会話にリンクを貼り付け
 5. **使用状況を監視**：シンプルなダッシュボードで文書アクセスを追跡
 
-![ホームページインターフェース](/2025MayMaiPDF/Home_Landing.png)
+![ホームページインターフェース](/maipdf-images/maipdf_landing_page.png)
 
 ## WhatsAppユーザーがPDFリンクを愛用する理由
 

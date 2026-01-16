@@ -2,7 +2,7 @@
 title: "PDF 동적 워터마크 보안 가이드：완전 가이드"
 description: "PDF 동적 워터마크를 사용하여 문서를 보호하는 방법을 배웁니다. 완전 가이드에서 PDF 동적 워터마크, 보안 기능, 문서 보호를 다룹니다."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF 동적 워터마크", "워터마크", "문서 보호", "PDF 보호", "보안"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF 동적 워터마크", "워터마크", "문서 보호", "PDF 보호",
   <p>PDF 동적 워터마크는 문서 보호의 중요한 측면입니다. <strong>PDF 동적 워터마크 보안 가이드</strong>는 PDF 동적 워터마크를 사용하여 문서를 보호하기 위한 포괄적인 솔루션을 제공합니다.</p>
 </div>
 
-![보안 설정 인터페이스](/2025MayMaiPDF/settings_in_cloudshare.png)
+![보안 설정 인터페이스](/maipdf-images/security_setting.png)
 
 ## PDF 동적 워터마크란 무엇인가?
 

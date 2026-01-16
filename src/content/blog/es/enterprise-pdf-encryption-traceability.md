@@ -2,7 +2,7 @@
 title: "Cifrado y Rastreabilidad PDF Empresarial: Guía Completa"
 description: "Aprenda cómo cifrar y rastrear PDFs empresariales. Guía completa sobre cifrado PDF empresarial, rastreabilidad y seguridad."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF Empresarial", "Cifrado", "Rastreabilidad", "Seguridad de Documentos", "Seguridad Empresarial"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF Empresarial", "Cifrado", "Rastreabilidad", "Seguridad de Documentos"
   <p>Las empresas necesitan características de seguridad avanzadas para sus documentos PDF. El <strong>cifrado y rastreabilidad PDF empresarial</strong> proporciona soluciones completas para proteger y monitorear documentos sensibles.</p>
 </div>
 
-![Interfaz de Configuración de Seguridad](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Interfaz de Configuración de Seguridad](/maipdf-images/security_setting.png)
 
 ## ¿Qué es el Cifrado PDF Empresarial?
 

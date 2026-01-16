@@ -1,11 +1,11 @@
 ---
-title: "PDF Sharing Features Overview (Visual Guide)"
-description: "A quick visual overview of the key features people use to share PDFs securely—online controls, offline options, and security layers."
+title: "PDF Sharing Features Overview"
+description: "A quick guide to online controls, offline options, and link management—no enterprise features."
 pubDate: "Jan 15 2026"
 tags: ["PDF Sharing", "Access Control", "PDF Security", "Diagrams"]
 ---
 
-# PDF Sharing Features Overview (Visual Guide)
+# PDF Sharing Features Overview
 
 <div class="intro-panel">
   <p>Want the big picture without a long read? This diagram summarizes the most common PDF sharing features in one view.</p>
@@ -15,9 +15,9 @@ tags: ["PDF Sharing", "Access Control", "PDF Security", "Diagrams"]
 
 ## What you’re looking at
 
-- **Online sharing controls**: view limits, expiration, verification, and tracking
-- **Offline option**: a self-contained package for environments without reliable internet
-- **Security layer**: protections that keep distribution simple while reducing risk
+- **Online sharing controls**: view limits, verification, tracking
+- **Offline option**: a self-contained package for no‑internet environments
+- **Link management**: replace file, disable link, read notifications
 
 ## A simple way to choose
 

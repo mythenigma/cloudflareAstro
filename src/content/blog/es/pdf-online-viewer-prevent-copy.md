@@ -2,7 +2,7 @@
 title: "Visor PDF en Línea Prevenir Copia: Proteger Contenido del Documento de la Copia"
 description: "Aprenda a proteger el contenido del documento a través de la función de prevenir copia del visor PDF en línea. Prevenir la copia de texto y el guardado de imágenes para asegurar la seguridad del contenido del documento y prevenir el abuso de contenido."
 pubDate: "Dec 19 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["Visor PDF en línea", "prevenir copia", "protección de contenido", "seguridad de documentos", "protección PDF"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["Visor PDF en línea", "prevenir copia", "protección de contenido", "seg
   <p>Al compartir documentos PDF, ¿cómo puede prevenir que los destinatarios copien el contenido del documento? La <strong>función de prevenir copia</strong> puede bloquear efectivamente la copia de texto, el guardado de imágenes y otras operaciones para proteger la seguridad del contenido del documento. Esta guía explica cómo configurar la función de prevenir copia para visores PDF en línea.</p>
 </div>
 
-![Interfaz de Configuración PDF](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Interfaz de Configuración PDF](/maipdf-images/security_setting.png)
 
 ## Por Qué Prevenir la Copia?
 

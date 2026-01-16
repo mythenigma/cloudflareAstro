@@ -35,7 +35,7 @@ QRコードは物理的空間とデジタル空間を繋ぎます。以下に配
 - PDFがいつ、どのくらいの頻度でアクセスされたかを追跡
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/settings_in_cloudshare.png" alt="QRアクセス設定" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/security_setting.png" alt="QRアクセス設定" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## PDF QRコードの作成方法
@@ -78,7 +78,7 @@ QRコードをどこにでも配置し、ダッシュボードで使用状況を
 **結婚式やイベント**：ゲストブック、プログラム、または写真アルバム用のQRコードを作成。
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="QRコード結果" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="QRコード結果" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## 技術的考慮事項

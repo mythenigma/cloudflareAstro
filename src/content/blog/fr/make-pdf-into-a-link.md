@@ -20,7 +20,7 @@ La conversion d'un PDF en lien transforme la façon dont vous partagez des docum
 
 **À Ceci** : Partager un lien propre comme `https://maipdf.com/file/abc123@pdf` sur lequel n'importe qui peut cliquer pour voir immédiatement.
 
-![Télécharger Votre PDF](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Télécharger Votre PDF](/maipdf-images/upload_section.png)
 
 ## Comment Fonctionne la Conversion PDF en Lien
 
@@ -34,7 +34,7 @@ Le processus est remarquablement simple :
 
 **Étape 4 - Partage** : Copiez le lien et partagez-le partout - e-mail, messages texte, réseaux sociaux ou sites Web.
 
-![Résultats de Génération de Lien](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Résultats de Génération de Lien](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Avantages du Partage de Documents Basé sur les Liens
 
@@ -52,7 +52,7 @@ Le processus est remarquablement simple :
 
 **Paramètres Personnalisés** : Contrôlez si les destinataires peuvent télécharger le PDF ou seulement le visualiser en ligne.
 
-![Configuration des Paramètres](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Configuration des Paramètres](/maipdf-images/security_setting.png)
 
 **Codes QR** : Chaque lien PDF obtient automatiquement un code QR pour un partage et un accès mobiles faciles.
 
@@ -94,11 +94,11 @@ Les améliorations récentes de MaiPDF rendent le processus de conversion plus r
 
 **Modification Facile** : Modifiez les paramètres de vos liens PDF même après les avoir partagés.
 
-![Modifier les Paramètres de Fichier](/2025MayMaiPDF/changefilesetting.png)
+![Modifier les Paramètres de Fichier](/maipdf-images/pdf_change_setting_after_sent.png)
 
 **Analyses d'Utilisation** : Consultez des informations détaillées sur la façon dont vos liens sont consultés.
 
-![Enregistrements d'Accès PDF](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Enregistrements d'Accès PDF](/maipdf-images/check_pdf_open_result.png)
 
 **Gestion en Masse** : Gérez plusieurs liens PDF via une interface de tableau de bord simple.
 
@@ -162,7 +162,7 @@ Prêt à transformer votre premier PDF en lien partageable ?
 4. **Copiez Votre Lien** : Obtenez une URL professionnelle prête à être partagée partout
 5. **Suivez les Performances** : Surveillez comment votre lien est consulté et utilisé
 
-![Interface d'Accueil](/2025MayMaiPDF/Home_Landing.png)
+![Interface d'Accueil](/maipdf-images/maipdf_landing_page.png)
 
 ## Pourquoi les Liens PDF Sont l'Avenir du Partage de Documents
 

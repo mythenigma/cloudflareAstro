@@ -2,7 +2,7 @@
 title: "Schnelles PDF-Teilen: Sichere Links mit Download-Kontrolle Generieren"
 description: "Erstellen Sie teilbare PDF-Links sofort mit MaiPDF. Kontrollieren Sie, wer Ihre Dateien herunterladen kann, und genießen Sie schnellere Ladegeschwindigkeiten für ein besseres Dokumentenansichtserlebnis."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["PDF-Teilen", "Download-Kontrolle", "Sichere Links", "Schnelles Laden"]
 ---
 
@@ -10,17 +10,17 @@ tags: ["PDF-Teilen", "Download-Kontrolle", "Sichere Links", "Schnelles Laden"]
 
 Das Teilen von PDF-Dokumenten war noch nie einfacher. Mit MaiPDF können Sie jede PDF-Datei hochladen und sofort einen sicheren Freigabe-Link generieren, der Ihnen vollständige Kontrolle darüber gibt, wie andere auf Ihre Dokumente zugreifen.
 
-![MaiPDF Homepage](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Homepage](/maipdf-images/maipdf_landing_page.png)
 
 ## Schnelle Link-Generierung
 
 Der Prozess ist unkompliziert. Laden Sie Ihre PDF-Datei hoch, und MaiPDF erstellt innerhalb von Sekunden einen eindeutigen Freigabe-Link. Keine Registrierung erforderlich, keine komplizierte Einrichtung - einfach hochladen und teilen.
 
-![Upload-Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload-Interface](/maipdf-images/upload_section.png)
 
 Nach dem Hochladen erhalten Sie einen sauberen, professionellen Link, den Sie per E-Mail, Messaging-Apps oder anderen Kommunikationsmethoden teilen können. Empfänger können sofort auf Ihr Dokument zugreifen, ohne Konten erstellen oder zusätzliche Software herunterladen zu müssen.
 
-![Link und QR-Code-Ergebnis](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link und QR-Code-Ergebnis](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Download-Kontrolloptionen
 
@@ -30,7 +30,7 @@ Eine der nützlichsten Funktionen von MaiPDF ist die Download-Kontrolle. Beim Te
 
 **Download Aktiviert**: Wählen Sie diese Option, wenn Sie möchten, dass Empfänger eine Kopie des Dokuments für ihre Aufzeichnungen oder zur Offline-Verwendung behalten.
 
-![Einstellungs-Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Einstellungs-Interface](/maipdf-images/security_setting.png)
 
 Diese Flexibilität ist besonders wertvoll für:
 - Geschäftsvorschläge, die vertraulich bleiben sollten

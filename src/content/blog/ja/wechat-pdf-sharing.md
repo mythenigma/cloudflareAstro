@@ -2,7 +2,7 @@
 title: "WeChat PDF共有：WeChatでPDFを共有する方法"
 description: "WeChatでPDFを共有する方法を学びます。MaiPDFを使用して、ファイルサイズ制限や圧縮の問題なしにWeChatでPDFを共有します。"
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["WeChat PDF共有", "WeChatでPDF", "WeChatファイル共有", "PDF共有"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["WeChat PDF共有", "WeChatでPDF", "WeChatファイル共有", "PDF共�
 
 WeChatは最も人気のあるメッセージングプラットフォームの1つですが、ファイルサイズ制限や圧縮の問題により、WeChatでPDFを共有することは困難な場合があります。MaiPDFは、WeChatでPDFを共有するための簡単なソリューションを提供します。
 
-![MaiPDFホームページ](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDFホームページ](/maipdf-images/maipdf_landing_page.png)
 
 ## WeChatでPDFを共有する理由
 

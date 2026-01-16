@@ -2,7 +2,7 @@
 title: "PDF QR-Code-Generierung: Vollständiger Leitfaden zur QR-Code-Erstellung"
 description: "Erfahren Sie, wie Sie QR-Codes für PDFs generieren können. Vollständiger Leitfaden zur PDF-QR-Code-Generierung, QR-Code-Erstellung und PDF-Freigabe mit QR-Codes."
 pubDate: "Dec 29 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["PDF QR-Code", "QR-Code-Generierung", "PDF-Freigabe", "QR-Code", "PDF-Teilung"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF QR-Code", "QR-Code-Generierung", "PDF-Freigabe", "QR-Code", "PDF-Tei
   <p>QR-Codes sind eine einfache und effektive Möglichkeit, PDFs zu teilen. <strong>PDF QR-Code-Generierung</strong> bietet umfassende Lösungen zur Erstellung von QR-Codes für PDF-Freigabe.</p>
 </div>
 
-![PDF QR-Code-Generierung](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![PDF QR-Code-Generierung](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Was ist PDF QR-Code-Generierung?
 

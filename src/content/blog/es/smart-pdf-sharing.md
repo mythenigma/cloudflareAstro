@@ -2,7 +2,7 @@
 title: "Compartir PDF Inteligente: Solución Moderna de Compartir Documentos"
 description: "Aprenda cómo compartir PDFs de forma inteligente. Soluciones modernas para compartir documentos con características avanzadas, seguridad y control."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["Compartir PDF Inteligente", "Compartir PDF", "Compartir Documentos", "Soluciones Modernas"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["Compartir PDF Inteligente", "Compartir PDF", "Compartir Documentos", "So
 
 El compartir PDF inteligente revoluciona la forma en que compartimos documentos. Con herramientas modernas, puede compartir PDFs de forma segura, eficiente y con control completo.
 
-![MaiPDF Página de Inicio](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Página de Inicio](/maipdf-images/maipdf_landing_page.png)
 
 ## ¿Qué es el Compartir PDF Inteligente?
 

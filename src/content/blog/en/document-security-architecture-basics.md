@@ -1,25 +1,44 @@
 ---
-title: "Document Security Architecture Basics (A Visual Overview)"
-description: "A quick visual overview of the layers that protect shared documents: encryption, access checks, and monitoring."
+title: "PDF Sharing Settings Explained (MaiPDF Upload Screen)"
+description: "A plain-English guide to each setting on the MaiPDF upload screen."
 pubDate: "Jan 15 2026"
 tags: ["Document Security", "Security Architecture", "Encryption", "Access Control"]
 ---
 
-# Document Security Architecture Basics (A Visual Overview)
+# PDF Sharing Settings Explained
 
 <div class="intro-panel">
-  <p>Good document security is layered: protect the file, control access, and monitor usage.</p>
+  <p>This page explains the <strong>actual settings you see on the upload screen</strong>—what they do and when to use them.</p>
 </div>
 
-![Security architecture overview](/diagram/en/security-architecture.svg)
+![Upload screen](/2025MayMaiPDF/upload_in_cloudshare.png)
 
-## The 3 layers to think about
+## The 5 settings you can configure
 
-- **Protection**: encryption + tamper resistance
-- **Access control**: verification, limits, expiration
-- **Monitoring**: logs and anomaly signals
+1. **Access Limit**  
+   Limit total opens to prevent unlimited sharing.
 
-## A practical rule
+2. **Each Session**  
+   Limit reading time per session (useful for sensitive files).
 
-If a document is important enough to lock down, it’s important enough to **log**.
+3. **Protection Type**  
+   - DynamoWatermark: dynamic watermark  
+   - SecureView: view-only  
+   - FenceView: screenshot deterrent (not a full block)  
+   - Unrestricted: no restrictions
+
+4. **Email Verification**  
+   Require the viewer to verify email before access.
+
+5. **Read Notification (optional)**  
+   Get an email when the document is opened.
+
+## Quick flow
+
+```mermaid
+flowchart LR
+  A[Upload PDF] --> B[Configure settings]
+  B --> C[Create secure link]
+  C --> D[Share & monitor]
+```
 

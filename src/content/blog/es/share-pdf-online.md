@@ -22,7 +22,7 @@ tags: ["compartir PDF", "compartir en línea", "enlaces de documentos", "compart
 
 **Apariencia Profesional**: Enlaces limpios y de marca se ven más profesionales que adjuntos de correo voluminosos.
 
-![Interfaz de Subida](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Interfaz de Subida](/maipdf-images/upload_section.png)
 
 ## Conclusión: Compartir PDF en Línea
 

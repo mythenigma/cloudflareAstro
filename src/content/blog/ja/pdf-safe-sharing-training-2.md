@@ -2,7 +2,7 @@
 title: "PDF安全共有トレーニング2：安全な文書共有の完全ガイド"
 description: "PDFの安全な共有方法を学びます。完全ガイドで、安全な文書共有、アクセス制御、セキュリティ機能をカバーします。"
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF安全共有", "安全な共有", "文書共有", "PDFセキュリティ"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF安全共有", "安全な共有", "文書共有", "PDFセキュリテ
   <p>PDFの安全な共有は、機密文書を保護するために重要です。 <strong>PDF安全共有トレーニング2</strong>は、安全な文書共有のための包括的なソリューションを提供します。</p>
 </div>
 
-![セキュリティ設定インターフェース](/2025MayMaiPDF/settings_in_cloudshare.png)
+![セキュリティ設定インターフェース](/maipdf-images/security_setting.png)
 
 ## PDF安全共有とは何か？
 

@@ -2,7 +2,7 @@
 title: "PDF 공유 링크 다운로드 비활성화：다운로드를 방지하는 방법"
 description: "PDF 공유 링크에서 다운로드를 비활성화하는 방법을 배웁니다. 다운로드 비활성화, 액세스 제어, 문서 보호를 다루는 완전 가이드."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF 공유 링크", "다운로드 비활성화", "액세스 제어", "문서 보호", "PDF 보호"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF 공유 링크", "다운로드 비활성화", "액세스 제어", "�
   <p>PDF 공유 링크에서 다운로드를 비활성화하는 것은 문서 보호의 중요한 측면입니다. <strong>PDF 공유 링크 다운로드 비활성화</strong>는 PDF 다운로드를 방지하기 위한 포괄적인 솔루션을 제공합니다.</p>
 </div>
 
-![보안 설정 인터페이스](/2025MayMaiPDF/settings_in_cloudshare.png)
+![보안 설정 인터페이스](/maipdf-images/security_setting.png)
 
 ## PDF 공유 링크 다운로드 비활성화란 무엇인가?
 

@@ -2,7 +2,7 @@
 title: "MaiPDF QRコード生成ガイド：QRコード作成の完全ガイド"
 description: "PDF用のQRコードを生成する方法を学びます。PDF QRコード生成、QRコード作成、QRコードを使用したPDF共有の完全ガイド。"
 pubDate: "Dec 29 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["PDF QRコード", "QRコード生成", "PDF共有", "QRコード", "PDF共有"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF QRコード", "QRコード生成", "PDF共有", "QRコード", "PDF�
   <p>QRコードは、PDFを共有するための簡単で効果的な方法です。 <strong>PDF QRコード生成</strong>は、PDF共有用のQRコードを作成するための包括的なソリューションを提供します。</p>
 </div>
 
-![PDF QRコード生成](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![PDF QRコード生成](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## PDF QRコード生成とは何か？
 

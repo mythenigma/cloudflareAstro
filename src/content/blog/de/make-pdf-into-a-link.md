@@ -20,7 +20,7 @@ Die Konvertierung eines PDFs in einen Link verändert die Art, wie Sie Dokumente
 
 **Zu Diesem**: Teilen eines sauberen Links wie `https://maipdf.com/file/abc123@pdf`, auf den jeder sofort klicken kann, um anzuzeigen.
 
-![Laden Sie Ihr PDF Hoch](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Laden Sie Ihr PDF Hoch](/maipdf-images/upload_section.png)
 
 ## Fazit: PDF in Link Konvertieren
 

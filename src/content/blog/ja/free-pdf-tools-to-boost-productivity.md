@@ -2,7 +2,7 @@
 title: "生産性を向上させる無料PDFツール：完全ガイド"
 description: "生産性を向上させる無料PDFツールを学びます。完全ガイドで、無料PDFツール、PDF編集、PDF変換をカバーします。"
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["無料PDFツール", "PDFツール", "生産性向上", "PDF編集", "PDF変換"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["無料PDFツール", "PDFツール", "生産性向上", "PDF編集", "PD
   <p>無料PDFツールは、生産性を向上させるための現代的なソリューションです。 <strong>無料PDFツール</strong>は、PDFを操作するための包括的なツールとソリューションを提供します。</p>
 </div>
 
-![MaiPDFホームページ](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDFホームページ](/maipdf-images/maipdf_landing_page.png)
 
 ## 無料PDFツールとは何か？
 

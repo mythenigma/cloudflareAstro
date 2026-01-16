@@ -14,7 +14,7 @@ tags: ["PDF teilen", "PDF Link Generator", "sichere PDF-Freigabe", "maipdf"]
 </div>
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png" alt="MaiPDF Online PDF Sharing Header" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/maipdf-images/share_pdf_wordwide.png" alt="MaiPDF Online PDF Sharing Header" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ## Das Problem mit traditioneller PDF-Freigabe
@@ -31,7 +31,7 @@ Diese Lösungen funktionieren für komplexe Arbeitsabläufe, aber sie sind über
 ## Wie MaiPDF funktioniert
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/upload_in_cloudshare.png" alt="Upload Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/upload_section.png" alt="Upload Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 Der Prozess ist absichtlich einfach:

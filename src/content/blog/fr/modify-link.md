@@ -2,7 +2,7 @@
 title: "Modifier le Lien : Comment Modifier les Liens PDF"
 description: "Apprenez comment modifier les liens PDF. Guide complet sur la modification de liens, la mise à jour de paramètres et la gestion de liens PDF."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["Modifier le Lien", "Modifier PDF", "Gestion de Liens", "Paramètres PDF"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["Modifier le Lien", "Modifier PDF", "Gestion de Liens", "Paramètres PDF"
   <p>Besoin de <strong>modifier un lien PDF</strong> ? MaiPDF vous permet de modifier les paramètres de vos liens PDF à tout moment, même après les avoir partagés.</p>
 </div>
 
-![MaiPDF Page d'Accueil](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Page d'Accueil](/maipdf-images/maipdf_landing_page.png)
 
 ## Comment Modifier un Lien PDF
 

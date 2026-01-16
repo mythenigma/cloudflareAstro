@@ -2,7 +2,7 @@
 title: "Unternehmens-PDF-Verschlüsselung und Nachverfolgbarkeit: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie PDFs für Unternehmen verschlüsseln und nachverfolgen können. Vollständiger Leitfaden zur Unternehmens-PDF-Verschlüsselung, Nachverfolgbarkeit und Sicherheit."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["Unternehmens-PDF", "Verschlüsselung", "Nachverfolgbarkeit", "Dokumentsicherheit", "Unternehmenssicherheit"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["Unternehmens-PDF", "Verschlüsselung", "Nachverfolgbarkeit", "Dokumentsi
   <p>Unternehmen benötigen erweiterte Sicherheitsfunktionen für ihre PDF-Dokumente. <strong>Unternehmens-PDF-Verschlüsselung und Nachverfolgbarkeit</strong> bieten umfassende Lösungen für den Schutz und die Überwachung sensibler Dokumente.</p>
 </div>
 
-![Sicherheitseinstellungs-Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Sicherheitseinstellungs-Interface](/maipdf-images/security_setting.png)
 
 ## Was ist Unternehmens-PDF-Verschlüsselung?
 

@@ -2,7 +2,7 @@
 title: "Protección de Seguridad PDF: Guía Completa de Protección de Documentos"
 description: "Aprenda cómo proteger PDFs con características de seguridad avanzadas. Guía completa sobre protección de seguridad PDF, control de acceso y protección de documentos."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["Seguridad PDF", "Protección de Documentos", "Protección de Seguridad", "Protección PDF", "Seguridad de Documentos"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["Seguridad PDF", "Protección de Documentos", "Protección de Seguridad",
   <p>La protección de seguridad PDF es crucial para proteger documentos sensibles. La <strong>protección de seguridad PDF</strong> proporciona soluciones completas para proteger y controlar documentos PDF.</p>
 </div>
 
-![Interfaz de Configuración de Seguridad](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Interfaz de Configuración de Seguridad](/maipdf-images/security_setting.png)
 
 ## ¿Qué es la Protección de Seguridad PDF?
 

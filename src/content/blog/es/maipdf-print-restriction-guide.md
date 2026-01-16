@@ -2,7 +2,7 @@
 title: "MaiPDF Restricción de Impresión: Guía Completa para Prevenir la Impresión de PDF"
 description: "Aprenda cómo prevenir la impresión de PDF con MaiPDF. Guía completa sobre restricción de impresión, control de impresión y protección de documentos."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["Restricción de Impresión PDF", "Prevenir Impresión", "Control de Impresión", "Protección de Documentos", "Protección PDF"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["Restricción de Impresión PDF", "Prevenir Impresión", "Control de Impr
   <p>Prevenir la impresión de PDF es un aspecto importante de la protección de documentos. La <strong>restricción de impresión de MaiPDF</strong> proporciona soluciones completas para prevenir la impresión de PDF y proteger documentos sensibles.</p>
 </div>
 
-![Interfaz de Configuración de Seguridad](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Interfaz de Configuración de Seguridad](/maipdf-images/security_setting.png)
 
 ## ¿Qué es la Restricción de Impresión PDF?
 

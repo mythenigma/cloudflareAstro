@@ -2,7 +2,7 @@
 title: "MaiPDF 완전 소개：전문 PDF 공유 플랫폼, 간단하고 안전하게"
 description: "MaiPDF란 무엇인가? PDF를 빠르게 공유하는 방법은? 명확한 도표와 플로우차트를 통해 MaiPDF의 핵심 기능, 사용 방법, 응용 시나리오를 포괄적으로 소개하여 전문 PDF 공유 기술을 빠르게 습득할 수 있습니다."
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["MaiPDF", "PDF 공유", "문서 관리", "액세스 제어", "완전 소개"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "PDF 공유", "문서 관리", "액세스 제어", "완전 소�
   <p><strong>MaiPDF</strong> 는 등록 없이 빠르게 공유 링크를 생성하고, 언제든지 액세스 권한을 제어하며, 실시간으로 문서 열람 상황을 추적할 수 있는 전문 온라인 PDF 공유 플랫폼입니다. 비즈니스 계약, 제품 매뉴얼, 팀 보고서 등, MaiPDF는 문서 공유를 간단하고 안전하며 제어 가능하게 만듭니다.</p>
 </div>
 
-![MaiPDF 홈페이지](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF 홈페이지](/maipdf-images/maipdf_landing_page.png)
 
 ## MaiPDF란 무엇인가?
 
@@ -126,7 +126,7 @@ flowchart TD
 - 또는 QR 코드 다운로드하여 공유
 - 실시간으로 액세스 기록 보기
 
-![MaiPDF 업로드 인터페이스](/2025MayMaiPDF/upload_in_cloudshare.png)
+![MaiPDF 업로드 인터페이스](/maipdf-images/upload_section.png)
 
 ## 핵심 기능 상세 설명
 
@@ -151,7 +151,7 @@ flowchart LR
     style E fill:#50C878,color:#fff
 ```
 
-![MaiPDF 링크 생성 결과](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![MaiPDF 링크 생성 결과](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ### 기능 2：액세스 제어
 
@@ -187,7 +187,7 @@ flowchart TD
     style K fill:#50C878,color:#fff
 ```
 
-![MaiPDF 설정 인터페이스](/2025MayMaiPDF/settings_in_cloudshare.png)
+![MaiPDF 설정 인터페이스](/maipdf-images/security_setting.png)
 
 ### 기능 3：데이터 추적
 
@@ -217,7 +217,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![MaiPDF 액세스 기록](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![MaiPDF 액세스 기록](/maipdf-images/check_pdf_open_result.png)
 
 ### 기능 4：링크 관리
 
@@ -248,7 +248,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![MaiPDF 파일 교체 설정](/2025MayMaiPDF/changefilesetting.png)
+![MaiPDF 파일 교체 설정](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## 응용 시나리오
 

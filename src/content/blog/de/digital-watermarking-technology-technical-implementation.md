@@ -2,7 +2,7 @@
 title: "Digitale Wasserzeichen-Technologie: Wie PDF-Schutz Tatsächlich Funktioniert"
 description: "Erkunden Sie die technischen Aspekte der PDF-Wasserzeichen, von Implementierungsmethoden bis zur Wirksamkeit bei der Verhinderung unerlaubter Dokumentfreigabe."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/checkwatermark.png"
+heroImage: "/maipdf-images/check_water_mark_information.png"
 tags: ["PDF-Wasserzeichen", "Dokumentsicherheit", "Technische Implementierung", "DRM", "Informationsschutz"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["PDF-Wasserzeichen", "Dokumentsicherheit", "Technische Implementierung", 
   <p>Dieser Leitfaden untersucht die technischen Implementierungen, die sichere Dokumentenwasserzeichen möglich und effektiv machen.</p>
 </div>
 
-![Wasserzeichen-Verifizierungs-Oberfläche](/2025MayMaiPDF/checkwatermark.png)
+![Wasserzeichen-Verifizierungs-Oberfläche](/maipdf-images/check_water_mark_information.png)
 
 ## Die Technische Grundlage der PDF-Wasserzeichen
 
@@ -45,7 +45,7 @@ Moderne PDF-Schutzsysteme verwenden verschiedene technische Ansätze für Wasser
 
 ## Die Anatomie eines Effektiven Wasserzeichens
 
-![MaiPDF-Oberfläche](/2025MayMaiPDF/menus_in_maipdf.png)
+![MaiPDF-Oberfläche](/maipdf-images/security_level_in_pdf_setting.png)
 
 Aus technischer Sicht kombinieren effektive Wasserzeichen:
 

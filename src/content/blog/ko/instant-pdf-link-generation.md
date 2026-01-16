@@ -2,7 +2,7 @@
 title: "즉시 PDF 링크 생성：몇 초 만에 문서 공유"
 description: "MaiPDF로 모든 PDF를 즉시 공유 가능한 링크로 변환합니다. 등록 불필요, 빠른 로딩 속도, 액세스 권한에 대한 완전한 제어."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["PDF 링크", "즉시 공유", "빠른 업로드", "문서 공유"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["PDF 링크", "즉시 공유", "빠른 업로드", "문서 공유"]
 
 PDF 문서를 빠르게 공유해야 합니까? MaiPDF는 몇 초 만에 모든 PDF 파일을 공유 가능한 링크로 변환합니다. 동료에게 보고서를 보내거나, 고객과 메뉴를 공유하거나, 교육 자료를 배포하든, 전문적인 공유 링크를 얻는 것이 그 어느 때보다 빠릅니다.
 
-![링크 생성 결과](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![링크 생성 결과](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## 속도 장점
 
@@ -22,7 +22,7 @@ MaiPDF는 처리 속도를 크게 개선하여 링크 생성을 거의 즉시로
 - **향상된 안정성**: 더 큰 파일에 대해서도 더 안정적인 업로드
 - **더 나은 응답성**: 인터페이스가 사용자 작업에 빠르게 응답
 
-![빠른 업로드 인터페이스](/2025MayMaiPDF/upload_in_cloudshare.png)
+![빠른 업로드 인터페이스](/maipdf-images/upload_section.png)
 
 ## 결론：즉시 PDF 링크 생성
 

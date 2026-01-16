@@ -2,7 +2,7 @@
 title: "Wie Man DRM-Digitalzertifikate zu Dateien Hinzufügt: Unternehmens-Grade-Dateischutzlösung"
 description: "Erfahren Sie, wie Sie DRM-Digitalzertifikate zu Dateien hinzufügen, um Unternehmens-Grade-Dateischutz zu erreichen. Beherrschen Sie Digital Rights Management-Technologie, um Dokumentsicherheit und Compliance zu gewährleisten."
 pubDate: "Aug 25 2025"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+heroImage: "/maipdf-images/share_pdf_wordwide.png"
 tags: ["DRM-Digitalzertifikate", "Dateischutz", "Digital Rights Management", "Unternehmenssicherheit", "Dokumentverschlüsselung"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["DRM-Digitalzertifikate", "Dateischutz", "Digital Rights Management", "Un
 
 ## 🔐 DRM-Digitalzertifikat-Technologie-Übersicht
 
-![MaiPDF DRM-Schutz-Interface](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF DRM-Schutz-Interface](/maipdf-images/maipdf_landing_page.png)
 
 **Was sind DRM-Digitalzertifikate**:
 - **Digital Rights Management**: Abkürzung für Digital Rights Management

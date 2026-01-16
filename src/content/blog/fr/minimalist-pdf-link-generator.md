@@ -14,7 +14,7 @@ tags: ["partager PDF", "générateur de liens PDF", "partage PDF sécurisé", "m
 </div>
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png" alt="En-tête de Partage PDF en Ligne MaiPDF" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/maipdf-images/share_pdf_wordwide.png" alt="En-tête de Partage PDF en Ligne MaiPDF" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ## Le problème avec le partage traditionnel de PDF
@@ -31,7 +31,7 @@ Ces solutions fonctionnent pour des flux de travail complexes, mais elles sont e
 ## Comment fonctionne MaiPDF
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/upload_in_cloudshare.png" alt="Interface de Téléchargement" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/upload_section.png" alt="Interface de Téléchargement" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 Le processus est intentionnellement simple :
@@ -52,7 +52,7 @@ Recevez une URL propre et partageable qui fonctionne partout : e-mail, applicati
 Vos destinataires cliquent sur le lien et voient le document immédiatement dans leur navigateur. Aucun téléchargement requis, aucune installation de logiciel nécessaire.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="Lien de Résultat et Code QR" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="Lien de Résultat et Code QR" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 // ...continuing with more content in French...

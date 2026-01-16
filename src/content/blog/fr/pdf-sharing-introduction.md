@@ -2,7 +2,7 @@
 title: "MaiPDF Guide Complet : Plateforme Professionnelle de Partage PDF Simple et Sécurisée"
 description: "Qu'est-ce que MaiPDF ? Comment partager rapidement des PDF ? Ce guide complet présente les fonctionnalités principales, méthodes d'utilisation et scénarios d'application de MaiPDF à travers des diagrammes clairs et des organigrammes."
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["MaiPDF", "Partage PDF", "Gestion de Documents", "Contrôle d'Accès", "Guide Complet"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "Partage PDF", "Gestion de Documents", "Contrôle d'Accès", "G
   <p><strong>MaiPDF</strong> est une plateforme professionnelle de partage PDF en ligne qui vous permet de générer rapidement des liens de partage sans inscription, de contrôler les permissions d'accès à tout moment et de suivre l'ouverture des documents en temps réel. Qu'il s'agisse de contrats commerciaux, de manuels produits ou de rapports d'équipe, MaiPDF rend le partage de documents simple, sécurisé et contrôlable.</p>
 </div>
 
-![Page d'accueil MaiPDF](/2025MayMaiPDF/Home_Landing.png)
+![Page d'accueil MaiPDF](/maipdf-images/maipdf_landing_page.png)
 
 ## Qu'est-ce que MaiPDF ?
 
@@ -126,7 +126,7 @@ flowchart TD
 - Ou télécharger code QR pour partager
 - Consulter enregistrements d'accès en temps réel
 
-![Interface de Téléchargement MaiPDF](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Interface de Téléchargement MaiPDF](/maipdf-images/upload_section.png)
 
 ## Fonctionnalités Principales Expliquées
 
@@ -151,7 +151,7 @@ flowchart LR
     style E fill:#50C878,color:#fff
 ```
 
-![Résultat de Génération de Lien MaiPDF](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Résultat de Génération de Lien MaiPDF](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ### Fonctionnalité 2 : Contrôle d'Accès
 
@@ -187,7 +187,7 @@ flowchart TD
     style K fill:#50C878,color:#fff
 ```
 
-![Interface de Paramètres MaiPDF](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Interface de Paramètres MaiPDF](/maipdf-images/security_setting.png)
 
 ### Fonctionnalité 3 : Suivi des Données
 
@@ -217,7 +217,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![Enregistrements d'Accès MaiPDF](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Enregistrements d'Accès MaiPDF](/maipdf-images/check_pdf_open_result.png)
 
 ### Fonctionnalité 4 : Gestion des Liens
 
@@ -248,7 +248,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![Paramètres de Remplacement de Fichier MaiPDF](/2025MayMaiPDF/changefilesetting.png)
+![Paramètres de Remplacement de Fichier MaiPDF](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## Scénarios d'Application
 

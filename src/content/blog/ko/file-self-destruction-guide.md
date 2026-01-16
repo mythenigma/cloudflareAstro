@@ -2,7 +2,7 @@
 title: "파일 자동 삭제 가이드：파일 만료 및 자동 삭제"
 description: "특정 시간 후 파일을 자동으로 삭제하는 방법을 배웁니다. 완전 가이드에서 파일 만료, 자동 삭제, 파일 보호를 다룹니다."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["파일 자동 삭제", "파일 만료", "자동 삭제", "파일 보호", "문서 보호"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["파일 자동 삭제", "파일 만료", "자동 삭제", "파일 보호"
   <p>특정 시간 후 파일을 자동으로 삭제하는 것은 문서 보호의 중요한 측면입니다. <strong>파일 자동 삭제 가이드</strong>는 파일 만료 및 자동 삭제를 위한 포괄적인 솔루션을 제공합니다.</p>
 </div>
 
-![보안 설정 인터페이스](/2025MayMaiPDF/settings_in_cloudshare.png)
+![보안 설정 인터페이스](/maipdf-images/security_setting.png)
 
 ## 파일 자동 삭제란 무엇인가?
 

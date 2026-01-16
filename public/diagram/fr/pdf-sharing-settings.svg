@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700');
+      text { font-family: 'Noto Sans', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="620" fill="#f8fafc"/>
+  <text x="500" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">Réglages de partage PDF (écran d’envoi)</text>
+
+  <!-- Card 1 -->
+  <rect x="40" y="80" width="440" height="160" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="120" cy="120" r="26" fill="#ede9fe"/>
+  <text x="120" y="128" font-size="20" text-anchor="middle">📂</text>
+  <text x="200" y="115" font-size="18" font-weight="600" fill="#1e293b">Limite d’accès</text>
+  <text x="200" y="140" font-size="12" fill="#64748b">Limite le nombre total d’ouvertures</text>
+  <rect x="200" y="155" width="220" height="36" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="310" y="178" font-size="12" text-anchor="middle" fill="#64748b">Ex. : 5 ouvertures</text>
+
+  <!-- Card 2 -->
+  <rect x="520" y="80" width="440" height="160" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="600" cy="120" r="26" fill="#ede9fe"/>
+  <text x="600" y="128" font-size="20" text-anchor="middle">⏱️</text>
+  <text x="680" y="115" font-size="18" font-weight="600" fill="#1e293b">Durée par session</text>
+  <text x="680" y="140" font-size="12" fill="#64748b">Limite le temps de lecture par session</text>
+  <rect x="680" y="155" width="220" height="36" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="790" y="178" font-size="12" text-anchor="middle" fill="#64748b">Ex. : 300 sec</text>
+
+  <!-- Card 3 -->
+  <rect x="40" y="260" width="440" height="190" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="120" cy="300" r="26" fill="#ede9fe"/>
+  <text x="120" y="308" font-size="20" text-anchor="middle">🔒</text>
+  <text x="200" y="295" font-size="18" font-weight="600" fill="#1e293b">Type de protection</text>
+  <text x="200" y="320" font-size="12" fill="#64748b">Choisissez le niveau de protection</text>
+  <text x="200" y="350" font-size="12" fill="#1e293b">• DynamoWatermark</text>
+  <text x="200" y="372" font-size="12" fill="#1e293b">• SecureView (lecture seule)</text>
+  <text x="200" y="394" font-size="12" fill="#1e293b">• FenceView (dissuasion des captures)</text>
+  <text x="200" y="416" font-size="12" fill="#1e293b">• Unrestricted</text>
+
+  <!-- Card 4 -->
+  <rect x="520" y="260" width="440" height="190" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="600" cy="300" r="26" fill="#ede9fe"/>
+  <text x="600" y="308" font-size="20" text-anchor="middle">✅</text>
+  <text x="680" y="295" font-size="18" font-weight="600" fill="#1e293b">Vérification e‑mail</text>
+  <text x="680" y="320" font-size="12" fill="#64748b">Exige la vérification avant l’accès</text>
+  <rect x="680" y="340" width="220" height="36" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="790" y="363" font-size="12" text-anchor="middle" fill="#64748b">Activer</text>
+  <text x="680" y="395" font-size="12" fill="#1e293b">Notification de lecture (optionnel)</text>
+  <text x="680" y="418" font-size="12" fill="#64748b">Recevez un e‑mail à l’ouverture</text>
+
+  <!-- Bottom action -->
+  <rect x="360" y="480" width="280" height="56" rx="28" fill="#7c3aed"/>
+  <text x="500" y="515" font-size="16" font-weight="600" text-anchor="middle" fill="#ffffff">Créer un lien sécurisé</text>
+
+  <g id="platform-watermark">
+    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
+  </g>
+</svg>

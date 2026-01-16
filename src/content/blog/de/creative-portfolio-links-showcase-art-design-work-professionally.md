@@ -2,7 +2,7 @@
 title: "Kreative Portfolio-Links: Präsentieren Sie Ihre Kunst- und Design-Arbeit Professionell"
 description: "Erfahren Sie, wie Sie atemberaubende kreative Portfolio-Links erstellen, die Ihre Kunst- und Design-Arbeit professionell präsentieren. Perfekt für Künstler, Designer und kreative Profis, die Kunden und Galerien beeindrucken möchten."
 pubDate: "Aug 25 2025"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+heroImage: "/maipdf-images/share_pdf_wordwide.png"
 tags: ["Kreatives Portfolio", "Kunstportfolio", "Design-Präsentation", "Kreative Profis", "Künstlerische Arbeit"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["Kreatives Portfolio", "Kunstportfolio", "Design-Präsentation", "Kreativ
 
 ## 🎨 Die Kreative Portfolio-Revolution
 
-![MaiPDF Professionelles Interface](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Professionelles Interface](/maipdf-images/maipdf_landing_page.png)
 
 **Warum traditionelles kreatives Portfolio-Teil scheitert**:
 - 📧 **E-Mail-Anhänge**: Große Dateien werden gefiltert oder ignoriert

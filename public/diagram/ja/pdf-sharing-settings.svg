@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700');
+      text { font-family: 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="620" fill="#f8fafc"/>
+  <text x="500" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">PDF共有の設定（アップロード画面）</text>
+
+  <!-- Card 1 -->
+  <rect x="40" y="80" width="440" height="160" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="120" cy="120" r="26" fill="#ede9fe"/>
+  <text x="120" y="128" font-size="20" text-anchor="middle">📂</text>
+  <text x="200" y="115" font-size="18" font-weight="600" fill="#1e293b">アクセス制限</text>
+  <text x="200" y="140" font-size="12" fill="#64748b">総開封回数を制限</text>
+  <rect x="200" y="155" width="220" height="36" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="310" y="178" font-size="12" text-anchor="middle" fill="#64748b">例：5回</text>
+
+  <!-- Card 2 -->
+  <rect x="520" y="80" width="440" height="160" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="600" cy="120" r="26" fill="#ede9fe"/>
+  <text x="600" y="128" font-size="20" text-anchor="middle">⏱️</text>
+  <text x="680" y="115" font-size="18" font-weight="600" fill="#1e293b">セッション時間</text>
+  <text x="680" y="140" font-size="12" fill="#64748b">1回の閲覧時間を制限</text>
+  <rect x="680" y="155" width="220" height="36" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="790" y="178" font-size="12" text-anchor="middle" fill="#64748b">例：300秒</text>
+
+  <!-- Card 3 -->
+  <rect x="40" y="260" width="440" height="190" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="120" cy="300" r="26" fill="#ede9fe"/>
+  <text x="120" y="308" font-size="20" text-anchor="middle">🔒</text>
+  <text x="200" y="295" font-size="18" font-weight="600" fill="#1e293b">保護タイプ</text>
+  <text x="200" y="320" font-size="12" fill="#64748b">閲覧方法と保護レベル</text>
+  <text x="200" y="350" font-size="12" fill="#1e293b">• DynamoWatermark</text>
+  <text x="200" y="372" font-size="12" fill="#1e293b">• SecureView（閲覧のみ）</text>
+  <text x="200" y="394" font-size="12" fill="#1e293b">• FenceView（スクショ抑止）</text>
+  <text x="200" y="416" font-size="12" fill="#1e293b">• Unrestricted</text>
+
+  <!-- Card 4 -->
+  <rect x="520" y="260" width="440" height="190" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="600" cy="300" r="26" fill="#ede9fe"/>
+  <text x="600" y="308" font-size="20" text-anchor="middle">✅</text>
+  <text x="680" y="295" font-size="18" font-weight="600" fill="#1e293b">メール認証</text>
+  <text x="680" y="320" font-size="12" fill="#64748b">閲覧前にメール確認</text>
+  <rect x="680" y="340" width="220" height="36" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="790" y="363" font-size="12" text-anchor="middle" fill="#64748b">オンにする</text>
+  <text x="680" y="395" font-size="12" fill="#1e293b">閲覧通知（任意）</text>
+  <text x="680" y="418" font-size="12" fill="#64748b">開封時にメールで通知</text>
+
+  <!-- Bottom action -->
+  <rect x="360" y="480" width="280" height="56" rx="28" fill="#7c3aed"/>
+  <text x="500" y="515" font-size="16" font-weight="600" text-anchor="middle" fill="#ffffff">安全リンクを作成</text>
+
+  <g id="platform-watermark">
+    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
+  </g>
+</svg>

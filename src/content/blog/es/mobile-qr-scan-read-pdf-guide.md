@@ -2,7 +2,7 @@
 title: "Cómo Hacer PDFs Escaneables con Códigos QR Móviles: El Futuro de la Lectura Móvil"
 description: "Aprenda cómo convertir PDFs en códigos QR que pueden ser escaneados y leídos instantáneamente en dispositivos móviles. Sin descargas, sin instalaciones - solo escanear y leer al instante."
 pubDate: "Aug 25 2025"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+heroImage: "/maipdf-images/share_pdf_wordwide.png"
 tags: ["Códigos QR PDF", "lectura móvil", "escanear y leer", "PDF móvil", "acceso instantáneo"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["Códigos QR PDF", "lectura móvil", "escanear y leer", "PDF móvil", "ac
 
 ## 📱 La Revolución de la Lectura Móvil
 
-![MaiPDF Interfaz de Lectura Móvil](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Interfaz de Lectura Móvil](/maipdf-images/maipdf_landing_page.png)
 
 **Problemas con el compartir tradicional de PDF**:
 - 📧 **Adjuntos de correo**: Requieren descargas, consumen espacio de almacenamiento

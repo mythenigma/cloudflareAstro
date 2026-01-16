@@ -2,7 +2,7 @@
 title: "MaiPDF Schnelle Link-Generierung, Ein-Klick-Deaktivierung, Zugriffsaufzeichnungen anzeigen: Drei Kernfunktionen für PDF-Sharing"
 description: "MaiPDF macht PDF-Sharing einfach: Sofortige Link-Generierung, Ein-Klick-Deaktivierung, Echtzeit-Zugriffsaufzeichnungen. Keine Registrierung erforderlich, völlig kostenlos, professionelle PDF-Sharing-Lösung."
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["MaiPDF", "Schneller Link", "Ein-Klick-Deaktivierung", "Zugriffsaufzeichnungen", "PDF-Sharing"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "Schneller Link", "Ein-Klick-Deaktivierung", "Zugriffsaufzeichn
   <p>Was braucht man für PDF-Sharing? <strong>Schnelle Link-Generierung</strong>, <strong>Ein-Klick-Deaktivierung</strong>, <strong>Zugriffsaufzeichnungen anzeigen</strong>. MaiPDF kombiniert diese drei Kernfunktionen perfekt, um PDF-Sharing einfach, sicher und kontrollierbar zu machen.</p>
 </div>
 
-![MaiPDF Kernfunktionen](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![MaiPDF Kernfunktionen](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Kernfunktion 1: Schnelle Link-Generierung zum Teilen
 
@@ -30,7 +30,7 @@ tags: ["MaiPDF", "Schneller Link", "Ein-Klick-Deaktivierung", "Zugriffsaufzeichn
 3. **Link wird automatisch generiert**, sofort verfügbar
 4. Link kopieren oder QR-Code herunterladen zum Teilen
 
-![MaiPDF Upload-Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![MaiPDF Upload-Interface](/maipdf-images/upload_section.png)
 
 ## Kernfunktion 2: Ein-Klick-Deaktivierung
 
@@ -42,7 +42,7 @@ tags: ["MaiPDF", "Schneller Link", "Ein-Klick-Deaktivierung", "Zugriffsaufzeichn
 - Geteilte Links werden sofort ungültig
 - Kann jederzeit wieder aktiviert werden (falls unterstützt)
 
-![MaiPDF Einstellungs-Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![MaiPDF Einstellungs-Interface](/maipdf-images/security_setting.png)
 
 ## Kernfunktion 3: Zugriffsaufzeichnungen anzeigen
 
@@ -55,7 +55,7 @@ tags: ["MaiPDF", "Schneller Link", "Ein-Klick-Deaktivierung", "Zugriffsaufzeichn
 - Geräteinformationen anzeigen
 - Geografische Position anzeigen
 
-![MaiPDF Zugriffsaufzeichnungen](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![MaiPDF Zugriffsaufzeichnungen](/maipdf-images/check_pdf_open_result.png)
 
 ## Drei Funktionen perfekt kombiniert
 

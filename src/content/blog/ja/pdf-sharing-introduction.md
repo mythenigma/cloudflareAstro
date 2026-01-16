@@ -2,7 +2,7 @@
 title: "MaiPDF完全紹介：プロフェッショナルなPDF共有プラットフォーム、シンプルで安全"
 description: "MaiPDFとは？PDFを素早く共有する方法は？明確な図表とフローチャートを通じて、MaiPDFの核心機能、使用方法、応用シーンを包括的に紹介し、プロフェッショナルなPDF共有スキルを素早く習得できます。"
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["MaiPDF", "PDF共有", "文書管理", "アクセス制御", "完全紹介"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "PDF共有", "文書管理", "アクセス制御", "完全紹�
   <p><strong>MaiPDF</strong> は、登録不要で素早く共有リンクを生成し、いつでもアクセス権限を制御し、リアルタイムで文書の開封状況を追跡できるプロフェッショナルなオンラインPDF共有プラットフォームです。ビジネス契約、製品マニュアル、チームレポートなど、MaiPDFは文書共有をシンプルで安全、制御可能にします。</p>
 </div>
 
-![MaiPDFホームページ](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDFホームページ](/maipdf-images/maipdf_landing_page.png)
 
 ## MaiPDFとは？
 
@@ -126,7 +126,7 @@ flowchart TD
 - またはQRコードをダウンロードして共有
 - リアルタイムでアクセス記録を表示
 
-![MaiPDFアップロード画面](/2025MayMaiPDF/upload_in_cloudshare.png)
+![MaiPDFアップロード画面](/maipdf-images/upload_section.png)
 
 ## 核心機能の詳細説明
 
@@ -151,7 +151,7 @@ flowchart LR
     style E fill:#50C878,color:#fff
 ```
 
-![MaiPDFリンク生成結果](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![MaiPDFリンク生成結果](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ### 機能2：アクセス制御
 
@@ -187,7 +187,7 @@ flowchart TD
     style K fill:#50C878,color:#fff
 ```
 
-![MaiPDF設定画面](/2025MayMaiPDF/settings_in_cloudshare.png)
+![MaiPDF設定画面](/maipdf-images/security_setting.png)
 
 ### 機能3：データ追跡
 
@@ -217,7 +217,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![MaiPDFアクセス記録](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![MaiPDFアクセス記録](/maipdf-images/check_pdf_open_result.png)
 
 ### 機能4：リンク管理
 
@@ -248,7 +248,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![MaiPDFファイル置換設定](/2025MayMaiPDF/changefilesetting.png)
+![MaiPDFファイル置換設定](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## 応用シーン
 

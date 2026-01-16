@@ -2,7 +2,7 @@
 title: "ソーシャルメディアPDF共有完全ガイド"
 description: "Facebook、Twitter、LinkedInなどのプラットフォームでPDF文書を効率的に共有。プラットフォームの制限を回避し、モバイルアクセスと専門的なプレゼンテーションを確保。"
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+heroImage: "/maipdf-images/share_pdf_wordwide.png"
 tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モバイル最適化"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モ�
 
 ソーシャルメディアプラットフォームは通常、直接的なPDFアップロードをサポートしていないか、表示体験が劣っています。MaiPDFは専門的なソリューションを提供し、任意のソーシャルプラットフォームでPDFコンテンツを効率的に共有し、オーディエンスが簡単にアクセスできることを確保します。
 
-![ソーシャルメディア共有](/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png)
+![ソーシャルメディア共有](/maipdf-images/share_pdf_wordwide.png)
 
 ## ソーシャルプラットフォームのPDF共有課題
 
@@ -24,7 +24,7 @@ tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モ�
 
 **専門性不足**：ファイルリンクが十分に専門的に見えず、ブランドイメージに影響します。
 
-![文書アップロード](/2025MayMaiPDF/upload_in_cloudshare.png)
+![文書アップロード](/maipdf-images/upload_section.png)
 
 ## MaiPDFソーシャル共有の利点
 
@@ -38,7 +38,7 @@ tags: ["ソーシャルメディア", "PDF共有", "Facebook", "LinkedIn", "モ�
 
 **詳細統計**：ソーシャル共有の表示データとユーザー行動をリアルタイムで把握します。
 
-![クイック共有](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![クイック共有](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## プラットフォーム別共有戦略
 
@@ -106,7 +106,7 @@ Instagramは主にビジュアルプラットフォームですが、MaiPDFリ�
 
 **インタラクション奨励**：コメントと共有を招待し、エンゲージメントを増加。
 
-![高度な制御](/2025MayMaiPDF/settings_in_cloudshare.png)
+![高度な制御](/maipdf-images/security_setting.png)
 
 ## コンテンツタイプの提案
 
@@ -122,7 +122,7 @@ Instagramは主にビジュアルプラットフォームですが、MaiPDFリ�
 
 各コンテンツタイプはソーシャルプラットフォームの特性に適したプレゼンテーション方法が必要です。
 
-![専門的ワークフロー](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![専門的ワークフロー](/maipdf-images/check_pdf_open_result.png)
 
 ## ソーシャル共有効果の追跡
 

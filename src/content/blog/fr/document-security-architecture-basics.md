@@ -1,25 +1,44 @@
 ---
-title: "Bases d’architecture de sécurité documentaire (vue d’ensemble)"
-description: "Une vue d’ensemble rapide des couches qui protègent les documents : chiffrement, contrôle d’accès et supervision."
+title: "Réglages de partage PDF (écran d’envoi MaiPDF)"
+description: "Explication simple de chaque réglage visible sur l’écran d’envoi."
 pubDate: "Jan 15 2026"
 tags: ["Sécurité documentaire", "Architecture", "Chiffrement", "Contrôle d'accès"]
 ---
 
-# Bases d’architecture de sécurité documentaire (vue d’ensemble)
+# Réglages de partage PDF
 
 <div class="intro-panel">
-  <p>Une bonne sécurité documentaire est “en couches” : protéger le fichier, contrôler l’accès, puis surveiller l’usage.</p>
+  <p>Cette page explique <strong>les réglages que vous voyez à l’écran</strong> et à quoi ils servent.</p>
 </div>
 
-![Architecture de sécurité](/diagram/en/security-architecture.svg)
+![Réglages de partage PDF](/diagram/fr/pdf-sharing-settings.svg)
 
-## Les 3 couches à retenir
+## Les 5 réglages à connaître
 
-- **Protection** : chiffrement + résistance à la manipulation
-- **Contrôle d’accès** : vérification, limites, expiration
-- **Supervision** : logs et signaux d’anomalie
+1. **Limite d’accès**  
+   Limite le nombre total d’ouvertures.
 
-## Règle pratique
+2. **Durée par session**  
+   Limite le temps de lecture par session.
 
-Si un document mérite d’être verrouillé, il mérite aussi d’être **journalisé**.
+3. **Type de protection**  
+   - DynamoWatermark  
+   - SecureView (lecture seule)  
+   - FenceView (dissuasion des captures)  
+   - Unrestricted  
+
+4. **Vérification e‑mail**  
+   Exige une vérification avant l’accès.
+
+5. **Notification de lecture (optionnel)**  
+   Recevez un e‑mail à l’ouverture.
+
+## Flux rapide
+
+```mermaid
+flowchart LR
+  A[Télécharger le PDF] --> B[Régler les options]
+  B --> C[Créer un lien sécurisé]
+  C --> D[Partager & suivre]
+```
 

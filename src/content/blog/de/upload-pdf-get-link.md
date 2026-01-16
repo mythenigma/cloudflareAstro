@@ -2,7 +2,7 @@
 title: "PDF Hochladen Link Erhalten: Einfaches Dateiteilen in Drei Einfachen Schritten"
 description: "Laden Sie jede PDF-Datei hoch und erhalten Sie einen sofortigen teilbaren Link. Keine Registrierung, keine Komplexität - nur schnelles, einfaches Dokumententeilen, das überall funktioniert."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/upload_in_cloudshare.png"
+heroImage: "/maipdf-images/upload_section.png"
 tags: ["PDF hochladen", "sofortige Links", "einfaches Teilen", "Datei-Upload"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["PDF hochladen", "sofortige Links", "einfaches Teilen", "Datei-Upload"]
 
 Dokumententeilen sollte einfach sein. Laden Sie Ihr PDF hoch, erhalten Sie einen Link, teilen Sie ihn überall. Genau so funktioniert MaiPDF - keine komplizierten Prozesse, keine langwierigen Registrierungen, nur direktes Dateiteilen, das die Arbeit erledigt.
 
-![Upload-Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload-Interface](/maipdf-images/upload_section.png)
 
 ## Der Drei-Schritte-Prozess
 

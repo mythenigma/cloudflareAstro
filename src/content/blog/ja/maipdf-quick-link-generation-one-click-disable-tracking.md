@@ -2,7 +2,7 @@
 title: "MaiPDF 高速リンク生成、ワンクリック無効化、開封記録の確認：PDF共有の3つの核心機能"
 description: "MaiPDFがPDF共有を簡単に：アップロード即リンク生成、ワンクリック無効化、リアルタイム開封記録の確認。登録不要、完全無料、プロフェッショナルなPDF共有ソリューション。"
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["MaiPDF", "高速リンク", "ワンクリック無効化", "開封記録", "PDF共有"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "高速リンク", "ワンクリック無効化", "開封記録
   <p>PDF共有に必要なものは？<strong>高速リンク生成</strong>、<strong>ワンクリック無効化</strong>、<strong>開封記録の確認</strong>。MaiPDFはこれら3つの核心機能を完璧に組み合わせ、PDF共有をシンプルで安全、制御可能にします。</p>
 </div>
 
-![MaiPDF核心機能](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![MaiPDF核心機能](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## 核心機能1：高速リンク生成共有
 
@@ -30,7 +30,7 @@ tags: ["MaiPDF", "高速リンク", "ワンクリック無効化", "開封記録
 3. **リンクが自動生成**、すぐに利用可能
 4. リンクをコピーまたはQRコードをダウンロードして共有
 
-![MaiPDFアップロード画面](/2025MayMaiPDF/upload_in_cloudshare.png)
+![MaiPDFアップロード画面](/maipdf-images/upload_section.png)
 
 ## 核心機能2：ワンクリック無効化
 
@@ -42,7 +42,7 @@ tags: ["MaiPDF", "高速リンク", "ワンクリック無効化", "開封記録
 - 共有されたリンクが即座に無効
 - いつでも再有効化可能（サポートされている場合）
 
-![MaiPDF設定画面](/2025MayMaiPDF/settings_in_cloudshare.png)
+![MaiPDF設定画面](/maipdf-images/security_setting.png)
 
 ## 核心機能3：開封記録の確認
 
@@ -55,7 +55,7 @@ tags: ["MaiPDF", "高速リンク", "ワンクリック無効化", "開封記録
 - デバイス情報を確認
 - 地理的位置を確認
 
-![MaiPDFアクセス記録](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![MaiPDFアクセス記録](/maipdf-images/check_pdf_open_result.png)
 
 ## 3つの機能が完璧に組み合わさる
 

@@ -2,7 +2,7 @@
 title: "PDF-Zugriffskontrolle: Ansichtslimits und Ablauf - Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie PDF-Zugriffskontrollen mit Ansichtslimits und Ablauf implementieren können. Vollständiger Leitfaden zur PDF-Zugriffskontrolle, Ansichtslimits und Ablauf."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF-Zugriffskontrolle", "Ansichtslimits", "Ablauf", "Dokumentschutz", "PDF-Schutz"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF-Zugriffskontrolle", "Ansichtslimits", "Ablauf", "Dokumentschutz", "P
   <p>PDF-Zugriffskontrolle mit Ansichtslimits und Ablauf ist ein wichtiger Aspekt des Dokumentschutzes. <strong>PDF-Zugriffskontrolle</strong> bietet umfassende Lösungen zur Kontrolle des Zugriffs auf PDF-Dokumente.</p>
 </div>
 
-![Sicherheitseinstellungs-Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Sicherheitseinstellungs-Interface](/maipdf-images/security_setting.png)
 
 ## Was ist PDF-Zugriffskontrolle?
 

@@ -2,7 +2,7 @@
 title: "PDF共有リンクダウンロード無効化：ダウンロードを防ぐ方法"
 description: "PDF共有リンクでダウンロードを無効にする方法を学びます。完全ガイドで、ダウンロード無効化、アクセス制御、文書保護をカバーします。"
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF共有リンク", "ダウンロード無効化", "アクセス制御", "文書保護", "PDF保護"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF共有リンク", "ダウンロード無効化", "アクセス制御"
   <p>PDF共有リンクでダウンロードを無効にすることは、文書保護の重要な側面です。 <strong>PDF共有リンクダウンロード無効化</strong>は、PDFダウンロードを防ぐための包括的なソリューションを提供します。</p>
 </div>
 
-![セキュリティ設定インターフェース](/2025MayMaiPDF/settings_in_cloudshare.png)
+![セキュリティ設定インターフェース](/maipdf-images/security_setting.png)
 
 ## PDF共有リンクダウンロード無効化とは何か？
 

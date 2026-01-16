@@ -2,7 +2,7 @@
 title: "PDF 인쇄 비활성화 보호 가이드：완전 가이드"
 description: "PDF 인쇄를 비활성화하여 문서를 보호하는 방법을 배웁니다. 완전 가이드에서 PDF 인쇄 비활성화, 인쇄 제어, 문서 보호를 다룹니다."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF 인쇄 비활성화", "인쇄 방지", "인쇄 제어", "문서 보호", "PDF 보호"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF 인쇄 비활성화", "인쇄 방지", "인쇄 제어", "문서 보�
   <p>PDF 인쇄를 비활성화하는 것은 문서 보호의 중요한 측면입니다. <strong>PDF 인쇄 비활성화 보호 가이드</strong>는 PDF 인쇄를 방지하기 위한 포괄적인 솔루션을 제공합니다.</p>
 </div>
 
-![보안 설정 인터페이스](/2025MayMaiPDF/settings_in_cloudshare.png)
+![보안 설정 인터페이스](/maipdf-images/security_setting.png)
 
 ## PDF 인쇄 비활성화란 무엇인가?
 

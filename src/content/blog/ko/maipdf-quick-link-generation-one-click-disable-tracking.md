@@ -2,7 +2,7 @@
 title: "MaiPDF 빠른 링크 생성, 원클릭 비활성화, 열람 기록 확인: PDF 공유의 3가지 핵심 기능"
 description: "MaiPDF가 PDF 공유를 간단하게: 업로드 즉시 링크 생성, 원클릭 비활성화, 실시간 열람 기록 확인. 등록 불필요, 완전 무료, 전문 PDF 공유 솔루션."
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["MaiPDF", "빠른 링크", "원클릭 비활성화", "열람 기록", "PDF 공유"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "빠른 링크", "원클릭 비활성화", "열람 기록", "PD
   <p>PDF 공유에 필요한 것은? <strong>빠른 링크 생성</strong>, <strong>원클릭 비활성화</strong>, <strong>열람 기록 확인</strong>. MaiPDF는 이 3가지 핵심 기능을 완벽하게 결합하여 PDF 공유를 간단하고 안전하며 제어 가능하게 만듭니다.</p>
 </div>
 
-![MaiPDF 핵심 기능](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![MaiPDF 핵심 기능](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## 핵심 기능 1: 빠른 링크 생성 공유
 
@@ -30,7 +30,7 @@ tags: ["MaiPDF", "빠른 링크", "원클릭 비활성화", "열람 기록", "PD
 3. **링크가 자동 생성**, 즉시 사용 가능
 4. 링크 복사 또는 QR 코드 다운로드하여 공유
 
-![MaiPDF 업로드 인터페이스](/2025MayMaiPDF/upload_in_cloudshare.png)
+![MaiPDF 업로드 인터페이스](/maipdf-images/upload_section.png)
 
 ## 핵심 기능 2: 원클릭 비활성화
 
@@ -42,7 +42,7 @@ tags: ["MaiPDF", "빠른 링크", "원클릭 비활성화", "열람 기록", "PD
 - 공유된 링크가 즉시 무효
 - 언제든지 재활성화 가능 (지원되는 경우)
 
-![MaiPDF 설정 인터페이스](/2025MayMaiPDF/settings_in_cloudshare.png)
+![MaiPDF 설정 인터페이스](/maipdf-images/security_setting.png)
 
 ## 핵심 기능 3: 열람 기록 확인
 
@@ -55,7 +55,7 @@ tags: ["MaiPDF", "빠른 링크", "원클릭 비활성화", "열람 기록", "PD
 - 디바이스 정보 확인
 - 지리적 위치 확인
 
-![MaiPDF 액세스 기록](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![MaiPDF 액세스 기록](/maipdf-images/check_pdf_open_result.png)
 
 ## 3가지 기능이 완벽하게 결합
 

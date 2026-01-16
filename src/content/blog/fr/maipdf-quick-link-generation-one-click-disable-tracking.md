@@ -2,7 +2,7 @@
 title: "MaiPDF Génération de lien rapide, désactivation en un clic, consultation des enregistrements : Trois fonctionnalités essentielles du partage PDF"
 description: "MaiPDF simplifie le partage de PDF : génération de lien instantanée, désactivation en un clic, consultation des enregistrements d'ouverture en temps réel. Sans inscription, entièrement gratuit, solution professionnelle de partage PDF."
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["MaiPDF", "Lien rapide", "Désactivation en un clic", "Enregistrements d'ouverture", "Partage PDF"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "Lien rapide", "Désactivation en un clic", "Enregistrements d'
   <p>Que faut-il pour partager un PDF ? <strong>Génération de lien rapide</strong>, <strong>désactivation en un clic</strong>, <strong>consultation des enregistrements d'ouverture</strong>. MaiPDF combine parfaitement ces trois fonctionnalités essentielles pour rendre le partage PDF simple, sécurisé et contrôlable.</p>
 </div>
 
-![Fonctionnalités principales de MaiPDF](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Fonctionnalités principales de MaiPDF](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Fonctionnalité essentielle 1 : Génération rapide de lien de partage
 
@@ -30,7 +30,7 @@ tags: ["MaiPDF", "Lien rapide", "Désactivation en un clic", "Enregistrements d'
 3. **Le lien est généré automatiquement**, disponible immédiatement
 4. Copiez le lien ou téléchargez le code QR pour partager
 
-![Interface de téléchargement MaiPDF](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Interface de téléchargement MaiPDF](/maipdf-images/upload_section.png)
 
 ## Fonctionnalité essentielle 2 : Désactivation en un clic
 
@@ -42,7 +42,7 @@ tags: ["MaiPDF", "Lien rapide", "Désactivation en un clic", "Enregistrements d'
 - Les liens partagés deviennent immédiatement invalides
 - Peut être réactivé à tout moment (si supporté)
 
-![Interface de paramètres MaiPDF](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Interface de paramètres MaiPDF](/maipdf-images/security_setting.png)
 
 ## Fonctionnalité essentielle 3 : Consultation des enregistrements d'ouverture
 
@@ -55,7 +55,7 @@ tags: ["MaiPDF", "Lien rapide", "Désactivation en un clic", "Enregistrements d'
 - Consultez les informations sur l'appareil
 - Consultez la localisation géographique
 
-![Enregistrements d'accès MaiPDF](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Enregistrements d'accès MaiPDF](/maipdf-images/check_pdf_open_result.png)
 
 ## Trois fonctionnalités parfaitement combinées
 

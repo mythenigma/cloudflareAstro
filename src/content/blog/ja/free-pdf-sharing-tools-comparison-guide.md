@@ -2,7 +2,7 @@
 title: "無料PDF共有ツール比較ガイド：2025年最高の無料PDF共有ツール"
 description: "無料PDF共有ツールを比較します。MaiPDF vs Smallpdf vs その他の無料PDF共有ツール。機能、セキュリティ、価格を比較します。完全な比較ガイド。"
 pubDate: "Dec 29 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["無料PDF共有ツール", "PDF共有ツール比較", "無料PDF共有", "最高のPDF共有ツール", "PDF共有レビュー"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["無料PDF共有ツール", "PDF共有ツール比較", "無料PDF共有"
   <p>最高の<strong>無料PDF共有ツール</strong>をお探しですか？この包括的な比較ガイドは、MaiPDF、Smallpdf、その他の無料PDF共有ツールを比較します。機能、セキュリティ、価格を比較して、ニーズに最適なPDF共有ツールを見つけます。</p>
 </div>
 
-![無料PDF共有ツール比較](/2025MayMaiPDF/Home_Landing.png)
+![無料PDF共有ツール比較](/maipdf-images/maipdf_landing_page.png)
 
 ## 詳細なサービス比較
 

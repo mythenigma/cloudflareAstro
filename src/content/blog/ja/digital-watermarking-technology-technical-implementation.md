@@ -2,7 +2,7 @@
 title: "デジタル透かし技術：PDF保護が実際にどのように機能するか"
 description: "PDF透かしの技術的側面を探る。実装方法から、文書の不正共有を防ぐ効果まで。"
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/checkwatermark.png"
+heroImage: "/maipdf-images/check_water_mark_information.png"
 tags: ["PDF透かし", "文書セキュリティ", "技術実装", "DRM", "情報保護"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["PDF透かし", "文書セキュリティ", "技術実装", "DRM", "情�
   <p>このガイドでは、安全な文書透かしを可能にし、効果的にする技術実装を検討します。</p>
 </div>
 
-![透かし検証インターフェース](/2025MayMaiPDF/checkwatermark.png)
+![透かし検証インターフェース](/maipdf-images/check_water_mark_information.png)
 
 ## 結論：透かしの技術実装
 

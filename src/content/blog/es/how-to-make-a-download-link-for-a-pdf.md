@@ -2,7 +2,7 @@
 title: "Cómo Hacer un Enlace de Descarga para un PDF: Guía Completa Paso a Paso"
 description: "Aprenda cómo hacer un enlace de descarga para un PDF. Guía completa que cubre carga de PDF, generación de enlace de descarga, métodos de compartir y mejores prácticas para crear enlaces de PDF descargables."
 pubDate: "Dec 29 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["Enlace de Descarga PDF", "Compartir PDF", "Enlace de Descarga", "Generación de Enlace PDF", "Descarga de Documentos"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["Enlace de Descarga PDF", "Compartir PDF", "Enlace de Descarga", "Generac
   <p>¿Necesita saber <strong>cómo hacer un enlace de descarga para un PDF</strong>? Esta guía simple le muestra cómo crear enlaces de PDF descargables en solo unos pasos.</p>
 </div>
 
-![MaiPDF Página de Inicio](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Página de Inicio](/maipdf-images/maipdf_landing_page.png)
 
 ## Por Qué Usar Enlaces de Descarga? 📥
 

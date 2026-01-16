@@ -22,7 +22,7 @@ Sind Sie müde von E-Mail-Anhang-Beschränkungen? Überspringen Sie den Ärger m
 
 **Professionelles Erscheinungsbild**: Saubere, markierte Links sehen professioneller aus als sperrige E-Mail-Anhänge.
 
-![Upload-Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload-Interface](/maipdf-images/upload_section.png)
 
 ## Fazit: PDF Online Teilen
 

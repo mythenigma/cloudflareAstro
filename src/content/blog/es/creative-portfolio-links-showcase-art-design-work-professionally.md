@@ -2,7 +2,7 @@
 title: "Enlaces de Portafolio Creativo: Muestre Su Trabajo de Arte y Diseño Profesionalmente"
 description: "Aprenda cómo crear enlaces de portafolio creativo impresionantes que muestren su trabajo de arte y diseño profesionalmente. Perfecto para artistas, diseñadores y profesionales creativos que buscan impresionar a clientes y galerías."
 pubDate: "Aug 25 2025"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+heroImage: "/maipdf-images/share_pdf_wordwide.png"
 tags: ["portafolio creativo", "portafolio de arte", "muestra de diseño", "profesionales creativos", "trabajo artístico"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["portafolio creativo", "portafolio de arte", "muestra de diseño", "profe
 
 ## 🎨 La Revolución del Portafolio Creativo
 
-![MaiPDF Interfaz Profesional](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Interfaz Profesional](/maipdf-images/maipdf_landing_page.png)
 
 **Por qué falla el compartir tradicional de portafolio creativo**:
 - 📧 **Adjuntos de correo**: Los archivos grandes se filtran o ignoran

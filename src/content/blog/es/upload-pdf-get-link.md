@@ -2,7 +2,7 @@
 title: "Subir PDF Obtener Enlace: Compartir Archivos Simple en Tres Pasos Fáciles"
 description: "Suba cualquier archivo PDF y obtenga un enlace compartible instantáneo. Sin registro, sin complejidad - solo compartir documentos rápido y simple que funciona en todas partes."
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/upload_in_cloudshare.png"
+heroImage: "/maipdf-images/upload_section.png"
 tags: ["subir PDF", "enlaces instantáneos", "compartir simple", "subida de archivos"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["subir PDF", "enlaces instantáneos", "compartir simple", "subida de arch
 
 Compartir documentos debería ser simple. Suba su PDF, obtenga un enlace, compártalo en cualquier lugar. Así es exactamente como funciona MaiPDF - sin procesos complicados, sin registros largos, solo compartir archivos directo que hace el trabajo.
 
-![Interfaz de Subida](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Interfaz de Subida](/maipdf-images/upload_section.png)
 
 ## El Proceso de Tres Pasos
 

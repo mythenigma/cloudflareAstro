@@ -2,7 +2,7 @@
 title: "PDF-Sicherheitsschutz: Vollständiger Leitfaden zum Dokumentschutz"
 description: "Erfahren Sie, wie Sie PDFs mit erweiterten Sicherheitsfunktionen schützen können. Vollständiger Leitfaden zum PDF-Sicherheitsschutz, Zugriffskontrolle und Dokumentenschutz."
 pubDate: "May 29 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF-Sicherheit", "Dokumentschutz", "Sicherheitsschutz", "PDF-Schutz", "Dokumentsicherheit"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF-Sicherheit", "Dokumentschutz", "Sicherheitsschutz", "PDF-Schutz", "D
   <p>PDF-Sicherheitsschutz ist entscheidend für den Schutz sensibler Dokumente. <strong>PDF-Sicherheitsschutz</strong> bietet umfassende Lösungen für den Schutz und die Kontrolle von PDF-Dokumenten.</p>
 </div>
 
-![Sicherheitseinstellungs-Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Sicherheitseinstellungs-Interface](/maipdf-images/security_setting.png)
 
 ## Was ist PDF-Sicherheitsschutz?
 

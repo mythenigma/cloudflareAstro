@@ -24,7 +24,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **전문적인 외관**: 깔끔한 링크가 비즈니스 대화에서 큰 파일 첨부보다 더 전문적으로 보입니다.
 
-![업로드 및 링크 생성](/2025MayMaiPDF/upload_in_cloudshare.png)
+![업로드 및 링크 생성](/maipdf-images/upload_section.png)
 
 ## WhatsApp에서 PDF를 링크로 공유하는 방법
 
@@ -32,7 +32,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **2단계: 링크 복사** - 메시징에 완벽한 깔끔하고 전문적인 URL을 받습니다.
 
-![링크 생성 결과](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![링크 생성 결과](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 **3단계: WhatsApp에 붙여넣기** - 단순히 링크를 WhatsApp 대화에 붙여넣고 전송합니다.
 
@@ -72,7 +72,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **액세스 추적**: 공유된 문서가 언제, 얼마나 자주 보여지는지 모니터링.
 
-![설정 구성](/2025MayMaiPDF/settings_in_cloudshare.png)
+![설정 구성](/maipdf-images/security_setting.png)
 
 **시간 제한**: 시간에 민감한 정보에 만료 날짜 설정.
 
@@ -136,7 +136,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **이벤트 공유**: WhatsApp 상태의 QR 코드를 통해 이벤트 프로그램, 일정 또는 정보를 공유.
 
-![QR 코드 생성](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![QR 코드 생성](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## WhatsApp PDF 공유 관리
 
@@ -148,7 +148,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **사용량 모니터링**: 참여 수준을 추적하고 어떤 문서가 가장 인기 있는지 확인.
 
-![언제든지 설정 변경](/2025MayMaiPDF/changefilesetting.png)
+![언제든지 설정 변경](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## WhatsApp PDF 공유 모범 사례
 
@@ -172,7 +172,7 @@ WhatsApp 링크로 PDF 공유를 시작할 준비가 되셨나요?
 4. **WhatsApp에서 공유**: 모든 대화에 링크 붙여넣기
 5. **사용량 모니터링**: 간단한 대시보드를 통해 문서 액세스 추적
 
-![홈페이지 인터페이스](/2025MayMaiPDF/Home_Landing.png)
+![홈페이지 인터페이스](/maipdf-images/maipdf_landing_page.png)
 
 ## WhatsApp 사용자가 PDF 링크를 선호하는 이유
 

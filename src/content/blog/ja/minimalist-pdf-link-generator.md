@@ -14,7 +14,7 @@ tags: ["PDF共有", "PDFリンクジェネレーター", "安全なPDF共有", "
 </div>
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png" alt="MaiPDF オンラインPDF共有ヘッダー" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/maipdf-images/share_pdf_wordwide.png" alt="MaiPDF オンラインPDF共有ヘッダー" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ## 従来のPDF共有の問題
@@ -31,7 +31,7 @@ tags: ["PDF共有", "PDFリンクジェネレーター", "安全なPDF共有", "
 ## MaiPDFの仕組み
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/upload_in_cloudshare.png" alt="アップロードインターフェース" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/upload_section.png" alt="アップロードインターフェース" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 プロセスは意図的にシンプルです：
@@ -52,7 +52,7 @@ tags: ["PDF共有", "PDFリンクジェネレーター", "安全なPDF共有", "
 受信者はリンクをクリックし、ブラウザで即座にドキュメントを表示します。ダウンロード不要、ソフトウェアインストール不要。
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="結果リンクとQRコード" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="結果リンクとQRコード" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 // ...continuing with more content in Japanese...

@@ -2,7 +2,7 @@
 title: "MaiPDF Komplette Einführung: Professionelle PDF-Sharing-Plattform Einfach und Sicher"
 description: "Was ist MaiPDF? Wie teilt man schnell PDFs? Diese umfassende Anleitung stellt MaiPDFs Kernfunktionen, Verwendungsmethoden und Anwendungsszenarien durch klare Diagramme und Flussdiagramme vor."
 pubDate: "Dec 05 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["MaiPDF", "PDF-Sharing", "Dokumentenverwaltung", "Zugriffskontrolle", "Komplette Einführung"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["MaiPDF", "PDF-Sharing", "Dokumentenverwaltung", "Zugriffskontrolle", "Ko
   <p><strong>MaiPDF</strong> ist eine professionelle Online-PDF-Sharing-Plattform, die es Ihnen ermöglicht, ohne Registrierung schnell Sharing-Links zu generieren, Zugriffsberechtigungen jederzeit zu kontrollieren und Dokumentöffnungen in Echtzeit zu verfolgen. Ob Geschäftsverträge, Produkthandbücher oder Teamberichte, MaiPDF macht Dokument-Sharing einfach, sicher und kontrollierbar.</p>
 </div>
 
-![MaiPDF Startseite](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Startseite](/maipdf-images/maipdf_landing_page.png)
 
 ## Was ist MaiPDF?
 
@@ -126,7 +126,7 @@ flowchart TD
 - Oder QR-Code herunterladen zum Teilen
 - Zugriffsaufzeichnungen in Echtzeit anzeigen
 
-![MaiPDF Upload-Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![MaiPDF Upload-Interface](/maipdf-images/upload_section.png)
 
 ## Kernfunktionen Erklärt
 
@@ -151,7 +151,7 @@ flowchart LR
     style E fill:#50C878,color:#fff
 ```
 
-![MaiPDF Link-Generierung Ergebnis](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![MaiPDF Link-Generierung Ergebnis](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ### Funktion 2: Zugriffskontrolle
 
@@ -187,7 +187,7 @@ flowchart TD
     style K fill:#50C878,color:#fff
 ```
 
-![MaiPDF Einstellungs-Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![MaiPDF Einstellungs-Interface](/maipdf-images/security_setting.png)
 
 ### Funktion 3: Datenverfolgung
 
@@ -217,7 +217,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![MaiPDF Zugriffsaufzeichnungen](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![MaiPDF Zugriffsaufzeichnungen](/maipdf-images/check_pdf_open_result.png)
 
 ### Funktion 4: Link-Verwaltung
 
@@ -248,7 +248,7 @@ flowchart TD
     style J fill:#50C878,color:#fff
 ```
 
-![MaiPDF Datei-Ersetzungs-Einstellungen](/2025MayMaiPDF/changefilesetting.png)
+![MaiPDF Datei-Ersetzungs-Einstellungen](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## Anwendungsszenarien
 

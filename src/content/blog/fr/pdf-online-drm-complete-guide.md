@@ -2,7 +2,7 @@
 title: "PDF DRM en Ligne : Guide Complet de la Gestion des Droits Numériques PDF en Ligne"
 description: "Découvrez le DRM PDF en ligne (Gestion des Droits Numériques). Guide complet couvrant la protection PDF en ligne, le contrôle d'accès, les limites de visualisation, la prévention des téléchargements et le partage sécurisé de PDF. Protégez vos PDF en ligne avec la technologie DRM."
 pubDate: "Dec 30 2025"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF DRM en Ligne", "DRM en Ligne", "PDF DRM", "Gestion des Droits Numériques", "Protection PDF"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF DRM en Ligne", "DRM en Ligne", "PDF DRM", "Gestion des Droits Numér
   <p>Besoin de protéger vos documents PDF en ligne ? Le <strong>DRM PDF en ligne</strong> (Gestion des Droits Numériques) vous permet de contrôler l'accès, d'empêcher les téléchargements, de limiter les visualisations et de suivre l'utilisation de vos PDF. Ce guide complet explique comment fonctionne le DRM en ligne, ses fonctionnalités et comment mettre en œuvre la protection DRM PDF en ligne pour vos documents.</p>
 </div>
 
-![Paramètres DRM PDF en Ligne](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Paramètres DRM PDF en Ligne](/maipdf-images/security_setting.png)
 
 ## Qu'est-ce que le DRM PDF en Ligne ?
 

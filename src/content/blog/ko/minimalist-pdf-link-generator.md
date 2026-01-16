@@ -14,7 +14,7 @@ tags: ["PDF 공유", "PDF 링크 생성기", "안전한 PDF 공유", "maipdf"]
 </div>
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png" alt="MaiPDF 온라인 PDF 공유 헤더" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/maipdf-images/share_pdf_wordwide.png" alt="MaiPDF 온라인 PDF 공유 헤더" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ## 기존 PDF 공유의 문제점
@@ -31,7 +31,7 @@ tags: ["PDF 공유", "PDF 링크 생성기", "안전한 PDF 공유", "maipdf"]
 ## MaiPDF 작동 방식
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/upload_in_cloudshare.png" alt="업로드 인터페이스" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/upload_section.png" alt="업로드 인터페이스" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 과정은 의도적으로 간단합니다:
@@ -52,7 +52,7 @@ tags: ["PDF 공유", "PDF 링크 생성기", "안전한 PDF 공유", "maipdf"]
 수신자들은 링크를 클릭하고 브라우저에서 즉시 문서를 봅니다. 다운로드 불필요, 소프트웨어 설치 불필요.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="결과 링크와 QR 코드" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="결과 링크와 QR 코드" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 // ...continuing with more content in Korean...

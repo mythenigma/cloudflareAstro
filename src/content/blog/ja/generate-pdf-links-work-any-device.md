@@ -2,7 +2,7 @@
 title: "任意のデバイスで動作するPDFリンクを生成：完全ガイド"
 description: "任意のデバイスで動作するPDFリンクを生成する方法を学びます。完全ガイドで、PDFリンク生成、デバイス互換性、PDF共有をカバーします。"
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["PDFリンク生成", "デバイス互換性", "PDF共有", "PDFリンク", "文書共有"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDFリンク生成", "デバイス互換性", "PDF共有", "PDFリンク
   <p>任意のデバイスで動作するPDFリンクを生成することは、現代的な文書共有ソリューションです。 <strong>PDFリンク生成</strong>は、任意のデバイスで動作するPDFリンクを生成するための包括的なツールとソリューションを提供します。</p>
 </div>
 
-![MaiPDFホームページ](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDFホームページ](/maipdf-images/maipdf_landing_page.png)
 
 ## 任意のデバイスで動作するPDFリンクとは何か？
 

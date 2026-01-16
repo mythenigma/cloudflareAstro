@@ -35,7 +35,7 @@ Contrairement aux codes QR statiques, avec MaiPDF vous gardez le contrôle :
 - Suivez quand et à quelle fréquence votre PDF est consulté
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/settings_in_cloudshare.png" alt="Paramètres d'accès du code QR" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/security_setting.png" alt="Paramètres d'accès du code QR" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Comment créer des codes QR PDF
@@ -78,7 +78,7 @@ Placez votre code QR n'importe où et surveillez l'utilisation via votre tableau
 **Mariages et événements** : Créez des codes QR pour les livres d'or, programmes ou albums photo.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="Résultat du code QR" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="Résultat du code QR" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Considérations techniques

@@ -24,7 +24,7 @@
   <rect x="50" y="245" width="240" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
   <text x="170" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Access Control</text>
   <text x="170" y="290" font-size="9" text-anchor="middle" fill="#475569">Limit view counts</text>
-  <text x="170" y="305" font-size="9" text-anchor="middle" fill="#475569">Set expiration dates</text>
+  <text x="170" y="305" font-size="9" text-anchor="middle" fill="#475569">Verification options</text>
   
   <rect x="50" y="350" width="240" height="85" fill="white" stroke="#0284c7" stroke-width="1" rx="4"/>
   <text x="170" y="375" font-size="11" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Real-time Tracking</text>
@@ -60,31 +60,31 @@
   <text x="470" y="515" font-size="9" text-anchor="middle" fill="#475569">View limit enforcement</text>
   
   <rect x="630" y="85" width="340" height="600" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
-  <text x="800" y="115" font-size="13" font-weight="bold" fill="#166534">Enterprise Features</text>
+  <text x="800" y="115" font-size="13" font-weight="bold" fill="#166534">Link Management</text>
   
   <rect x="650" y="140" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
-  <text x="800" y="165" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Team Collaboration</text>
-  <text x="800" y="185" font-size="9" text-anchor="middle" fill="#475569">Share with teams</text>
-  <text x="800" y="200" font-size="9" text-anchor="middle" fill="#475569">Collect feedback</text>
+  <text x="800" y="165" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Replace File</text>
+  <text x="800" y="185" font-size="9" text-anchor="middle" fill="#475569">Keep the same link</text>
+  <text x="800" y="200" font-size="9" text-anchor="middle" fill="#475569">Swap content &amp; settings</text>
   
   <rect x="650" y="245" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
-  <text x="800" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Audit Logs</text>
-  <text x="800" y="290" font-size="9" text-anchor="middle" fill="#475569">Complete access history</text>
-  <text x="800" y="305" font-size="9" text-anchor="middle" fill="#475569">Compliance ready</text>
+  <text x="800" y="270" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Disable Link</text>
+  <text x="800" y="290" font-size="9" text-anchor="middle" fill="#475569">Stop access instantly</text>
+  <text x="800" y="305" font-size="9" text-anchor="middle" fill="#475569">Use when needed</text>
   
   <rect x="650" y="350" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
-  <text x="800" y="375" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Version Control</text>
-  <text x="800" y="395" font-size="9" text-anchor="middle" fill="#475569">Track document versions</text>
-  <text x="800" y="410" font-size="9" text-anchor="middle" fill="#475569">Easy rollback support</text>
+  <text x="800" y="375" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Read Notification</text>
+  <text x="800" y="395" font-size="9" text-anchor="middle" fill="#475569">Email alerts on open</text>
+  <text x="800" y="410" font-size="9" text-anchor="middle" fill="#475569">Optional setting</text>
   
   <rect x="650" y="455" width="300" height="85" fill="white" stroke="#22c55e" stroke-width="1" rx="4"/>
-  <text x="800" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Analytics Dashboard</text>
-  <text x="800" y="500" font-size="9" text-anchor="middle" fill="#475569">Detailed usage reports</text>
-  <text x="800" y="515" font-size="9" text-anchor="middle" fill="#475569">Export statistics</text>
+  <text x="800" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#166534">Link Analytics</text>
+  <text x="800" y="500" font-size="9" text-anchor="middle" fill="#475569">View counts &amp; timing</text>
+  <text x="800" y="515" font-size="9" text-anchor="middle" fill="#475569">IP/device signals</text>
 
   <g id="platform-watermark">
     <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
     <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
-          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Offline</text>
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
   </g>
 </svg>

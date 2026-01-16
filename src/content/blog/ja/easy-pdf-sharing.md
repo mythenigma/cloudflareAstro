@@ -2,7 +2,7 @@
 title: "簡単PDF共有：簡単な文書共有ソリューション"
 description: "簡単PDF共有の方法を学びます。完全ガイドで、簡単なPDF共有、文書共有、PDF共有ツールをカバーします。"
 pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["簡単PDF共有", "PDF共有", "文書共有", "PDF共有ツール"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["簡単PDF共有", "PDF共有", "文書共有", "PDF共有ツール"]
   <p>簡単PDF共有は、現代的な文書共有ソリューションです。 <strong>簡単PDF共有</strong>は、PDFを簡単に共有するための包括的なツールとソリューションを提供します。</p>
 </div>
 
-![MaiPDFホームページ](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDFホームページ](/maipdf-images/maipdf_landing_page.png)
 
 ## 簡単PDF共有とは何か？
 
