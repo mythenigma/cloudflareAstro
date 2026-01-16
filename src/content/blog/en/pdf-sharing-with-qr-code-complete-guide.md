@@ -1,7 +1,7 @@
 ---
 title: "PDF Sharing with QR Code: Complete Guide"
 description: "Complete guide to sharing PDFs using QR codes. Learn how to generate QR codes for PDF files and share them easily on physical materials."
-pubDate: "Jan 15 2025"
+pubDate: "Jan 15 2026"
 heroImage: "/cn2025May/maipdf_link_result.png"
 tags: ["PDF Sharing", "QR Code", "Document Sharing", "MaiPDF"]
 ---

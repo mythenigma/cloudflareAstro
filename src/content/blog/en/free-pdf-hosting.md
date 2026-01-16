@@ -1,7 +1,7 @@
 ---
 title: "Free PDF Hosting: Complete Guide"
 description: "Free online PDF upload, sharing, and management. No registration required. Use MaiPDF for secure PDF hosting with access control."
-pubDate: "Jan 15 2025"
+pubDate: "Jan 15 2026"
 heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["Free PDF Hosting", "PDF Hosting", "Document Sharing", "Secure Viewer"]
 ---
