@@ -1,7 +1,7 @@
 ---
 title: "Free Secure PDF Sharing Tool: Complete Guide"
 description: "Complete guide to free and secure PDF sharing tools."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 15 2025"
 tags: ["PDF", "Sharing", "Security"]
 ---
 
