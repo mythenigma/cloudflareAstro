@@ -1,7 +1,7 @@
 ---
 title: "PDF-Link-Kontrolle: Verwaltung und Schutz von Links"
 description: "Erfahren Sie, wie Sie PDF-Links kontrollieren und verwalten. Vollständiger Leitfaden zur Link-Kontrolle, Zugriffsverwaltung und Link-Schutz."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Links", "Kontrolle", "Verwaltung"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ PDF-Link-Kontrolle ist die Fähigkeit, die Links, die Sie für PDF-Dokumente tei
     <h3>🔐 Zugriffskontrolle</h3>
     <p>Verwalten Sie, wer über Ihre Links zugreifen kann.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Überwachung</h3>
     <p>Verfolgen Sie die Nutzung Ihrer Links in Echtzeit.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⚙️ Verwaltung</h3>
     <p>Verwalten Sie mehrere Links von einem zentralen Ort aus.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🛡️ Schutz</h3>
     <p>Schützen Sie Ihre Links vor unbefugtem Zugriff.</p>

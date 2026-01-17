@@ -1,7 +1,7 @@
 ---
 title: "Control de Acceso PDF con Límites de Visualización: Guía Completa"
 description: "Aprenda cómo controlar el acceso a PDFs con límites de visualización. Guía completa sobre control de acceso, límites de visualización y protección de documentos."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Control de Acceso", "Límites", "Protección"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Los límites de visualización le permiten establecer cuántas veces se puede ac
     <h3>🔢 Control Numérico</h3>
     <p>Establezca exactamente cuántas veces se puede ver un documento.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔐 Seguridad Mejorada</h3>
     <p>Proteja documentos sensibles limitando el acceso.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Monitoreo</h3>
     <p>Rastree cuántas veces se ha accedido al documento.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⚙️ Flexibilidad</h3>
     <p>Ajuste límites según necesidad.</p>

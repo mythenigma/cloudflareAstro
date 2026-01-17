@@ -1,7 +1,7 @@
 ---
 title: "PDF 离线安全阅读新方案：一键生成 HTML 阅读包"
 description: "适用于无网络会议、课堂授课、隔离环境审阅与客户资料包的离线 PDF 阅读解决方案，保留权限控制且无需安装任何软件。"
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
 ---
@@ -109,7 +109,6 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="上传 PDF 界面" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -121,7 +120,6 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
       <img src="/offlinepages/security_setting.png" alt="安全设置界面" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -199,21 +197,18 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
     <p>次数 50×、时长 60 min、禁止下载</p>
     <p>学员课堂可看，课后自动失效</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>电子书样章试读</h3>
     <p>次数 3×、时长 20 min、到期三天</p>
     <p>刺激购买正版，防二次传播</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>隔离网审阅报告</h3>
     <p>次数 5×、时长 30 min、禁止下载</p>
     <p>保证文件不出内网</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>客户资料包</h3>
@@ -233,7 +228,6 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
       <p>A 离线包不依赖互联网，搜索引擎无法访问本地文件。分享在线链接时随机令牌≥32 位，不会被索引。</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q2 收件人一直不联网，日志会丢失吗？</strong></p>
@@ -242,7 +236,6 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
       <p>A 日志先保存在浏览器本地，等设备下一次联网自动回传。</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q3 文件很大 (>100 MB) 怎么办？</strong></p>
@@ -251,7 +244,6 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
       <p>A 可先压缩图片或拆分章节；如需更大上限可联系企业版。</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q4 能否二次编辑离线包？</strong></p>

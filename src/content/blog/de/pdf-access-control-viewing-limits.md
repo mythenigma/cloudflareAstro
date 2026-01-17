@@ -1,7 +1,7 @@
 ---
 title: "PDF-Zugriffskontrolle mit Ansichtslimits: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie den Zugriff auf PDFs mit Ansichtslimits kontrollieren. Vollständiger Leitfaden zur Zugriffskontrolle, Ansichtslimits und Dokumentenschutz."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Zugriffskontrolle", "Limits", "Schutz"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Ansichtslimits ermöglichen es Ihnen festzulegen, wie oft auf ein geteiltes PDF-
     <h3>🔢 Numerische Kontrolle</h3>
     <p>Legen Sie genau fest, wie oft ein Dokument angesehen werden kann.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔐 Verbesserte Sicherheit</h3>
     <p>Schützen Sie sensible Dokumente durch Zugriffsbegrenzung.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Überwachung</h3>
     <p>Verfolgen Sie, wie oft auf das Dokument zugegriffen wurde.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⚙️ Flexibilität</h3>
     <p>Passen Sie Limits nach Bedarf an.</p>

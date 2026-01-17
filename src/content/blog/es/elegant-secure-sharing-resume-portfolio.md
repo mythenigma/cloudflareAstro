@@ -1,7 +1,7 @@
 ---
 title: "Compartir Elegante y Seguro de Currículum y Portafolio"
 description: "Aprenda cómo compartir currículums y portafolios de forma elegante y segura. Guía completa sobre compartir seguro de currículums, portafolios y documentos profesionales."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Currículum", "Portafolio", "Compartir"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>💼 Profesional</h3>
     <p>Preséntese profesionalmente con enlaces elegantes.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔒 Seguro</h3>
     <p>Proteja información personal con medidas de seguridad.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Seguimiento</h3>
     <p>Monitoree quién accedió a sus documentos.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Rápido</h3>
     <p>Comparta documentos rápida y fácilmente.</p>

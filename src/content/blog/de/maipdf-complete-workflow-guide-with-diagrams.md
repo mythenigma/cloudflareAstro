@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF Vollständiger Workflow-Leitfaden mit Diagrammen"
 description: "Erfahren Sie den vollständigen MaiPDF-Workflow mit Diagrammen. Vollständiger Leitfaden zu PDF-Sharing-Workflows, Prozessen und Best Practices."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "MaiPDF", "Workflow", "Leitfaden"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,22 +23,18 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>1️⃣ PDF Hochladen</h3>
     <p>Laden Sie Ihr PDF-Dokument hoch.</p>
   </div>
-  
   <div class="step-card">
     <h3>2️⃣ Konfigurieren</h3>
     <p>Konfigurieren Sie Sicherheits- und Sharing-Optionen.</p>
   </div>
-  
   <div class="step-card">
     <h3>3️⃣ Link Generieren</h3>
     <p>Generieren Sie einen teilbaren Link oder QR-Code.</p>
   </div>
-  
   <div class="step-card">
     <h3>4️⃣ Teilen</h3>
     <p>Teilen Sie den Link mit Empfängern.</p>
   </div>
-  
   <div class="step-card">
     <h3>5️⃣ Überwachen</h3>
     <p>Überwachen Sie Zugriffe und Statistiken.</p>

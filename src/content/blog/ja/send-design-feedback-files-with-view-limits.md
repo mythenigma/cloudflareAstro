@@ -1,7 +1,7 @@
 ---
 title: "🎨 閲覧制限付きデザインフィードバックファイルを送信する"
 description: "共有ファイルに閲覧制限を設定して、初期段階のデザイン作業を管理する方法を学びましょう。不正な配布を防ぎながらフィードバックを収集するのに最適です。"
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["デザインワークフロー", "デザインフィードバック", "ファイル共有", "デザイン保護"]
 ---
@@ -86,22 +86,18 @@ MaiPDFのようなツールは、次のような管理機能を備えた軽量�
     <span class="use-case-icon">🧠</span>
     <p>参加者が限られたUXレビューセッション</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🎨</span>
     <p>ドラフト段階のデザイン方向性のクライアントプレビュー</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">📋</span>
     <p>内部ステークホルダーの意見調整</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧪</span>
     <p>一つのバージョンのみが見られるべきA/Bバリアントテスト</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧾</span>
     <p>正式承認前のスタイルガイドドラフト</p>

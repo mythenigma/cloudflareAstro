@@ -1,7 +1,7 @@
 ---
 title: "Mode MaiPDF Offline PDF DRM : Contrôle Sécurisé des Documents en Environnements Hors Ligne"
 description: "Découvrez la fonctionnalité DRM hors ligne de MaiPDF qui permet de contrôler les autorisations d'accès aux PDF, la durée de visualisation et les opérations d'impression/copie dans des environnements hors ligne sans lecteurs spécialisés."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffrement de Fichiers"]
 ---
@@ -81,7 +81,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interface de téléchargement PDF" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -90,7 +89,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       <img src="/offlinepages/security_setting.png" alt="Paramètres d'autorisation" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -99,7 +97,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       <img src="/offlinepages/result_download_zip_file.png" alt="Package hors ligne généré" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -111,7 +108,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -136,7 +132,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       <p>Chaque page est convertie en bitmap ou rendue en streaming, empêchant l'extraction de texte.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -144,7 +139,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       <p>Lit le nombre de vues restantes depuis localStorage ; fonctionne même sans réseau.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -152,7 +146,6 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
       <p>Génère une empreinte digitale à la première ouverture (UA du navigateur, dimensions de l'écran, etc.), rejette si l'empreinte ne correspond pas lors des sessions ultérieures.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
@@ -205,19 +198,16 @@ tags: ["Sécurité PDF", "DRM de Documents", "Contrôle Hors Ligne", "Chiffremen
     <h3>Matériels Éducatifs</h3>
     <p>Distribution aux étudiants pour lecture hors ligne en classe, expirant après le cours.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Manuels Électroniques</h3>
     <p>Inclure du HTML hors ligne avec les produits, permettant aux clients de visualiser hors ligne mais sans extraire le PDF source.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>Chapitres d'Aperçu de Livres</h3>
     <p>Configurer 2 lectures, 20 minutes, encourageant l'achat de la version complète.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Examens Sécurisés</h3>

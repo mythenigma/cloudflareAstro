@@ -1,7 +1,7 @@
 ---
 title: "Sécurité Documentaire Entreprise : Guide Complet"
 description: "Découvrez les meilleures pratiques pour sécuriser la distribution de documents dans votre entreprise. Contrôle d'accès, conformité réglementaire et protection des données sensibles."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["Entreprise", "Sécurité", "Documents", "Conformité"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ Dans l'environnement commercial actuel, les documents contiennent souvent des in
     <h3>📊 Données Clients</h3>
     <p>Informations personnelles, contrats, données financières</p>
   </div>
-  
   <div class="risk-card">
     <h3>💼 Propriété Intellectuelle</h3>
     <p>Stratégies commerciales, brevets, recherches</p>
   </div>
-  
   <div class="risk-card">
     <h3>⚖️ Conformité Réglementaire</h3>
     <p>RGPD, normes sectorielles, exigences légales</p>
   </div>
-  
   <div class="risk-card">
     <h3>🔒 Informations Confidentielles</h3>
     <p>Documents RH, accords commerciaux, rapports internes</p>
@@ -63,7 +60,6 @@ Avant de partager, classez vos documents selon leur niveau de sensibilité :
       <li>Liste blanche d'emails autorisés</li>
     </ul>
   </div>
-  
   <div class="control-card">
     <h4>⏱️ Limites Temporelles</h4>
     <ul>
@@ -73,7 +69,6 @@ Avant de partager, classez vos documents selon leur niveau de sensibilité :
       <li>Horaires d'accès</li>
     </ul>
   </div>
-  
   <div class="control-card">
     <h4>👁️ Limites de Visualisation</h4>
     <ul>
@@ -83,7 +78,6 @@ Avant de partager, classez vos documents selon leur niveau de sensibilité :
       <li>Suivi en temps réel</li>
     </ul>
   </div>
-  
   <div class="control-card">
     <h4>🚫 Restrictions d'Actions</h4>
     <ul>

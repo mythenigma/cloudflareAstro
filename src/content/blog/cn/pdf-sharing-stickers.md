@@ -1,7 +1,7 @@
 ---
 title: "把 PDF 变贴纸：一键链接 & 二维码的轻量分享指南"
 description: "零成本将PDF转换成链接和二维码，适用于简历、二手交易、学习资料等轻量分享场景"
-pubDate: "May 1 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["PDF分享", "二维码", "轻量分享", "求职简历", "学习资料"]
 ---
@@ -128,7 +128,6 @@ tags: ["PDF分享", "二维码", "轻量分享", "求职简历", "学习资料"]
     <p>直接拖放到网页，100 MB 内文件秒传。</p>
     <img src="/maifle/MaiPDF中的上传界面.png" alt="上传界面" class="step-image">
   </div>
-  
   <div class="step">
     <h3>2. 设置小参数</h3>
     <ul>
@@ -138,7 +137,6 @@ tags: ["PDF分享", "二维码", "轻量分享", "求职简历", "学习资料"]
     </ul>
     <img src="/maifle/没加电话验证的设置界面.png" alt="参数设置界面" class="step-image">
   </div>
-  
   <div class="step">
     <h3>3. 获取输出</h3>
     <ul>
@@ -268,13 +266,11 @@ tags: ["PDF分享", "二维码", "轻量分享", "求职简历", "学习资料"]
     <h4>Q1. 文件会被搜索引擎抓到吗？</h4>
     <p>A: 链接带随机密钥，不会出现在搜索结果。</p>
   </div>
-  
   <div class="faq-item">
     <h4>Q2. 打开次数到了还能再给其他人看吗？</h4>
     <p>A: 可以在后台增加次数或生成新链接。</p>
     <img src="/maifle/替换阅读码的例子.png" alt="更新阅读次数" class="faq-image">
   </div>
-  
   <div class="faq-item">
     <h4>Q3. 对方想要下载怎么办？</h4>
     <p>A: 临时开启下载权限 5 分钟，完成后再关闭。</p>

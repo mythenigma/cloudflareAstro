@@ -1,7 +1,7 @@
 ---
 title: "🎨 Envoyez des Fichiers de Feedback de Design avec des Limites de Visualisation"
 description: "Apprenez à garder le contrôle sur les travaux de design en phase initiale en définissant des limites de visualisation sur les fichiers partagés. Parfait pour recueillir des retours tout en évitant la distribution non autorisée."
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Workflow de Design", "Feedback de Design", "Partage de Fichiers", "Protection de Design"]
 ---
@@ -86,22 +86,18 @@ Pas besoin de gérer les permissions dans les drives cloud. Pas besoin d'envoyer
     <span class="use-case-icon">🧠</span>
     <p>Sessions de révision UX avec participants limités</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🎨</span>
     <p>Aperçus clients des orientations de design en version préliminaire</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">📋</span>
     <p>Alignement interne des parties prenantes</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧪</span>
     <p>Tests de variantes A/B où une seule version doit être vue</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧾</span>
     <p>Ébauches de guides de style avant approbation formelle</p>

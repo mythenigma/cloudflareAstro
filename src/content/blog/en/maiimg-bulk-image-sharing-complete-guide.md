@@ -1,7 +1,7 @@
 ---
 title: "Maiimg Bulk Image Sharing: Complete Guide to Sharing Multiple Images Securely"
 description: "Learn how to share multiple images at once with Maiimg. Complete guide covering bulk uploads, batch sharing, QR code generation, and advanced security controls for image galleries."
-pubDate: "Nov 28 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maiimg/maiimg-head.png"
 tags: ["Image Sharing", "Bulk Upload", "QR Codes", "Maiimg", "Batch Sharing"]
 ---
@@ -188,7 +188,6 @@ Maiimg is a secure image sharing platform that enables bulk uploads of up to 25 
 <div class="two-col">
   <div class="two-col-card">
     <h3>Gallery Management</h3>
-
     <h4>Organization</h4>
     <ul>
       <li>Single gallery for all images</li>
@@ -196,7 +195,6 @@ Maiimg is a secure image sharing platform that enables bulk uploads of up to 25 
       <li>Centralized settings</li>
       <li>Batch operations</li>
     </ul>
-
     <h4>Customization</h4>
     <ul>
       <li>Gallery title (optional)</li>
@@ -205,10 +203,8 @@ Maiimg is a secure image sharing platform that enables bulk uploads of up to 25 
       <li>Unified expiration</li>
     </ul>
   </div>
-
   <div class="two-col-card">
     <h3>Security & Tracking</h3>
-
     <h4>Access Protection</h4>
     <ul>
       <li>View limit enforcement</li>
@@ -216,7 +212,6 @@ Maiimg is a secure image sharing platform that enables bulk uploads of up to 25 
       <li>Expiration management</li>
       <li>Access revocation</li>
     </ul>
-
     <h4>Privacy & Analytics</h4>
     <ul>
       <li>No public indexing</li>

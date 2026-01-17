@@ -1,7 +1,7 @@
 ---
 title: "🎨 Send Design Feedback Files With View Limits"
 description: "Learn how to maintain control over early-stage design work by setting view limits on shared files. Perfect for gathering feedback while preventing unauthorized distribution."
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Design Workflow", "Design Feedback", "File Sharing", "Design Protection"]
 ---
@@ -86,22 +86,18 @@ No need to manage permissions in cloud drives. No need to send file updates manu
     <span class="use-case-icon">🧠</span>
     <p>UX review sessions with limited participants</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🎨</span>
     <p>Client previews of draft design directions</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">📋</span>
     <p>Internal stakeholder alignment</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧪</span>
     <p>A/B variant testing where only one version should be seen</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧾</span>
     <p>Style guide drafts before formal approval</p>

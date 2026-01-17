@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF Generación Rápida de Enlaces: Un Clic, Desactivar Seguimiento"
 description: "Aprenda cómo generar enlaces rápidamente con MaiPDF y desactivar seguimiento con un clic. Guía completa sobre generación rápida de enlaces y control de seguimiento."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "MaiPDF", "Enlaces", "Seguimiento"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>⚡ Rápido</h3>
     <p>Genere enlaces en segundos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔗 Enlaces Compartibles</h3>
     <p>Cree enlaces que funcionan en cualquier dispositivo.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📱 Códigos QR</h3>
     <p>Obtenga códigos QR automáticamente.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🎛️ Control de Seguimiento</h3>
     <p>Active o desactive seguimiento con un clic.</p>

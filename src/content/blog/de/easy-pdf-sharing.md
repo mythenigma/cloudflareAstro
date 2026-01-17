@@ -1,7 +1,7 @@
 ---
 title: "PDFs Einfach Teilen: Einfache Anleitung für Anfänger"
 description: "Erfahren Sie, wie Sie PDFs auf die einfachste Weise teilen. Keine Komplikationen, keine Registrierung, einfach hochladen und in Sekunden teilen."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Einfach", "Teilen", "Anfänger"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -21,17 +21,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🚫 Keine Registrierung</h3>
     <p>Sie müssen kein Konto erstellen. Besuchen Sie einfach die Website und beginnen Sie sofort mit dem Teilen.</p>
   </div>
-  
   <div class="factor-card">
     <h3>⚡ Schnell</h3>
     <p>Der gesamte Prozess dauert weniger als eine Minute vom Upload bis zum teilbaren Link.</p>
   </div>
-  
   <div class="factor-card">
     <h3>🎨 Einfache Oberfläche</h3>
     <p>Intuitives Design, das jeder ohne komplizierte Anweisungen verwenden kann.</p>
   </div>
-  
   <div class="factor-card">
     <h3>📱 Funktioniert Überall</h3>
     <p>Funktioniert genauso gut auf Computern, Tablets und Smartphones.</p>
@@ -60,17 +57,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h4>🖱️ Drag & Drop</h4>
     <p>Ziehen Sie einfach Ihr PDF auf die Seite und es wird automatisch hochgeladen.</p>
   </div>
-  
   <div class="feature-card">
     <h4>📋 Ein-Klick-Kopieren</h4>
     <p>Der Link wird automatisch kopiert, bereit zum Einfügen.</p>
   </div>
-  
   <div class="feature-card">
     <h4>📱 Automatischer QR-Code</h4>
     <p>Erhalten Sie automatisch einen QR-Code zum einfachen Teilen.</p>
   </div>
-  
   <div class="feature-card">
     <h4>⚙️ Optionale Einstellungen</h4>
     <p>Sie können die Sicherheit anpassen, aber es ist nicht notwendig, um zu beginnen.</p>

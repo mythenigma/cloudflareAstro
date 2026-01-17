@@ -1,7 +1,7 @@
 ---
 title: "Control Seguro de PDF: Gestión y Protección de Documentos"
 description: "Aprenda cómo controlar y proteger sus documentos PDF de forma segura. Guía completa sobre control seguro de PDF, gestión de acceso y protección de documentos."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Control", "Seguridad", "Gestión"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ El control seguro de PDF es la capacidad de gestionar, proteger y controlar el a
     <h3>🔐 Control de Acceso</h3>
     <p>Gestione quién puede acceder a sus documentos y bajo qué condiciones.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Monitoreo</h3>
     <p>Rastree quién accedió, cuándo y desde dónde.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🛡️ Protección</h3>
     <p>Proteja documentos contra acceso no autorizado.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⚙️ Gestión</h3>
     <p>Gestione múltiples documentos y configuraciones desde un lugar central.</p>

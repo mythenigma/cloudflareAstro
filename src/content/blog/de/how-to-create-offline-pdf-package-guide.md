@@ -1,7 +1,7 @@
 ---
 title: "Anleitung: Offline-PDF-Paket Erstellen"
 description: "Erfahren Sie, wie Sie Offline-PDF-Pakete erstellen. Vollständiger Leitfaden zur Erstellung von Offline-PDF-Paketen, Download-Paketen und Offline-Zugriff."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Offline", "Paket", "Download"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Ein Offline-PDF-Paket ist eine Sammlung von PDF-Dokumenten, die für Offline-Zug
     <h3>📦 Paketierung</h3>
     <p>Mehrere Dokumente in einem Paket zusammenfassen.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📥 Download</h3>
     <p>Empfänger können das gesamte Paket herunterladen.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Offline-Zugriff</h3>
     <p>Vollständiger Zugriff ohne Internetverbindung.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Sicherheit</h3>
     <p>Schutz auch im Offline-Modus.</p>

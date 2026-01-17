@@ -1,7 +1,7 @@
 ---
 title: "合规文档分发的五大要素：MaiPDF 全程护航"
 description: "如何利用 MaiPDF 满足金融、医药、科技等高度受监管行业的文档合规要求，打造安全可控的文档分发流程"
-pubDate: "May 1 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/没加电话验证的设置界面.png"
 tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日志"]
 ---
@@ -118,7 +118,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       <img src="/maifle/没加电话验证的设置界面.png" alt="权限设置界面" class="elements-hero-image">
     </div>
   </div>
-
   <div class="elements-grid-horizontal">
     <div class="elements-row">
       <div class="element-card-compact">
@@ -300,7 +299,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       </div>
     </div>
   </div>
-
   <div class="case-execution">
     <div class="execution-steps">
       <h4>⚙️ 实施策略</h4>
@@ -363,7 +361,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       </div>
     </div>
   </div>
-
   <div class="case-evidence-row">
     <div class="evidence-item">
       <img src="/maifle/阅读记录查询结果示例.png" alt="访问记录示例" class="evidence-image">
@@ -391,7 +388,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       <p>分发前必查的五个关键点，确保每次操作都符合合规标准</p>
     </div>
   </div>
-
   <div class="checklist-grid">
     <div class="checklist-card">
       <div class="check-header">
@@ -494,7 +490,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       </div>
     </div>
   </div>
-
   <div class="checklist-actions">
     <div class="action-card">
       <div class="action-header">
@@ -513,7 +508,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       </div>
     </div>
   </div>
-
   <div class="checklist-summary">
     <div class="summary-stats">
       <div class="summary-stat">
@@ -553,7 +547,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       <p>合规从来不是"一次配置，永远安全"。它要求 <strong>持续可见、即时可改、事后可追溯</strong>。MaiPDF 借助灵活的权限模型与详尽的日志能力，为企业在速度与安全之间划出清晰边界。</p>
     </div>
   </div>
-
   <div class="conclusion-benefits">
     <h4>📊 价值总结</h4>
     <div class="benefits-grid">
@@ -599,7 +592,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
     </div>
     <p>从传输到存储，从访问到审计，全链路安全保障</p>
   </div>
-
   <div class="security-layers">
     <div class="security-layer">
       <div class="layer-header">
@@ -682,7 +674,6 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
       </div>
     </div>
   </div>
-
   <div class="security-certifications">
     <h4>🏆 安全认证</h4>
     <div class="cert-grid">

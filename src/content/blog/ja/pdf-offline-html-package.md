@@ -1,7 +1,7 @@
 ---
 title: "PDF オフラインセキュア読書ソリューション：ワンクリックHTML パッケージ生成"
 description: "ネットワークのない会議、教室、隔離環境、クライアント資料パッケージ向けのオフラインPDF閲覧ソリューション。ソフトウェアのインストールなしでアクセス制御を維持。"
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTMLパッケージ"]
 ---
@@ -109,7 +109,6 @@ tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTML�
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDFアップロードインターフェース" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -121,7 +120,6 @@ tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTML�
       <img src="/offlinepages/security_setting.png" alt="セキュリティ設定インターフェース" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -199,21 +197,18 @@ tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTML�
     <p>50回閲覧、60分間制限、ダウンロード無効</p>
     <p>学生は授業中に閲覧可能、その後自動的に期限切れ</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>電子書籍サンプル閲覧</h3>
     <p>3回閲覧、20分間制限、3日で期限切れ</p>
     <p>フルバージョン購入を促進、再配布を防止</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>隔離ネットワークレポートレビュー</h3>
     <p>5回閲覧、30分間制限、ダウンロード無効</p>
     <p>ファイルが内部ネットワーク内に留まることを保証</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>クライアントリソースパッケージ</h3>
@@ -233,7 +228,6 @@ tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTML�
       <p>A：オフラインパッケージはインターネットに依存しないため、検索エンジンはローカルファイルにアクセスできません。オンラインリンクを共有する場合、≥32ビットのランダムトークンが使用され、インデックス作成を防止します。</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q2：受信者がインターネットに接続しない場合、ログは失われますか？</strong></p>
@@ -242,7 +236,6 @@ tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTML�
       <p>A：ログはまずブラウザにローカルに保存され、デバイスが次にインターネットに接続したときに自動的に送信されます。</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q3：ファイルが非常に大きい場合(>100 MB)はどうすればいいですか？</strong></p>
@@ -251,7 +244,6 @@ tags: ["PDFセキュリティ", "オフライン閲覧", "文書管理", "HTML�
       <p>A：まず画像を圧縮するか、文書を章ごとに分割することができます。より高い制限については、エンタープライズ版についてお問い合わせください。</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q4：オフラインパッケージを二次的に編集できますか？</strong></p>

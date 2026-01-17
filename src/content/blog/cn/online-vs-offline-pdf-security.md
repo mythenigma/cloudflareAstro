@@ -1,7 +1,7 @@
 ---
 title: "在线外链 vs 联网鉴权离线包：选对 PDF 加密分享模式的终极指南"
 description: "深入对比基于云端的 PDF 分享和离线 DRM 包，帮助您为文档分发需求选择最佳安全模型。"
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
 ---
@@ -78,16 +78,13 @@ tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
 <div class="method-section">
   <h3>1. 上传即生成短链 / QR</h3>
   <p>拖拽 PDF 至网站，系统返回一个加密 URL 与二维码。</p>
-  
   <h3>2. 实时权限回收</h3>
   <ul>
     <li>修改阅读次数、失效时间，甚至直接替换 PDF 而短链不变</li>
     <li>误发后可立即"Kill Link"，对方刷新即失效</li>
   </ul>
-  
   <h3>3. 行为追踪</h3>
   <p>后台日志记录 IP、地区、设备型号与打开时间，可导出 CSV。</p>
-  
   <h3>4. 增强防护</h3>
   <ul>
     <li>屏幕键监控（禁 F12、Ctrl+S、右键）</li>
@@ -105,7 +102,6 @@ tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
       <li>适合频繁更新版本或需统计阅读数据的营销/设计/教育场景</li>
     </ul>
   </div>
-  
   <div class="con-section">
     <h3>局限</h3>
     <ul>
@@ -120,13 +116,10 @@ tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
 <div class="method-section">
   <h3>1. 本地化存储</h3>
   <p>系统先上传 PDF 做加壳处理，再生成带 JS 的 HTML，打包回你电脑。</p>
-  
   <h3>2. 联网即验证</h3>
   <p>HTML 内嵌脚本在每次打开时调用 MaiPDF API，比对阅读次数与到期日。验证失败即显示"Access Denied"。</p>
-  
   <h3>3. 拷贝不失控</h3>
   <p>不论复制多少份，服务器只认"阅读码"，超过设定次数全部锁死。</p>
-  
   <h3>4. 修改权限的唯一通道</h3>
   <p>只能通过官网「DRM Check/Update」页面输入修改码追加次数，无法替换文件内容。</p>
 </div>
@@ -140,7 +133,6 @@ tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
       <li>符合"资料不得存公有云"政策的企业审计要求</li>
     </ul>
   </div>
-  
   <div class="con-section">
     <h3>局限</h3>
     <ul>

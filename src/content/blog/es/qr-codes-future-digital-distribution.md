@@ -1,7 +1,7 @@
 ---
 title: "Códigos QR: El Futuro de la Distribución Digital"
 description: "Aprenda cómo los códigos QR están dando forma al futuro de la distribución digital. Guía completa sobre códigos QR, distribución digital y compartir moderno."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "QR Code", "Digital", "Distribución"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>📱 Móvil</h3>
     <p>Perfecto para dispositivos móviles y smartphones.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Rápido</h3>
     <p>Acceso instantáneo con un escaneo.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔗 Simple</h3>
     <p>Compartir fácil sin enlaces complicados.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🌐 Universal</h3>
     <p>Funciona en todos los dispositivos y plataformas.</p>

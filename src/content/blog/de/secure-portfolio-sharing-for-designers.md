@@ -1,7 +1,7 @@
 ---
 title: "Sicheres Portfolio-Sharing für Designer: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Designer Portfolios sicher teilen können. Vollständiger Leitfaden zum Portfolio-Sharing für Designer, professionelle Präsentation und sichere Verteilung."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Portfolio", "Designer", "Sharing"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🎨 Professionell</h3>
     <p>Präsentieren Sie Ihre Arbeit professionell.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔒 Sicher</h3>
     <p>Schützen Sie Ihre kreativen Arbeiten.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Tracking</h3>
     <p>Überwachen Sie, wer Ihre Portfolios ansieht.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Effizient</h3>
     <p>Teilen Sie Portfolios schnell und einfach.</p>

@@ -1,7 +1,7 @@
 ---
 title: "PDF-Sicherheit: Ansichtslimits Festlegen um Unbefugten Zugriff zu Verhindern"
 description: "Erfahren Sie, wie Sie Ansichtslimits für PDFs festlegen, um unbefugten Zugriff zu verhindern. Vollständiger Leitfaden zu PDF-Sicherheit, Zugriffslimits und Dokumentenschutz."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Sicherheit", "Limits", "Schutz"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,12 +23,10 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🔒 Zugriffskontrolle</h3>
     <p>Kontrollieren Sie genau, wie oft auf ein Dokument zugegriffen werden kann.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🛡️ Prävention</h3>
     <p>Verhindern Sie unbefugten Zugriff durch Begrenzung der Anzahl der Ansichten.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Überwachung</h3>
     <p>Überwachen Sie die Nutzung und erkennen Sie verdächtige Aktivitäten.</p>

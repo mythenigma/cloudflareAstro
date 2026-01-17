@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Document Security with MaiPDF"
 description: "Discover how MaiPDF's security features protect your documents from unauthorized access and distribution."
-pubDate: "Apr 19 2025"
+pubDate: "Jan 17 2026"
 ---
 
 # 🔒 Enhancing Document Security with MaiPDF
@@ -18,19 +18,16 @@ pubDate: "Apr 19 2025"
     <p>MaiPDF allows you to set a maximum number of views for your shared PDFs. Once the limit is reached, the document becomes inaccessible, ensuring controlled access.</p>
     <img src="/maipdf-images/security_level_in_pdf_setting.png" alt="View Limits" />
   </div>
-
   <div class="feature-card">
     <h3>✉️ Email Verification</h3>
     <p>To ensure only authorized users can access your PDFs, MaiPDF supports email verification. Recipients must verify their email address before viewing the document.</p>
     <img src="/maipdf-images/get_email_verification_before_read.jpg" alt="Email Verification" />
   </div>
-
   <div class="feature-card">
     <h3>⏱️ Expiration Dates</h3>
     <p>Set expiration dates for your shared links to automatically revoke access after a specific period. This feature is ideal for time-sensitive documents.</p>
     <img src="/maipdf-images/pdf_change_setting_after_sent.png" alt="Expiration Settings" />
   </div>
-
   <div class="feature-card">
     <h3>🚫 Preventing Downloads</h3>
     <p>MaiPDF ensures your PDFs remain view-only by preventing downloads. This feature is particularly useful for protecting intellectual property and sensitive information.</p>
@@ -49,7 +46,6 @@ pubDate: "Apr 19 2025"
       <li>Protect sensitive client information in contracts and proposals.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>🎓 For Educators</h3>
     <ul>
@@ -58,7 +54,6 @@ pubDate: "Apr 19 2025"
       <li>Share research materials with specific academic groups.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>🎨 For Freelancers</h3>
     <ul>
@@ -73,6 +68,5 @@ pubDate: "Apr 19 2025"
 
 <div class="cta-container">
   <p>MaiPDF's robust security features make it an ideal choice for anyone looking to share PDFs securely. Whether you're a business professional, educator, or freelancer, MaiPDF provides the tools you need to protect your documents and maintain control over their distribution.</p>
-  
   <p><a href="https://maipdf.com">Start using MaiPDF today</a></p>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: "🎨 조회 제한이 있는 디자인 피드백 파일 보내기"
 description: "공유 파일에 조회 제한을 설정하여 초기 단계 디자인 작업을 제어하는 방법을 알아보세요. 무단 배포를 방지하면서 피드백을 수집하는 데 완벽합니다."
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["디자인 워크플로우", "디자인 피드백", "파일 공유", "디자인 보호"]
 ---
@@ -86,22 +86,18 @@ MaiPDF와 같은 도구는 다음과 같은 제어 기능이 있는 가벼운 �
     <span class="use-case-icon">🧠</span>
     <p>제한된 참가자와 함께하는 UX 검토 세션</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🎨</span>
     <p>초안 디자인 방향의 클라이언트 미리보기</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">📋</span>
     <p>내부 이해관계자 조정</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧪</span>
     <p>한 버전만 보여야 하는 A/B 변형 테스트</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧾</span>
     <p>공식 승인 전 스타일 가이드 초안</p>

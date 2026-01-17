@@ -1,7 +1,7 @@
 ---
 title: "Presentando Maiimg: Compartir Imágenes de Forma Segura con Códigos QR"
 description: "Descubra Maiimg.com - la nueva plataforma de intercambio de imágenes seguras que se basa en el éxito de MaiPDF. Suba hasta 25 imágenes, genere códigos QR y controle el acceso con funciones de seguridad avanzadas."
-pubDate: "Jan 16 2026"
+pubDate: "Jan 17 2026"
 heroImage: "/maiimg/maiimg-head.png"
 tags: ["QR Code", "Image Sharing", "Maiimg", "Seguridad"]
 ---
@@ -27,12 +27,10 @@ Maiimg protege sus imágenes convirtiéndolas en enlaces controlados. A diferenc
     <h4>👀 Límites de Visualización</h4>
     <p>Decida cuántas veces se pueden abrir sus imágenes</p>
   </div>
-  
   <div class="card">
     <h4>⏱️ Control de Tiempo</h4>
     <p>Establezca duraciones de visualización en segundos</p>
   </div>
-  
   <div class="card">
     <h4>⏰ Opciones de Expiración</h4>
     <p>Desactive automáticamente el acceso después de cumplir ciertas condiciones</p>
@@ -64,12 +62,10 @@ Maiimg protege sus imágenes convirtiéndolas en enlaces controlados. A diferenc
     <h4>🚀 Rápido</h4>
     <p>Cargas ultrarrápidas e intercambio instantáneo</p>
   </div>
-  
   <div class="card">
     <h4>🆓 Gratis</h4>
     <p>Sin costos ocultos ni tarifas de suscripción</p>
   </div>
-  
   <div class="card">
     <h4>🎯 Intuitivo</h4>
     <p>Sin configuración complicada, sin barreras de registro: solo arrastre, suelte y comparta</p>
@@ -87,12 +83,10 @@ Las plataformas tradicionales de alojamiento de imágenes a menudo carecen de co
     <h4>🏢 Propietarios de Negocios</h4>
     <p>Distribuya vistas previas de productos con acceso controlado</p>
   </div>
-  
   <div class="card">
     <h4>👨‍🏫 Maestros</h4>
     <p>Comparta materiales de clase de forma segura</p>
   </div>
-  
   <div class="card">
     <h4>🎨 Profesionales Creativos</h4>
     <p>Muestre su trabajo con protección</p>
@@ -126,19 +120,16 @@ Ya sea que esté compartiendo contenido profesional o recuerdos personales, Maii
     <h3>Visite Maiimg.com</h3>
     <p>No se requiere registro - comience inmediatamente</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">2</div>
     <h3>Suba Sus Imágenes</h3>
     <p>Arrastre y suelte hasta 25 imágenes a la vez</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">3</div>
     <h3>Configure Sus Preferencias</h3>
     <p>Configure controles de acceso y configuraciones de seguridad</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">4</div>
     <h3>Comparta con Confianza</h3>

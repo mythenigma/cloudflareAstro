@@ -1,7 +1,7 @@
 ---
 title: "Vollständiger Leitfaden: Bilder mit QR-Codes teilen mit Maiimg"
 description: "Erfahren Sie, wie Sie Maiimg verwenden, um QR-Codes für die sichere und effiziente Bildfreigabe zu generieren, perfekt für Veranstaltungen, Galerien und Kundenlieferungen."
-pubDate: "Jan 16 2026"
+pubDate: "Jan 17 2026"
 tags: ["QR Code", "Bildfreigabe", "Maiimg"]
 heroImage: "/diagram/de/maiimg-qr-code-sharing-workflow.svg"
 ---
@@ -25,17 +25,14 @@ Maiimg ist eine Bildhosting-Plattform, die automatisch QR-Codes für jedes Bild 
     <h3>⚡ Sofortiger Zugriff</h3>
     <p>Empfänger können Bilder sofort nach dem Scannen ansehen, ohne Downloads oder Installationen.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📱 Mobilfreundlich</h3>
     <p>Funktioniert perfekt auf jedem Gerät mit Kamera, besonders auf Smartphones.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Zugriffskontrolle</h3>
     <p>Legen Sie Ansichtslimits, Ablaufdaten und E-Mail-Verifizierung für mehr Sicherheit fest.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Zugriffsverfolgung</h3>
     <p>Sehen Sie, wer den QR-Code gescannt hat und wann, mit detaillierten Zugriffsstatistiken.</p>

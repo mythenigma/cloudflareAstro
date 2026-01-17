@@ -1,7 +1,7 @@
 ---
 title: "PDF 오프라인 보안 읽기 솔루션: 원클릭 HTML 패키지 생성"
 description: "네트워크가 없는 회의, 교실, 격리된 환경 및 고객 자료 패키지를 위한 오프라인 PDF 읽기 솔루션으로, 소프트웨어 설치 없이 액세스 제어를 유지합니다."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
 ---
@@ -109,7 +109,6 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF 업로드 인터페이스" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -121,7 +120,6 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <img src="/offlinepages/security_setting.png" alt="보안 설정 인터페이스" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -199,21 +197,18 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
     <p>50× 조회, 60분 지속 시간, 다운로드 비활성화</p>
     <p>학생들이 수업 중에 볼 수 있고, 그 후 자동으로 만료됨</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>전자책 샘플 읽기</h3>
     <p>3× 조회, 20분 지속 시간, 3일 후 만료</p>
     <p>전체 버전 구매 촉진, 재배포 방지</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>격리된 네트워크 보고서 검토</h3>
     <p>5× 조회, 30분 지속 시간, 다운로드 비활성화</p>
     <p>파일이 내부 네트워크 내에 유지되도록 보장</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>고객 리소스 패키지</h3>
@@ -233,7 +228,6 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <p>A: 오프라인 패키지는 인터넷에 의존하지 않기 때문에 검색 엔진은 로컬 파일에 접근할 수 없습니다. 온라인 링크를 공유할 때는 ≥32비트 무작위 토큰이 사용되어 색인을 방지합니다.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q2: 수신자가 인터넷에 연결하지 않으면 로그가 손실될까요?</strong></p>
@@ -242,7 +236,6 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <p>A: 로그는 먼저 브라우저에 로컬로 저장되었다가 장치가 다음에 인터넷에 연결될 때 자동으로 전송됩니다.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q3: 파일이 매우 큰 경우(>100 MB)는 어떻게 하나요?</strong></p>
@@ -251,7 +244,6 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <p>A: 먼저 이미지를 압축하거나 문서를 챕터별로 분할할 수 있습니다. 더 높은 제한을 원하시면 엔터프라이즈 버전에 대해 문의해 주세요.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q4: 오프라인 패키지를 2차 편집할 수 있나요?</strong></p>

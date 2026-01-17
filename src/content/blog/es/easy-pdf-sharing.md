@@ -1,7 +1,7 @@
 ---
 title: "Compartir PDF Fácilmente: Guía Simple para Principiantes"
 description: "Aprenda a compartir PDFs de la forma más fácil posible. Sin complicaciones, sin registro, solo suba y comparta en segundos."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Fácil", "Compartir", "Principiantes"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -21,17 +21,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🚫 Sin Registro</h3>
     <p>No necesita crear una cuenta. Simplemente visite el sitio y comience a compartir inmediatamente.</p>
   </div>
-  
   <div class="factor-card">
     <h3>⚡ Rápido</h3>
     <p>El proceso completo toma menos de un minuto desde la carga hasta el enlace compartible.</p>
   </div>
-  
   <div class="factor-card">
     <h3>🎨 Interfaz Simple</h3>
     <p>Diseño intuitivo que cualquiera puede usar sin instrucciones complicadas.</p>
   </div>
-  
   <div class="factor-card">
     <h3>📱 Funciona en Todo</h3>
     <p>Funciona igual de bien en computadoras, tablets y smartphones.</p>
@@ -60,17 +57,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h4>🖱️ Arrastrar y Soltar</h4>
     <p>Simplemente arrastre su PDF a la página y se carga automáticamente.</p>
   </div>
-  
   <div class="feature-card">
     <h4>📋 Copiar con Un Clic</h4>
     <p>El enlace se copia automáticamente, listo para pegar.</p>
   </div>
-  
   <div class="feature-card">
     <h4>📱 Código QR Automático</h4>
     <p>Obtenga un código QR automáticamente para compartir fácilmente.</p>
   </div>
-  
   <div class="feature-card">
     <h4>⚙️ Configuración Opcional</h4>
     <p>Puede personalizar la seguridad, pero no es necesario para empezar.</p>

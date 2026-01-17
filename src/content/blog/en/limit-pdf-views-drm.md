@@ -1,7 +1,7 @@
 ---
 title: "DRM Limit PDF Views: A Practical Approach to Controlled Document Access"
 description: "Learn how limiting PDF views provides an effective solution for controlling sensitive document access and tracking recipient interaction without complex DRM systems."
-pubDate: "Apr 22 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security setting.png"
 tags: ["PDF Security", "Document Management", "DRM", "Access Control"]
 ---
@@ -42,19 +42,16 @@ Key methods include:
     <h3>Cloud Hosting</h3>
     <p>Hosting the PDF on a secure cloud platform</p>
   </div>
-  
   <div class="feature-card">
     <div class="feature-icon">🔗</div>
     <h3>Unique Access</h3>
     <p>Generating unique access links for each recipient</p>
   </div>
-  
   <div class="feature-card">
     <div class="feature-icon">⏱️</div>
     <h3>Controlled Access</h3>
     <p>Enforcing view counters and auto-expiry mechanisms</p>
   </div>
-  
   <div class="feature-card">
     <div class="feature-icon">📊</div>
     <h3>Access Logging</h3>
@@ -80,7 +77,6 @@ These tools allow you to:
       <p>Simply upload your document to the cloud platform</p>
     </div>
   </div>
-  
   <div class="step">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -89,7 +85,6 @@ These tools allow you to:
       <img src="/maipdf-images/put email addresses in security setting.png" alt="Setting email verification security" class="medium">
     </div>
   </div>
-  
   <div class="step">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -98,7 +93,6 @@ These tools allow you to:
       <img src="/maipdf-images/result of pdf link and qr code.png" alt="Generated PDF link and QR code" class="medium">
     </div>
   </div>
-  
   <div class="step">
     <div class="step-number">4</div>
     <div class="step-content">

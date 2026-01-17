@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF オフラインPDF DRMモード：オフライン環境での安全な文書管理"
 description: "専用リーダーを必要とせず、オフライン環境でもPDFのアクセス権限、閲覧時間、印刷・コピー操作を制御できるMaiPDFのオフラインDRM機能について解説します。"
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化"]
 ---
@@ -81,7 +81,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDFアップロードインターフェース" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -90,7 +89,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       <img src="/offlinepages/security_setting.png" alt="権限設定" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -99,7 +97,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       <img src="/offlinepages/result_download_zip_file.png" alt="生成されたオフラインパッケージ" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -111,7 +108,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -136,7 +132,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       <p>各ページはビットマップに変換されるか、ストリームでレンダリングされ、テキスト抽出を防止します。</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -144,7 +139,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       <p>残りの閲覧回数をlocalStorageから読み取ります。ネットワークがなくても機能します。</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -152,7 +146,6 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
       <p>初回開封時にフィンガープリントを生成（ブラウザUA、画面サイズなど）、後続セッションでフィンガープリントが一致しない場合は拒否します。</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
@@ -205,19 +198,16 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
     <h3>教育資料</h3>
     <p>クラス後に有効期限が切れる、教室でのオフライン読書用に学生に配布。</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>電子マニュアル</h3>
     <p>製品とともにオフラインHTMLを含め、顧客がソースPDFを抽出せずにオフラインで閲覧できるようにする。</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>書籍プレビュー章</h3>
     <p>2回の閲覧、20分を設定し、完全版の購入を促進。</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>安全なレビュー</h3>

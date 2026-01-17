@@ -1,7 +1,7 @@
 ---
 title: "Guía Completa: Compartir PDF Sin Conexión"
 description: "Aprenda cómo compartir PDFs sin conexión a internet. Guía completa sobre compartir PDF offline, descarga de documentos y acceso sin conexión."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Offline", "Compartir", "Sin Conexión"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ El compartir PDF offline permite que los destinatarios descarguen y accedan a do
     <h3>📥 Descarga</h3>
     <p>Los destinatarios pueden descargar documentos para acceso offline.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Acceso Sin Conexión</h3>
     <p>Acceda a documentos incluso sin conexión a internet.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Seguridad</h3>
     <p>Mantenga la seguridad incluso en modo offline.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📱 Multiplataforma</h3>
     <p>Funciona en múltiples dispositivos y plataformas.</p>

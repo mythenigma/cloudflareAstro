@@ -1,7 +1,7 @@
 ---
 title: "Ein-Klick-Sharing Mehrerer Bilder: Galerie-Sharing"
 description: "Erfahren Sie, wie Sie mehrere Bilder mit einem Klick teilen. Vollständiger Leitfaden zum Galerie-Sharing, Bulk-Image-Sharing und effizientem Bild-Sharing."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["Bilder", "Galerie", "Sharing", "Bulk"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>⚡ Effizient</h3>
     <p>Teilen Sie mehrere Bilder mit einem Klick.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📁 Organisiert</h3>
     <p>Organisieren Sie Bilder in Galerien.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔗 Einfach</h3>
     <p>Ein Link für alle Bilder.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Tracking</h3>
     <p>Überwachen Sie Zugriffe auf Galerien.</p>

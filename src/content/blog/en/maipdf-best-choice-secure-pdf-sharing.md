@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF: The Best Choice for Secure PDF Sharing - Complete File Control"
 description: "Need secure PDF sharing for work, education, or research? MaiPDF offers view limits, download/print restrictions, email verification, and more security features. Built on Cloudflare R2 for enterprise-grade protection."
-pubDate: "Sep 09 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security setting.png"
 tags: ["PDF Security", "File Protection", "Secure Sharing", "MaiPDF", "Access Control"]
 ---
@@ -539,7 +539,6 @@ But **once a file is shared, how do you ensure it won't be infinitely forwarded,
 
 <div class="features-section">
   <h2 style="text-align: center; margin-bottom: 2rem; color: #2d3748; font-size: 2rem;">Core Security Features</h2>
-  
   <div class="features-grid">
 <div class="feature-card">
       <div class="feature-header">
@@ -597,7 +596,6 @@ But **once a file is shared, how do you ensure it won't be infinitely forwarded,
 
 <div class="tech-section">
   <h2 style="text-align: center; margin-bottom: 1rem; color: #2d3748;">Cloudflare R2 Technical Guarantee</h2>
-  
   <div class="tech-grid">
 <div class="tech-item">
       <div class="tech-icon">🌍</div>

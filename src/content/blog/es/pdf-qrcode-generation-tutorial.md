@@ -1,7 +1,7 @@
 ---
 title: "Tutorial de Generación de Código QR para PDF: Guía Completa"
 description: "Aprenda cómo generar códigos QR para documentos PDF. Guía completa sobre generación de códigos QR PDF, creación de códigos QR y compartir PDF con códigos QR."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "QR Code", "Tutorial", "Compartir"]
 heroImage: "/diagram/en/pdf-qr-code-generation-workflow.svg"
 ---
@@ -25,17 +25,14 @@ La generación de código QR para PDF es el proceso de crear códigos QR que per
     <h3>📱 Compartir Fácil</h3>
     <p>Comparta PDFs con un simple escaneo del código QR.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>⚡ Optimizado para Móviles</h3>
     <p>Perfecto para dispositivos móviles y compartir rápido.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>🚀 Acceso Instantáneo</h3>
     <p>Acceso inmediato a PDFs con un solo escaneo.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>💼 Profesional</h4>
     <p>Presentación limpia y profesional para uso empresarial.</p>
@@ -58,17 +55,14 @@ La generación de código QR para PDF es el proceso de crear códigos QR que per
     <h4>📱 Escaneo Rápido</h4>
     <p>Los códigos QR se escanean instantáneamente con cualquier cámara de smartphone.</p>
   </div>
-  
   <div class="feature-item">
     <h4>🖨️ Imprimible</h4>
     <p>Imprima códigos QR en materiales físicos para compartir offline.</p>
   </div>
-  
   <div class="feature-item">
     <h4>🌐 Universal</h4>
     <p>Funciona con cualquier aplicación de escáner de códigos QR.</p>
   </div>
-  
   <div class="feature-item">
     <h4>🔒 Seguro</h4>
     <p>Los códigos QR pueden tener las mismas protecciones de seguridad que los enlaces.</p>
@@ -105,17 +99,14 @@ La generación de código QR para PDF es el proceso de crear códigos QR que per
     <h4>⚡ Velocidad</h4>
     <p>Acceso instantáneo sin escribir URLs largas.</p>
   </div>
-  
   <div class="benefit-item">
     <h4>📱 Conveniencia Móvil</h4>
     <p>Perfecto para usuarios móviles que prefieren escanear.</p>
   </div>
-  
   <div class="benefit-item">
     <h4>🎨 Versatilidad</h4>
     <p>Funciona tanto en digital como en materiales impresos.</p>
   </div>
-  
   <div class="benefit-item">
     <h4>🔗 Sin Errores</h4>
     <p>Elimina errores de escritura de URLs largas.</p>

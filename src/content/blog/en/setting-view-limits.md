@@ -1,7 +1,7 @@
 ---
 title: "Setting View Limits for PDF Links: Control Access Effectively"
 description: "Learn how to enhance document security by setting view limits on your shared PDFs with MaiPDF."
-pubDate: "Apr 19 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
 ---
 
@@ -86,7 +86,6 @@ heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
       <li>Maintain document security.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>📊 Usage Tracking</h3>
     <ul>
@@ -95,7 +94,6 @@ heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
       <li>Understand viewer behavior.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>🔄 Flexible Management</h3>
     <ul>
@@ -104,7 +102,6 @@ heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
       <li>Maintain control over access.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>🛡️ Security</h3>
     <ul>
@@ -126,7 +123,6 @@ heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
       <li>Plan for potential growth.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>📈 Monitoring</h3>
     <ul>
@@ -135,7 +131,6 @@ heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
       <li>Adjust as needed.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>🔐 Security</h3>
     <ul>
@@ -184,7 +179,6 @@ heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
       <li>No data is lost.</li>
     </ul>
   </div>
-  
   <div class="card">
     <h3>⏭️ Next Steps</h3>
     <ul>

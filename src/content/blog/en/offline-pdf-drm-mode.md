@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF Offline PDF DRM Mode: Secure Document Control in Offline Environments"
 description: "Learn about MaiPDF's offline DRM functionality that allows controlling PDF access permissions, viewing duration, and print/copy operations in offline environments without specialized readers."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
 ---
@@ -76,7 +76,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF upload interface" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -85,7 +84,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       <img src="/offlinepages/security_setting.png" alt="Permission settings" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -94,7 +92,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       <img src="/offlinepages/result_download_zip_file.png" alt="Generated offline package" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -106,7 +103,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -131,7 +127,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       <p>Each page is converted to bitmap or stream-rendered, preventing text extraction.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -139,7 +134,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
       <p>Reads remaining view count from localStorage; works even without network.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -189,19 +183,16 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
     <h3>Educational Materials</h3>
     <p>Distribute to students for offline classroom reading, expiring after class.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Electronic Manuals</h3>
     <p>Include offline HTML with products, allowing customers to view offline but not extract the source PDF.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>Book Preview Chapters</h3>
     <p>Set 2 readings, 20 minutes, encouraging purchase of full version.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Secure Reviews</h3>

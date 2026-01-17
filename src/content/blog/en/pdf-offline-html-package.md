@@ -1,7 +1,7 @@
 ---
 title: "PDF Offline Secure Reading Solution: One-Click HTML Package Generation"
 description: "An offline PDF reading solution for networkless meetings, classrooms, isolated environments, and client material packages, maintaining access control without requiring any software installation."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
 ---
@@ -109,7 +109,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF Upload Interface" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -121,7 +120,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
       <img src="/offlinepages/security_setting.png" alt="Security Settings Interface" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -199,21 +197,18 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
     <p>50× views, 60 min duration, download disabled</p>
     <p>Students can view in class, automatically expires afterwards</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>E-book Sample Reading</h3>
     <p>3× views, 20 min duration, expires in three days</p>
     <p>Encourages purchase of full version, prevents redistribution</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Isolated Network Report Review</h3>
     <p>5× views, 30 min duration, download disabled</p>
     <p>Ensures files remain within internal network</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Client Resource Package</h3>
@@ -233,7 +228,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
       <p>A: Offline packages don't rely on the internet, so search engines cannot access local files. When sharing online links, random tokens of ≥32 bits are used, preventing indexing.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q2: Will logs be lost if recipients never connect to the internet?</strong></p>
@@ -242,7 +236,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
       <p>A: Logs are first saved locally in the browser, then automatically transmitted when the device next connects to the internet.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q3: What if my file is very large (>100 MB)?</strong></p>
@@ -251,7 +244,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
       <p>A: You can first compress images or split the document into chapters. For higher limits, contact us about the Enterprise version.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q4: Can the offline package be edited secondarily?</strong></p>

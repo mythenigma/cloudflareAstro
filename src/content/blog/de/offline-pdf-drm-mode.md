@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF Offline PDF DRM-Modus: Sichere Dokumentenkontrolle in Offline-Umgebungen"
 description: "Erfahren Sie mehr über MaiPDFs Offline-DRM-Funktionalität, die die Kontrolle von PDF-Zugriffsberechtigungen, Anzeigedauer und Druck-/Kopiervorgängen in Offline-Umgebungen ohne spezielle Reader ermöglicht."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsselung"]
 ---
@@ -81,7 +81,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF-Upload-Schnittstelle" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -90,7 +89,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       <img src="/offlinepages/security_setting.png" alt="Berechtigungseinstellungen" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -99,7 +97,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       <img src="/offlinepages/result_download_zip_file.png" alt="Generiertes Offline-Paket" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -111,7 +108,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -136,7 +132,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       <p>Jede Seite wird in Bitmap konvertiert oder stream-gerendert, was die Textextraktion verhindert.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -144,7 +139,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       <p>Liest verbleibende Aufrufzahl aus localStorage; funktioniert auch ohne Netzwerk.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -152,7 +146,6 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       <p>Generiert Fingerabdruck beim ersten Öffnen (Browser-UA, Bildschirmdimensionen usw.), lehnt ab, wenn der Fingerabdruck in späteren Sitzungen nicht übereinstimmt.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
@@ -205,19 +198,16 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
     <h3>Bildungsmaterialien</h3>
     <p>Verteilung an Schüler zum offline Lesen im Klassenzimmer, Ablauf nach dem Unterricht.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Elektronische Handbücher</h3>
     <p>Offline-HTML mit Produkten liefern, damit Kunden offline lesen können, ohne das Quell-PDF zu extrahieren.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>Buch-Vorschaukapitel</h3>
     <p>2 Lesungen, 20 Minuten einstellen, zum Kauf der Vollversion anregen.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Sichere Überprüfungen</h3>

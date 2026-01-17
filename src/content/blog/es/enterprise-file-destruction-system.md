@@ -1,7 +1,7 @@
 ---
 title: "Sistema de Destrucción de Archivos Empresarial: Guía Completa"
 description: "Aprenda cómo implementar un sistema de destrucción de archivos empresarial. Guía completa sobre destrucción de archivos, eliminación automática y seguridad empresarial."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Empresarial", "Destrucción", "Seguridad"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Un sistema de destrucción de archivos permite eliminar documentos automáticame
     <h3>⏰ Eliminación Automática</h3>
     <p>Elimine documentos automáticamente después de la fecha de expiración.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔢 Basado en Límites</h3>
     <p>Elimine después de alcanzar límites de acceso.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🛡️ Seguridad</h3>
     <p>Eliminación segura y completa de documentos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Gestión</h3>
     <p>Gestión centralizada de políticas de eliminación.</p>

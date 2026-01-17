@@ -1,7 +1,7 @@
 ---
 title: "Enlaces en línea vs. Paquetes offline con autorización en red: La guía definitiva para elegir el modo correcto de cifrado PDF"
 description: "Una comparación detallada entre el compartir PDF basado en la nube y los paquetes DRM offline para ayudarte a seleccionar el mejor modelo de seguridad para tus necesidades de distribución de documentos."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en la nube"]
 ---
@@ -78,16 +78,13 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
 <div class="method-section">
   <h3>1. La carga genera un enlace corto/QR instantáneo</h3>
   <p>Arrastra y suelta tu PDF en el sitio web, y el sistema devuelve una URL cifrada y un código QR.</p>
-  
   <h3>2. Control de permisos en tiempo real</h3>
   <ul>
     <li>Modifica el recuento de vistas, tiempo de caducidad, o incluso reemplaza el PDF manteniendo el mismo enlace</li>
     <li>Si se comparte accidentalmente, "Matar enlace" inmediatamente—cuando los destinatarios actualizan, se deniega el acceso</li>
   </ul>
-  
   <h3>3. Seguimiento de comportamiento</h3>
   <p>Los registros de backend registran IP, región, modelo de dispositivo y hora de acceso, exportables como CSV.</p>
-  
   <h3>4. Protección mejorada</h3>
   <ul>
     <li>Monitoreo de pantalla y teclado (desactiva F12, Ctrl+S, clic derecho)</li>
@@ -105,7 +102,6 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
       <li>Ideal para versiones actualizadas frecuentemente o escenarios de marketing/diseño/educación que requieren estadísticas de lectura</li>
     </ul>
   </div>
-  
   <div class="con-section">
     <h3>Limitaciones</h3>
     <ul>
@@ -120,13 +116,10 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
 <div class="method-section">
   <h3>1. Almacenamiento localizado</h3>
   <p>El sistema carga el PDF para procesamiento de encapsulación, luego genera HTML integrado con JavaScript, empaquetado de vuelta a tu computadora.</p>
-  
   <h3>2. Validación basada en red</h3>
   <p>Los scripts integrados en el HTML llaman a la API de MaiPDF con cada apertura para verificar el recuento de vistas y la fecha de caducidad. La validación fallida muestra "Acceso denegado".</p>
-  
   <h3>3. Control de copia</h3>
   <p>Independientemente de cuántas copias se realicen, el servidor solo reconoce el "código de lectura"—una vez alcanzado el límite de vistas, todas las copias quedan bloqueadas.</p>
-  
   <h3>4. El único canal para modificación de permisos</h3>
   <p>Los permisos solo pueden actualizarse a través de la página oficial "DRM Check/Update" ingresando el código de modificación para agregar vistas adicionales. El contenido del archivo no puede ser reemplazado.</p>
 </div>
@@ -140,7 +133,6 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
       <li>Cumple con requisitos de auditoría empresarial donde "los datos no pueden almacenarse en la nube pública"</li>
     </ul>
   </div>
-  
   <div class="con-section">
     <h3>Limitaciones</h3>
     <ul>

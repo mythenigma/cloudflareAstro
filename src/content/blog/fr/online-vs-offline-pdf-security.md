@@ -1,7 +1,7 @@
 ---
 title: "Liens en ligne vs. Paquets hors ligne avec authentification réseau : Guide ultime pour choisir le bon mode de chiffrement PDF"
 description: "Une comparaison approfondie entre le partage de PDF basé sur le cloud et les paquets DRM hors ligne pour vous aider à choisir le meilleur modèle de sécurité pour la distribution de vos documents."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité cloud"]
 ---
@@ -78,16 +78,13 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
 <div class="method-section">
   <h3>1. Téléversement générant un lien court/QR instantané</h3>
   <p>Glissez-déposez votre PDF sur le site, le système retourne une URL chiffrée et un QR code.</p>
-  
   <h3>2. Contrôle des droits en temps réel</h3>
   <ul>
     <li>Modifiez le nombre de vues, la date d'expiration ou remplacez le PDF à tout moment</li>
     <li>En cas de partage accidentel, « tuer le lien » bloque l'accès instantanément</li>
   </ul>
-  
   <h3>3. Suivi des accès</h3>
   <p>Le backend enregistre IP, région, appareil et date/heure, exportables en CSV.</p>
-  
   <h3>4. Protection renforcée</h3>
   <ul>
     <li>Surveillance écran/clavier (désactive F12, Ctrl+S, clic droit)</li>
@@ -105,7 +102,6 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
       <li>Idéal pour les versions fréquemment mises à jour ou les usages marketing/éducation nécessitant des statistiques</li>
     </ul>
   </div>
-  
   <div class="con-section">
     <h3>Limites</h3>
     <ul>
@@ -120,13 +116,10 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
 <div class="method-section">
   <h3>1. Stockage localisé</h3>
   <p>Le système téléverse le PDF pour encapsulation, puis génère un HTML embarquant du JavaScript, à télécharger sur votre ordinateur.</p>
-  
   <h3>2. Validation réseau</h3>
   <p>Les scripts HTML appellent l'API MaiPDF à chaque ouverture pour vérifier vues et expiration. En cas d'échec, « Accès refusé » s'affiche.</p>
-  
   <h3>3. Contrôle des copies</h3>
   <p>Peu importe le nombre de copies, le serveur ne reconnaît que le « code de lecture »—une fois la limite atteinte, tous les accès sont bloqués.</p>
-  
   <h3>4. Seul canal de modification des droits</h3>
   <p>Les droits ne peuvent être modifiés que via la page officielle « Vérification/MAJ DRM » en saisissant le code de modification. Le contenu du fichier ne peut être remplacé.</p>
 </div>
@@ -140,7 +133,6 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
       <li>Conforme aux audits exigeant « pas de stockage cloud public »</li>
     </ul>
   </div>
-  
   <div class="con-section">
     <h3>Limites</h3>
     <ul>

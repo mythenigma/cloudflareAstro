@@ -1,7 +1,7 @@
 ---
 title: "免费PDF托管：MaiPDF安全链接管理平台"
 description: "免费在线上传、分享和控制PDF文档。无需注册，查看限制、验证码，使用MaiPDF安全查看器防止下载。"
-pubDate: "Apr 21 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
 ---
@@ -36,15 +36,12 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
   <div class="benefit-item">
     <span class="benefit-icon">🔐</span> 轻松管理您上传的PDF
   </div>
-  
   <div class="benefit-item">
     <span class="benefit-icon">✏️</span> 随时编辑或删除链接
   </div>
-  
   <div class="benefit-item">
     <span class="benefit-icon">🔁</span> 替换文件同时保持相同链接
   </div>
-  
   <div class="benefit-item">
     <span class="benefit-icon">🔗</span> 为每个文件调整查看设置（例如打开限制、每次查看时间限制、验证码）
   </div>
@@ -63,7 +60,6 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
       <img src="/maipdf-images/upload section.png" alt="MaiPDF上传界面，带文件选择按钮" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -72,7 +68,6 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
       <img src="/maipdf-images/result of pdf link and qr code.png" alt="生成的PDF链接，带二维码，便于分享" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -81,7 +76,6 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
       <img src="/maipdf-images/security level in pdf setting.png" alt="安全设置面板，带查看限制控制" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">

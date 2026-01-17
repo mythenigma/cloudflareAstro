@@ -1,7 +1,7 @@
 ---
 title: "Compartir PDF con Un Clic en WeChat: Guía Completa"
 description: "Aprenda cómo compartir PDFs con un clic en WeChat. Guía completa sobre compartir PDF en WeChat, generación de enlaces y códigos QR para compartir fácil."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "WeChat", "Compartir", "QR Code"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,12 +23,10 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>⚡ Rápido y Fácil</h3>
     <p>Comparta PDFs con un solo clic directamente desde WeChat.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>📱 Acceso Móvil</h3>
     <p>Los destinatarios pueden acceder desde sus dispositivos móviles.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>🔒 Seguro</h3>
     <p>Mantenga la seguridad mientras comparte fácilmente.</p>

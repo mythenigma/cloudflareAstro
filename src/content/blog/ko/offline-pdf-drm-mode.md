@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF 오프라인 PDF DRM 모드: 오프라인 환경에서의 안전한 문서 제어"
 description: "특수 리더 없이도 오프라인 환경에서 PDF 접근 권한, 보기 시간, 인쇄/복사 작업을 제어할 수 있는 MaiPDF의 오프라인 DRM 기능에 대해 알아보세요."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
 ---
@@ -81,7 +81,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF 업로드 인터페이스" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -90,7 +89,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       <img src="/offlinepages/security_setting.png" alt="권한 설정" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -99,7 +97,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       <img src="/offlinepages/result_download_zip_file.png" alt="생성된 오프라인 패키지" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -111,7 +108,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -136,7 +132,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       <p>각 페이지는 비트맵으로 변환되거나 스트리밍 렌더링되어 텍스트 추출을 방지합니다.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -144,7 +139,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       <p>localStorage에서 남은 보기 횟수를 읽습니다; 네트워크가 없어도 작동합니다.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -152,7 +146,6 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
       <p>첫 열람 시 지문을 생성(브라우저 UA, 화면 크기 등), 이후 세션에서 지문이 일치하지 않으면 거부합니다.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
@@ -205,19 +198,16 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
     <h3>교육 자료</h3>
     <p>수업 후 만료되는, 교실 내 오프라인 읽기를 위해 학생들에게 배포.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>전자 매뉴얼</h3>
     <p>제품에 오프라인 HTML을 포함시켜 고객이 소스 PDF를 추출하지 않고도 오프라인에서 볼 수 있게 합니다.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>도서 미리보기 장</h3>
     <p>2회 열람, 20분으로 설정하여 전체 버전 구매를 촉진.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>안전한 검토</h3>

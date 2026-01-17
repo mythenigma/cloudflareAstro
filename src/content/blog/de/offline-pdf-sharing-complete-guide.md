@@ -1,7 +1,7 @@
 ---
 title: "Vollständiger Leitfaden: Offline-PDF-Sharing"
 description: "Erfahren Sie, wie Sie PDFs ohne Internetverbindung teilen. Vollständiger Leitfaden zum Offline-PDF-Sharing, Dokumenten-Download und Offline-Zugriff."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Offline", "Sharing", "Ohne Verbindung"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Offline-PDF-Sharing ermöglicht es Empfängern, PDF-Dokumente herunterzuladen un
     <h3>📥 Download</h3>
     <p>Empfänger können Dokumente für Offline-Zugriff herunterladen.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Offline-Zugriff</h3>
     <p>Greifen Sie auf Dokumente auch ohne Internetverbindung zu.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Sicherheit</h3>
     <p>Behalten Sie die Sicherheit auch im Offline-Modus.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📱 Multiplattform</h3>
     <p>Funktioniert auf mehreren Geräten und Plattformen.</p>

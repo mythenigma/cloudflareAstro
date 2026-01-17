@@ -1,7 +1,7 @@
 ---
 title: "如何把 PDF 生成为二维码？用 MaiPDF 一键搞定！"
 description: "想让PDF分享更高效？MaiPDF帮您一键生成PDF二维码，扫码即看，支持访问控制、邮箱验证、下载限制等安全功能。适用于会议、教学、企业内部等多种场景。"
-pubDate: "Sep 09 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["PDF二维码", "文件分享", "MaiPDF", "二维码生成", "移动办公"]
 ---
@@ -584,7 +584,6 @@ tags: ["PDF二维码", "文件分享", "MaiPDF", "二维码生成", "移动办�
         <p>不需要发文件、不需要下载，一扫二维码就能查看，适合线上和线下传播。无论是投影到屏幕上，还是印在宣传册里，都能快速让人获取文件。</p>
       </div>
     </div>
-
     <div class="benefit-card">
       <div class="benefit-header">
         <div class="benefit-icon">⏰</div>
@@ -594,7 +593,6 @@ tags: ["PDF二维码", "文件分享", "MaiPDF", "二维码生成", "移动办�
         <p>不用一个个给人发文件，尤其适合讲座、活动、课程等需要多人访问的场景。一个二维码解决所有人的需求，效率倍增。</p>
       </div>
     </div>
-
     <div class="benefit-card">
       <div class="benefit-header">
         <div class="benefit-icon">📱</div>
@@ -604,7 +602,6 @@ tags: ["PDF二维码", "文件分享", "MaiPDF", "二维码生成", "移动办�
         <p>手机、平板、电脑都能直接扫码打开，无需安装额外软件。真正做到随时随地，想看就看。</p>
       </div>
     </div>
-
     <div class="benefit-card">
       <div class="benefit-header">
         <div class="benefit-icon">🔒</div>
@@ -638,7 +635,6 @@ MaiPDF 提供了一套非常简单高效的流程，让你几秒钟就能完成�
         </div>
       </div>
     </div>
-
     <div class="step-item">
       <div class="step-number">2</div>
       <div class="step-content">
@@ -655,7 +651,6 @@ MaiPDF 提供了一套非常简单高效的流程，让你几秒钟就能完成�
         </div>
       </div>
     </div>
-
     <div class="step-item">
       <div class="step-number">3</div>
       <div class="step-content">
@@ -679,26 +674,22 @@ MaiPDF 提供了一套非常简单高效的流程，让你几秒钟就能完成�
 
 <div class="advantages-section">
   <h2 style="text-align: center; margin-bottom: 1rem; color: #2d3748;">核心技术优势</h2>
-  
   <div class="advantages-grid">
     <div class="advantage-item">
       <div class="advantage-icon">⚡</div>
       <h3 class="advantage-title">极速访问</h3>
       <p class="advantage-desc">使用 Cloudflare R2 全球云存储技术，确保无论身处哪里，扫码后 PDF 秒开</p>
     </div>
-
     <div class="advantage-item">
       <div class="advantage-icon">🔐</div>
       <h3 class="advantage-title">高安全性</h3>
       <p class="advantage-desc">邮箱验证、访问次数限制、禁止下载打印、全程加密存储和传输</p>
     </div>
-
     <div class="advantage-item">
       <div class="advantage-icon">📊</div>
       <h3 class="advantage-title">完整统计</h3>
       <p class="advantage-desc">详细的访问记录和统计数据，让您清楚了解文件的使用情况</p>
     </div>
-
     <div class="advantage-item">
       <div class="advantage-icon">🎯</div>
       <h3 class="advantage-title">多场景适配</h3>
@@ -716,19 +707,16 @@ MaiPDF 提供了一套非常简单高效的流程，让你几秒钟就能完成�
       <h3 class="scenario-title">会议活动</h3>
       <p class="scenario-desc">现场扫码领取手册、日程表、演讲资料等。投影二维码到屏幕上，参会者可以快速获取相关文档，无需逐一发送。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">📚</span>
       <h3 class="scenario-title">教学场景</h3>
       <p class="scenario-desc">学生扫码获取讲义、习题、参考资料等。老师可以控制访问次数，防止资料外泄，同时了解学生的学习进度。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">💼</span>
       <h3 class="scenario-title">企业内部</h3>
       <p class="scenario-desc">扫码查看最新项目文件、公司政策、培训材料等。结合邮箱验证功能，确保只有内部员工能够访问敏感信息。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">📈</span>
       <h3 class="scenario-title">市场营销</h3>

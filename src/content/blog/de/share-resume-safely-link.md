@@ -1,7 +1,7 @@
 ---
 title: "Lebenslauf Sicher mit Link Teilen: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie Lebensläufe sicher mit Links teilen. Vollständiger Leitfaden zum sicheren Teilen von Lebensläufen, Link-Sharing und professioneller Präsentation."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Lebenslauf", "Sicher", "Link"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>💼 Professionell</h3>
     <p>Präsentieren Sie sich professionell mit eleganten Links.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔒 Sicher</h3>
     <p>Schützen Sie persönliche Informationen mit Sicherheitsmaßnahmen.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Tracking</h3>
     <p>Überwachen Sie, wer auf Ihren Lebenslauf zugegriffen hat.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Schnell</h3>
     <p>Teilen Sie Lebensläufe schnell und einfach.</p>

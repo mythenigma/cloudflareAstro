@@ -1,7 +1,7 @@
 ---
 title: "Guía: Estadísticas y Seguimiento de Apertura de Archivos"
 description: "Aprenda cómo usar estadísticas y seguimiento de apertura de archivos. Guía completa sobre estadísticas, seguimiento y monitoreo de accesos a documentos."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Estadísticas", "Seguimiento", "Monitoreo"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Las estadísticas de apertura de archivos proporcionan información detallada so
     <h3>📊 Estadísticas Detalladas</h3>
     <p>Estadísticas completas sobre accesos a documentos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>👥 Seguimiento de Usuarios</h3>
     <p>Rastree quién accedió a documentos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⏱️ Seguimiento de Tiempo</h3>
     <p>Monitoree cuándo se accedió a documentos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Seguimiento de Ubicación</h3>
     <p>Sepa desde dónde se accedió a documentos.</p>

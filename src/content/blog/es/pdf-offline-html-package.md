@@ -1,7 +1,7 @@
 ---
 title: "Solución de lectura segura offline de PDF: Generación de paquetes HTML con un clic"
 description: "Una solución de lectura de PDF offline para reuniones sin red, aulas, entornos aislados y paquetes de materiales para clientes, manteniendo el control de acceso sin requerir instalación de software."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTML"]
 ---
@@ -109,7 +109,6 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interfaz de carga de PDF" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -121,7 +120,6 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <img src="/offlinepages/security_setting.png" alt="Interfaz de configuración de seguridad" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -199,21 +197,18 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
     <p>50× vistas, duración de 60 min, descarga desactivada</p>
     <p>Los estudiantes pueden ver en clase, caduca automáticamente después</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>Lectura de muestra de libros electrónicos</h3>
     <p>3× vistas, duración de 20 min, caduca en tres días</p>
     <p>Fomenta la compra de la versión completa, evita la redistribución</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Revisión de informes en red aislada</h3>
     <p>5× vistas, duración de 30 min, descarga desactivada</p>
     <p>Garantiza que los archivos permanezcan dentro de la red interna</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Paquete de recursos para clientes</h3>
@@ -233,7 +228,6 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <p>R: Los paquetes offline no dependen de internet, por lo que los motores de búsqueda no pueden acceder a archivos locales. Cuando se comparten enlaces en línea, se utilizan tokens aleatorios de ≥32 bits, evitando la indexación.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>P2: ¿Se perderán los registros si los destinatarios nunca se conectan a internet?</strong></p>
@@ -242,7 +236,6 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <p>R: Los registros se guardan primero localmente en el navegador, luego se transmiten automáticamente cuando el dispositivo se conecta posteriormente a internet.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>P3: ¿Qué ocurre si mi archivo es muy grande (>100 MB)?</strong></p>
@@ -251,7 +244,6 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <p>R: Puede comprimir primero las imágenes o dividir el documento en capítulos. Para límites más altos, contáctenos sobre la versión Enterprise.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>P4: ¿Se puede editar secundariamente el paquete offline?</strong></p>

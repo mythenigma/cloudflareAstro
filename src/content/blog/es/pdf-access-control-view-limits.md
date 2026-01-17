@@ -1,7 +1,7 @@
 ---
 title: "Control de Acceso PDF: Límites de Visualización"
 description: "Aprenda cómo establecer límites de visualización para controlar el acceso a documentos PDF. Proteja sus documentos limitando cuántas veces se pueden ver."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Control de Acceso", "Límites", "Seguridad"]
 heroImage: "/diagram/en/simple-access-control-flow.svg"
 ---
@@ -25,17 +25,14 @@ Los límites de visualización son restricciones que controlan cuántas veces se
     <h3>🔢 Control Numérico</h3>
     <p>Establezca un número específico de visualizaciones permitidas (por ejemplo, 1, 5, 10, 100).</p>
   </div>
-  
   <div class="feature-card">
     <h3>⏰ Control Temporal</h3>
     <p>Combine con fechas de expiración para doble protección.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Seguimiento en Tiempo Real</h3>
     <p>Vea cuántas visualizaciones quedan en tiempo real.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Bloqueo Automático</h3>
     <p>El acceso se bloquea automáticamente cuando se alcanza el límite.</p>
@@ -49,17 +46,14 @@ Los límites de visualización son restricciones que controlan cuántas veces se
     <h3>🔐 Protección de Contenido</h3>
     <p>Evite el acceso ilimitado a documentos confidenciales.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Control de Distribución</h3>
     <p>Limite cuántas personas pueden ver su documento.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>💰 Gestión de Recursos</h3>
     <p>Controle el uso de recursos compartidos.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🛡️ Seguridad Mejorada</h3>
     <p>Reduzca el riesgo de acceso no autorizado.</p>
@@ -84,17 +78,14 @@ Los límites de visualización son restricciones que controlan cuántas veces se
     <h4>🔢 Número de Visualizaciones</h4>
     <p>Establezca cuántas veces se puede ver el documento (1-1000+).</p>
   </div>
-  
   <div class="option-item">
     <h4>👥 Por Usuario o Total</h4>
     <p>Elija si el límite es por usuario individual o total.</p>
   </div>
-  
   <div class="option-item">
     <h4>⏰ Combinar con Expiración</h4>
     <p>Agregue una fecha de expiración para doble protección.</p>
   </div>
-  
   <div class="option-item">
     <h4>📊 Notificaciones</h4>
     <p>Reciba alertas cuando se acerque al límite.</p>
@@ -128,17 +119,14 @@ Los límites de visualización son restricciones que controlan cuántas veces se
     <h4>🔐 + Contraseña</h4>
     <p>Combine límites de visualización con protección por contraseña.</p>
   </div>
-  
   <div class="combination-item">
     <h4>📧 + Verificación de Email</h4>
     <p>Agregue verificación de email para mayor seguridad.</p>
   </div>
-  
   <div class="combination-item">
     <h4>🚫 + Bloqueo de Descarga</h4>
     <p>Deshabilite la descarga junto con límites de visualización.</p>
   </div>
-  
   <div class="combination-item">
     <h4>⏰ + Expiración</h4>
     <p>Combine con fechas de expiración para protección temporal.</p>

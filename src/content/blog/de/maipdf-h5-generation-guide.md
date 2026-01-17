@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF H5-Generierung: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie H5-Seiten mit MaiPDF generieren. Vollständiger Leitfaden zur H5-Generierung, mobilen Seiten und interaktiven PDF-Präsentationen."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "MaiPDF", "H5", "Mobile"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ H5-Generierung konvertiert PDF-Dokumente in mobile-optimierte HTML5-Seiten, die 
     <h3>📱 Mobile Optimiert</h3>
     <p>Perfekte Darstellung auf mobilen Geräten.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⚡ Schnell</h3>
     <p>Schnelles Laden und nahtlose Navigation.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🎨 Interaktiv</h3>
     <p>Interaktive Elemente und Animationen.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔗 Teilbar</h3>
     <p>Einfaches Teilen über Links oder QR-Codes.</p>

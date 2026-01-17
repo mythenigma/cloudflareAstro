@@ -1,7 +1,7 @@
 ---
 title: "设计师求职神器：作品集PDF一键生成专属链接和二维码"
 description: "专为设计师打造的作品集分享解决方案，MaiPDF让你的设计作品以最专业的方式呈现给HR和面试官，提升求职成功率。"
-pubDate: "June 1 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/展示PDF列子.png"
 tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
 ---
@@ -28,7 +28,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       <li>作品集容易被随意传播和盗用</li>
     </ul>
   </div>
-  
   <div class="solution-card">
     <div class="solution-icon">✨</div>
     <h3>MaiPDF解决方案</h3>
@@ -62,7 +61,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="step-container">
     <div class="step-number">02</div>
     <div class="step-content">
@@ -85,7 +83,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="step-container">
     <div class="step-number">03</div>
     <div class="step-content">
@@ -114,7 +111,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="scenario-card highlight">
     <div class="scenario-icon">🎯</div>
     <h3>现场面试展示</h3>
@@ -128,7 +124,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="scenario-card highlight">
     <div class="scenario-icon">💼</div>
     <h3>招聘平台投递</h3>
@@ -146,7 +141,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="scenario-card highlight">
     <div class="scenario-icon">🌐</div>
     <h3>社交媒体推广</h3>
@@ -197,7 +191,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       <p>了解查看者的大致地理位置</p>
     </div>
   </div>
-  
   <div class="insights-box">
     <h4>💡 数据洞察帮你优化求职策略</h4>
     <ul>
@@ -237,7 +230,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="field-card">
     <div class="field-header">
       <div class="field-icon">📸</div>
@@ -263,7 +255,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="field-card">
     <div class="field-header">
       <div class="field-icon">🏠</div>
@@ -289,7 +280,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="field-card">
     <div class="field-header">
       <div class="field-icon">🎬</div>
@@ -341,7 +331,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="tip-category">
     <h3>🔗 分享策略优化</h3>
     <div class="tips-grid">
@@ -386,7 +375,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="protection-card">
     <div class="protection-icon">🔒</div>
     <h3>访问权限控制</h3>
@@ -403,7 +391,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="protection-card">
     <div class="protection-icon">🚫</div>
     <h3>防截图保护</h3>
@@ -412,7 +399,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       <img src="/maifle/鼠标移除框外显示警告.png" alt="防截图警告" class="protection-image">
     </div>
   </div>
-  
   <div class="protection-card">
     <div class="protection-icon">📊</div>
     <h3>详细访问记录</h3>
@@ -460,7 +446,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       </div>
     </div>
   </div>
-  
   <div class="testimonial-card">
     <div class="testimonial-header">
       <div class="testimonial-avatar">🏠</div>
@@ -473,7 +458,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       "作为室内设计师，我的作品集文件特别大，以前发邮件经常失败。用了MaiPDF后，不仅解决了文件大小问题，还能看到客户查看记录。有个客户看了我的作品集5次，最后直接签约了一个200万的项目。"
     </div>
   </div>
-  
   <div class="testimonial-card">
     <div class="testimonial-header">
       <div class="testimonial-avatar">📱</div>
@@ -558,7 +542,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       记住，可以随时调整访问次数限制。
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">如何保护我的设计作品不被盗用？</div>
     <div class="faq-answer">
@@ -572,7 +555,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       建议重要作品集开启所有保护功能。
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">面试官会觉得使用链接查看作品集不专业吗？</div>
     <div class="faq-answer">
@@ -586,7 +568,6 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
       许多知名公司已经推荐设计师使用在线作品集。
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">我可以看到HR查看了哪些页面吗？</div>
     <div class="faq-answer">

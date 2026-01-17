@@ -1,7 +1,7 @@
 ---
 title: "Schutz-Leitfaden: PDF-Druck Deaktivieren"
 description: "Erfahren Sie, wie Sie den Druck von PDFs deaktivieren, um Ihre Dokumente zu schützen. Vollständiger Leitfaden zu Druckverhinderung, Zugriffskontrolle und Dokumentensicherheit."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Schutz", "Druck", "Sicherheit"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,12 +23,10 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🔒 Inhaltsschutz</h3>
     <p>Verhindern Sie, dass sensible Dokumente gedruckt und physisch verteilt werden.</p>
   </div>
-  
   <div class="reason-card">
     <h3>📊 Vollständige Kontrolle</h3>
     <p>Behalten Sie vollständige Kontrolle darüber, wie auf Ihre Dokumente zugegriffen wird.</p>
   </div>
-  
   <div class="reason-card">
     <h3>🛡️ Verbesserte Sicherheit</h3>
     <p>Erhöhen Sie die Sicherheit vertraulicher Dokumente.</p>

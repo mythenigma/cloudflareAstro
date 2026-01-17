@@ -1,7 +1,7 @@
 ---
 title: "Leitfaden für Pädagogen: PDF-Sharing"
 description: "Erfahren Sie, wie Pädagogen PDFs sicher teilen können. Vollständiger Leitfaden zum PDF-Sharing für Pädagogen, Bildungsmaterialien und sichere Verteilung."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Bildung", "Pädagogen", "Sharing"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>📚 Materialien Verteilen</h3>
     <p>Teilen Sie Unterrichtsmaterialien einfach mit Schülern.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔒 Sicherheit</h3>
     <p>Schützen Sie Bildungsmaterialien mit Sicherheitsmaßnahmen.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Tracking</h3>
     <p>Überwachen Sie, wer auf Materialien zugegriffen hat.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Effizienz</h3>
     <p>Sparen Sie Zeit beim Verteilen von Materialien.</p>

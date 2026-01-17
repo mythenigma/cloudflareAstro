@@ -1,7 +1,7 @@
 ---
 title: "Enterprise-Datei-Vernichtungssystem: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie ein Enterprise-Datei-Vernichtungssystem implementieren. Vollständiger Leitfaden zu Datei-Vernichtung, automatischer Löschung und Enterprise-Sicherheit."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Enterprise", "Vernichtung", "Sicherheit"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Ein Datei-Vernichtungssystem ermöglicht es, Dokumente automatisch zu löschen, 
     <h3>⏰ Automatische Löschung</h3>
     <p>Löschen Sie Dokumente automatisch nach Ablaufdatum.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔢 Limit-basiert</h3>
     <p>Löschen Sie nach Erreichen von Zugriffslimits.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🛡️ Sicherheit</h3>
     <p>Sichere und vollständige Löschung von Dokumenten.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Verwaltung</h3>
     <p>Zentralisierte Verwaltung von Löschrichtlinien.</p>

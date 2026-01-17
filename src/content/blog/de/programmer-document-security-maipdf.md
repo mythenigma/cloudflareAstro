@@ -1,7 +1,7 @@
 ---
 title: "Programmierer-Dokumentensicherheit mit MaiPDF: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Programmierer Dokumente sicher mit MaiPDF teilen können. Vollständiger Leitfaden zu Dokumentensicherheit für Programmierer, Code-Sharing und technische Dokumentation."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Programmierer", "Sicherheit", "Dokumente"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🔒 Sicherheit</h3>
     <p>Schützen Sie technische Dokumente und Code-Dokumentation.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Kontrolle</h3>
     <p>Kontrollieren Sie Zugriff auf Projektmaterialien.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Effizienz</h3>
     <p>Teilen Sie Dokumentation schnell und sicher.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🛡️ Schutz</h3>
     <p>Schützen Sie proprietären Code und Dokumentation.</p>

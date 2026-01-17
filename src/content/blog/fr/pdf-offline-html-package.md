@@ -1,7 +1,7 @@
 ---
 title: "Solution de lecture PDF hors ligne sécurisée : Génération de paquets HTML en un clic"
 description: "Une solution de lecture PDF hors ligne pour les réunions sans réseau, les salles de classe, les environnements isolés et les forfaits client, tout en maintenant un contrôle d'accès sans nécessiter d'installation de logiciel."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet HTML"]
 ---
@@ -109,7 +109,6 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interface de téléchargement PDF" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -121,7 +120,6 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <img src="/offlinepages/security_setting.png" alt="Interface des paramètres de sécurité" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -199,21 +197,18 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
     <p>50× vues, durée de 60 min, téléchargement désactivé</p>
     <p>Les étudiants peuvent consulter en classe, expire automatiquement après</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>Lecture d'échantillons d'e-books</h3>
     <p>3× vues, durée de 20 min, expire dans trois jours</p>
     <p>Encourage l'achat de la version complète, empêche la redistribution</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Révision de rapport sur réseau isolé</h3>
     <p>5× vues, durée de 30 min, téléchargement désactivé</p>
     <p>Garantit que les fichiers restent dans le réseau interne</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Forfait de ressources client</h3>
@@ -233,7 +228,6 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <p>R : Les paquets hors ligne ne dépendent pas d'Internet, donc les moteurs de recherche ne peuvent pas accéder aux fichiers locaux. Lors du partage de liens en ligne, des jetons aléatoires de ≥32 bits sont utilisés, empêchant l'indexation.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q2 : Les journaux seront-ils perdus si les destinataires ne se connectent jamais à Internet ?</strong></p>
@@ -242,7 +236,6 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <p>R : Les journaux sont d'abord sauvegardés localement dans le navigateur, puis automatiquement transmis lorsque l'appareil se connecte ensuite à Internet.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q3 : Que faire si mon fichier est très volumineux (>100 Mo) ?</strong></p>
@@ -251,7 +244,6 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <p>R : Vous pouvez d'abord compresser les images ou diviser le document en chapitres. Pour des limites plus élevées, contactez-nous concernant la version Enterprise.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">
       <p><strong>Q4 : Le paquet hors ligne peut-il être modifié secondairement ?</strong></p>

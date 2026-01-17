@@ -1,7 +1,7 @@
 ---
 title: "Sofortige PDF-Link-Generierung: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie PDF-Links sofort generieren. Vollständiger Leitfaden zur schnellen Link-Generierung, PDF-Sharing und QR-Codes."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Links", "Generierung", "Schnell"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Die sofortige Link-Generierung ermöglicht es, teilbare Links für PDF-Dokumente
     <h3>⚡ Schnell</h3>
     <p>Generieren Sie Links in Sekunden.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔗 Teilbare Links</h3>
     <p>Erstellen Sie Links, die auf jedem Gerät funktionieren.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📱 QR-Codes</h3>
     <p>Erhalten Sie automatisch QR-Codes.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Sicher</h3>
     <p>Behalten Sie die Sicherheit beim einfachen Teilen.</p>

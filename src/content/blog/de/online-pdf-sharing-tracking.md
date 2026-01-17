@@ -1,7 +1,7 @@
 ---
 title: "Online-PDF-Sharing-Tracking: Überwachung und Analyse"
 description: "Erfahren Sie, wie Sie Online-PDF-Sharing verfolgen und überwachen. Vollständiger Leitfaden zu PDF-Tracking, Zugriffsanalyse und Überwachung geteilter Dokumente."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Tracking", "Überwachung", "Analyse"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ PDF-Tracking ist die Fähigkeit, den Zugriff auf geteilte PDF-Dokumente zu über
     <h3>📊 Zugriffsprotokoll</h3>
     <p>Sehen Sie, wer auf Ihre Dokumente zugegriffen hat und wann.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Standortinformationen</h3>
     <p>Erfahren Sie, von wo auf Ihre Dokumente zugegriffen wurde.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⏱️ Sitzungsdauer</h3>
     <p>Überwachen Sie, wie lange jedes Dokument angesehen wurde.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📈 Statistiken</h3>
     <p>Analysieren Sie Zugriffsmuster und Nutzung.</p>

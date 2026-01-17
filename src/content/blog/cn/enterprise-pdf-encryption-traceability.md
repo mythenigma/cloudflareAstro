@@ -1,7 +1,7 @@
 ---
 title: "企业级 PDF 权限管理：加密传输与可追溯分享全指南"
 description: "如何建立完善的 PDF 权限管理流程，实现加密传输、访问控制和全程可追溯的企业文档安全方案"
-pubDate: "May 1 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/没加电话验证的设置界面.png"
 tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯分享"]
 ---
@@ -110,7 +110,6 @@ tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯�
       <li>平台自动进行 AES‑256 加密，生成随机文件标识符</li>
     </ul>
   </div>
-  
   <div class="step">
     <h3>Step 2 &nbsp; 制定访问策略</h3>
     <div class="policy-table">
@@ -147,7 +146,6 @@ tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯�
       </table>
     </div>
   </div>
-  
   <div class="step">
     <h3>Step 3 &nbsp; 生成安全链接 / 二维码</h3>
     <ul>
@@ -156,7 +154,6 @@ tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯�
     </ul>
     <img src="/maifle/阅读码示例.png" alt="安全链接与二维码示例" class="step-image">
   </div>
-  
   <div class="step">
     <h3>Step 4 &nbsp; 分发与提醒</h3>
     <ul>
@@ -164,7 +161,6 @@ tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯�
       <li>邮件正文标注"阅读次数有限，请勿转发"</li>
     </ul>
   </div>
-  
   <div class="step">
     <h3>Step 5 &nbsp; 审计与回收</h3>
     <ul>
@@ -259,13 +255,11 @@ tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯�
     <h4>临时需要下载怎么办？</h4>
     <p>可为指定收件人单独生成下载版链接，设置一次性下载权限。</p>
   </div>
-  
   <div class="faq-item">
     <h4>访问次数用完能续期吗？</h4>
     <p>可以，在后台调整次数后更新令牌即可。</p>
     <img src="/maifle/替换阅读码的例子.png" alt="更新访问令牌" class="faq-image">
   </div>
-  
   <div class="faq-item">
     <h4>日志是否会影响隐私合规？</h4>
     <p>日志字段不含用户实名信息，仅记录技术指标，满足 GDPR 合规豁免条件。</p>
@@ -288,14 +282,12 @@ tags: ["企业文档", "PDF加密", "权限管理", "数据安全", "可追溯�
     <p><strong>配置：</strong>阅读次数 3 次，阅读时长 20 分钟，开启审计日志 180 天</p>
     <p><strong>收益：</strong>满足金融监管合规要求，防止核心研报外传</p>
   </div>
-  
   <div class="scenario-card">
     <h4>🏥 医疗健康</h4>
     <p><strong>场景：</strong>患者病历在医疗团队内部共享</p>
     <p><strong>配置：</strong>白名单访问 + IP 限制，自动 14 天失效</p>
     <p><strong>收益：</strong>满足 HIPAA 隐私保护条例，建立清晰责任边界</p>
   </div>
-  
   <div class="scenario-card">
     <h4>🔬 研发部门</h4>
     <p><strong>场景：</strong>专利文件与外部律师多人共享</p>

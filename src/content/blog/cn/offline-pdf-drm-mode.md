@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF离线PDF DRM模式：无网环境下的文档安全控制方案"
 description: "了解MaiPDF的离线DRM功能，无需专用阅读器即可在离线环境中控制PDF的访问权限、使用时长及打印复制等操作，适合教育、出版与企业场景。"
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
 ---
@@ -81,7 +81,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF上传界面" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -90,7 +89,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       <img src="/offlinepages/security_setting.png" alt="权限设置" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -99,7 +97,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       <img src="/offlinepages/result_download_zip_file.png" alt="生成离线包" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -111,7 +108,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -136,7 +132,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       <p>把每页转位图或按流式渲染，避免提取文本。</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -144,7 +139,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       <p>读取localStorage保存的剩余次数；无网络亦可执行。</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -152,7 +146,6 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
       <p>初次打开生成指纹（浏览器UA、屏幕尺寸等），后续校验指纹不匹配则拒绝。</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
@@ -205,19 +198,16 @@ tags: ["PDF安全", "文档DRM", "离线控制", "文件加密"]
     <h3>教材/讲义</h3>
     <p>在无网教室发给学员本地阅读，课后到期失效。</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>电子说明书</h3>
     <p>随产品附赠离线HTML，客户可离线查看但不能转存源PDF。</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>图书样章试读</h3>
     <p>设置阅读2次、20分钟，鼓励购买正式版。</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>安全审阅</h3>

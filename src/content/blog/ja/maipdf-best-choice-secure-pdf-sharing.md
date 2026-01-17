@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF：安全なPDF共有の最良の選択 - ファイルを完全にコントロール"
 description: "仕事、教育、研究で安全なPDF共有が必要ですか？MaiPDFは閲覧制限、ダウンロード/印刷制限、メール認証などのセキュリティ機能を提供。Cloudflare R2による企業レベルの保護。"
-pubDate: "Sep 09 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security setting.png"
 tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", "アクセス制御"]
 ---
@@ -539,7 +539,6 @@ tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", 
 
 <div class="features-section">
   <h2 style="text-align: center; margin-bottom: 2rem; color: #2d3748; font-size: 2rem;">コアセキュリティ機能</h2>
-  
   <div class="features-grid">
     <div class="feature-card">
       <div class="feature-header">
@@ -553,7 +552,6 @@ tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", 
         <strong>使用例：</strong> クライアントに見積書を送信 → 3回のみ閲覧許可 → 競合他社への共有を防止
       </div>
     </div>
-
     <div class="feature-card">
       <div class="feature-header">
         <div class="feature-icon">🛡️</div>
@@ -566,7 +564,6 @@ tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", 
         <strong>使用例：</strong> 教師が試験PDFをアップロード → 学生はオンラインでのみ閲覧可能 → ダウンロードや印刷不可 → 問題の漏洩を防止
       </div>
     </div>
-
     <div class="feature-card">
       <div class="feature-header">
         <div class="feature-icon">✅</div>
@@ -579,7 +576,6 @@ tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", 
         <strong>使用例：</strong> 機密契約書を送信 → メール認証を要求 → 誰がいつファイルを閲覧したかを正確に把握
       </div>
     </div>
-
     <div class="feature-card">
       <div class="feature-header">
         <div class="feature-icon">⚡</div>
@@ -597,20 +593,17 @@ tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", 
 
 <div class="tech-section">
   <h2 style="text-align: center; margin-bottom: 1rem; color: #2d3748;">Cloudflare R2技術保証</h2>
-  
   <div class="tech-grid">
     <div class="tech-item">
       <div class="tech-icon">🌍</div>
       <h3 class="tech-title">グローバル加速</h3>
       <p class="tech-desc">世界中で超高速なPDFアクセス応答</p>
     </div>
-
     <div class="tech-item">
       <div class="tech-icon">🔐</div>
       <h3 class="tech-title">安全暗号化</h3>
       <p class="tech-desc">エンドツーエンド暗号化による伝送・保存</p>
     </div>
-
     <div class="tech-item">
       <div class="tech-icon">🎯</div>
       <h3 class="tech-title">高可用性</h3>
@@ -628,19 +621,16 @@ tags: ["PDFセキュリティ", "ファイル保護", "安全共有", "MaiPDF", 
       <h3 class="scenario-title">企業ビジネス</h3>
       <p class="scenario-desc">契約書、見積書、プロジェクトファイルの安全な流通。企業秘密の漏洩を防ぎ、認可された担当者のみが重要文書を閲覧できることを保証します。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">📚</span>
       <h3 class="scenario-title">教育・教学</h3>
       <p class="scenario-desc">試験、配布資料、解答の制御された共有により、早期漏洩を防止。教師は学生のアクセス権限と回数を正確にコントロールできます。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">🔬</span>
       <h3 class="scenario-title">学術研究</h3>
       <p class="scenario-desc">論文や内部研究資料への精密なアクセス制御。知的財産を保護し、研究成果のセキュリティを確保します。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">👥</span>
       <h3 class="scenario-title">チーム協働</h3>

@@ -18,7 +18,6 @@ tags: ["PDF Encryption", "Document Security", "Leak Prevention", "Information Pr
 
 <div class="scenario-container">
   <h3>Have you encountered these situations?</h3>
-  
   <div class="scenario-card">
     <div class="scenario-icon">📊</div>
     <div class="scenario-content">
@@ -26,7 +25,6 @@ tags: ["PDF Encryption", "Document Security", "Leak Prevention", "Information Pr
       <p>Carefully prepared quotation proposals forwarded by clients to competitors, leading to business secret leaks and price wars</p>
     </div>
   </div>
-  
   <div class="scenario-card">
     <div class="scenario-icon">📝</div>
     <div class="scenario-content">
@@ -34,7 +32,6 @@ tags: ["PDF Encryption", "Document Security", "Leak Prevention", "Information Pr
       <p>Contracts containing sensitive terms arbitrarily shared, causing unnecessary risks and disputes</p>
     </div>
   </div>
-  
   <div class="scenario-card">
     <div class="scenario-icon">📋</div>
     <div class="scenario-content">
@@ -93,18 +90,15 @@ Dynamic watermark is a powerful anti-leakage measure provided by MaiPDF, automat
     <h4>👤 Identity Binding</h4>
     <p>Automatically add watermarks containing reader's phone number or email on each PDF page, binding documents to viewer identity.</p>
   </div>
-  
   <div class="feature-card">
     <h4>🔄 Dynamic Generation</h4>
     <p>Each reader sees different watermarks. Even if the same PDF is viewed by multiple people, the distribution source can be accurately identified.</p>
     <img src="/maifle/页面上显示水印位置.png" alt="Watermark example" class="feature-image">
   </div>
-  
   <div class="feature-card">
     <h4>🔍 Leak Traceability</h4>
     <p>Once documents are distributed without authorization, the leak source can be immediately identified through watermark information, achieving effective accountability.</p>
   </div>
-  
   <div class="feature-card">
     <h4>🖨️ Screenshot Protection</h4>
     <p>Even if documents are screenshotted, watermarks still exist, cannot avoid responsibility, providing comprehensive document security.</p>
@@ -126,7 +120,6 @@ For highly sensitive documents, MaiPDF provides phone verification to ensure onl
       <p>Uploader can enable phone verification in sharing settings</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -135,7 +128,6 @@ For highly sensitive documents, MaiPDF provides phone verification to ensure onl
       <img src="/maifle/添加电话号码,输入手机验证码才能查看文件.jpg" alt="Phone verification process" class="step-image">
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -143,7 +135,6 @@ For highly sensitive documents, MaiPDF provides phone verification to ensure onl
       <p>System sends one-time verification code to reader's phone</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -165,23 +156,19 @@ MaiPDF's powerful tracking feature makes every document access clear at a glance
       <h4>🕒 Time Tracking</h4>
       <p>Accurately record the specific time each document was opened</p>
     </div>
-    
     <div class="feature-block">
       <h4>📍 Geographic Location</h4>
       <p>Display reader's approximate geographic location based on IP address</p>
     </div>
-    
     <div class="feature-block">
       <h4>💻 Device Information</h4>
       <p>Record device type and browser used by visitor</p>
     </div>
-    
     <div class="feature-block">
       <h4>⏱️ Reading Duration</h4>
       <p>Statistics on duration of each reading, understand reading depth</p>
     </div>
   </div>
-  
   <div class="tracking-note">
     <p><strong>Note:</strong> When the document's maximum open count is set to less than 10,000 times, the system automatically enables detailed access statistics.</p>
   </div>
@@ -206,7 +193,6 @@ MaiPDF's security protection features play important roles in various scenarios:
       </ul>
     </div>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🎓</div>
     <h4>Internal Training and Management Documents</h4>
@@ -219,7 +205,6 @@ MaiPDF's security protection features play important roles in various scenarios:
       </ul>
     </div>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📄</div>
     <h4>Temporary Shared Contracts or Agreements</h4>
@@ -232,7 +217,6 @@ MaiPDF's security protection features play important roles in various scenarios:
       </ul>
     </div>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔬</div>
     <h4>R&D Materials and Intellectual Property</h4>
@@ -300,7 +284,6 @@ MaiPDF's security protection features play important roles in various scenarios:
       </div>
     </div>
   </div>
-  
   <div class="case-study">
     <div class="quote-mark">❝</div>
     <div class="case-content">
@@ -324,7 +307,6 @@ MaiPDF's security protection features play important roles in various scenarios:
       <p>Visit MaiPDF.cn, upload the PDF file you need to protect to the platform</p>
     </div>
   </div>
-  
   <div class="security-step">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -339,7 +321,6 @@ MaiPDF's security protection features play important roles in various scenarios:
       </ul>
     </div>
   </div>
-  
   <div class="security-step">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -357,17 +338,14 @@ MaiPDF's security protection features play important roles in various scenarios:
     <div class="stat-value">99.9%</div>
     <div class="stat-label">Document Security Guarantee Rate</div>
   </div>
-  
   <div class="stat-card">
     <div class="stat-value">100%</div>
     <div class="stat-label">Watermark Tracking Accuracy</div>
   </div>
-  
   <div class="stat-card">
     <div class="stat-value">80%</div>
     <div class="stat-label">File Leak Risk Reduction</div>
   </div>
-  
   <div class="stat-card">
     <div class="stat-value">24/7</div>
     <div class="stat-label">Access Monitoring Coverage</div>

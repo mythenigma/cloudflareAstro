@@ -1,7 +1,7 @@
 ---
 title: "PDF-Links Generieren die auf Jedem Gerät Funktionieren"
 description: "Erfahren Sie, wie Sie PDF-Links generieren, die auf jedem Gerät funktionieren. Vollständiger Leitfaden zu universellen PDF-Links, Multi-Device-Kompatibilität und plattformübergreifendem Zugriff."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Links", "Multi-Device", "Kompatibilität"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>📱 Multi-Device</h3>
     <p>Funktioniert auf Desktop, Tablet und Smartphone.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🌐 Plattformübergreifend</h3>
     <p>Kompatibel mit Windows, Mac, iOS, Android und mehr.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Nahtlos</h3>
     <p>Einheitliche Erfahrung auf allen Geräten.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔒 Sicher</h3>
     <p>Sichere Links mit Kontrolle über Zugriff.</p>

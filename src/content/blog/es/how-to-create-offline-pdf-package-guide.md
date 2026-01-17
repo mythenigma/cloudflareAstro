@@ -1,7 +1,7 @@
 ---
 title: "Guía: Cómo Crear Paquete PDF Sin Conexión"
 description: "Aprenda cómo crear paquetes PDF sin conexión. Guía completa sobre crear paquetes PDF sin conexión, paquetes de descarga y acceso sin conexión."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Sin Conexión", "Paquete", "Descarga"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Un paquete PDF sin conexión es una colección de documentos PDF empaquetados pa
     <h3>📦 Empaquetado</h3>
     <p>Combine múltiples documentos en un paquete.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📥 Descarga</h3>
     <p>Los destinatarios pueden descargar todo el paquete.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Acceso Sin Conexión</h3>
     <p>Acceso completo sin conexión a internet.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Seguridad</h3>
     <p>Protección incluso en modo sin conexión.</p>

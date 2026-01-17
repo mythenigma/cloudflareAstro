@@ -1,7 +1,7 @@
 ---
 title: "🛡️ Protege tus PDFs en línea—Controla quién visualiza, comparte o edita tus documentos"
 description: "Aprende a proteger información sensible en tus PDFs sin software complejo ni herramientas costosas. Toma el control de la compartición de tus documentos con medidas de seguridad simples pero potentes."
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
 tags: ["Seguridad PDF", "Protección de Documentos", "Compartición de Archivos", "Control de Información"]
 ---
@@ -48,27 +48,22 @@ Esto es lo que puedes hacer con MaiPDF:
     <span class="feature-icon">📥</span>
     <p>Sube tu PDF a la nube</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">🔗</span>
     <p>Compártelo a través de un enlace seguro o código QR</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">👁️</span>
     <p>Establece un límite de visualizaciones (p.ej., permitir 3 aperturas en total)</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">❌</span>
     <p>Desactiva la descarga y la impresión</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">📍</span>
     <p>Rastrea el acceso (IP, hora, ubicación)</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">🔧</span>
     <p>Usa un código de edición para cambiar la configuración o detener el acceso en cualquier momento</p>
@@ -89,7 +84,6 @@ Todo esto sucede en línea. Sin software, sin configuración técnica—solo com
       <p>Envía una propuesta que solo se puede ver dos veces</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">👨‍🏫</span>
     <div class="scenario-content">
@@ -97,7 +91,6 @@ Todo esto sucede en línea. Sin software, sin configuración técnica—solo com
       <p>Distribuye documentos a estudiantes que no se pueden descargar ni reenviar</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">🔒</span>
     <div class="scenario-content">
@@ -105,7 +98,6 @@ Todo esto sucede en línea. Sin software, sin configuración técnica—solo com
       <p>Comparte informes internos que caducan después de una semana</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">🧠</span>
     <div class="scenario-content">

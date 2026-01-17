@@ -1,7 +1,7 @@
 ---
 title: "QR-Codes: Die Zukunft der Digitalen Verteilung"
 description: "Erfahren Sie, wie QR-Codes die Zukunft der digitalen Verteilung prägen. Vollständiger Leitfaden zu QR-Codes, digitaler Verteilung und modernem Sharing."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "QR-Code", "Digital", "Verteilung"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>📱 Mobile</h3>
     <p>Perfekt für mobile Geräte und Smartphones.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Schnell</h3>
     <p>Sofortiger Zugriff mit einem Scan.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔗 Einfach</h3>
     <p>Einfaches Teilen ohne komplizierte Links.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🌐 Universell</h3>
     <p>Funktioniert auf allen Geräten und Plattformen.</p>

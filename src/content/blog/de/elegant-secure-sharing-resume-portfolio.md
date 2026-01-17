@@ -1,7 +1,7 @@
 ---
 title: "Elegantes und Sicheres Teilen von Lebenslauf und Portfolio"
 description: "Erfahren Sie, wie Sie Lebensläufe und Portfolios elegant und sicher teilen. Vollständiger Leitfaden zum sicheren Teilen von Lebensläufen, Portfolios und professionellen Dokumenten."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Lebenslauf", "Portfolio", "Sharing"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>💼 Professionell</h3>
     <p>Präsentieren Sie sich professionell mit eleganten Links.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🔒 Sicher</h3>
     <p>Schützen Sie persönliche Informationen mit Sicherheitsmaßnahmen.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Tracking</h3>
     <p>Überwachen Sie, wer auf Ihre Dokumente zugegriffen hat.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Schnell</h3>
     <p>Teilen Sie Dokumente schnell und einfach.</p>

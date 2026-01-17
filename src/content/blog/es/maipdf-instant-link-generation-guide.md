@@ -1,7 +1,7 @@
 ---
 title: "Guía de Generación Instantánea de Enlaces MaiPDF"
 description: "Aprenda cómo generar enlaces PDF instantáneamente con MaiPDF. Guía completa sobre generación rápida de enlaces, compartir PDF y códigos QR."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "MaiPDF", "Enlaces", "Generación"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ La generación instantánea de enlaces permite crear enlaces compartibles para d
     <h3>⚡ Rápido</h3>
     <p>Genere enlaces en segundos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔗 Enlaces Compartibles</h3>
     <p>Cree enlaces que funcionan en cualquier dispositivo.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📱 Códigos QR</h3>
     <p>Obtenga códigos QR automáticamente.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Seguro</h3>
     <p>Mantenga la seguridad mientras comparte fácilmente.</p>

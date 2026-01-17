@@ -1,7 +1,7 @@
 ---
 title: "Seguimiento de Compartir PDF en Línea: Monitoreo y Análisis"
 description: "Aprenda cómo rastrear y monitorear el compartir PDF en línea. Guía completa sobre seguimiento de PDF, análisis de acceso y monitoreo de documentos compartidos."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Seguimiento", "Monitoreo", "Análisis"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ El seguimiento de PDF es la capacidad de monitorear y registrar el acceso a docu
     <h3>📊 Registro de Acceso</h3>
     <p>Vea quién accedió a sus documentos y cuándo.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Información de Ubicación</h3>
     <p>Conozca desde dónde se accedió a sus documentos.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⏱️ Duración de Sesión</h3>
     <p>Monitoree cuánto tiempo se pasó viendo cada documento.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📈 Estadísticas</h3>
     <p>Analice patrones de acceso y uso.</p>

@@ -1,7 +1,7 @@
 ---
 title: "🛡️ 在线保护您的PDF文件—控制谁可以查看、分享或编辑您的文档"
 description: "了解如何在不使用复杂软件或昂贵工具的情况下保护PDF中的敏感信息。通过简单而强大的安全措施掌控文档共享。"
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
 tags: ["PDF安全", "文档保护", "文件共享", "信息控制"]
 ---
@@ -50,27 +50,22 @@ MaiPDF是一个免费的在线工具，无需您（或接收者）安装任何�
     <span class="feature-icon">📥</span>
     <p>将PDF上传到云端</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">🔗</span>
     <p>通过安全链接或二维码共享</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">👁️</span>
     <p>设置查看限制（例如总共允许3次打开）</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">❌</span>
     <p>禁用下载和打印</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">📍</span>
     <p>跟踪访问（IP、时间、位置）</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">🔧</span>
     <p>使用编辑码随时更改设置或停止访问</p>
@@ -91,7 +86,6 @@ MaiPDF是一个免费的在线工具，无需您（或接收者）安装任何�
       <p>发送只能查看两次的提案</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">👨‍🏫</span>
     <div class="scenario-content">
@@ -99,7 +93,6 @@ MaiPDF是一个免费的在线工具，无需您（或接收者）安装任何�
       <p>向学生分发无法下载或转发的讲义</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">🔒</span>
     <div class="scenario-content">
@@ -107,7 +100,6 @@ MaiPDF是一个免费的在线工具，无需您（或接收者）安装任何�
       <p>共享一周后过期的内部报告</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">🧠</span>
     <div class="scenario-content">

@@ -1,7 +1,7 @@
 ---
 title: "A minimalist PDF link generator"
 description: "Upload a PDF and generate a shareable link with simple access controls. No registration required."
-pubDate: "June 03 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/upload_section.png"
 ---
 
@@ -166,7 +166,6 @@ Works with all modern browsers on any platform: Windows, Mac, Linux, iOS, Androi
       <p>Visit MaiPDF.com in any web browser. No registration, no account creation, no email verification required.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -174,7 +173,6 @@ Works with all modern browsers on any platform: Windows, Mac, Linux, iOS, Androi
       <p>Drag your file to the upload area or click to browse. The upload begins immediately with a progress indicator.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -187,7 +185,6 @@ Works with all modern browsers on any platform: Windows, Mac, Linux, iOS, Androi
       </ul>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -195,7 +192,6 @@ Works with all modern browsers on any platform: Windows, Mac, Linux, iOS, Androi
       <p>Receive a unique URL and optional QR code. Copy the link and share it through any channel: email, messaging, social media, or embed it in websites.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">5</div>
     <div class="step-content">

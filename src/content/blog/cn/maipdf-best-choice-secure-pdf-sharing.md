@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF：安全分享 PDF 的最佳选择，让你的文件更可控"
 description: "在工作、教学、科研中需要安全分享PDF？MaiPDF提供限制打开次数、禁止下载打印、邮箱验证等多重安全保护，基于Cloudflare R2存储，让PDF分享既高效又安全可控。"
-pubDate: "Sep 09 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security setting.png"
 tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 ---
@@ -539,7 +539,6 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 
 <div class="features-section">
   <h2 style="text-align: center; margin-bottom: 2rem; color: #2d3748; font-size: 2rem;">核心安全功能</h2>
-  
   <div class="features-grid">
     <div class="feature-card">
       <div class="feature-header">
@@ -553,7 +552,6 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
         <strong>场景示例：</strong>给客户发报价单 → 只允许打开 3 次 → 防止被转发给其他竞争对手
       </div>
     </div>
-
     <div class="feature-card">
       <div class="feature-header">
         <div class="feature-icon">🛡️</div>
@@ -566,7 +564,6 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
         <strong>场景示例：</strong>教师上传试卷 PDF → 学生只能在线查看 → 无法下载或打印 → 防止题目泄露
       </div>
     </div>
-
     <div class="feature-card">
       <div class="feature-header">
         <div class="feature-icon">✅</div>
@@ -579,7 +576,6 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
         <strong>场景示例：</strong>发送机密合同 → 要求邮箱验证 → 知道具体是谁在何时查看了文件
       </div>
     </div>
-
     <div class="feature-card">
       <div class="feature-header">
         <div class="feature-icon">⚡</div>
@@ -597,20 +593,17 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 
 <div class="tech-section">
   <h2 style="text-align: center; margin-bottom: 1rem; color: #2d3748;">Cloudflare R2 技术保障</h2>
-  
   <div class="tech-grid">
     <div class="tech-item">
       <div class="tech-icon">🌍</div>
       <h3 class="tech-title">全球加速</h3>
       <p class="tech-desc">访问 PDF 极速响应，无论身在何处</p>
     </div>
-
     <div class="tech-item">
       <div class="tech-icon">🔐</div>
       <h3 class="tech-title">安全加密</h3>
       <p class="tech-desc">传输与存储全程加密保护</p>
     </div>
-
     <div class="tech-item">
       <div class="tech-icon">🎯</div>
       <h3 class="tech-title">高可用性</h3>
@@ -628,19 +621,16 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
       <h3 class="scenario-title">企业商务</h3>
       <p class="scenario-desc">合同、报价单、项目文件安全传阅，防止商业机密泄露，确保只有授权人员能够查看重要文档。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">📚</span>
       <h3 class="scenario-title">教育教学</h3>
       <p class="scenario-desc">试卷、讲义、答案受控分享，防止提前泄露，教师可以精确控制学生的访问权限和次数。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">🔬</span>
       <h3 class="scenario-title">学术研究</h3>
       <p class="scenario-desc">论文、内部研究资料精准控制访问权限，保护知识产权，确保研究成果的安全性。</p>
     </div>
-
     <div class="scenario-card">
       <span class="scenario-emoji">👥</span>
       <h3 class="scenario-title">多人共享</h3>

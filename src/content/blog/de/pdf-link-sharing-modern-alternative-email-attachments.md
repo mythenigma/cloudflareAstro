@@ -1,7 +1,7 @@
 ---
 title: "PDF-Link-Sharing: Moderne Alternative zu E-Mail-Anhängen"
 description: "Erfahren Sie, warum PDF-Link-Sharing eine moderne Alternative zu E-Mail-Anhängen ist. Vollständiger Leitfaden zu Link-Sharing, Vorteilen und Best Practices."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Links", "E-Mail", "Sharing"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>📧 Keine Größenlimits</h3>
     <p>Vermeiden Sie E-Mail-Größenlimits mit Link-Sharing.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>🔒 Sicherer</h3>
     <p>Mehr Kontrolle und Sicherheit mit Link-Sharing.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>📊 Tracking</h3>
     <p>Überwachen Sie, wer auf Dokumente zugegriffen hat.</p>
   </div>
-  
   <div class="advantage-card">
     <h3>⚡ Schneller</h3>
     <p>Schnelleres Senden ohne große Anhänge.</p>

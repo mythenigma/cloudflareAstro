@@ -1,7 +1,7 @@
 ---
 title: "PDF 如何一键生成分享链接？MaiPDF 让文件分享更高效！"
 description: "告别复杂的文件分享方式！MaiPDF让PDF文件一键生成分享链接，免登录查看，支持邮箱验证，基于Cloudflare R2提供极速访问。让文件分享像发消息一样简单。"
-pubDate: "Sep 09 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/result of pdf link and qr code.png"
 tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
 ---
@@ -423,13 +423,11 @@ tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
     <h3 class="feature-title">上传即生成</h3>
     <p class="feature-desc">使用 MaiPDF 上传 PDF 文件后，系统会自动生成一个可访问的链接。只需要把这个链接发给对方即可。</p>
   </div>
-
   <div class="feature-card">
     <div class="feature-icon">👥</div>
     <h3 class="feature-title">免登录查看</h3>
     <p class="feature-desc">对方无需注册、无需登录，点击即可在线查看 PDF。告别复杂的注册流程。</p>
   </div>
-
   <div class="feature-card">
     <div class="feature-icon">📱</div>
     <h3 class="feature-title">全设备兼容</h3>
@@ -456,13 +454,11 @@ tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
     <h3 class="feature-title">邮箱验证</h3>
     <p class="feature-desc">对于重要或机密文件，可以设置只有验证过邮箱的用户才能打开。</p>
   </div>
-
   <div class="feature-card">
     <div class="feature-icon">📊</div>
     <h3 class="feature-title">访问记录</h3>
     <p class="feature-desc">每次访问都有详细记录，避免无权限传播，完全掌握文件的可见范围。</p>
   </div>
-
   <div class="feature-card">
     <div class="feature-icon">🔒</div>
     <h3 class="feature-title">权限控制</h3>
@@ -476,20 +472,17 @@ MaiPDF 使用 **Cloudflare R2** 作为底层文件存储技术：
 
 <div class="steps-section">
   <h2 style="text-align: center; margin-bottom: 1rem; color: #2d3748;">技术优势</h2>
-  
   <div class="steps-grid">
     <div class="step-item">
       <div class="step-number">⚡</div>
       <h3 class="step-title">高速传输</h3>
       <p class="step-desc">无论国内还是海外，访问 PDF 秒开</p>
     </div>
-
     <div class="step-item">
       <div class="step-number">🔐</div>
       <h3 class="step-title">安全加密</h3>
       <p class="step-desc">数据传输与存储全程受保护</p>
     </div>
-
     <div class="step-item">
       <div class="step-number">🎯</div>
       <h3 class="step-title">高可用性</h3>
@@ -582,7 +575,6 @@ MaiPDF 使用 **Cloudflare R2** 作为底层文件存储技术：
 
 <div class="steps-section">
   <h2 style="text-align: center; margin-bottom: 1rem; color: #2d3748;">简单三步，轻松分享</h2>
-  
   <div class="steps-grid">
     <div class="step-item">
       <div class="step-number">1</div>

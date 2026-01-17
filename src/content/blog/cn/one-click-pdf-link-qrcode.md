@@ -1,7 +1,7 @@
 ---
 title: "一键链接 & 二维码：PDF 轻量分享实用指南"
 description: "如何将PDF转换为链接与二维码，实现简历、交易凭证、学习资料等便捷分享的完整指南"
-pubDate: "May 1 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件控制"]
 ---
@@ -42,7 +42,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <p>传统PDF分享方式在移动互联网时代面临诸多限制</p>
     </div>
   </div>
-
   <div class="challenges-comparison">
     <div class="challenge-traditional">
       <h4>⚠️ 传统方式痛点</h4>
@@ -111,7 +110,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       </div>
     </div>
   </div>
-  
   <div class="solution-summary">
     <div class="summary-icon">💫</div>
     <div class="summary-content">
@@ -140,7 +138,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <img src="/maifle/maipdf的首页入口.png" alt="MaiPDF界面" class="features-hero-image">
     </div>
   </div>
-
   <div class="features-grid-modern">
     <div class="features-row">
       <div class="feature-card-compact">
@@ -206,7 +203,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       </div>
     </div>
   </div>
-  
   <div class="features-note">
     <div class="note-icon">💡</div>
     <div class="note-content">
@@ -225,7 +221,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <p>从上传到分享，整个过程不超过1分钟</p>
     </div>
   </div>
-
   <div class="guide-steps-horizontal">
     <div class="steps-flow">
       <div class="step-card-modern">
@@ -293,7 +288,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <p>根据不同使用场景，推荐最佳的参数配置方案</p>
     </div>
   </div>
-
   <div class="scenarios-grid">
     <div class="scenario-card">
       <div class="scenario-header">
@@ -413,7 +407,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <p>手帐博主林同学，拥有5k+粉丝，需要分享设计模板又要保护原创</p>
     </div>
   </div>
-
   <div class="case-execution">
     <div class="execution-steps">
       <h5>🔧 实施方案</h5>
@@ -537,7 +530,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <p>解答用户在使用过程中的常见疑问</p>
     </div>
   </div>
-
   <div class="faq-grid">
     <div class="faq-card">
       <div class="faq-question">
@@ -591,7 +583,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
       <p>发现PDF链接分享的更多可能性</p>
     </div>
   </div>
-  
   <div class="creative-grid">
     <div class="creative-card">
       <div class="creative-header">
@@ -664,7 +655,6 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
         <a href="#三步操作指南" class="cta-secondary">查看操作指南</a>
       </div>
     </div>
-    
     <div class="cta-visual">
       <img src="/maifle/maipdf的首页入口.png" alt="MaiPDF首页" class="cta-image">
     </div>

@@ -1,7 +1,7 @@
 ---
 title: "Enterprise-PDF-Dokumentenverwaltung: Vollständiger Leitfaden"
 description: "Erfahren Sie, wie Sie Enterprise-PDF-Dokumentenverwaltung implementieren. Vollständiger Leitfaden zu Dokumentenverwaltung, Enterprise-Lösungen und zentralisierter Verwaltung."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Enterprise", "Verwaltung", "Dokumente"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Enterprise-Dokumentenverwaltung ist ein System zur zentralisierten Verwaltung, O
     <h3>📁 Zentralisierte Verwaltung</h3>
     <p>Verwalten Sie alle Dokumente von einem zentralen Ort aus.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🔒 Sicherheit</h3>
     <p>Umfassende Sicherheitsmaßnahmen für Enterprise-Dokumente.</p>
   </div>
-  
   <div class="feature-card">
     <h3>📊 Tracking</h3>
     <p>Detailliertes Tracking und Überwachung aller Dokumente.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⚙️ Automatisierung</h3>
     <p>Automatisierte Workflows für Dokumentenverwaltung.</p>

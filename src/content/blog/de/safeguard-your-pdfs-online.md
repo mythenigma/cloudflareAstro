@@ -1,7 +1,7 @@
 ---
 title: "🛡️ Schützen Sie Ihre PDFs online—Kontrollieren Sie, wer Ihre Dokumente ansieht, teilt oder bearbeitet"
 description: "Erfahren Sie, wie Sie sensible Informationen in Ihren PDFs ohne komplexe Software oder teure Tools schützen können. Übernehmen Sie die Kontrolle über Ihre Dokumentenfreigabe mit einfachen, aber wirksamen Sicherheitsmaßnahmen."
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
 tags: ["PDF-Sicherheit", "Dokumentenschutz", "Dateifreigabe", "Informationskontrolle"]
 ---
@@ -48,27 +48,22 @@ Hier ist, was Sie mit MaiPDF tun können:
     <span class="feature-icon">📥</span>
     <p>Laden Sie Ihr PDF in die Cloud hoch</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">🔗</span>
     <p>Teilen Sie es über einen sicheren Link oder QR-Code</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">👁️</span>
     <p>Legen Sie ein Ansichtslimit fest (z.B. insgesamt 3 Öffnungen erlauben)</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">❌</span>
     <p>Deaktivieren Sie das Herunterladen und Drucken</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">📍</span>
     <p>Verfolgen Sie den Zugriff (IP, Zeit, Ort)</p>
   </div>
-  
   <div class="feature-item">
     <span class="feature-icon">🔧</span>
     <p>Verwenden Sie einen Bearbeitungscode, um Einstellungen zu ändern oder den Zugriff jederzeit zu stoppen</p>
@@ -89,7 +84,6 @@ All das geschieht online. Keine Software, kein technisches Setup – nur intelli
       <p>Senden Sie einen Vorschlag, der nur zweimal angesehen werden kann</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">👨‍🏫</span>
     <div class="scenario-content">
@@ -97,7 +91,6 @@ All das geschieht online. Keine Software, kein technisches Setup – nur intelli
       <p>Verteilen Sie Handouts an Studenten, die nicht heruntergeladen oder weitergeleitet werden können</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">🔒</span>
     <div class="scenario-content">
@@ -105,7 +98,6 @@ All das geschieht online. Keine Software, kein technisches Setup – nur intelli
       <p>Teilen Sie interne Berichte, die nach einer Woche ablaufen</p>
     </div>
   </div>
-  
   <div class="scenario">
     <span class="scenario-icon">🧠</span>
     <div class="scenario-content">

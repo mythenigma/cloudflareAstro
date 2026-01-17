@@ -1,7 +1,7 @@
 ---
 title: "简历、作品集、报价单，如何优雅又安全地分享？"
 description: "探索职场文档分享的新方式：让简历、作品集、报价单拥有专属打开规则，设置访问次数、时效限制，实现真正的安全可控分享。"
-pubDate: "Jan 31 2025"
+pubDate: "Jan 17 2026"
 tags: ["简历分享", "作品集", "报价单", "文档安全", "职场工具"]
 author: "MaiPDF"
 image: ""
@@ -23,12 +23,10 @@ language: "cn"
     <h3 data-icon="🚫">发送后失控</h3>
     <p>一发出去就失控？文档被随意转发、下载、打印，客户还未沟通完资料已流传四方</p>
   </div>
-  
   <div class="problem-card">
     <h3 data-icon="⏰">无法设置时效</h3>
     <p>想要设置"只能打开一次"或"限时查看"，却找不到合适工具</p>
   </div>
-  
   <div class="problem-card">
     <h3 data-icon="📊">无法追踪查看</h3>
     <p>不知道文档是否被查看，查看了几次，心中没底</p>
@@ -46,17 +44,14 @@ language: "cn"
     <h4 data-icon="📱">链接&二维码分享</h4>
     <p>生成专属分享链接或二维码，支持微信、邮件等多平台分享</p>
   </div>
-  
   <div class="feature-item">
     <h4 data-icon="🔢">访问次数限制</h4>
     <p>设置最多打开次数，防止无限制传播</p>
   </div>
-  
   <div class="feature-item">
     <h4 data-icon="⏱️">时效控制</h4>
     <p>设置有效期（仅离线版），到期自动失效</p>
   </div>
-  
   <div class="feature-item">
     <h4 data-icon="🚫">下载&打印控制</h4>
     <p>禁止下载、打印，只允许在线查看</p>
@@ -134,13 +129,11 @@ language: "cn"
     <h3>上传文档</h3>
     <p>将简历、作品集或报价单上传至平台</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">2</div>
     <h3>设置权限</h3>
     <p>配置访问次数、有效期（仅离线版）、下载权限等参数</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">3</div>
     <h3>分享传递</h3>
@@ -159,7 +152,6 @@ language: "cn"
       <li>平均查看时长</li>
     </ul>
   </div>
-  
   <div class="metric-card">
     <h4>🌍 访问详情</h4>
     <ul>
@@ -168,7 +160,6 @@ language: "cn"
       <li>地理位置信息</li>
     </ul>
   </div>
-  
   <div class="metric-card">
     <h4>🔄 互动反馈</h4>
     <ul>
@@ -198,7 +189,6 @@ language: "cn"
 • 下载权限：关闭
 • 适用场景：求职投递、猎头推荐</pre>
   </div>
-
   <div class="practice-card">
     <h3>🎨 作品集展示策略</h3>
     <pre>推荐设置：
@@ -208,7 +198,6 @@ language: "cn"
 • 水印功能：开启
 • 适用场景：客户提案、设计竞标</pre>
   </div>
-
   <div class="practice-card">
     <h3>💰 报价单发送策略</h3>
     <pre>推荐设置：
@@ -227,17 +216,14 @@ language: "cn"
     <h4 data-icon="🛡️">数据加密</h4>
     <p>文档传输采用SSL加密，确保数据安全</p>
   </div>
-  
   <div class="security-item">
     <h4 data-icon="🔒">访问控制</h4>
     <p>多层权限验证，精确控制文档访问</p>
   </div>
-  
   <div class="security-item">
     <h4 data-icon="⏰">自动清理</h4>
     <p>过期文档自动删除，避免长期存储风险</p>
   </div>
-  
   <div class="security-item">
     <h4 data-icon="📝">操作日志</h4>
     <p>完整记录访问日志，便于安全审计</p>
@@ -251,12 +237,10 @@ language: "cn"
     <h4>👨‍💼 李先生 - 产品经理</h4>
     <p>用这种方式投递简历后，收到面试邀请的概率提升了40%。HR反馈说很专业，印象深刻。</p>
   </div>
-  
   <div class="case-item">
     <h4>🎨 张小姐 - 自由设计师</h4>
     <p>作品集设置只能看一次，客户更珍惜查看机会，成单率明显提升。</p>
   </div>
-  
   <div class="case-item">
     <h4>💻 王先生 - 技术顾问</h4>
     <p>报价单设置7天有效，客户决策更快，避免了价格被恶意传播。</p>
@@ -288,17 +272,14 @@ language: "cn"
     <h4>Q: 免费版本有什么限制？</h4>
     <p>A: 免费版支持基础的访问控制功能，每月可处理10个文档，满足个人用户日常需求。</p>
   </div>
-  
   <div class="faq-item">
     <h4>Q: 文档会保存多长时间？</h4>
     <p>A: 文档在设定的有效期（仅离线版）后会自动删除，最长不超过30天，确保隐私安全。</p>
   </div>
-  
   <div class="faq-item">
     <h4>Q: 支持哪些文件格式？</h4>
     <p>A: 目前主要支持PDF格式，未来会逐步支持更多办公文档格式。</p>
   </div>
-  
   <div class="faq-item">
     <h4>Q: 如何确保文档不被截屏？</h4>
     <p>A: 虽然无法完全阻止截屏，但我们提供动态水印、访问记录等功能来降低泄露风险。</p>

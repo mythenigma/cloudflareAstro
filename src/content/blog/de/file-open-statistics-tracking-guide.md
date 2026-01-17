@@ -1,7 +1,7 @@
 ---
 title: "Anleitung: Datei-Öffnungs-Statistiken und Tracking"
 description: "Erfahren Sie, wie Sie Datei-Öffnungs-Statistiken und Tracking verwenden. Vollständiger Leitfaden zu Statistiken, Tracking und Überwachung von Dokumentenzugriffen."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Statistiken", "Tracking", "Überwachung"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -25,17 +25,14 @@ Datei-Öffnungs-Statistiken bieten detaillierte Informationen über den Zugriff 
     <h3>📊 Detaillierte Statistiken</h3>
     <p>Umfassende Statistiken über Dokumentenzugriffe.</p>
   </div>
-  
   <div class="feature-card">
     <h3>👥 Benutzer-Tracking</h3>
     <p>Verfolgen Sie, wer auf Dokumente zugegriffen hat.</p>
   </div>
-  
   <div class="feature-card">
     <h3>⏱️ Zeit-Tracking</h3>
     <p>Überwachen Sie, wann auf Dokumente zugegriffen wurde.</p>
   </div>
-  
   <div class="feature-card">
     <h3>🌐 Standort-Tracking</h3>
     <p>Erfahren Sie, von wo auf Dokumente zugegriffen wurde.</p>

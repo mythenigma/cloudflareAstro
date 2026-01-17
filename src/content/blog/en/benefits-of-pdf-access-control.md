@@ -1,7 +1,7 @@
 ---
 title: "Benefits of PDF Access Control"
 description: "Explore how MaiPDF's access control features enhance security and usability for sharing PDF files online."
-pubDate: "2025-04-19"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security level in pdf setting.png"
 ---
 
@@ -31,12 +31,10 @@ MaiPDF offers powerful features to control how your PDF is accessed:
     <h3>📊 Limit the number of opens</h3>
     <p>You can set how many times the file can be opened. Once the limit is reached, the link becomes inactive. This ensures your file won't be accessed more than intended.</p>
   </div>
-  
   <div class="card">
     <h3>⏱️ Set reading time per open</h3>
     <p>You can define how long each viewer is allowed to view the PDF. This is especially useful for time-sensitive or confidential content.</p>
   </div>
-  
   <div class="card">
     <h3>🔒 Disable downloading and copying</h3>
     <p>Prevent viewers from downloading the file or copying its content. This is ideal for protecting intellectual property, client reports, or internal documents.</p>
@@ -54,17 +52,14 @@ These security options are not just technical add-ons—they serve real-world pu
     <h4>🔐 Protect Confidential Content</h4>
     <p>Prevent leaks of sensitive documents, reports, or research papers.</p>
   </div>
-  
   <div class="card">
     <h4>🔄 Control Distribution</h4>
     <p>Avoid your files being forwarded or accessed by unauthorized people.</p>
   </div>
-  
   <div class="card">
     <h4>©️ Maintain Ownership</h4>
     <p>By disabling download and copy, your work remains yours—shared, but not stolen.</p>
   </div>
-  
   <div class="card">
     <h4>⏳ Temporary Sharing</h4>
     <p>Set time and view limits for one-time access situations, like job applications, client previews, or contract reviews.</p>

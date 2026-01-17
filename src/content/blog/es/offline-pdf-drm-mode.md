@@ -1,7 +1,7 @@
 ---
 title: "Modo MaiPDF Offline PDF DRM: Control Seguro de Documentos en Entornos Sin Conexión"
 description: "Conozca la funcionalidad de DRM offline de MaiPDF que permite controlar permisos de acceso a PDF, duración de visualización y operaciones de impresión/copia en entornos sin conexión sin necesidad de lectores especializados."
-pubDate: "May 02 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Archivos"]
 ---
@@ -81,7 +81,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interfaz de carga de PDF" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -90,7 +89,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       <img src="/offlinepages/security_setting.png" alt="Configuración de permisos" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -99,7 +97,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       <img src="/offlinepages/result_download_zip_file.png" alt="Paquete offline generado" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -111,7 +108,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       </ul>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -136,7 +132,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       <p>Cada página se convierte a mapa de bits o se renderiza en streaming, evitando la extracción de texto.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💾</div>
     <div class="tech-content">
@@ -144,7 +139,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       <p>Lee el recuento de vistas restante desde localStorage; funciona incluso sin red.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">🔑</div>
     <div class="tech-content">
@@ -152,7 +146,6 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       <p>Genera huella digital en la primera apertura (UA del navegador, dimensiones de la pantalla, etc.), rechaza si la huella no coincide en sesiones posteriores.</p>
     </div>
   </div>
-  
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
@@ -205,19 +198,16 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
     <h3>Materiales Educativos</h3>
     <p>Distribuir a estudiantes para lectura offline en el aula, expirando después de la clase.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>Manuales Electrónicos</h3>
     <p>Incluir HTML offline con productos, permitiendo a los clientes ver sin conexión pero sin extraer el PDF fuente.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>Capítulos de Vista Previa de Libros</h3>
     <p>Configurar 2 lecturas, 20 minutos, fomentando la compra de la versión completa.</p>
   </div>
-  
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
     <h3>Revisiones Seguras</h3>

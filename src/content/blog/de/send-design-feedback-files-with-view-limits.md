@@ -1,7 +1,7 @@
 ---
 title: "🎨 Senden Sie Design-Feedback-Dateien mit Ansichtslimits"
 description: "Erfahren Sie, wie Sie die Kontrolle über frühe Designarbeiten behalten, indem Sie Ansichtslimits für geteilte Dateien festlegen. Perfekt für das Sammeln von Feedback bei gleichzeitiger Verhinderung unbefugter Verbreitung."
-pubDate: "Apr 24 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Design-Workflow", "Design-Feedback", "Datei-Sharing", "Design-Schutz"]
 ---
@@ -86,22 +86,18 @@ Keine Notwendigkeit, Berechtigungen in Cloud-Laufwerken zu verwalten. Kein manue
     <span class="use-case-icon">🧠</span>
     <p>UX-Review-Sitzungen mit begrenzten Teilnehmern</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🎨</span>
     <p>Kundenvorschauen von Entwurfsdesign-Richtungen</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">📋</span>
     <p>Interne Stakeholder-Abstimmung</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧪</span>
     <p>A/B-Variantentests, bei denen nur eine Version gesehen werden soll</p>
   </div>
-  
   <div class="use-case">
     <span class="use-case-icon">🧾</span>
     <p>Styleguide-Entwürfe vor der formellen Genehmigung</p>

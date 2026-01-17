@@ -1,7 +1,7 @@
 ---
 title: "Introducing Maiimg: Secure Image Sharing with QR Codes"
 description: "Discover Maiimg.com - the new secure image sharing platform that builds on MaiPDF's success. Upload up to 25 images, generate QR codes, and control access with advanced security features."
-pubDate: "Aug 22 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maiimg/maiimg-head.png"
 tags: ["image sharing", "QR codes", "security", "bulk upload", "access control"]
 ---
@@ -25,12 +25,10 @@ Maiimg protects your images by turning them into controlled links. Unlike tradit
     <h4>👀 View Limits</h4>
     <p>Decide how many times your images can be opened</p>
   </div>
-  
   <div class="card">
     <h4>⏱️ Time Control</h4>
     <p>Set viewing durations in seconds</p>
   </div>
-  
   <div class="card">
     <h4>⏰ Expiration Options</h4>
     <p>Automatically disable access after certain conditions are met</p>
@@ -62,12 +60,10 @@ Maiimg protects your images by turning them into controlled links. Unlike tradit
     <h4>🚀 Fast</h4>
     <p>Lightning-quick uploads and instant sharing</p>
   </div>
-  
   <div class="card">
     <h4>🆓 Free</h4>
     <p>No hidden costs or subscription fees</p>
   </div>
-  
   <div class="card">
     <h4>🎯 Intuitive</h4>
     <p>No complicated setup, no sign-up barriers—just drag, drop, and share</p>
@@ -85,12 +81,10 @@ Traditional image hosting platforms often lack fine-grained control. Once your i
     <h4>🏢 Business Owners</h4>
     <p>Distribute product previews with controlled access</p>
   </div>
-  
   <div class="card">
     <h4>👨‍🏫 Teachers</h4>
     <p>Share classroom materials securely</p>
   </div>
-  
   <div class="card">
     <h4>🎨 Creative Professionals</h4>
     <p>Showcase your work with protection</p>
@@ -124,19 +118,16 @@ Whether you're sharing professional content or personal memories, Maiimg ensures
     <h3>Visit Maiimg.com</h3>
     <p>No registration required - start immediately</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">2</div>
     <h3>Upload Your Images</h3>
     <p>Drag and drop up to 25 images at once</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">3</div>
     <h3>Set Your Preferences</h3>
     <p>Configure access controls and security settings</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">4</div>
     <h3>Share with Confidence</h3>
@@ -151,17 +142,14 @@ Whether you're sharing professional content or personal memories, Maiimg ensures
     <h4>📸 Photography Portfolios</h4>
     <p>Share your work with clients while maintaining control over downloads and usage</p>
   </div>
-  
   <div class="example-card">
     <h4>🛍️ E-commerce Product Images</h4>
     <p>Distribute product photos to partners with view limits and expiration dates</p>
   </div>
-  
   <div class="example-card">
     <h4>📚 Educational Content</h4>
     <p>Share visual learning materials with students in a controlled environment</p>
   </div>
-  
   <div class="example-card">
     <h4>🏠 Real Estate Listings</h4>
     <p>Provide property images with time-limited access for potential buyers</p>
@@ -189,7 +177,6 @@ Maiimg represents the next evolution in digital content sharing. By combining th
 <div class="cta-container">
   <h3>Ready to revolutionize your image sharing?</h3>
   <p>Visit <a href="https://maiimg.com" target="_blank">Maiimg.com</a> and experience the future of image sharing. Upload your pictures, generate a QR code, and share with confidence—because your images deserve both speed and security.</p>
-  
   <div class="cta-benefits">
     <p>✅ No sign-up required<br>
     ✅ Free to use<br>

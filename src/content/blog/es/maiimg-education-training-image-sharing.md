@@ -1,7 +1,7 @@
 ---
 title: "MaiImg Compartir Imágenes para Educación y Entrenamiento: Guía Completa"
 description: "Aprenda cómo usar MaiImg para compartir imágenes en educación y entrenamiento. Guía completa sobre compartir imágenes educativas, materiales de entrenamiento y recursos de aprendizaje."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["Imágenes", "MaiImg", "Educación", "Entrenamiento"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>📚 Materiales Visuales</h3>
     <p>Comparta materiales visuales con estudiantes.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>🎓 Recursos de Aprendizaje</h3>
     <p>Distribuya recursos de aprendizaje visual.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>📊 Seguimiento</h3>
     <p>Monitoree quién accedió a materiales.</p>
   </div>
-  
   <div class="benefit-card">
     <h3>⚡ Eficiencia</h3>
     <p>Distribuya materiales rápidamente.</p>

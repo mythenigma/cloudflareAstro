@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯"
 description: "通过MaiPDF独特的动态水印技术，为每次PDF打开生成唯一标识，有效追踪文档访问记录，防止未授权分享。"
-pubDate: "Apr 21 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/页面上显示水印位置.png"
 ---
 
@@ -30,17 +30,14 @@ heroImage: "/maifle/页面上显示水印位置.png"
     <div class="tracking-icon">💻</div>
     <div class="tracking-text">打开文件的设备信息</div>
   </div>
-  
   <div class="tracking-item">
     <div class="tracking-icon">🌐</div>
     <div class="tracking-text">访问时的IP地址</div>
   </div>
-  
   <div class="tracking-item">
     <div class="tracking-icon">🔗</div>
     <div class="tracking-text">文件的原始阅读链接</div>
   </div>
-  
   <div class="tracking-item">
     <div class="tracking-icon">📧</div>
     <div class="tracking-text">如通过验证码访问，可看到验证码发送邮箱的前缀</div>
@@ -71,7 +68,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <p>在MaiPDF上传文件界面选择你的文档</p>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -80,7 +76,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <img src="/maifle/动态水印的选项.png" alt="动态水印选项设置界面" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -89,7 +84,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <img src="/maifle/PDF链接生成的时候显示的信息.png" alt="PDF链接生成界面" class="small">
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -97,7 +91,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <p>每次用户访问时系统将自动嵌入唯一水印编号</p>
     </div>
   </div>
-  
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
@@ -120,7 +113,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <p>教学或报告材料的防外传保护</p>
     </div>
   </div>
-  
   <div class="use-case-item">
     <div class="use-case-icon">
       <img src="/maifle/没加电话验证的设置界面.png" alt="企业文件设置界面" class="tiny">
@@ -130,7 +122,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <p>内部文件的使用追踪与安全管理</p>
     </div>
   </div>
-  
   <div class="use-case-item">
     <div class="use-case-icon">
       <img src="/maifle/阅读记录查询.png" alt="访问追踪界面" class="tiny">
@@ -140,7 +131,6 @@ heroImage: "/maifle/页面上显示水印位置.png"
       <p>商务报价、产品文档的分发控制</p>
     </div>
   </div>
-  
   <div class="use-case-item">
     <div class="use-case-icon">
       <img src="/maifle/阅读记录查询结果示例.png" alt="协作文件记录追踪" class="tiny">

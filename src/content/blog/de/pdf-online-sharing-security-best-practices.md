@@ -1,7 +1,7 @@
 ---
 title: "Sicherheits-Best-Practices für Online-PDF-Sharing"
 description: "Erfahren Sie die Best-Practices für sicheres Online-PDF-Sharing. Vollständiger Leitfaden zu Dokumentenschutz, Zugriffskontrolle und Sicherheit."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Sicherheit", "Best Practices", "Schutz"]
 heroImage: "/diagram/en/security-architecture.svg"
 ---
@@ -29,7 +29,6 @@ Bewerten Sie vor dem Teilen eines PDF-Dokuments dessen Sensibilitätsniveau:
       <li>Basis-Tracking</li>
     </ul>
   </div>
-  
   <div class="level-card">
     <h4>🟡 Mittlere Sensibilität</h4>
     <p>Geschäftsdokumente, Verträge</p>
@@ -39,7 +38,6 @@ Bewerten Sie vor dem Teilen eines PDF-Dokuments dessen Sensibilitätsniveau:
       <li>Download-Sperre</li>
     </ul>
   </div>
-  
   <div class="level-card">
     <h4>🔴 Hohe Sensibilität</h4>
     <p>Vertrauliche Dokumente, rechtliche Informationen</p>
@@ -78,12 +76,10 @@ Verlassen Sie sich nicht auf eine einzige Sicherheitsmaßnahme. Kombinieren Sie 
     <h4>🔑 Starke Passwörter</h4>
     <p>Verwenden Sie komplexe Passwörter mit mindestens 12 Zeichen, einschließlich Groß- und Kleinbuchstaben, Zahlen und Symbolen.</p>
   </div>
-  
   <div class="practice-card">
     <h4>🔄 Regelmäßiger Wechsel</h4>
     <p>Ändern Sie Passwörter regelmäßig, besonders für hochvertrauliche Dokumente.</p>
   </div>
-  
   <div class="practice-card">
     <h4>📧 Sicheres Teilen</h4>
     <p>Teilen Sie Passwörter über sichere Kanäle, niemals per unverschlüsseltem E-Mail.</p>
@@ -97,12 +93,10 @@ Verlassen Sie sich nicht auf eine einzige Sicherheitsmaßnahme. Kombinieren Sie 
     <h4>👥 Identitätsverifizierung</h4>
     <p>Verwenden Sie E-Mail-Verifizierung, um sicherzustellen, dass nur autorisierte Personen zugreifen.</p>
   </div>
-  
   <div class="practice-card">
     <h4>🔢 Angemessene Limits</h4>
     <p>Legen Sie angemessene Ansichtslimits je nach Dokumenttyp fest.</p>
   </div>
-  
   <div class="practice-card">
     <h4>⏰ Temporäre Ablaufzeit</h4>
     <p>Konfigurieren Sie Ablaufdaten für temporäre Dokumente.</p>

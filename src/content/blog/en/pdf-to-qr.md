@@ -1,7 +1,7 @@
 ---
 title: "Turn any PDF into a QR code"
 description: "Upload a PDF and instantly generate a shareable QR code. Control access, set view limits, and share documents without email attachments."
-pubDate: "2025-06-03"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["PDF to QR", "PDF QR code generator", "share PDF with QR", "maipdf"]
 ---
@@ -118,7 +118,6 @@ Recipients don't need to create accounts or provide personal information to acce
       <p>Access the service through any web browser. No registration or account setup required.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -126,7 +125,6 @@ Recipients don't need to create accounts or provide personal information to acce
       <p>Select your document file. The upload process begins immediately with progress indication.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">3</div>
     <div class="step-content">
@@ -134,7 +132,6 @@ Recipients don't need to create accounts or provide personal information to acce
       <p>Set access controls, scan limits, and download permissions according to your needs.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">4</div>
     <div class="step-content">
@@ -142,7 +139,6 @@ Recipients don't need to create accounts or provide personal information to acce
       <p>Save the generated QR code image for printing, sharing, or embedding in other materials.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">5</div>
     <div class="step-content">

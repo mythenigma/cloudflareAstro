@@ -1,7 +1,7 @@
 ---
 title: "Entrenamiento de Compartir PDF Seguro 2: Guía Completa"
 description: "Aprenda técnicas avanzadas de compartir PDF seguro. Guía completa sobre entrenamiento de compartir seguro, mejores prácticas y seguridad avanzada."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "Seguro", "Entrenamiento", "Mejores Prácticas"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,17 +23,14 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>🔒 Autenticación</h3>
     <p>Verifique la identidad de los destinatarios.</p>
   </div>
-  
   <div class="concept-card">
     <h3>🔐 Autorización</h3>
     <p>Controle quién puede acceder a documentos.</p>
   </div>
-  
   <div class="concept-card">
     <h3>📊 Auditoría</h3>
     <p>Rastree y monitoree todos los accesos.</p>
   </div>
-  
   <div class="concept-card">
     <h3>🛡️ Protección</h3>
     <p>Proteja documentos contra amenazas.</p>

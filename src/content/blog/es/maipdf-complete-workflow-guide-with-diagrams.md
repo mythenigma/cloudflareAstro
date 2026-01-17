@@ -1,7 +1,7 @@
 ---
 title: "MaiPDF Guía Completa de Flujo de Trabajo con Diagramas"
 description: "Aprenda el flujo de trabajo completo de MaiPDF con diagramas. Guía completa sobre flujos de trabajo de compartir PDF, procesos y mejores prácticas."
-pubDate: "Jan 15 2026"
+pubDate: "Jan 17 2026"
 tags: ["PDF", "MaiPDF", "Flujo de Trabajo", "Guía"]
 heroImage: "/diagram/en/features-overview.svg"
 ---
@@ -23,22 +23,18 @@ heroImage: "/diagram/en/features-overview.svg"
     <h3>1️⃣ Subir PDF</h3>
     <p>Suba su documento PDF.</p>
   </div>
-  
   <div class="step-card">
     <h3>2️⃣ Configurar</h3>
     <p>Configure opciones de seguridad y compartir.</p>
   </div>
-  
   <div class="step-card">
     <h3>3️⃣ Generar Enlace</h3>
     <p>Genere un enlace compartible o código QR.</p>
   </div>
-  
   <div class="step-card">
     <h3>4️⃣ Compartir</h3>
     <p>Comparta el enlace con destinatarios.</p>
   </div>
-  
   <div class="step-card">
     <h3>5️⃣ Monitorear</h3>
     <p>Monitoree accesos y estadísticas.</p>

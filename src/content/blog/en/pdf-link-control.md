@@ -1,7 +1,7 @@
 ---
 title: "Control how your PDF link behaves"
 description: "Set view limits, disable links anytime, and replace PDF files without changing URLs. Simple controls for shared PDF documents."
-pubDate: "2025-06-03"
+pubDate: "Jan 17 2026"
 heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
 tags: ["PDF self-destruct", "PDF open limit", "disable PDF link", "maipdf controls"]
 ---
@@ -70,7 +70,6 @@ Distribute event details with the ability to update information as plans change.
       <p>Configure view limits and access settings when first sharing your PDF.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">2</div>
     <div class="step-content">
@@ -78,7 +77,6 @@ Distribute event details with the ability to update information as plans change.
       <p>Track how many times your link has been accessed through the management interface.</p>
     </div>
   </div>
-  
   <div class="process-step">
     <div class="step-number">3</div>
     <div class="step-content">

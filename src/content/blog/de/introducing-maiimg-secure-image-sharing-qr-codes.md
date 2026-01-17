@@ -1,7 +1,7 @@
 ---
 title: "Maiimg Vorstellung: Sichere Bildfreigabe mit QR-Codes"
 description: "Entdecken Sie Maiimg.com - die neue sichere Bildfreigabe-Plattform, die auf dem Erfolg von MaiPDF aufbaut. Laden Sie bis zu 25 Bilder hoch, generieren Sie QR-Codes und kontrollieren Sie den Zugriff mit erweiterten Sicherheitsfunktionen."
-pubDate: "Jan 16 2026"
+pubDate: "Jan 17 2026"
 heroImage: "/maiimg/maiimg-head.png"
 tags: ["QR Code", "Image Sharing", "Maiimg", "Sicherheit"]
 ---
@@ -27,12 +27,10 @@ Maiimg schützt Ihre Bilder, indem es sie in kontrollierte Links umwandelt. Im G
     <h4>👀 Ansichtslimits</h4>
     <p>Entscheiden Sie, wie oft Ihre Bilder geöffnet werden können</p>
   </div>
-  
   <div class="card">
     <h4>⏱️ Zeitkontrolle</h4>
     <p>Legen Sie Ansichtsdauern in Sekunden fest</p>
   </div>
-  
   <div class="card">
     <h4>⏰ Ablaufoptionen</h4>
     <p>Deaktivieren Sie den Zugriff automatisch, nachdem bestimmte Bedingungen erfüllt sind</p>
@@ -64,12 +62,10 @@ Maiimg schützt Ihre Bilder, indem es sie in kontrollierte Links umwandelt. Im G
     <h4>🚀 Schnell</h4>
     <p>Blitzschnelle Uploads und sofortiges Teilen</p>
   </div>
-  
   <div class="card">
     <h4>🆓 Kostenlos</h4>
     <p>Keine versteckten Kosten oder Abonnementgebühren</p>
   </div>
-  
   <div class="card">
     <h4>🎯 Intuitiv</h4>
     <p>Keine komplizierte Einrichtung, keine Anmeldebarrieren - einfach ziehen, ablegen und teilen</p>
@@ -87,12 +83,10 @@ Traditionelle Bildhosting-Plattformen haben oft keine detaillierte Kontrolle. So
     <h4>🏢 Geschäftsinhaber</h4>
     <p>Verteilen Sie Produktvorschauen mit kontrolliertem Zugriff</p>
   </div>
-  
   <div class="card">
     <h4>👨‍🏫 Lehrer</h4>
     <p>Teilen Sie Unterrichtsmaterialien sicher</p>
   </div>
-  
   <div class="card">
     <h4>🎨 Kreative Profis</h4>
     <p>Zeigen Sie Ihre Arbeit mit Schutz</p>
@@ -126,19 +120,16 @@ Ob Sie professionelle Inhalte oder persönliche Erinnerungen teilen, Maiimg stel
     <h3>Besuchen Sie Maiimg.com</h3>
     <p>Keine Registrierung erforderlich - starten Sie sofort</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">2</div>
     <h3>Laden Sie Ihre Bilder hoch</h3>
     <p>Ziehen und ablegen Sie bis zu 25 Bilder auf einmal</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">3</div>
     <h3>Legen Sie Ihre Einstellungen fest</h3>
     <p>Konfigurieren Sie Zugriffskontrollen und Sicherheitseinstellungen</p>
   </div>
-  
   <div class="step-card">
     <div class="step-number">4</div>
     <h3>Teilen Sie mit Vertrauen</h3>
