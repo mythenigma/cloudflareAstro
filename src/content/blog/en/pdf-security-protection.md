@@ -1,7 +1,7 @@
 ---
 title: "PDF Encryption Anti-Leakage: MaiPDF Makes Sharing More Secure"
 description: "MaiPDF provides comprehensive PDF document security protection solutions through access control, time limits, dynamic watermarks, and other features to effectively prevent sensitive file leaks and unauthorized distribution."
-pubDate: "May 1 2025"
+pubDate: "Jan 17 2026"
 heroImage: "/maifle/动态水印的选项.png"
 tags: ["PDF Encryption", "Document Security", "Leak Prevention", "Information Protection"]
 ---
@@ -189,7 +189,7 @@ MaiPDF's powerful tracking feature makes every document access clear at a glance
 
 ## 📊 PDF Security Protection Overview
 
-![All Features](/cn2025May/all_funcs_in_maipdf_cn.png)
+![All Features](/maipdf-images/maipdf_landing_page.png)
 
 MaiPDF's security protection features play important roles in various scenarios:
 

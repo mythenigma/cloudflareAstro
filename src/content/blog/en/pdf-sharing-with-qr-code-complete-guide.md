@@ -1,8 +1,8 @@
 ---
 title: "PDF Sharing with QR Code: Complete Guide"
 description: "Complete guide to sharing PDFs using QR codes. Learn how to generate QR codes for PDF files and share them easily on physical materials."
-pubDate: "Jan 16 2026"
-heroImage: "/cn2025May/maipdf_link_result.png"
+pubDate: "Jan 17 2026"
+heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["PDF Sharing", "QR Code", "Document Sharing", "MaiPDF"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["PDF Sharing", "QR Code", "Document Sharing", "MaiPDF"]
   <p>Learn how to share PDF files using QR codes. QR codes make it easy to share PDFs on physical materials like flyers, business cards, or posters without requiring recipients to type long URLs.</p>
 </div>
 
-![MaiPDF QR Code Result](/cn2025May/maipdf_link_result.png)
+![MaiPDF QR Code Result](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 ## Why Use QR Codes for PDF Sharing?
 

@@ -1,8 +1,8 @@
 ---
 title: "MaiPDF Print Restriction Settings Guide: How to Prohibit PDF Document Printing and Downloading"
 description: "Learn how to use MaiPDF to set PDF document print restrictions, including prohibiting printing, prohibiting downloading, watermark protection, and other features to ensure document content is secure and controllable."
-pubDate: "Aug 22 2025"
-heroImage: "/cn2025May/changefilesetting.png"
+pubDate: "Jan 17 2026"
+heroImage: "/maipdf-images/pdf_change_setting_after_sent.png"
 tags: ["PDF Print Restrictions", "Download Restrictions", "Content Protection", "Watermark Protection", "MaiPDF"]
 ---
 
@@ -29,7 +29,7 @@ Have you encountered these PDF sharing security issues?
 
 **MaiPDF** perfectly solves these problems, allowing you to easily set PDF document print and download restrictions for comprehensive content protection!
 
-![MaiPDF File Settings Interface](/cn2025May/changefilesetting.png)
+![MaiPDF File Settings Interface](/maipdf-images/pdf_change_setting_after_sent.png)
 
 ## 🎯 Why Set PDF Print Restrictions?
 
@@ -62,7 +62,7 @@ Have you encountered these PDF sharing security issues?
 ## 🚀 Complete Tutorial for PDF Print Restriction Settings
 
 ### Step 1: Upload PDF Document
-![PDF Upload Interface](/cn2025May/maipdf_upload_pdf_cn.png)
+![PDF Upload Interface](/maipdf-images/upload_section.png)
 
 **Operation Steps**:
 1. Visit [maipdf.com](https://maipdf.com)
@@ -76,7 +76,7 @@ Have you encountered these PDF sharing security issues?
 **File Size**: Maximum 100MB, suitable for various document types
 
 ### Step 2: Configure Print Restriction Settings
-![MaiPDF Settings Interface](/cn2025May/setting_example.png)
+![MaiPDF Settings Interface](/maipdf-images/security_setting.png)
 
 #### Basic Print Restriction Settings
 
@@ -115,7 +115,7 @@ Have you encountered these PDF sharing security issues?
 ### Step 3: Apply Print Restriction Settings
 After configuration, click "Generate Share" button:
 
-![PDF Share Result](/cn2025May/maipdf_link_result.png)
+![PDF Share Result](/maipdf-images/result_of_pdf_link_and_qr_code.png)
 
 **Automatic Effect**:
 - Print restrictions take effect immediately
@@ -166,7 +166,7 @@ After configuration, click "Generate Share" button:
 ## 🔐 Security Guarantees for Print Restriction Control
 
 ### Automatic Protection Mechanisms
-![Access Result Statistics](/cn2025May/acess_result.png)
+![Access Result Statistics](/maipdf-images/check_pdf_open_result.png)
 
 #### Print Restriction Control
 **Function Description**: Set PDF document print permissions, control visitor printing behavior.
