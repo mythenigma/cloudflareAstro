@@ -27,6 +27,12 @@ When you upload images and create a gallery, Maiimg automatically generates a sh
 3. Generate the share link and QR code in the share panel.
 4. Download the QR code image for printing or digital use.
 
+### Screenshots (Maiimg)
+
+![Upload images](/maiimg/maiimg-head.png)
+![Access settings](/maiimg/maiimg-setting.png)
+![Share link and QR code](/maiimg/image_result.png)
+
 ## Settings that affect the QR code outcome
 
 - **Access limits**: view limits and expiration can make the QR code time-bound.

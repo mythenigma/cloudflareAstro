@@ -35,6 +35,11 @@ tags: ["QR Code"]
 3. Publish to the target channel.
 4. Monitor access data and update settings if needed.
 
+### Gallery preview and tracking
+
+![Gallery share result](/maiimg/image_result.png)
+![Access tracking](/maiimg/result_tracking.png)
+
 ## Security and access tips
 
 - Use view limits for temporary campaigns.

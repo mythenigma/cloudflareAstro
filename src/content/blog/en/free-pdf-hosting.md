@@ -1,7 +1,7 @@
 ---
 title: "Free PDF Hosting: Complete Guide"
-description: "Free online PDF upload, sharing, and management. No registration required. Use MaiPDF for secure PDF hosting with access control."
-pubDate: "Jan 15 2026"
+description: "Free online PDF hosting with secure links, QR codes, and access control."
+pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["Free PDF Hosting", "PDF Hosting", "Document Sharing", "Secure Viewer"]
 ---
@@ -28,6 +28,10 @@ tags: ["Free PDF Hosting", "PDF Hosting", "Document Sharing", "Secure Viewer"]
   </div>
 </div>
 
+## Hosting workflow diagram (SVG)
+
+![MaiPDF hosting workflow](/diagram/en/maipdf-one-click-sharing-workflow.svg)
+
 ## Security Features for PDF Hosting
 
 MaiPDF offers several security features to protect your PDF files:
@@ -40,6 +44,49 @@ MaiPDF offers several security features to protect your PDF files:
 ## QR Code Generation
 
 MaiPDF automatically generates QR codes for your PDF files, making it easy to share them on physical materials like flyers, business cards, or posters.
+
+![Share link and QR code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+
+## Feature comparison chart
+
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.25rem; margin: 1.5rem 0;">
+  <table style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr style="border-bottom: 1px solid #e2e8f0;">
+        <th style="text-align: left; padding: 0.5rem;">Feature</th>
+        <th style="text-align: left; padding: 0.5rem;">Basic hosting</th>
+        <th style="text-align: left; padding: 0.5rem;">MaiPDF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid #e2e8f0;">
+        <td style="padding: 0.5rem;">Share link</td>
+        <td style="padding: 0.5rem;">✅</td>
+        <td style="padding: 0.5rem;">✅</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e2e8f0;">
+        <td style="padding: 0.5rem;">QR code</td>
+        <td style="padding: 0.5rem;">❌</td>
+        <td style="padding: 0.5rem;">✅</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e2e8f0;">
+        <td style="padding: 0.5rem;">Access limits</td>
+        <td style="padding: 0.5rem;">❌</td>
+        <td style="padding: 0.5rem;">✅</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e2e8f0;">
+        <td style="padding: 0.5rem;">Watermarks</td>
+        <td style="padding: 0.5rem;">❌</td>
+        <td style="padding: 0.5rem;">✅</td>
+      </tr>
+      <tr>
+        <td style="padding: 0.5rem;">Access tracking</td>
+        <td style="padding: 0.5rem;">❌</td>
+        <td style="padding: 0.5rem;">✅</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Free and No Registration
 
