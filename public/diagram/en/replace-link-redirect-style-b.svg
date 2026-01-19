@@ -11,7 +11,7 @@
   </defs>
 
   <rect width="960" height="420" fill="#f8fafc"/>
-  <text x="480" y="34" font-size="22" font-weight="700" text-anchor="middle" fill="#0f172a">Reading code stays, content & settings update</text>
+  <text x="480" y="34" font-size="22" font-weight="700" text-anchor="middle" fill="#0f172a">Reading code stays, content &amp; settings update</text>
 
   <!-- Old panel -->
   <rect x="70" y="70" width="320" height="300" rx="16" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
@@ -42,11 +42,11 @@
 
   <!-- Direction arrow -->
   <path d="M 615 255 C 520 290, 430 290, 360 270" stroke="#2563eb" stroke-width="3" fill="none" marker-end="url(#arrowB)"/>
-  <text x="485" y="320" font-size="12" text-anchor="middle" fill="#2563eb">Replace new content & settings into old link</text>
+  <text x="485" y="320" font-size="12" text-anchor="middle" fill="#2563eb">Replace new content &amp; settings into old link</text>
 
   <g id="platform-watermark">
-    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
-    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+    <rect x="576" y="386" width="365" height="25" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="930" y="400" text-anchor="end" dominant-baseline="middle"
           font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Online</text>
   </g>
 </svg>

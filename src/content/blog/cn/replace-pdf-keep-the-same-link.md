@@ -8,7 +8,9 @@ tags: ["版本管理", "链接分享", "多人共享"]
 # 替换PDF但不换链接：旧阅读码不变的更新方法
 
 <div class="intro-panel">
-  <p><strong>旧阅读码不变</strong>，但打开内容和所有设置都会换成新的。</p>
+  <p>想象一下：你已经把PDF链接发给客户了，后来发现文件有错需要修改。传统做法是重新上传、重新发链接，客户还得问"用哪个链接？"</p>
+  <p><strong>MaiPDF的替换功能：</strong>链接还是那个链接，你只需要在后台把文件换掉。客户继续用原来的链接，打开后自动看到新版本。不用重新发链接，不会搞混。</p>
+  <p class="intro-note">注意：此功能仅限 <strong>MaiPDF</strong>（Maiimg 不支持文件替换）。</p>
 </div>
 
 ![阅读码不变，内容与设置更新](/diagram/zh-cn/replace-link-redirect-style-b.svg)

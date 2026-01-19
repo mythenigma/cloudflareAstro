@@ -23,10 +23,24 @@ export default defineConfig({
       // NOTE:
       // - Sitemap is generated at build time (astro build) into dist/sitemap-*.xml
       // - If you add/rename many posts, rebuild to refresh sitemap and avoid stale URLs in GSC.
-      filter: (page) => !page.includes('/blog-backup/'),
+      // - All blog posts from content collection are automatically included
+      filter: (page) => {
+        // Exclude blog-backup and ensure all valid blog posts are included
+        if (page.includes('/blog-backup/')) return false;
+        // Include all blog posts (en/, cn/, fr/, de/, ja/, ko/, es/)
+        if (page.includes('/blog/')) return true;
+        // Include other pages
+        return true;
+      },
       changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date(),
+      priority: (page) => {
+        // Higher priority for blog posts
+        if (page.includes('/blog/')) return 0.8;
+        // Standard priority for other pages
+        return 0.7;
+      },
+      // lastmod will be automatically determined from page metadata
+      // For blog posts, it uses pubDate or updatedDate from frontmatter
       customPages: [
         'https://article.maipdf.com/about',
         'https://article.maipdf.com/contact',

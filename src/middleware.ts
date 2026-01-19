@@ -10,6 +10,11 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   // NOTE: Add entries here when you change a content filename (slug) to avoid creating new 404s.
   const slugRedirects: Record<string, string> = {
     "/blog/cn/replace-image-keep-link-guide": "/blog/cn/replace-pdf-keep-link-maipdf",
+    "/blog/en/modify-link": "/blog/en/modify-pdf-links",
+    "/blog/en/offline-pdf-sharing-vs-online-sharing-complete-comparison": "/blog/en/offline-vs-online-pdf-sharing-comparison",
+    "/blog/en/how-to-create-offline-pdf-package-guide": "/blog/en/how-to-create-offline-pdf-package-complete-guide",
+    "/blog/en/maiimg-bulk-image-sharing-guide": "/blog/en/maiimg-bulk-image-sharing-complete-guide",
+    "/blog/en/maipdf-secure-efficient-sharing": "/blog/en/maipdf-secure-efficient-pdf-sharing",
   };
   if (slugRedirects[pathname]) {
     url.pathname = slugRedirects[pathname];

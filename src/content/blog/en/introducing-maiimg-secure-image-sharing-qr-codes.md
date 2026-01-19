@@ -1,197 +1,572 @@
 ---
-title: "Introducing Maiimg: Secure Image Sharing with QR Codes"
-description: "Discover Maiimg.com - the new secure image sharing platform that builds on MaiPDF's success. Upload up to 25 images, generate QR codes, and control access with advanced security features."
-pubDate: "Jan 17 2026"
+title: "Maiimg: Simple Image Sharing with QR Codes and Tracking"
+description: "Maiimg is a free image sharing platform. Upload up to 25 images, get a shareable link and QR code, set view limits, and track who viewed your images."
+pubDate: "Jan 19 2026"
 heroImage: "/maiimg/maiimg-head.png"
-tags: ["image sharing", "QR codes", "security", "bulk upload", "access control"]
+tags: ["image sharing", "QR codes", "tracking", "free tool"]
 ---
 
-# Introducing Maiimg: Secure Image Sharing with QR Codes
+# Maiimg: Simple Image Sharing with QR Codes
 
 <div class="intro-panel">
-  In today's digital world, sharing images quickly and securely has become more important than ever. Building on the success of MaiPDF, which specializes in secure document distribution, the team has launched a brand-new platform: <strong>Maiimg.com</strong>. This new service brings the same focus on privacy, control, and convenience to images, allowing users to upload pictures, generate secure links, and instantly share QR codes.
+  <p><strong>What is Maiimg?</strong> A free platform for sharing images with built-in QR codes and basic tracking.</p>
+  <p><strong>Who made it?</strong> The same team behind MaiPDF. Same idea, but for images instead of PDFs.</p>
 </div>
 
-## 🚀 Key Features {#key-features}
+## 📤 What You Can Do
 
-### 🔒 Secure Sharing {#secure-sharing}
+![Upload Interface](/maiimg/maiimg-head.png)
 
-![Security Settings](/maiimg/maiimg-setting.png)
+**Simple workflow:**
 
-Maiimg protects your images by turning them into controlled links. Unlike traditional file-sharing services, Maiimg allows you to set restrictions such as:
+```mermaid
+flowchart LR
+    A[📁 Select Images] --> B[☁️ Upload]
+    B --> C[⚙️ Set Options]
+    C --> D[🔗 Get Link & QR]
+    D --> E[📤 Share]
+    E --> F[📊 Track Views]
+    
+    style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style B fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style C fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style E fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    style F fill:#e0f2f1,stroke:#00897b,stroke-width:2px
+```
 
-<div class="features-grid">
-  <div class="card">
-    <h4>👀 View Limits</h4>
-    <p>Decide how many times your images can be opened</p>
+<div class="main-features">
+  <div class="feature-box">
+    <div class="feature-icon">📦</div>
+    <div class="feature-text">
+      <h4>Upload 25 Images at Once</h4>
+      <p>Supports PNG, JPG, JPEG, GIF, WebP (up to 50MB each)</p>
+    </div>
   </div>
-  <div class="card">
-    <h4>⏱️ Time Control</h4>
-    <p>Set viewing durations in seconds</p>
+  <div class="feature-box">
+    <div class="feature-icon">📱</div>
+    <div class="feature-text">
+      <h4>Automatic QR Code</h4>
+      <p>Every gallery gets a QR code automatically - perfect for print materials or events</p>
+    </div>
   </div>
-  <div class="card">
-    <h4>⏰ Expiration Options</h4>
-    <p>Automatically disable access after certain conditions are met</p>
+  <div class="feature-box">
+    <div class="feature-icon">🔗</div>
+    <div class="feature-text">
+      <h4>Shareable Link</h4>
+      <p>Get a clean link to copy and paste anywhere</p>
+    </div>
+  </div>
+  <div class="feature-box">
+    <div class="feature-icon">👀</div>
+    <div class="feature-text">
+      <h4>View Limits (Optional)</h4>
+      <p>Set how many times the gallery can be opened</p>
+    </div>
+  </div>
+  <div class="feature-box">
+    <div class="feature-icon">⏱️</div>
+    <div class="feature-text">
+      <h4>Time Control (Optional)</h4>
+      <p>Set viewing duration in seconds</p>
+    </div>
+  </div>
+  <div class="feature-box">
+    <div class="feature-icon">📊</div>
+    <div class="feature-text">
+      <h4>Basic Tracking</h4>
+      <p>See total views and visitor IP addresses</p>
+    </div>
   </div>
 </div>
 
-### 📦 Bulk Uploads {#bulk-uploads}
+## 🔒 Security Settings
 
-![Upload Section](/maiimg/maiimg-head.png)
+![Security Settings Interface](/maiimg/maiimg-setting.png)
 
-<div class="feature-card">
-  <h3>🎯 Upload Up to 25 Images</h3>
-  <p>You can now upload up to 25 images in a single session. Whether you're sharing a photo album, a project gallery, or product images, Maiimg makes it simple to handle multiple files at once.</p>
-</div>
+**What you can control:**
 
-### 📱 Instant QR Code Generation {#qr-codes}
-
-![QR Code Result](/maiimg/image_result.png)
-
-<div class="feature-card">
-  <h3>📲 Effortless Sharing</h3>
-  <p>Every gallery you create automatically comes with a QR code, making it effortless to share your images offline or across different devices. Just scan the code, and your audience can access your gallery instantly.</p>
-</div>
-
-### ⚡ Fast, Free, and User-Friendly {#user-friendly}
-
-<div class="benefits-grid">
-  <div class="card">
-    <h4>🚀 Fast</h4>
-    <p>Lightning-quick uploads and instant sharing</p>
+<div class="security-options">
+  <div class="security-item">
+    <span class="sec-icon">👁️</span>
+    <div class="sec-content">
+      <strong>View Limit:</strong> Set to 1, 5, 10, 50, or unlimited views
+    </div>
   </div>
-  <div class="card">
-    <h4>🆓 Free</h4>
-    <p>No hidden costs or subscription fees</p>
+  <div class="security-item">
+    <span class="sec-icon">⏱️</span>
+    <div class="sec-content">
+      <strong>Time Control:</strong> Each viewer can see images for X seconds only
+    </div>
   </div>
-  <div class="card">
-    <h4>🎯 Intuitive</h4>
-    <p>No complicated setup, no sign-up barriers—just drag, drop, and share</p>
+  <div class="security-item">
+    <span class="sec-icon">📝</span>
+    <div class="sec-content">
+      <strong>Description:</strong> Add context to your gallery (optional)
+    </div>
+  </div>
+  <div class="security-item">
+    <span class="sec-icon">🗑️</span>
+    <div class="sec-content">
+      <strong>Delete Anytime:</strong> Remove gallery from tracking dashboard - links stop working immediately
+    </div>
   </div>
 </div>
 
-## 🌟 Why Maiimg? {#why-maiimg}
+## 📊 Tracking Dashboard
 
-![Share Images Worldwide](/maiimg/maiimg-head.png)
+![Tracking Results](/maiimg/result_tracking.png)
 
-Traditional image hosting platforms often lack fine-grained control. Once your images are shared, you lose track of how they are used or accessed. Maiimg changes that by combining ease of sharing with advanced analytics and tracking tools.
+**What you can see:**
 
-<div class="use-cases-grid">
-  <div class="card">
-    <h4>🏢 Business Owners</h4>
-    <p>Distribute product previews with controlled access</p>
+<div class="tracking-info">
+  <div class="track-card">
+    <h4>📈 Total Opens</h4>
+    <p>How many times your gallery was opened</p>
   </div>
-  <div class="card">
+  <div class="track-card">
+    <h4>🌍 Visitor IPs</h4>
+    <p>IP addresses of people who viewed</p>
+  </div>
+  <div class="track-card">
+    <h4>🔑 Tracking Code</h4>
+    <p>Your unique code to check analytics</p>
+  </div>
+  <div class="track-card">
+    <h4>🗑️ Delete Button</h4>
+    <p>One-click delete from dashboard</p>
+  </div>
+</div>
+
+## 🎯 Who Should Use Maiimg?
+
+<div class="who-uses">
+  <div class="user-type">
+    <h4>🎨 Photographers & Artists</h4>
+    <p><strong>Use case:</strong> Share portfolio with clients</p>
+    <p><strong>Benefits:</strong> Set view limit to 10, see if client actually looked at it</p>
+  </div>
+  <div class="user-type">
+    <h4>🏢 Small Businesses</h4>
+    <p><strong>Use case:</strong> Send product catalog to wholesale buyers</p>
+    <p><strong>Benefits:</strong> Use QR code on business cards, track interest</p>
+  </div>
+  <div class="user-type">
     <h4>👨‍🏫 Teachers</h4>
-    <p>Share classroom materials securely</p>
+    <p><strong>Use case:</strong> Share reference images for art class</p>
+    <p><strong>Benefits:</strong> Set time limit, prevent permanent saves</p>
   </div>
-  <div class="card">
-    <h4>🎨 Creative Professionals</h4>
-    <p>Showcase your work with protection</p>
+  <div class="user-type">
+    <h4>🎉 Event Organizers</h4>
+    <p><strong>Use case:</strong> Share event photos quickly</p>
+    <p><strong>Benefits:</strong> QR code on screen, attendees scan and view</p>
   </div>
 </div>
 
-Whether you're sharing professional content or personal memories, Maiimg ensures your images stay secure while remaining accessible.
+## 🆚 Maiimg vs Traditional Image Hosts
 
-## 🔐 Advanced Security Features {#security-features}
-
-![Security Level Settings](/maiimg/maiimg-setting.png)
-
-<div class="security-features">
-  <div class="feature-highlight">
-    <h3>🛡️ Complete Control</h3>
-    <p>Unlike traditional platforms where you lose control after upload, Maiimg gives you ongoing management of your shared images:</p>
+<div class="comparison">
+  <div class="vs-column traditional">
+    <h4>❌ Traditional Image Hosts</h4>
     <ul>
-      <li><strong>Access Analytics:</strong> Track who viewed your images and when</li>
-      <li><strong>Real-time Controls:</strong> Modify permissions even after sharing</li>
-      <li><strong>Automatic Expiration:</strong> Set images to become inaccessible after specific dates</li>
-      <li><strong>View Tracking:</strong> Monitor engagement and access patterns</li>
+      <li>Images uploaded = permanent link</li>
+      <li>No control after sharing</li>
+      <li>Can't delete once shared</li>
+      <li>No tracking of views</li>
+      <li>No QR codes</li>
+    </ul>
+  </div>
+  <div class="vs-column maiimg">
+    <h4>✅ Maiimg</h4>
+    <ul>
+      <li>You control access settings</li>
+      <li>Can change settings anytime</li>
+      <li>Delete button in dashboard</li>
+      <li>See total views & IPs</li>
+      <li>Automatic QR codes</li>
     </ul>
   </div>
 </div>
 
-## 🚀 Getting Started is Simple {#getting-started}
+## ⚠️ What It Can't Do
 
-<div class="steps-container">
-  <div class="step-card">
-    <div class="step-number">1</div>
-    <h3>Visit Maiimg.com</h3>
-    <p>No registration required - start immediately</p>
-  </div>
-  <div class="step-card">
-    <div class="step-number">2</div>
-    <h3>Upload Your Images</h3>
-    <p>Drag and drop up to 25 images at once</p>
-  </div>
-  <div class="step-card">
-    <div class="step-number">3</div>
-    <h3>Set Your Preferences</h3>
-    <p>Configure access controls and security settings</p>
-  </div>
-  <div class="step-card">
-    <div class="step-number">4</div>
-    <h3>Share with Confidence</h3>
-    <p>Use the generated QR code or link to share securely</p>
-  </div>
+**Be realistic:**
+
+<div class="limitations">
+  <p>❌ Can't prevent screenshots</p>
+  <p>❌ Can't prevent phone camera photos</p>
+  <p>❌ Can't stop screen recording</p>
+  <p>❌ No "unique visitor" tracking (just total opens)</p>
+  <p>❌ No notification alerts when someone views</p>
 </div>
 
-## 🎯 Perfect for Every Use Case {#use-cases}
-
-<div class="use-case-examples">
-  <div class="example-card">
-    <h4>📸 Photography Portfolios</h4>
-    <p>Share your work with clients while maintaining control over downloads and usage</p>
-  </div>
-  <div class="example-card">
-    <h4>🛍️ E-commerce Product Images</h4>
-    <p>Distribute product photos to partners with view limits and expiration dates</p>
-  </div>
-  <div class="example-card">
-    <h4>📚 Educational Content</h4>
-    <p>Share visual learning materials with students in a controlled environment</p>
-  </div>
-  <div class="example-card">
-    <h4>🏠 Real Estate Listings</h4>
-    <p>Provide property images with time-limited access for potential buyers</p>
-  </div>
+**What it DOES do well:**
+<div class="strengths">
+  <p>✅ Makes sharing super easy (QR code!)</p>
+  <p>✅ Gives you basic view tracking</p>
+  <p>✅ Lets you delete galleries anytime</p>
+  <p>✅ Completely free to use</p>
 </div>
 
-## 🌐 The Future of Image Sharing {#future}
+## 📱 QR Code Feature Explained
 
-![Maiimg Landing Page](/maiimg/maiimg-head.png)
+**Why QR codes are useful:**
 
-Maiimg represents the next evolution in digital content sharing. By combining the simplicity of traditional image hosts with enterprise-level security controls, it bridges the gap between convenience and protection.
-
-<div class="future-features">
-  <h3>🔮 Coming Soon</h3>
-  <ul>
-    <li><strong>Team Collaboration:</strong> Share galleries with team members</li>
-    <li><strong>Advanced Analytics:</strong> Detailed viewing reports and insights</li>
-    <li><strong>API Integration:</strong> Connect Maiimg with your existing workflows</li>
-    <li><strong>Mobile App:</strong> Native mobile experience for on-the-go sharing</li>
-  </ul>
-</div>
-
-## 🎉 Get Started Today {#get-started}
-
-<div class="cta-container">
-  <h3>Ready to revolutionize your image sharing?</h3>
-  <p>Visit <a href="https://maiimg.com" target="_blank">Maiimg.com</a> and experience the future of image sharing. Upload your pictures, generate a QR code, and share with confidence—because your images deserve both speed and security.</p>
-  <div class="cta-benefits">
-    <p>✅ No sign-up required<br>
-    ✅ Free to use<br>
-    ✅ Instant QR code generation<br>
-    ✅ Advanced security controls<br>
-    ✅ Bulk upload support</p>
+<div class="qr-benefits">
+  <div class="qr-item">
+    <span class="qr-emoji">📄</span>
+    <div>
+      <strong>Print Materials</strong>
+      <p>Add QR code to business cards, flyers, posters</p>
+    </div>
   </div>
-</div>
-
-<div class="solution-highlight">
-  <h2 class="solution-title">🚀 Ready to Start?</h2>
-  <p class="solution-desc">Experience secure image sharing with <strong>Maiimg</strong> - Upload, share, and track your images today!</p>
-  <a href="https://maiimg.com" class="solution-button">Try Maiimg Now</a>
+  <div class="qr-item">
+    <span class="qr-emoji">🎤</span>
+    <div>
+      <strong>Presentations</strong>
+      <p>Display QR code on screen, audience scans to view images</p>
+    </div>
+  </div>
+  <div class="qr-item">
+    <span class="qr-emoji">🎉</span>
+    <div>
+      <strong>Events</strong>
+      <p>Wedding photos, conference materials - scan and view</p>
+    </div>
+  </div>
+  <div class="qr-item">
+    <span class="qr-emoji">🛍️</span>
+    <div>
+      <strong>Retail</strong>
+      <p>Product catalog in store - customers scan to see full gallery</p>
+    </div>
+  </div>
 </div>
 
 ---
 
-*Maiimg.com - Where image sharing meets security. Built by the team behind MaiPDF, trusted by thousands of users worldwide.*
+**Bottom Line:** Maiimg is a straightforward, free tool for sharing images when you want basic tracking and QR codes. Not enterprise-level, but perfect for everyday use.
+
+<style>
+  .intro-panel {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+  }
+
+  .intro-panel p {
+    margin: 0.75rem 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .main-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .feature-box {
+    display: flex;
+    gap: 1rem;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .feature-box:hover {
+    border-color: #667eea;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+  }
+
+  .feature-text h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2d3748;
+    font-size: 1.1rem;
+  }
+
+  .feature-text p {
+    margin: 0;
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .security-options {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .security-item {
+    display: flex;
+    gap: 1rem;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.25rem;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+
+  .security-item:hover {
+    border-color: #667eea;
+    background: #f8f9ff;
+  }
+
+  .sec-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+
+  .sec-content {
+    flex: 1;
+    color: #2d3748;
+    font-size: 1.05rem;
+  }
+
+  .sec-content strong {
+    color: #667eea;
+  }
+
+  .tracking-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .track-card {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .track-card:hover {
+    border-color: #667eea;
+    transform: translateY(-5px);
+  }
+
+  .track-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: #667eea;
+    font-size: 1.2rem;
+  }
+
+  .track-card p {
+    margin: 0;
+    color: #4a5568;
+    font-size: 0.95rem;
+  }
+
+  .who-uses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .user-type {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .user-type:hover {
+    border-color: #667eea;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
+  }
+
+  .user-type h4 {
+    margin: 0 0 1rem 0;
+    color: #2d3748;
+    font-size: 1.2rem;
+  }
+
+  .user-type p {
+    margin: 0.5rem 0;
+    color: #4a5568;
+    line-height: 1.6;
+  }
+
+  .user-type p strong {
+    color: #667eea;
+  }
+
+  .comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .vs-column {
+    padding: 2rem;
+    border-radius: 12px;
+  }
+
+  .traditional {
+    background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+    border: 2px solid #fc8181;
+  }
+
+  .traditional h4 {
+    margin: 0 0 1rem 0;
+    color: #742a2a;
+  }
+
+  .maiimg {
+    background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+    border: 2px solid #38b2ac;
+  }
+
+  .maiimg h4 {
+    margin: 0 0 1rem 0;
+    color: #234e52;
+  }
+
+  .vs-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .vs-column li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+
+  .traditional li::before {
+    content: '×';
+    position: absolute;
+    left: 0;
+    color: #fc8181;
+    font-weight: bold;
+  }
+
+  .maiimg li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #38b2ac;
+    font-weight: bold;
+  }
+
+  .limitations {
+    background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+    border: 2px solid #fc8181;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .limitations p {
+    margin: 0.5rem 0;
+    color: #742a2a;
+    font-weight: 500;
+  }
+
+  .strengths {
+    background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+    border: 2px solid #38b2ac;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .strengths p {
+    margin: 0.5rem 0;
+    color: #234e52;
+    font-weight: 500;
+  }
+
+  .qr-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .qr-item {
+    display: flex;
+    gap: 1rem;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .qr-item:hover {
+    border-color: #667eea;
+    transform: translateY(-3px);
+  }
+
+  .qr-emoji {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .qr-item strong {
+    display: block;
+    color: #2d3748;
+    margin-bottom: 0.25rem;
+  }
+
+  .qr-item p {
+    margin: 0;
+    color: #4a5568;
+    font-size: 0.95rem;
+  }
+
+  article .mermaid {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+  }
+
+  @media (max-width: 768px) {
+    .main-features,
+    .tracking-info,
+    .who-uses,
+    .comparison,
+    .qr-benefits {
+      grid-template-columns: 1fr;
+    }
+
+    .feature-box {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .feature-icon {
+      margin: 0 auto;
+    }
+  }
+</style>
