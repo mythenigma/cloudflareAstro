@@ -91,29 +91,57 @@ MaiPDF 的目标不是阻止分享，而是在分享链路中引入**可配置�
 
 ## 3️⃣ 快速上手：三步配置 {#quick-start}
 
-<div class="steps-container">
-  <div class="step">
-    <h3>1. 上传文件</h3>
-    <p>在浏览器中拖放或选择 PDF，等待上传完成（通常 < 10 秒）。</p>
+<div class="eds-qs">
+  <div class="eds-qs-card">
+    <div class="eds-qs-head">
+      <div class="eds-qs-num">1</div>
+      <div class="eds-qs-title">
+        <h3>上传文件</h3>
+        <p class="eds-qs-subtitle">拖放或选择 PDF，等待上传完成（通常 &lt; 10 秒）。</p>
+      </div>
+    </div>
+    <div class="eds-qs-body">
+      <p>建议先用最终版或“接近最终版”的文件上传，后续如果需要更新内容，再用<strong>替换文件</strong>保持链接不变。</p>
+    </div>
   </div>
-  <div class="step">
-    <h3>2. 设定策略</h3>
-    <ul>
-      <li><strong>阅读次数：</strong>根据业务场景输入具体数值，例如 5 次或 50 次；</li>
-      <li><strong>阅读时长：</strong>输入分钟数，例如 15 min；</li>
-      <li><strong>下载权限：</strong>如无必要下载，建议选择 禁止；</li>
-    </ul>
+
+  <div class="eds-qs-card">
+    <div class="eds-qs-head">
+      <div class="eds-qs-num">2</div>
+      <div class="eds-qs-title">
+        <h3>设定策略</h3>
+        <p class="eds-qs-subtitle">先设定访问控制，再生成并分发链接。</p>
+      </div>
+    </div>
+    <div class="eds-qs-body">
+      <ul class="eds-qs-list">
+        <li><strong>阅读次数</strong>：根据场景输入具体数值，例如 5 次或 50 次</li>
+        <li><strong>阅读时长</strong>：输入分钟数，例如 15 min</li>
+        <li><strong>下载权限</strong>：如无必要下载，建议选择“禁止”</li>
+      </ul>
+    </div>
   </div>
-  <div class="step">
-    <h3>3. 生成并分发</h3>
-    <p>系统立即返回 链接 + 二维码。你可以在微信、邮件、企业 IM 等任意渠道发送。</p>
-    <img src="/maifle/阅读码示例.png" alt="阅读码示例" class="step-image">
+
+  <div class="eds-qs-card">
+    <div class="eds-qs-head">
+      <div class="eds-qs-num">3</div>
+      <div class="eds-qs-title">
+        <h3>生成并分发</h3>
+        <p class="eds-qs-subtitle">系统返回链接 + 二维码；可在微信/邮件/企业 IM 分发。</p>
+      </div>
+    </div>
+    <div class="eds-qs-body">
+      <div class="eds-qs-media">
+        <img src="/maifle/阅读码示例.png" alt="阅读码示例" />
+        <div class="eds-qs-caption">示意：阅读码对应可分享链接；如需更新内容，用“替换文件”保持链接不变。</div>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="tip-box">
   <h4>💡 提示：</h4>
-  <p>策略可随时修改；修改后旧链接立即失效，确保实时控制。</p>
+  <p>阅读次数用完或内容需要更新时，推荐使用<strong>替换文件</strong>：保持原链接/二维码不变，同时用新文件的内容与设置替换旧版本，避免“重发链接导致版本混乱”。</p>
   <img src="/maifle/替换阅读码的例子.png" alt="替换阅读码示例" class="tip-image">
 </div>
 
@@ -171,7 +199,8 @@ MaiPDF 的目标不是阻止分享，而是在分享链路中引入**可配置�
   </div>
   <div class="faq-item">
     <h4>阅读次数用完后还能恢复吗？</h4>
-    <p>可以，在后台重新设置更高次数并生成新链接。</p>
+    <p>可以。做法是：先上传一个新版本（设置更高的阅读次数），然后用<strong>替换文件</strong>把“新版本的内容与设置”替换到原阅读码上，这样<strong>链接不变</strong>，收件人继续用原链接即可。</p>
+    <p>参考：<a href="https://sendpdfonline.com/article/replace-pdf-without-changing-link-zh" target="_blank" rel="noopener noreferrer">不换链接更新 PDF 文件（替换文件）</a></p>
   </div>
   <div class="faq-item">
     <h4>文件存储在哪里？</h4>
@@ -216,6 +245,148 @@ MaiPDF 的目标不是阻止分享，而是在分享链路中引入**可配置�
 
 ## 您可能还喜欢：
 
-- [二维码一扫，PDF随时随地看](../../cn/qrcode-pdf-sharing)
-- [在微信分享PDF，用MaiPDF简单又安全](../../cn/wechat-pdf-sharing)
-- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](../../cn/dynamic-watermarks-on-pdf-cn)
+- [二维码一扫，PDF随时随地看](/blog/cn/qrcode-pdf-sharing)
+- [在微信分享PDF，用MaiPDF简单又安全](/blog/cn/wechat-pdf-sharing)
+- [MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯](/blog/cn/dynamic-watermarks-on-pdf-cn)
+- [不换链接更新 PDF 文件（替换文件指南）](https://sendpdfonline.com/article/replace-pdf-without-changing-link-zh)
+
+<style>
+  /* Scoped: enterprise-document-security quick-start layout only */
+  .eds-qs {
+    --eds-ink: #0f172a;
+    --eds-muted: #475569;
+    --eds-border: #e2e8f0;
+    --eds-soft: #f8fafc;
+    --eds-accent: #6366f1;
+    --eds-accent-2: #8b5cf6;
+    --eds-shadow: 0 14px 36px rgba(2, 6, 23, 0.08);
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    align-items: stretch;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .eds-qs-card {
+    background: #ffffff;
+    border: 1px solid var(--eds-border);
+    border-radius: 16px;
+    box-shadow: 0 10px 26px rgba(2, 6, 23, 0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eds-qs-head {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 0.9rem;
+    align-items: start;
+    padding: 1.1rem 1.1rem 0.9rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.10), rgba(139, 92, 246, 0.08));
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  }
+
+  .eds-qs-num {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--eds-accent), var(--eds-accent-2));
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.25);
+  }
+
+  .eds-qs-title h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 950;
+    color: var(--eds-ink);
+    line-height: 1.2;
+  }
+
+  .eds-qs-subtitle {
+    margin: 0.45rem 0 0;
+    color: var(--eds-muted);
+    line-height: 1.55;
+    font-size: 0.98rem;
+  }
+
+  .eds-qs-body {
+    padding: 1.05rem 1.1rem 1.1rem;
+    color: #334155;
+    line-height: 1.65;
+    flex: 1 1 auto;
+  }
+
+  .eds-qs-body p {
+    margin: 0;
+  }
+
+  .eds-qs-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: #334155;
+  }
+
+  .eds-qs-list li {
+    margin: 0.5rem 0;
+  }
+
+  .eds-qs-media {
+    margin-top: 0.25rem;
+    border-radius: 14px;
+    border: 1px solid var(--eds-border);
+    background: var(--eds-soft);
+    padding: 0.85rem;
+  }
+
+  .eds-qs-media img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid var(--eds-border);
+    box-shadow: var(--eds-shadow);
+    max-height: 260px;
+    object-fit: contain;
+    background: white;
+  }
+
+  .eds-qs-caption {
+    margin-top: 0.65rem;
+    color: var(--eds-muted);
+    font-size: 0.92rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 980px) {
+    .eds-qs {
+      grid-template-columns: 1fr;
+      gap: 0.9rem;
+      margin: 1.25rem 0 1.5rem;
+    }
+
+    .eds-qs-head {
+      grid-template-columns: 40px minmax(0, 1fr);
+      padding: 1rem 1rem 0.85rem;
+    }
+
+    .eds-qs-num {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+    }
+
+    .eds-qs-body {
+      padding: 0.95rem 1rem 1rem;
+    }
+
+    .eds-qs-media img {
+      max-height: 200px;
+    }
+  }
+</style>

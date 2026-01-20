@@ -3,11 +3,12 @@ import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import OptimizedImage from '../components/OptimizedImage.astro';
+import '../styles/blog-post.css';
 // Removed Layout import since BlogPost is already wrapped in Layout in the parent page
 
 type Props = CollectionEntry<'blog'>['data'] & { slug: string; id: string };
 
-const { title, description, pubDate, updatedDate, heroImage, tags, slug: slugProp, id } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, slug: slugProp, id, showDefaultCta = true } = Astro.props;
 
 // Prefer explicit slug prop; fall back to id for brand detection
 const slug = slugProp || id || '';
@@ -56,11 +57,13 @@ const buttonText = isMaiimg
       </div>
       
       <!-- CTA Button -->
-      <div class="cta-container">
-        <a href={targetWebsite} target="_blank" rel="noopener noreferrer" class="cta-button">
-          {buttonText}
-        </a>
-      </div>
+      {showDefaultCta && (
+        <div class="cta-container">
+          <a href={targetWebsite} target="_blank" rel="noopener noreferrer" class="cta-button">
+            {buttonText}
+          </a>
+        </div>
+      )}
       
       <!-- Show related posts with the full post ID -->
       <RelatedPosts 
@@ -288,16 +291,17 @@ const buttonText = isMaiimg
   
   /* Modern image styling with more precise control */
   article img {
-    width: 100px; /* Further reduced from 120px for smaller images */
-    max-height: 80px; /* Limit height to maintain proportion */
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 1rem 0.5rem 0;
-    float: left;
-    clear: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(2, 6, 23, 0.08);
+    display: block;
+    margin: 1.75rem auto;
+    float: none;
+    clear: none;
   }
   
   /* Add size classes for more flexibility */
@@ -341,10 +345,10 @@ const buttonText = isMaiimg
   
   /* Image caption styling */
   figure {
-    width: 100px; /* Match the new smaller image width */
-    margin: 0 1.5rem 1rem 0;
-    float: left;
-    clear: left;
+    width: auto;
+    margin: 1.75rem 0;
+    float: none;
+    clear: none;
   }
   
   figure.tiny {
@@ -365,7 +369,7 @@ const buttonText = isMaiimg
     color: #666;
     font-style: italic;
     margin-top: 0.5rem;
-    text-align: left;
+    text-align: center;
   }
   
   /* Modern typography */

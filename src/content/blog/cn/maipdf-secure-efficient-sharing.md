@@ -4,6 +4,7 @@ description: "探索 MaiPDF 如何通过免登录访问、邮箱验证和 Cloudf
 pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/secure-pdf-sharing.png"
 tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
+showDefaultCta: false
 ---
 
 # MaiPDF：更安全、更高效的在线 PDF 分享方式
@@ -259,9 +260,12 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
     background: #fef2f2;
     border: 1px solid #fecaca;
     border-radius: 0.75rem;
-    padding: 1.5rem;
-    text-align: center;
+    padding: 1.25rem 1.25rem;
+    text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
   }
   
   .problem-card:hover {
@@ -270,21 +274,47 @@ tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
   }
   
   .problem-icon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 1.35rem;
+    line-height: 1;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: rgba(220, 38, 38, 0.10);
+    border: 1px solid rgba(220, 38, 38, 0.18);
+    flex: 0 0 auto;
+    margin: 0;
   }
   
   .problem-content h3 {
     margin: 0 0 0.5rem 0;
-    color: #dc2626;
+    color: #1e293b;
     font-size: 1.25rem;
     border-bottom: none;
     padding-bottom: 0;
+    line-height: 1.25;
   }
   
   .problem-content p {
     margin: 0;
-    color: #7f1d1d;
+    color: #475569;
+    line-height: 1.5;
+  }
+
+  /* Make cards stack nicely on small screens */
+  @media (max-width: 520px) {
+    .problem-card {
+      gap: 0.85rem;
+    }
+    .problem-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+    }
+    .problem-content h3 {
+      font-size: 1.15rem;
+    }
   }
   
   .feature-highlight {

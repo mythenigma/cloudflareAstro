@@ -8,6 +8,25 @@
   color: #333;
 }
 
+/* Ensure content images render as proper block media by default */
+.content-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.75rem auto;
+}
+
+/* Helper: allow intentional inline icons without breaking layout */
+.content-wrapper img.icon,
+.content-wrapper img.inline-icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  margin: 0 0.25em;
+  vertical-align: -0.2em;
+  border-radius: 0.25em;
+}
+
 /* 引言面板 - 模仿截图中的样式 */
 .intro-panel {
   background: #f8fafc;
@@ -88,9 +107,34 @@
 .security-features,
 .case-studies {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
   margin: 3rem 0;
+}
+
+/* If we have an odd number of cards (e.g. 3 pain points), make the last one look intentional */
+.problems-grid > :last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: 520px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .problems-grid,
+  .feature-grid,
+  .analytics-panel,
+  .practice-grid,
+  .security-features,
+  .case-studies {
+    grid-template-columns: 1fr;
+  }
+
+  .problems-grid > :last-child:nth-child(odd) {
+    grid-column: auto;
+    max-width: none;
+    justify-self: stretch;
+  }
 }
 
 /* 问题卡片特殊样式 */
@@ -128,6 +172,10 @@
   font-weight: 700;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-left: 0; /* don't inherit decorative left bar spacing */
 }
 
 .problem-card p {
@@ -355,9 +403,18 @@
 .feature-item h4::before,
 .security-item h4::before {
   content: attr(data-icon);
-  font-size: 2.5rem;
-  display: block;
-  margin-bottom: 1rem;
+  /* Reset any global heading pseudo-element positioning so emoji isn't clipped/misaligned */
+  position: static;
+  inset: auto;
+  transform: none;
+  width: auto;
+  height: auto;
+  background: none;
+  border-radius: 0;
+  font-size: 1.35em;
+  line-height: 1;
+  display: inline-block;
+  margin: 0;
   filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1));
 }
 
@@ -591,6 +648,361 @@
   color: #6366f1;
   font-size: 0.8rem;
   top: 0.1rem;
+}
+
+/* =========================
+   HTML-heavy post layouts
+   (cards / grids / tags)
+   Used by: compliance-document-distribution.md and similar posts
+   ========================= */
+
+.content-wrapper {
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --card-shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+  --muted: #64748b;
+  --ink: #0f172a;
+  --accent: #6366f1;
+  --accent-2: #8b5cf6;
+}
+
+.content-wrapper .five-elements-section,
+.content-wrapper .industry-challenges-section,
+.content-wrapper .configuration-section,
+.content-wrapper .case-study-horizontal,
+.content-wrapper .risk-checklist-section,
+.content-wrapper .security-infrastructure-section,
+.content-wrapper .related-articles-section {
+  margin: 2.5rem 0;
+}
+
+/* Section intro blocks */
+.content-wrapper .checklist-intro,
+.content-wrapper .scenario-intro,
+.content-wrapper .security-intro,
+.content-wrapper .case-overview {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.25rem 1.25rem;
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+  box-shadow: 0 8px 22px rgba(2, 6, 23, 0.05);
+}
+
+.content-wrapper .scenario-icon,
+.content-wrapper .intro-icon,
+.content-wrapper .guide-icon {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 6px 14px rgba(2, 6, 23, 0.06);
+  font-size: 1.25rem;
+}
+
+.content-wrapper .detail-tag,
+.content-wrapper .case-tag,
+.content-wrapper .requirement-tag,
+.content-wrapper .tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  background: rgba(99, 102, 241, 0.08);
+  color: #3730a3;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0.25rem 0.35rem 0 0;
+}
+
+.content-wrapper .risk-level {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1px solid var(--card-border);
+  background: #f8fafc;
+  color: var(--muted);
+}
+.content-wrapper .risk-level.low,
+.content-wrapper .low {
+  border-color: rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.10);
+  color: #166534;
+}
+.content-wrapper .risk-level.medium,
+.content-wrapper .medium {
+  border-color: rgba(245, 158, 11, 0.35);
+  background: rgba(245, 158, 11, 0.12);
+  color: #92400e;
+}
+.content-wrapper .risk-level.high,
+.content-wrapper .high {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.10);
+  color: #991b1b;
+}
+
+/* Two-column intro with hero image */
+.content-wrapper .elements-intro-horizontal {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.content-wrapper .elements-hero-image,
+.content-wrapper .workflow-image,
+.content-wrapper .evidence-image,
+.content-wrapper .action-image,
+.content-wrapper .tip-image {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  margin: 0;
+}
+
+.content-wrapper .intro-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Grids */
+.content-wrapper .industry-grid,
+.content-wrapper .checklist-grid,
+.content-wrapper .articles-grid,
+.content-wrapper .benefits-grid,
+.content-wrapper .cert-grid,
+.content-wrapper .strategy-grid-compact {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.content-wrapper .elements-row,
+.content-wrapper .steps-row,
+.content-wrapper .results-compact,
+.content-wrapper .summary-stats-inline,
+.content-wrapper .summary-stats,
+.content-wrapper .workflow-details-row,
+.content-wrapper .case-evidence-row,
+.content-wrapper .security-layers {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 960px) {
+  .content-wrapper .industry-grid,
+  .content-wrapper .checklist-grid,
+  .content-wrapper .articles-grid,
+  .content-wrapper .benefits-grid,
+  .content-wrapper .cert-grid,
+  .content-wrapper .strategy-grid-compact,
+  .content-wrapper .elements-row,
+  .content-wrapper .steps-row,
+  .content-wrapper .results-compact,
+  .content-wrapper .summary-stats-inline,
+  .content-wrapper .summary-stats,
+  .content-wrapper .workflow-details-row,
+  .content-wrapper .case-evidence-row,
+  .content-wrapper .security-layers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .content-wrapper .elements-intro-horizontal {
+    grid-template-columns: 1fr;
+  }
+  .content-wrapper .intro-right {
+    justify-content: flex-start;
+  }
+  .content-wrapper .industry-grid,
+  .content-wrapper .checklist-grid,
+  .content-wrapper .articles-grid,
+  .content-wrapper .benefits-grid,
+  .content-wrapper .cert-grid,
+  .content-wrapper .strategy-grid-compact,
+  .content-wrapper .elements-row,
+  .content-wrapper .steps-row,
+  .content-wrapper .results-compact,
+  .content-wrapper .summary-stats-inline,
+  .content-wrapper .summary-stats,
+  .content-wrapper .workflow-details-row,
+  .content-wrapper .case-evidence-row,
+  .content-wrapper .security-layers {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card primitives */
+.content-wrapper .industry-card,
+.content-wrapper .element-card-compact,
+.content-wrapper .step-card-compact,
+.content-wrapper .checklist-card,
+.content-wrapper .strategy-item,
+.content-wrapper .result-stat,
+.content-wrapper .evidence-item,
+.content-wrapper .cert-item,
+.content-wrapper .benefit-card,
+.content-wrapper .action-card,
+.content-wrapper .article-card,
+.content-wrapper .security-layer,
+.content-wrapper .summary-stat,
+.content-wrapper .stat-compact {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  padding: 1.15rem 1.15rem;
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.06);
+}
+
+.content-wrapper .industry-header,
+.content-wrapper .element-header-inline,
+.content-wrapper .step-header,
+.content-wrapper .case-header-compact,
+.content-wrapper .action-header {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.content-wrapper .industry-icon,
+.content-wrapper .element-icon,
+.content-wrapper .strategy-icon,
+.content-wrapper .case-icon,
+.content-wrapper .check-icon,
+.content-wrapper .security-icon,
+.content-wrapper .layer-icon,
+.content-wrapper .action-icon,
+.content-wrapper .article-icon,
+.content-wrapper .benefit-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: rgba(99, 102, 241, 0.10);
+  border: 1px solid rgba(99, 102, 241, 0.20);
+  color: #3730a3;
+  font-size: 1.25rem;
+  flex: 0 0 auto;
+}
+
+.content-wrapper .element-info h4,
+.content-wrapper .industry-header h4,
+.content-wrapper .strategy-content h5,
+.content-wrapper .case-info h3,
+.content-wrapper .check-header h4,
+.content-wrapper .security-layer h4,
+.content-wrapper .action-content h4,
+.content-wrapper .article-content h4,
+.content-wrapper .benefit-content h4 {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.content-wrapper .element-card-highlight {
+  border-radius: 14px;
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(139, 92, 246, 0.10) 100%);
+  padding: 1.15rem 1.15rem;
+}
+
+.content-wrapper .element-card-highlight .highlight-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.content-wrapper .image-caption,
+.content-wrapper .evidence-caption,
+.content-wrapper .caption-icon {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* Compact step number override (BlogPost.astro has a large circular style) */
+.content-wrapper .step-card-compact .step-number {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.25);
+}
+
+.content-wrapper .step-time {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.content-wrapper .policy-compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.content-wrapper .policy-item {
+  border: 1px solid var(--card-border);
+  background: #f8fafc;
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  font-weight: 700;
+  color: #334155;
+  font-size: 0.95rem;
+}
+
+.content-wrapper .success-summary {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  background: rgba(34, 197, 94, 0.08);
+  border-radius: 14px;
+  padding: 1rem 1.15rem;
+  margin-top: 1.25rem;
+}
+
+.content-wrapper .success-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  color: #166534;
+  font-size: 1.2rem;
+  flex: 0 0 auto;
 }
 
 /* 响应式设计增强 */

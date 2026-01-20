@@ -13,6 +13,11 @@ const blog = defineCollection({
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
     tags: z.array(z.string()).optional(),
+    /**
+     * Whether to show the default CTA injected by `src/layouts/BlogPost.astro`.
+     * Some posts include their own CTA blocks and should disable the default to avoid duplicates.
+     */
+    showDefaultCta: z.boolean().optional(),
   }),
 });
 
