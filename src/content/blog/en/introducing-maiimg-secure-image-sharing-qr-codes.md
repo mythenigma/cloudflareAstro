@@ -1,15 +1,15 @@
 ---
-title: "Maiimg: Simple Image Sharing with QR Codes and Tracking"
-description: "Maiimg is a free image sharing platform. Upload up to 25 images, get a shareable link and QR code, set view limits, and track who viewed your images."
+title: "Maiimg: Simple Image Sharing with QR Codes and Access Records"
+description: "Maiimg is a free image sharing platform. Upload up to 25 images, get a shareable link and QR code, set view limits, and view access records."
 pubDate: "Jan 19 2026"
 heroImage: "/maiimg/maiimg-head.png"
-tags: ["image sharing", "QR codes", "tracking", "free tool"]
+tags: ["image sharing", "QR codes", "access records", "free tool"]
 ---
 
 # Maiimg: Simple Image Sharing with QR Codes
 
 <div class="intro-panel">
-  <p><strong>What is Maiimg?</strong> A free platform for sharing images with built-in QR codes and basic tracking.</p>
+  <p><strong>What is Maiimg?</strong> A free platform for sharing images with built-in QR codes and access records.</p>
   <p><strong>Who made it?</strong> The same team behind MaiPDF. Same idea, but for images instead of PDFs.</p>
 </div>
 
@@ -25,7 +25,7 @@ flowchart LR
     B --> C[⚙️ Set Options]
     C --> D[🔗 Get Link & QR]
     D --> E[📤 Share]
-    E --> F[📊 Track Views]
+    E --> F[📊 View Records]
     
     style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     style B fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
@@ -74,8 +74,8 @@ flowchart LR
   <div class="feature-box">
     <div class="feature-icon">📊</div>
     <div class="feature-text">
-      <h4>Basic Tracking</h4>
-      <p>See total views and visitor IP addresses</p>
+      <h4>Access Records</h4>
+      <p>See total views and basic access information</p>
     </div>
   </div>
 </div>
@@ -108,14 +108,14 @@ flowchart LR
   <div class="security-item">
     <span class="sec-icon">🗑️</span>
     <div class="sec-content">
-      <strong>Delete Anytime:</strong> Remove gallery from tracking dashboard - links stop working immediately
+      <strong>Delete Anytime:</strong> Remove gallery from dashboard - links stop working immediately
     </div>
   </div>
 </div>
 
-## 📊 Tracking Dashboard
+## 📊 Access Records Dashboard
 
-![Tracking Results](/maiimg/result_tracking.png)
+![Access Records](/maiimg/result_tracking.png)
 
 **What you can see:**
 
@@ -125,12 +125,12 @@ flowchart LR
     <p>How many times your gallery was opened</p>
   </div>
   <div class="track-card">
-    <h4>🌍 Visitor IPs</h4>
-    <p>IP addresses of people who viewed</p>
+    <h4>🕐 Access Times</h4>
+    <p>When your gallery was accessed</p>
   </div>
   <div class="track-card">
-    <h4>🔑 Tracking Code</h4>
-    <p>Your unique code to check analytics</p>
+    <h4>🔑 Access Code</h4>
+    <p>Your unique code to check access records</p>
   </div>
   <div class="track-card">
     <h4>🗑️ Delete Button</h4>
@@ -144,12 +144,12 @@ flowchart LR
   <div class="user-type">
     <h4>🎨 Photographers & Artists</h4>
     <p><strong>Use case:</strong> Share portfolio with clients</p>
-    <p><strong>Benefits:</strong> Set view limit to 10, see if client actually looked at it</p>
+      <p><strong>Benefits:</strong> Set view limit to 10, check access records to see engagement</p>
   </div>
   <div class="user-type">
     <h4>🏢 Small Businesses</h4>
     <p><strong>Use case:</strong> Send product catalog to wholesale buyers</p>
-    <p><strong>Benefits:</strong> Use QR code on business cards, track interest</p>
+      <p><strong>Benefits:</strong> Use QR code on business cards, monitor engagement</p>
   </div>
   <div class="user-type">
     <h4>👨‍🏫 Teachers</h4>
@@ -172,7 +172,7 @@ flowchart LR
       <li>Images uploaded = permanent link</li>
       <li>No control after sharing</li>
       <li>Can't delete once shared</li>
-      <li>No tracking of views</li>
+      <li>No access records</li>
       <li>No QR codes</li>
     </ul>
   </div>
@@ -182,7 +182,7 @@ flowchart LR
       <li>You control access settings</li>
       <li>Can change settings anytime</li>
       <li>Delete button in dashboard</li>
-      <li>See total views & IPs</li>
+      <li>See total views & access times</li>
       <li>Automatic QR codes</li>
     </ul>
   </div>
@@ -196,14 +196,14 @@ flowchart LR
   <p>❌ Can't prevent screenshots</p>
   <p>❌ Can't prevent phone camera photos</p>
   <p>❌ Can't stop screen recording</p>
-  <p>❌ No "unique visitor" tracking (just total opens)</p>
+  <p>❌ No "unique visitor" identification (just total opens)</p>
   <p>❌ No notification alerts when someone views</p>
 </div>
 
 **What it DOES do well:**
 <div class="strengths">
   <p>✅ Makes sharing super easy (QR code!)</p>
-  <p>✅ Gives you basic view tracking</p>
+  <p>✅ Gives you basic access records</p>
   <p>✅ Lets you delete galleries anytime</p>
   <p>✅ Completely free to use</p>
 </div>
@@ -245,7 +245,7 @@ flowchart LR
 
 ---
 
-**Bottom Line:** Maiimg is a straightforward, free tool for sharing images when you want basic tracking and QR codes. Not enterprise-level, but perfect for everyday use.
+**Bottom Line:** Maiimg is a straightforward, free tool for sharing images when you want basic access records and QR codes. Not enterprise-level, but perfect for everyday use.
 
 <style>
   .intro-panel {
@@ -567,6 +567,29 @@ flowchart LR
 
     .feature-icon {
       margin: 0 auto;
+    }
+    
+    .comparison {
+      grid-template-columns: 1fr;
+    }
+    
+    .vs-column {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .main-features {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .tracking-info {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .who-uses {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .qr-benefits {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 </style>

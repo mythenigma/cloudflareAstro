@@ -35,7 +35,7 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 
 ### ✨ 核心优势
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin: 2rem 0;">
 
 <div style="background: #fff7ed; padding: 1.5rem; border-radius: 8px; border: 1px solid #f97316;">
 <h3 style="color: #ea580c; margin-top: 0;">📦 批量上传</h3>
@@ -53,8 +53,8 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 </div>
 
 <div style="background: #fdf4ff; padding: 1.5rem; border-radius: 8px; border: 1px solid #a855f7;">
-<h3 style="color: #9333ea; margin-top: 0;">📊 实时跟踪</h3>
-<p>查看访问统计、访客信息、访问时间等详细数据</p>
+<h3 style="color: #9333ea; margin-top: 0;">📊 访问记录</h3>
+<p>查看访问统计、访问时间等基本数据</p>
 </div>
 
 </div>
@@ -100,7 +100,7 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 
 - 🔗 **分享链接**：可直接复制发送给他人
 - 📱 **二维码**：可截图或下载，方便离线分享
-- 📊 **跟踪代码**：用于查看访问统计
+- 📊 **访问记录代码**：用于查看访问统计
 
 ## 💡 图片二维码的实际应用场景
 
@@ -145,20 +145,18 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 ### 访问权限控制
 - **密码保护**：设置查看密码
 - **手机验证**：要求输入手机验证码
-- **IP限制**：限制特定地区访问
+- **地区限制**：限制特定地区访问（可选）
 
-## 📊 访问统计和跟踪
+## 📊 访问统计和记录
 
-### 实时数据
-![访问跟踪统计](/maiimg/result_tracking.png)
+### 基本数据
+![访问记录统计](/maiimg/result_tracking.png)
 
-Maiimg提供详细的访问统计信息：
+Maiimg提供基本的访问统计信息：
 
 - 📈 **总访问次数**：图片集被查看的总次数
-- 👥 **独立访客**：访问的不同用户数量
 - 🕐 **访问时间**：每次访问的具体时间
-- 🌍 **访问来源**：访客的IP地址和地理位置
-- 📱 **设备信息**：访客使用的设备和浏览器
+- 📱 **设备信息**：访问使用的设备和浏览器类型
 
 ### 数据导出
 支持将访问数据导出为报告，方便分析和存档。
@@ -221,3 +219,14 @@ Maiimg团队正在开发更多实用功能：
 **Maiimg - 让图片分享变得简单、安全、高效！**
 
 立即访问 [maiimg.com](https://maiimg.com) 开始使用，体验全新的图片分享方式！
+
+<style>
+@media (min-width: 768px) {
+  div[style*="grid-template-columns: 1fr"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  div[style*="grid-template-columns: 1fr; gap: 1.5rem"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+</style>
