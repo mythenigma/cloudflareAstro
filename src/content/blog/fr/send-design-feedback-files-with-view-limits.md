@@ -38,7 +38,7 @@ Au lieu de pièces jointes d'e-mail ou de liens Google Drive ouverts, utilisez u
 - 📄 Partage en visualisation uniquement (pas de téléchargements)
 - 🔢 Nombre limité d'ouvertures (par exemple, 2 vues maximum)
 - ⏱️ Expiration d'accès optionnelle après X heures
-- 🧭 Journaux d'accès (IP, heure, lieu)
+- 🧭 Journaux d'accès (Visitor ID, heure, lieu)
 - ❌ Pas de transfert, pas d'impression
 
 Vous envoyez un lien ou un code QR, ils le consultent—et c'est tout. Pas de copies. Pas de confusion. Pas de contenu se propageant au-delà de votre contrôle.

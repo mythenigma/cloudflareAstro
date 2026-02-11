@@ -65,7 +65,7 @@ flowchart TD
     C --> C4[Filigrane Dynamique]
     
     D --> D1[Enregistrements d'Accès]
-    D --> D2[Suivi IP]
+    D --> D2[Suivi Visitor ID]
     D --> D3[Informations sur l'Appareil]
     D --> D4[Localisation Géographique]
     
@@ -194,7 +194,7 @@ flowchart TD
 **Contenu Suivi :**
 - 📊 Nombre total d'ouvertures
 - ⏰ Heure de chaque ouverture
-- 🌐 Adresse IP du visiteur
+- 🌐 Adresse Visitor ID du visiteur
 - 📱 Informations sur l'appareil
 - 📍 Localisation géographique
 - 🔗 Source d'accès
@@ -204,7 +204,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     A[Utilisateur Ouvre Lien] --> B[Enregistrer Heure d'Accès]
-    B --> C[Enregistrer Adresse IP]
+    B --> C[Enregistrer Adresse Visitor ID]
     C --> D[Enregistrer Infos Appareil]
     D --> E[Enregistrer Localisation]
     E --> F[Mettre à Jour Statistiques]
@@ -318,7 +318,7 @@ flowchart TD
 | **Inscription** | ❌ Requiert compte | ✅ Aucune inscription |
 | **Génération Lien** | ❌ Requiert attente approbation | ✅ Instantanée (moins de 10 secondes) |
 | **Contrôle Accès** | ❌ Ne peut pas contrôler | ✅ Contrôle complet (nombre, temps, téléchargement) |
-| **Suivi Accès** | ❌ Aucun enregistrement | ✅ Enregistrements complets (temps, IP, appareil) |
+| **Suivi Accès** | ❌ Aucun enregistrement | ✅ Enregistrements complets (temps, Visitor ID, appareil) |
 | **Gestion Liens** | ❌ Peut seulement supprimer | ✅ Désactivation en un clic, remplacement fichier |
 | **Protection Filigrane** | ❌ Non supporté | ✅ Filigrane dynamique (mode en ligne) |
 | **Coût** | 💰 Peut facturer | ✅ Entièrement gratuit |

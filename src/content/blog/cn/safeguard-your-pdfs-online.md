@@ -64,7 +64,7 @@ MaiPDF是一个免费的在线工具，无需您（或接收者）安装任何�
   </div>
   <div class="feature-item">
     <span class="feature-icon">📍</span>
-    <p>跟踪访问（IP、时间、位置）</p>
+    <p>跟踪访问（访客标识、时间、位置）</p>
   </div>
   <div class="feature-item">
     <span class="feature-icon">🔧</span>

@@ -35,7 +35,7 @@ The first line of defense verifies legitimate users and limits exposure:
 - **Email verification**: Requiring recipients to confirm their identity
 - **SMS authentication**: Adding a second factor for critical documents
 - **Password protection**: Adding an additional access barrier
-- **IP restrictions**: Limiting access to specific networks or regions
+- **Visitor ID restrictions**: Limiting access to specific networks or regions
 
 ### Exposure Limitation
 - **View limits**: Restricting the number of times a document can be opened

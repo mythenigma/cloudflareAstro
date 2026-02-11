@@ -426,7 +426,7 @@ Maiimg免费提供批量图片分享，无需注册。上传您的图片，配�
 ---
 
 **相关文章：**
-- [Maiimg：带跟踪和控制的图片分享](/blog/cn/maiimg-share-images-tracking)
+- [Maiimg：带跟踪和控制的图片分享](/blog/cn/open-statistics-and-access-control-guide)
 - [图片分享二维码生成](/blog/cn/maiimg-qr-code-generation)
 - [图片分享安全最佳实践](/blog/cn/image-sharing-security-guide)
 

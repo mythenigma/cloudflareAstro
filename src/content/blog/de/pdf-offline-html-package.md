@@ -86,7 +86,7 @@ tags: ["PDF-Sicherheit", "Offline-Lesen", "Dokumentenkontrolle", "HTML-Paket"]
       </tr>
       <tr>
         <td>Zugriffsprotokolle übertragen</td>
-        <td>IP, Zeit, Gerät hochladen, wenn online</td>
+        <td>Visitor ID, Zeit, Gerät hochladen, wenn online</td>
         <td>Kostenlos (<10.000 Aufrufe)</td>
       </tr>
       <tr>

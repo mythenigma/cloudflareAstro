@@ -75,8 +75,8 @@ MaiPDF提供详细的文档访问数据分析功能，让您清楚了解文档�
     <img src="/maifle/阅读记录查询.png" alt="查看次数统计界面" class="tracking-image">
   </div>
   <div class="feature-card">
-    <h3>📱 设备与IP追踪</h3>
-    <p>记录每次访问的设备类型、浏览器信息和IP地址，了解查看者的基本情况。</p>
+    <h3>📱 设备与打开统计</h3>
+    <p>记录每次访问的设备类型、浏览器信息和访客标识，了解查看者的基本情况。</p>
   </div>
   <div class="feature-card">
     <h3>🕒 时间记录</h3>

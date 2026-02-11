@@ -83,7 +83,7 @@ tags: ["Enterprise Documents", "PDF Encryption", "Permission Management", "Data 
       <tr>
         <td>Auditable Logs</td>
         <td>Restore complete chain</td>
-        <td>Record IP, time, device, action</td>
+        <td>Record Visitor ID, time, device, action</td>
       </tr>
       <tr>
         <td>Instant Invalidation</td>
@@ -162,7 +162,7 @@ tags: ["Enterprise Documents", "PDF Encryption", "Permission Management", "Data 
   <div class="step">
     <h3>Step 5 &nbsp; Audit and Recover</h3>
     <ul>
-      <li>Log in to backend to view real-time access logs: IP, device, location, time</li>
+      <li>Log in to backend to view real-time access logs: Visitor ID, device, location, time</li>
       <li>If anomalies found, immediately enable "one-click invalidate"</li>
       <li>After project ends, export CSV report, archive for audit</li>
     </ul>
@@ -283,7 +283,7 @@ tags: ["Enterprise Documents", "PDF Encryption", "Permission Management", "Data 
   <div class="scenario-card">
     <h4>🏥 Healthcare</h4>
     <p><strong>Scenario:</strong> Patient medical records shared internally within medical team</p>
-    <p><strong>Configuration:</strong> Whitelist access + IP restrictions, auto-expire after 14 days</p>
+    <p><strong>Configuration:</strong> Whitelist access + Visitor ID restrictions, auto-expire after 14 days</p>
     <p><strong>Benefit:</strong> Meet HIPAA privacy protection regulations, establish clear responsibility boundaries</p>
   </div>
   <div class="scenario-card">

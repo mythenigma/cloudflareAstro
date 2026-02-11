@@ -71,7 +71,7 @@ Your PDF is now accessible through the link, but only according to your specifie
 Modern PDF link platforms like MaiPDF offer sophisticated controls:
 
 ### 📊 Access Intelligence
-- View detailed logs of who accessed your document (IP, location, timestamp)
+- View detailed logs of who accessed your document (Visitor ID, location, timestamp)
 - Understand how long viewers spent on each page
 - Receive notifications when your document is viewed
 

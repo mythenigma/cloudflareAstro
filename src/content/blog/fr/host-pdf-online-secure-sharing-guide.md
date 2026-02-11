@@ -57,7 +57,7 @@ Sachez exactement comment vos documents sont utilisés :
 
 - **Journal des consultations :** Voyez qui a ouvert votre document et quand
 - **Suivi du temps :** Surveillez combien de temps les lecteurs ont interagi avec le contenu
-- **Données géographiques :** Identifiez les lieux de consultation grâce aux adresses IP
+- **Données géographiques :** Identifiez les lieux de consultation grâce aux adresses Visitor ID
 - **Informations sur les appareils :** Suivez quels appareils ont accédé à vos documents
 
 ![Interface de suivi d'accès aux PDF](/maipdf-images/check_pdf_open_result.png)
@@ -167,7 +167,7 @@ La façon dont vous distribuez vos liens PDF est importante :
 - Mettez en œuvre l'authentification multi-facteurs
 - Définissez des limites de consultation unique
 - Appliquez des filigranes dynamiques avec informations du lecteur
-- Activez les restrictions d'adresse IP pour limiter les lieux d'accès
+- Activez les restrictions d'adresse Visitor ID pour limiter les lieux d'accès
 
 ## Meilleures Pratiques pour la Gestion des PDF en Ligne
 

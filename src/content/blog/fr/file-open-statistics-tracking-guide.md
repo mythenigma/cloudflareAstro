@@ -1,21 +1,15 @@
 ---
-title: "Guide rapide : File Open Statistics Tracking Guide"
-description: "Un article court sur file open statistics tracking guide, avec un schéma."
+title: "Guide rapide : File Open Statistics Tracking Guide (Removed)"
+description: "This page has been removed and is no longer publicly available."
 pubDate: "Jan 15 2026"
+noindex: true
+showDefaultCta: false
 ---
 
-<!-- Auto-generated from GSC 404 export on 2026-01-15. -->
-<!-- Keep this slug stable to avoid creating new 404s in the future. -->
+# 404 - Page Removed
 
-# Guide rapide : File Open Statistics Tracking Guide
+This page was removed due to content compliance and safety policy.
 
-<div class="intro-panel">
-  <p>Un article court sur file open statistics tracking guide, avec un schéma.</p>
-</div>
+Please visit the blog index for available content.
 
-![Diagram](/diagram/en/pdf-analytics-tracking-workflow.svg)
-
-## Points clés
-- De quoi il s'agit : un aperçu rapide du sujet.
-- Pourquoi c'est important : réduire la confusion et rendre le partage plus sûr.
-- Prochaine étape : consultez le diagramme ci-dessus et appliquez l'idée à votre flux de travail.
+[Go to Blog Index](/blog)

@@ -86,7 +86,7 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
       </tr>
       <tr>
         <td>Access log transmission</td>
-        <td>Upload IP, time, device when online</td>
+        <td>Upload Visitor ID, time, device when online</td>
         <td>Free (<10,000 views)</td>
       </tr>
       <tr>

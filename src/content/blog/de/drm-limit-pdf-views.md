@@ -51,7 +51,7 @@ Mit MaiPDF können Benutzer:
 ![Sicherheitsstufeneinstellungen](/maipdf-images/security_level_in_pdf_setting.png)
 
 - Eine Begrenzung festlegen, wie oft die Datei über diesen Link angesehen werden kann
-- Den Link deaktivieren oder Ansichtsaufzeichnungen verfolgen (z.B. nach IP oder Zeitstempel)
+- Den Link deaktivieren oder Ansichtsaufzeichnungen verfolgen (z.B. nach Visitor ID oder Zeitstempel)
 
 Diese Funktion ist besonders nützlich für Pädagogen, Vertriebsmitarbeiter oder interne Teams, die sensible Dateien teilen, bei denen der Zugriff streng kontrolliert werden sollte.
 

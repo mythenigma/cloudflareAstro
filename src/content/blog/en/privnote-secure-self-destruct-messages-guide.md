@@ -169,7 +169,7 @@ flowchart LR
 **Recorded Information:**
 - Access time
 - Access device information
-- IP address
+- Visitor ID
 - Access count
 
 **Uses:**

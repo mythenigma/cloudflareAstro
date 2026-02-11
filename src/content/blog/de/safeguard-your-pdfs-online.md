@@ -62,7 +62,7 @@ Hier ist, was Sie mit MaiPDF tun können:
   </div>
   <div class="feature-item">
     <span class="feature-icon">📍</span>
-    <p>Verfolgen Sie den Zugriff (IP, Zeit, Ort)</p>
+    <p>Verfolgen Sie den Zugriff (Visitor ID, Zeit, Ort)</p>
   </div>
   <div class="feature-item">
     <span class="feature-icon">🔧</span>

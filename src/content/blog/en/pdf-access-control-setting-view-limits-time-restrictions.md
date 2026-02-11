@@ -251,7 +251,7 @@ tags: ["PDF access control", "view limits", "time restrictions", "document secur
 ### Geographic Restrictions
 
 **Location-Based Access**:
-- **IP address filtering**: Allow only specific locations
+- **Visitor ID filtering**: Allow only specific locations
 - **Country restrictions**: Limit access by country
 - **Regional controls**: Restrict to specific regions
 - **Office locations**: Limit to company offices

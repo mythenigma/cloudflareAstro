@@ -161,7 +161,7 @@ Proper settings configuration ensures:
 
 **Watermark Information Options:**
 - Email address
-- IP address
+- Visitor ID
 - Timestamp
 - Custom text
 - Combination

@@ -142,7 +142,7 @@ Here are some of the best and most reliable platforms that allow you to upload a
             <li>View count limitations</li>
             <li>Time-based access control</li>
             <li>Password protection</li>
-            <li>IP address restrictions</li>
+            <li>Visitor ID restrictions</li>
           </ul>
         </div>
       </div>   
@@ -237,7 +237,7 @@ While each platform is slightly different, the process is always simple:
         </div>
         <div class="level-card">
           <h5>🚫 Highly Sensitive</h5>
-          <p>Enable all security features including IP restrictions</p>
+          <p>Enable all security features including Visitor ID restrictions</p>
         </div>
       </div>
     </div>
@@ -336,8 +336,8 @@ While each platform is slightly different, the process is always simple:
     </div>
     <div class="security-feature">
       <div class="security-icon">🌐</div>
-      <h5>IP Whitelisting</h5>
-      <p>Restrict access to specific IP addresses or ranges</p>
+      <h5>Visitor ID Whitelisting</h5>
+      <p>Restrict access to specific Visitor IDs or ranges</p>
     </div>
     <div class="security-feature">
       <div class="security-icon">💧</div>
@@ -495,7 +495,7 @@ While each platform is slightly different, the process is always simple:
       <div class="article-content">
         <h4>PDF Analytics and Tracking</h4>
         <p>Understand how to track and analyze document engagement</p>
-        <a href="/blog/en/master-pdf-access-tracking-analytics" class="article-link">Read More →<a>
+        <a href="/blog/en/open-statistics-and-access-control-guide" class="article-link">Read More →<a>
       </div>
     </div>   
     <div class="article-card-modern">

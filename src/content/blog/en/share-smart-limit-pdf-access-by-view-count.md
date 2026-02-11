@@ -112,7 +112,7 @@ With MaiPDF, you can:
 You can even:
 
 - Disable the link later
-- Track views (e.g., IP, timestamp)
+- Track views (e.g., Visitor ID, timestamp)
 - Update access settings using a separate edit code
 
 It’s instant PDF sharing with full control, no inbox required.

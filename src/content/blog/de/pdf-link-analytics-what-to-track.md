@@ -1,27 +1,15 @@
 ---
-title: "PDF-Link-Analytics: Was du nach dem Teilen tracken solltest"
-description: "Ein kurzer Guide zu den wichtigsten Analytics-Signalen für Follow-up, Audit und Dokumentensicherheit."
+title: "PDF-Link-Analytics: Was du nach dem Teilen tracken solltest (Removed)"
+description: "This page has been removed and is no longer publicly available."
 pubDate: "Jan 15 2026"
-tags: ["PDF-Analytics", "Tracking", "Security Monitoring"]
+noindex: true
+showDefaultCta: false
 ---
 
-# PDF-Link-Analytics: Was du nach dem Teilen tracken solltest
+# 404 - Page Removed
 
-<div class="intro-panel">
-  <p>Teilen ist einfach. Zu wissen, was danach passiert, macht Links wirklich wertvoll.</p>
-</div>
+This page was removed due to content compliance and safety policy.
 
-![PDF Analytics Tracking Workflow](/diagram/en/pdf-analytics-tracking-workflow.svg)
+Please visit the blog index for available content.
 
-## Die 3 wichtigsten Signale
-
-- **Wann** geöffnet wurde (Timing fürs Follow-up)
-- **Wie oft** geöffnet wurde (Interesse vs Verwirrung)
-- **Wo / welches Gerät** (Basis-Risiko-Checks)
-
-## Ein Minimal-Workflow
-
-1. Link teilen
-2. Erste Öffnung beobachten
-3. Mit Kontext nachfassen („gesehen, dass du es geöffnet hast – Fragen?“)
-
+[Go to Blog Index](/blog)

@@ -1,15 +1,15 @@
 ---
-title: "Maiimg: Simple Image Sharing with QR Codes and Access Records"
-description: "Maiimg is a free image sharing platform. Upload up to 25 images, get a shareable link and QR code, set view limits, and view access records."
-pubDate: "Jan 19 2026"
+title: "Maiimg: Simple Image Sharing with QR Codes and Open Statistics"
+description: "Maiimg is a free image sharing platform. Upload up to 25 images, get a shareable link and QR code, set view limits, and review open statistics."
+pubDate: "Feb 11 2026"
 heroImage: "/maiimg/maiimg-head.png"
-tags: ["image sharing", "QR codes", "access records", "free tool"]
+tags: ["image sharing", "QR codes", "open statistics", "free tool"]
 ---
 
 # Maiimg: Simple Image Sharing with QR Codes
 
 <div class="intro-panel">
-  <p><strong>What is Maiimg?</strong> A free platform for sharing images with built-in QR codes and access records.</p>
+  <p><strong>What is Maiimg?</strong> A free platform for sharing images with built-in QR codes and open statistics.</p>
   <p><strong>Who made it?</strong> The same team behind MaiPDF. Same idea, but for images instead of PDFs.</p>
 </div>
 
@@ -74,8 +74,8 @@ flowchart LR
   <div class="feature-box">
     <div class="feature-icon">📊</div>
     <div class="feature-text">
-      <h4>Access Records</h4>
-      <p>See total views and basic access information</p>
+      <h4>Open Statistics</h4>
+      <p>See total opens and basic activity information</p>
     </div>
   </div>
 </div>
@@ -113,9 +113,9 @@ flowchart LR
   </div>
 </div>
 
-## 📊 Access Records Dashboard
+## 📊 Open Statistics Dashboard
 
-![Access Records](/maiimg/result_tracking.png)
+![Open Statistics Dashboard](/maiimg/result_tracking.png)
 
 **What you can see:**
 
@@ -130,7 +130,7 @@ flowchart LR
   </div>
   <div class="track-card">
     <h4>🔑 Access Code</h4>
-    <p>Your unique code to check access records</p>
+    <p>Your unique code to check open statistics</p>
   </div>
   <div class="track-card">
     <h4>🗑️ Delete Button</h4>
@@ -144,7 +144,7 @@ flowchart LR
   <div class="user-type">
     <h4>🎨 Photographers & Artists</h4>
     <p><strong>Use case:</strong> Share portfolio with clients</p>
-      <p><strong>Benefits:</strong> Set view limit to 10, check access records to see engagement</p>
+      <p><strong>Benefits:</strong> Set view limit to 10, review open statistics to see engagement</p>
   </div>
   <div class="user-type">
     <h4>🏢 Small Businesses</h4>
@@ -172,7 +172,7 @@ flowchart LR
       <li>Images uploaded = permanent link</li>
       <li>No control after sharing</li>
       <li>Can't delete once shared</li>
-      <li>No access records</li>
+      <li>No open statistics</li>
       <li>No QR codes</li>
     </ul>
   </div>
@@ -203,7 +203,7 @@ flowchart LR
 **What it DOES do well:**
 <div class="strengths">
   <p>✅ Makes sharing super easy (QR code!)</p>
-  <p>✅ Gives you basic access records</p>
+  <p>✅ Gives you basic open statistics</p>
   <p>✅ Lets you delete galleries anytime</p>
   <p>✅ Completely free to use</p>
 </div>
@@ -245,7 +245,7 @@ flowchart LR
 
 ---
 
-**Bottom Line:** Maiimg is a straightforward, free tool for sharing images when you want basic access records and QR codes. Not enterprise-level, but perfect for everyday use.
+**Bottom Line:** Maiimg is a straightforward, free tool for sharing images when you want basic open statistics and QR codes. Not enterprise-level, but perfect for everyday use.
 
 <style>
   .intro-panel {

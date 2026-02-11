@@ -208,7 +208,7 @@ tags: ["Bild-Hosting-Service", "Bild-Hosting-Vergleich", "Kostenloses Bild-Hosti
 <li><strong>Batch-Upload</strong>: Bis zu 25 Bilder auf einmal</li>
 <li><strong>Keine Registrierung</strong>: Sofort verwenden, keine Barrieren</li>
 <li><strong>Vollständige Zugriffskontrolle</strong>: Ansichtslimits, Ablauf, Download-Kontrolle</li>
-<li><strong>Echtzeit-Zugriffsverfolgung</strong>: Zeit, IP, Gerät, Standort</li>
+<li><strong>Echtzeit-Zugriffsverfolgung</strong>: Zeit, Visitor ID, Gerät, Standort</li>
 <li><strong>Auto-generierte QR-Codes</strong>: Einfaches Teilen und Verteilen</li>
 <li><strong>Kostenloser API-Zugriff</strong>: Unterstützt Automatisierungsintegration</li>
 <li><strong>Völlig kostenlos</strong>: Hauptfunktionen unbegrenzte Nutzung</li>

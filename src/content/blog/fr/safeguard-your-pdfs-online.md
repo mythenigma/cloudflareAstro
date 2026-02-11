@@ -62,7 +62,7 @@ Voici ce que vous pouvez faire avec MaiPDF :
   </div>
   <div class="feature-item">
     <span class="feature-icon">📍</span>
-    <p>Suivez les accès (IP, heure, lieu)</p>
+    <p>Suivez les accès (Visitor ID, heure, lieu)</p>
   </div>
   <div class="feature-item">
     <span class="feature-icon">🔧</span>

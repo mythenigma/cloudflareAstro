@@ -48,7 +48,7 @@ heroImage: "/diagram/en/features-overview.svg"
 
 ### Opciones de Marca de Agua
 
-- **Información Dinámica**: Fecha, hora, IP, email
+- **Información Dinámica**: Fecha, hora, Visitor ID, email
 - **Posición Personalizable**: Elija posición en la página
 - **Diseño Personalizable**: Personalice apariencia
 - **Seguimiento**: Rastree todas las visualizaciones

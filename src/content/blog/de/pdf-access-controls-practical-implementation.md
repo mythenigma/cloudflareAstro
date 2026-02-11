@@ -34,7 +34,7 @@ MaiPDF bietet mehrere grundlegende Zugriffskontrolloptionen:
 - **E-Mail-Verifizierung**: Erfordern, dass Empfänger den Zugriff über ihre E-Mail bestätigen
 - **Passwortschutz**: Hinzufügen einer zusätzlichen Authentifizierungsschicht
 - **Domain-Beschränkung**: Beschränkung des Zugriffs auf spezifische Organisationsdomains
-- **IP-Filterung**: Kontrolle des Zugriffs basierend auf Netzwerkstandort
+- **Visitor ID-Filterung**: Kontrolle des Zugriffs basierend auf Netzwerkstandort
 
 ### 2. Nutzungseinschränkungen
 

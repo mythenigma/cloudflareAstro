@@ -132,7 +132,7 @@ tags: ["PDF转HTML", "HTML转换", "文档转换", "MaiPDF", "离线模式"]
 
 <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 4px solid #10b981;">
 <h4 style="color: #059669; margin-top: 0;">📊 访问日志记录</h4>
-<p>当设备联网时，自动上传访问IP、时间、设备信息等日志数据。</p>
+<p>当设备联网时，自动上传访问访客标识、时间、设备信息等日志数据。</p>
 </div>
 
 <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 4px solid #8b5cf6;">

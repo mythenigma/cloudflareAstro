@@ -55,7 +55,7 @@ You can:
 - Set a view limit (e.g., allow the file to be opened 3 times)
 - Protect it with a read code or password
 - Disable downloads so your content stays yours
-- Monitor who opens it, when, and where (IP-based tracking)
+- Monitor who opens it, when, and where (Visitor-ID-based analytics)
 
 It's a modern solution that gives you freedom and security, not just convenience.
 

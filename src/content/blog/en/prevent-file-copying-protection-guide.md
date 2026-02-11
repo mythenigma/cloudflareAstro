@@ -94,7 +94,7 @@ tags: ["file protection", "prevent copying", "document security", "copyright pro
 - **Login verification**: Users must login to view
 - **Identity binding**: Files bound to specific user identity
 - **Device binding**: Restrict access to specific devices
-- **IP address limits**: Restrict access to specific IP addresses
+- **Visitor ID limits**: Restrict access to specific Visitor IDs
 
 **Access behavior monitoring**:
 - **Real-time monitoring**: Real-time monitoring of user behavior

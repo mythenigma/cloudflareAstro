@@ -120,7 +120,7 @@ R&D organizations protect intellectual property and competitive advantages:
 - **Granular permissions**: Different access levels for various user types
 - **Device restrictions**: Limiting access to approved devices
 - **Expiration alignment**: Timing access to patent or publication schedules
-- **Watermark customization**: Including confidentiality notices and IP warnings
+- **Watermark customization**: Including confidentiality notices and Visitor ID warnings
 - **Section-level analytics**: Tracking engagement with specific content areas
 
 ![MaiPDF Interface](/2025MayMaiPDF/menus_in_maipdf.png)

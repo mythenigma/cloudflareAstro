@@ -16,7 +16,7 @@ tags: ["PDF watermark", "dynamic watermark", "PDF security", "document tracking"
 
 **Dynamic watermarks** are automatically generated overlays that appear on your PDF when someone views it. Unlike static watermarks (logos or text you add yourself), dynamic watermarks change for each viewer and show:
 
-- **IP Address**: The viewer's IP address
+- **Visitor ID**: The viewer's Visitor ID
 - **Device Information**: Browser and device details
 - **Access Time**: When the PDF was opened
 - **Unique Code**: A code you can use to locate the matching access record
@@ -28,7 +28,7 @@ tags: ["PDF watermark", "dynamic watermark", "PDF security", "document tracking"
 ```mermaid
 flowchart TD
     A[Someone Opens PDF] --> B[MaiPDF Adds Watermark]
-    B --> C[Watermark Shows:<br/>- IP Address<br/>- Device Info<br/>- Open Time<br/>- Unique Code]
+    B --> C[Watermark Shows:<br/>- Visitor ID<br/>- Device Info<br/>- Open Time<br/>- Unique Code]
     C --> D{Screenshot Taken?}
     D -- Yes --> E[Screenshot with Watermark]
     E --> F[You See Screenshot]
@@ -114,7 +114,7 @@ flowchart TD
     <div class="step-number">4</div>
     <div class="step-content">
       <h3>Viewers See Watermarks</h3>
-      <p>When someone opens your PDF, they'll see a watermark with their IP, device info, time, and a unique code.</p>
+      <p>When someone opens your PDF, they'll see a watermark with their Visitor ID, device info, time, and a unique code.</p>
     </div>
   </div>
 </div>
@@ -122,7 +122,7 @@ flowchart TD
 ## What Information Appears in Watermarks?
 
 **MaiPDF automatically includes:**
-- ✅ Viewer's IP address
+- ✅ Viewer's Visitor ID
 - ✅ Device and browser information
 - ✅ Access date and time
 - ✅ Unique code to locate the matching access record
@@ -176,7 +176,7 @@ This helps you identify the source if a document is leaked.
     <li>❌ <strong>Cannot prevent screen recording:</strong> Screen recording software can still capture the PDF</li>
     <li>❌ <strong>Cannot customize content:</strong> You cannot add custom text, logos, or choose which fields appear</li>
     <li>❌ <strong>Cannot prevent printing:</strong> If download/print is enabled, watermarks may not appear on printed copies</li>
-    <li>⚠️ <strong>IP addresses can change:</strong> Viewers using VPNs or different networks will show different IPs</li>
+    <li>⚠️ <strong>Visitor IDs can change:</strong> Viewers using VPNs or different networks will show different Visitor IDs</li>
   </ul>
 </div>
 
@@ -223,7 +223,7 @@ This helps you identify the source if a document is leaked.
   
   <div class="faq-item">
     <h4>What if someone uses a VPN?</h4>
-    <p>The watermark may show the VPN's IP address rather than the user's actual network. This is a limitation of IP-based signals. Device information and access time can still help for audits.</p>
+    <p>The watermark may show the VPN's Visitor ID rather than the user's actual network. This is a limitation of Visitor ID-based signals. Device information and access time can still help for audits.</p>
   </div>
   
   <div class="faq-item">

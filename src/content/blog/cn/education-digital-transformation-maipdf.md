@@ -415,7 +415,7 @@ heroImage: "/maifle/添加电话号码,输入手机验证码才能查看文件.j
     <div class="analytics-features">
       <div class="analytics-item">
         <span class="analytics-icon">👁️</span>
-        <span>访问记录追踪</span>
+        <span>打开统计</span>
       </div>
       <div class="analytics-item">
         <span class="analytics-icon">📊</span>
@@ -435,7 +435,7 @@ heroImage: "/maifle/添加电话号码,输入手机验证码才能查看文件.j
 
 <div class="image-showcase">
   <img src="/maifle/阅读记录查询.png" alt="访问分析功能" class="featured-image">
-  <p class="image-caption">📊 详细的访问记录分析，帮助了解学员学习行为</p>
+  <p class="image-caption">📊 详细的打开统计分析，帮助了解学员学习行为</p>
 </div>
 
 ### ⚠️ 重要注意事项 {#important-notes}

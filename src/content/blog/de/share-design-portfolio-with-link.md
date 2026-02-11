@@ -55,7 +55,7 @@ Sie können:
 - Ein Ansichtslimit festlegen (z.B. erlauben, dass die Datei 3 Mal geöffnet wird)
 - Es mit einem Lesecode oder Passwort schützen
 - Downloads deaktivieren, damit Ihre Inhalte Ihnen gehören
-- Überwachen, wer es öffnet, wann und wo (IP-basierte Nachverfolgung)
+- Überwachen, wer es öffnet, wann und wo (Visitor ID-basierte Nachverfolgung)
 
 Es ist eine moderne Lösung, die Ihnen Freiheit und Sicherheit bietet, nicht nur Bequemlichkeit.
 

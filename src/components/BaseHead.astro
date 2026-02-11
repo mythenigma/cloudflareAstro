@@ -9,6 +9,7 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	noindex?: boolean;
 	article?: {
 		pubDate: string;
 		updatedDate?: string;
@@ -18,7 +19,7 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/maipdf-images/maipdf landing page.png', article } = Astro.props;
+const { title, description, image = '/maipdf-images/maipdf landing page.png', article, noindex = false } = Astro.props;
 
 // Generate breadcrumb data
 const breadcrumbItems = [
@@ -156,9 +157,9 @@ if (Astro.url.pathname.startsWith('/blog')) {
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9224406325142860" crossorigin="anonymous"></script>
 
 <!-- Additional SEO Meta Tags -->
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-<meta name="googlebot" content="index, follow" />
-<meta name="bingbot" content="index, follow" />
+<meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"} />
+<meta name="googlebot" content={noindex ? "noindex, nofollow" : "index, follow"} />
+<meta name="bingbot" content={noindex ? "noindex, nofollow" : "index, follow"} />
 
 <!-- Language and Region -->
 <meta name="language" content="en" />

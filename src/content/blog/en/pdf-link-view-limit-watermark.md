@@ -86,7 +86,7 @@ flowchart TD
 
 **1. Dynamic Watermark**
 - Automatically displays visitor information
-- Includes email, access time, IP address
+- Includes email, access time, Visitor ID
 - Shows different content for each visit
 
 **2. Static Watermark**
@@ -103,7 +103,7 @@ flowchart TD
     C --> D{Dynamic or Static}
     D -->|Dynamic| E[Set Display Content]
     D -->|Static| F[Enter Watermark Text]
-    E --> G[Email, Time, IP]
+    E --> G[Email, Time, Visitor ID]
     F --> H[Copyright Info]
     G --> I[Adjust Position and Transparency]
     H --> I
@@ -120,7 +120,7 @@ flowchart TD
    - Select "Enable Watermark"
 
 2. **Choose Watermark Content**
-   - Dynamic watermark: Select information to display (email, time, IP, etc.)
+   - Dynamic watermark: Select information to display (email, time, Visitor ID, etc.)
    - Static watermark: Enter text to display
 
 3. **Adjust Watermark Style**
@@ -190,7 +190,7 @@ graph TD
 **Dynamic Watermark Content:**
 - Required: Access time
 - Recommended: Visitor email
-- Optional: IP address, device information
+- Optional: Visitor ID, device information
 
 **Watermark Style:**
 - Position: Recommended center or corners
@@ -213,11 +213,11 @@ graph TD
 
 ### Q4: What information does dynamic watermark display?
 
-**A:** You can choose to display: visitor email, access time, IP address, device information, etc.
+**A:** You can choose to display: visitor email, access time, Visitor ID, device information, etc.
 
 ### Q5: How to know who viewed the document?
 
-**A:** You can check all access information through access records, including visitor, time, IP address, etc.
+**A:** You can check all access information through access records, including visitor, time, Visitor ID, etc.
 
 ## Summary
 

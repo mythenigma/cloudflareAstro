@@ -108,7 +108,7 @@ tags: ["DRM数字证书", "文件保护", "数字版权管理", "企业安全", 
 
 ## 🔒 技术实现方案
 
-![DRM访问记录和监控](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![DRM打开统计与审计看板](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ### 方案一：基于云平台的DRM系统
 

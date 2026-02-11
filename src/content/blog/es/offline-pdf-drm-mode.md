@@ -53,7 +53,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
       </tr>
       <tr>
         <td>Seguimiento y Estadísticas</td>
-        <td>Registra localmente primera/última hora de apertura, IP, info del dispositivo, sincroniza con servidor</td>
+        <td>Registra localmente primera/última hora de apertura, Visitor ID, info del dispositivo, sincroniza con servidor</td>
         <td>Sube solo cuando el dispositivo del usuario está en línea</td>
       </tr>
       <tr>

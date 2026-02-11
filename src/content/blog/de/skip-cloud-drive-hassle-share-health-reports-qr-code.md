@@ -17,14 +17,14 @@ Das Teilen innerhalb der Familie kann einfach sein – selbst wenn medizinische 
 | Erfordert Anmeldung oder neue App           | Öffnet im Browser des Telefons – keine Installationen    |
 | Komplizierte „Herunterladen“ / „Vorschau“-Schaltflächen | Bericht wird sofort angezeigt, bereit zum Scrollen   |
 | Lange URLs, leicht im Chat falsch anzutippen       | Kamera fokussiert, Banner antippen – fertig         |
-| Keine Kontrolle nach Weiterleitung             | Ansichtslimits, Ablaufdaten, IP-Tracking      |
+| Keine Kontrolle nach Weiterleitung             | Ansichtslimits, Ablaufdaten, Visitor ID-Tracking      |
 
 **Wichtige Erkenntnis:** Ein QR-Code hält das Erlebnis seniorenfreundlich, ohne etwas zu verkomplizieren.
 
 ## So funktioniert es (mit MaiPDF im Hintergrund)
 
 1.  **PDF hochladen** – Ihr 30-seitiger CT-Scan-Bericht oder die 5 MB große Blutanalyse-Zusammenfassung geht direkt in MaiPDF.
-2.  **Ansichtsregeln festlegen** – Beschränken Sie die Öffnungen auf 3 Mal in 14 Tagen oder sperren Sie sie für einen bestimmten IP-Bereich, wenn Sie möchten.
+2.  **Ansichtsregeln festlegen** – Beschränken Sie die Öffnungen auf 3 Mal in 14 Tagen oder sperren Sie sie für einen bestimmten Visitor ID-Bereich, wenn Sie möchten.
 3.  **QR-Code generieren** – MaiPDF gibt ein scharfes PNG zurück, das Sie in WhatsApp, iMessage ablegen oder auf eine Notiz drucken können.
 4.  **Eltern scannen & lesen** – Die eingebaute Kamera ihres Telefons startet den Bericht sofort im Browser.
 5.  **Beruhigung verfolgen** – Ein kurzer Blick auf Ihr Dashboard bestätigt, dass Mama ihn zweimal und Papa einmal angesehen hat – keine „Hast du es bekommen?"-Anrufe mehr.

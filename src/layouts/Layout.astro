@@ -10,6 +10,7 @@ interface Props {
 	description?: string;
 	image?: string;
 	lang?: string;
+	noindex?: boolean;
 	article?: {
 		pubDate: string;
 		updatedDate?: string;
@@ -22,6 +23,7 @@ const {
 	description = SITE_DESCRIPTION, 
 	image,
 	lang = 'en', // Default to English, but allow override
+	noindex = false,
 	article
 } = Astro.props;
 ---
@@ -31,7 +33,7 @@ const {
 	<head>
 		<!-- charset MUST be the very first thing in head -->
 		<meta charset="utf-8" />
-		<BaseHead title={title} description={description} image={image} article={article} />
+		<BaseHead title={title} description={description} image={image} article={article} noindex={noindex} />
 		
 		<!-- AdSense Debug Script -->
 		<script is:inline>

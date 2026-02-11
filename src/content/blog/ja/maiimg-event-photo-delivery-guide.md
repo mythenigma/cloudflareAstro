@@ -73,5 +73,5 @@ Maiimgを使えば、イベント写真を「即日」「安全」「可視化�
 
 **参考記事**
 - [Maiimg QRコード画像共有ガイド](/blog/en/maiimg-qr-code-image-sharing-guide)
-- [Maiimg 画像トラッキングと分析](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg 画像トラッキングと分析](/blog/en/open-statistics-and-access-control-guide)
 - [Maiimg バルク画像共有ガイド](/blog/en/maiimg-bulk-image-sharing-complete-guide)

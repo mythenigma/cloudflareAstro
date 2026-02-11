@@ -430,7 +430,7 @@ Maiimg offers advanced security features for free with no registration required.
 **Related Articles:**
 - [Maiimg Bulk Image Sharing: Complete Guide](/blog/en/maiimg-bulk-image-sharing-complete-guide)
 - [Maiimg QR Code Image Sharing: Complete Guide](/blog/en/maiimg-qr-code-image-sharing-guide)
-- [Maiimg Image Tracking and Analytics: Complete Guide](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg Image Tracking and Analytics: Complete Guide](/blog/en/open-statistics-and-access-control-guide)
 
 <style>
   .intro-panel {

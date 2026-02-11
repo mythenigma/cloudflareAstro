@@ -208,7 +208,7 @@ tags: ["Servicio de Alojamiento de Imágenes", "Comparación de Alojamiento de I
 <li><strong>Carga por lotes</strong>: Hasta 25 imágenes a la vez</li>
 <li><strong>Sin registro</strong>: Use inmediatamente, sin barreras</li>
 <li><strong>Control de acceso completo</strong>: Límites de visualización, expiración, control de descarga</li>
-<li><strong>Seguimiento de acceso en tiempo real</strong>: Tiempo, IP, dispositivo, ubicación</li>
+<li><strong>Seguimiento de acceso en tiempo real</strong>: Tiempo, Visitor ID, dispositivo, ubicación</li>
 <li><strong>Códigos QR auto-generados</strong>: Fácil compartir y distribuir</li>
 <li><strong>Acceso API gratuito</strong>: Soporta integración automatizada</li>
 <li><strong>Completamente gratis</strong>: Características principales uso ilimitado</li>

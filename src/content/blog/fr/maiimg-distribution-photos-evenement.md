@@ -115,4 +115,4 @@ Maiimg offre aux photographes & organisateurs un flux professionnel : upload rap
 **Articles associés :**
 - [Maiimg QR Code Image Sharing: Complete Guide](/blog/en/maiimg-qr-code-image-sharing-guide)
 - [Maiimg Bulk Image Sharing: Complete Guide](/blog/en/maiimg-bulk-image-sharing-complete-guide)
-- [Maiimg Image Tracking and Analytics](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg Image Tracking and Analytics](/blog/en/open-statistics-and-access-control-guide)

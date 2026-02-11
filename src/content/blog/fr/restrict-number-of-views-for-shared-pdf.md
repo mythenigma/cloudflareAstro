@@ -96,7 +96,7 @@ Ces informations sont inestimables pour les documents sensibles où la responsab
 ## ⚠️ Points à Garder à l'Esprit
 
 - Les limites de vues ne fonctionnent que si la plateforme les applique — une fois le fichier téléchargé, le contrôle est perdu
-- Certains systèmes suivent les IP ou les appareils pour éviter les abus
+- Certains systèmes suivent les Visitor ID ou les appareils pour éviter les abus
 - Tous les outils ne peuvent pas suivre les ouvertures hors ligne — les solutions côté serveur sont plus sécurisées
 - Soyez transparent avec les destinataires si des limites sont définies, pour éviter toute confusion
 

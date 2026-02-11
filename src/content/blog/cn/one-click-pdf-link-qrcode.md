@@ -190,7 +190,7 @@ tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件�
             <span class="feature-badge free">免费</span>
           </div>
         </div>
-        <p>查看文件访问记录</p>
+        <p>查看文件打开统计</p>
       </div>     
       <div class="feature-card-highlight">
         <div class="highlight-content">

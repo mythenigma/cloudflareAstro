@@ -75,7 +75,7 @@ Plataformas como MaiPDF agilizan el proceso:
 - **Sube PDFs:** Aloja tus archivos de forma segura.
 - **Establece Reglas de Acceso:** Controla cuántas veces se puede abrir el archivo.
 - **Genera Códigos QR:** Enlaza directamente a tu PDF.
-- **Rastrea Visualizaciones:** Monitorea el acceso con marcas de tiempo y direcciones IP.
+- **Rastrea Visualizaciones:** Monitorea el acceso con marcas de tiempo y direcciones Visitor ID.
 
 Incluso puedes deshabilitar enlaces o actualizar la configuración de acceso posteriormente.
 

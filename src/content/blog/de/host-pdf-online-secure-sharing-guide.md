@@ -57,7 +57,7 @@ Erfahren Sie genau, wie Ihre Dokumente genutzt werden:
 
 - **Ansichtsprotokollierung:** Sehen Sie, wer Ihr Dokument wann geöffnet hat
 - **Zeiterfassung:** Überwachen Sie, wie lange Betrachter mit Inhalten interagiert haben
-- **Geografische Daten:** Identifizieren Sie Betrachtungsorte anhand der IP-Adresse
+- **Geografische Daten:** Identifizieren Sie Betrachtungsorte anhand der Visitor ID-Adresse
 - **Geräteinformationen:** Verfolgen Sie, welche Geräte auf Ihre Dokumente zugegriffen haben
 
 ![PDF-Zugriffsverfolgungsschnittstelle](/maipdf-images/check_pdf_open_result.png)
@@ -167,7 +167,7 @@ Wie Sie Ihre PDF-Links verteilen, ist wichtig:
 - Implementieren Sie Multi-Faktor-Authentifizierung
 - Setzen Sie Einzelansichtslimits
 - Wenden Sie dynamische Wasserzeichen mit Betrachterinformationen an
-- Aktivieren Sie IP-Adressbeschränkungen, um Zugriffsstandorte zu begrenzen
+- Aktivieren Sie Visitor ID-Adressbeschränkungen, um Zugriffsstandorte zu begrenzen
 
 ## Bewährte Praktiken für Online-PDF-Management
 

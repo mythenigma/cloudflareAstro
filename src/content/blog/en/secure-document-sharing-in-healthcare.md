@@ -46,7 +46,7 @@ Each document interaction should be recorded to create a verifiable chain of acc
 
 - Who viewed the document (identified by email or phone)
 - When they accessed it (date and time stamps)
-- From where they accessed it (IP address and device information)
+- From where they accessed it (Visitor ID and device information)
 - How long they engaged with the content
 
 This information isn't just useful for security—it's essential for demonstrating compliance during audits.

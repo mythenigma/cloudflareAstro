@@ -201,7 +201,7 @@ flowchart TD
     E --> C
     C --> G[User Can View & Download]
     F --> H[Show Limit Reached Message]
-    G --> I[Record IP & Time]
+    G --> I[Record Visitor ID & Time]
     I --> End([Complete])
     H --> End
     
@@ -211,7 +211,7 @@ flowchart TD
 ```
 
 ### Tracking 📈
-- 🌐 **Track IP addresses** - See which IP viewed the document
+- 🌐 **Track Visitor IDs** - See which Visitor ID viewed the document
 - ⏱️ **Monitor access times** - Track when document was viewed
 - 📊 **View records** - Complete viewing history
 

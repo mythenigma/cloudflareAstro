@@ -302,7 +302,7 @@ flowchart TD
 
 **Monitoring Indicators:**
 - Multiple accesses in short time
-- Abnormal IP address access
+- Abnormal Visitor ID access
 - View count limit reached
 - Frequent access before expiration
 

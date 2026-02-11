@@ -242,7 +242,7 @@ MaiPDF秒级生成链接让PDF分享变得：
 ---
 
 **相关指南：**
-- [MaiPDF快速生成链接、一键禁用、查看打开记录](/blog/cn/maipdf-quick-link-generation-one-click-disable-tracking)
+- [MaiPDF快速生成链接、一键禁用、查看打开记录](/blog/cn/open-statistics-and-access-control-guide)
 - [MaiPDF链接生成完整指南](/blog/cn/maipdf-link-generation-guide)
 - [MaiPDF二维码生成指南](/blog/cn/maipdf-qrcode-generation-guide)
 

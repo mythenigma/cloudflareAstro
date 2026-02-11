@@ -34,7 +34,7 @@ MaiPDF offers several fundamental access control options:
 - **Email verification**: Requiring recipients to confirm access through their email
 - **Password protection**: Adding an additional authentication layer
 - **Domain restriction**: Limiting access to specific organizational domains
-- **IP filtering**: Controlling access based on network location
+- **Visitor ID filtering**: Controlling access based on network location
 
 ### 2. Usage Limitations
 
@@ -75,7 +75,7 @@ Different documents require customized protection approaches:
 - Email verification + password protection
 - Limited view counts
 - Shorter expiration timeframes
-- IP or domain restrictions when appropriate
+- Visitor ID or domain restrictions when appropriate
 
 ### Time-Sensitive Materials
 - Emphasis on expiration dates

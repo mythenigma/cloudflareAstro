@@ -8,7 +8,7 @@ tags: ["Maiimg", "图片分享", "打开记录", "一键禁用", "流程图"]
 # 图片分享最实用的三大功能：链接、禁用、追踪（Maiimg）
 
 <div class="intro-panel">
-  <p>如果你只想快速上手 Maiimg，不用学太多：记住三个能力就够了——<strong>生成链接</strong>、<strong>一键禁用</strong>、<strong>访问追踪</strong>。下面用双重图解把逻辑串起来。</p>
+  <p>如果你只想快速上手 Maiimg，不用学太多：记住三个能力就够了——<strong>生成链接</strong>、<strong>一键禁用</strong>、<strong>打开统计</strong>。下面用双重图解把逻辑串起来。</p>
 </div>
 
 ## 一、三功能串联流程（Mermaid）

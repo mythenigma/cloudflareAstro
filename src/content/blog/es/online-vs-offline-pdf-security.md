@@ -46,7 +46,7 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
       </tr>
       <tr>
         <td>Seguimiento y estadísticas</td>
-        <td>IP en tiempo real, región, dispositivo, timestamp</td>
+        <td>Visitor ID en tiempo real, región, dispositivo, timestamp</td>
         <td>Solo vistas restantes/fecha de caducidad en el servidor</td>
       </tr>
       <tr>
@@ -84,7 +84,7 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
     <li>Si se comparte accidentalmente, "Matar enlace" inmediatamente—cuando los destinatarios actualizan, se deniega el acceso</li>
   </ul>
   <h3>3. Seguimiento de comportamiento</h3>
-  <p>Los registros de backend registran IP, región, modelo de dispositivo y hora de acceso, exportables como CSV.</p>
+  <p>Los registros de backend registran Visitor ID, región, modelo de dispositivo y hora de acceso, exportables como CSV.</p>
   <h3>4. Protección mejorada</h3>
   <ul>
     <li>Monitoreo de pantalla y teclado (desactiva F12, Ctrl+S, clic derecho)</li>
@@ -169,7 +169,7 @@ tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en
         <td>
           <ul>
             <li>Configura códigos de verificación por correo electrónico de un solo uso para evitar enlaces reenviados</li>
-            <li>Habilita marcas de agua dinámicas que muestren la IP del visitante</li>
+            <li>Habilita marcas de agua dinámicas que muestren la Visitor ID del visitante</li>
             <li>Incrusta enlaces cortos en plantillas de correo corporativo para una gestión de permisos más intuitiva</li>
           </ul>
         </td>

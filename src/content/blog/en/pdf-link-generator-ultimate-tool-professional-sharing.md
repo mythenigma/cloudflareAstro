@@ -89,7 +89,7 @@ tags: ["PDF generator", "professional sharing", "document links", "business tool
 - Email verification before viewing
 - Phone number confirmation
 - Custom access codes
-- IP address restrictions
+- Visitor ID restrictions
 
 ### Privacy Protection
 

@@ -1,40 +1,15 @@
 ---
-title: "PDFアクセス追跡と分析（クイックスタート）"
-description: "共有後に何を見ればいいかを最短で：追跡の流れと、使える指標をまとめます。"
+title: "PDFアクセス追跡と分析（クイックスタート） (Removed)"
+description: "This page has been removed and is no longer publicly available."
 pubDate: "Jan 15 2026"
-tags: ["PDF分析", "アクセス追跡", "セキュリティ監視", "ビジュアルガイド"]
+noindex: true
+showDefaultCta: false
 ---
 
-# PDFアクセス追跡と分析（クイックスタート）
+# 404 - Page Removed
 
-<div class="intro-panel">
-  <p>重要なPDFほど「共有後の見える化」が効きます。適切なタイミングでフォローし、異常アクセスを早期に拾えます。</p>
-</div>
+This page was removed due to content compliance and safety policy.
 
-![PDF analytics tracking workflow](/diagram/en/pdf-analytics-tracking-workflow.svg)
+Please visit the blog index for available content.
 
-## まず見るべき3つ
-
-- **初回オープンの時刻**
-- **再オープンの回数**
-- **端末／IPの概算シグナル**
-
-## 異常が見えたら
-
-- **差し替え**：閲覧コードはそのまま、内容と設定を更新
-- **リンク無効化**：必要なら即時に停止
-
-```mermaid
-flowchart LR
-  A[リンク共有] --> B[アクセス追跡]
-  B --> C{異常？}
-  C -- いいえ --> D[通常フォロー]
-  C -- はい --> E[差し替え or 無効化]
-```
-
-![同じリンクで内容更新](/diagram/ja/replace-link-redirect-style-b.svg)
-
-## いちばん簡単な使い方
-
-提案書を送る → 初回オープンを待つ → 文脈付きでフォロー（「見ました？ご質問ありますか？」）。
-
+[Go to Blog Index](/blog)

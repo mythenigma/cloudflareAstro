@@ -84,7 +84,7 @@ showDefaultCta: false
 <div class="security-item">
 <span class="security-icon">📊</span>
 <div class="security-text">
-<h4>访问记录</h4>
+<h4>打开统计</h4>
 <p>每次访问都有记录，避免文件被随意传播</p>
 </div>
 </div>

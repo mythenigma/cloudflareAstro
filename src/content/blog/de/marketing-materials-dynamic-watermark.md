@@ -48,7 +48,7 @@ heroImage: "/diagram/en/features-overview.svg"
 
 ### Wasserzeichen-Optionen
 
-- **Dynamische Informationen**: Datum, Zeit, IP, E-Mail
+- **Dynamische Informationen**: Datum, Zeit, Visitor ID, E-Mail
 - **Anpassbare Position**: Wählen Sie Position auf der Seite
 - **Anpassbares Design**: Passen Sie Erscheinungsbild an
 - **Tracking**: Verfolgen Sie alle Ansichten

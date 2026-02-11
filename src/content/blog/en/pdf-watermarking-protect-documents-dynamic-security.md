@@ -86,7 +86,7 @@ tags: ["PDF watermarking", "dynamic watermarks", "document security", "tracking"
 - **Timestamp**: Exact date and time of access
 - **Viewer identity**: Name, email, or user ID
 - **Session information**: Unique session identifiers
-- **Geographic data**: City, country, or IP location
+- **Geographic data**: City, country, or Visitor ID location
 
 **Custom Variables**:
 - **Document ID**: Unique identifier for each PDF
@@ -370,7 +370,7 @@ tags: ["PDF watermarking", "dynamic watermarks", "document security", "tracking"
 
 **PDF Sharing and Management**:
 - [Transform PDFs into Shareable Links in 3 Simple Steps](/blog/transform-pdfs-shareable-links-3-steps) - Quick PDF link generation
-- [How to Track File Open Statistics](/blog/file-open-statistics-tracking-guide) - Monitor document usage
+- [How to Track File Open Statistics](/blog/open-statistics-and-access-control-guide) - Monitor document usage
 - [Create Professional Portfolio Links](/blog/create-professional-portfolio-links-showcase-work-pro) - Professional sharing
 - [PDF Security Best Practices: Complete Guide](/blog/pdf-security-best-practices-complete-guide-document-protection) - Comprehensive security
 

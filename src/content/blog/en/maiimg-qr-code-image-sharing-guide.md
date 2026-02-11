@@ -437,8 +437,8 @@ Maiimg offers automatic QR code generation for free with no registration require
 
 **Related Articles:**
 - [Maiimg Bulk Image Sharing: Complete Guide](/blog/en/maiimg-bulk-image-sharing-complete-guide)
-- [Maiimg Image Tracking and Analytics: Complete Guide](/blog/en/maiimg-image-tracking-analytics-guide)
-- [Maiimg: Share Images with Tracking and Control](/blog/en/maiimg-share-images-tracking-control)
+- [Maiimg Image Tracking and Analytics: Complete Guide](/blog/en/open-statistics-and-access-control-guide)
+- [Maiimg: Share Images with Tracking and Control](/blog/en/open-statistics-and-access-control-guide)
 
 <style>
   .intro-panel {

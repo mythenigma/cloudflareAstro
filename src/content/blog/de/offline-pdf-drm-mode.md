@@ -53,7 +53,7 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
       </tr>
       <tr>
         <td>Tracking & Statistik</td>
-        <td>Zeichnet lokal erste/letzte Öffnungszeit, IP, Geräteinformationen auf, synchronisiert mit Server</td>
+        <td>Zeichnet lokal erste/letzte Öffnungszeit, Visitor ID, Geräteinformationen auf, synchronisiert mit Server</td>
         <td>Lädt nur hoch, wenn das Gerät des Benutzers online ist</td>
       </tr>
       <tr>

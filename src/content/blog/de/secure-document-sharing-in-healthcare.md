@@ -46,7 +46,7 @@ Jede Dokumenteninteraktion sollte aufgezeichnet werden, um eine überprüfbare Z
 
 - Wer das Dokument angesehen hat (identifiziert durch E-Mail oder Telefon)
 - Wann darauf zugegriffen wurde (Datums- und Zeitstempel)
-- Von wo aus zugegriffen wurde (IP-Adresse und Geräteinformationen)
+- Von wo aus zugegriffen wurde (Visitor ID-Adresse und Geräteinformationen)
 - Wie lange sie sich mit dem Inhalt beschäftigt haben
 
 Diese Informationen sind nicht nur für die Sicherheit nützlich – sie sind auch wesentlich, um die Einhaltung von Vorschriften bei Audits nachzuweisen.

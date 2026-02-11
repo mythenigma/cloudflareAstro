@@ -299,7 +299,7 @@ MaiPDF offre la génération de packages hors ligne gratuitement, sans inscripti
 ---
 
 **Articles Connexes :**
-- [DRM PDF Hors Ligne : Solution Entreprise](/blog/fr/offline-pdf-drm-solution-entreprise)
+- [DRM PDF Hors Ligne : Solution Entreprise](/blog/fr/open-statistics-and-access-control-guide)
 - [Partage PDF en Ligne Sécurisé : Guide Complet](/blog/fr/partage-pdf-en-ligne-securise-guide-complet)
 - [Vérification Réseau : Protocoles et Pratiques](/blog/fr/verification-reseau-protocoles)
 

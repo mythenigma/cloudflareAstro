@@ -309,7 +309,7 @@ MaiPDF提供详细的访问统计信息，帮助你了解PDF的使用情况：
 - 📅 **访问日期记录**：每天的访问统计
 
 #### 详细访问信息
-- 🌍 **地理位置**：访客的IP地址和地理位置
+- 🌍 **地理位置**：访客的访客标识和地理位置
 - 📱 **设备信息**：访客使用的设备和浏览器
 - 🔗 **来源渠道**：访客通过什么方式访问
 - ⏱️ **停留时间**：访客查看PDF的时长
@@ -446,7 +446,7 @@ A: 支持所有版本的PDF文档，文件大小最大100MB。
 A: 在设置中开启"禁止下载"选项，访客只能在线查看，无法保存到本地。
 
 ### Q: 可以查看谁访问了我的PDF吗？
-A: 可以。MaiPDF提供详细的访问统计，包括访客IP、访问时间、设备信息等。
+A: 可以。MaiPDF提供详细的访问统计，包括访客访客标识、访问时间、设备信息等。
 
 ---
 
@@ -460,7 +460,7 @@ A: 可以。MaiPDF提供详细的访问统计，包括访客IP、访问时间、
 
 **PDF分享和管理**：
 - [如何把PDF生成二维码](/blog/cn/maipdf-qrcode-generation-guide) - PDF二维码生成
-- [如何统计外发文件的打开次数](/blog/cn/file-open-statistics-tracking-guide) - 文件使用统计
+- [如何统计外发文件的打开次数](/blog/cn/open-statistics-and-access-control-guide) - 文件使用统计
 - [如何让手机扫一扫就能阅读PDF](/blog/cn/mobile-qr-scan-read-pdf-guide) - 移动端PDF阅读
 - [如何设置PDF到期自毁](/blog/cn/maipdf-expiration-self-destruct-guide) - PDF过期设置
 

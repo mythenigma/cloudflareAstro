@@ -46,7 +46,7 @@ tags: ["PDF Security", "Document Sharing", "DRM Protection", "Cloud Security"]
       </tr>
       <tr>
         <td>Tracking & Statistics</td>
-        <td>Real-time IP, region, device, timestamp</td>
+        <td>Real-time Visitor ID, region, device, timestamp</td>
         <td>Only remaining views/expiration date on server</td>
       </tr>
       <tr>
@@ -84,7 +84,7 @@ tags: ["PDF Security", "Document Sharing", "DRM Protection", "Cloud Security"]
     <li>If accidentally shared, immediately "Kill Link"—when recipients refresh, access is denied</li>
   </ul>
   <h3>3. Behavior Tracking</h3>
-  <p>Backend logs record IP, region, device model, and access time, exportable as CSV.</p>
+  <p>Backend logs record Visitor ID, region, device model, and access time, exportable as CSV.</p>
   <h3>4. Enhanced Protection</h3>
   <ul>
     <li>Screen and keyboard monitoring (disables F12, Ctrl+S, right-click)</li>
@@ -169,7 +169,7 @@ tags: ["PDF Security", "Document Sharing", "DRM Protection", "Cloud Security"]
         <td>
           <ul>
             <li>Set up one-time email verification codes to prevent forwarded links</li>
-            <li>Enable dynamic watermarks displaying visitor IP</li>
+            <li>Enable dynamic watermarks displaying visitor ID</li>
             <li>Embed short links in corporate email templates for more intuitive permission management</li>
           </ul>
         </td>

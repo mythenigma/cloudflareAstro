@@ -103,7 +103,7 @@ MaiPDF是一款创新的PDF分享工具，旨在通过智能化的操作流程�
   </div>
   <div class="feature-card highlight">
     <h3>📈 精准的数据分析</h3>
-    <p>清晰统计文件的打开情况，包括阅读设备、访问时间和IP信息，方便用户精准管理。</p>
+    <p>清晰统计文件的打开情况，包括阅读设备、访问时间和访客标识信息，方便用户精准管理。</p>
     <img src="/maifle/阅读记录查询结果示例.png" alt="数据分析示例" class="feature-image">
   </div>
 </div>

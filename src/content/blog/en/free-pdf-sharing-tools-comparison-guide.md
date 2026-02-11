@@ -264,7 +264,7 @@ tags: ["PDF Sharing", "Tool Comparison", "Free Tools", "Document Sharing", "Onli
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
 <li><strong>No registration</strong>: Use immediately, no barriers</li>
 <li><strong>Full access control</strong>: View count, duration, password, phone verification</li>
-<li><strong>Detailed access tracking</strong>: Time, IP, device, location</li>
+<li><strong>Detailed access tracking</strong>: Time, Visitor ID, device, location</li>
 <li><strong>Security protection</strong>: Disable download, dynamic watermark, one-click disable</li>
 <li><strong>QR code support</strong>: Auto-generated, easy sharing</li>
 <li><strong>Link management</strong>: Replace files, modify settings, disable links</li>

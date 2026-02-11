@@ -98,7 +98,7 @@ Platforms like MaiPDF streamline the process:
 - **Upload PDFs:** Host your files securely.
 - **Set Access Rules:** Control how many times the file can be opened.
 - **Generate QR Codes:** Link directly to your PDF.
-- **Track Views:** Monitor access with timestamps and IP addresses.
+- **Track Views:** Monitor access with timestamps and Visitor IDs.
 
 You can even disable links or update access settings later.
 

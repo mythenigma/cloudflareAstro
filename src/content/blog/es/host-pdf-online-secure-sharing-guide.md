@@ -57,7 +57,7 @@ Sepa exactamente cómo se están utilizando sus documentos:
 
 - **Registro de visualizaciones:** Vea quién abrió su documento y cuándo
 - **Seguimiento de tiempo:** Monitoree cuánto tiempo interactuaron los visualizadores con el contenido
-- **Datos geográficos:** Identifique ubicaciones de visualización por dirección IP
+- **Datos geográficos:** Identifique ubicaciones de visualización por dirección Visitor ID
 - **Información del dispositivo:** Rastree qué dispositivos accedieron a sus documentos
 
 ![Interfaz de seguimiento de acceso a PDF](/maipdf-images/check_pdf_open_result.png)
@@ -167,7 +167,7 @@ Cómo distribuye sus enlaces PDF importa:
 - Implemente autenticación multi-factor
 - Establezca límites de visualización única
 - Aplique marcas de agua dinámicas con información del visualizador
-- Habilite restricciones de dirección IP para limitar ubicaciones de acceso
+- Habilite restricciones de dirección Visitor ID para limitar ubicaciones de acceso
 
 ## Mejores Prácticas para Gestión de PDF en Línea
 

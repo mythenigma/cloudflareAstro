@@ -55,7 +55,7 @@ Puedes:
 - Establecer un límite de visualizaciones (por ejemplo, permitir que el archivo se abra 3 veces)
 - Protegerlo con un código de lectura o contraseña
 - Desactivar las descargas para que tu contenido siga siendo tuyo
-- Monitorear quién lo abre, cuándo y dónde (seguimiento basado en IP)
+- Monitorear quién lo abre, cuándo y dónde (seguimiento basado en Visitor ID)
 
 Es una solución moderna que te da libertad y seguridad, no solo comodidad.
 

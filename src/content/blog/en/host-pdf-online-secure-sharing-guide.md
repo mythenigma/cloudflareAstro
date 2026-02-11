@@ -57,7 +57,7 @@ Know exactly how your documents are being used:
 
 - **View logging:** See who opened your document and when
 - **Time tracking:** Monitor how long viewers engaged with content
-- **Geographic data:** Identify viewing locations by IP address
+- **Geographic data:** Identify viewing locations by Visitor ID
 - **Device information:** Track which devices accessed your documents
 
 ![PDF access tracking interface](/maipdf-images/check_pdf_open_result.png)
@@ -167,7 +167,7 @@ How you distribute your PDF links matters:
 - Implement multi-factor authentication
 - Set single-view limits
 - Apply dynamic watermarking with viewer information
-- Enable IP address restrictions to limit access locations
+- Enable Visitor ID restrictions to limit access locations
 
 ## Best Practices for Online PDF Management
 

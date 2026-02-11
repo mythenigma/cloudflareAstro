@@ -661,7 +661,7 @@ MaiPDF 提供了一套非常简单高效的流程，让你几秒钟就能完成�
           <ul>
             <li>高清二维码图片（PNG格式）</li>
             <li>可点击的 PDF 链接</li>
-            <li>分享统计和访问记录</li>
+            <li>分享统计和打开统计</li>
             <li>随时修改权限设置</li>
           </ul>
         </div>
@@ -688,7 +688,7 @@ MaiPDF 提供了一套非常简单高效的流程，让你几秒钟就能完成�
     <div class="advantage-item">
       <div class="advantage-icon">📊</div>
       <h3 class="advantage-title">完整统计</h3>
-      <p class="advantage-desc">详细的访问记录和统计数据，让您清楚了解文件的使用情况</p>
+      <p class="advantage-desc">详细的打开统计数据数据，让您清楚了解文件的使用情况</p>
     </div>
     <div class="advantage-item">
       <div class="advantage-icon">🎯</div>

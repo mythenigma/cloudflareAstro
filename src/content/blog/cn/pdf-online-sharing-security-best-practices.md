@@ -94,7 +94,7 @@ tags: ["PDF安全", "文档保护", "在线分享", "安全实践", "PDF加密"]
 
 **动态水印：**
 - 显示查看者的邮箱地址
-- 显示IP地址和时间戳
+- 显示访客标识和时间戳
 - 每个查看者唯一水印
 - 阻止未经授权分享
 
@@ -141,7 +141,7 @@ tags: ["PDF安全", "文档保护", "在线分享", "安全实践", "PDF加密"]
 
 ### 步骤3：配置保护设置
 
-![安全设置](/maipdf-images/settings_in_cloudshare.png)
+![安全设置](/2025MayMaiPDF/settings_in_cloudshare.png)
 
 **启用访问控制：**
 1. 将"要求邮箱验证"切换为ON
@@ -170,7 +170,7 @@ tags: ["PDF安全", "文档保护", "在线分享", "安全实践", "PDF加密"]
 
 ### 步骤4：生成受保护链接
 
-![带安全链接的结果](/maipdf-images/result_link_qr_cloudshare.png)
+![带安全链接的结果](/2025MayMaiPDF/result_link_qr_cloudshare.png)
 
 1. 查看所有保护设置
 2. 验证安全配置

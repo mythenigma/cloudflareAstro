@@ -65,7 +65,7 @@ flowchart TD
     C --> C4[Dynamic Watermark]
     
     D --> D1[Access Records]
-    D --> D2[IP Tracking]
+    D --> D2[Visitor ID Tracking]
     D --> D3[Device Info]
     D --> D4[Geographic Location]
     
@@ -194,7 +194,7 @@ flowchart TD
 **Tracking Content:**
 - 📊 Total open count
 - ⏰ Time of each open
-- 🌐 Visitor IP address
+- 🌐 visitor ID
 - 📱 Device information
 - 📍 Geographic location
 - 🔗 Access source
@@ -204,7 +204,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     A[User Opens Link] --> B[Record Access Time]
-    B --> C[Record IP Address]
+    B --> C[Record Visitor ID]
     C --> D[Record Device Info]
     D --> E[Record Geographic Location]
     E --> F[Update Access Statistics]
@@ -318,7 +318,7 @@ flowchart TD
 | **Registration** | ❌ Requires account | ✅ No registration |
 | **Link Generation** | ❌ Requires approval wait | ✅ Instant (within 10 seconds) |
 | **Access Control** | ❌ Cannot control | ✅ Full control (count, time, download) |
-| **Access Tracking** | ❌ No records | ✅ Complete records (time, IP, device) |
+| **Access Tracking** | ❌ No records | ✅ Complete records (time, Visitor ID, device) |
 | **Link Management** | ❌ Can only delete | ✅ One-click disable, file replacement |
 | **Watermark Protection** | ❌ Not supported | ✅ Dynamic watermark (online mode) |
 | **Cost** | 💰 May charge | ✅ Completely free |

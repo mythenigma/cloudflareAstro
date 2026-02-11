@@ -68,7 +68,7 @@ Plataformas modernas y ligeras como MaiPDF ofrecen este tipo de compartir basado
 2. Genera un enlace seguro de solo lectura
 3. Establece un límite de visualizaciones (por ejemplo, máximo 2 aperturas)
 4. Desactiva la descarga o impresión
-5. Rastrea la dirección IP y marcas de tiempo de visualización
+5. Rastrea la dirección Visitor ID y marcas de tiempo de visualización
 6. Gestiona el acceso utilizando un código de edición separado
 
 El visualizador simplemente hace clic en el enlace y lo ve. Eso es todo. Tú mantienes el control de principio a fin.

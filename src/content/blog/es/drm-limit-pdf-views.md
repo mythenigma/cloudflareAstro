@@ -51,7 +51,7 @@ Con MaiPDF, los usuarios pueden:
 ![Configuración de nivel de seguridad](/maipdf-images/security_level_in_pdf_setting.png)
 
 - Establecer un límite de cuántas veces se puede ver el archivo a través de ese enlace
-- Deshabilitar el enlace o rastrear registros de visualización (p. ej., por IP o marca de tiempo)
+- Deshabilitar el enlace o rastrear registros de visualización (p. ej., por Visitor ID o marca de tiempo)
 
 Esta característica es especialmente útil para educadores, personal de ventas o equipos internos que comparten archivos sensibles donde el acceso debe ser estrictamente controlado.
 

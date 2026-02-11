@@ -53,7 +53,7 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 </div>
 
 <div style="background: #fdf4ff; padding: 1.5rem; border-radius: 8px; border: 1px solid #a855f7;">
-<h3 style="color: #9333ea; margin-top: 0;">📊 访问记录</h3>
+<h3 style="color: #9333ea; margin-top: 0;">📊 打开统计</h3>
 <p>查看访问统计、访问时间等基本数据</p>
 </div>
 
@@ -100,7 +100,7 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 
 - 🔗 **分享链接**：可直接复制发送给他人
 - 📱 **二维码**：可截图或下载，方便离线分享
-- 📊 **访问记录代码**：用于查看访问统计
+- 📊 **打开统计代码**：用于查看访问统计
 
 ## 💡 图片二维码的实际应用场景
 
@@ -150,7 +150,7 @@ tags: ["图片二维码", "图片分享", "批量上传", "扫码查看", "Maiim
 ## 📊 访问统计和记录
 
 ### 基本数据
-![访问记录统计](/maiimg/result_tracking.png)
+![打开统计](/maiimg/result_tracking.png)
 
 Maiimg提供基本的访问统计信息：
 

@@ -176,7 +176,7 @@ After uploading, set the PDF's online browsing parameters:
 - **Dynamic Watermarks**: Automatically add visitor information watermarks
 - **Download/Print Prevention**: Prohibit users from downloading and printing documents
 - **Phone Verification**: Add phone number verification for enhanced security
-- **IP Restrictions**: Limit access from specific regions or networks
+- **Visitor ID Restrictions**: Limit access from specific regions or networks
 
 **📊 Statistical Analysis Features**:
 - **Access Statistics**: Record detailed information for each view
@@ -388,7 +388,7 @@ After enabling dynamic watermarks, you can track document distribution through w
 - 🔍 **Unique Identifier**: Each visitor sees different watermarks
 - ⏰ **Timestamp Recording**: Precise recording of access time
 - 📱 **Device Information**: Shows access device type
-- 🌐 **Network Information**: Records IP address and geographic location
+- 🌐 **Network Information**: Records Visitor ID and geographic location
 
 Watermark information query results display:
 

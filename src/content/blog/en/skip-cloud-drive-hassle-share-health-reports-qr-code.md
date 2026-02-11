@@ -17,14 +17,14 @@ Family sharing can be simple—even when medical files are large and your parent
 | Requires sign‑in or a new app           | Opens in the phone’s browser—no installs    |
 | Complicated “Download” / “Preview” buttons | Report displays immediately, scroll‑ready   |
 | Long URLs easy to mis‑tap in chat       | Camera focuses, tap the banner—done         |
-| Zero control once forwarded             | View limits, expiry dates, IP tracking      |
+| Zero control once forwarded             | View limits, expiry dates, Visitor ID analytics      |
 
 **Key take‑away:** A QR code keeps the experience senior‑friendly without dumbing anything down.
 
 ## How it works (with MaiPDF behind the scenes)
 
 1.  **Upload the PDF**—Your 30‑page CT‑scan report or 5 MB blood test summary goes straight into MaiPDF.
-2.  **Set viewing rules**—Limit opens to 3 times in 14 days, or lock to a specific IP range if you like.
+2.  **Set viewing rules**—Limit opens to 3 times in 14 days, or lock to a specific Visitor ID range if you like.
 3.  **Generate QR code**—MaiPDF returns a crisp PNG you can drop into WhatsApp, iMessage, or print on a note.
 4.  **Parents scan & read**—Their phone’s built‑in camera launches the report instantly in the browser.
 5.  **Track peace of mind**—A quick glance at your dashboard confirms Mom has viewed it twice and Dad once—no more “Did you get it?” phone calls.

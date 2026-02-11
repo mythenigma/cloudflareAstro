@@ -148,7 +148,7 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
             <span class="element-tag">完整记录</span>
           </div>
         </div>
-        <p>IP、设备、时间、动作全记录</p>
+        <p>访客标识、设备、时间、动作全记录</p>
       </div>
     </div>
     <div class="elements-row">
@@ -245,7 +245,7 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
           <div class="step-number">5</div>
           <h4>📊 监控</h4>
         </div>
-        <p>实时查看访问日志，异常IP预警</p>
+        <p>实时查看访问日志，异常访客标识预警</p>
         <div class="step-time">⏱️ 持续</div>
       </div>
       <div class="workflow-summary-compact">
@@ -363,8 +363,8 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
   </div>
   <div class="case-evidence-row">
     <div class="evidence-item">
-      <img src="/maifle/阅读记录查询结果示例.png" alt="访问记录示例" class="evidence-image">
-      <div class="evidence-caption">📋 详细访问记录</div>
+      <img src="/maifle/阅读记录查询结果示例.png" alt="打开统计示例" class="evidence-image">
+      <div class="evidence-caption">📋 详细打开统计</div>
     </div>
     <div class="case-lessons-compact">
       <h4>💡 关键经验</h4>
@@ -660,7 +660,7 @@ tags: ["合规文档", "文档分发", "数据合规", "PDF安全", "审计日�
         <span class="tech-badge">不可篡改</span>
       </div>
       <div class="layer-content">
-        <p>所有访问记录均通过密文形式保存，防止内部人员篡改</p>
+        <p>所有打开统计均通过密文形式保存，防止内部人员篡改</p>
         <div class="tech-details">
           <div class="tech-point">
             <span class="point-icon">✅</span>

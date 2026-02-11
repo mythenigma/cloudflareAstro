@@ -34,7 +34,7 @@ Los métodos clave incluyen:
 - Alojar el PDF en una plataforma en la nube
 - Generar enlaces de acceso únicos
 - Aplicar contadores de visualizaciones y caducidad automática
-- Registrar accesos (IP, marca de tiempo, huella digital del dispositivo)
+- Registrar accesos (Visitor ID, marca de tiempo, huella digital del dispositivo)
 
 ![Seguimiento de acceso a PDF](/maipdf-images/check_pdf_open_result.png)
 

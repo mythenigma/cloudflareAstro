@@ -1,40 +1,15 @@
 ---
-title: "PDF Access Tracking & Analytics (Quick Start)"
-description: "A short visual overview of what to track after sharing a PDF link—and how to use the signals."
+title: "PDF Access Tracking & Analytics (Quick Start) (Removed)"
+description: "This page has been removed and is no longer publicly available."
 pubDate: "Jan 15 2026"
-tags: ["PDF Analytics", "Tracking", "Security Monitoring", "Diagrams"]
+noindex: true
+showDefaultCta: false
 ---
 
-# PDF Access Tracking & Analytics (Quick Start)
+# 404 - Page Removed
 
-<div class="intro-panel">
-  <p>If you share important PDFs, tracking helps you follow up at the right time and spot unusual access early.</p>
-</div>
+This page was removed due to content compliance and safety policy.
 
-![PDF analytics tracking workflow](/diagram/en/pdf-analytics-tracking-workflow.svg)
+Please visit the blog index for available content.
 
-## The 3 signals to check first
-
-- **First open time**
-- **Repeat opens**
-- **Basic device / IP signals (approx.)**
-
-## If something looks off
-
-- **Replace the file**: keep the same reading code, swap in new content/settings
-- **Disable the link**: stop access immediately when needed
-
-```mermaid
-flowchart LR
-  A[Share link] --> B[Access tracked]
-  B --> C{Abnormal?}
-  C -- No --> D[Follow up normally]
-  C -- Yes --> E[Replace file or disable link]
-```
-
-![Same link, updated content](/diagram/en/replace-link-redirect-style-b.svg)
-
-## A simple use case
-
-Share a proposal, wait for the first open, then follow up with context while the document is top-of-mind.
-
+[Go to Blog Index](/blog)

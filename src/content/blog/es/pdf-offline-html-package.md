@@ -86,7 +86,7 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       </tr>
       <tr>
         <td>Transmisión de registros de acceso</td>
-        <td>Carga de IP, tiempo, dispositivo cuando está en línea</td>
+        <td>Carga de Visitor ID, tiempo, dispositivo cuando está en línea</td>
         <td>Gratuito (<10.000 vistas)</td>
       </tr>
       <tr>

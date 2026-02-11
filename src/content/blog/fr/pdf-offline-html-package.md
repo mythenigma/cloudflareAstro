@@ -86,7 +86,7 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       </tr>
       <tr>
         <td>Transmission des journaux d'accès</td>
-        <td>Téléchargement IP, heure, appareil quand en ligne</td>
+        <td>Téléchargement Visitor ID, heure, appareil quand en ligne</td>
         <td>Gratuit (<10 000 vues)</td>
       </tr>
       <tr>

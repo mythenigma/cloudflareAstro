@@ -38,7 +38,7 @@ Anstatt E-Mail-Anhänge oder offene Google Drive-Links zu verwenden, nutzen Sie 
 - 📄 Nur-Anzeige-Freigabe (keine Downloads)
 - 🔢 Begrenzte Anzahl von Öffnungen (z.B. maximal 2 Ansichten)
 - ⏱️ Optionales Zugriffsende nach X Stunden
-- 🧭 Zugriffsprotokolle (IP, Zeit, Ort)
+- 🧭 Zugriffsprotokolle (Visitor ID, Zeit, Ort)
 - ❌ Kein Weiterleiten, kein Drucken
 
 Sie senden einen Link oder QR-Code, sie sehen es an – und das war's. Keine Kopien. Keine Verwirrung. Keine Inhaltsverbreitung über Ihre Kontrolle hinaus.

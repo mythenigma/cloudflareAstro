@@ -153,7 +153,7 @@ document.addEventListener('keydown', function(e) {
 
 ## 🔒 高级打印控制技术
 
-![PDF访问记录和打印监控](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![PDF打开统计和打印监控](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ### 动态权限控制
 

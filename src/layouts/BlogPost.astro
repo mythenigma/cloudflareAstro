@@ -21,8 +21,9 @@ const titleWords = title.toLowerCase().split(/\s+/).filter(word => word.length >
 const descWords = description ? description.toLowerCase().split(/\s+/).filter(word => word.length > 4) : [];
 const keywordTags = [...new Set([...titleWords, ...descWords, ...(tags || [])])].slice(0, 5);
 
-// Get language from filename or defaults to 'en'
-const lang = slug?.includes('/cn/') ? 'zh-CN' : 'en';
+// Get language from post id/slug prefix (e.g. cn/..., en/...)
+const langPrefix = slug.split('/')[0];
+const lang = langPrefix === 'cn' ? 'zh-CN' : 'en';
 
 // Determine brand (Maiimg vs MaiPDF) from slug
 const isMaiimg = slug?.includes('maiimg');
@@ -37,7 +38,7 @@ const buttonText = isMaiimg
   : (lang === 'zh-CN' ? '立即体验 MaiPDF' : 'Try MaiPDF Now');
 ---
 
-<div class="container">
+<div class:list={['container', { 'is-maiimg': isMaiimg }]}>
   <article>
     <div class="prose">
       <div class="title">
@@ -250,6 +251,7 @@ const buttonText = isMaiimg
     font-size: 1.3rem;
     line-height: 1.8;
     position: relative;
+    overflow-wrap: anywhere;
   }
   
   .title {
@@ -535,36 +537,199 @@ const buttonText = isMaiimg
   
   /* Better mobile responsiveness */
   @media (max-width: 768px) {
+    .container {
+      padding: 0 0.65rem;
+    }
+
     .prose {
-      padding: 1.5rem 1rem;
-      font-size: 1.1rem;
+      padding: 0.5rem 0 0.75rem;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    .title {
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.9rem;
     }
     
     .title h1 {
-      font-size: 2.4rem;
+      font-size: 1.85rem;
+      line-height: 1.25;
     }
     
     article h2 {
-      font-size: 1.8rem;
+      font-size: 1.35rem;
+      margin: 1.5rem 0 0.75rem;
     }
     
     article h3 {
-      font-size: 1.5rem;
+      font-size: 1.15rem;
+      margin: 1.2rem 0 0.65rem;
     }
     
     article p, article ul, article ol {
-      font-size: 1.1rem;
+      font-size: 1rem;
+      line-height: 1.65;
+      margin: 0.85rem 0;
     }
-    
-    article img, figure {
-      width: 80px; /* Even smaller on mobile */
-      margin-right: 0.8rem;
-      margin-bottom: 0.8rem;
+
+    article ul,
+    article ol {
+      padding-left: 1.2rem;
+    }
+
+    article p,
+    article li,
+    article a {
+      word-break: break-word;
+    }
+
+    /* Keep article media readable on mobile. */
+    article img,
+    figure {
+      width: 100%;
+      max-width: 100%;
+      margin: 1rem 0;
+    }
+
+    /* Prevent wide inline HTML layouts from breaking mobile viewport. */
+    .content-wrapper [style*="display: grid"],
+    .content-wrapper [style*="display:grid"],
+    .content-wrapper [style*="grid-template-columns"] {
+      grid-template-columns: 1fr !important;
+      gap: 1rem !important;
+    }
+
+    .content-wrapper [style*="display: flex"],
+    .content-wrapper [style*="display:flex"] {
+      flex-direction: column !important;
+      gap: 1rem !important;
+    }
+
+    .content-wrapper table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
     }
     
     article blockquote {
       font-size: 1rem;
-      padding: 1rem 1.2rem;
+      padding: 0.9rem 0.95rem;
+      margin: 1rem 0;
+    }
+
+    article pre {
+      padding: 0.85rem;
+      margin: 1rem 0;
+      font-size: 0.88rem;
+    }
+
+    .cta-container {
+      margin: 1.6rem 0;
+      padding: 1rem 0;
+    }
+
+    .cta-button {
+      width: 100%;
+      max-width: 320px;
+      padding: 0.85rem 1rem;
+      font-size: 1rem;
+    }
+
+    /* Maiimg pages: compact mobile rhythm for heavy card/grid sections */
+    .is-maiimg .content-wrapper .main-features,
+    .is-maiimg .content-wrapper .tracking-info,
+    .is-maiimg .content-wrapper .who-uses,
+    .is-maiimg .content-wrapper .comparison,
+    .is-maiimg .content-wrapper .qr-benefits,
+    .is-maiimg .content-wrapper .problems-grid,
+    .is-maiimg .content-wrapper .features-grid,
+    .is-maiimg .content-wrapper .benefits-grid,
+    .is-maiimg .content-wrapper .process-steps,
+    .is-maiimg .content-wrapper .scenarios-grid,
+    .is-maiimg .content-wrapper .advantages-grid,
+    .is-maiimg .content-wrapper .tips-grid,
+    .is-maiimg .content-wrapper .use-cases-grid {
+      display: grid;
+      grid-template-columns: 1fr !important;
+      gap: 0.75rem !important;
+      margin: 0.9rem 0 !important;
+    }
+
+    .is-maiimg .content-wrapper .feature-box,
+    .is-maiimg .content-wrapper .track-card,
+    .is-maiimg .content-wrapper .user-type,
+    .is-maiimg .content-wrapper .vs-column,
+    .is-maiimg .content-wrapper .qr-item,
+    .is-maiimg .content-wrapper .problem-card,
+    .is-maiimg .content-wrapper .feature-item,
+    .is-maiimg .content-wrapper .scenario-card,
+    .is-maiimg .content-wrapper .advantage-card,
+    .is-maiimg .content-wrapper .tip-card,
+    .is-maiimg .content-wrapper .testimonial-card,
+    .is-maiimg .content-wrapper .start-step,
+    .is-maiimg .content-wrapper .cta-box,
+    .is-maiimg .content-wrapper .solution-highlight {
+      padding: 0.9rem !important;
+      border-radius: 10px !important;
+      margin: 0 !important;
+    }
+
+    .is-maiimg .content-wrapper .feature-icon,
+    .is-maiimg .content-wrapper .qr-emoji,
+    .is-maiimg .content-wrapper .sec-icon {
+      font-size: 1.35rem !important;
+      line-height: 1;
+    }
+
+    .is-maiimg .content-wrapper .feature-text h4,
+    .is-maiimg .content-wrapper .track-card h4,
+    .is-maiimg .content-wrapper .user-type h4,
+    .is-maiimg .content-wrapper .vs-column h4 {
+      font-size: 1rem !important;
+      margin-bottom: 0.45rem !important;
+      line-height: 1.35;
+    }
+
+    .is-maiimg .content-wrapper .feature-text p,
+    .is-maiimg .content-wrapper .track-card p,
+    .is-maiimg .content-wrapper .user-type p,
+    .is-maiimg .content-wrapper .vs-column li,
+    .is-maiimg .content-wrapper .qr-item p,
+    .is-maiimg .content-wrapper .solution-desc {
+      font-size: 0.95rem !important;
+      line-height: 1.55 !important;
+      margin: 0.35rem 0 !important;
+    }
+
+    .is-maiimg .content-wrapper .cta-section,
+    .is-maiimg .content-wrapper .limitations,
+    .is-maiimg .content-wrapper .strengths {
+      padding: 0.95rem !important;
+      margin: 0.95rem 0 !important;
+      border-radius: 10px !important;
+    }
+
+    .is-maiimg .content-wrapper .solution-button,
+    .is-maiimg .content-wrapper .cta-button {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      padding: 0.82rem 0.95rem !important;
+      border-radius: 10px !important;
+      font-size: 0.96rem !important;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .container {
+      padding: 0 0.5rem;
+    }
+
+    .title h1 {
+      font-size: 1.65rem;
     }
   }
 </style>

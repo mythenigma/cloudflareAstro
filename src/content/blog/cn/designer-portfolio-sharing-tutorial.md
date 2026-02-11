@@ -368,7 +368,7 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
         <h4>水印信息包含：</h4>
         <ul>
           <li>查看时间</li>
-          <li>查看者IP地址</li>
+          <li>查看者访客标识</li>
           <li>设备信息</li>
           <li>你的个人标识</li>
         </ul>
@@ -401,14 +401,14 @@ tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
   </div>
   <div class="protection-card">
     <div class="protection-icon">📊</div>
-    <h3>详细访问记录</h3>
+    <h3>详细打开统计</h3>
     <div class="protection-content">
       <p>完整记录每一次访问，如发现异常可及时处理。</p>
       <div class="protection-details">
         <h4>记录内容：</h4>
         <ul>
           <li>访问时间和时长</li>
-          <li>访问者IP和位置</li>
+          <li>访问者访客标识和位置</li>
           <li>使用设备类型</li>
           <li>页面浏览轨迹</li>
         </ul>

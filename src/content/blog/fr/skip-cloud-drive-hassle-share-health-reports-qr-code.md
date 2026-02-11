@@ -17,14 +17,14 @@ Le partage familial peut être simple, même lorsque les fichiers médicaux sont
 | Nécessite une connexion ou une nouvelle application           | S'ouvre dans le navigateur du téléphone—aucune installation    |
 | Boutons "Télécharger" / "Aperçu" compliqués | Le rapport s'affiche immédiatement, prêt à défiler   |
 | URL longues faciles à mal taper dans le chat       | L'appareil photo fait la mise au point, appuyez sur la bannière—c'est fait         |
-| Zéro contrôle une fois transféré             | Limites de consultation, dates d'expiration, suivi IP      |
+| Zéro contrôle une fois transféré             | Limites de consultation, dates d'expiration, suivi Visitor ID      |
 
 **Point clé :** Un code QR maintient l'expérience conviviale pour les seniors sans rien simplifier à l'excès.
 
 ## Comment ça marche (avec MaiPDF en coulisses)
 
 1.  **Téléchargez le PDF**—Votre rapport de scanner CT de 30 pages ou votre résumé d'analyse de sang de 5 Mo va directement dans MaiPDF.
-2.  **Définissez les règles de consultation**—Limitez les ouvertures à 3 fois en 14 jours, ou verrouillez sur une plage IP spécifique si vous le souhaitez.
+2.  **Définissez les règles de consultation**—Limitez les ouvertures à 3 fois en 14 jours, ou verrouillez sur une plage Visitor ID spécifique si vous le souhaitez.
 3.  **Générez le code QR**—MaiPDF renvoie un PNG net que vous pouvez déposer dans WhatsApp, iMessage ou imprimer sur une note.
 4.  **Les parents scannent et lisent**—L'appareil photo intégré de leur téléphone lance instantanément le rapport dans le navigateur.
 5.  **Suivez en toute tranquillité**—Un rapide coup d'œil à votre tableau de bord confirme que Maman l'a consulté deux fois et Papa une fois—fini les appels téléphoniques "Tu l'as reçu ?".

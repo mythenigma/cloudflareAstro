@@ -1,27 +1,15 @@
 ---
-title: "Analytics de liens PDF : quoi suivre après le partage"
-description: "Un guide court des analytics les plus utiles pour relancer, auditer et sécuriser des documents."
+title: "Analytics de liens PDF : quoi suivre après le partage (Removed)"
+description: "This page has been removed and is no longer publicly available."
 pubDate: "Jan 15 2026"
-tags: ["Analytics PDF", "Suivi", "Surveillance sécurité"]
+noindex: true
+showDefaultCta: false
 ---
 
-# Analytics de liens PDF : quoi suivre après le partage
+# 404 - Page Removed
 
-<div class="intro-panel">
-  <p>Partager est simple. Savoir ce qui s’est passé ensuite, c’est ce qui rend un lien vraiment utile.</p>
-</div>
+This page was removed due to content compliance and safety policy.
 
-![Workflow d’analytics et de suivi](/diagram/en/pdf-analytics-tracking-workflow.svg)
+Please visit the blog index for available content.
 
-## Les 3 signaux qui comptent le plus
-
-- **Quand** c’est ouvert (pour relancer au bon moment)
-- **Combien de fois** c’est ouvert (intérêt vs confusion)
-- **Où / sur quel appareil** (contrôles de risque basiques)
-
-## Un workflow minimal
-
-1. Partager le lien
-2. Attendre la première ouverture
-3. Relancer avec contexte (« Vu que vous l’avez ouvert — des questions ? »)
-
+[Go to Blog Index](/blog)

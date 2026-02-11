@@ -37,6 +37,7 @@ const lang = langMap[language] || 'en';
 	description={post.data.description} 
 	image={post.data.heroImage}
 	lang={lang}
+	noindex={post.data.noindex ?? false}
 	article={{
 		pubDate: post.data.pubDate.toISOString(),
 		updatedDate: post.data.updatedDate?.toISOString(),

@@ -47,7 +47,7 @@ tags: ["PDF sharing", "file transfer", "online viewing", "access control", "docu
   </div>
   <div class="feature-card highlight">
     <h3>📈 Precise Data Analytics</h3>
-    <p>Clear statistics on file access including reading devices, access times, and IP information for precise user management.</p>
+    <p>Clear statistics on file access including reading devices, access times, and Visitor ID information for precise user management.</p>
     <img src="/maipdf-images/access_analytics_dashboard.png" alt="Data analytics example" class="feature-image">
   </div>
 </div>

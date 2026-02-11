@@ -102,7 +102,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">✅ 完全支持</td>
 </tr>
 <tr style="border-bottom: 1px solid #e5e7eb;">
-<td style="padding: 1rem; font-weight: 500; color: #374151;">访问追踪</td>
+<td style="padding: 1rem; font-weight: 500; color: #374151;">打开统计</td>
 <td style="padding: 1rem; text-align: center; color: #ef4444;">❌ 无记录</td>
 <td style="padding: 1rem; text-align: center; color: #f59e0b;">⚠️ 基础统计</td>
 <td style="padding: 1rem; text-align: center; color: #f59e0b;">⚠️ 基础统计</td>
@@ -205,7 +205,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <li>需要注册账号</li>
 <li>需要安装客户端（部分）</li>
 <li>访问控制功能有限</li>
-<li>无法追踪详细访问记录</li>
+<li>无法追踪详细打开统计</li>
 <li>链接可能过期</li>
 <li>下载速度限制（免费版）</li>
 </ul>
@@ -264,7 +264,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
 <li><strong>无需注册</strong>：打开即用，即用即走</li>
 <li><strong>完整访问控制</strong>：查看次数、时长、密码、手机验证</li>
-<li><strong>详细访问追踪</strong>：时间、IP、设备、地理位置</li>
+<li><strong>详细打开统计</strong>：时间、访客标识、设备、地理位置</li>
 <li><strong>安全保护</strong>：禁止下载、动态水印、一键禁用</li>
 <li><strong>二维码支持</strong>：自动生成，方便分享</li>
 <li><strong>链接管理</strong>：可替换文件、修改设置、禁用链接</li>
@@ -282,7 +282,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 
 <div style="margin-top: 1.5rem; padding: 1rem; background: white; border-radius: 6px; border: 2px solid #10b981;">
 <strong style="color: #059669;">适用场景：</strong><br/>
-<span style="color: #374151;">所有PDF分享场景，特别是需要安全控制和访问追踪的场景</span>
+<span style="color: #374151;">所有PDF分享场景，特别是需要安全控制和打开统计的场景</span>
 </div>
 </div>
 
@@ -316,10 +316,10 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 - 自动生成二维码
 - 一键复制分享
 
-![访问记录](/cn2025May/acess_result.png)
+![打开统计](/cn2025May/acess_result.png)
 
-**查看访问追踪**
-- 实时查看访问记录
+**查看打开统计**
+- 实时查看打开统计
 - 了解查看者信息
 - 分析访问数据
 
@@ -333,7 +333,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <ul style="margin: 0.5rem 0; color: #374151;">
 <li>✅ 可设置查看次数（如3次），保护隐私</li>
 <li>✅ 禁止下载，防止被保存转发</li>
-<li>✅ 查看访问记录，了解HR是否查看</li>
+<li>✅ 查看打开统计，了解HR是否查看</li>
 </ul>
 </div>
 
@@ -343,7 +343,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <ul style="margin: 0.5rem 0; color: #374151;">
 <li>✅ 手机验证，确保安全</li>
 <li>✅ 动态水印，防止泄露</li>
-<li>✅ 访问追踪，了解查看情况</li>
+<li>✅ 打开统计，了解查看情况</li>
 </ul>
 </div>
 
@@ -470,7 +470,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #374151;">
 <li>需要访问控制</li>
 <li>需要安全保护</li>
-<li>需要访问追踪</li>
+<li>需要打开统计</li>
 <li>需要快速分享</li>
 </ul>
 </div>

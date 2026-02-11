@@ -16,7 +16,7 @@ heroImage: "/diagram/en/features-overview.svg"
 
 ## 🎯 Was sind Dynamische Wasserzeichen?
 
-Dynamische Wasserzeichen sind Wasserzeichen, die sich bei jeder Ansicht ändern und eindeutige Informationen wie Datum, Uhrzeit, IP-Adresse oder Benutzer-ID anzeigen.
+Dynamische Wasserzeichen sind Wasserzeichen, die sich bei jeder Ansicht ändern und eindeutige Informationen wie Datum, Uhrzeit, Visitor ID-Adresse oder Benutzer-ID anzeigen.
 
 ### Hauptfunktionen
 
@@ -51,7 +51,7 @@ Dynamische Wasserzeichen sind Wasserzeichen, die sich bei jeder Ansicht ändern 
 ### Enthaltene Informationen
 
 - **Datum und Uhrzeit**: Wann auf das Dokument zugegriffen wurde
-- **IP-Adresse**: IP-Adresse des Benutzers
+- **Visitor ID-Adresse**: Visitor ID-Adresse des Benutzers
 - **E-Mail**: E-Mail des Benutzers (wenn verifiziert)
 - **Eindeutige ID**: Eindeutige Sitzungs-ID
 

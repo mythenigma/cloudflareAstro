@@ -68,5 +68,5 @@ Maiimgを使えば、新商品ローンチの画像配布を「一元管理し�
 
 **関連ガイド**
 - [Maiimg QRコード画像共有ガイド](/blog/en/maiimg-qr-code-image-sharing-guide)
-- [Maiimg 画像トラッキングと分析](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg 画像トラッキングと分析](/blog/en/open-statistics-and-access-control-guide)
 - [Maiimg セキュア画像共有](/blog/en/maiimg-secure-image-sharing-access-control)

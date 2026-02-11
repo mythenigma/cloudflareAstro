@@ -70,7 +70,7 @@ flowchart TD
 ✅ **Expiración Automática** - Proteger privacidad (expirar automáticamente después de 7-30 días)  
 ✅ **Desactivar Descargas** - Proteger derechos de autor (clientes solo pueden ver, no descargar)  
 ✅ **Protección con Contraseña** - Seguridad adicional (enviar enlace y contraseña por separado)  
-✅ **Seguimiento de Acceso** - Saber quién vio (IP, tiempo, dispositivo)  
+✅ **Seguimiento de Acceso** - Saber quién vio (Visitor ID, tiempo, dispositivo)  
 ✅ **Desactivar con Un Clic** - Cerrar en cualquier momento (desactivar inmediatamente si es anormal)  
 ✅ **Sin Registro** - Usar directamente (completamente gratis)  
 

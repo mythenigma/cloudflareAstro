@@ -105,7 +105,7 @@ tags: ["离线PDF", "在线PDF分享", "PDF对比", "分享方法", "离线", "P
 <td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">✅ 是</td>
 </tr>
 <tr style="border-bottom: 1px solid #e5e7eb; background: #fafafa;">
-<td style="padding: 1rem; font-weight: 500; color: #374151;">访问追踪</td>
+<td style="padding: 1rem; font-weight: 500; color: #374151;">打开统计</td>
 <td style="padding: 1rem; text-align: center; color: #ef4444; background: #eff6ff;">❌ 否</td>
 <td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">✅ 是</td>
 </tr>
@@ -185,7 +185,7 @@ tags: ["离线PDF", "在线PDF分享", "PDF对比", "分享方法", "离线", "P
 <li><strong>无需网络</strong>：验证后可完全离线工作</li>
 <li><strong>便携文件</strong>：可存储在U盘、邮件附件等</li>
 <li><strong>本地验证</strong>：不依赖服务器</li>
-<li><strong>隐私保护</strong>：无访问追踪，保护隐私</li>
+<li><strong>隐私保护</strong>：无打开统计，保护隐私</li>
 <li><strong>物理分发</strong>：适合产品包装、会议材料</li>
 <li><strong>过期控制</strong>：支持本地过期日期检查</li>
 </ul>
@@ -194,7 +194,7 @@ tags: ["离线PDF", "在线PDF分享", "PDF对比", "分享方法", "离线", "P
 <div>
 <h4 style="color: #dc2626; margin-top: 0;">❌ 缺点</h4>
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
-<li>无访问追踪功能</li>
+<li>无打开统计功能</li>
 <li>无动态水印</li>
 <li>无实时控制</li>
 <li>无法撤销访问（有限）</li>
@@ -224,8 +224,8 @@ tags: ["离线PDF", "在线PDF分享", "PDF对比", "分享方法", "离线", "P
 <h4 style="color: #059669; margin-top: 0;">✅ 优点</h4>
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
 <li><strong>实时访问</strong>：即时分享，快速分发</li>
-<li><strong>完整追踪</strong>：详细访问记录和统计</li>
-<li><strong>动态水印</strong>：查看者信息、IP地址、时间戳</li>
+<li><strong>完整追踪</strong>：详细打开统计数据</li>
+<li><strong>动态水印</strong>：查看者信息、访客标识、时间戳</li>
 <li><strong>实时控制</strong>：可随时修改设置、撤销访问</li>
 <li><strong>二维码分享</strong>：自动生成，方便传播</li>
 <li><strong>多因素认证</strong>：邮箱、手机、域名限制</li>
@@ -304,10 +304,10 @@ tags: ["离线PDF", "在线PDF分享", "PDF对比", "分享方法", "离线", "P
 - 自动生成二维码
 - 一键复制分享
 
-![访问记录](/cn2025May/acess_result.png)
+![打开统计](/cn2025May/acess_result.png)
 
-**第四步：查看访问追踪**
-- 实时查看访问记录
+**第四步：查看打开统计**
+- 实时查看打开统计
 - 了解查看者信息
 - 分析访问数据
 

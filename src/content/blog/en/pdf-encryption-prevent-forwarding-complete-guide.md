@@ -52,7 +52,7 @@ flowchart TD
     
     C --> C1[Limit View Count]
     C --> C2[Set Expiration Time]
-    C --> C3[IP Address Restriction]
+    C --> C3[Visitor ID Restriction]
     
     D --> D1[Dynamic Watermark]
     D --> D2[Track Leak Source]
@@ -174,18 +174,18 @@ flowchart TD
 - System automatically locks document when expired
 - Re-authorization required after expiration
 
-**2.3 IP Address Restriction Encryption**
+**2.3 Visitor ID Restriction Encryption**
 
 **How It Works:**
-- Restrict access to specific IP address ranges
-- Only specified IPs can access
+- Restrict access to specific Visitor ID ranges
+- Only specified visitor IDs can access
 - Prevent remote unauthorized access
 
 **Setup Steps:**
-1. Obtain authorized user's IP address
-2. Add allowed IP addresses in settings
+1. Obtain authorized user's Visitor ID
+2. Add allowed Visitor IDs in settings
 3. Save settings
-4. Only specified IPs can access document
+4. Only specified visitor IDs can access document
 
 ### Method 3: Dynamic Watermark Encryption
 
@@ -203,7 +203,7 @@ flowchart TD
     C --> D[Watermark Contains Info]
     D --> E[User Email]
     D --> F[Access Time]
-    D --> G[IP Address]
+    D --> G[Visitor ID]
     D --> H[Device Info]
     E --> I[Dynamically Display on PDF]
     F --> I
@@ -222,7 +222,7 @@ flowchart TD
 **Watermark Content Options:**
 - Visitor email address
 - Access date and time
-- IP address
+- Visitor ID
 - Device information
 - Custom text
 
@@ -249,7 +249,7 @@ graph TD
     B --> B1[Open Password]
     C --> C1[View Count Limit]
     C --> C2[Expiration Time]
-    C --> C3[IP Restriction]
+    C --> C3[Visitor ID Restriction]
     D --> D1[Dynamic Watermark]
     E --> E1[Access Log]
     
@@ -296,7 +296,7 @@ graph TD
 **Access Control Settings:**
 1. Set view count (recommended 1-5 times)
 2. Set expiration time
-3. Add IP address restrictions (if needed)
+3. Add Visitor ID restrictions (if needed)
 
 **Watermark Settings:**
 1. Enable dynamic watermark
@@ -375,7 +375,7 @@ graph TD
 ### Q4: How to know if document has been forwarded?
 
 **A:** You can track through:
-- View access records and IP addresses
+- View access records and Visitor IDs
 - Check watermark information
 - Analyze access times and locations
 - Monitor view counts

@@ -225,7 +225,7 @@ tags: ["Offline PDF", "Online PDF Sharing", "PDF Comparison", "Sharing Methods",
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
 <li><strong>Real-time access</strong>: Instant sharing, fast distribution</li>
 <li><strong>Complete tracking</strong>: Detailed access records and statistics</li>
-<li><strong>Dynamic watermark</strong>: Viewer information, IP address, timestamp</li>
+<li><strong>Dynamic watermark</strong>: Viewer information, Visitor ID, timestamp</li>
 <li><strong>Real-time control</strong>: Can modify settings anytime, revoke access</li>
 <li><strong>QR code sharing</strong>: Auto-generated, easy distribution</li>
 <li><strong>Multi-factor authentication</strong>: Email, phone, domain restrictions</li>
@@ -483,4 +483,4 @@ tags: ["Offline PDF", "Online PDF Sharing", "PDF Comparison", "Sharing Methods",
 
 - [Offline PDF Sharing Complete Guide](/blog/en/offline-pdf-sharing-complete-guide)
 - [How to Create Offline PDF Package: Complete Guide](/blog/en/how-to-create-offline-pdf-package-guide)
-- [MaiPDF Offline PDF DRM Mode: Secure Document Control in Offline Environments](/blog/en/offline-pdf-drm-mode)
+- [MaiPDF Offline PDF DRM Mode: Secure Document Control in Offline Environments](/blog/en/open-statistics-and-access-control-guide)

@@ -34,7 +34,7 @@ Zu den wichtigsten Methoden gehören:
 - Hosting der PDF in einer Cloud-Plattform
 - Generierung eindeutiger Zugriffslinks
 - Durchsetzung von Ansichtszählern und automatischem Ablauf
-- Protokollierung des Zugriffs (IP, Zeitstempel, Geräte-Fingerabdruck)
+- Protokollierung des Zugriffs (Visitor ID, Zeitstempel, Geräte-Fingerabdruck)
 
 ![PDF-Zugriffsverfolgung](/maipdf-images/check_pdf_open_result.png)
 

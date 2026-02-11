@@ -18,6 +18,10 @@ const blog = defineCollection({
      * Some posts include their own CTA blocks and should disable the default to avoid duplicates.
      */
     showDefaultCta: z.boolean().optional(),
+    /**
+     * Optional SEO control for pages that should stay reachable but not indexed.
+     */
+    noindex: z.boolean().optional(),
   }),
 });
 

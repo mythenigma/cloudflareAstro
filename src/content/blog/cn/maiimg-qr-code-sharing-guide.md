@@ -430,8 +430,8 @@ Maiimg免费提供自动二维码生成，无需注册。上传您的图片，�
 
 **相关文章：**
 - [Maiimg批量图片分享：完整指南](/blog/cn/maiimg-bulk-image-sharing-guide)
-- [Maiimg图片跟踪和分析：完整指南](/blog/cn/maiimg-image-tracking-guide)
-- [Maiimg：带跟踪和控制的图片分享](/blog/cn/maiimg-share-images-tracking)
+- [Maiimg图片跟踪和分析：完整指南](/blog/cn/open-statistics-and-access-control-guide)
+- [Maiimg：带跟踪和控制的图片分享](/blog/cn/open-statistics-and-access-control-guide)
 
 <style>
   .intro-panel {

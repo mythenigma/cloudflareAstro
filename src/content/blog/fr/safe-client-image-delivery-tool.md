@@ -39,7 +39,7 @@ tags: ["Livraison d'Images Clients", "Partage d'Images Privées", "Outil Sécuri
 ✅ **Expiration Automatique** - Protéger la confidentialité (expirer automatiquement après 7-30 jours)  
 ✅ **Désactiver les Téléchargements** - Protéger le droit d'auteur (les clients peuvent seulement voir, pas télécharger)  
 ✅ **Protection par Mot de Passe** - Sécurité supplémentaire (envoyer le lien et le mot de passe séparément)  
-✅ **Suivi d'Accès** - Savoir qui a vu (IP, temps, appareil)  
+✅ **Suivi d'Accès** - Savoir qui a vu (Visitor ID, temps, appareil)  
 ✅ **Désactivation en Un Clic** - Fermer à tout moment (désactiver immédiatement si anormal)  
 ✅ **Aucune Inscription** - Utiliser directement (entièrement gratuit)  
 

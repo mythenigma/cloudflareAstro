@@ -98,7 +98,7 @@ Plattformen wie MaiPDF vereinfachen den Prozess:
 - **PDFs hochladen:** Hosten Sie Ihre Dateien sicher.
 - **Zugriffsregeln festlegen:** Kontrollieren Sie, wie oft die Datei geöffnet werden kann.
 - **QR-Codes generieren:** Verlinken Sie direkt zu Ihrem PDF.
-- **Aufrufe verfolgen:** Überwachen Sie den Zugriff mit Zeitstempeln und IP-Adressen.
+- **Aufrufe verfolgen:** Überwachen Sie den Zugriff mit Zeitstempeln und Visitor ID-Adressen.
 
 Sie können sogar Links deaktivieren oder Zugriffseinstellungen später aktualisieren.
 

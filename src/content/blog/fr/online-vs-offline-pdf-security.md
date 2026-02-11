@@ -46,7 +46,7 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
       </tr>
       <tr>
         <td>Suivi & statistiques</td>
-        <td>IP, région, appareil, horodatage en temps réel</td>
+        <td>Visitor ID, région, appareil, horodatage en temps réel</td>
         <td>Seulement vues restantes/date d'expiration côté serveur</td>
       </tr>
       <tr>
@@ -84,7 +84,7 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
     <li>En cas de partage accidentel, « tuer le lien » bloque l'accès instantanément</li>
   </ul>
   <h3>3. Suivi des accès</h3>
-  <p>Le backend enregistre IP, région, appareil et date/heure, exportables en CSV.</p>
+  <p>Le backend enregistre Visitor ID, région, appareil et date/heure, exportables en CSV.</p>
   <h3>4. Protection renforcée</h3>
   <ul>
     <li>Surveillance écran/clavier (désactive F12, Ctrl+S, clic droit)</li>
@@ -169,7 +169,7 @@ tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité c
         <td>
           <ul>
             <li>Codes email à usage unique pour éviter la transmission de liens</li>
-            <li>Activer les filigranes dynamiques affichant l'IP du visiteur</li>
+            <li>Activer les filigranes dynamiques affichant l'Visitor ID du visiteur</li>
             <li>Intégrer les liens courts dans les modèles d'emails d'entreprise</li>
           </ul>
         </td>

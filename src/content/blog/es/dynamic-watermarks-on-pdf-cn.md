@@ -16,7 +16,7 @@ heroImage: "/diagram/en/features-overview.svg"
 
 ## 🎯 ¿Qué son las Marcas de Agua Dinámicas?
 
-Las marcas de agua dinámicas son marcas de agua que cambian con cada visualización, mostrando información única como fecha, hora, dirección IP o ID de usuario.
+Las marcas de agua dinámicas son marcas de agua que cambian con cada visualización, mostrando información única como fecha, hora, dirección Visitor ID o ID de usuario.
 
 ### Características Principales
 
@@ -51,7 +51,7 @@ Las marcas de agua dinámicas son marcas de agua que cambian con cada visualizac
 ### Información Incluida
 
 - **Fecha y Hora**: Cuándo se accedió al documento
-- **IP**: Dirección IP del usuario
+- **Visitor ID**: Dirección Visitor ID del usuario
 - **Email**: Email del usuario (si está verificado)
 - **ID Único**: Identificador único de la sesión
 

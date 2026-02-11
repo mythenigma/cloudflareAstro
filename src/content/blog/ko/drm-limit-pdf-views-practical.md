@@ -34,7 +34,7 @@ PDF 조회수 제한이란 수신자가 PDF 문서를 열 수 있는 횟수에 �
 - 클라우드 플랫폼에 PDF 호스팅
 - 고유한 접근 링크 생성
 - 조회 카운터 및 자동 만료 시행
-- 접근 로깅(IP, 타임스탬프, 기기 지문)
+- 접근 로깅(Visitor ID, 타임스탬프, 기기 지문)
 
 ![PDF 접근 추적](/maipdf-images/check_pdf_open_result.png)
 

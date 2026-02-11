@@ -72,7 +72,7 @@ MaiPDF provides a multi-layered PDF document security protection system that eff
       </tr>
       <tr>
         <td><strong>Reading Records Traceable</strong></td>
-        <td>System supports statistics of reader IP, device, reading time, and other information for easy accountability and management (supported when open count is set within 10,000 times).</td>
+        <td>System supports statistics of reader Visitor ID, device, reading time, and other information for easy accountability and management (supported when open count is set within 10,000 times).</td>
         <td>Important notices, compliance files, client materials</td>
       </tr>
     </tbody>
@@ -158,7 +158,7 @@ MaiPDF's powerful tracking feature makes every document access clear at a glance
     </div>
     <div class="feature-block">
       <h4>📍 Geographic Location</h4>
-      <p>Display reader's approximate geographic location based on IP address</p>
+      <p>Display reader's approximate geographic location based on Visitor ID</p>
     </div>
     <div class="feature-block">
       <h4>💻 Device Information</h4>

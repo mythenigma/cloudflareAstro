@@ -175,7 +175,7 @@ Set the generated QR code's related parameters:
 - **Dynamic Watermarks**: Automatically add scanner information to prevent misuse
 - **Phone Verification**: Require phone number verification for sensitive documents
 - **Time Limits**: Set maximum reading time for each scan
-- **IP Restrictions**: Limit access from specific geographic regions
+- **Visitor ID Restrictions**: Limit access from specific geographic regions
 
 **📊 Data Collection Settings**:
 - **Scan Statistics**: Record detailed information for each scan
@@ -395,7 +395,7 @@ After enabling dynamic watermarks, document distribution can be tracked:
 - 🔍 **Unique Scanner Identification**: Each scan generates unique watermarks
 - ⏰ **Precise Time Recording**: Accurate scan time and duration
 - 📱 **Device Fingerprinting**: Record scanner device information
-- 🌐 **Location Information**: IP address and geographic location tracking
+- 🌐 **Location Information**: Visitor ID and geographic location tracking
 
 ## 📱 Mobile QR Code Scanning Experience Optimization
 

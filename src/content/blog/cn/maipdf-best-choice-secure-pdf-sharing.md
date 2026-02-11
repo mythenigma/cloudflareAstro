@@ -634,7 +634,7 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
     <div class="scenario-card">
       <span class="scenario-emoji">👥</span>
       <h3 class="scenario-title">多人共享</h3>
-      <p class="scenario-desc">核心资料集中管理，可追踪访问记录，团队成员权限分级，确保信息安全有序流转。</p>
+      <p class="scenario-desc">核心资料集中管理，可查看打开统计，团队成员权限分级，确保信息安全有序流转。</p>
     </div>
   </div>
 </div>
@@ -676,7 +676,7 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
           <td><span class="crossmark">✗ 可匿名访问</span></td>
         </tr>
         <tr>
-          <td><strong>访问记录追踪</strong></td>
+          <td><strong>打开统计</strong></td>
           <td><span class="checkmark">✓ 详细记录</span></td>
           <td><span class="crossmark">✗ 无记录</span></td>
           <td><span class="crossmark">✗ 有限记录</span></td>
@@ -708,7 +708,7 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
     <li>禁止下载和打印 → 防止二次传播</li>
     <li>邮箱验证 → 掌握访问者身份</li>
     <li>Cloudflare R2 存储 → 安全、快速、稳定</li>
-    <li>访问记录追踪 → 完全透明的使用情况</li>
+    <li>打开统计 → 完全透明的使用情况</li>
   </ul>
 </div>
 
@@ -741,7 +741,7 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 
 **PDF分享和管理**：
 - [如何将PDF文件限制访问次数](/blog/cn/pdf-access-limit-control-guide) - 访问次数控制
-- [如何统计外发文件的打开次数](/blog/cn/file-open-statistics-tracking-guide) - 文件使用统计
+- [如何统计外发文件的打开次数](/blog/cn/open-statistics-and-access-control-guide) - 文件使用统计
 - [如何让手机扫一扫就能阅读PDF](/blog/cn/mobile-qr-scan-read-pdf-guide) - 移动端PDF阅读
 - [如何生成PDF链接](/blog/cn/maipdf-link-generation-guide) - PDF链接生成
 

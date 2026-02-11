@@ -98,7 +98,7 @@ tags: ["PDF二维码", "移动阅读", "扫码阅读", "手机阅读", "便捷�
 
 ## 🛡️ 安全与权限控制
 
-![访问记录和权限管理](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![打开统计和权限管理](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ### 访问权限设置
 
@@ -109,7 +109,7 @@ tags: ["PDF二维码", "移动阅读", "扫码阅读", "手机阅读", "便捷�
 - **次数限制**：限制扫码阅读次数
 
 **高级权限**：
-- **IP限制**：限制特定地区访问
+- **访客标识限制**：限制特定地区访问
 - **设备限制**：限制特定设备访问
 - **用户验证**：需要注册用户才能访问
 - **审批流程**：需要管理员审批才能访问
@@ -324,7 +324,7 @@ tags: ["PDF二维码", "移动阅读", "扫码阅读", "手机阅读", "便捷�
 **PDF分享和管理**：
 - [如何把PDF生成链接](/blog/cn/maipdf-link-generation-guide) - PDF链接生成
 - [如何把PDF生成二维码](/blog/cn/maipdf-qrcode-generation-guide) - PDF二维码生成
-- [如何统计外发文件的打开次数](/blog/cn/file-open-statistics-tracking-guide) - 文件使用统计
+- [如何统计外发文件的打开次数](/blog/cn/open-statistics-and-access-control-guide) - 文件使用统计
 - [如何设置PDF到期自毁](/blog/cn/maipdf-expiration-self-destruct-guide) - PDF过期设置
 
 **移动端和二维码解决方案**：

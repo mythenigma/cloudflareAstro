@@ -96,7 +96,7 @@ This information is invaluable for sensitive documents where accountability matt
 ## ⚠️ What to Keep in Mind
 
 - View limits only work if the platform enforces it — once the file is downloaded, control is lost
-- Some systems track IPs or devices to prevent abuse
+- Some systems track Visitor IDs or devices to prevent abuse
 - Not all tools can track offline opens — server-side solutions are more secure
 - Be transparent with recipients if limits are set, to avoid confusion
 

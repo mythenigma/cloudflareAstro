@@ -83,7 +83,7 @@ flowchart LR
     <div class="feature-icon">📊</div>
     <div class="feature-content">
       <h4>Basic Tracking</h4>
-      <p>See total views and visitor IPs</p>
+      <p>See total views and visitor IDs</p>
       <p class="feature-note">Know who accessed your files</p>
     </div>
   </div>
@@ -397,7 +397,7 @@ flowchart LR
   
   <div class="faq-item">
     <h4>Can I track who viewed my shared PDF?</h4>
-    <p>Yes. MaiPDF provides basic tracking including total views and visitor IP addresses. This helps you know if recipients opened your file.</p>
+    <p>Yes. MaiPDF provides basic tracking including total views and visitor IDs. This helps you know if recipients opened your file.</p>
   </div>
   
   <div class="faq-item">

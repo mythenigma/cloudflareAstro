@@ -109,7 +109,7 @@ tags: ["PDF QR codes", "mobile reading", "scan and read", "mobile PDF", "instant
 - **View limits**: Limit scanning and reading次数
 
 **Advanced permissions**:
-- **IP restrictions**: Limit access to specific regions
+- **Visitor ID restrictions**: Limit access to specific regions
 - **Device restrictions**: Limit access to specific devices
 - **User verification**: Require registered users to access
 - **Approval process**: Require admin approval for access

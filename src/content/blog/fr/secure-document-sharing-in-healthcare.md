@@ -46,7 +46,7 @@ Chaque interaction avec un document doit être enregistrée pour créer une cha�
 
 - Qui a consulté le document (identifié par email ou téléphone)
 - Quand ils y ont accédé (horodatage)
-- D'où ils y ont accédé (adresse IP et informations sur l'appareil)
+- D'où ils y ont accédé (adresse Visitor ID et informations sur l'appareil)
 - Combien de temps ils ont interagi avec le contenu
 
 Ces informations ne sont pas seulement utiles pour la sécurité — elles sont essentielles pour démontrer la conformité lors des audits.

@@ -96,7 +96,7 @@ Diese Informationen sind für sensible Dokumente, bei denen Verantwortlichkeit w
 ## ⚠️ Was zu beachten ist
 
 - Ansichtslimits funktionieren nur, wenn die Plattform sie durchsetzt – sobald die Datei heruntergeladen wird, geht die Kontrolle verloren
-- Einige Systeme verfolgen IPs oder Geräte, um Missbrauch zu verhindern
+- Einige Systeme verfolgen Visitor IDs oder Geräte, um Missbrauch zu verhindern
 - Nicht alle Tools können Offline-Öffnungen verfolgen – serverseitige Lösungen sind sicherer
 - Seien Sie transparent mit Empfängern, wenn Limits gesetzt sind, um Verwirrung zu vermeiden
 

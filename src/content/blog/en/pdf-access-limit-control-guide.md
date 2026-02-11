@@ -98,7 +98,7 @@ tags: ["PDF access limits", "document security", "access control", "view limits"
 - **Specific users**: Only allow specific users to access
 - **Email verification**: Require email verification to access
 - **Phone verification**: Require phone number verification
-- **IP address limits**: Restrict access to specific IP addresses
+- **Visitor ID limits**: Restrict access to specific Visitor IDs
 
 **Geographic limits**:
 - **Country limits**: Restrict access to specific countries
@@ -120,7 +120,7 @@ tags: ["PDF access limits", "document security", "access control", "view limits"
 
 **Detailed records**:
 - **Access time**: Access time precise to seconds
-- **Visitor information**: IP address, device information, geographic location
+- **Visitor information**: Visitor ID, device information, geographic location
 - **Access behavior**: Viewing duration, page browsing situation
 - **Access results**: Records of successful access or rejection
 

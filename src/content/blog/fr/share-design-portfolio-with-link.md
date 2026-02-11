@@ -55,7 +55,7 @@ Vous pouvez :
 - Définir une limite de consultation (par exemple, permettre l'ouverture du fichier 3 fois)
 - Le protéger avec un code de lecture ou un mot de passe
 - Désactiver les téléchargements pour que votre contenu reste le vôtre
-- Surveiller qui l'ouvre, quand et où (suivi basé sur l'IP)
+- Surveiller qui l'ouvre, quand et où (suivi basé sur l'Visitor ID)
 
 C'est une solution moderne qui vous offre liberté et sécurité, pas seulement de la commodité.
 

@@ -92,4 +92,4 @@ Brands use Maiimg to deliver influencer kits faster, cut back-and-forth messages
 **Related Playbooks**
 - [Maiimg QR Code Image Sharing Guide](/blog/en/maiimg-qr-code-image-sharing-guide)
 - [Maiimg Secure Image Sharing: Access Control](/blog/en/maiimg-secure-image-sharing-access-control)
-- [Maiimg Image Tracking & Analytics](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg Image Tracking & Analytics](/blog/en/open-statistics-and-access-control-guide)

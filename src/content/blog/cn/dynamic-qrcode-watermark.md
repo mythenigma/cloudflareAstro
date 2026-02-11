@@ -70,7 +70,7 @@ Maipdf开创性地推出动态二维码水印技术，将保密防泄密能力�
       </div>
       <div class="detail-item">
         <div class="detail-icon">📱</div>
-        <div class="detail-text">内含IP地址、设备标识等追踪数据</div>
+        <div class="detail-text">内含访客标识、设备标识等追踪数据</div>
       </div>
       <div class="detail-item">
         <div class="detail-icon">⏱️</div>
@@ -95,7 +95,7 @@ Maipdf开创性地推出动态二维码水印技术，将保密防泄密能力�
     <div class="step-number">2</div>
     <div class="step-content">
       <h4>信息加密与编码</h4>
-      <p>每次文档被打开时，系统会收集当前查看者的设备信息、IP地址、时间戳等数据，并经过加密算法处理后编入二维码。</p>
+      <p>每次文档被打开时，系统会收集当前查看者的设备信息、访客标识、时间戳等数据，并经过加密算法处理后编入二维码。</p>
     </div>
   </div>
   <div class="process-step">
@@ -175,7 +175,7 @@ Maipdf开创性地推出动态二维码水印技术，将保密防泄密能力�
       <tr>
         <td>水印内容</td>
         <td>固定文字或图案</td>
-        <td>包含设备、IP、时间等动态加密信息</td>
+        <td>包含设备、访客标识、时间等动态加密信息</td>
       </tr>
       <tr>
         <td>唯一性</td>
@@ -200,7 +200,7 @@ Maipdf开创性地推出动态二维码水印技术，将保密防泄密能力�
       <tr>
         <td>法律效力</td>
         <td>有限证据价值</td>
-        <td>提供详细的访问记录，证据价值高</td>
+        <td>提供详细的打开统计，证据价值高</td>
       </tr>
     </tbody>
   </table>
@@ -311,16 +311,16 @@ Maipdf开创性地推出动态二维码水印技术，将保密防泄密能力�
   <ul>
     <li>将水印放置在文档内容周围，避免遮挡重要信息</li>
     <li>预先告知查看者文档有水印追踪功能，增强威慑效果</li>
-    <li>定期查看访问记录，及时发现异常查看行为</li>
+    <li>定期查看打开统计，及时发现异常查看行为</li>
     <li>对特别敏感的文档，建议同时启用手机验证功能</li>
   </ul>
 </div>
 
-## 📱 查看与追踪文档访问记录 {#tracking-records}
+## 📱 查看与追踪文档打开统计 {#tracking-records}
 
-![访问记录界面](/maifle/阅读记录查询结果示例.png)
+![打开统计界面](/maifle/阅读记录查询结果示例.png)
 
-Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向：
+Maipdf提供直观的打开统计查询功能，助您全面掌握文档流向：
 
 <div class="tracking-features">
   <div class="tracking-item">
@@ -342,7 +342,7 @@ Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向�
     <div class="tracking-icon">📍</div>
     <div class="tracking-content">
       <h4>地理位置</h4>
-      <p>基于IP地址分析的访问地区、城市等地理位置信息</p>
+      <p>基于访客标识分析的访问地区、城市等地理位置信息</p>
     </div>
   </div>
   <div class="tracking-item">
@@ -355,9 +355,9 @@ Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向�
 </div>
 
 <div class="tracking-sample">
-  <h4>示例访问记录：</h4>
+  <h4>示例打开统计：</h4>
   <div class="code-block">
-    IP: 2406:da14:15fc:700:dfe7:1508:b08a:76fe 
+    访客标识: 2406:da14:15fc:700:dfe7:1508:b08a:76fe 
     设备: Windows NT 10.0 (Win64; x64)
     浏览器: Chrome 121.0.6167.85
     访问时间: 2025-04-28 15:42:33
@@ -426,7 +426,7 @@ Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向�
   <div class="faq-item">
     <div class="faq-question">如何查看谁访问了我的文档？</div>
     <div class="faq-answer">
-      <p>在Maipdf平台登录您的账户，进入文档管理页面，点击目标文档的"访问记录"按钮，即可查看所有访问详情，包括访问者的设备信息、IP地址、访问时间等数据。</p>
+      <p>在Maipdf平台登录您的账户，进入文档管理页面，点击目标文档的"打开统计"按钮，即可查看所有访问详情，包括访问者的设备信息、访客标识、访问时间等数据。</p>
     </div>
   </div>
   <div class="faq-item">
@@ -438,7 +438,7 @@ Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向�
   <div class="faq-item">
     <div class="faq-question">水印记录在法律上是否具有证据效力？</div>
     <div class="faq-answer">
-      <p>是的。Maipdf的访问记录系统采用安全的日志记录机制，在许多司法管辖区内被认可为有效的电子证据。在知识产权纠纷和商业秘密泄露案例中，这些记录已多次成功用于法律诉讼。</p>
+      <p>是的。Maipdf的打开统计系统采用安全的日志记录机制，在许多司法管辖区内被认可为有效的电子证据。在知识产权纠纷和商业秘密泄露案例中，这些记录已多次成功用于法律诉讼。</p>
     </div>
   </div>
 </div>
@@ -454,7 +454,7 @@ Maipdf提供直观的访问记录查询功能，助您全面掌握文档流向�
   <div class="trend-card">
     <div class="trend-icon">⛓️</div>
     <h4>区块链验证</h4>
-    <p>区块链技术将与水印追踪结合，提供不可篡改的访问记录和更强的法律证据支持。</p>
+    <p>区块链技术将与水印追踪结合，提供不可篡改的打开统计和更强的法律证据支持。</p>
   </div>
   <div class="trend-card">
     <div class="trend-icon">👁️</div>

@@ -770,7 +770,7 @@ When sharing PDF files - like contracts, project reports, or teaching materials 
 
 **PDF Sharing and Management**:
 - [Transform PDFs into Shareable Links in 3 Simple Steps](/blog/transform-pdfs-shareable-links-3-steps) - Quick link generation
-- [How to Track File Open Statistics](/blog/file-open-statistics-tracking-guide) - Monitor usage analytics
+- [How to Track File Open Statistics](/blog/open-statistics-and-access-control-guide) - Monitor usage analytics
 - [How to Disable PDF Printing](/blog/pdf-disable-printing-protection-guide) - Print control
 - [Create Professional Portfolio Links](/blog/create-professional-portfolio-links-showcase-work-pro) - Professional sharing
 

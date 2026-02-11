@@ -31,7 +31,7 @@ Modern dynamic watermarks from platforms like MaiPDF include:
 
 ### 1. Identity Components
 - Viewer's email address or username
-- IP address of the accessing device
+- Visitor ID of the accessing device
 - Organization affiliation when applicable
 - Unique access session identifiers
 

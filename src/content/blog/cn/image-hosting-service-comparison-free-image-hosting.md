@@ -95,7 +95,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">✅ 是</td>
 </tr>
 <tr style="border-bottom: 1px solid #e5e7eb; background: #fafafa;">
-<td style="padding: 1rem; font-weight: 500; color: #374151;">访问追踪</td>
+<td style="padding: 1rem; font-weight: 500; color: #374151;">打开统计</td>
 <td style="padding: 1rem; text-align: center; color: #f59e0b;">⚠️ 基础</td>
 <td style="padding: 1rem; text-align: center; color: #f59e0b;">⚠️ 基础</td>
 <td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">✅ 实时追踪</td>
@@ -147,7 +147,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <li>只能单张上传</li>
 <li>需要注册账号</li>
 <li>访问控制功能有限</li>
-<li>无法追踪详细访问记录</li>
+<li>无法追踪详细打开统计</li>
 <li>API访问需付费</li>
 </ul>
 </div>
@@ -181,7 +181,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <li>只能单张上传</li>
 <li>需要注册账号</li>
 <li>访问控制功能有限</li>
-<li>无法追踪详细访问记录</li>
+<li>无法追踪详细打开统计</li>
 <li>API访问需付费</li>
 <li>功能相对简单</li>
 </ul>
@@ -210,7 +210,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <li><strong>批量上传</strong>：一次最多25张图片</li>
 <li><strong>无需注册</strong>：打开即用，即用即走</li>
 <li><strong>完整访问控制</strong>：查看次数、过期时间、下载控制</li>
-<li><strong>实时访问追踪</strong>：时间、IP、设备、地理位置</li>
+<li><strong>实时打开统计</strong>：时间、访客标识、设备、地理位置</li>
 <li><strong>二维码自动生成</strong>：方便分享和分发</li>
 <li><strong>免费API访问</strong>：支持自动化集成</li>
 <li><strong>完全免费</strong>：核心功能无限制使用</li>
@@ -314,7 +314,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 - 设置查看次数限制
 - 设置过期时间
 - 配置下载控制
-- 开启访问追踪
+- 开启打开统计
 
 ![生成结果](/maiimg/image_result.png)
 
@@ -323,10 +323,10 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 - 自动生成二维码
 - 一键复制分享
 
-![访问追踪](/maiimg/result_tracking.png)
+![打开统计](/maiimg/result_tracking.png)
 
-**查看访问追踪**
-- 实时查看访问记录
+**查看打开统计**
+- 实时查看打开统计
 - 了解查看者信息
 - 分析访问数据
 
@@ -341,7 +341,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <li>✅ 批量上传25张，一次完成</li>
 <li>✅ 生成二维码，方便现场扫码</li>
 <li>✅ 设置查看次数，保护隐私</li>
-<li>✅ 查看访问记录，了解分享效果</li>
+<li>✅ 查看打开统计，了解分享效果</li>
 </ul>
 </div>
 
@@ -363,7 +363,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <li>✅ 批量上传，专业展示</li>
 <li>✅ 高质量图片，展现细节</li>
 <li>✅ 二维码分享，方便传播</li>
-<li>✅ 访问追踪，了解关注度</li>
+<li>✅ 打开统计，了解关注度</li>
 </ul>
 </div>
 
@@ -460,7 +460,7 @@ tags: ["图片托管服务", "图片托管对比", "免费图片托管", "最佳
 <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #374151;">
 <li>需要批量上传</li>
 <li>需要访问控制</li>
-<li>需要访问追踪</li>
+<li>需要打开统计</li>
 <li>需要高质量图片</li>
 <li>需要二维码分享</li>
 </ul>

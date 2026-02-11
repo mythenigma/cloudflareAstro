@@ -1,6 +1,6 @@
 ---
 title: "MaiPDF动态水印功能 — 精准追踪，让每个阅读行为可回溯"
-description: "通过MaiPDF独特的动态水印技术，为每次PDF打开生成唯一标识，有效追踪文档访问记录，防止未授权分享。"
+description: "通过MaiPDF独特的动态水印技术，为每次PDF打开生成唯一标识，有效追踪文档打开统计，防止未授权分享。"
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/页面上显示水印位置.png"
 ---
@@ -15,7 +15,7 @@ heroImage: "/maifle/页面上显示水印位置.png"
 
 <div class="feature-section">
   <div class="feature-content">
-    <p>当你启用动态水印后，用户在打开PDF时，系统会自动在文件页面中加入一个8位或9位的唯一数字标识码。该标识码可作为访问记录的追踪入口，通过它你可以反查访问者的相关信息。</p>
+    <p>当你启用动态水印后，用户在打开PDF时，系统会自动在文件页面中加入一个8位或9位的唯一数字标识码。该标识码可作为打开统计的追踪入口，通过它你可以反查访问者的相关信息。</p>
     <p>与传统水印不同，动态水印为每次访问生成唯一标识，使其成为强大的追踪工具。</p>
   </div>
   <div class="feature-image">
@@ -32,7 +32,7 @@ heroImage: "/maifle/页面上显示水印位置.png"
   </div>
   <div class="tracking-item">
     <div class="tracking-icon">🌐</div>
-    <div class="tracking-text">访问时的IP地址</div>
+    <div class="tracking-text">访问时的访客标识</div>
   </div>
   <div class="tracking-item">
     <div class="tracking-icon">🔗</div>
@@ -94,7 +94,7 @@ heroImage: "/maifle/页面上显示水印位置.png"
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
-      <h3>查询访问记录</h3>
+      <h3>查询打开统计</h3>
       <p>通过水印ID查看访问详情</p>
       <img src="/maifle/水印码查询结果.png" alt="水印查询结果界面" class="small">
     </div>
@@ -124,10 +124,10 @@ heroImage: "/maifle/页面上显示水印位置.png"
   </div>
   <div class="use-case-item">
     <div class="use-case-icon">
-      <img src="/maifle/阅读记录查询.png" alt="访问追踪界面" class="tiny">
+      <img src="/maifle/阅读记录查询.png" alt="打开统计界面" class="tiny">
     </div>
     <div class="use-case-content">
-      <h3>访问追踪</h3>
+      <h3>打开统计</h3>
       <p>商务报价、产品文档的分发控制</p>
     </div>
   </div>

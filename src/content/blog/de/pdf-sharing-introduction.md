@@ -65,7 +65,7 @@ flowchart TD
     C --> C4[Dynamisches Wasserzeichen]
     
     D --> D1[Zugriffsaufzeichnungen]
-    D --> D2[IP-Verfolgung]
+    D --> D2[Visitor ID-Verfolgung]
     D --> D3[Geräteinformationen]
     D --> D4[Geografische Position]
     
@@ -194,7 +194,7 @@ flowchart TD
 **Verfolgungsinhalt:**
 - 📊 Gesamtzahl der Öffnungen
 - ⏰ Zeitpunkt jeder Öffnung
-- 🌐 IP-Adresse des Besuchers
+- 🌐 Visitor ID-Adresse des Besuchers
 - 📱 Geräteinformationen
 - 📍 Geografische Position
 - 🔗 Zugriffsquelle
@@ -204,7 +204,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     A[Benutzer Öffnet Link] --> B[Zugriffszeit Aufzeichnen]
-    B --> C[IP-Adresse Aufzeichnen]
+    B --> C[Visitor ID-Adresse Aufzeichnen]
     C --> D[Geräteinformationen Aufzeichnen]
     D --> E[Geografische Position Aufzeichnen]
     E --> F[Zugriffsstatistiken Aktualisieren]
@@ -318,7 +318,7 @@ flowchart TD
 | **Registrierung** | ❌ Benötigt Konto | ✅ Keine Registrierung |
 | **Link-Generierung** | ❌ Benötigt Genehmigungswartezeit | ✅ Sofortig (innerhalb von 10 Sekunden) |
 | **Zugriffskontrolle** | ❌ Kann nicht kontrollieren | ✅ Vollständige Kontrolle (Anzahl, Zeit, Download) |
-| **Zugriffsverfolgung** | ❌ Keine Aufzeichnungen | ✅ Vollständige Aufzeichnungen (Zeit, IP, Gerät) |
+| **Zugriffsverfolgung** | ❌ Keine Aufzeichnungen | ✅ Vollständige Aufzeichnungen (Zeit, Visitor ID, Gerät) |
 | **Link-Verwaltung** | ❌ Kann nur löschen | ✅ Ein-Klick-Deaktivierung, Datei-Ersetzung |
 | **Wasserzeichen-Schutz** | ❌ Nicht unterstützt | ✅ Dynamisches Wasserzeichen (Online-Modus) |
 | **Kosten** | 💰 Kann kostenpflichtig sein | ✅ Völlig kostenlos |

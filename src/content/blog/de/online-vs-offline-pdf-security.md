@@ -46,7 +46,7 @@ tags: ["PDF-Sicherheit", "Dokumentenaustausch", "DRM-Schutz", "Cloud-Sicherheit"
       </tr>
       <tr>
         <td>Tracking & Statistik</td>
-        <td>Echtzeit-IP, Region, Gerät, Zeitstempel</td>
+        <td>Echtzeit-Visitor ID, Region, Gerät, Zeitstempel</td>
         <td>Nur verbleibende Ansichten/Ablaufdatum auf Server</td>
       </tr>
       <tr>
@@ -84,7 +84,7 @@ tags: ["PDF-Sicherheit", "Dokumentenaustausch", "DRM-Schutz", "Cloud-Sicherheit"
     <li>Bei versehentlicher Freigabe sofort "Link deaktivieren" — wenn Empfänger aktualisieren, wird der Zugriff verweigert</li>
   </ul>
   <h3>3. Verhaltens-Tracking</h3>
-  <p>Backend-Protokolle erfassen IP, Region, Gerätemodell und Zugriffszeit, exportierbar als CSV.</p>
+  <p>Backend-Protokolle erfassen Visitor ID, Region, Gerätemodell und Zugriffszeit, exportierbar als CSV.</p>
   <h3>4. Erweiterter Schutz</h3>
   <ul>
     <li>Bildschirm- und Tastaturüberwachung (deaktiviert F12, Strg+S, Rechtsklick)</li>
@@ -169,7 +169,7 @@ tags: ["PDF-Sicherheit", "Dokumentenaustausch", "DRM-Schutz", "Cloud-Sicherheit"
         <td>
           <ul>
             <li>Einmal-E-Mail-Verifizierungscodes einrichten, um weitergeleitete Links zu verhindern</li>
-            <li>Dynamische Wasserzeichen aktivieren, die Besucher-IP anzeigen</li>
+            <li>Dynamische Wasserzeichen aktivieren, die Besucher-Visitor ID anzeigen</li>
             <li>Kurz-Links in Unternehmens-E-Mail-Vorlagen einbetten für intuitivere Berechtigungsverwaltung</li>
           </ul>
         </td>

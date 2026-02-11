@@ -19,7 +19,7 @@ tags: ["Design Portfolio", "Creative Work Protection", "Secure Sharing", "Job Ap
 
 Creative professionals face unique challenges when sharing their work:
 
-- 🔒 **IP protection**: Preventing unauthorized use of your design concepts
+- 🔒 **Visitor ID protection**: Preventing unauthorized use of your design concepts
 - 👁️ **Selective sharing**: Showing different work to different potential clients
 - 📊 **Engagement tracking**: Understanding which designs capture attention
 - 🛑 **Usage control**: Preventing downloads of high-resolution assets

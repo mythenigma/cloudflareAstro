@@ -167,10 +167,10 @@ flowchart TD
 - Limited-time events
 - Regularly updated documents
 
-**2.3 IP Address Restriction**
+**2.3 Visitor ID Restriction**
 
 **Setup Method:**
-- Restrict access to specific IP addresses
+- Restrict access to specific Visitor IDs
 - Prevent remote access
 - Enhance security
 
@@ -184,7 +184,7 @@ flowchart TD
 **Watermark Content:**
 - Visitor email
 - Access time
-- IP address
+- Visitor ID
 - Visitor name
 
 **Advantages:**
@@ -220,7 +220,7 @@ flowchart TD
 
 **Recorded Content:**
 - Access time
-- IP address
+- Visitor ID
 - Device information
 - Geographic location
 
@@ -405,7 +405,7 @@ graph TD
 **Recommended Combinations:**
 - Disable download + View count limit
 - Expiration time + Dynamic watermark
-- Access records + IP restriction
+- Access records + Visitor ID restriction
 
 ### 2. Set Based on Importance
 

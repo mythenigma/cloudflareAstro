@@ -46,7 +46,7 @@ Cada interacción con el documento debe registrarse para crear una cadena verifi
 
 - Quién visualizó el documento (identificado por email o teléfono)
 - Cuándo accedieron (fecha y hora)
-- Desde dónde accedieron (dirección IP e información del dispositivo)
+- Desde dónde accedieron (dirección Visitor ID e información del dispositivo)
 - Cuánto tiempo interactuaron con el contenido
 
 Esta información no solo es útil para la seguridad—es esencial para demostrar cumplimiento durante auditorías.

@@ -106,7 +106,7 @@ styles: ["blog-post.css"]
     </div>
     <div class="feature-card free">
       <div class="feature-icon">📊</div>
-      <h4>访问记录</h4>
+      <h4>打开统计</h4>
       <p class="feature-status">免费（<1万次）</p>
       <p>查看谁、何时、用什么设备打开了你的文档</p>
     </div>
@@ -384,13 +384,13 @@ styles: ["blog-post.css"]
           <li>打开次数：5-10次</li>
           <li>阅读时长：不限制</li>
           <li>下载权限：允许</li>
-          <li>访问记录：开启</li>
+          <li>打开统计：开启</li>
         </ul>
         <p><strong>适用场景：</strong>提交作业给老师，可追踪查看情况</p>
       </div>
       <div class="tip-image-container">
-        <img src="/maifle/阅读记录查询结果示例.png" alt="访问记录查询" class="tip-image">
-        <p class="image-caption">详细的访问记录，确认老师已查看作业</p>
+        <img src="/maifle/阅读记录查询结果示例.png" alt="打开统计查询" class="tip-image">
+        <p class="image-caption">详细的打开统计，确认老师已查看作业</p>
       </div>
     </div>
     <div class="tip-card business">
@@ -417,7 +417,7 @@ styles: ["blog-post.css"]
     <div class="advanced-grid">
       <div class="advanced-tip">
         <h5>📊 数据分析利用</h5>
-        <p>通过访问记录分析读者行为：</p>
+        <p>通过打开统计分析读者行为：</p>
         <ul>
           <li>查看时长判断内容吸引力</li>
           <li>访问时间了解阅读习惯</li>

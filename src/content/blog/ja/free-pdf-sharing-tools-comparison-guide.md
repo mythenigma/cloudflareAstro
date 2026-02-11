@@ -264,7 +264,7 @@ tags: ["無料PDF共有ツール", "PDF共有ツール比較", "無料PDF共有"
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
 <li><strong>登録不要</strong>：すぐに使用、障壁なし</li>
 <li><strong>完全なアクセス制御</strong>：閲覧回数、時間、パスワード、電話認証</li>
-<li><strong>詳細なアクセストラッキング</strong>：時間、IP、デバイス、位置情報</li>
+<li><strong>詳細なアクセストラッキング</strong>：時間、Visitor ID、デバイス、位置情報</li>
 <li><strong>セキュリティ保護</strong>：ダウンロード禁止、動的透かし、ワンクリック無効化</li>
 <li><strong>QRコードサポート</strong>：自動生成、簡単共有</li>
 <li><strong>リンク管理</strong>：ファイル置換、設定変更、リンク無効化</li>

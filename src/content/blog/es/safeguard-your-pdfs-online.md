@@ -62,7 +62,7 @@ Esto es lo que puedes hacer con MaiPDF:
   </div>
   <div class="feature-item">
     <span class="feature-icon">📍</span>
-    <p>Rastrea el acceso (IP, hora, ubicación)</p>
+    <p>Rastrea el acceso (Visitor ID, hora, ubicación)</p>
   </div>
   <div class="feature-item">
     <span class="feature-icon">🔧</span>

@@ -1,6 +1,6 @@
 ---
 title: "PDF加密分享：你掌控每一次访问"
-description: "MaiPDF提供精细化的PDF访问控制系统，让您能够限制打开次数、阅读时长和下载权限，同时追踪每次访问记录，确保文档安全。"
+description: "MaiPDF提供精细化的PDF访问控制系统，让您能够限制打开次数、阅读时长和下载权限，同时追踪每次打开统计，确保文档安全。"
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf整体功能页面.png"
 tags: ["PDF加密", "访问控制", "文件安全", "信息保护", "数据泄露防护"]
@@ -41,8 +41,8 @@ tags: ["PDF加密", "访问控制", "文件安全", "信息保护", "数据泄�
     </div>
     <div class="column solution">
       <h4>📊 自动记录访问信息</h4>
-      <p>自动记录访问IP、设备信息与时间（适用于访问次数设定低于1万）</p>
-      <img src="/maifle/阅读记录查询结果示例.png" alt="访问记录追踪" class="solution-image">
+      <p>自动记录访问访客标识、设备信息与时间（适用于访问次数设定低于1万）</p>
+      <img src="/maifle/阅读记录查询结果示例.png" alt="打开统计" class="solution-image">
     </div>
   </div>
   <div class="table-row">
@@ -87,9 +87,9 @@ MaiPDF不仅解决传统PDF分享的安全顾虑，还提供了一系列创新�
     <img src="/maifle/动态水印的选项.png" alt="权限控制设置" class="advantage-image">
   </div>
   <div class="advantage-card">
-    <h3>📈 实时访问追踪</h3>
+    <h3>📈 实时打开统计</h3>
     <p>在合规范围内统计访问数据，确保每一次阅读都有迹可循，随时了解文档的传播情况。</p>
-    <img src="/maifle/阅读记录查询.png" alt="访问追踪功能" class="advantage-image">
+    <img src="/maifle/阅读记录查询.png" alt="打开统计功能" class="advantage-image">
   </div>
   <div class="advantage-card">
     <h3>💧 动态水印防护</h3>
@@ -136,11 +136,11 @@ MaiPDF提供全面而精细的文档安全控制系统，主要功能模块包�
   </div>
   <div class="feature-row">
     <div class="feature-column">
-      <h4>📊 访问追踪分析</h4>
-      <img src="/maifle/之前的打开记录查询.png" alt="访问追踪分析" class="feature-icon">
+      <h4>📊 打开统计分析</h4>
+      <img src="/maifle/之前的打开记录查询.png" alt="打开统计分析" class="feature-icon">
     </div>
     <div class="description-column">
-      <p>查看访问者IP、设备与时间记录（当访问次数低于1万次时）。了解文档传播情况，为重要商务决策提供数据支持。</p>
+      <p>查看访问者访客标识、设备与时间记录（当访问次数低于1万次时）。了解文档传播情况，为重要商务决策提供数据支持。</p>
     </div>
   </div>
   <div class="feature-row">
@@ -181,7 +181,7 @@ MaiPDF的安全控制功能在多种业务场景中发挥关键作用：
     <h3>⚖️ 法律合同与协议</h3>
     <p>为不同审阅方设置独立访问链接，追踪每位相关人员的查看情况，确保敏感法律文件不被过度传播。</p>
     <div class="case-highlight">
-      <strong>推荐设置:</strong> 5次查看限制 + 手机验证 + 动态水印 + 访问记录追踪
+      <strong>推荐设置:</strong> 5次查看限制 + 手机验证 + 动态水印 + 打开统计
     </div>
   </div>
   <div class="case-card">
@@ -193,9 +193,9 @@ MaiPDF的安全控制功能在多种业务场景中发挥关键作用：
   </div>
   <div class="case-card">
     <h3>🏢 内部文档与会议纪要</h3>
-    <p>为内部敏感文件设置访问权限，确保只有授权员工能查看，防止信息外泄，同时追踪每次访问记录。</p>
+    <p>为内部敏感文件设置访问权限，确保只有授权员工能查看，防止信息外泄，同时追踪每次打开统计。</p>
     <div class="case-highlight">
-      <strong>推荐设置:</strong> 部门内查看 + 30分钟阅读时长 + 禁止下载 + IP限制
+      <strong>推荐设置:</strong> 部门内查看 + 30分钟阅读时长 + 禁止下载 + 访客标识限制
     </div>
   </div>
 </div>

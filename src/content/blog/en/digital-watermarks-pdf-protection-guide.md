@@ -96,7 +96,7 @@ The most secure and informative watermarks include:
 
 ### 3. Access Context Information
 
-- **IP address** of the viewing device
+- **Visitor ID** of the viewing device
 - **Geographic location** data
 - **Device identifier** information
 - **Browser or application** used for viewing
@@ -159,7 +159,7 @@ For maximum protection, combine watermarking with:
 - **View limitations** to restrict the number of opens
 - **Email verification** before document access
 - **Two-factor authentication** via SMS
-- **IP address restrictions** to limit geographical access
+- **Visitor ID restrictions** to limit geographical access
 
 ![Email verification screen](/maipdf-images/get_email_verification_before_read.jpg)
 

@@ -241,7 +241,7 @@ flowchart TD
 ✅ **Auto Expiration** - Protect privacy (auto-expire after 7-30 days)  
 ✅ **Disable Downloads** - Protect copyright (clients can only view, not download)  
 ✅ **Password Protection** - Additional security (send link and password separately)  
-✅ **Access Tracking** - Know who viewed (IP, time, device)  
+✅ **Access Tracking** - Know who viewed (Visitor ID, time, device)  
 ✅ **One-Click Disable** - Close anytime (disable immediately if abnormal)  
 ✅ **No Registration** - Use directly (completely free)  
 

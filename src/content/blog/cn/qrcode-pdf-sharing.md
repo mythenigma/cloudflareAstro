@@ -51,7 +51,7 @@ tags: ["二维码分享", "PDF在线预览", "移动阅读", "文档分享"]
   </div>
   <div class="feature-card">
     <h4>📊 精准的访问控制与统计</h4>
-    <p>当设置PDF的打开次数少于一万次时，MaiPDF提供详细的访问统计功能，包括查看阅读者的IP地址、设备信息及具体的打开时间，帮助用户精准掌握文件访问情况。</p>
+    <p>当设置PDF的打开次数少于一万次时，MaiPDF提供详细的访问统计功能，包括查看阅读者的访客标识、设备信息及具体的打开时间，帮助用户精准掌握文件访问情况。</p>
     <img src="/maifle/阅读记录查询结果示例.png" alt="访问统计示例" class="feature-image">
   </div>
   <div class="feature-card">
@@ -118,9 +118,9 @@ MaiPDF在提供便捷的同时，也非常注重文件安全：
     <p>可设置每次打开文档的最长可阅读时间，限时阅读更安全。</p>
   </div>
   <div class="card">
-    <h3>🔍 访问记录跟踪</h3>
+    <h3>🔍 打开统计跟踪</h3>
     <p>全面记录每次文件被打开的详细信息，让文件共享更可控。</p>
-    <img src="/maifle/阅读记录查询.png" alt="访问记录查询" class="security-image">
+    <img src="/maifle/阅读记录查询.png" alt="打开统计查询" class="security-image">
   </div>
   <div class="card">
     <h3>📞 手机验证</h3>

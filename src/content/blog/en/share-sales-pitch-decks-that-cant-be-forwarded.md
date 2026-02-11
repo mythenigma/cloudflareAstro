@@ -73,7 +73,7 @@ Platforms like MaiPDF give sales teams easy tools to:
 - Upload PDFs securely
 - Generate non-downloadable view-only links
 - Set open/view limits (e.g. 3 views max)
-- Track access logs by IP and time
+- Track access logs by Visitor ID and time
 - Control documents with a simple edit code
 - Revoke access with one click if needed
 

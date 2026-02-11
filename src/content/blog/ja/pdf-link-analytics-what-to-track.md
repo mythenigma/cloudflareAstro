@@ -1,27 +1,15 @@
 ---
-title: "PDFリンク分析：共有後に見るべき指標"
-description: "フォロー、監査、セキュリティ判断に役立つ、最重要の分析指標を短く整理します。"
+title: "PDFリンク分析：共有後に見るべき指標 (Removed)"
+description: "This page has been removed and is no longer publicly available."
 pubDate: "Jan 15 2026"
-tags: ["PDF分析", "トラッキング", "セキュリティ監視"]
+noindex: true
+showDefaultCta: false
 ---
 
-# PDFリンク分析：共有後に見るべき指標
+# 404 - Page Removed
 
-<div class="intro-panel">
-  <p>共有は簡単。共有後に何が起きたかを知ることが、リンクの価値を決めます。</p>
-</div>
+This page was removed due to content compliance and safety policy.
 
-![PDF analytics tracking workflow](/diagram/en/pdf-analytics-tracking-workflow.svg)
+Please visit the blog index for available content.
 
-## まず押さえる3つ
-
-- **いつ開かれたか**（フォローのタイミング）
-- **何回開かれたか**（関心か、読み返しか）
-- **どこ／どの端末か**（最低限のリスクチェック）
-
-## 最小の運用フロー
-
-1. リンクを送る
-2. 初回オープンを確認
-3. 文脈付きでフォロー（「開きました？気になる点ありますか？」）
-
+[Go to Blog Index](/blog)

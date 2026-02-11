@@ -68,7 +68,7 @@ Moderne, leichte Plattformen wie MaiPDF bieten diese Art des linkbasierten Teile
 2. Generieren Sie einen sicheren, schreibgeschützten Link
 3. Legen Sie ein Ansichtslimit fest (z.B. maximal 2 Öffnungen)
 4. Deaktivieren Sie das Herunterladen oder Drucken
-5. Verfolgen Sie IP-Adresse und Zeitstempel der Ansichten
+5. Verfolgen Sie Visitor ID-Adresse und Zeitstempel der Ansichten
 6. Verwalten Sie den Zugriff über einen separaten Bearbeitungscode
 
 Der Betrachter klickt einfach auf den Link und sieht ihn an. Das war's. Sie behalten von Anfang bis Ende die Kontrolle.

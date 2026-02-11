@@ -112,7 +112,7 @@ flowchart TD
 ✅ **Automatisches Ablaufen** - Datenschutz schützen (nach 7-30 Tagen automatisch ablaufen)  
 ✅ **Downloads Deaktivieren** - Urheberrecht schützen (Kunden können nur ansehen, nicht herunterladen)  
 ✅ **Passwortschutz** - Zusätzliche Sicherheit (Link und Passwort separat senden)  
-✅ **Zugriffsverfolgung** - Wissen, wer angesehen hat (IP, Zeit, Gerät)  
+✅ **Zugriffsverfolgung** - Wissen, wer angesehen hat (Visitor ID, Zeit, Gerät)  
 ✅ **Ein-Klick-Deaktivierung** - Jederzeit schließen (sofort deaktivieren, wenn abnormal)  
 ✅ **Keine Registrierung** - Direkt verwenden (völlig kostenlos)  
 

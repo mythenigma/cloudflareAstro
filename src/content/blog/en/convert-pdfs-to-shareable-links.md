@@ -59,7 +59,7 @@ Your PDF is now live—but only on your terms.
 
 MaiPDF isn't just a host. It gives you smart controls like:
 
-- 📊 **Access tracking**: See IP, location, timestamp
+- 📊 **Access tracking**: See Visitor ID, location, timestamp
   ![Track PDF Opens](/maipdf-images/check_pdf_open_result.png)
 
 - 🔒 **Download protection**: View-only mode

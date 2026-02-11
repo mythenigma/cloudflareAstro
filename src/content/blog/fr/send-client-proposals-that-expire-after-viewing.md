@@ -68,7 +68,7 @@ Des plateformes modernes et légères comme MaiPDF offrent ce type de partage pa
 2. Générez un lien sécurisé en lecture seule
 3. Définissez une limite de consultations (par ex., maximum 2 ouvertures)
 4. Désactivez le téléchargement ou l'impression
-5. Suivez l'adresse IP et les horodatages des consultations
+5. Suivez l'adresse Visitor ID et les horodatages des consultations
 6. Gérez l'accès à l'aide d'un code d'édition séparé
 
 Le lecteur clique simplement sur le lien et consulte. C'est tout. Vous gardez le contrôle du début à la fin.

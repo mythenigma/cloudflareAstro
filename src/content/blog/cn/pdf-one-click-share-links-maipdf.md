@@ -456,7 +456,7 @@ tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
   </div>
   <div class="feature-card">
     <div class="feature-icon">📊</div>
-    <h3 class="feature-title">访问记录</h3>
+    <h3 class="feature-title">打开统计</h3>
     <p class="feature-desc">每次访问都有详细记录，避免无权限传播，完全掌握文件的可见范围。</p>
   </div>
   <div class="feature-card">

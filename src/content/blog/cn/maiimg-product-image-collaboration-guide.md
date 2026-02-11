@@ -132,4 +132,4 @@ Maiimg通过「批量上传 + 权限控制 + 分角色分发」解决以上问�
 **延伸阅读：**
 - [Maiimg批量图片分享：完整指南](/blog/cn/maiimg-bulk-image-sharing-guide)
 - [Maiimg二维码图片分享：完整指南](/blog/cn/maiimg-qr-code-sharing-guide)
-- [Maiimg图片访问追踪：数据洞察指南](/blog/cn/maiimg-image-tracking-guide)
+- [Maiimg图片打开统计：数据洞察指南](/blog/cn/open-statistics-and-access-control-guide)

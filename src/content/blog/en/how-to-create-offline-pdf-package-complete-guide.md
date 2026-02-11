@@ -480,7 +480,7 @@ MaiPDF offers offline package generation for free with no registration required.
 ---
 
 **Related Articles:**
-- [MaiPDF Offline PDF DRM Mode: Secure Document Control](/blog/en/offline-pdf-drm-mode)
+- [MaiPDF Offline PDF DRM Mode: Secure Document Control](/blog/en/open-statistics-and-access-control-guide)
 - [Online vs. Offline PDF Security: Complete Comparison](/blog/en/online-vs-offline-pdf-security)
 - [How to Share PDF Online Securely: Complete Guide](/blog/en/how-to-share-pdf-online-securely-complete-guide)
 

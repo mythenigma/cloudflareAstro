@@ -428,7 +428,7 @@ Maiimg offers bulk image sharing for free with no registration required. Upload 
 ---
 
 **Related Articles:**
-- [Maiimg: Share Images with Tracking and Control](/blog/en/maiimg-share-images-tracking-control)
+- [Maiimg: Share Images with Tracking and Control](/blog/en/open-statistics-and-access-control-guide)
 - [QR Code Generation for Image Sharing](/blog/en/maiimg-qr-code-generation)
 - [Image Sharing Security Best Practices](/blog/en/image-sharing-security-guide)
 

@@ -38,7 +38,7 @@ Instead of emailing attachments or open Google Drive links, use a secure platfor
 - 📄 View-only sharing (no downloads)
 - 🔢 Limited number of opens (e.g. 2 views max)
 - ⏱️ Optional access expiry after X hours
-- 🧭 Access logs (IP, time, location)
+- 🧭 Access logs (Visitor ID, time, location)
 - ❌ No forwarding, no printing
 
 You send a link or QR code, they view it—and that's it. No copies. No confusion. No content spreading beyond your control.

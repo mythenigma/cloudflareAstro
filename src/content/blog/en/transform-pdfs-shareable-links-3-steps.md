@@ -138,7 +138,7 @@ PDF sharing doesn't have to be complicated. With MaiPDF's 3-step process, you ca
 - [How to Disable PDF Printing](/blog/pdf-disable-printing-protection-guide) - Print control
 
 **PDF Analytics and Management**:
-- [How to Track File Open Statistics](/blog/file-open-statistics-tracking-guide) - Monitor document usage
+- [How to Track File Open Statistics](/blog/open-statistics-and-access-control-guide) - Monitor document usage
 - [How to Add DRM Digital Certificates to Files](/blog/drm-digital-certificate-file-protection-guide) - Enterprise protection
 - [Create Professional Portfolio Links](/blog/create-professional-portfolio-links-showcase-work-pro) - Professional sharing
 

@@ -154,5 +154,5 @@ Maiimg streamlines creative portfolio delivery with gallery-based sharing, acces
 
 **Related Workflows:**
 - [Maiimg Secure Image Sharing: Access Control Guide](/blog/en/maiimg-secure-image-sharing-access-control)
-- [Maiimg Image Tracking and Analytics](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg Image Tracking and Analytics](/blog/en/open-statistics-and-access-control-guide)
 - [Maiimg QR Code Image Sharing: Complete Guide](/blog/en/maiimg-qr-code-image-sharing-guide)

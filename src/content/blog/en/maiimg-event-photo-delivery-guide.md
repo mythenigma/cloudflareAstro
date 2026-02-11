@@ -158,4 +158,4 @@ Maiimg gives photographers and organizers a fast, controlled way to deliver even
 **Related Guides:**
 - [Maiimg QR Code Image Sharing: Complete Guide](/blog/en/maiimg-qr-code-image-sharing-guide)
 - [Maiimg Bulk Image Sharing: Complete Guide](/blog/en/maiimg-bulk-image-sharing-complete-guide)
-- [Maiimg Image Tracking and Analytics](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg Image Tracking and Analytics](/blog/en/open-statistics-and-access-control-guide)

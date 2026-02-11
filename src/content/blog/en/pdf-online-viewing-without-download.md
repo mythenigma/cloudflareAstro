@@ -114,7 +114,7 @@ PDF Upload → Cloud Parsing → Page Rendering → Streaming Transmission → B
 
 **Access layer security**:
 - 🔑 Dynamic Token verification
-- 🌐 IP whitelist control
+- 🌐 Visitor ID whitelist control
 - ⏰ Time window limitations
 
 **Transmission layer security**:

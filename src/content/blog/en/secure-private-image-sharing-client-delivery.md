@@ -167,7 +167,7 @@ flowchart TD
 - 📊 Who viewed images
 - ⏰ When images were viewed
 - 📱 Device information
-- 🌍 IP addresses
+- 🌍 Visitor IDs
 - 📈 Access patterns
 
 **Benefits:**
@@ -342,7 +342,7 @@ flowchart TD
 - View count
 - Access times
 - Device info
-- IP addresses
+- Visitor IDs
 
 ### Is Password Protection Available?
 

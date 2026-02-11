@@ -96,7 +96,7 @@ Esta información es invaluable para documentos sensibles donde la rendición de
 ## ⚠️ Qué Tener en Cuenta
 
 - Los límites de visualización solo funcionan si la plataforma los aplica — una vez que el archivo se descarga, se pierde el control
-- Algunos sistemas rastrean IPs o dispositivos para prevenir abusos
+- Algunos sistemas rastrean Visitor IDs o dispositivos para prevenir abusos
 - No todas las herramientas pueden rastrear aperturas sin conexión — las soluciones del lado del servidor son más seguras
 - Sea transparente con los destinatarios si se establecen límites, para evitar confusiones
 

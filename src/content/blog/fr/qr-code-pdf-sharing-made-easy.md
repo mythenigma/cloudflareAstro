@@ -98,7 +98,7 @@ Les plateformes comme MaiPDF rationalisent le processus:
 - **Téléchargez des PDF:** Hébergez vos fichiers en toute sécurité.
 - **Définissez des Règles d'Accès:** Contrôlez combien de fois le fichier peut être ouvert.
 - **Générez des Codes QR:** Liez directement à votre PDF.
-- **Suivez les Consultations:** Surveillez les accès avec horodatages et adresses IP.
+- **Suivez les Consultations:** Surveillez les accès avec horodatages et adresses Visitor ID.
 
 Vous pouvez même désactiver des liens ou mettre à jour les paramètres d'accès ultérieurement.
 

@@ -154,7 +154,7 @@ After uploading, configure your security settings:
 1. Enable "Dynamic watermarks"
 2. Select watermark information:
    - Viewer's email address
-   - IP address
+   - Visitor ID
    - Timestamp
    - Custom text
 3. Choose watermark position
@@ -246,7 +246,7 @@ After uploading, configure your security settings:
 - Who accessed the document
 - When they accessed it
 - How many times viewed
-- IP addresses
+- Visitor IDs
 - Email addresses
 
 **Analytics:**
@@ -320,7 +320,7 @@ After uploading, configure your security settings:
 
 **For Confidential Documents:**
 - Full watermarking
-- Email + IP + timestamp
+- Email + Visitor ID + timestamp
 - High visibility
 
 **For Business Documents:**

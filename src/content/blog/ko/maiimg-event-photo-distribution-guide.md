@@ -78,5 +78,5 @@ Maiimg는 이벤트 사진 배포를 “즉시·안전·데이터 기반” 프�
 
 **관련 글**
 - [Maiimg QR 코드 이미지 공유 가이드](/blog/en/maiimg-qr-code-image-sharing-guide)
-- [Maiimg 이미지 추적 & 분석](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg 이미지 추적 & 분석](/blog/en/open-statistics-and-access-control-guide)
 - [Maiimg 벌크 이미지 공유 가이드](/blog/en/maiimg-bulk-image-sharing-complete-guide)

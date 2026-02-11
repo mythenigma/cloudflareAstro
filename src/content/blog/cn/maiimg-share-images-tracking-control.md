@@ -1,23 +1,15 @@
 ---
-title: "Maiimg 图片分享、追踪与控制"
-description: "一篇简短说明：Maiimg 图片分享、追踪与控制（附流程图）。"
+title: "Maiimg 图片分享、追踪与控制（已下线）"
+description: "该页面已下线，不再对外展示。"
 pubDate: "Jan 15 2026"
-tags: ["Image Sharing"]
+noindex: true
+showDefaultCta: false
 ---
 
-<!-- Auto-generated from GSC 404 export on 2026-01-15. -->
-<!-- Keep this slug stable to avoid creating new 404s in the future. -->
+# 404 - 页面已下线
 
-# Maiimg 图片分享、追踪与控制
+该页面因内容合规与安全策略已移除。
 
-<div class="intro-panel">
-  <p>一篇简短说明：Maiimg 图片分享、追踪与控制（附流程图）。</p>
-</div>
+请访问博客首页查看可用内容。
 
-![Diagram](/diagram/zh-cn/access-tracking-flow.svg)
-
-## 要点速览
-
-- 它是什么：快速说明该主题。
-- 为什么重要：减少误解，让分享更安全。
-- 下一步：参考上方流程图，将方法应用到你的工作流。
+[前往博客首页](/blog)

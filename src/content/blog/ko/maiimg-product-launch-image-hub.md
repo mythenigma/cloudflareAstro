@@ -70,5 +70,5 @@ Maiimg는 제품 출시 이미지를 “중앙 집중 + 권한 분리 + 데이�
 
 **참고 자료**
 - [Maiimg QR 코드 이미지 공유 가이드](/blog/en/maiimg-qr-code-image-sharing-guide)
-- [Maiimg 이미지 추적 & 분석](/blog/en/maiimg-image-tracking-analytics-guide)
+- [Maiimg 이미지 추적 & 분석](/blog/en/open-statistics-and-access-control-guide)
 - [Maiimg 보안 이미지 공유](/blog/en/maiimg-secure-image-sharing-access-control)
