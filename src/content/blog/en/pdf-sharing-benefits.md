@@ -53,6 +53,6 @@ MaiPDF is a powerful tool for anyone looking to share PDFs securely and professi
 
 ## You might also like:
 
-- [Setting View Limits for PDF Links: Control Access Effectively](/blog/setting-view-limits/)
-- [How to Generate Secure PDF Links for Easy Sharing](/blog/secure-pdf-links/)
-- [Free Online DRM for PDF – Simple, Secure, No Software Needed](/blog/free-online-drm-for-pdf/)
+- [Setting View Limits for PDF Links: Control Access Effectively](/blog/setting-view-limits)
+- [How to Generate Secure PDF Links for Easy Sharing](/blog/secure-pdf-links)
+- [Free Online DRM for PDF – Simple, Secure, No Software Needed](/blog/free-online-drm-for-pdf)

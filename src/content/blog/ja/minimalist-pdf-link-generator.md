@@ -67,6 +67,6 @@ tags: ["PDF共有", "PDFリンクジェネレーター", "安全なPDF共有", "
 
 ## こちらもお気に入りいただけるかもしれません：
 
-- [任意のPDFをQRコードに変換](/blog/pdf-to-qr/)
-- [MaiPDFがPDFファイルを安全に共有する方法](/blog/share-pdf-securely/)
-- [PDFアクセス制御の利点](/blog/benefits-of-pdf-access-control/)
+- [任意のPDFをQRコードに変換](/blog/pdf-to-qr)
+- [MaiPDFがPDFファイルを安全に共有する方法](/blog/share-pdf-securely)
+- [PDFアクセス制御の利点](/blog/benefits-of-pdf-access-control)

@@ -63,6 +63,6 @@ Ihre Empfänger klicken auf den Link und sehen das Dokument sofort in ihrem Brow
 
 ## Das könnte Ihnen auch gefallen:
 
-- [Jede PDF in einen QR-Code verwandeln](/blog/pdf-to-qr/)
-- [Wie MaiPDF Ihnen hilft, PDF-Dateien sicher zu teilen](/blog/share-pdf-securely/)
-- [Vorteile der PDF-Zugriffskontrolle](/blog/benefits-of-pdf-access-control/)
+- [Jede PDF in einen QR-Code verwandeln](/blog/pdf-to-qr)
+- [Wie MaiPDF Ihnen hilft, PDF-Dateien sicher zu teilen](/blog/share-pdf-securely)
+- [Vorteile der PDF-Zugriffskontrolle](/blog/benefits-of-pdf-access-control)

@@ -125,6 +125,6 @@ Testen Sie Ihren QR-Code immer mit mehreren Geräten bevor Sie große Mengen dru
 
 ## Das könnte Ihnen auch gefallen:
 
-- [Kontrollieren Sie, wie sich Ihr PDF-Link verhält](/blog/pdf-link-control/)
-- [Ein minimalistischer PDF-Link-Generator](/blog/minimalist-pdf-link-generator/)
-- [Wie MaiPDF Ihnen hilft, PDF-Dateien sicher zu teilen](/blog/share-pdf-securely/)
+- [Kontrollieren Sie, wie sich Ihr PDF-Link verhält](/blog/pdf-link-control)
+- [Ein minimalistischer PDF-Link-Generator](/blog/minimalist-pdf-link-generator)
+- [Wie MaiPDF Ihnen hilft, PDF-Dateien sicher zu teilen](/blog/share-pdf-securely)

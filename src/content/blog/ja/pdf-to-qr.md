@@ -110,6 +110,6 @@ MaiPDFはデジタルと印刷の両方のアプリケーションに適した�
 
 ## あなたも興味があるかもしれません：
 
-- [PDFリンクの動作を制御する](/blog/pdf-link-control/)
-- [ミニマリストなPDFリンク生成ツール](/blog/minimalist-pdf-link-generator/)
-- [MaiPDFがPDFファイルの安全な共有をサポートする方法](/blog/share-pdf-securely/)
+- [PDFリンクの動作を制御する](/blog/pdf-link-control)
+- [ミニマリストなPDFリンク生成ツール](/blog/minimalist-pdf-link-generator)
+- [MaiPDFがPDFファイルの安全な共有をサポートする方法](/blog/share-pdf-securely)

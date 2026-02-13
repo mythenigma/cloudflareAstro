@@ -57,6 +57,6 @@ QR codes are a powerful tool for streamlining PDF access and sharing. With MaiPD
 
 ## You might also like:
 
-- [Why QR Codes Are the Future of Digital Document Distribution](/blog/qr-codes-future-digital-distribution/)
-- [How to Generate Secure PDF Links for Easy Sharing](/blog/secure-pdf-links/)
-- [From Paper to Digital: How QR Codes Can Transform Your Document Workflow](/blog/paper-to-digital-workflow/)
+- [Why QR Codes Are the Future of Digital Document Distribution](/blog/qr-codes-future-digital-distribution)
+- [How to Generate Secure PDF Links for Easy Sharing](/blog/secure-pdf-links)
+- [From Paper to Digital: How QR Codes Can Transform Your Document Workflow](/blog/paper-to-digital-workflow)

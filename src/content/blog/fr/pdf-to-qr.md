@@ -110,6 +110,6 @@ Les PDF scannés s'ouvrent dans des navigateurs web standard sans logiciel suppl
 
 ## Vous pourriez aussi aimer :
 
-- [Contrôlez comment votre lien PDF se comporte](/blog/pdf-link-control/)
-- [Un générateur de liens PDF minimaliste](/blog/minimalist-pdf-link-generator/)
-- [Comment MaiPDF vous aide à partager des fichiers PDF en toute sécurité](/blog/share-pdf-securely/)
+- [Contrôlez comment votre lien PDF se comporte](/blog/pdf-link-control)
+- [Un générateur de liens PDF minimaliste](/blog/minimalist-pdf-link-generator)
+- [Comment MaiPDF vous aide à partager des fichiers PDF en toute sécurité](/blog/share-pdf-securely)

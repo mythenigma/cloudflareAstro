@@ -110,6 +110,6 @@ Los PDFs escaneados se abren en navegadores web estándar sin software adicional
 
 ## También te puede gustar:
 
-- [Controla cómo se comporta tu enlace PDF](/blog/pdf-link-control/)
-- [Un generador de enlaces PDF minimalista](/blog/minimalist-pdf-link-generator/)
-- [Cómo MaiPDF te ayuda a compartir archivos PDF de forma segura](/blog/share-pdf-securely/)
+- [Controla cómo se comporta tu enlace PDF](/blog/pdf-link-control)
+- [Un generador de enlaces PDF minimalista](/blog/minimalist-pdf-link-generator)
+- [Cómo MaiPDF te ayuda a compartir archivos PDF de forma segura](/blog/share-pdf-securely)

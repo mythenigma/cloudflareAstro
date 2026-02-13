@@ -27,6 +27,8 @@ export default defineConfig({
       filter: (page) => {
         // Exclude blog-backup and ensure all valid blog posts are included
         if (page.includes('/blog-backup/')) return false;
+        // Exclude internal utility pages from indexing-focused sitemap
+        if (page === 'https://article.maipdf.com/fonts' || page === 'https://article.maipdf.com/fonts/') return false;
         // Include all blog posts (en/, cn/, fr/, de/, ja/, ko/, es/)
         if (page.includes('/blog/')) return true;
         // Include other pages

@@ -67,6 +67,6 @@ tags: ["PDF 공유", "PDF 링크 생성기", "안전한 PDF 공유", "maipdf"]
 
 ## 이것도 좋아하실 수 있습니다:
 
-- [모든 PDF를 QR 코드로 변환](/blog/pdf-to-qr/)
-- [MaiPDF가 PDF 파일을 안전하게 공유하는 방법](/blog/share-pdf-securely/)
-- [PDF 접근 제어의 이점](/blog/benefits-of-pdf-access-control/)
+- [모든 PDF를 QR 코드로 변환](/blog/pdf-to-qr)
+- [MaiPDF가 PDF 파일을 안전하게 공유하는 방법](/blog/share-pdf-securely)
+- [PDF 접근 제어의 이점](/blog/benefits-of-pdf-access-control)
