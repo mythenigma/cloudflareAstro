@@ -30,20 +30,11 @@ const {
 
 <!DOCTYPE html>
 <html lang={lang}>
-	<head>
-		<!-- charset MUST be the very first thing in head -->
-		<meta charset="utf-8" />
-		<BaseHead title={title} description={description} image={image} article={article} noindex={noindex} />
-		
-		<!-- AdSense Debug Script -->
-		<script is:inline>
-			console.log('AdSense script loaded in head');
-			window.addEventListener('load', function() {
-				console.log('Window loaded, checking for AdSense:', 
-					typeof window.adsbygoogle !== 'undefined' ? 'AdSense found' : 'AdSense not found');
-			});
-		</script>
-	</head>
+		<head>
+			<!-- charset MUST be the very first thing in head -->
+			<meta charset="utf-8" />
+			<BaseHead title={title} description={description} image={image} article={article} noindex={noindex} />
+		</head>
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>

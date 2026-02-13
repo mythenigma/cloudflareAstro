@@ -10,7 +10,6 @@ import { globby } from 'globby';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkParse from 'remark-parse';
-import remarkStringify from 'remark-stringify';
 import { visit } from 'unist-util-visit';
 import { slug } from 'github-slugger';
 
@@ -18,6 +17,30 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const contentDir = path.join(__dirname, '../content/blog');
 const outputPath = path.join(__dirname, '../../public/search-index.json');
 const LANGUAGE_PREFIXES = new Set(['en', 'cn', 'fr', 'de', 'ja', 'ko', 'es']);
+const SENSITIVE_SLUG_PATTERN = /(tracking|track|获取ip|追踪|drm)/i;
+const SENSITIVE_TOKENS = ['tracking', 'track', '追踪', '获取ip', 'iplogger', 'grabify', 'whatstheirip'];
+const SENSITIVE_TERM_PATTERNS = [
+  /\btracking\b/gi,
+  /\btrack\b/gi,
+  /追踪/g,
+  /获取\s*ip/gi,
+  /iplogger/gi,
+  /grabify/gi,
+  /whatstheirip/gi,
+];
+
+function sanitizeText(input = '') {
+  let output = input;
+  for (const pattern of SENSITIVE_TERM_PATTERNS) {
+    output = output.replace(pattern, '');
+  }
+  return output.replace(/\s{2,}/g, ' ').trim();
+}
+
+function hasSensitiveTerm(input = '') {
+  const normalized = String(input).toLowerCase();
+  return SENSITIVE_TOKENS.some((token) => normalized.includes(token));
+}
 
 async function generateSearchIndex() {
   console.log('Generating search index...');
@@ -45,6 +68,16 @@ async function generateSearchIndex() {
     const language = hasLanguagePrefix ? pathParts[0] : 'default';
     const fileName = pathParts[pathParts.length - 1];
     const fileSlug = fileName.replace(/\.md$/, '');
+
+    // Skip indexing sensitive slugs even if frontmatter missed noindex.
+    if (SENSITIVE_SLUG_PATTERN.test(file)) {
+      continue;
+    }
+
+    // Skip indexing posts with sensitive wording in key metadata.
+    if (hasSensitiveTerm(frontmatter.title || '') || hasSensitiveTerm(frontmatter.description || '')) {
+      continue;
+    }
 
     // Construct URL with/without language prefix
     const slugParts = hasLanguagePrefix ? pathParts.slice(1) : pathParts;
@@ -87,7 +120,9 @@ async function generateSearchIndex() {
       ...descriptionWords,
       ...(frontmatter.tags || []),
       ...(frontmatter.keywords || [])
-    ].filter(Boolean);
+    ]
+      .map((keyword) => sanitizeText(String(keyword).toLowerCase()))
+      .filter(Boolean);
     
     // Add metadata for search ranking
     const datePublished = frontmatter.pubDate ? new Date(frontmatter.pubDate).getTime() : 0;
@@ -99,8 +134,10 @@ async function generateSearchIndex() {
       url: url,
       type: 'article',
       language,
-      content: contentPreview,
-      tags: frontmatter.tags || [],
+      content: sanitizeText(contentPreview),
+      tags: (frontmatter.tags || [])
+        .map((tag) => sanitizeText(String(tag)))
+        .filter(Boolean),
       keywords: allKeywords,
       fileName: fileName,
       datePublished,
@@ -121,13 +158,20 @@ async function generateSearchIndex() {
               .join('');
             
             if (text) {
+              if (hasSensitiveTerm(text)) {
+                return;
+              }
               const id = slug(text);
               headings.push({
-                title: text,
+                title: sanitizeText(text),
                 depth: node.depth,
                 url: `${url}#${id}`,
                 language,
-                keywords: text.toLowerCase().split(/\s+/).filter(word => word.length > 2)
+                keywords: text
+                  .toLowerCase()
+                  .split(/\s+/)
+                  .map((word) => sanitizeText(word))
+                  .filter((word) => word.length > 2)
               });
             }
           }

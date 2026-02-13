@@ -33,18 +33,11 @@ export default defineConfig({
         return true;
       },
       changefreq: 'weekly',
-      priority: (page) => {
-        // Higher priority for blog posts
-        if (page.includes('/blog/')) return 0.8;
-        // Standard priority for other pages
-        return 0.7;
-      },
+      priority: 0.7,
       // lastmod will be automatically determined from page metadata
       // For blog posts, it uses pubDate or updatedDate from frontmatter
       customPages: [
-        'https://article.maipdf.com/about',
-        'https://article.maipdf.com/contact',
-        'https://article.maipdf.com/pricing'
+        'https://article.maipdf.com/about'
       ]
     })
   ],
