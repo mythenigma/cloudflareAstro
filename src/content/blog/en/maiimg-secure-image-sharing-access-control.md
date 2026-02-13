@@ -8,15 +8,13 @@ tags: ["Image Security", "Access Control", "Maiimg", "View Limits", "Expiration"
 
 # Maiimg Secure Image Sharing: Complete Guide to Access Control and Security
 
-<div class="intro-panel">
-  <p>If your goal is controlled sharing rather than public posting, start with simple access rules and only add stricter settings where needed.</p>
-</div>
+Use this when you need controlled image delivery instead of public posting.
 
 ![Maiimg Security Settings](/maiimg/maiimg-setting.png)
 
-## Security Model in Practice
+## Operating Model
 
-Maiimg is best used as <strong>controlled distribution</strong>:
+Treat Maiimg galleries as controlled distribution units:
 
 - Restrict access by view count.
 - Restrict availability by expiry date.
@@ -39,7 +37,7 @@ Maiimg is best used as <strong>controlled distribution</strong>:
 4. Add duration only if needed.
 5. Generate link/QR and run one mobile test.
 
-## Access Control Patterns
+## Access Patterns
 
 ### Pattern A: Client review round
 
@@ -85,10 +83,5 @@ Watch these indicators after sharing:
 
 ## Bottom Line
 
-Secure sharing is mainly an operational discipline: segment audience, set limits early, review open statistics, and revoke stale links.
-
-<div class="solution-highlight">
-  <p class="solution-title">Use tighter controls only where they matter</p>
-  <p class="solution-desc">Start with a baseline policy and escalate settings by content sensitivity.</p>
-  <a href="https://maiimg.com" class="solution-button">Try Maiimg Access Controls</a>
-</div>
+Start from a baseline policy, tighten only where needed, and regularly close stale galleries.  
+That gives better security with less delivery friction.

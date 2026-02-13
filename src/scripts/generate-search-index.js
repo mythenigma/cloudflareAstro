@@ -17,6 +17,7 @@ import { slug } from 'github-slugger';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const contentDir = path.join(__dirname, '../content/blog');
 const outputPath = path.join(__dirname, '../../public/search-index.json');
+const LANGUAGE_PREFIXES = new Set(['en', 'cn', 'fr', 'de', 'ja', 'ko', 'es']);
 
 async function generateSearchIndex() {
   console.log('Generating search index...');
@@ -33,14 +34,25 @@ async function generateSearchIndex() {
     // Parse frontmatter
     const { data: frontmatter, content: markdownContent } = matter(content);
     
+    // Skip posts explicitly marked as noindex
+    if (frontmatter.noindex === true) {
+      continue;
+    }
+
     // Get path parts to determine language and slug
     const pathParts = file.split('/');
-    const language = pathParts[0]; // e.g., 'en', 'fr', etc.
+    const hasLanguagePrefix = LANGUAGE_PREFIXES.has(pathParts[0]);
+    const language = hasLanguagePrefix ? pathParts[0] : 'default';
     const fileName = pathParts[pathParts.length - 1];
     const fileSlug = fileName.replace(/\.md$/, '');
-    
-    // Construct URL with language path included
-    const url = `/blog/${language}/${fileSlug}`;
+
+    // Construct URL with/without language prefix
+    const slugParts = hasLanguagePrefix ? pathParts.slice(1) : pathParts;
+    slugParts[slugParts.length - 1] = fileSlug;
+    const normalizedSlug = slugParts.join('/');
+    const url = hasLanguagePrefix
+      ? `/blog/${language}/${normalizedSlug}`
+      : `/blog/${normalizedSlug}`;
     
     // Extract keywords from the file name by splitting on hyphens, underscores, and case changes
     const fileNameKeywords = fileSlug
@@ -86,7 +98,7 @@ async function generateSearchIndex() {
       title: frontmatter.title || 'Untitled',
       url: url,
       type: 'article',
-      language: language,
+      language,
       content: contentPreview,
       tags: frontmatter.tags || [],
       keywords: allKeywords,
@@ -98,7 +110,7 @@ async function generateSearchIndex() {
     
     // Extract headings
     const headings = [];
-    const processor = remark()
+      const processor = remark()
       .use(remarkParse)
       .use(() => (tree) => {
         visit(tree, 'heading', (node) => {
@@ -114,7 +126,7 @@ async function generateSearchIndex() {
                 title: text,
                 depth: node.depth,
                 url: `${url}#${id}`,
-                language: language,
+                language,
                 keywords: text.toLowerCase().split(/\s+/).filter(word => word.length > 2)
               });
             }

@@ -11,11 +11,8 @@ Crawl-delay: 1
 Disallow: /blog-backup/
 Disallow: /_astro/
 Disallow: /node_modules/
-Disallow: /*.json$
-Disallow: /*.js$
-Disallow: /*.css$
+Disallow: /search-index.json
 
 # Allow important files
 Allow: /favicon.svg
 Allow: /manifest.json
-Allow: /search-index.json

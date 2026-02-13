@@ -8,9 +8,7 @@ tags: ["Image Sharing", "Bulk Upload", "QR Codes", "Maiimg", "Batch Sharing"]
 
 # Maiimg Bulk Image Sharing: Complete Guide to Sharing Multiple Images Securely
 
-<div class="intro-panel">
-  <p>Use this workflow when you need to send many images quickly but still control who can open them and for how long.</p>
-</div>
+Use this workflow when you need to send many images quickly while keeping access under control.
 
 ![Maiimg Bulk Upload Interface](/maiimg/maiimg-head.png)
 
@@ -86,9 +84,3 @@ Bulk sharing is a better fit than one-by-one links when you need:
 ## Bottom Line
 
 Maiimg bulk sharing is most effective when you treat one gallery as one delivery unit: focused files, clear settings, and one distribution path.
-
-<div class="solution-highlight">
-  <p class="solution-title">Ship large image sets with less overhead</p>
-  <p class="solution-desc">Create one gallery per purpose, enforce access rules, and review open statistics.</p>
-  <a href="https://maiimg.com" class="solution-button">Try Maiimg Bulk Sharing</a>
-</div>
