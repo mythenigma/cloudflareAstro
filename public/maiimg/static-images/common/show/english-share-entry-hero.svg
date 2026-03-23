@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">MaiIMG share entry hero</title>
+  <desc id="desc">A dark promotional visual showing one image share link, QR access, and simple control settings across desktop and mobile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="52%" stop-color="#0e1629"/>
+      <stop offset="100%" stop-color="#09111b"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="15%" cy="16%" r="70%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="82%" cy="18%" r="72%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="70%" cy="82%" r="65%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151c2f"/>
+      <stop offset="100%" stop-color="#10182a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f7ff"/>
+      <stop offset="55%" stop-color="#eef4ff"/>
+      <stop offset="100%" stop-color="#e7eeff"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="ctaGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#020617" flood-opacity=".42"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="rgba(255,255,255,.05)" stroke-width="1"/>
+    </pattern>
+    <style>
+      .eyebrow { font: 700 18px Inter, 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #7dd3fc; }
+      .headline { font: 800 70px Inter, 'Segoe UI', Arial, sans-serif; fill: #f8fafc; }
+      .headline-accent { font: 800 70px Inter, 'Segoe UI', Arial, sans-serif; fill: #a78bfa; }
+      .body { font: 400 28px Inter, 'Segoe UI', Arial, sans-serif; fill: #bfd0ea; }
+      .small { font: 500 20px Inter, 'Segoe UI', Arial, sans-serif; fill: #93a7c3; }
+      .chip { font: 700 20px Inter, 'Segoe UI', Arial, sans-serif; }
+      .ui { font: 600 20px Inter, 'Segoe UI', Arial, sans-serif; fill: #25324a; }
+      .ui-small { font: 500 17px Inter, 'Segoe UI', Arial, sans-serif; fill: #52617d; }
+      .ui-label { font: 700 15px Inter, 'Segoe UI', Arial, sans-serif; fill: #61728e; letter-spacing: .8px; text-transform: uppercase; }
+      .num { font: 700 20px Inter, 'Segoe UI', Arial, sans-serif; fill: #e5edff; }
+      .card-title { font: 700 28px Inter, 'Segoe UI', Arial, sans-serif; fill: #f8fafc; }
+      .card-copy { font: 500 18px Inter, 'Segoe UI', Arial, sans-serif; fill: #b4c3dd; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <rect width="1600" height="980" fill="url(#grid)"/>
+  <rect width="1600" height="980" fill="url(#glowPurple)"/>
+  <rect width="1600" height="980" fill="url(#glowCyan)"/>
+  <rect width="1600" height="980" fill="url(#glowBlue)"/>
+
+  <g transform="translate(72 66)">
+    <rect x="0" y="0" width="1456" height="848" rx="36" fill="none" stroke="rgba(255,255,255,.08)"/>
+    <path d="M16 0H240" stroke="url(#cta)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1216 848H1440" stroke="url(#ctaGreen)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="108" y="138" class="eyebrow">SHARE ENTRY</text>
+  <text x="108" y="226" class="headline">One Link For</text>
+  <text x="108" y="306" class="headline-accent">Images And QR</text>
+  <text x="108" y="392" class="body">Simple enough to open fast.</text>
+  <text x="108" y="430" class="body">Tight enough to manage later.</text>
+
+  <g transform="translate(108 486)">
+    <rect x="0" y="0" width="164" height="52" rx="24" fill="rgba(139,92,246,.14)" stroke="rgba(139,92,246,.35)"/>
+    <text x="82" y="33" text-anchor="middle" class="chip" fill="#d8ccff">One share page</text>
+    <rect x="182" y="0" width="136" height="52" rx="24" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.35)"/>
+    <text x="250" y="33" text-anchor="middle" class="chip" fill="#c7f7ff">QR ready</text>
+    <rect x="336" y="0" width="168" height="52" rx="24" fill="rgba(59,130,246,.14)" stroke="rgba(59,130,246,.35)"/>
+    <text x="420" y="33" text-anchor="middle" class="chip" fill="#dbeafe">Access limits</text>
+  </g>
+
+  <g transform="translate(944 130)">
+    <g transform="translate(0 0)">
+      <rect width="452" height="166" rx="28" fill="url(#card)" stroke="rgba(167,139,250,.28)"/>
+      <rect x="0" y="0" width="6" height="166" rx="3" fill="#8b5cf6"/>
+      <rect x="26" y="26" width="56" height="56" rx="16" fill="rgba(139,92,246,.12)" stroke="rgba(139,92,246,.3)"/>
+      <text x="54" y="61" text-anchor="middle" class="num">01</text>
+      <text x="112" y="64" class="card-title">One clean share</text>
+      <text x="112" y="99" class="card-copy">A small image set stays easier to open,</text>
+      <text x="112" y="126" class="card-copy">read, and explain.</text>
+    </g>
+    <g transform="translate(0 190)">
+      <rect width="452" height="166" rx="28" fill="url(#card)" stroke="rgba(34,211,238,.3)"/>
+      <rect x="0" y="0" width="6" height="166" rx="3" fill="#22d3ee"/>
+      <rect x="26" y="26" width="56" height="56" rx="16" fill="rgba(34,211,238,.12)" stroke="rgba(34,211,238,.3)"/>
+      <text x="54" y="61" text-anchor="middle" class="num">02</text>
+      <text x="112" y="64" class="card-title">Same link, two openings</text>
+      <text x="112" y="99" class="card-copy">Direct URL for chat.</text>
+      <text x="112" y="126" class="card-copy">QR code for print and screens.</text>
+    </g>
+    <g transform="translate(0 380)">
+      <rect width="452" height="166" rx="28" fill="url(#card)" stroke="rgba(16,185,129,.28)"/>
+      <rect x="0" y="0" width="6" height="166" rx="3" fill="#10b981"/>
+      <rect x="26" y="26" width="56" height="56" rx="16" fill="rgba(16,185,129,.12)" stroke="rgba(16,185,129,.3)"/>
+      <text x="54" y="61" text-anchor="middle" class="num">03</text>
+      <text x="112" y="64" class="card-title">Simple control layer</text>
+      <text x="112" y="99" class="card-copy">Set open limits, add expiry,</text>
+      <text x="112" y="126" class="card-copy">and close the share when needed.</text>
+    </g>
+  </g>
+
+  <g transform="translate(96 592)" filter="url(#softShadow)">
+    <rect width="868" height="276" rx="34" fill="url(#panel)"/>
+    <rect x="0" y="0" width="868" height="276" rx="34" fill="none" stroke="rgba(99,102,241,.18)"/>
+    <rect x="36" y="34" width="322" height="34" rx="17" fill="#ffffff" opacity=".8"/>
+    <circle cx="62" cy="51" r="8" fill="#f87171"/>
+    <circle cx="88" cy="51" r="8" fill="#fbbf24"/>
+    <circle cx="114" cy="51" r="8" fill="#34d399"/>
+    <rect x="138" y="41" width="118" height="20" rx="10" fill="#eef2ff"/>
+    <text x="152" y="56" class="ui-small" fill="#4f46e5">maiimg.com</text>
+    <rect x="566" y="66" width="226" height="44" rx="14" fill="#ffffff" stroke="#d9e2f2"/>
+    <text x="588" y="93" class="ui-small">https://maiimg.com/gallery/AB98GHC7</text>
+    <rect x="796" y="66" width="100" height="44" rx="14" fill="url(#cta)"/>
+    <text x="846" y="94" text-anchor="middle" class="ui" fill="#ffffff">Copy Link</text>
+
+    <rect x="48" y="92" width="466" height="130" rx="24" fill="#ffffff" stroke="#dce5f2"/>
+    <text x="74" y="122" class="ui-label">Image Set</text>
+    <rect x="74" y="142" width="104" height="62" rx="14" fill="#dbeafe"/>
+    <rect x="194" y="142" width="104" height="62" rx="14" fill="#fde68a"/>
+    <rect x="314" y="142" width="104" height="62" rx="14" fill="#bfdbfe"/>
+    <rect x="434" y="142" width="54" height="62" rx="14" fill="#c7d2fe"/>
+    <text x="107" y="179" text-anchor="middle" class="ui-small" fill="#1e3a8a">image 1</text>
+    <text x="227" y="179" text-anchor="middle" class="ui-small" fill="#854d0e">image 2</text>
+    <text x="347" y="179" text-anchor="middle" class="ui-small" fill="#1d4ed8">image 3</text>
+    <text x="461" y="179" text-anchor="middle" class="ui-small" fill="#3730a3">+ more</text>
+
+    <rect x="548" y="126" width="276" height="112" rx="24" fill="#f8fbff" stroke="#cad6ee"/>
+    <text x="576" y="157" class="ui-label">Access Settings</text>
+    <text x="576" y="185" class="ui-small">Max Opens</text>
+    <rect x="688" y="167" width="88" height="30" rx="10" fill="#ffffff" stroke="#d6dfef"/>
+    <text x="732" y="186" text-anchor="middle" class="ui-small">5 times</text>
+    <text x="576" y="222" class="ui-small">Expires</text>
+    <rect x="688" y="204" width="110" height="30" rx="10" fill="#ffffff" stroke="#d6dfef"/>
+    <text x="743" y="223" text-anchor="middle" class="ui-small">2026-04-01</text>
+
+    <rect x="48" y="230" width="182" height="26" rx="13" fill="rgba(59,130,246,.12)"/>
+    <text x="139" y="248" text-anchor="middle" class="ui-small" fill="#1d4ed8">one direct share</text>
+    <rect x="246" y="230" width="154" height="26" rx="13" fill="rgba(16,185,129,.12)"/>
+    <text x="323" y="248" text-anchor="middle" class="ui-small" fill="#047857">easy to scan</text>
+  </g>
+
+  <g transform="translate(645 520)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="242" height="418" rx="42" fill="#0f172a" stroke="rgba(255,255,255,.12)"/>
+    <rect x="16" y="18" width="210" height="382" rx="30" fill="#f8fbff"/>
+    <rect x="82" y="10" width="76" height="14" rx="7" fill="#1e293b"/>
+    <text x="120" y="52" text-anchor="middle" class="ui-small" fill="#334155">maiimg.link/7k199</text>
+    <rect x="32" y="74" width="178" height="108" rx="20" fill="#e0ecff"/>
+    <text x="121" y="108" text-anchor="middle" class="ui" fill="#1e3a8a">Create shareable</text>
+    <text x="121" y="136" text-anchor="middle" class="ui" fill="#1e3a8a">image links with</text>
+    <text x="121" y="164" text-anchor="middle" class="ui" fill="#1e3a8a">QR access</text>
+    <rect x="32" y="198" width="178" height="46" rx="16" fill="url(#cta)"/>
+    <text x="121" y="227" text-anchor="middle" class="ui" fill="#ffffff">Open Share</text>
+    <rect x="32" y="262" width="82" height="82" rx="18" fill="#ffffff" stroke="#cdd9ee"/>
+    <rect x="128" y="262" width="82" height="82" rx="18" fill="#eff6ff" stroke="#cdd9ee"/>
+    <path d="M48 278h18v18H48zM74 278h10v10H74zM48 304h10v10H48zM72 302h12v12H72zM60 318h18v18H60z" fill="#111827"/>
+    <text x="169" y="294" text-anchor="middle" class="ui-small" fill="#2563eb">Max opens</text>
+    <text x="169" y="326" text-anchor="middle" class="ui" fill="#0f172a">5</text>
+  </g>
+
+  <circle cx="674" cy="535" r="14" fill="#8b5cf6" filter="url(#softGlow)"/>
+  <circle cx="944" cy="594" r="12" fill="#22d3ee" filter="url(#softGlow)"/>
+  <circle cx="884" cy="246" r="10" fill="#10b981" filter="url(#softGlow)"/>
+</svg>
