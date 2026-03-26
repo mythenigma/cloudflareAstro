@@ -8,12 +8,30 @@
   color: #333;
 }
 
-/* Ensure content images render as proper block media by default */
-.content-wrapper img {
+/*
+ * Content images: cap width + height so tall infographics and marketing PNGs
+ * don't dominate the viewport (still readable on desktop and mobile).
+ */
+.content-wrapper img,
+.content-wrapper picture > img {
   display: block;
-  max-width: 100%;
+  width: auto;
+  max-width: min(100%, 640px);
+  /* Keep tall marketing PNGs / infographics from eating a full viewport */
+  max-height: min(62vh, 520px);
   height: auto;
   margin: 1.75rem auto;
+  object-fit: contain;
+}
+
+.content-wrapper figure {
+  max-width: min(100%, 640px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-wrapper figure img {
+  margin-bottom: 0.65rem;
 }
 
 /* Helper: allow intentional inline icons without breaking layout */
@@ -22,6 +40,8 @@
   display: inline-block;
   width: 1.25em;
   height: 1.25em;
+  max-width: none;
+  max-height: none;
   margin: 0 0.25em;
   vertical-align: -0.2em;
   border-radius: 0.25em;
@@ -55,6 +75,16 @@
 @media (max-width: 768px) {
   .content-wrapper {
     padding: 0.45rem 0.2rem;
+  }
+
+  .content-wrapper img,
+  .content-wrapper picture > img {
+    max-width: 100%;
+    max-height: min(58vh, 480px);
+  }
+
+  .content-wrapper figure {
+    max-width: 100%;
   }
 
   .intro-panel {
