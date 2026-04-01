@@ -62,13 +62,13 @@ Offline packages still have a control loop. You can use the generated codes to:
 
 ```mermaid
 flowchart TB
-  A[Upload PDF] --> B[Configure: open limit + expiration]
-  B --> C[Generate offline package (ZIP)]
-  C --> D[Recipient downloads + extracts]
-  D --> E[Open the included HTML locally]
-  E --> F{Need more opens / extend access?}
+  A[Upload PDF] --> B["Configure: open limit and expiration"]
+  B --> C["Generate offline package (ZIP)"]
+  C --> D["Recipient downloads and extracts"]
+  D --> E["Open the included HTML locally"]
+  E --> F{"Need more opens or extend access?"}
   F -->|No| G[Done]
-  F -->|Yes| H[Use codes to check/update access]
+  F -->|Yes| H["Use codes to check or update access"]
   H --> E
 ```
 

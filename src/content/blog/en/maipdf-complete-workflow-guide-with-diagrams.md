@@ -25,14 +25,14 @@ The whole flow is **Upload → Configure → Share**.
 ```mermaid
 flowchart TB
   A[Upload PDF] --> B[Configure rules]
-  B --> C[Create share link / QR]
+  B --> C["Create share link or QR"]
   C --> D[Send to recipients]
   D --> E[They open in browser]
   E --> F{Need to update or revoke?}
   F -->|Check access records| G[Query reading history]
   F -->|Replace file| H[Swap file while keeping link]
   F -->|Tighten controls| I[Adjust settings]
-  F -->|Done| J[Let it expire / close out]
+  F -->|Done| J["Let it expire or close out"]
 ```
 
 ![Overview: upload, settings, then link and QR](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
@@ -102,7 +102,7 @@ MaiPDF supports swapping/replacing the file via the control panel, so you don’
 ```mermaid
 flowchart LR
   A[Share link is sent] --> B[PDF needs a new version]
-  B --> C[Replace file / import settings]
+  B --> C["Replace file or import settings"]
   C --> D[Recipients open the same link]
   D --> E[They see the updated PDF]
 ```
