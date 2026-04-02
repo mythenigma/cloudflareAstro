@@ -2,7 +2,7 @@
 title: "Turn any PDF into a QR code"
 description: "Upload a PDF and instantly generate a shareable QR code. Control access, set view limits, and share documents without email attachments."
 pubDate: "Apr 3 2026"
-heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
+heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF to QR", "PDF QR code generator", "share PDF with QR", "maipdf"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["PDF to QR", "PDF QR code generator", "share PDF with QR", "maipdf"]
 </div>
 
 <div class="image-container">
-  <img src="/maifle/maipdf示例把PDF生成二维码.png" alt="MaiPDF QR Code Generation Example" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="MaiPDF QR Code Generation Example" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 

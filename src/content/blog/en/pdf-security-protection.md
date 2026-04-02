@@ -2,7 +2,7 @@
 title: "PDF Security Protection: Practical Anti-Leakage Guide"
 description: "Use a layered PDF protection model with access limits, expiry, watermarking, and fast incident response."
 pubDate: "Feb 11 2026"
-heroImage: "/maifle/动态水印的选项.png"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Encryption", "Document Security", "Leak Prevention", "Information Protection"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["PDF Encryption", "Document Security", "Leak Prevention", "Information Pr
 
 PDF leakage is usually a process problem. A small set of mandatory controls prevents most incidents.
 
-![MaiPDF Security Settings Interface](/maifle/没加电话验证的设置界面.png)
+![MaiPDF Security Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
 
 ## Layered security baseline
 

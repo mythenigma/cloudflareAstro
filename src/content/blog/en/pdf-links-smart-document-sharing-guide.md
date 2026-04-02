@@ -90,7 +90,7 @@ The foundation of effective PDF sharing is selecting a platform with these key f
 - **Intuitive dashboard** for link management and analytics
 - **Customization options** for security and user experience
 
-![MaiPDF upload interface](/maifle/MaiPDF中的上传界面.png)
+![MaiPDF upload interface](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ### Step 2: Prepare Your Document for Optimal Sharing
 
@@ -117,7 +117,7 @@ Customize your PDF link settings based on your specific goals:
 - Disable printing/downloading for confidential materials
 - Set expiration dates aligned with relevance periods
 
-![PDF link generation options](/maifle/PDF链接生成的时候显示的信息.png)
+![PDF link generation options](/maipdf2026/Result_of_qr_link.png)
 
 ### Step 4: Implement Access Controls Strategically
 
@@ -172,7 +172,7 @@ Extract maximum value from your PDF link analytics:
 - **Follow-up triggering:** Reach out based on viewing activity
 - **Content refinement:** Adjust documents based on viewing patterns
 
-![PDF viewing records interface](/maifle/阅读记录查询.png)
+![PDF viewing records interface](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## Industry-Specific PDF Link Applications
 
@@ -204,7 +204,7 @@ Extract maximum value from your PDF link analytics:
 - **Tax documents** with verified access
 - **Insurance policies** with confirmation tracking
 
-![Document tracking dashboard for PDF links](/maifle/阅读记录查询结果示例.png)
+![Document tracking dashboard for PDF links](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ## Advanced PDF Link Strategies
 
@@ -217,7 +217,7 @@ Maintain link permanence while updating content:
 - **Access restoration** for expired or revoked permissions
 - **Content replacement** while preserving analytics history
 
-![File replacement interface](/maifle/替换文件的页面.png)
+![File replacement interface](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ### Multi-Channel Distribution
 
@@ -228,7 +228,7 @@ Expand your reach through integrated sharing approaches:
 - **QR code placement** in physical marketing materials
 - **Website resource sections** with gated PDF content
 
-![QR code generation for PDF documents](/maifle/maipdf示例把PDF生成二维码.png)
+![QR code generation for PDF documents](/maipdf2026/Result_of_qr_link.png)
 
 ### Security Enhancement Features
 
@@ -262,7 +262,7 @@ Develop insights through thoughtful analysis:
 - **Security level impact** on overall engagement
 - **Time-based patterns** revealing optimal sharing windows
 
-![PDF opening records and statistics](/maifle/之前查询打开记录界面.png)
+![PDF opening records and statistics](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ## Overcoming Common PDF Link Challenges
 

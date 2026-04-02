@@ -2,7 +2,7 @@
 title: "Enterprise PDF Permission Management: Practical Guide"
 description: "Implement enterprise PDF controls with encrypted delivery, lifecycle policy, and traceable open logs."
 pubDate: "Feb 11 2026"
-heroImage: "/maifle/没加电话验证的设置界面.png"
+heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
 tags: ["Enterprise Documents", "PDF Encryption", "Permission Management", "Data Security", "Traceable Sharing"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["Enterprise Documents", "PDF Encryption", "Permission Management", "Data 
 
 Enterprise document control is an operations framework: defined access rules, short validity windows, and auditable activity.
 
-![Permission Settings Interface](/maifle/没加电话验证的设置界面.png)
+![Permission Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
 
 ## Core control model
 

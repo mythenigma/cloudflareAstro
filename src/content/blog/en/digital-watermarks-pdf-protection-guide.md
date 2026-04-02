@@ -42,7 +42,7 @@ Digital watermarks in PDFs are visible or invisible elements embedded directly i
 3. **Enable source tracing** if documents are leaked
 4. **Persist through screenshots** unlike other security measures
 
-![Watermark information display in document](/maifle/页面上显示水印位置.png)
+![Watermark information display in document](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## Types of PDF Watermarks
 
@@ -60,7 +60,7 @@ Digital watermarks in PDFs are visible or invisible elements embedded directly i
 - Can be updated without changing the source document
 - Enable comprehensive tracking
 
-![Dynamic watermarking options](/maifle/动态水印的选项.png)
+![Dynamic watermarking options](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ### Visible vs. Invisible Watermarks
 
@@ -76,7 +76,7 @@ Digital watermarks in PDFs are visible or invisible elements embedded directly i
 - Useful for forensic tracking
 - Can be extracted with specialized tools
 
-![Warning displayed during screenshot attempt](/maifle/截图时候提示.png)
+![Warning displayed during screenshot attempt](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## Essential Components of Effective PDF Watermarks
 
@@ -89,7 +89,7 @@ The most secure and informative watermarks include:
 - **Company/organization** affiliation if applicable
 - **Employee ID** or other institutional identifier
 
-![Watermark information query results](/maifle/水印码查询结果.png)
+![Watermark information query results](/2025MayMaiPDF/checkwatermark.png)
 
 ### 2. Temporal Data
 
@@ -114,7 +114,7 @@ The most secure and informative watermarks include:
 - **Repeating patterns** across multiple page areas
 - **Size balancing** to be noticeable without overwhelming content
 
-![Watermark display example on document page](/maifle/页面上显示水印位置.png)
+![Watermark display example on document page](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## How to Implement Dynamic PDF Watermarks
 
@@ -130,7 +130,7 @@ Services like MaiPDF provide the simplest implementation path:
 3. **Share the secured link** with intended recipients
 4. **Track access** through the platform's monitoring tools
 
-![MaiPDF upload interface](/maifle/MaiPDF中的上传界面.png)
+![MaiPDF upload interface](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ### Security Settings Configuration
 
@@ -152,7 +152,7 @@ Comprehensive watermarking solutions include:
 - **Analytical dashboards** presenting viewing patterns
 - **Alert systems** for suspicious access patterns
 
-![Viewing records interface](/maifle/阅读记录查询.png)
+![Viewing records interface](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## Advanced Watermarking Strategies
 
@@ -176,7 +176,7 @@ Develop organization-specific watermark designs featuring:
 - **QR codes** linking to verification systems
 - **Micro-text patterns** difficult to remove
 
-![SMS verification interface](/maifle/用户输入短信的页面.jpg)
+![SMS verification interface](/maipdf2026/get_email_verification_before_read.jpg)
 
 ### Behavior-Responsive Watermarking
 
@@ -187,7 +187,7 @@ Implement dynamic watermarks that respond to user actions:
 - **Change patterns when suspicious activity is detected**
 - **Reveal hidden elements when manipulation is attempted**
 
-![Warning when mouse leaves viewing area](/maifle/鼠标移除框外显示警告.png)
+![Warning when mouse leaves viewing area](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## Industry-Specific Applications
 
@@ -268,7 +268,7 @@ Balance security with usability by monitoring:
 - Create delegation workflows with new watermarks for secondary recipients
 - Develop clear policies for acceptable sharing practices
 
-![Link generation information display](/maifle/PDF链接生成的时候显示的信息.png)
+![Link generation information display](/maipdf2026/Result_of_qr_link.png)
 
 ## Implementation Checklist
 
@@ -300,7 +300,7 @@ Before deploying dynamic watermarks, ensure you've addressed:
 - Position carefully around charts and tables
 - Use repeating patterns between data sections
 
-![Document access record example](/maifle/阅读记录查询结果示例.png)
+![Document access record example](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
 ## The Future of PDF Watermarking
 

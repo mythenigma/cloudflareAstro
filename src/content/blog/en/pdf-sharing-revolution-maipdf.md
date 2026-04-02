@@ -2,7 +2,7 @@
 title: "PDF Sharing Revolution: Practical MaiPDF Workflow"
 description: "Replace attachment-first sharing with controlled PDF links, lifecycle policy, and audience segmentation."
 pubDate: "Feb 12 2026"
-heroImage: "/maifle/maipdf的首页入口.png"
+heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 ---
 
 # PDF Sharing Revolution: Practical MaiPDF Workflow
