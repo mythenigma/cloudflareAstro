@@ -142,6 +142,181 @@
   border-radius: 2px;
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   Tables — polished, responsive, zebra-striped
+   ═══════════════════════════════════════════════════════════════ */
+.content-wrapper table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+.content-wrapper thead {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+.content-wrapper thead th {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.85rem 1rem;
+  text-align: left;
+  white-space: nowrap;
+  border: none;
+}
+
+.content-wrapper tbody tr {
+  transition: background 0.15s ease;
+}
+
+.content-wrapper tbody tr:nth-child(odd) {
+  background: #f8fafc;
+}
+
+.content-wrapper tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+.content-wrapper tbody tr:hover {
+  background: #eef2ff;
+}
+
+.content-wrapper tbody td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  vertical-align: top;
+}
+
+.content-wrapper tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Bold first column as row header */
+.content-wrapper tbody td:first-child {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* "Yes/No" badge style for short cell values */
+.content-wrapper tbody td strong {
+  color: #6366f1;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Unordered lists — feature checklists with icons
+   ═══════════════════════════════════════════════════════════════ */
+.content-wrapper ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-wrapper ul > li {
+  position: relative;
+  padding-left: 1.7rem;
+  margin-bottom: 0.65rem;
+}
+
+.content-wrapper ul > li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #6366f1;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+/* Nested sub-lists: smaller disc */
+.content-wrapper ul ul > li::before {
+  content: '–';
+  color: #94a3b8;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Ordered lists — numbered steps with accent
+   ═══════════════════════════════════════════════════════════════ */
+.content-wrapper ol {
+  counter-reset: step-counter;
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-wrapper ol > li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 2.4rem;
+  margin-bottom: 0.85rem;
+}
+
+.content-wrapper ol > li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.78rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Related links row — bottom of article
+   ═══════════════════════════════════════════════════════════════ */
+.content-wrapper hr + p strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.content-wrapper hr + p a {
+  display: inline-block;
+  background: #f0f0ff;
+  border: 1px solid #ddd6fe;
+  border-radius: 8px;
+  padding: 0.4rem 0.9rem;
+  margin: 0.25rem 0.35rem 0.25rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6366f1;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.content-wrapper hr + p a:hover {
+  background: #6366f1;
+  color: #fff;
+  border-color: #6366f1;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HR divider — subtle gradient line
+   ═══════════════════════════════════════════════════════════════ */
+.content-wrapper hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #ddd6fe 30%, #6366f1 50%, #ddd6fe 70%, transparent 100%);
+  margin: 3rem 0 1.5rem;
+}
+
 /* 卡片网格增强 */
 .problems-grid,
 .feature-grid,

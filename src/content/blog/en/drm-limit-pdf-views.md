@@ -1,8 +1,8 @@
 ---
 title: "PDF DRM view limits: how to cap opens without heavy software"
 description: "A practical explanation of view limits for PDFs - open caps, session time, and expiration - and how a link-based approach replaces traditional file-level DRM."
-updatedDate: "Apr 1 2026"
-pubDate: "Apr 1 2026"
+updatedDate: "Apr 2 2026"
+pubDate: "Apr 2 2026"
 tags: ["PDF DRM","View Limits","Access Control","Secure Sharing"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/openlimit.png"
@@ -80,7 +80,3 @@ For deterrence beyond the counter, layer on a **protected viewer** (disables pri
 | Small team (5-10) | 20-50 | Room for re-opens without being unlimited |
 | Public preview | 500-2,000 | Broad reach but still capped |
 | > 10,000 | Treat as public | Access records may not be logged at this scale |
-
----
-
-**Related:** [View limits and expiration](/blog/en/view-limits-and-expiration) | [Secure PDF links](/blog/en/secure-pdf-links) | [MaiPDF complete workflow guide](/blog/en/maipdf-complete-workflow-guide-with-diagrams)

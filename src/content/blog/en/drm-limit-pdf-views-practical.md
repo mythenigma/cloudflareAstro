@@ -1,8 +1,8 @@
 ---
 title: "Limit PDF views with DRM-style controls: a practical setup"
 description: "Step-by-step walkthrough: upload a PDF, configure view limits, session duration, expiration, optional email verification, and share a controlled link with access records."
-pubDate: "Apr 1 2026"
-updatedDate: "Apr 1 2026"
+pubDate: "Apr 2 2026"
+updatedDate: "Apr 2 2026"
 tags: ["PDF DRM","View Limit","Expiration","Secure Sharing"]
 author: "David Chen"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
@@ -101,7 +101,3 @@ flowchart TB
 | Job application review | 10 | 60 min | 30 days | Watermark |
 | Training material | 50 | 120 min | 90 days | Protected viewer |
 | Press embargo | 20 | No limit | Release date | Email verification + watermark |
-
----
-
-**Related:** [How to generate secure PDF links](/blog/en/secure-pdf-links) | [Host a PDF online for secure sharing](/blog/en/host-pdf-online-secure-sharing-guide) | [PDF access control: view limits and expiration](/blog/en/pdf-access-control-view-limits-expiration)

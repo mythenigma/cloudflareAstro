@@ -310,6 +310,52 @@ const buttonText = isMaiimg
   }
   
   /* Modern image styling — keep tall infographics readable (see also blog-post.css) */
+  article table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  }
+
+  article thead {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  }
+
+  article thead th {
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.85rem 1rem;
+    text-align: left;
+    white-space: nowrap;
+    border: none;
+  }
+
+  article tbody tr:nth-child(odd) { background: #f8fafc; }
+  article tbody tr:nth-child(even) { background: #fff; }
+  article tbody tr:hover { background: #eef2ff; }
+
+  article tbody td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+    vertical-align: top;
+  }
+
+  article tbody tr:last-child td { border-bottom: none; }
+
+  article tbody td:first-child {
+    font-weight: 600;
+    color: #1e293b;
+  }
+
   article img {
     width: auto;
     max-width: min(100%, 640px);
@@ -636,7 +682,17 @@ const buttonText = isMaiimg
       width: 100%;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
+      font-size: 0.85rem;
+      border-radius: 10px;
+    }
+
+    .content-wrapper thead th {
+      padding: 0.65rem 0.75rem;
+      font-size: 0.78rem;
+    }
+
+    .content-wrapper tbody td {
+      padding: 0.6rem 0.75rem;
     }
     
     article blockquote {
