@@ -233,6 +233,7 @@
   <button class="tab-btn" onclick="switchTab('phase2')">📝 Phase 2 专业化</button>
   <button class="tab-btn" onclick="switchTab('phase3')">🏗️ Phase 3 增强</button>
   <button class="tab-btn" onclick="switchTab('log')">📅 完成日志</button>
+  <button class="tab-btn" onclick="switchTab('notes')">🧠 认知</button>
 </div>
 
 <!-- ═══════════════════════════════════════ TAB: Overview ═══════════════════════════ -->
@@ -643,8 +644,9 @@
 </div>
 </div>
 
-<!-- ═══════════════════════════════════════ 认知 / 注意事项 ═══════════════════ -->
-<div class="container" style="margin-top:0">
+<!-- ═══════════════════════════════════════ TAB: 认知 ═══════════════════ -->
+<div class="tab-content" id="tab-notes">
+<div class="container">
   <h2>🧠 认知 &amp; 注意事项 (Lessons Learned)</h2>
 
   <div class="info-box">
@@ -682,6 +684,8 @@
     <strong>8. 构建验证</strong><br>
     每批修改后必须运行 <code>npx astro build</code> 验证。当前构建约 10-12 秒，无报错。Cloudflare adapter 的 SESSION binding 警告可忽略。
   </div>
+
+</div>
 </div>
 
 <div class="footer">
