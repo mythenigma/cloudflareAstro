@@ -1,60 +1,102 @@
 ---
-title: "Maiimg QR Code Sharing Guide"
-description: "A practical guide to sharing Maiimg QR codes across print and digital channels, with best practices."
-pubDate: "Jan 17 2026"
-tags: ["QR Code"]
+title: "MaiImg QR Code Sharing Guide: Complete Image Distribution Workflow"
+description: "Complete guide to sharing images via QR codes with MaiImg. Cover upload, QR generation, placement strategies, tracking, and advanced access controls."
+pubDate: "Apr 2 2026"
+heroImage: "/maiimg/maiimg-head.png"
+tags: ["MaiImg", "QR Code", "Image Distribution"]
 ---
 
-<!-- Auto-generated from GSC 404 export on 2026-01-15. -->
-<!-- Keep this slug stable to avoid creating new 404s in the future. -->
+# MaiImg QR Code Sharing Guide
 
-# Maiimg QR Code Sharing Guide
+QR codes transform static image sharing into an interactive, trackable experience. Instead of emailing large image files or posting them to uncontrolled platforms, drop a QR code and let recipients scan for instant access.
 
-<div class="intro-panel">
-  <p>Once your QR code is generated, the real work is distribution. This guide focuses on how to share Maiimg QR codes across channels without losing scan quality or access control.</p>
-</div>
+![MaiImg](/maiimg/maiimg-head.png)
 
-![Diagram](/diagram/en/maiimg-qr-code-sharing-workflow.svg)
+## The Complete QR Sharing Workflow
 
-## Where to share QR codes
+### Phase 1: Prepare
+- Select and optimize images (compress if needed for fast mobile loading)
+- Organize images by audience or campaign
 
-- **Print**: posters, flyers, business cards, product packaging.
-- **Digital**: slides, PDFs, websites, social media posts.
-- **On-site**: event signage, reception desks, retail displays.
+### Phase 2: Upload
+Go to [maiimg.com](https://www.maiimg.com) and upload your images. Supports batch upload (up to 25 files) of PNG, JPG, WebP, and GIF formats.
 
-## Match the QR code to the channel
+### Phase 3: Configure
+Set access controls per image:
 
-- **Print**: use a large, high-contrast QR code and test at distance.
-- **Digital**: avoid compression artifacts; use the original PNG.
-- **Mobile-first**: place the QR code in the first screen when possible.
+| Setting | Default | Adjust When |
+|---------|---------|------------|
+| View limit | Unlimited | Restricting to specific audience |
+| Expiration | None | Time-sensitive campaign |
+| Download | Allowed | Protecting copyrighted images |
 
-## Recommended sharing flow
+![Settings](/maiimg/maiimg-setting.png)
 
-1. Generate the QR code in Maiimg.
-2. Validate access settings with a test scan.
-3. Publish to the target channel.
-4. Monitor access data and update settings if needed.
+### Phase 4: Generate QR
+QR codes are auto-generated for every upload. Download the QR code image for use in:
+- Print materials (flyers, posters, business cards)
+- Digital presentations (slides, emails, social media)
+- Physical products (packaging, signage, labels)
 
-### Gallery preview and tracking
+![QR Result](/maiimg/image_result.png)
 
-![Gallery share result](/maiimg/image_result.png)
-![Access tracking](/maiimg/result_tracking.png)
+### Phase 5: Distribute
+Place QR codes where your audience will encounter them. The recipient scans with their phone camera — no app needed — and the image opens in their browser.
 
-## Security and access tips
+### Phase 6: Track
+Monitor engagement through MaiImg's dashboard:
 
-- Use view limits for temporary campaigns.
-- Add verification for sensitive galleries.
-- Update or revoke access without changing the QR code.
+![Tracking Dashboard](/maiimg/result_tracking.png)
 
-## Use cases to highlight value
+## QR Code Placement Strategies
 
-- **Event photos**: share a gallery instantly with attendees.
-- **Product launches**: attach a QR code to packaging or posters.
-- **Portfolios**: include in resumes or printed cards.
-- **Real estate**: place on property signs for quick viewing.
+### High-Traffic Print
+- **Posters in public spaces** — large QR, prominent call to action
+- **Handouts at events** — small QR, paired with brief description
+- **Product packaging** — medium QR, explains what the scan reveals
 
-## Key takeaways
+### Digital Channels
+- **Email signatures** — link to portfolio or latest product image
+- **Social media posts** — "Scan for the full gallery"
+- **Presentation slides** — audience scans during the talk
 
-- Sharing is about placement, size, and clarity.
-- A single QR code can serve multiple channels when the link is stable.
-- Access controls let you keep distribution flexible but secure.
+### Physical Spaces
+- **Retail displays** — QR links to detailed product photos
+- **Gallery walls** — QR links to high-res artwork or artist bio image
+- **Real estate listings** — QR links to property photo tour
+
+## Multiple Images, One Strategy
+
+For campaigns with multiple images, consider these approaches:
+
+**Individual QR codes per image** — maximum tracking granularity, but more codes to manage
+
+**Gallery QR code** — one QR that links to a page with multiple images (if your platform supports it)
+
+**Sequential QR codes** — users scan a series of QR codes to reveal a story or product lineup
+
+## Advanced: QR Codes with Access Controls
+
+For controlled distribution:
+
+1. **Time-limited reveals** — set expiration to create urgency ("Scan by Friday for exclusive preview")
+2. **Limited-access drops** — set view limit to create scarcity ("First 100 scans get access")
+3. **Protected content** — disable downloads for copyrighted or exclusive images
+
+## Measuring QR Campaign Success
+
+Key metrics from MaiImg's tracking:
+
+| Metric | What It Tells You |
+|--------|-------------------|
+| Total scans | Overall reach |
+| Scans per day | Campaign momentum |
+| Peak scan time | When your audience is most active |
+| Device types | Optimize image sizes accordingly |
+| Geographic distribution | Where your audience is located |
+
+Use these metrics to iterate on QR placement, timing, and content for future campaigns.
+
+## Getting Started
+
+Upload at [maiimg.com](https://www.maiimg.com), grab the QR code, and start sharing. Every scan is tracked, every image is controlled.

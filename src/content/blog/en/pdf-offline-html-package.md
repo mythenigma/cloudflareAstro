@@ -281,7 +281,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
 ## Related Recommendations:
 
 - [MaiPDF Dynamic Watermark: Precisely Track Reading Behavior](../../en/dynamic-watermarks-on-pdf/)
-- [Setting PDF Reading Restrictions: Effectively Control Document Distribution](../../en/safe-control-pdf/)
 - [Email Verification: Enhance PDF Document Access Security](../../en/mobile-verification-document-security/)
 
 <style>

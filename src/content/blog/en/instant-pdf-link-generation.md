@@ -72,4 +72,3 @@ You typically get:
 - [Upload a PDF and Get a Link](/blog/en/upload-pdf-get-link)
 - [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-pdf-and-generate-secure-link)
 - [Instant PDF Sharing With QR Codes](/blog/en/instant-pdf-sharing-with-qr-codes)
-- [MaiPDF Instant Link Generation Guide](/blog/en/maipdf-instant-link-generation-guide)

@@ -22,7 +22,7 @@
 
 | # | Status | Language | File Path |
 |---|--------|----------|-----------|
-| 1 | `[ ]` | en | `src/content/blog/en/open-statistics-and-access-control-guide.md` |
+| 1 | `[✓]` | en | `src/content/blog/en/open-statistics-and-access-control-guide.md` — **DELETED** |
 | 2 | `[ ]` | cn | `src/content/blog/cn/open-statistics-and-access-control-guide.md` |
 | 3 | `[ ]` | de | `src/content/blog/de/open-statistics-and-access-control-guide.md` |
 | 4 | `[ ]` | es | `src/content/blog/es/open-statistics-and-access-control-guide.md` |
@@ -41,42 +41,42 @@ Content is identical template: 3 bullet points + 1 SVG diagram reference.
 
 | # | Status | File Path |
 |---|--------|-----------|
-| 8 | `[ ]` | `src/content/blog/en/dynamic-watermarks-on-pdf-cn.md` |
-| 9 | `[ ]` | `src/content/blog/en/easy-pdf-sharing.md` |
-| 10 | `[ ]` | `src/content/blog/en/educator-pdf-sharing-guide.md` |
-| 11 | `[ ]` | `src/content/blog/en/elegant-secure-sharing-resume-portfolio.md` |
-| 12 | `[ ]` | `src/content/blog/en/enterprise-document-security.md` |
-| 13 | `[ ]` | `src/content/blog/en/free-pdf-tools-to-boost-productivity.md` |
-| 14 | `[ ]` | `src/content/blog/en/image-sharing-security-guide.md` |
-| 15 | `[ ]` | `src/content/blog/en/maiimg-event-photo-distribution-guide.md` |
-| 16 | `[ ]` | `src/content/blog/en/maiimg-product-launch-image-hub.md` |
-| 17 | `[ ]` | `src/content/blog/en/maiimg-qr-code-generation.md` |
-| 18 | `[ ]` | `src/content/blog/en/maiimg-qr-code-sharing-guide.md` |
-| 19 | `[ ]` | `src/content/blog/en/maiimg-qrcode-generation-guide.md` |
-| 20 | `[ ]` | `src/content/blog/en/maiimg-real-estate-image-sharing-guide.md` |
-| 21 | `[ ]` | `src/content/blog/en/maiimg-social-media-campaign-calendar-guide.md` |
-| 22 | `[ ]` | `src/content/blog/en/maipdf-instant-link-generation-guide.md` |
-| 23 | `[ ]` | `src/content/blog/en/maipdf-view-count-setting-guide.md` |
-| 24 | `[ ]` | `src/content/blog/en/marketing-materials-dynamic-watermark.md` |
-| 25 | `[ ]` | `src/content/blog/en/network-verification-protocols.md` |
-| 26 | `[ ]` | `src/content/blog/en/pdf-access-control-view-limits.md` |
-| 27 | `[ ]` | `src/content/blog/en/pdf-access-control-view-limits-expiration.md` |
-| 28 | `[ ]` | `src/content/blog/en/pdf-access-control-viewing-limits.md` |
-| 29 | `[ ]` | `src/content/blog/en/pdf-dynamic-watermark-security-guide.md` |
-| 30 | `[ ]` | `src/content/blog/en/pdf-online-preview.md` |
-| 31 | `[ ]` | `src/content/blog/en/pdf-online-sharing-security-best-practices.md` |
-| 32 | `[ ]` | `src/content/blog/en/pdf-online-viewing-guide.md` |
-| 33 | `[ ]` | `src/content/blog/en/pdf-qrcode-generation-tutorial.md` |
-| 34 | `[ ]` | `src/content/blog/en/pdf-safe-sharing-training-2.md` |
-| 35 | `[ ]` | `src/content/blog/en/pdf-security-best-practices.md` |
-| 36 | `[ ]` | `src/content/blog/en/pdf-sharing-control-revolution.md` |
-| 37 | `[ ]` | `src/content/blog/en/pdf-sharing-evolution-smart-control.md` |
-| 38 | `[ ]` | `src/content/blog/en/pdf-to-html-conversion.md` |
-| 39 | `[ ]` | `src/content/blog/en/pdf-to-shareable-link-tutorial.md` |
-| 40 | `[ ]` | `src/content/blog/en/programmer-document-security-maipdf.md` |
-| 41 | `[ ]` | `src/content/blog/en/safe-control-pdf.md` |
-| 42 | `[ ]` | `src/content/blog/en/wechat-pdf-sharing.md` |
-| 43 | `[ ]` | `src/content/blog/en/zero-cost-pdf-sharing.md` |
+| 8 | `[✓]` | `src/content/blog/en/dynamic-watermarks-on-pdf-cn.md` — **DELETED** |
+| 9 | `[✓]` | `src/content/blog/en/easy-pdf-sharing.md` — **DELETED** |
+| 10 | `[✓]` | `src/content/blog/en/educator-pdf-sharing-guide.md` — **DELETED** |
+| 11 | `[✓]` | `src/content/blog/en/elegant-secure-sharing-resume-portfolio.md` — **DELETED** |
+| 12 | `[✓]` | `src/content/blog/en/enterprise-document-security.md` — **DELETED** |
+| 13 | `[✓]` | `src/content/blog/en/free-pdf-tools-to-boost-productivity.md` — **DELETED** |
+| 14 | `[✓]` | `src/content/blog/en/image-sharing-security-guide.md` — **DELETED** |
+| 15 | `[✓]` | `src/content/blog/en/maiimg-event-photo-distribution-guide.md` — **DELETED** |
+| 16 | `[✓]` | `src/content/blog/en/maiimg-product-launch-image-hub.md` — **DELETED** |
+| 17 | `[✓]` | `src/content/blog/en/maiimg-qr-code-generation.md` — **DELETED** |
+| 18 | `[✓]` | `src/content/blog/en/maiimg-qr-code-sharing-guide.md` — **DELETED** |
+| 19 | `[✓]` | `src/content/blog/en/maiimg-qrcode-generation-guide.md` — **DELETED** |
+| 20 | `[✓]` | `src/content/blog/en/maiimg-real-estate-image-sharing-guide.md` — **DELETED** |
+| 21 | `[✓]` | `src/content/blog/en/maiimg-social-media-campaign-calendar-guide.md` — **DELETED** |
+| 22 | `[✓]` | `src/content/blog/en/maipdf-instant-link-generation-guide.md` — **DELETED** |
+| 23 | `[✓]` | `src/content/blog/en/maipdf-view-count-setting-guide.md` — **DELETED** |
+| 24 | `[✓]` | `src/content/blog/en/marketing-materials-dynamic-watermark.md` — **DELETED** |
+| 25 | `[✓]` | `src/content/blog/en/network-verification-protocols.md` — **DELETED** |
+| 26 | `[✓]` | `src/content/blog/en/pdf-access-control-view-limits.md` — **DELETED** |
+| 27 | `[✓]` | `src/content/blog/en/pdf-access-control-view-limits-expiration.md` — **DELETED** |
+| 28 | `[✓]` | `src/content/blog/en/pdf-access-control-viewing-limits.md` — **DELETED** |
+| 29 | `[✓]` | `src/content/blog/en/pdf-dynamic-watermark-security-guide.md` — **DELETED** |
+| 30 | `[✓]` | `src/content/blog/en/pdf-online-preview.md` — **DELETED** |
+| 31 | `[✓]` | `src/content/blog/en/pdf-online-sharing-security-best-practices.md` — **DELETED** |
+| 32 | `[✓]` | `src/content/blog/en/pdf-online-viewing-guide.md` — **DELETED** |
+| 33 | `[✓]` | `src/content/blog/en/pdf-qrcode-generation-tutorial.md` — **DELETED** |
+| 34 | `[✓]` | `src/content/blog/en/pdf-safe-sharing-training-2.md` — **DELETED** |
+| 35 | `[✓]` | `src/content/blog/en/pdf-security-best-practices.md` — **DELETED** |
+| 36 | `[✓]` | `src/content/blog/en/pdf-sharing-control-revolution.md` — **DELETED** |
+| 37 | `[✓]` | `src/content/blog/en/pdf-sharing-evolution-smart-control.md` — **DELETED** |
+| 38 | `[✓]` | `src/content/blog/en/pdf-to-html-conversion.md` — **DELETED** |
+| 39 | `[✓]` | `src/content/blog/en/pdf-to-shareable-link-tutorial.md` — **DELETED** |
+| 40 | `[✓]` | `src/content/blog/en/programmer-document-security-maipdf.md` — **DELETED** |
+| 41 | `[✓]` | `src/content/blog/en/safe-control-pdf.md` — **DELETED** |
+| 42 | `[✓]` | `src/content/blog/en/wechat-pdf-sharing.md` — **DELETED** |
+| 43 | `[✓]` | `src/content/blog/en/zero-cost-pdf-sharing.md` — **DELETED** |
 
 ### B2. Chinese (cn/) — 30 files
 
@@ -164,7 +164,7 @@ Content is identical template: 3 bullet points + 1 SVG diagram reference.
 
 | # | Status | File Path | Notes |
 |---|--------|-----------|-------|
-| 99 | `[ ]` | `src/content/blog/en/second-post.md` | 纯 Lorem ipsum 假文，无实际内容 |
+| 99 | `[✓]` | `src/content/blog/en/second-post.md` — **DELETED** | 纯 Lorem ipsum 假文，无实际内容 |
 | 100 | `[ ]` | `src/content/blog/fr/second-post.md` | Auto-generated stub |
 
 ---
