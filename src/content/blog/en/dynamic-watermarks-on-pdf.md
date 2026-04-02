@@ -165,12 +165,7 @@ Each watermark ID gives you access to detailed information about how your docume
 
 ![MaiPDF Landing Page](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
-<div class="conclusion-box">
-  <p>With MaiPDF, your files stay secure, traceable, and under control — every time they're opened.</p>
-  <div class="cta-button">
-    <a href="https://maipdf.com">Protect your documents today</a>
-  </div>
-</div>
+With MaiPDF, your files stay secure, traceable, and under control — every time they're opened.
 
 <style>
   /* Base styles */

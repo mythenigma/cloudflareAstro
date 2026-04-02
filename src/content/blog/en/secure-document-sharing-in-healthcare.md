@@ -149,7 +149,3 @@ Maintain comprehensive records of:
 Secure document sharing is no longer an optional luxury in healthcare—it's a critical component of both operational efficiency and regulatory compliance. By implementing systems that provide comprehensive access controls, tracking capabilities, and protection against unauthorized redistribution, healthcare providers can confidently share sensitive information while maintaining their commitment to patient privacy.
 
 The right solution balances security with accessibility, ensuring that authorized parties can easily access the information they need while unauthorized access is effectively prevented. For healthcare organizations seeking to modernize their document security approach, platforms like MaiPDF offer healthcare-specific features that address the unique requirements of medical information management.
-
-<div class="cta-section">
-  <p>Is your healthcare organization ready to enhance document security while improving accessibility? Explore how MaiPDF's secure sharing features can help maintain compliance while streamlining clinical workflows.</p>
-</div>

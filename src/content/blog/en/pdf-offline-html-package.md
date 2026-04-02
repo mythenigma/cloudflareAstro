@@ -272,10 +272,6 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
   <p>The MaiPDF Offline reading package solution provides offline reading and security control capabilities without requiring any software installation. For scenarios that frequently need to distribute documents in offline environments while maintaining control, it offers an ideal balance: easy for recipients to read while preserving the sender's control over the content.</p>
 </div>
 
-<div class="cta-section">
-  <a href="https://maipdf.com/pdf/drm.php" class="cta-button">Try MaiPDF Offline Packages Now</a>
-</div>
-
 ---
 
 ## Related Recommendations:

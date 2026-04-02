@@ -190,12 +190,7 @@ Unlike traditional DRM solutions that require licenses or software installation,
   </div>
 </div>
 
-<div class="conclusion-box">
-  <p>You now have a lightweight DRM solution—online, secure, and free.</p>
-  <div class="cta-button">
-    <a href="https://maipdf.com">Start protecting your PDFs</a>
-  </div>
-</div>
+You now have a lightweight DRM solution—online, secure, and free.
 
 Visit [MaiPDF](https://maipdf.com) today to start protecting your PDF documents with our simple yet powerful DRM features.
 

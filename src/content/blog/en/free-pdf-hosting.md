@@ -147,12 +147,7 @@ With an account, you'll have a full dashboard showing all your hosted documents,
   </div>
 </div>
 
-<div class="conclusion-box">
-  <p>MaiPDF is built for privacy-conscious users who need control over their shared content—without paying for expensive document management software.</p>
-  <div class="cta-button">
-    <a href="https://maipdf.com">Start hosting PDFs today</a>
-  </div>
-</div>
+MaiPDF is built for privacy-conscious users who need control over their shared content—without paying for expensive document management software.
 
 <style>
   /* Base styles */

@@ -146,12 +146,7 @@ heroImage: "/maipdf2026/swap_file_easy_in_user_control_panel.png"
   </div>
 </div>
 
-<div class="conclusion-box">
-  <p>MaiPDF gives you the flexibility to share, update, and control your documents—all through a simple interface.</p>
-  <div class="cta-button">
-    <a href="https://maipdf.com/pdf/hahachange.php">Try it now</a>
-  </div>
-</div>
+MaiPDF gives you the flexibility to share, update, and control your documents—all through a simple interface.
 
 <style>
   .intro-panel {

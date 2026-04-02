@@ -279,8 +279,8 @@
   <div class="progress-wrap"><div class="progress-bar" style="width:100%"></div></div>
 
   <h3>Phase 2 — 专业化提升</h3>
-  <div class="progress-label">2 / 11 完成 (18%)</div>
-  <div class="progress-wrap"><div class="progress-bar" style="width:18%"></div></div>
+  <div class="progress-label">3 / 11 完成 (27%)</div>
+  <div class="progress-wrap"><div class="progress-bar" style="width:27%"></div></div>
 
   <h3>Phase 3 — 增强功能</h3>
   <div class="progress-label">0 / 6 完成 (0%)</div>
@@ -399,10 +399,10 @@
       </tr>
       <tr>
         <td>11</td>
-        <td>修复重复 CTA 问题<br><small>删除文章内嵌 CTA 或设 showDefaultCta=false</small></td>
+        <td>修复重复 CTA 问题<br><small>删除 10 篇文章内嵌 CTA，保留布局统一 CTA</small></td>
         <td>文章底部两个蓝色 CTA 块叠在一起</td>
         <td><span class="priority priority-high">🔴 高</span></td>
-        <td><span class="badge badge-todo">⏳ 待处理</span></td>
+        <td><span class="badge badge-done">✅ 完成</span><br><small>2026-04-02 — 10 篇英文文章的 conclusion-box / cta-section 已移除</small></td>
       </tr>
       <tr>
         <td>12</td>
@@ -621,6 +621,14 @@
   </div>
   <div class="log-entry">
     <div class="log-date">2026-04-02</div>
+    <div class="log-text">修复重复 CTA: 移除 10 篇英文文章内嵌 conclusion-box / cta-section，保留 BlogPost.astro 布局统一 CTA (digital-watermarks-pdf-protection-guide, dynamic-watermarks-on-pdf, free-pdf-hosting, free-online-drm-for-pdf, host-pdf-online-secure-sharing-guide, modify-pdf-links, offline-pdf-drm-mode, pdf-offline-html-package, pdf-links-smart-document-sharing-guide, secure-document-sharing-in-healthcare)</div>
+  </div>
+  <div class="log-entry">
+    <div class="log-date">2026-04-02</div>
+    <div class="log-text">为 30 篇 MaiPDF 英文文章添加 show-off 营销插图 (来自 /maipdf2026/show_off/)，按主题匹配图片：安全类→securityshowoff.png, 分享类→shareandsend.png, 限制浏览→openlimit.png, 水印→goodlookingshow.png 等</div>
+  </div>
+  <div class="log-entry">
+    <div class="log-date">2026-04-02</div>
     <div class="log-text">精修重写 38 篇英文 Stub 空壳文章（全部从零撰写，含表格、流程图、产品集成）+ 修复 3 处死链</div>
   </div>
   <div class="log-entry">
@@ -635,8 +643,49 @@
 </div>
 </div>
 
+<!-- ═══════════════════════════════════════ 认知 / 注意事项 ═══════════════════ -->
+<div class="container" style="margin-top:0">
+  <h2>🧠 认知 &amp; 注意事项 (Lessons Learned)</h2>
+
+  <div class="info-box">
+    <strong>1. 重复 CTA 机制</strong><br>
+    <code>BlogPost.astro</code> 第 68-73 行通过 <code>showDefaultCta</code>（默认 true）自动在文章底部插入 CTA。写新文章时 <b>不要</b> 再手动加 conclusion-box / cta-section，否则又会出现双 CTA。如果某篇文章需要自定义 CTA，在 frontmatter 中设 <code>showDefaultCta: false</code>。
+  </div>
+  <div class="info-box">
+    <strong>2. 文章内 &lt;style&gt; 块冲突</strong><br>
+    多篇老文章有独立 &lt;style&gt; 块（蓝色主题），与全局 blog-post.css 的紫色主题冲突。新文章应 <b>只使用</b> 已有 CSS class（.intro-panel, .feature-card, .steps-container, .comparison-table 等），不要写内联 &lt;style&gt;。
+  </div>
+  <div class="info-box">
+    <strong>3. Show-off 图片仅适用于 MaiPDF 文章</strong><br>
+    <code>/maipdf2026/show_off/</code> 目录的 24 张营销图都是 MaiPDF 品牌的。MaiImg 文章应使用 <code>/maiimg/</code> 目录的图片（maiimg-head.png, image_result.png 等），不要混用。
+  </div>
+  <div class="info-box">
+    <strong>4. 图片路径规范</strong><br>
+    ✅ <code>/maipdf2026/</code> — 当前统一路径<br>
+    ❌ <code>/maipdf-images/</code> — 旧路径，已全部迁移，不要使用<br>
+    ✅ <code>/maiimg/</code> — MaiImg 产品图<br>
+    ✅ <code>/diagram/{lang}/</code> — SVG 流程图（按语言分目录）
+  </div>
+  <div class="info-box">
+    <strong>5. Git 基线</strong><br>
+    原始无损文章基线：commit <code>89c7db2</code>。如果以后需要恢复文章，从此 commit 检出。
+  </div>
+  <div class="info-box">
+    <strong>6. Stub 判断标准</strong><br>
+    Stub = 只有 frontmatter + 1 句描述 + 自动生成的 &quot;Features&quot; 列表和 CTA，没有实际教程/分析/表格/流程图。38 篇英文 Stub 已全部从零重写为 80-150 行实质内容文章。
+  </div>
+  <div class="info-box">
+    <strong>7. 英文 38 + 其他语言 63 = 101 Stub</strong><br>
+    英文 38 篇已处理完毕。剩余 63 篇分布在 cn / de / es / fr / ja / ko 目录，详见 STUB-CLEANUP-TRACKER.md。
+  </div>
+  <div class="info-box">
+    <strong>8. 构建验证</strong><br>
+    每批修改后必须运行 <code>npx astro build</code> 验证。当前构建约 10-12 秒，无报错。Cloudflare adapter 的 SESSION binding 警告可忽略。
+  </div>
+</div>
+
 <div class="footer">
-  工作面板 v1.0 ｜ 生成日期：2026-04-02 ｜ 基于 article.maipdf.com 博客审计和专业化改善计划
+  工作面板 v1.1 ｜ 最后更新：2026-04-02 ｜ 基于 article.maipdf.com 博客审计和专业化改善计划
 </div>
 
 <script>

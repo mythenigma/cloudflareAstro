@@ -203,7 +203,3 @@ Ensure a smooth experience for your viewers:
 Hosting PDFs online has evolved far beyond simple file storage. Today's specialized platforms provide sophisticated solutions for sharing documents securely while maintaining control over who can access them, for how long, and what they can do with the content.
 
 Whether you're sharing confidential business proposals, distributing educational materials, or sending creative portfolios, cloud-based PDF hosting offers the perfect balance of accessibility and control. By leveraging platforms like MaiPDF, you can transform your document sharing workflow—eliminating size limitations, enhancing security, gaining valuable insights through tracking, and providing a seamless viewing experience for recipients.
-
-<div class="cta-section">
-  <p>Ready to transform how you share PDF documents online? MaiPDF's secure hosting platform offers the perfect combination of accessibility, security, and control for all your document sharing needs.</p>
-</div>

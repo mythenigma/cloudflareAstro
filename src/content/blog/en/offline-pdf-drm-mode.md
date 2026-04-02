@@ -235,10 +235,6 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
   <p>MaiPDF Offline mode integrates traditional "PDF+reader" DRM logic into an encrypted HTML, balancing "offline availability" with "permission control." Compared to expensive specialized DRM platforms, this browser-based solution requires no installation, starts free, and is ideal for education, publishing, content creators, and small teams needing secure PDF distribution in offline environments.</p>
 </div>
 
-<div class="cta-section">
-  <a href="https://maipdf.com/pdf/drm.php" class="cta-button">Try MaiPDF Offline DRM Now</a>
-</div>
-
 ---
 
 ## You might also like:
