@@ -1,42 +1,68 @@
 ---
-title: "Resume Link Generator: Share Your CV Professionally"
-description: "Create clean resume links that are easy for recruiters to open and easier for you to keep updated and controlled."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+title: "Resume Link Generator: Share Your CV Professionally and Securely"
+description: "Create a professional CV link with MaiPDF: always-current URL, open tracking to time follow-ups, and how to set up different versions for different roles."
+pubDate: "Apr 3 2026"
+heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["resume links", "CV sharing", "job search", "career", "professional sharing"]
+showDefaultCta: true
 ---
 
 # Resume Link Generator: Share Your CV Professionally
 
-Resume links solve three common problems: attachment friction, outdated files, and no visibility into whether your CV was opened.
+<div class="intro-panel">
+  <p>Sending your CV as an email attachment has three problems: you can't update it after sending, you have no idea if it was opened, and the recruiter's inbox is full of PDF files that look identical. A link solves all three — without adding complexity for the reader.</p>
+</div>
 
-## Resume link workflow
+## Why a link is better than an attachment for job applications
 
-1. Export a clean one-page or two-page CV PDF.
-2. Upload and generate share link.
-3. Set expiry for active job-search cycles.
-4. Keep one updated version per target role.
-5. Reuse the same controlled link in applications.
+- **Always current** — update your CV once, and every recruiter who clicks the same link sees the latest version
+- **Open tracking** — see when your application was actually reviewed, not just received
+- **No "please enable PDF" prompts** — opens in any browser immediately
+- **No attachment anxiety** — no format compatibility issues, no file-size bounce
 
-## Settings that usually work
+## How to create a CV link
 
-- Download: on for standard recruiting
-- Expiry: 30-60 days
-- Open limit: medium/high
-- Optional watermark: on for high-privacy CV variants
+1. Export your CV as a PDF (keep it clean, standard fonts, well-structured).
+2. Upload at [maipdf.com](https://maipdf.com) — no signup needed.
+3. Choose settings (download on/off, expiry duration).
+4. Click **Create Secure Link**.
+5. Paste the URL in your email, LinkedIn message, or application form.
 
-## Messaging best practice
+## Recommended settings for CV sharing
 
-- Use a short, clear link label in emails
-- Add one-line context: target role + key focus
-- Include portfolio link separately if needed
+| Situation | Download | Expiry | Notes |
+|-----------|---------|--------|-------|
+| Standard application | On | 60 days | Recruiter may need to share internally |
+| High-privacy role | Off | 30 days | You control who has a copy |
+| Active job search | On | Unlimited | Update the file as you go |
+| Portfolio + CV together | Off | 45 days | Pair with design portfolio link |
 
-## Maintenance routine
+## Using open data for follow-up timing
 
-- Update CV monthly during active search
-- Remove stale links from old applications
-- Use open statistics to optimize follow-up timing
+This is the feature most applicants don't think about.
 
-## Final takeaway
+MaiPDF logs every open with a timestamp. After you apply, check your [Control Center](https://www.maipdf.com/6/control-center.html):
 
-A professional CV link is simple to open, always current, and easier to manage than sending attachments repeatedly.
+- **Opened within 1 day** — your application is active. Follow up within 2–3 business days.
+- **Opened multiple times** — you're being discussed. Good signal, reach out soon.
+- **Not opened after 7 days** — application may be stuck in screening limbo. Try reaching the hiring manager directly.
+- **Opened 2+ weeks after applying** — they're revisiting the pipeline. You may be a backup candidate — re-engage now.
+
+## Create role-specific CV versions
+
+If you're applying across multiple roles or industries, create different PDF versions tailored to each. Generate separate links for each version. You'll see which version performs best (most opens, most follow-ons) and can update them independently.
+
+## Keep your link clean during your job search
+
+- When you update your CV, swap the file in Control Center — the link URL stays the same
+- Retire links from old application cycles to avoid confusion
+- Check access records monthly during active search to see which companies are still viewing
+
+---
+
+**Related reading:**
+
+- [Design Portfolio Sharing: Create Links That Help You Get Hired](/blog/en/design-portfolio-sharing-create-links-get-hired) — portfolio links for creatives
+- [Freelancer Portfolio Links: Showcase Skills and Land More Clients](/blog/en/freelancer-portfolio-links-showcase-skills-land-more-clients) — client-facing portfolio sharing
+- [Create PDF Links That Actually Get Opened](/blog/en/create-pdf-links-actually-get-opened-5-strategies) — improve open rates
+- [PDF Link Sharing: A Better Alternative to Email Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — links vs attachments
