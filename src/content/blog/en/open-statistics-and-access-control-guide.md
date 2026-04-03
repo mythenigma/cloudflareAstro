@@ -1,6 +1,6 @@
 ---
 title: "Open Statistics and Access Control Guide"
-description: "How to use open statistics and access records to understand document engagement. Monitor views, track reader behavior, and adjust access controls based on data."
+description: "How to use open statistics to see who read your PDF, when they read it, and what to do with that information."
 pubDate: "Apr 2 2026"
 heroImage: "/2025MayMaiPDF/PDF_ACCESS_RECORDS.png"
 tags: ["Analytics", "Access Control", "Statistics"]
@@ -8,89 +8,73 @@ tags: ["Analytics", "Access Control", "Statistics"]
 
 # Open Statistics and Access Control Guide
 
-Sharing a document without analytics is like running ads without tracking conversions. You know you sent it, but you have no idea what happened after. Open statistics tell you who read your document, when, how often, and from where.
+You sent a PDF. Did anyone actually open it? Open statistics answer that question — and a few more.
+
+## What you can see after sharing
+
+Once someone opens your shared PDF link, MaiPDF records:
+
+- **How many times** the link was opened
+- **When** each open happened
+- **From what device** (phone, laptop, tablet)
 
 ![Access Records Dashboard](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
 
-## What Open Statistics Track
+That's it — no complex setup. Share a link, then check the records.
 
-When you share a PDF through [MaiPDF](https://www.maipdf.com), every access generates a record:
+## Where to find the statistics
 
-| Data Point | What It Tells You |
-|-----------|-------------------|
-| Total opens | Overall engagement level |
-| Timestamp | When people actually read your document |
-| Device type | Desktop, mobile, or tablet |
-| Geographic region | Approximate location of viewer |
-| View duration | How long they spent with the document |
-| Repeated opens | Whether someone re-reads (signals high interest) |
-
-## How to Access Your Statistics
-
-1. Log into your MaiPDF account
-2. Navigate to the document's control panel
-3. Click "Access Records"
+1. Go to the document's management page
+2. Click "Access Records"
 
 ![Navigate to Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
-The dashboard shows a timeline of all access events, sortable by date, device, and location.
+You'll see a list of every access event, sorted by time.
 
-## Using Statistics to Make Decisions
+## What the numbers tell you (and what to do)
 
-### "Nobody opened my proposal"
-**Action**: the link may not have been delivered. Check spam filters, resend, or follow up with the recipient directly.
+**Nobody opened it**
+→ The link might have gone to spam, or they just haven't gotten to it. Follow up or resend.
 
-### "The document was opened 200 times but I only shared it with 5 people"
-**Action**: the link was forwarded. If the content is sensitive, consider revoking the link and creating a new one with email verification enabled.
+**Way more opens than people you shared with**
+→ Someone forwarded the link. If that's a problem, revoke the link and create a new one with email verification turned on.
 
-### "Most opens are on mobile"
-**Action**: ensure your PDF is mobile-optimized — single-column layouts, larger fonts, minimal zoom-required content.
+**Mostly opened on phones**
+→ Make sure your PDF looks good on a small screen — single-column layout, readable font size.
 
-### "Opens spike at 2 AM"
-**Action**: for global audiences, this is normal. For local-only documents, investigate — it could indicate unauthorized access from a different time zone.
+**Someone keeps re-opening it**
+→ Good sign — they're interested. This is useful when tracking proposals or job applications.
 
-## Connecting Statistics to Access Controls
+## Adjusting controls based on what you see
 
-Statistics aren't just passive data — they should inform your access control decisions:
+The whole point of statistics is to help you decide what to do next:
 
-**High engagement, low risk** → keep current settings, maybe extend expiration
+**Everything looks normal** → no changes needed. Maybe extend the expiration if the document is still relevant.
 
-**Unexpected access patterns** → tighten controls:
-- Add email verification
+**Something looks off** (too many opens, unexpected timing):
+- Turn on email verification
 - Lower the view limit
 - Enable watermarks
-- Shorten expiration
+- Shorten the expiration
 
-**Low engagement** → loosen controls:
-- Remove email verification (it may be creating friction)
-- Extend expiration
-- Send the link through a different channel
+**Nobody's opening it** (low engagement):
+- Remove email verification — it might be scaring people off
+- Extend the expiration
+- Try sharing through a different channel (chat instead of email, or vice versa)
 
 ![Access Control Decision](/maipdf2026/flowchart/en-access-control-decision.svg)
 
-## Setting Up Proactive Monitoring
+## When to check your statistics
 
-For important documents, don't wait to check statistics — set a schedule:
-
-| Document Type | Check Frequency |
-|--------------|-----------------|
-| Active proposal | Daily for first week |
-| Internal report | Weekly |
-| Training material | After each session |
-| Long-term reference | Monthly |
+| What you shared | When to check |
+|----------------|---------------|
+| A proposal to a client | Next day, then every few days |
+| Internal team document | Once a week |
+| Training material | After each training session |
+| Something long-term | Once a month |
 
 ![Full Product Overview](/maipdf2026/show_off/show_off_page.png)
 
-## Statistics for Compliance
+## Getting started
 
-Access records serve as audit evidence for compliance frameworks:
-
-- **GDPR**: demonstrate that personal data documents were accessed only by authorized parties
-- **HIPAA**: prove that patient information had limited, logged access
-- **SOX**: show that financial documents were viewed within approval workflows
-
-Export access records from MaiPDF for inclusion in compliance reports.
-
-## Getting Started
-
-Upload any PDF to [maipdf.com](https://www.maipdf.com), share it, and check the statistics dashboard after 24 hours. The data will change how you think about document sharing.
+Upload a PDF to [maipdf.com](https://www.maipdf.com), share the link, and check back the next day. You'll see exactly who opened it and when.

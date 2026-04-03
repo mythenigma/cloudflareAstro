@@ -48,16 +48,7 @@ const buttonText = isMaiimg
   <article>
     <div class="prose">
       <div class="title">
-        <h1>
-          {title}
-          {
-            heroImage && (
-              <span class="title-hero-thumb" aria-hidden="true">
-                <OptimizedImage class="title-icon" src={heroImagePath} alt="" loading="eager" />
-              </span>
-            )
-          }
-        </h1>
+        <h1>{title}</h1>
         <div class="date">
           <FormattedDate date={displayDate} />
         </div>
@@ -282,25 +273,23 @@ const buttonText = isMaiimg
    * Hero next to title: OptimizedImage uses <picture> for some paths; scoped CSS
    * does not pierce child components. Force a true “favicon-sized” thumb here.
    */
-  .title-hero-thumb {
-    display: inline-block;
-    vertical-align: -0.12em;
-    margin-left: 0.4rem;
-    line-height: 0;
+  /* Hero banner below title */
+  .hero-banner {
+    margin-top: 1.5rem;
+    text-align: center;
   }
 
-  .title-hero-thumb :global(picture),
-  .title-hero-thumb :global(img) {
-    width: 28px !important;
-    height: 28px !important;
-    max-width: 28px !important;
-    max-height: 28px !important;
-    object-fit: cover;
-    border-radius: 50%;
-    display: inline-block;
-    box-shadow: none;
-    margin: 0;
-    vertical-align: middle;
+  .hero-banner :global(picture),
+  .hero-banner :global(img) {
+    max-width: 100%;
+    max-height: 320px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin: 0 auto;
+    display: block;
   }
   
   .date {

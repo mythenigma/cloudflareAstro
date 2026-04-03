@@ -1,84 +1,160 @@
 ---
 title: "MaiPDF H5 (offline HTML) generation guide: make a protected offline package"
-description: "Generate an offline H5/HTML package from a PDF, so people can read locally while you still enforce open limits and expiration."
+description: "Generate an offline HTML package from a PDF so recipients can read locally while access stays more structured than a raw file handoff."
 pubDate: "Mar 26 2026"
-updatedDate: "Mar 26 2026"
-tags: ["Offline PDF","H5","HTML Package","PDF DRM","Document Sharing"]
-author: "David Chen"
-heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
+updatedDate: "Apr 3 2026"
+tags: ["Offline PDF", "H5", "HTML Package", "PDF DRM", "Document Sharing"]
+heroImage: "/maipdf2026/show_off/en-offline-version.svg"
 ---
 
-“H5 generation” here means: **turn a PDF into an offline HTML package** (usually a ZIP) that a recipient can open locally in a browser. This is useful when:
+# MaiPDF H5 (offline HTML) generation guide: make a protected offline package
 
-- **Email / messenger blocks large attachments**
-- **Recipients need offline viewing** (train, flight, remote sites)
-- You still want **open limits** and **expiration** instead of a permanently forwarded PDF
+<div class="intro-panel">
+  <p>In this workflow, "H5 generation" means turning a PDF into an offline HTML package that recipients can open locally in a browser. It is a good fit when you want a self-contained delivery unit for offline reading, but you still want the package to follow defined rules instead of behaving like an unrestricted PDF copied from folder to folder.</p>
+</div>
 
-This guide uses the same mental model as the online flow: **Upload → Configure → Download**.
+![Offline HTML package entry view](/maipdf2026/show_off/en-offline-version.svg)
 
-## 1) Upload the PDF
+## What this workflow is for
 
-Start by uploading the PDF you want to protect.
+Use offline HTML generation when:
 
-![Offline upload screen: upload your PDF file](/offlinepages/upload_section_offline_maipdf.png)
+- Recipients may read on flights, trains, remote sites, or internal networks with unstable connectivity.
+- You want a cleaner delivery unit than "here is the PDF, please handle it carefully."
+- The document should stay within a defined review window or open allowance.
 
-## 2) Configure offline protections (DRM)
+If recipients have normal internet access and you want the lightest possible experience, an online secure link is usually simpler. Offline H5 is the stronger option when self-contained delivery matters more than instant online management.
 
-Set the rules that will be embedded into the offline package.
+![MaiPDF offline home screen](/offlinepages/offline-MaiPDF-Home-Page.png)
 
-- **Open limit**: how many times the package can be opened
-- **Expiration period**: how many days it remains valid
+## What the recipient actually gets
 
-![Offline DRM settings: open limit and expiration period](/offlinepages/security_setting.png)
+An offline H5 package is usually delivered as a ZIP archive. After extraction, the recipient opens the included HTML entry file in a browser.
 
-## 3) Download the H5/HTML package (ZIP)
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4>One portable package</h4>
+    <p>The sender distributes a single delivery unit instead of a loose PDF plus separate instructions.</p>
+  </div>
+  <div class="feature-item">
+    <h4>Browser-based reading</h4>
+    <p>Recipients do not need a dedicated app if their environment already allows standard browser usage.</p>
+  </div>
+  <div class="feature-item">
+    <h4>Structured controls</h4>
+    <p>Open limits and validity settings can be defined before the package is exported, keeping the workflow more disciplined than raw file transfer.</p>
+  </div>
+  <div class="feature-item">
+    <h4>Better operator clarity</h4>
+    <p>The sender has a repeatable generation process instead of inventing ad-hoc packaging rules for every document.</p>
+  </div>
+</div>
 
-After protections are applied, download the package.
+## Step 1: Upload the PDF
 
-![Result page: protected file ready and download button](/offlinepages/result_download_zip_file.png)
+Start with the final PDF you want recipients to read.
 
-## 4) Open locally (how recipients read it)
+![Offline upload screen](/offlinepages/upload_section_offline_maipdf.png)
 
-Typically the recipient:
+This is the moment to confirm version naming and audience scope. If the document is still changing, wait until the review copy is stable. Offline packages are cleaner when one package maps to one specific release.
 
-- Downloads the ZIP
-- Extracts it
-- Opens the included `.html` file in a browser
+## Step 2: Configure the offline protections
 
-![Open the HTML inside the extracted ZIP](/offlinepages/click_html_inside_zip_to_view.png)
+Before exporting the package, define the rules that should travel with it.
 
-## 5) Keep control: check status or update opens
+![Offline rules for open limit and expiration](/offlinepages/security_setting.png)
 
-Offline packages still have a control loop. You can use the generated codes to:
+Typical controls include:
 
-- **Check status** (is it still valid, remaining opens)
-- **Update access** (add more opens when needed)
+- Open limit
+- Expiration window
+- Session or reading duration, where applicable
 
-![Use reading/modification codes to check or change access](/offlinepages/result-check-change.png)
+The point is not to create unrealistic "perfect DRM" claims. The point is to make the package behave like a managed delivery unit instead of a permanently reusable loose file.
 
-![Example: successfully updated number of opens](/offlinepages/success_example_offline_file_change.png)
+## Step 3: Generate and download the package
 
-### Flow: PDF → offline H5 package → updates
+Once the rules are set, export the offline package.
 
-```mermaid
-flowchart TB
-  A[Upload PDF] --> B["Configure: open limit and expiration"]
-  B --> C["Generate offline package (ZIP)"]
-  C --> D["Recipient downloads and extracts"]
-  D --> E["Open the included HTML locally"]
-  E --> F{"Need more opens or extend access?"}
-  F -->|No| G[Done]
-  F -->|Yes| H["Use codes to check or update access"]
-  H --> E
-```
+![Offline package ready for download](/offlinepages/result_download_zip_file.png)
 
-## Offline H5 vs online secure link (which to use)
+Operationally, this is where teams should decide:
 
-- **Pick offline H5** when network is unreliable, or you must deliver a self-contained package.
-- **Pick an online secure link** when you want the cleanest experience (no ZIP extraction) and stronger auditing.
+- Which internal folder or portal stores the package
+- Who approves replacements when the source file changes
+- Whether recipients will receive the ZIP directly or a pre-extracted folder on managed devices
 
-If you want the online workflow with access records, QR sharing, email verification, and viewing modes, see the full online guide below.
+## Step 4: Open the included HTML locally
 
----
+Recipients usually extract the package and open the provided HTML file in a browser.
 
-**Related:** [MaiPDF complete workflow guide (with diagrams)](/en/maipdf-complete-workflow-guide-with-diagrams) · [Secure PDF links](/en/secure-pdf-links) · [PDF to QR](/en/pdf-to-qr)
+![Open the included HTML file](/offlinepages/click_html_inside_zip_to_view.png)
+
+This reading path is worth testing yourself before distribution. A polished workflow is not only about protection; it is also about avoiding confusion for the reader at the moment of access.
+
+## Step 5: Check status or adjust access when needed
+
+Offline delivery can still include a control loop for checking status or updating allowed opens, depending on the workflow in use.
+
+![Check or modify access status](/offlinepages/result-check-change.png)
+
+![Updated access result example](/offlinepages/success_example_offline_file_change.png)
+
+This is especially useful when a legitimate recipient needs a small extension instead of receiving an entirely new uncontrolled copy.
+
+## Offline H5 package vs online secure link
+
+| Use case | Better choice | Why |
+| --- | --- | --- |
+| Recipients have normal internet and need fast access | Online secure link | Lower friction and easier follow-up |
+| Team works in restricted or unreliable network conditions | Offline H5 package | Self-contained reading path |
+| You need live access records right away | Online secure link | Stronger real-time visibility |
+| You need a package handed off through USB or internal portal | Offline H5 package | Cleaner than sharing the raw PDF |
+
+## Recommended rollout rules
+
+<div class="scenario-section">
+  <div class="scenario-card">
+    <h3>One package, one audience</h3>
+    <p>Do not use the same offline package for unrelated recipient groups if the review cycle or sensitivity differs.</p>
+  </div>
+  <div class="scenario-card">
+    <h3>Test before delivery</h3>
+    <p>Check extraction and local opening on the browser profile your recipients are actually using.</p>
+  </div>
+  <div class="scenario-card">
+    <h3>Replace cleanly</h3>
+    <p>When the source PDF changes, update the distribution point instead of leaving multiple similar packages circulating.</p>
+  </div>
+  <div class="scenario-card">
+    <h3>Keep expectations realistic</h3>
+    <p>Offline packaging adds structure and control, but it should still be paired with sensible handling rules inside the team.</p>
+  </div>
+</div>
+
+## FAQ
+
+<div class="faq-section">
+  <div class="faq-item">
+    <h4>Is H5 generation just another name for PDF conversion?</h4>
+    <p>No. The useful difference is that the output is meant to be distributed as an offline reading package, not merely converted for display.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Can this replace online PDF sharing completely?</h4>
+    <p>No. It solves a different problem. Online links are usually better when ease of access, live records, and rapid updates matter most.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Why test the extracted package before sending it out?</h4>
+    <p>Because offline delivery is slightly more operational than a web link. Testing lets you catch browser, extraction, or device friction before it lands on the recipient.</p>
+  </div>
+</div>
+
+## Final takeaway
+
+MaiPDF H5 generation is best understood as an offline delivery workflow, not a buzzword. Upload the final PDF, attach the right rules, export a browser-openable package, and verify the reader experience before distribution. That gives you a much more professional offline handoff than sending a bare PDF around.
+
+## Related
+
+- [MaiPDF complete workflow guide (with diagrams)](/blog/en/maipdf-complete-workflow-guide-with-diagrams/)
+- [Secure PDF links](/blog/en/secure-pdf-links/)
+- [PDF to QR](/blog/en/pdf-to-qr/)

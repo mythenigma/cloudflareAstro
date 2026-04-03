@@ -8,14 +8,19 @@ tags: ["PDF control", "download management", "document security", "access permis
 
 Whether someone can **download** or only **read in the browser** is part of how you set up the link on [MaiPDF’s main tool](https://maipdf.com/pdf/maipdf2026.html). Alongside that, you’ll choose **how many opens** you allow, **session length**, **expiration**, optional **Telegram read alerts**, optional **email verification**, and a **viewing mode** that can tighten or loosen what the reader can do on screen.
 
-## Simple decision table
+## Quick decision guide
 
-| Goal | What to bias toward |
-|------|---------------------|
-| Fewer file copies passing around; read in the session we give them | Stricter **viewing mode** (e.g. SecureView-style protected viewing) + **limits** + **expiration** |
-| Reader truly needs a normal, low-friction experience | **Unrestricted** viewing when policy allows |
-| Extra deterrence against casual screenshots | Consider **FenceView** (see on-page help on [maipdf2026](https://maipdf.com/pdf/maipdf2026.html)) |
-| Unknown people on the internet | Add **email verification** + shorter **expiration** |
+**Want fewer file copies floating around?**
+Use a stricter viewing mode (SecureView) + access limits + expiration.
+
+**Reader needs a normal, low-friction experience?**
+Use Unrestricted viewing when policy allows.
+
+**Need to deter casual screenshots?**
+Try FenceView (see on-page help on [maipdf2026](https://maipdf.com/pdf/maipdf2026.html)).
+
+**Sharing with unknown people on the internet?**
+Add email verification + shorter expiration.
 
 Always set **expiration** and sensible **access limits** for sensitive or external shares.
 
