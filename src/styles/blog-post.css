@@ -197,19 +197,16 @@
   white-space: normal;
 }
 
-/* Short-value columns (2nd, 3rd…) should not break mid-word */
-.content-wrapper tbody td:nth-child(2) {
+/* First column is a short label — keep it on one line */
+.content-wrapper tbody td:first-child {
+  font-weight: 600;
+  color: #1e293b;
   white-space: nowrap;
+  min-width: 8rem;
 }
 
 .content-wrapper tbody tr:last-child td {
   border-bottom: none;
-}
-
-/* Bold first column as row header */
-.content-wrapper tbody td:first-child {
-  font-weight: 600;
-  color: #1e293b;
 }
 
 /* "Yes/No" badge style for short cell values */
