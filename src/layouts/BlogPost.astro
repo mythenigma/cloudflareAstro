@@ -303,7 +303,8 @@ const buttonText = isMaiimg
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 2rem 0;
+    margin: 2rem -2rem;
+    width: calc(100% + 4rem);
     font-size: 0.95rem;
     line-height: 1.55;
     border-radius: 12px;
@@ -339,15 +340,13 @@ const buttonText = isMaiimg
     white-space: normal;
   }
 
-  article tbody td:nth-child(2) {
-    white-space: nowrap;
-  }
-
   article tbody tr:last-child td { border-bottom: none; }
 
   article tbody td:first-child {
     font-weight: 600;
     color: #1e293b;
+    white-space: nowrap;
+    min-width: 8rem;
   }
 
   article img {

@@ -146,10 +146,10 @@
    Tables — polished, responsive, zebra-striped
    ═══════════════════════════════════════════════════════════════ */
 .content-wrapper table {
-  width: 100%;
+  width: calc(100% + 4rem);
+  margin: 2rem -2rem;
   border-collapse: separate;
   border-spacing: 0;
-  margin: 2rem 0;
   font-size: 0.95rem;
   line-height: 1.55;
   border-radius: 12px;
