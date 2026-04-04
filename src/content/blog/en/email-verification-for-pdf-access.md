@@ -2,7 +2,7 @@
 title: "Email Verification for PDF Access (Quick Flow)"
 description: "How MaiPDF's email verification works: require a one-time code before anyone can open your shared PDF. Setup steps, allowlist options, and real screenshots."
 heroImage: "/maipdf2026/show_off/email verification_only sepcified people can receive.png"
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
 tags: ["PDF Security", "Access Control", "Email Verification"]
 showDefaultCta: true
 ---

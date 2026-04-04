@@ -1,8 +1,10 @@
 ---
 title: "Enterprise Document Distribution: A Practical Security Workflow"
 description: "A clear, step-by-step workflow for distributing sensitive documents across teams and recipients—without losing control."
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/user_control_panel_alotof_functions.png"
 tags: ["Enterprise", "Document Distribution", "Access Control", "Security", "Workflow"]
+showDefaultCta: true
 ---
 
 # Enterprise Document Distribution: A Practical Security Workflow

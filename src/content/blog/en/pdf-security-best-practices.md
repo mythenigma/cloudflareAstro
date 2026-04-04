@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF Security Best Practices: A Practical Checklist"
 description: "A no-nonsense checklist of PDF security best practices. Cover access control, watermarking, expiration, analytics, and common mistakes to avoid."
 pubDate: "Apr 2 2026"
@@ -57,13 +57,13 @@ Check who opened your document, when, and from where. Look for:
 - Access outside business hours
 - Unusually high view counts (possible forwarding)
 
-![Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Implementation with MaiPDF
 
 Upload your PDF to [maipdf.com](https://www.maipdf.com) and configure:
 
-![Settings Panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 1. **View limit** — match to your audience size + margin
 2. **Expiration** — set a date

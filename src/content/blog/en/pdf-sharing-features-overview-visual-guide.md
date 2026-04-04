@@ -1,8 +1,10 @@
 ---
 title: "PDF Sharing Features Overview"
 description: "A quick guide to online controls, offline options, and link management—no enterprise features."
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["PDF Sharing", "Access Control", "PDF Security", "Diagrams"]
+showDefaultCta: true
 ---
 
 # PDF Sharing Features Overview

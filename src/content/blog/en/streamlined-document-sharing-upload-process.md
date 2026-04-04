@@ -1,8 +1,8 @@
----
+﻿---
 title: "🚀 Streamlined Document Sharing: Mastering the PDF Upload Process"
 description: "Learn how to efficiently upload and configure security settings for your PDFs to ensure safe sharing while maintaining control over your sensitive documents."
 pubDate: "Apr 3 2026"
-heroImage: "/2025MayMaiPDF/upload_in_cloudshare.png"
+heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Upload", "Document Sharing", "Security Settings", "File Sharing", "Document Management"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["PDF Upload", "Document Sharing", "Security Settings", "File Sharing", "D
   <p>This guide explores how to optimize the PDF upload process while implementing the right security controls from the start.</p>
 </div>
 
-![PDF Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![PDF Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 
 ![Upload Share Track Workflow](/maipdf2026/flowchart/en-upload-share-flow.svg)
@@ -33,7 +33,7 @@ MaiPDF provides a comprehensive set of security options configurable during the 
 
 ### 1. Access Controls
 
-![Security Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Security Settings Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 - **View limits**: Restrict the number of times your document can be accessed
 - **Expiration dates**: Set documents to become inaccessible after a specific date
@@ -66,7 +66,7 @@ To make the most of the upload process:
 
 ## 🔄 The Complete Upload Workflow
 
-![MaiPDF Interface Menus](/2025MayMaiPDF/menus_in_maipdf.png)
+![MaiPDF Interface Menus](/maipdf2026/user_control_panel_alotof_functions.png)
 
 Follow these steps for a secure, efficient upload process:
 
@@ -93,7 +93,7 @@ Follow these steps for a secure, efficient upload process:
 
 ## 🌟 Advanced Upload Features
 
-![Generated Links and QR Codes](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Generated Links and QR Codes](/maipdf2026/Result_of_qr_link.png)
 
 MaiPDF offers advanced options to further enhance your document management:
 

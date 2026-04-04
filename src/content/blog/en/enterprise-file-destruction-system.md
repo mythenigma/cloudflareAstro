@@ -1,16 +1,17 @@
 ---
 title: "Enterprise File Self-Destruction: Practical Control Model"
 description: "A practical enterprise model for time-limited document access, controlled revocation, and post-incident response."
-pubDate: "Feb 11 2026"
-heroImage: "/maipdf-images/security_setting.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Enterprise Security", "File Destruction", "Data Protection", "PDF Encryption", "Access Control"]
+showDefaultCta: true
 ---
 
 # Enterprise File Self-Destruction: Practical Control Model
 
 "Self-destruction" in enterprise document workflows means expiring access by policy, then revoking stale links quickly.
 
-![MaiPDF Security Settings](/maipdf-images/security_setting.png)
+![MaiPDF settings — expiry and security controls](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## What enterprise teams actually need
 

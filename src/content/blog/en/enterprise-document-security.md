@@ -1,4 +1,4 @@
----
+﻿---
 title: "Enterprise Document Security: Protecting Sensitive Files at Scale"
 description: "How enterprises protect PDFs and sensitive documents across teams, departments, and external partners. Practical controls for access, tracking, and compliance."
 pubDate: "Apr 2 2026"
@@ -63,7 +63,7 @@ Toggle in the settings panel:
 - Print: off
 - Watermark: on (auto-displays viewer's email)
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ### Monitoring
 Check the access records dashboard:
@@ -72,7 +72,7 @@ Check the access records dashboard:
 - How many times
 - Whether any blocked actions were attempted
 
-![Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ![Securely Share PDFs](/maipdf2026/show_off/securityshowoff.png)
 

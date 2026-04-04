@@ -1,8 +1,8 @@
----
+﻿---
 title: "Privnote Self-Destruct Messages: Practical Use Cases"
 description: "Use self-destruct notes for temporary sensitive communication with clear limits and safe operating habits."
 pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Privnote", "self-destruct messages", "use cases", "privacy protection", "secure sharing"]
 ---
 

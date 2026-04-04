@@ -1,8 +1,8 @@
----
+﻿---
 title: "Open Statistics and Access Control Guide"
 description: "How to use open statistics to see who read your PDF, when they read it, and what to do with that information."
 pubDate: "Apr 2 2026"
-heroImage: "/2025MayMaiPDF/PDF_ACCESS_RECORDS.png"
+heroImage: "/maipdf2026/page_redirect_to_accessRecord.png"
 tags: ["Analytics", "Access Control", "Statistics"]
 ---
 
@@ -18,7 +18,7 @@ Once someone opens your shared PDF link, MaiPDF records:
 - **When** each open happened
 - **From what device** (phone, laptop, tablet)
 
-![Access Records Dashboard](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records Dashboard](/maipdf2026/page_redirect_to_accessRecord.png)
 
 That's it — no complex setup. Share a link, then check the records.
 

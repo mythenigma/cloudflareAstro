@@ -1,8 +1,10 @@
 ---
 title: "Free Secure PDF Sharing Tool: Complete Guide"
 description: "Share PDFs for free with access control, download rules, and clear open stats. Practical setup and policy templates."
-pubDate: "Jan 17 2026"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF", "Sharing", "Security"]
+showDefaultCta: true
 ---
 
 # Free Secure PDF Sharing Tool: Complete Guide
@@ -34,10 +36,10 @@ Free sharing should not mean zero control. Use this guide to set up a low-fricti
 
 ## Visual Workflow
 
-![Upload PDF](/maipdf-images/upload_section.png)
-![Security settings](/maipdf-images/security_setting.png)
-![Share link and QR code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
-![Open statistics dashboard](/maipdf-images/check_pdf_open_result.png)
+![MaiPDF landing page — upload to get started](/maipdf2026/Maipdf_LANDING_PAGE.png)
+![Settings panel — download, expiry, open limit, watermark](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
+![Generated link and QR code — ready to share](/maipdf2026/Result_of_qr_link.png)
+![Access records — see who opened and when for follow-up](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Recommended Policy Presets
 

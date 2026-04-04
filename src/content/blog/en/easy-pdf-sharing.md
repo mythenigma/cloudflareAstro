@@ -1,4 +1,4 @@
----
+﻿---
 title: "Easy PDF Sharing: Upload Once, Share Anywhere"
 description: "The simplest way to share PDF documents online. Upload your file, get a link, and send it to anyone — no software installs, no email size limits."
 pubDate: "Apr 2 2026"
@@ -48,7 +48,7 @@ Easy doesn't have to mean unprotected. After uploading, you can toggle a few set
 | Download toggle | Allow or block PDF download | Prevent unauthorized copies |
 | Watermark | Overlay visitor info on every page | Sensitive reports, contracts |
 
-![Settings Panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ![Share PDFs Easily and Safely](/maipdf2026/show_off/share_pdf_online-show.png)
 

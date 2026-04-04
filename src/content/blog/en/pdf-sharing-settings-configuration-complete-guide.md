@@ -1,16 +1,17 @@
 ---
 title: "PDF Sharing Settings: Practical Configuration Guide"
 description: "Configure PDF sharing settings with a compact policy model: access, lifecycle, protection, and monitoring."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Settings", "Security Configuration", "PDF Configuration", "Document Settings", "Sharing Options"]
+showDefaultCta: true
 ---
 
 # PDF Sharing Settings: Practical Configuration Guide
 
 Good PDF security comes from consistent defaults, not complex one-off setups.
 
-![Settings in CloudShare](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings panel — configure access rules by document type](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Four settings groups that matter
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dynamic Watermarks on PDF: Chinese Language Document Protection"
 description: "How to apply dynamic watermarks to Chinese-language PDFs. Protect bilingual documents, contracts, and business materials shared across Chinese-speaking markets."
 pubDate: "Apr 2 2026"
@@ -42,7 +42,7 @@ MaiPDF generates dynamic watermarks automatically when the setting is enabled.
    - IP address
    - Custom text (supports Chinese characters)
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 The watermark appears on every page when the document is viewed — rendered at view time, not burned into the file.
 

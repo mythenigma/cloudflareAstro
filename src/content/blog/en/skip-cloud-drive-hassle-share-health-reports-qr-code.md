@@ -1,14 +1,15 @@
----
+﻿---
 title: "Skip the Cloud‑Drive Hassle: Share Health Reports with Parents via a Single QR Code"
 description: "Share large medical files easily with parents using a single QR code. No apps, no sign-ins, just instant browser access."
-pubDate: "May 02 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/Result_of_qr_link.png"
+showDefaultCta: true
 tags: ["QR Code", "PDF Sharing", "Health Reports", "Family Sharing", "Senior Friendly"]
 ---
 
 Family sharing can be simple—even when medical files are large and your parents don’t want another app. With one QR code you can send a complete health report that opens instantly in any browser, scales neatly on a phone screen, and never clogs their storage. Below is a practical guide that treats your parents as smart, independent people who just prefer fewer steps.
 
-![QR code and PDF link result](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![QR code and PDF link result](/maipdf2026/Result_of_qr_link.png)
 
 ## Why bother ditching cloud‑drive links?
 
@@ -29,7 +30,7 @@ Family sharing can be simple—even when medical files are large and your parent
 4.  **Parents scan & read**—Their phone’s built‑in camera launches the report instantly in the browser.
 5.  **Track peace of mind**—A quick glance at your dashboard confirms Mom has viewed it twice and Dad once—no more “Did you get it?” phone calls.
 
-![Upload section interface](/maipdf-images/upload_section.png)
+![Upload section interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 *(MaiPDF’s name never appears on the QR splash screen, keeping the flow clean and brand‑neutral.)*
 
@@ -41,7 +42,7 @@ Rename it `Dad_Checkup_March2025.pdf` before upload; the filename shows in the b
 ### 2. Choose “Family‑Friendly Reading Mode”
 This optional MaiPDF preset enlarges body text to 16 px minimum and enables high‑contrast page thumbnails—great for aging eyes.
 
-![Security settings panel](/maipdf-images/security_setting.png)
+![Security settings panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ### 3. Add a personal note
 Inside MaiPDF’s “Intro message” box, type:
@@ -63,7 +64,7 @@ Let the built‑in open‑tracking handle the rest. If the report hasn’t been 
 *   **Auto‑expire** erases the link on the date you choose, trimming digital clutter for your parents.
 *   **Device‑agnostic:** Works on iPhone, Android, iPad—any browser from Safari to Chrome.
 
-![PDF native view in browser](/maipdf-images/pdf_native_view_on_ui.png)
+![PDF native view in browser](/maipdf2026/show_off/showpdf.png)
 
 ## Make it part of the routine
 
@@ -77,4 +78,4 @@ Let the built‑in open‑tracking handle the rest. If the report hasn’t been 
 
 Family sharing, senior‑friendly design, QR code viewing, health report delivery—put these four ideas together and you get a workflow that removes friction for everyone. The next time you receive a PDF from the hospital, spend 30 seconds in MaiPDF, generate a code, and send it off. Your parents stay informed, you stay organised, and nobody wrestles with cloud‑drive log‑ins again.
 
-![Tracking who has viewed your document](/maipdf-images/check_pdf_open_result.png)
+![Tracking who has viewed your document](/maipdf2026/page_redirect_to_accessRecord.png)

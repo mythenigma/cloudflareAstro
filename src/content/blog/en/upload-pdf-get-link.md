@@ -1,8 +1,8 @@
----
+﻿---
 title: "Upload PDF Get Link: Simple File Sharing in Three Easy Steps"
 description: "Upload any PDF file and get an instant shareable link. No registration, no complexity - just fast, simple document sharing that works everywhere."
 pubDate: "Apr 3 2026"
-heroImage: "/2025MayMaiPDF/upload_in_cloudshare.png"
+heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["upload PDF", "instant links", "simple sharing", "file upload"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["upload PDF", "instant links", "simple sharing", "file upload"]
 
 Document sharing should be simple. Upload your PDF, get a link, share it anywhere. That's exactly how MaiPDF works - no complicated processes, no lengthy registrations, just straightforward file sharing that gets the job done.
 
-![Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 
 ![Upload Share Track Workflow](/maipdf2026/flowchart/en-upload-share-flow.svg)
@@ -53,7 +53,7 @@ Once your PDF is uploaded, you receive several useful items:
 
 **Management Controls**: Easy access to settings and analytics for your uploaded file.
 
-![Link and QR Code Results](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link and QR Code Results](/maipdf2026/Result_of_qr_link.png)
 
 ## File Upload Flexibility
 
@@ -89,7 +89,7 @@ The moment your upload completes, your shareable link is ready:
 
 **Universal Compatibility**: Links work on any device with internet access.
 
-![Homepage Overview](/2025MayMaiPDF/Home_Landing.png)
+![Homepage Overview](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Upload Security and Privacy
 
@@ -109,7 +109,7 @@ After getting your link, you have full control over your uploaded document:
 
 **Access Settings**: Control whether recipients can download the file or only view it online.
 
-![Settings Management](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Management](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **Usage Tracking**: Monitor when and how often your link is accessed.
 
@@ -117,7 +117,7 @@ After getting your link, you have full control over your uploaded document:
 
 **Settings Updates**: Change permissions and access controls even after sharing the link.
 
-![Change Settings](/2025MayMaiPDF/changefilesetting.png)
+![Change Settings](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## Multiple Sharing Methods
 
@@ -191,7 +191,7 @@ Ready to upload your first PDF and get a shareable link?
 4. **Copy Your Link**: Get your professional URL within seconds
 5. **Share Everywhere**: Use your link in emails, messages, or anywhere else
 
-![Access Analytics](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Analytics](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Why Choose Upload and Link Sharing
 

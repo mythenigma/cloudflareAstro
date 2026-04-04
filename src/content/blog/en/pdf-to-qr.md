@@ -1,4 +1,4 @@
----
+﻿---
 title: "Turn any PDF into a QR code"
 description: "Upload a PDF and instantly generate a shareable QR code. Control access, set view limits, and share documents without email attachments."
 pubDate: "Apr 3 2026"
@@ -45,7 +45,7 @@ Use the generated QR code in multiple ways:
 - Embed it in websites or emails
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="QR Code and Link Result" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="QR Code and Link Result" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Practical applications
@@ -80,7 +80,7 @@ Set expiration dates for automatic QR code deactivation. Most codes expire withi
 Control how long each viewing session lasts. After the specified time, users need to scan the QR code again to continue viewing.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/settings_in_cloudshare.png" alt="QR Code Access Settings" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/MaiPDF_settings_expiration_telegram.png" alt="QR Code Access Settings" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Technical advantages
@@ -240,7 +240,7 @@ Files and associated QR codes are removed from servers according to your expirat
 All document uploads and QR code generation use encrypted connections to protect your files during the process.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/Home_Landing.png" alt="MaiPDF Home Interface" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Maipdf_LANDING_PAGE.png" alt="MaiPDF Home Interface" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Comparison with alternatives

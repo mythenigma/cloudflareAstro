@@ -1,8 +1,8 @@
----
+﻿---
 title: "Privnote Encrypted Note Sharing: Practical Guide"
 description: "Use encrypted self-destruct notes for temporary sensitive communication with clear scope and safe usage habits."
 pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Privnote", "encrypted notes", "secure sharing", "privacy protection", "information encryption"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["Privnote", "encrypted notes", "secure sharing", "privacy protection", "i
 
 Encrypted notes are useful for short-lived information exchange when permanent records are not required.
 
-![Encrypted Note Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Encrypted Note Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Best use cases
 

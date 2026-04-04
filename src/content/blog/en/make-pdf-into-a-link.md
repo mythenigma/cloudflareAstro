@@ -1,4 +1,4 @@
----
+﻿---
 title: "Make PDF Into a Link: Transform Documents Into Shareable URLs"
 description: "Convert any PDF into a clickable link in seconds. Upload, generate, and share professional URLs that work on any device without file size limits."
 pubDate: "Apr 2 2026"
@@ -25,9 +25,9 @@ Turn any PDF into a professional, shareable link in seconds. Instead of sending 
 | 2. Configure | Set download permissions, view limits, expiration | Controls are saved server-side |
 | 3. Share | Copy the link or QR code | Recipients click to view — no install needed |
 
-![Upload your PDF to cloud share](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload your PDF to cloud share](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
-![Generated link and QR code](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Generated link and QR code](/maipdf2026/Result_of_qr_link.png)
 
 ## Why links beat attachments
 
@@ -45,7 +45,7 @@ Every link you generate comes with configurable access controls:
 
 **Download & print control** — decide whether recipients can save the file or only view it online.
 
-![Settings configuration panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings configuration panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **QR code** — every link automatically gets a scannable QR code for offline-to-online sharing.
 
@@ -75,11 +75,11 @@ Links are not fire-and-forget. You can adjust settings at any time:
 
 - **Edit controls** — change download permissions, expiration, or view limits after the link is live
 
-![Change file settings](/2025MayMaiPDF/changefilesetting.png)
+![Change file settings](/maipdf2026/user_control_panel_alotof_functions.png)
 
 - **View analytics** — detailed access records show IP, timestamp, and open count
 
-![PDF access records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![PDF access records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 - **Bulk management** — handle multiple links from a single dashboard
 
@@ -111,6 +111,6 @@ Links are not fire-and-forget. You can adjust settings at any time:
 3. **Copy the link** — share it anywhere
 4. **Track access** — monitor opens from your dashboard
 
-![MaiPDF homepage](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF homepage](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 Converting PDFs to links replaces the cycle of attach → send → bounce → re-send with a single URL that you control from upload to expiration.

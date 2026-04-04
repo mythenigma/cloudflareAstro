@@ -1,8 +1,8 @@
----
+﻿---
 title: "🔒 PDF Access Controls: Practical Implementation for Document Security"
 description: "Explore how to effectively implement PDF access controls to protect sensitive information while maintaining usability for authorized recipients."
 pubDate: "Apr 3 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Security", "Access Control", "Document Protection", "View Limits", "Document Expiration"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["PDF Security", "Access Control", "Document Protection", "View Limits", "
   <p>This guide explores practical approaches to implementing effective access controls for your sensitive PDFs.</p>
 </div>
 
-![Security Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Security Settings Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 
 ![View Limit Access Control Decision Flow](/maipdf2026/flowchart/en-access-control-decision.svg)
@@ -48,7 +48,7 @@ MaiPDF offers several fundamental access control options:
 
 ## 🔐 Implementing Effective Access Controls
 
-![MaiPDF Interface](/2025MayMaiPDF/menus_in_maipdf.png)
+![MaiPDF Interface](/maipdf2026/user_control_panel_alotof_functions.png)
 
 To set up access controls that balance security with usability:
 
@@ -94,7 +94,7 @@ Different documents require customized protection approaches:
 
 ## 🌟 Balancing Security and Usability
 
-![Home Landing Page](/2025MayMaiPDF/Home_Landing.png)
+![Home Landing Page](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 Effective access controls find the right balance:
 

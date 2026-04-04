@@ -1,4 +1,4 @@
----
+﻿---
 title: "Marketing Materials Dynamic Watermark: Protect Branded Content"
 description: "How to use dynamic watermarks on marketing PDFs. Protect brochures, price lists, and brand assets while still allowing easy distribution to partners and clients."
 pubDate: "Apr 2 2026"
@@ -44,7 +44,7 @@ Dynamic watermarks resolve this tension: the document is easy to access and read
    - Download OFF (prevents partners from redistributing the file)
    - Expiration set to campaign end date
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Distribution Workflow for Marketing Teams
 

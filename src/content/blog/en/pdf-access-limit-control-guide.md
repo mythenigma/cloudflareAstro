@@ -1,9 +1,10 @@
 ---
 title: "How to Limit PDF Access Count: Practical Guide"
 description: "Control PDF sharing scope with access count limits, expiry rules, and segmented links. Step-by-step setup on MaiPDF."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF access limits", "document security", "access control", "view limits", "document protection"]
+showDefaultCta: true
 ---
 
 # How to Limit PDF Access Count: Practical Guide

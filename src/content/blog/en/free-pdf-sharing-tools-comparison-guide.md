@@ -1,9 +1,10 @@
 ---
 title: "Free PDF Sharing Tools Comparison Guide"
 description: "Decision-focused comparison of free PDF sharing tools by control capability, distribution friction, and operational reliability."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Sharing", "Tool Comparison", "Free Tools", "Document Sharing", "Online Tools"]
+showDefaultCta: true
 ---
 
 # Free PDF Sharing Tools Comparison Guide
@@ -12,7 +13,7 @@ tags: ["PDF Sharing", "Tool Comparison", "Free Tools", "Document Sharing", "Onli
   <p>The best free tool is not the one with the longest feature list. It is the one that matches your document-sharing workflow.</p>
 </div>
 
-![Platform home](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF — upload PDF and get a shareable link instantly](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Evaluation Criteria
 

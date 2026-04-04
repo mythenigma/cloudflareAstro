@@ -1,8 +1,10 @@
 ---
 title: "QR Codes for Document Distribution: From Link to Scan"
 description: "A short, practical look at using QR codes to distribute documents faster across print and digital channels."
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Codes", "Document Distribution", "Sharing Workflow"]
+showDefaultCta: true
 ---
 
 # QR Codes for Document Distribution: From Link to Scan

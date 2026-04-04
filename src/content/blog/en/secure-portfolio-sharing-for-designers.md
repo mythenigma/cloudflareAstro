@@ -1,8 +1,8 @@
----
+﻿---
 title: "🎨 Secure Portfolio Sharing for Designers: Protecting Your Creative Work"
 description: "Discover how designers can securely share their portfolios with clients and potential employers while maintaining control over their creative assets."
 pubDate: "Apr 3 2026"
-heroImage: "/2025MayMaiPDF/upload_in_cloudshare.png"
+heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["Design Portfolio", "Creative Work Protection", "Secure Sharing", "Job Applications", "Portfolio Security"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Design Portfolio", "Creative Work Protection", "Secure Sharing", "Job Ap
   <p>This guide explores how to securely share your design work while maintaining control over who sees it and how it's used.</p>
 </div>
 
-![Portfolio Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Portfolio Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 
 ![PDF Security Layers Overview](/maipdf2026/flowchart/en-security-layers.svg)
@@ -28,7 +28,7 @@ Creative professionals face unique challenges when sharing their work:
 - 🛑 **Usage control**: Preventing downloads of high-resolution assets
 - 🗓️ **Time sensitivity**: Limiting access during specific hiring windows
 
-![MaiPDF Home Landing Page](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Home Landing Page](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ### Protection Features for Design Work
 
@@ -58,11 +58,11 @@ Common portfolio sharing methods have significant limitations:
 - No usage analytics
 - Difficult to revoke access
 
-![MaiPDF Online Sharing Header](/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png)
+![MaiPDF Online Sharing Header](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🛡️ Secure Portfolio Sharing with MaiPDF
 
-![Security Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Security Settings Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 MaiPDF offers designers specific advantages for portfolio protection:
 
@@ -82,11 +82,11 @@ MaiPDF offers designers specific advantages for portfolio protection:
 
 ![Dynamic Watermark Example](/maipdf2026/dynamic_water_mark_example.jpg)
 
-![MaiPDF Menus Interface](/2025MayMaiPDF/menus_in_maipdf.png)
+![MaiPDF Menus Interface](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## 📊 Portfolio Analytics for Job Seekers
 
-![Access Records Dashboard](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records Dashboard](/maipdf2026/page_redirect_to_accessRecord.png)
 
 Gain valuable insights during your job search:
 
@@ -108,7 +108,7 @@ Design professionals can leverage secure sharing in multiple scenarios:
 - Time follow-up emails based on portfolio engagement
 - Revoke access after recruitment cycles end
 
-![Watermark Verification](/2025MayMaiPDF/checkwatermark.png)
+![Watermark Verification](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ### Client Pitches
 - Share concept work with appropriate protections
@@ -126,7 +126,7 @@ Design professionals can leverage secure sharing in multiple scenarios:
 
 ## 🔄 The Secure Portfolio Workflow
 
-![MaiPDF Interface](/2025MayMaiPDF/menus_in_maipdf.png)
+![MaiPDF Interface](/maipdf2026/user_control_panel_alotof_functions.png)
 
 Follow these steps to protect your creative work:
 
@@ -136,7 +136,7 @@ Follow these steps to protect your creative work:
 - Include appropriate context and descriptions
 - Optimize file size without sacrificing quality
 
-![Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ### Step 2: Security Configuration
 - Upload your portfolio to MaiPDF
@@ -144,9 +144,9 @@ Follow these steps to protect your creative work:
 - Set up watermarking with viewer information
 - Determine appropriate expiration and view limits
 
-![Security Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Security Settings Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
-![Change File Settings](/2025MayMaiPDF/changefilesetting.png)
+![Change File Settings](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ### Step 3: Distribution
 - Generate secure links or QR codes
@@ -154,7 +154,7 @@ Follow these steps to protect your creative work:
 - Include clear instructions for access
 - Prepare for any authentication requirements
 
-![Result Link and QR Code](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Result Link and QR Code](/maipdf2026/Result_of_qr_link.png)
 
 ### Step 4: Engagement Analysis
 - Monitor access notifications
@@ -162,13 +162,13 @@ Follow these steps to protect your creative work:
 - Identify which designs capture attention
 - Time follow-up communications strategically
 
-![Access Records Dashboard](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records Dashboard](/maipdf2026/page_redirect_to_accessRecord.png)
 
-![Check Watermark Information](/maipdf2026/checkwatermark.png)
+![Check Watermark Information](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## 🌟 Portfolio Sharing Best Practices
 
-![Result Link and QR Code](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Result Link and QR Code](/maipdf2026/Result_of_qr_link.png)
 
 Maximize the impact of your secure portfolio:
 
@@ -203,7 +203,7 @@ Best regards,
 [Your Name]
 ```
 
-![MaiPDF Home Landing](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Home Landing](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ### For Client Pitches
 
@@ -226,7 +226,7 @@ Best regards,
 
 ## 🎨 Design-Specific Security Considerations
 
-![MaiPDF Online Sharing Header](/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png)
+![MaiPDF Online Sharing Header](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 Unique protection needs for creative work:
 
@@ -235,7 +235,7 @@ Unique protection needs for creative work:
 - Position security elements away from critical visual components
 - Balance protection with proper representation of your work
 
-![Watermark Verification](/2025MayMaiPDF/checkwatermark.png)
+![Watermark Verification](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ### Typography Protection
 - Consider how to protect custom typefaces and lettering
@@ -251,7 +251,7 @@ Unique protection needs for creative work:
 
 ## 🌐 Building Your Professional Reputation
 
-![MaiPDF Interface](/2025MayMaiPDF/menus_in_maipdf.png)
+![MaiPDF Interface](/maipdf2026/user_control_panel_alotof_functions.png)
 
 Secure portfolio sharing enhances your professional standing:
 
@@ -272,6 +272,6 @@ Before sending your secure portfolio:
 - ✓ Set calendar reminders based on expiration dates
 - ✓ Configure notifications for when your portfolio is accessed
 
-![Security Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Security Settings Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 By implementing these secure sharing practices with tools like MaiPDF, designers can confidently distribute their creative work to potential employers and clients—knowing their intellectual property remains protected while still effectively showcasing their talents and skills.

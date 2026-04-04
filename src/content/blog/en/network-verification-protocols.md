@@ -1,4 +1,4 @@
----
+﻿---
 title: "Network Verification Protocols for Secure Document Access"
 description: "How network-level verification protects shared documents. Understand email verification, IP-based access, and multi-factor authentication for PDF viewing."
 pubDate: "Apr 2 2026"
@@ -61,7 +61,7 @@ MaiPDF supports email verification as a built-in feature:
 2. Enable "Email Verification" in settings
 3. Share the link
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 When the recipient opens the link, they'll see a verification prompt instead of the document. After entering their email and the code, the access is logged with their verified identity.
 

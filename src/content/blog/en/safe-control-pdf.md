@@ -1,4 +1,4 @@
----
+﻿---
 title: "Safe Control PDF: Manage Who Reads, Downloads, and Shares Your Documents"
 description: "Take full control of your PDFs after sharing. Set view limits, block downloads, add watermarks, and revoke access at any time with safe sharing controls."
 pubDate: "Apr 2 2026"
@@ -57,7 +57,7 @@ Disable a link instantly from the control panel. The document is no longer acces
 2. Open the settings panel
 3. Toggle the controls you need:
 
-![Settings Panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 4. Save and share the link
 

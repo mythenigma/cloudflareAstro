@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF Online Viewing Guide: Browser-Based Document Access"
 description: "A practical guide to viewing PDFs online without downloads. Cover browser compatibility, viewer features, and how to set up trouble-free online viewing for your audience."
 pubDate: "Apr 2 2026"
@@ -81,7 +81,7 @@ Every view generates a record:
 - **View duration** — how long the document was open
 - **Geographic region** — approximate location of the viewer
 
-![Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 This data helps you understand engagement without requiring viewers to identify themselves.
 

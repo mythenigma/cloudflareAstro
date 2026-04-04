@@ -1,16 +1,17 @@
 ---
 title: "PDF Prevent Forwarding: Practical Guide for Controlled Sharing"
 description: "A practical guide to reduce unauthorized PDF forwarding using link controls, download restrictions, and Visitor ID watermarking."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Prevent Forwarding", "Document Security", "Access Control", "Download Control", "PDF Protection"]
+showDefaultCta: true
 ---
 
 # PDF Prevent Forwarding: Practical Guide for Controlled Sharing
 
 Forwarding risk usually comes from one problem: once the file leaves your control, it can spread without limit. The safer pattern is to share controlled links instead of raw files.
 
-![PDF Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings panel — view limit, expiry, download, and watermark controls](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## What actually reduces forwarding
 

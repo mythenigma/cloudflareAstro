@@ -1,4 +1,4 @@
----
+﻿---
 title: "How to Create Digital Watermarks for PDF Documents: A Complete Guide"
 description: "Learn how to protect sensitive PDFs with dynamic watermarks that display viewer identity, prevent unauthorized sharing, and track document access."
 pubDate: "Apr 3 2026"
@@ -89,7 +89,7 @@ The most secure and informative watermarks include:
 - **Company/organization** affiliation if applicable
 - **Employee ID** or other institutional identifier
 
-![Watermark information query results](/2025MayMaiPDF/checkwatermark.png)
+![Watermark information query results](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ### 2. Temporal Data
 
@@ -300,7 +300,7 @@ Before deploying dynamic watermarks, ensure you've addressed:
 - Position carefully around charts and tables
 - Use repeating patterns between data sections
 
-![Document access record example](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Document access record example](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## The Future of PDF Watermarking
 

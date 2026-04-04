@@ -1,8 +1,8 @@
----
+﻿---
 title: "Privnote Secure Self-Destruct Messages: Practical Guide"
 description: "A practical guide for sending short-lived encrypted notes with safer delivery habits and clear usage boundaries."
 pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Privnote", "self-destruct messages", "encrypted messages", "privacy protection", "secure sharing"]
 ---
 

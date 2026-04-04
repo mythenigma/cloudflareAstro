@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF Access Control: Viewing Limits for Sensitive Document Distribution"
 description: "How viewing limits protect sensitive documents during distribution. Real-world examples from legal, HR, finance, and education sectors."
 pubDate: "Apr 2 2026"
@@ -91,7 +91,7 @@ After sharing a sensitive document with viewing limits:
 
 **Revoke if suspicious** — disable the link immediately if access patterns suggest unauthorized sharing.
 
-![Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Get Started
 

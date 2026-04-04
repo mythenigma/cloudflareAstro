@@ -1,8 +1,8 @@
----
+﻿---
 title: "Control how your PDF link behaves"
 description: "Set view limits, disable links anytime, and replace PDF files without changing URLs. Simple controls for shared PDF documents."
 pubDate: "Apr 3 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF self-destruct", "PDF open limit", "disable PDF link", "maipdf controls"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["PDF self-destruct", "PDF open limit", "disable PDF link", "maipdf contro
 </div>
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/settings_in_cloudshare.png" alt="PDF Link Control Settings" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/MaiPDF_settings_expiration_telegram.png" alt="PDF Link Control Settings" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 
@@ -38,7 +38,7 @@ Replace the PDF file behind your existing link without changing the URL. Recipie
 **How it works:** Upload a new PDF file to replace the original. The sharing link remains identical, but viewers see the new document version.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/changefilesetting.png" alt="File Replacement Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/user_control_panel_alotof_functions.png" alt="File Replacement Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## What's not included
@@ -162,7 +162,7 @@ New PDF files must be uploaded through the same account that created the origina
 View limits count unique access attempts, not unique users. The same person opening the link multiple times uses multiple views.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/PDF_ACCESS_RECORDS.png" alt="PDF Access Tracking" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/page_redirect_to_accessRecord.png" alt="PDF Access Tracking" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## When to use these controls

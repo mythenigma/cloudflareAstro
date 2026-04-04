@@ -1,9 +1,10 @@
 ---
 title: "How to Restrict PDF Views and Control Document Access"
 description: "Learn how to limit the number of times your PDF can be viewed, controlling access and enhancing document security."
-pubDate: "2025-04-21T00:00:00Z"
+pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF view limits", "document security", "access control"]
+showDefaultCta: true
 ---
 
 # How to Restrict PDF Views and Control Document Access

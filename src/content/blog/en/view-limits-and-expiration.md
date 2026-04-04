@@ -1,8 +1,10 @@
 ---
 title: "View Limits and Expiration: Simple Controls That Prevent Oversharing"
 description: "Two simple controls—view limits and expiration—dramatically reduce the risk of overshared document links."
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["Access Control", "View Limits", "Expiration", "Document Sharing"]
+showDefaultCta: true
 ---
 
 # View Limits and Expiration: Simple Controls That Prevent Oversharing

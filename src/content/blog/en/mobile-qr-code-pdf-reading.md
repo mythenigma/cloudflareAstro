@@ -1,16 +1,17 @@
 ---
 title: "Mobile QR-to-PDF Reading: Fast Setup for Offline-to-Online Sharing"
 description: "Use MaiPDF QR links to let people scan and read PDFs instantly on mobile, with access controls and open statistics."
-pubDate: "Feb 11 2026"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR code PDF", "mobile scanning", "offline promotion", "document sharing", "MaiPDF"]
+showDefaultCta: true
 ---
 
 # Mobile QR-to-PDF Reading: Fast Setup for Offline-to-Online Sharing
 
 QR is still the fastest bridge from offline material to mobile reading. Instead of sending files in chat groups, you can put one QR code on posters, handouts, booths, or packaging and let visitors open the PDF in browser immediately.
 
-![QR Code PDF Example](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![QR code and link generated — ready for mobile distribution](/maipdf2026/Result_of_qr_link.png)
 
 ## Why QR works better on mobile
 

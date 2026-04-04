@@ -1,7 +1,9 @@
----
+﻿---
 title: "Document Distribution Compliance: A Checklist You Can Actually Use"
 description: "A simple compliance checklist for document sharing: identity, limits, logging, and governance."
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/page_redirect_to_accessRecord.png"
+showDefaultCta: true
 tags: ["Compliance", "Audit Logs", "Security", "Access Control", "Governance"]
 ---
 

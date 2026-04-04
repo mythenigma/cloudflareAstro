@@ -1,4 +1,4 @@
----
+﻿---
 title: "Prevent PDF Downloads: View-Only Document Sharing Made Simple"
 description: "Learn how to share PDF documents that can be viewed but not downloaded. Perfect for protecting sensitive content while allowing easy access to your documents."
 pubDate: "Apr 3 2026"
@@ -42,7 +42,7 @@ But they cannot:
 - Copy the content in bulk
 - Forward the actual file to others
 
-![Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Setting Up View-Only Documents
 
@@ -53,7 +53,7 @@ The process is straightforward:
 3. **Generate Link**: Get your shareable link instantly
 4. **Share Securely**: Send the link knowing downloads are disabled
 
-![Settings Configuration](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Configuration](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Enhanced Viewing Experience
 
@@ -97,7 +97,7 @@ Key security features include:
 
 Keep track of who's viewing your documents with built-in analytics. See when your PDF was accessed and how many times it was viewed, helping you understand engagement levels.
 
-![Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Real-World Applications
 

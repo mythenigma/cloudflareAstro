@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF Online Sharing Security Best Practices"
 description: "Secure your PDF sharing workflow with practical best practices. From link generation to access monitoring — protect documents without slowing down collaboration."
 pubDate: "Apr 2 2026"
@@ -68,7 +68,7 @@ Generating a secure link means nothing if you never check who's using it. Review
 - **Off-hours access** — normal for global teams, suspicious for local-only documents
 - **Rapid view count consumption** — suggests the link was forwarded to unintended recipients
 
-![Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Principle 7: Have a Revocation Plan
 

@@ -1,8 +1,9 @@
----
+﻿---
 title: "Share Your Design Portfolio with a Link"
 description: "A cleaner portfolio delivery method: send one controlled link, manage access, and review open statistics."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/shareandsend.png"
+showDefaultCta: true
 tags: ["Design Portfolio", "Portfolio Sharing", "Professional Development", "Digital Tools"]
 ---
 
@@ -11,7 +12,7 @@ tags: ["Design Portfolio", "Portfolio Sharing", "Professional Development", "Dig
 Attachments make portfolios harder to manage.  
 A single share link is cleaner for both recruiters and clients.
 
-![Portfolio Sharing](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Portfolio Sharing](/maipdf2026/Result_of_qr_link.png)
 
 ## Why Links Beat Attachments
 
@@ -21,7 +22,7 @@ A single share link is cleaner for both recruiters and clients.
 - Open statistics are visible
 - Better viewing on mobile
 
-![Email vs Link Sharing](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Email vs Link Sharing](/maipdf2026/show_off/shareandsend.png)
 
 ## Recommended Workflow
 
@@ -31,7 +32,7 @@ A single share link is cleaner for both recruiters and clients.
 4. Decide download policy (on/off).
 5. Send one short message with the link.
 
-![Upload Section](/maipdf-images/upload_section.png)
+![Upload Section](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Privacy Controls
 
@@ -41,13 +42,13 @@ A single share link is cleaner for both recruiters and clients.
 - Disable downloads if reuse risk is high
 - Review Visitor-ID based open statistics
 
-![Security Settings](/maipdf-images/security_setting.png)
+![Security Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Practical Job-Search Use
 
 Apply to multiple studios with one controlled link, then prioritize follow-up based on opens instead of guessing.
 
-![Share PDF Worldwide](/maipdf-images/share_pdf_wordwide.png)
+![Share PDF Worldwide](/maipdf2026/show_off/shareandsend.png)
 
 ## Message Template
 
@@ -57,7 +58,7 @@ Hi [Name], here is my portfolio link:
 Access is open until [DATE]. If you prefer, I can also send a project-specific version.
 ```
 
-![PDF Change Settings](/maipdf-images/pdf_change_setting_after_sent.png)
+![PDF Change Settings](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## Final Takeaway
 

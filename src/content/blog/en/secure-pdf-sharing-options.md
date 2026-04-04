@@ -1,8 +1,8 @@
 ---
 title: "How to Securely Share PDFs with Modern Controls"
 description: "A practical guide to modern PDF sharing controls: view-only delivery, expiry, open limits, watermarking, and follow-up visibility."
-pubDate: "Apr 23 2025"
-updatedDate: "Apr 3 2026"
+pubDate: "Apr 4 2026"
+updatedDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["PDF Security", "Document Sharing", "Secure Distribution", "PDF Protection"]
 ---

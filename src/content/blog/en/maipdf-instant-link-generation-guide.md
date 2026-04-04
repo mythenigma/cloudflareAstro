@@ -1,4 +1,4 @@
----
+﻿---
 title: "MaiPDF Instant Link Generation Guide"
 description: "How to generate instant shareable links for your PDF documents. Upload, get a link in seconds, and share across any platform with built-in tracking."
 pubDate: "Apr 2 2026"
@@ -17,7 +17,7 @@ From file on your computer to shareable link in under 30 seconds. No sign-up for
 **Second 0–10: Upload**
 Open [maipdf.com](https://www.maipdf.com) and drag your PDF to the upload area. The progress bar shows real-time upload status.
 
-![Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 **Second 10–20: Processing**
 MaiPDF processes the file — validates format, generates thumbnails, prepares the viewer. Most files under 50 MB process in 5–10 seconds.
@@ -55,7 +55,7 @@ The link works immediately with default settings. But you can customize before o
 
 **Password** — require a password to view (default: none)
 
-![Settings Panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 All settings can be changed after the link is live — no need to regenerate the URL.
 

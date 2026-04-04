@@ -1,4 +1,4 @@
----
+﻿---
 title: "Share PDF on WhatsApp: Send Documents as Links Instead of Files"
 description: "Share PDF documents on WhatsApp using clean links instead of large file attachments. Faster sharing, better mobile experience, and professional presentation."
 pubDate: "Apr 3 2026"
@@ -27,7 +27,7 @@ WhatsApp makes it easy to share documents, but large PDF files can be slow to se
 
 **Professional Appearance**: Clean links look more professional than bulky file attachments in business conversations.
 
-![Upload and Generate Link](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload and Generate Link](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## How to Share PDFs on WhatsApp Using Links
 
@@ -35,7 +35,7 @@ WhatsApp makes it easy to share documents, but large PDF files can be slow to se
 
 **Step 2: Copy the Link** - Get a clean, professional URL that's perfect for messaging.
 
-![Link Generation Result](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link Generation Result](/maipdf2026/Result_of_qr_link.png)
 
 **Step 3: Paste in WhatsApp** - Simply paste the link into your WhatsApp conversation and send.
 
@@ -75,7 +75,7 @@ When recipients click your WhatsApp PDF link, they get a mobile-optimized viewin
 
 **Access Tracking**: Monitor when and how often your shared documents are viewed.
 
-![Settings Configuration](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Configuration](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **Time Limits**: Set expiration dates for time-sensitive information.
 
@@ -139,7 +139,7 @@ When recipients click your WhatsApp PDF link, they get a mobile-optimized viewin
 
 **Event Sharing**: Share event programs, schedules, or information through QR codes in WhatsApp status.
 
-![QR Code Generation](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![QR Code Generation](/maipdf2026/Result_of_qr_link.png)
 
 ## Managing WhatsApp PDF Shares
 
@@ -151,7 +151,7 @@ When recipients click your WhatsApp PDF link, they get a mobile-optimized viewin
 
 **Usage Monitoring**: Track engagement levels and see which documents are most popular.
 
-![Change Settings Anytime](/2025MayMaiPDF/changefilesetting.png)
+![Change Settings Anytime](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## Best Practices for WhatsApp PDF Sharing
 
@@ -175,7 +175,7 @@ Ready to start sharing PDFs through WhatsApp links?
 4. **Share on WhatsApp**: Paste the link into any conversation
 5. **Monitor Usage**: Track how your documents are being accessed
 
-![Homepage Interface](/2025MayMaiPDF/Home_Landing.png)
+![Homepage Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Why WhatsApp Users Love PDF Links
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF Online Preview: Let Recipients Read Without Downloading"
 description: "Enable instant PDF preview in any browser. No downloads, no plugins — just a clean reading experience that works on desktop and mobile."
 pubDate: "Apr 2 2026"
@@ -45,7 +45,7 @@ No plugins. No downloads. No "open with" prompts.
 
 You can toggle download permissions per document on MaiPDF. The default is preview-only, which gives you maximum control.
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ![Securely Share and Control Your PDFs](/maipdf2026/show_off/goodlookingshow.png)
 

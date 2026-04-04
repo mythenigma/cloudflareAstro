@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF Dynamic Watermark Security Guide"
 description: "A comprehensive guide to using dynamic watermarks for PDF security. How they work, when to use them, configuration options, and integration with other access controls."
 pubDate: "Apr 2 2026"
@@ -44,7 +44,7 @@ This means:
 4. Adjust position and opacity if needed
 5. Save and share
 
-![Settings Panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 The watermark applies automatically to every viewer without any action on their part.
 

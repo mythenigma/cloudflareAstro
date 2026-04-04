@@ -1,16 +1,17 @@
 ---
 title: "PDF Encryption to Reduce Forwarding Risk"
 description: "Use layered PDF controls to reduce unauthorized forwarding: protected access, expiry, download restrictions, and Visitor ID watermarking."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Encryption", "Prevent Forwarding", "Document Security", "Password Protection", "Access Control"]
+showDefaultCta: true
 ---
 
 # PDF Encryption to Reduce Forwarding Risk
 
 Encryption alone is not enough. Forwarding risk is managed by combining access controls, short lifecycles, and response playbooks.
 
-![PDF Encryption Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings panel — expiry, open limits, and protection type](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Layered protection model
 

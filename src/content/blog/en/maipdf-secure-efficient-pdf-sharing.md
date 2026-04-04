@@ -1,9 +1,10 @@
 ---
 title: "MaiPDF: Secure and Efficient PDF Sharing"
 description: "A compact guide to sharing PDFs with less friction and stronger control using link-based delivery, verification options, and open statistics."
-pubDate: "Feb 11 2026"
-heroImage: "/maipdf-images/secure-pdf-sharing.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF Sharing", "Document Security", "Cloud Storage", "Cloudflare"]
+showDefaultCta: true
 ---
 
 # MaiPDF: Secure and Efficient PDF Sharing

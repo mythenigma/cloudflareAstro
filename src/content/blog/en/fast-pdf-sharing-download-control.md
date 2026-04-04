@@ -1,62 +1,71 @@
 ---
-title: "Fast PDF Sharing: Generate Secure Links with Download Control"
-description: "Generate PDF share links quickly, choose view-only or download mode, and manage access with simple policies."
-pubDate: "Jul 03 2025"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
-tags: ["PDF sharing", "download control", "secure links", "fast loading"]
+title: "Fast PDF Sharing with Download Control: How to Set It Up"
+description: "How to share a PDF quickly while choosing whether readers can download it. 60-second workflow, download on/off explained, and recommended settings by document type."
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/shareandsend.png"
+tags: ["PDF sharing", "download control", "secure links", "view-only", "MaiPDF"]
+showDefaultCta: true
 ---
 
-# Fast PDF Sharing: Generate Secure Links with Download Control
+# Fast PDF Sharing with Download Control
 
-Fast sharing should also be controlled sharing.
+<div class="intro-panel">
+  <p>Fast sharing doesn't have to mean uncontrolled sharing. MaiPDF generates a link and QR code in seconds, and the download setting takes one toggle. Here's the full workflow.</p>
+</div>
 
-![MaiPDF Homepage](/2025MayMaiPDF/Home_Landing.png)
+## 60-second workflow
 
-## 60-Second Workflow
+1. Go to [maipdf.com](https://maipdf.com) and upload your PDF
+2. Toggle **download on or off** in the settings panel
+3. (Optional) Set expiry date and view limit
+4. Click **Create Secure Link**
+5. Copy the URL or QR code and share
 
-1. Upload the PDF.
-2. Generate share link or QR code.
-3. Choose `view-only` or `download enabled`.
-4. Add expiry and open limit if needed.
-5. Test once on phone and desktop, then send.
+The entire process, including upload, is usually under 60 seconds for a typical PDF.
 
-![Upload Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
-![Link and QR Code Result](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Share link and QR code — ready immediately after upload](/maipdf2026/show_off/shareandsend.png)
 
-## Choose the Right Download Policy
+## Download on vs. download off: which to choose
 
-- `View-only`: proposals, drafts, internal docs
-- `Download enabled`: manuals, final handouts, offline materials
+| Document type | Download | Reason |
+|--------------|---------|--------|
+| Marketing brochure | On | You want wide distribution |
+| Technical manual / reference | On | Reader needs offline access |
+| Sales proposal | Off | Only view the current version |
+| Contract under negotiation | Off | Version control |
+| Confidential report | Off | Reduce data leakage surface |
+| Training material (paid) | Off | Access is per-seat, not per-download |
+| Event handout | On | Attendees keep a copy |
 
-![Settings Interface](/2025MayMaiPDF/settings_in_cloudshare.png)
+**Off (view-only):** The reader sees the PDF in a browser viewer. No download button, no print option (if also disabled). The file never lands on their device.
 
-## Performance Expectations
+**On:** The reader can download and save a local copy. Choose this when you want or need the reader to have the file permanently.
 
-- Faster initial open
-- Smooth page navigation
-- Better rendering for image-heavy PDFs
-- Reliable display across screen sizes
+## Add expiry and view limit for even stronger control
 
-![PDF Native View](/maipdf-images/pdf_native_view_on_ui.png)
+Download off reduces the local copy risk. Expiry and view limits reduce the time/audience risk:
 
-## Settings You Should Use
+- **Expiry** — link dies on a date you specify
+- **View limit** — link dies after N opens
+- **Both** — strongest combination for sensitive documents
 
-- Download ON/OFF
-- Expiry date
-- Open limit
-- Watermark for sensitive files
-- Open statistics dashboard
+![Settings panel — download, expiry, view limit all in one place](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
-![Change File Settings](/2025MayMaiPDF/changefilesetting.png)
-![PDF Access Records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+## What view-only looks like for the reader
 
-## Policy Presets
+The PDF opens in a clean browser viewer. The reader can scroll, zoom, and navigate pages. The download icon is absent from the toolbar. Print is also unavailable if you disabled it.
 
-- Sales proposal: download OFF, 7-day expiry, 20 opens
-- Internal review: download OFF, 3-day expiry, 10 opens
-- Public factsheet: download ON, long expiry, no open limit
+![View-only viewer — full reading, no download or print option](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
-## Final Takeaway
+## Adjust download setting after sharing
 
-Use fast links, but always pair them with policy controls.  
-That is the balance between speed, user experience, and document safety.
+You can flip the download setting after you've already shared the link. From [Control Center](https://www.maipdf.com/6/control-center.html), find the link and toggle download on or off. The change applies to the next open, not retroactively to copies already saved.
+
+---
+
+**Related reading:**
+
+- [PDF Share Link Disable Download: View-Only Setup](/blog/en/pdf-share-link-disable-download) — detailed view-only guide
+- [Prevent PDF Downloads: Complete Guide](/blog/en/prevent-pdf-downloads-complete-guide-view-only-sharing) — all download-prevention layers
+- [Convert PDFs to Shareable Links](/blog/en/convert-pdfs-to-shareable-links) — the core sharing setup
+- [Smart PDF Sharing: 3-Step Workflow](/blog/en/smart-pdf-sharing) — upload, control, send

@@ -1,9 +1,10 @@
 ---
 title: "Create Professional Portfolio Links"
 description: "Turn your portfolio PDF into a clean, controlled link that is easy to view and safe to share with clients or recruiters."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/goodlookingshow.png"
 tags: ["portfolio links", "professional sharing", "design portfolio", "creative work", "career advancement"]
+showDefaultCta: true
 ---
 
 # Create Professional Portfolio Links

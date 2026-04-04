@@ -1,4 +1,4 @@
----
+﻿---
 title: "A minimalist PDF link generator"
 description: "Upload a PDF and generate a shareable link with simple access controls. No registration required."
 pubDate: "Apr 3 2026"
@@ -14,7 +14,7 @@ heroImage: "/maipdf2026/maipdf_header_login_or_upload_file.png"
 </div>
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png" alt="MaiPDF Online PDF Sharing Header" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/maipdf2026/Maipdf_LANDING_PAGE.png" alt="MaiPDF Online PDF Sharing Header" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 
@@ -34,7 +34,7 @@ These solutions work for complex workflows, but they're excessive when you just 
 ## How MaiPDF works
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/upload_in_cloudshare.png" alt="Upload Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Maipdf_LANDING_PAGE.png" alt="Upload Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 The process is intentionally simple:
@@ -55,13 +55,13 @@ Receive a clean, shareable URL that works anywhere: email, messaging apps, socia
 Your recipients click the link and view the document immediately in their browser. No downloads required, no software installation needed.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/result_link_qr_cloudshare.png" alt="Result Link and QR Code" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="Result Link and QR Code" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Simple but powerful access controls
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/settings_in_cloudshare.png" alt="Settings Interface" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/MaiPDF_settings_expiration_telegram.png" alt="Settings Interface" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ### 📊 View limits that actually work
@@ -157,7 +157,7 @@ Links work seamlessly on smartphones and tablets. Recipients can view documents 
 Works with all modern browsers on any platform: Windows, Mac, Linux, iOS, Android. Your recipients don't need to worry about technical requirements.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/Home_Landing.png" alt="Home Landing" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Maipdf_LANDING_PAGE.png" alt="Home Landing" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Getting started in under 60 seconds
@@ -283,7 +283,7 @@ One of the key advantages of MaiPDF is the ability to track document access. You
 This visibility helps you understand how your shared documents are being used and ensures you maintain awareness of who has accessed your content.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/PDF_ACCESS_RECORDS.png" alt="PDF Access Records" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/page_redirect_to_accessRecord.png" alt="PDF Access Records" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Advanced features for power users
@@ -299,14 +299,14 @@ For sensitive documents, you can require email verification before viewing. This
 Add personalized watermarks to your documents that include viewer information, making it easier to track the source of any unauthorized sharing.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/checkwatermark.png" alt="Check Water Mark Information" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/dynamic_water_mark_example.jpg" alt="Check Water Mark Information" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ### File replacement
 Need to update a document after sharing? You can replace the file content while keeping the same sharing link, ensuring recipients always see the latest version.
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/changefilesetting.png" alt="Change File Setting" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/user_control_panel_alotof_functions.png" alt="Change File Setting" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Why minimalist design matters
@@ -318,7 +318,7 @@ In a world of feature-bloated software, sometimes the best tool is the one that 
 **No ongoing commitment:** Use it when you need it, forget about it when you don't
 
 <div class="image-container">
-  <img src="/2025MayMaiPDF/menus_in_maipdf.png" alt="MaiPDF Menus" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/user_control_panel_alotof_functions.png" alt="MaiPDF Menus" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Comparison with alternatives

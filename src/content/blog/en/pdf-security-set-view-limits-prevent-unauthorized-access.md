@@ -1,9 +1,10 @@
 ---
 title: "PDF Security: Set View Limits to Prevent Unauthorized Access"
 description: "Practical PDF security setup using view limits, expiry, download controls, and watermarking."
-pubDate: "Feb 11 2026"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
+pubDate: "Apr 4 2026"
+heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF security", "view limits", "access control", "document protection", "unauthorized access"]
+showDefaultCta: true
 ---
 
 # PDF Security: Set View Limits to Prevent Unauthorized Access

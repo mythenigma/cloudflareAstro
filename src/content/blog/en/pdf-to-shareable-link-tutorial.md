@@ -1,4 +1,4 @@
----
+﻿---
 title: "PDF to Shareable Link: Convert Any Document into a One-Click URL"
 description: "Turn any PDF into a shareable link in seconds. Learn how to convert static files into trackable, controllable links with expiration, view limits, and analytics."
 pubDate: "Apr 2 2026"
@@ -53,7 +53,7 @@ MaiPDF generates clean, professional URLs — no random strings of 40 characters
 | Watermark | Overlay viewer identity on every page |
 | Email verification | Require email before viewing |
 
-![Settings Panel](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ![Share and Send PDFs](/maipdf2026/show_off/shareandsend.png)
 

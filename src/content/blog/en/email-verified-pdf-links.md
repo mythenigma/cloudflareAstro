@@ -2,7 +2,7 @@
 title: "Email-Verified PDF Links: Stop Forwarded Access"
 description: "Why forwarded PDF links are the biggest sharing risk, and how email verification with an allowlist keeps your documents tied to the right people."
 heroImage: "/maipdf2026/show_off/email verify.png"
-pubDate: "Jan 15 2026"
+pubDate: "Apr 4 2026"
 tags: ["PDF Security", "Access Control", "Email Verification"]
 showDefaultCta: true
 ---
