@@ -120,83 +120,14 @@ To improve security without adding friction:
   </div>
 </div>
 
-## 🔄 A Practical Workflow in MaiPDF
+## 🔄 One-minute workflow (MaiPDF)
 
-![Access Records Dashboard](/maipdf2026/page_redirect_to_accessRecord.png)
+1. Upload the PDF → set access + expiration.
+2. Share link/QR → revoke or rotate if requirements change.
+3. If you check activity, keep it high-level and privacy-first (sanity check + anomaly signals only).
 
-MaiPDF can support a secure sharing workflow:
+## ✅ Key takeaways
 
-### Step 1: Configure sharing controls
-- Upload your document to the platform
-- Set expiration (if needed)
-- Configure access rules (password / allowlist / one-time access)
-- Decide whether you need a minimal usage overview
-
-### Step 2: Share and manage
-- Distribute your document through the platform
-- Rotate or revoke links when requirements change
-- Use high-level status to confirm delivery (optional)
-
-### Step 3: Review and reduce risk
-- Check for anomalies that suggest redistribution (optional)
-- Tighten access rules if a link spreads
-- Replace links instead of re-sending the file
-
-## 📌 Practical Improvements You Can Make
-
-Secure sharing controls can improve outcomes without “tracking people”:
-
-### Content Optimization
-- Make the right version easy to access (link rotation)
-- Reduce version sprawl by sharing a single controlled link
-- Add a short cover page that explains access rules and expiration
-
-### Process Improvement
-- Standardize sharing rules per document type
-- Reduce emergency reshares by planning revocation and rotation
-- Align retention and access windows with internal policy
-
-### Business Development
-- Share offers with expiration to reduce outdated quotes circulating
-- Use access control to avoid accidental disclosure
-- Keep sensitive attachments from being forwarded uncontrolled
-
-## 🧩 Mini Case Study: A Safer Proposal Share
-
-A structured approach to sharing proposals more safely:
-
-1. **Share one controlled link** instead of emailing attachments
-2. **Set an expiration window** (e.g., 14 days)
-3. **Require a passcode** for sensitive pricing
-4. **Revoke and rotate** the link if it leaks
-5. **Use minimal status signals** only to confirm delivery or catch anomalies
-
-## ⚖️ Privacy and Ethical Considerations
-
-Responsible sharing practices maintain trust while protecting documents:
-
-- **Transparency**: explain access rules and expiration up front
-- **Purpose limitation**: avoid “monitoring” positioning as a sales tactic
-- **Data minimization**: prefer aggregated status over personal identifiers
-- **Security**: protect documents and access logs appropriately
-- **Retention**: keep what you need, delete what you don’t
-
-## 🌟 Best Practices for Secure PDF Sharing
-
-1. **Default to least privilege**: start restrictive, loosen when necessary
-2. **Use expirations**: time-bound access for sensitive materials
-3. **Plan revocation**: treat link revocation as a normal operation
-4. **Standardize policies**: different rules for different document types
-5. **Keep wording clean**: avoid “tracking people” language in public docs
-
-## ✅ A Safer, More Professional Sharing Strategy
-
-By implementing secure sharing controls through platforms like MaiPDF, teams can reduce leakage risk and keep distribution professional. The most successful approaches:
-
-1. Start with risk level and choose appropriate access controls
-2. Use expirations and revocation as standard safety levers
-3. Keep any usage overview minimal and privacy-first
-4. Standardize sharing rules across the organization
-5. Keep public messaging focused on security, not surveillance
-
-In practice, “secure sharing” is a competitive advantage: it reduces mistakes, builds trust, and keeps sensitive PDFs under control after they leave your inbox.
+- Default to least privilege for sensitive files.
+- Use expiration + revocation as your “safety levers”.
+- Keep any usage overview minimal and avoid surveillance framing.
