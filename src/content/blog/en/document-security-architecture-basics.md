@@ -51,12 +51,13 @@ Sends you an email each time the document is opened.
 
 ## Recommended configurations
 
-| Scenario | Limit | Expiry | Protection | Email verify |
-|----------|-------|--------|-----------|-------------|
-| Public handout | High | Optional | Unrestricted | Off |
-| Client proposal | 10–20 | 7 days | SecureView | Off |
-| Confidential draft | 5 | 3 days | DynamoWatermark | On |
-| Enterprise policy doc | 50 | 30 days | DynamoWatermark | On |
+**Public handout** — High open limit, optional expiry, Unrestricted mode.
+
+**Client proposal** — 10–20 opens, 7-day expiry, SecureView.
+
+**Confidential draft** — 5 opens, 3-day expiry, DynamoWatermark, email verification on.
+
+**Enterprise policy doc** — 50 opens, 30-day expiry, DynamoWatermark, email verification on.
 
 ---
 

@@ -14,13 +14,11 @@ Real estate runs on images. Buyers decide which properties to visit based on pho
 
 ## The Real Estate Image Challenge
 
-| Problem | Impact |
-|---------|--------|
-| Large file sizes | Email attachments bounce; MLS uploads compress quality |
-| No tracking | Agent doesn't know which listings get the most photo views |
-| Uncontrolled sharing | Competitor agents use your photos without permission |
-| Outdated images | Sold listing photos still circulate months later |
-| Mobile experience | Buyers browse on phones; emailed images are hard to view |
+- **Large file sizes** — Email attachments bounce; MLS uploads compress quality.
+- **No tracking** — Agent doesn't know which listings get the most photo views.
+- **Uncontrolled sharing** — Competitor agents can use your photos without permission.
+- **Outdated images** — Sold listing photos still circulate months later.
+- **Mobile experience** — Buyers browse on phones; emailed images are hard to view.
 
 ## How MaiImg Solves Each Problem
 
@@ -65,12 +63,13 @@ Instead of attaching 20 photos (and hitting email size limits), include a single
 
 ## Settings for Real Estate
 
-| Scenario | Download | View Limit | Expiration |
-|----------|----------|-----------|------------|
-| Active listing (public) | ON | High/unlimited | Listing end date |
-| Exclusive preview | OFF | 50 | 48 hours |
-| Sold listing | OFF | 0 (disabled) | Immediate |
-| Agent portfolio | ON | Unlimited | None |
+**Active listing (public)** — Download on, high/unlimited views, expires at listing end date.
+
+**Exclusive preview** — Download off, 50 views max, expires in 48 hours.
+
+**Sold listing** — Download off, link disabled immediately.
+
+**Agent portfolio** — Download on, unlimited views, no expiration.
 
 ![Settings](/maiimg/maiimg-setting.png)
 

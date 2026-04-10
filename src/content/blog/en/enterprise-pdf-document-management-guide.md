@@ -58,12 +58,13 @@ From [Control Center](https://www.maipdf.com/6/control-center.html):
 
 ## Common failure modes and fixes
 
-| Problem | What happens | Fix |
-|---------|-------------|-----|
-| Forwarded link to wrong team | Unauthorized access widens | Add email verification + tighten open limit |
-| No expiry on proposal | Pricing stays accessible forever | Set expiry by default for all proposals |
-| Permanent link for all audiences | Old version keeps circulating | Use Replace File; create audience-specific links |
-| No open records | Cannot audit who accessed what | Enable open logging; export for compliance |
+**Forwarded to the wrong team** — Unauthorized access spreads. Fix: add email verification and tighten the open limit.
+
+**No expiry on a proposal** — Pricing stays accessible forever. Fix: set expiry by default for all proposals.
+
+**One permanent link for all audiences** — Old version keeps circulating. Fix: use Replace File and create audience-specific links.
+
+**No open records** — Can't audit who accessed what. Fix: enable open logging and export for compliance.
 
 ---
 

@@ -553,4 +553,4 @@ A: 确认访问者浏览器启用了JavaScript和Cookie
 
 - [📱 如何让手机扫二维码就能阅读PDF：移动时代的文档分享革命](../../cn/mobile-qr-code-pdf-reading)
 - [🚀 MaiPDF：轻松分享 PDF 的免费在线平台](../../cn/easy-pdf-sharing)
-- [📊 在线共享和追踪PDF：全程掌控文档分享的每个环节](../../cn/online-pdf-sharing-tracking)
+- [👀 PDF在线预览，无需下载更便捷](../../cn/pdf-online-preview)

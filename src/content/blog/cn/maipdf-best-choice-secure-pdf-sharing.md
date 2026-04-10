@@ -741,7 +741,6 @@ tags: ["PDF安全", "文件保护", "安全分享", "MaiPDF", "权限控制"]
 
 **PDF分享和管理**：
 - [如何将PDF文件限制访问次数](/blog/cn/pdf-access-limit-control-guide) - 访问次数控制
-- [如何统计外发文件的打开次数](/blog/cn/open-statistics-and-access-control-guide) - 文件使用统计
 - [如何让手机扫一扫就能阅读PDF](/blog/cn/mobile-qr-scan-read-pdf-guide) - 移动端PDF阅读
 - [如何生成PDF链接](/blog/cn/maipdf-link-generation-guide) - PDF链接生成
 

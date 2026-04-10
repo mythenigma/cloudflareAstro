@@ -127,5 +127,3 @@ Maiimg transforme la gestion des visuels de campagne en un processus centralisé
 
 **Ressources associées :**
 - [Maiimg Distribution d'images par QR Code](/blog/fr/partage-pdf-en-ligne-securise-guide-complet)
-- [Maiimg DRM hors ligne pour documents](/blog/fr/open-statistics-and-access-control-guide)
-- [Tracking et analytics d'images Maiimg](/blog/en/open-statistics-and-access-control-guide)

@@ -95,9 +95,10 @@ flowchart TB
 
 ## Quick reference: recommended settings by scenario
 
-| Scenario | Access limit | Session | Expiration | Extras |
-|----------|-------------|---------|------------|--------|
-| Client proposal | 5 | 30 min | 14 days | Email verification |
-| Job application review | 10 | 60 min | 30 days | Watermark |
-| Training material | 50 | 120 min | 90 days | Protected viewer |
-| Press embargo | 20 | No limit | Release date | Email verification + watermark |
+**Client proposal** — 5 opens, 30-min sessions, 14-day expiration, email verification.
+
+**Job application review** — 10 opens, 60-min sessions, 30-day expiration, watermark.
+
+**Training material** — 50 opens, 120-min sessions, 90-day expiration, protected viewer.
+
+**Press embargo** — 20 opens, no session limit, expires on release date, email verification + watermark.

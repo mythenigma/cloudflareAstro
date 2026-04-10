@@ -57,16 +57,21 @@ The document stays **on the server** and renders in a **browser-based viewer**. 
 
 ## Decision matrix
 
-| Factor | Certificate DRM | Link-based controls |
-|--------|----------------|-------------------|
-| **Setup time** | Days to weeks | Minutes |
-| **Recipient friction** | High (app install + cert) | Zero (browser) |
-| **Offline viewing** | Yes | No |
-| **Revocation speed** | Depends on cert infrastructure | Instant (disable link) |
-| **Audit trail** | Detailed (device-level) | Good (IP, timestamp, email) |
-| **Cost per recipient** | $5-20/month | Free to low |
-| **Compliance suitability** | High (regulated industries) | Moderate (most business use) |
-| **Screenshot prevention** | Partial (app-level) | Partial (viewer-level) |
+**Certificate DRM:**
+- Setup: days to weeks; requires app install on recipient's device
+- Offline viewing: yes
+- Revocation: depends on cert infrastructure
+- Audit: detailed, device-level
+- Cost: $5–20/month per recipient
+- Best for: regulated industries with strict compliance mandates
+
+**Link-based controls (MaiPDF):**
+- Setup: minutes; works in any browser, zero friction for recipients
+- Offline viewing: no
+- Revocation: instant (disable the link)
+- Audit: IP, timestamp, email
+- Cost: free to low
+- Best for: most business sharing — proposals, training, client docs
 
 ## When to pick certificate DRM
 

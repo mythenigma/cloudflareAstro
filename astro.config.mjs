@@ -1,5 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
+import { readdirSync, readFileSync, statSync } from "node:fs";
+import { join, relative } from "node:path";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import cloudflare from "@astrojs/cloudflare";
@@ -7,9 +9,46 @@ import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeRaw from 'rehype-raw';
 
+const siteUrl = "https://article.maipdf.com";
+const blogContentRoot = "./src/content/blog";
+
+function collectNoindexBlogPages(rootDir, site) {
+  /** @type {string[]} */
+  const files = [];
+
+  function walk(dir) {
+    for (const entry of readdirSync(dir)) {
+      const fullPath = join(dir, entry);
+      const stats = statSync(fullPath);
+      if (stats.isDirectory()) {
+        walk(fullPath);
+        continue;
+      }
+      if (fullPath.endsWith(".md") || fullPath.endsWith(".mdx")) {
+        files.push(fullPath);
+      }
+    }
+  }
+
+  walk(rootDir);
+
+  return new Set(
+    files
+      .filter((filePath) => /(^|\n)noindex:\s*true\s*($|\n)/m.test(readFileSync(filePath, "utf8")))
+      .map((filePath) => {
+        const slug = relative(rootDir, filePath)
+          .replace(/\\/g, "/")
+          .replace(/\.(md|mdx)$/i, "");
+        return `${site}/blog/${slug}`;
+      }),
+  );
+}
+
+const noindexBlogPages = collectNoindexBlogPages(blogContentRoot, siteUrl);
+
 // https://astro.build/config
 export default defineConfig({
-  site: "https://article.maipdf.com",
+  site: siteUrl,
   // Canonical URL policy:
   // - Keep URLs without trailing slashes to avoid duplicate indexing.
   // - Runtime 301 canonicalization is implemented in `src/middleware.ts`.
@@ -25,6 +64,9 @@ export default defineConfig({
       // - If you add/rename many posts, rebuild to refresh sitemap and avoid stale URLs in GSC.
       // - All blog posts from content collection are automatically included
       filter: (page) => {
+        const normalizedPage = page.replace(/\/$/, '');
+
+        if (noindexBlogPages.has(normalizedPage)) return false;
         // Exclude blog-backup and ensure all valid blog posts are included
         if (page.includes('/blog-backup/')) return false;
         // Exclude internal utility pages from indexing-focused sitemap

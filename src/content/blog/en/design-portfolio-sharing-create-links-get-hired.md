@@ -24,12 +24,10 @@ showDefaultCta: true
 
 Don't send one generic portfolio to every job. Create targeted versions:
 
-| Role applied for | Portfolio focus | Projects to include |
-|-----------------|----------------|--------------------|
-| Product design | End-to-end UX process + outcomes | 3-4 case studies with before/after |
-| Brand / visual design | Visual identity + campaigns | 5-6 varied brand projects |
-| UI / web design | UI systems + interaction design | 4-5 screen-based projects |
-| Art direction | Concept-to-execution breadth | Mixed format, strongest visual impact |
+- **Product design** — End-to-end UX process and outcomes. Include 3–4 case studies with before/after.
+- **Brand / visual design** — Visual identity and campaigns. Include 5–6 varied brand projects.
+- **UI / web design** — UI systems and interaction design. Include 4–5 screen-based projects.
+- **Art direction** — Concept-to-execution breadth. Mixed format, strongest visual impact.
 
 With MaiPDF you create separate links from separate PDFs — each with its own open tracking. You'll know which version got opened and when.
 

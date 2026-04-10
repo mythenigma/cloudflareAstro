@@ -632,4 +632,4 @@ PDF文件上传 → 云端解析 → 页面渲染 → 流式传输 → 浏览器
 
 - [🌐 怎么使PDF文件可以在线浏览：让文档分享变得前所未有的简单](../../cn/how-to-make-pdf-browsable-online)
 - [📱 如何让手机扫二维码就能阅读PDF：移动时代的文档分享革命](../../cn/mobile-qr-code-pdf-reading)
-- [📊 在线共享和追踪PDF：全程掌控文档分享的每个环节](../../cn/online-pdf-sharing-tracking)
+- [📤 在线分享 PDF](../../cn/share-pdf-online)

@@ -46,13 +46,15 @@ Before the PDF loads, the viewer must verify their email address. This identifie
 
 ## When to apply which controls
 
-| Document type | Download | Expiry | Open limit | Watermark | Email verify |
-|-------------|---------|--------|-----------|----------|-------------|
-| Public brochure | On | Optional | None | No | No |
-| Client proposal | Off | 7 days | 15 | No | Optional |
-| Confidential report | Off | 3 days | 5 | Yes | Yes |
-| Training material | Off | 30 days | 100 | No | No |
-| Portfolio (job hunt) | Off | 14 days | 20 | No | No |
+**Public brochure** — Download on, expiry optional, no open limit, no watermark, no email verification.
+
+**Client proposal** — Download off, 7-day expiry, 15 opens max, email verification optional.
+
+**Confidential report** — Download off, 3-day expiry, 5 opens max, watermark on, email verification required.
+
+**Training material** — Download off, 30-day expiry, 100 opens max.
+
+**Portfolio (job hunt)** — Download off, 14-day expiry, 20 opens max.
 
 ## After sharing: visibility and control
 
