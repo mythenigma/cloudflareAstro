@@ -65,6 +65,19 @@
   .tab-content { display: none; }
   .tab-content.active { display: block; }
 
+  /* ── Editorial notes (red annotations) ── */
+  .edit-note {
+    margin-top: 0.55rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 10px;
+    border: 1px dashed rgba(248, 113, 113, 0.55);
+    background: rgba(248, 113, 113, 0.08);
+    color: #fecaca;
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+  .edit-note strong { color: #fca5a5; }
+
   /* ── Container ── */
   .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 
@@ -777,6 +790,12 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Analytics in title</span><span class="issue-chip">Engagement monitoring</span><span class="issue-chip">Business insights framing</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：不直接删，先<strong>去“监控/洞察/analytics”叙事</strong>。标题与首屏改成“secure sharing / access control / link lifecycle（可选：usage overview）”主线；正文删掉“track engagement / monitor readers / business insights”这类段落，改为安全场景与权限、撤销、到期、最小化数据的说明。若与其它“安全分享总述”高度重复，最终<strong>301 合并到一篇权威页</strong>。
+      </div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-10 已完成改稿（文章标题/H1/描述/标签与正文主线已从 analytics/tracking 转为 secure sharing + usage overview）。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -791,6 +810,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Open statistics in title</span><span class="issue-chip">Maiimg tracking hook</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：优先<strong>改标题</strong>，移除 “open statistics / tracking” 关键词，把卖点改成“QR 分享 + 访问控制/到期/撤销/防滥用”。正文把“统计/追踪”从核心功能降级为可选、合规、汇总视角（如果必须提到就放在靠后 FAQ，并用更中性的词）。若产品不再支持相关统计能力：改为<strong>noindex + 简短说明</strong>或与“Maiimg 安全分享介绍”合并并 301。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -805,6 +827,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">追踪 in title</span><span class="issue-chip">Feature-led tracking positioning</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：标题把“追踪”替换掉，三大功能改为<strong>链接 / 禁用（撤销）/ 权限（访问控制）</strong>（或“到期/密码”）。正文把“追踪谁/精准追踪”相关措辞全部移除，改写成“安全管理：访问控制、风控、防滥用、失效机制”；如需提到记录，只用<strong>中性“访问概览/使用概况”</strong>，不提 IP/访客ID/定位。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -819,6 +844,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">追踪 in title</span><span class="issue-chip">Workflow explicitly ends with tracking</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：把流程终点从“追踪”改为<strong>“分享与控制”</strong>。标题改为“从上传到分享：5 步完成安全图片分享（含撤销/到期/权限）”。正文最后一步从“追踪”改成“设置访问规则 / 查看分享状态（可选）”，避免“追踪读者/监控”语义；删掉任何 IP、定位、访客识别描述。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -833,6 +861,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">访问追踪</span><span class="issue-chip">控制 + tracking combined</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：这篇建议<strong>保留并强化</strong>（主题本来更“白”）。把“访问追踪”从标签/小标题里拿掉，主线只讲权限：密码、到期、黑白名单、禁用/撤销、一次性访问等。若需要“查看状态”，用“分享状态/访问概况”表达，避免“追踪、监控、IP”词汇。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -847,6 +878,12 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">精准追踪每个阅读者</span><span class="issue-chip">QR + tracking sales angle</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：优先<strong>删除/改写</strong>“精准追踪每个阅读者”相关段落（这是最刺眼的风险语义）。把“QR + 追踪”销售角度改成“QR 便捷分享 + 安全控制（到期/撤销/权限/防二次传播）”。如果全文核心就是“追踪读者”，且无法改成安全分享定位：建议<strong>noindex 或下线并合并到‘QR 分享指南’</strong>，旧 URL 301 到替代页。
+      </div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-10 已完成改稿（移除/替换“精准追踪、统计、受众分析”等表述，主线调整为 QR 便捷分享 + 安全控制；更新文章 pubDate 为 2026-04-10，并移除了相关推荐中的“精准追踪”标题链接）。
+      </div>
     </div>
   </div>
 
@@ -868,6 +905,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">IP / time / location wording</span><span class="issue-chip">Access tracking</span></div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-10 已移除高风险表述（将 “Track access (IP, time, location)” 等文案替换为 “Review share status (optional)”），并将文章内联样式替换为全站 `blog-post.css` 的卡片化布局（`feature-grid` / `scenario-section`），整体版式更统一精致。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -882,6 +922,15 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">IP-based access</span><span class="issue-chip">Audit trail</span><span class="issue-chip">Identity-linked log</span></div>
+      <div class="edit-note">
+        <strong>红字标注（改法）</strong>：这篇目前“标题很硬、内容很短、关键词很敏感”，读起来像安全术语堆叠。改为<strong>secure sharing 的验证/访问控制</strong>主题：保留“验证码/口令”作为访问门槛，但去掉 “IP-based / audit trail / identity-linked log” 叙事，把组合策略改成“到期 + 撤销 + 限次”等更合规、更像真实产品的控制项。
+      </div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-10 已完成重写（标题/描述/正文已改为“Secure Link Verification”并移除 IP/audit/identity tracking 相关表述；pubDate 更新为 2026-04-10）。
+      </div>
+      <div class="edit-note">
+        <strong>已删除记录</strong>：2026-04-10 已按决策从仓库删除（`src/content/blog/en/network-verification-protocols.md`）。请确保站内不再引用该 URL；如需保留旧 URL 的 SEO 处理，可后续为该路径配置 301 到更合适的“secure sharing”文章或提供 noindex tombstone。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -896,6 +945,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Email / IP watermark identity</span><span class="issue-chip">Real-time access records</span></div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-10 已精修（将 “Five Essential Controls” 改为卡片网格便于扫读；移除/弱化 IP、location、real-time identity 追踪式措辞；“Monitoring” 改为 minimal + privacy-first 的分享状态检查；新增 `updatedDate: Apr 10 2026`）。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -910,6 +962,9 @@
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Access records</span><span class="issue-chip">Verification + monitoring</span></div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-10 已精修首屏与排版（加入 `intro-panel` 引言面板，将 “What you can control online” 改为卡片网格以便扫读），并在布局层面把全站文章标题 `h1` 调整为自适应 `clamp(...)`，避免标题过大。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -1081,10 +1136,13 @@
           <div class="mono-path">src/content/blog/de/enterprise-pdf-encryption-traceability.md</div>
         </div>
         <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
-          <span class="action-chip action-light">Decision needed</span>
+          <span class="action-chip action-retire">Deleted</span>
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Traceability theme</span><span class="issue-chip">Enterprise compliance</span></div>
+      <div class="edit-note">
+        <strong>已删除记录</strong>：2026-04-10 已删除（`src/content/blog/de/enterprise-pdf-encryption-traceability.md`）。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -1095,10 +1153,13 @@
           <div class="mono-path">src/content/blog/es/enterprise-pdf-encryption-traceability.md</div>
         </div>
         <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
-          <span class="action-chip action-light">Decision needed</span>
+          <span class="action-chip action-retire">Deleted</span>
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Traceability theme</span><span class="issue-chip">Enterprise compliance</span></div>
+      <div class="edit-note">
+        <strong>已删除记录</strong>：2026-04-10 已删除（`src/content/blog/es/enterprise-pdf-encryption-traceability.md`）。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -1109,10 +1170,13 @@
           <div class="mono-path">src/content/blog/fr/enterprise-pdf-encryption-traceability.md</div>
         </div>
         <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
-          <span class="action-chip action-light">Decision needed</span>
+          <span class="action-chip action-retire">Deleted</span>
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Traceability theme</span><span class="issue-chip">Enterprise compliance</span></div>
+      <div class="edit-note">
+        <strong>已删除记录</strong>：2026-04-10 已删除（`src/content/blog/fr/enterprise-pdf-encryption-traceability.md`）。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -1123,10 +1187,13 @@
           <div class="mono-path">src/content/blog/ja/enterprise-pdf-encryption-traceability.md</div>
         </div>
         <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
-          <span class="action-chip action-light">Decision needed</span>
+          <span class="action-chip action-retire">Deleted</span>
         </div>
       </div>
       <div class="priority-issues"><span class="issue-chip">Traceability theme</span><span class="issue-chip">Enterprise compliance</span></div>
+      <div class="edit-note">
+        <strong>已删除记录</strong>：2026-04-10 已删除（`src/content/blog/ja/enterprise-pdf-encryption-traceability.md`）。
+      </div>
     </div>
 
     <div class="priority-item">
@@ -3684,7 +3751,7 @@
             </div>
           </td>
           <td><span class="score-chip score-high">94</span></td>
-          <td><span class="action-chip action-keep">Keep</span></td>
+          <td><span class="action-chip action-retire">Deleted</span></td>
           <td>519</td>
           <td>H2 7 · Img 4</td>
           <td><span class="issue-chip">Needs more depth</span></td>

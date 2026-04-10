@@ -2,26 +2,53 @@
 title: "PDF online DRM (complete guide): controls that work in a browser"
 description: "A practical guide to online PDF DRM-style sharing: view limits, session time, expiration, protected viewer modes, watermarking, verification, access records, and file replacement."
 pubDate: "Apr 1 2026"
-updatedDate: "Apr 1 2026"
+updatedDate: "Apr 10 2026"
 tags: ["PDF DRM","Secure Sharing","Access Control","Workflow"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
 ---
 
-Online PDF DRM is best understood as **enforceable sharing rules in a browser**. Instead of sending a copy of the PDF, you share a link and control access at the viewer.
-
-This guide is “complete” in the sense that it covers the controls most teams actually use—not theoretical DRM terminology.
+<div class="intro-panel">
+  <p>Online PDF DRM is best understood as <strong>enforceable sharing rules in a browser</strong>. Instead of sending a copy of the PDF, you share a link and control access at the viewer.</p>
+  <p>This guide is “complete” in the sense that it covers the controls most teams actually use—not theoretical DRM terminology.</p>
+</div>
 
 ## What you can control online
 
-- **Access limit**: cap total opens
-- **Each session**: limit reading time per open
-- **Expiration**: end access automatically
-- **Viewer mode**: SecureView / FenceView / Unrestricted
-- **Deterrence**: watermark + protected viewer
-- **Audience**: email verification when needed
-- **Accountability**: access records
-- **Maintenance**: replace file without resending a new link
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4 data-icon="🔢">Access limit</h4>
+    <p>Cap total opens.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="⏱️">Each session</h4>
+    <p>Limit reading time per open.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="⏳">Expiration</h4>
+    <p>End access automatically.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🛡️">Viewer mode</h4>
+    <p>SecureView / FenceView / Unrestricted.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="💧">Deterrence</h4>
+    <p>Watermark + protected viewer.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🔐">Audience</h4>
+    <p>Email verification when needed.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📒">Accountability</h4>
+    <p>Access records.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🔄">Maintenance</h4>
+    <p>Replace the file without resending a new link.</p>
+  </div>
+</div>
 
 ## End-to-end workflow
 

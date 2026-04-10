@@ -2,6 +2,7 @@
 title: "How to Prevent PDF Copying and Redistribution"
 description: "A practical guide to preventing PDF file copying: disable download, restrict text selection, add watermarks, and create accountability through email gates and access logs."
 pubDate: "Apr 3 2026"
+updatedDate: "Apr 10 2026"
 heroImage: "/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png"
 tags: ["PDF copy protection", "file security", "document protection", "watermark", "MaiPDF"]
 showDefaultCta: true
@@ -15,15 +16,36 @@ showDefaultCta: true
 
 ## Types of copying and what stops each
 
-| Copying method | Control that stops it | Available in MaiPDF |
-|----------------|----------------------|--------------------|
-| Click download in browser | Disable download | Yes |
-| Print to PDF | Disable print | Yes |
-| Select + copy text | Disable text selection | Yes |
-| Forward the link to others | Open limit + expiry + revoke | Yes |
-| Screenshot (desktop) | Watermark (traces the source) | Yes |
-| Phone camera at screen | Watermark (partial deterrent) | Yes |
-| Retyping the content manually | Watermark (traces original leak) | Partial |
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4 data-icon="📥">Click download in browser</h4>
+    <p><strong>Stop it with:</strong> Disable download · <strong>MaiPDF:</strong> Yes</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🖨️">Print to PDF</h4>
+    <p><strong>Stop it with:</strong> Disable print · <strong>MaiPDF:</strong> Yes</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🧾">Select + copy text</h4>
+    <p><strong>Stop it with:</strong> Disable text selection · <strong>MaiPDF:</strong> Yes</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🔗">Forward the link to others</h4>
+    <p><strong>Stop it with:</strong> Open limit + expiry + revoke · <strong>MaiPDF:</strong> Yes</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📸">Screenshot (desktop)</h4>
+    <p><strong>Reduce it with:</strong> Watermark (traces the source) · <strong>MaiPDF:</strong> Yes</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📱">Phone camera at screen</h4>
+    <p><strong>Reduce it with:</strong> Watermark (partial deterrent) · <strong>MaiPDF:</strong> Yes</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="⌨️">Retyping manually</h4>
+    <p><strong>Reduce it with:</strong> Watermark (traceability) · <strong>MaiPDF:</strong> Partial</p>
+  </div>
+</div>
 
 Nothing blocks every path. The realistic goal is to stop casual copying and make traced redistribution the cost of deliberate copying.
 

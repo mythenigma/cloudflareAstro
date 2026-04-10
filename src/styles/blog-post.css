@@ -94,6 +94,23 @@
     font-size: 0.98rem;
     line-height: 1.6;
   }
+
+  /* Mobile: tighten card grids (avoid huge vertical gaps) */
+  .problems-grid,
+  .feature-grid,
+  .steps-container,
+  .analytics-panel,
+  .practice-grid,
+  .security-features,
+  .case-studies {
+    gap: 0.9rem;
+    margin: 1.25rem 0;
+  }
+
+  .feature-item {
+    padding: 1.15rem;
+    border-radius: 12px;
+  }
 }
 
 /* 标题样式增强 */

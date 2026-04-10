@@ -263,8 +263,9 @@ const buttonText = isMaiimg
   .title h1 {
     margin: 0 0 0.8rem 0;
     font-weight: 800;
-    font-size: 3.4rem;
-    line-height: 1.2;
+    /* Keep titles impressive but not oversized on desktop */
+    font-size: clamp(2.05rem, 2.6vw + 0.8rem, 2.95rem);
+    line-height: 1.15;
     letter-spacing: -0.02em;
     color: #222;
   }
