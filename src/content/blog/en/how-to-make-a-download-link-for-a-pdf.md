@@ -43,11 +43,11 @@ Send the link (or QR) by email, chat, or your site. Open it once in a **private/
 
 ## Presets (practical starting points)
 
-| Scenario | Bias |
-|---------|------|
-| **Public resource** (manual, press kit) | Longer or optional expiry, higher access limit, mode that allows easy file access if policy allows |
-| **Client handoff** | Medium access limit, expiry in days or weeks, verification if the file is sensitive |
-| **Tight control** | Low access limit, short expiry, stricter viewing mode, optional **dynamic watermark** |
+**Public resource** (manual, press kit) — Longer or optional expiry, higher access limit, easydownload mode if policy allows.
+
+**Client handoff** — Medium access limit, expiry in days or weeks, add email verification if the file is sensitive.
+
+**Tight control** — Low access limit, short expiry, stricter viewing mode, optional dynamic watermark.
 
 ## Before you send
 
