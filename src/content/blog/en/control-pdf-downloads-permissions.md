@@ -10,19 +10,12 @@ Whether someone can **download** or only **read in the browser** is part of how 
 
 ## Quick decision guide
 
-**Want fewer file copies floating around?**
-Use a stricter viewing mode (SecureView) + access limits + expiration.
+- **Want fewer file copies?** Use a stricter mode + set access limits and expiration.
+- **Reader just needs a normal reading experience?** Choose Unrestricted mode.
+- **Need to deter casual screenshots?** Try FenceView.
+- **Sharing with unknown people?** Add email verification + shorter expiration.
 
-**Reader needs a normal, low-friction experience?**
-Use Unrestricted viewing when policy allows.
-
-**Need to deter casual screenshots?**
-Try FenceView (see on-page help on [maipdf2026](https://maipdf.com/pdf/maipdf2026.html)).
-
-**Sharing with unknown people on the internet?**
-Add email verification + shorter expiration.
-
-Always set **expiration** and sensible **access limits** for sensitive or external shares.
+Always set **expiration** and **access limits** for sensitive or external shares.
 
 ## Where it happens in the product (one screen)
 

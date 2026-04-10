@@ -12,15 +12,15 @@ You sent a PDF. Did anyone actually open it? Open statistics answer that questio
 
 ## What you can see after sharing
 
-Once someone opens your shared PDF link, MaiPDF records:
+Once someone opens your shared link, MaiPDF records:
 
-- **How many times** the link was opened
+- **How many times** it was opened
 - **When** each open happened
-- **From what device** (phone, laptop, tablet)
+- **What type of device** (phone, laptop, tablet)
 
 ![Access Records Dashboard](/maipdf2026/page_redirect_to_accessRecord.png)
 
-That's it — no complex setup. Share a link, then check the records.
+No setup needed. Share the link, then check who opened it.
 
 ## Where to find the statistics
 
@@ -29,49 +29,41 @@ That's it — no complex setup. Share a link, then check the records.
 
 ![Navigate to Access Records](/maipdf2026/page_redirect_to_accessRecord.png)
 
-You'll see a list of every access event, sorted by time.
+You'll see a list of every open, sorted by time.
 
-## What the numbers tell you (and what to do)
+## What the numbers tell you
 
-**Nobody opened it**
-→ The link might have gone to spam, or they just haven't gotten to it. Follow up or resend.
+**Nobody opened it** — The link might have gone to spam, or they just haven't gotten to it. Follow up or resend.
 
-**Way more opens than people you shared with**
-→ Someone forwarded the link. If that's a problem, revoke the link and create a new one with email verification turned on.
+**More opens than expected** — Someone probably forwarded the link. If that's a problem, disable the old link and share a new one — you can require email to open it.
 
-**Mostly opened on phones**
-→ Make sure your PDF looks good on a small screen — single-column layout, readable font size.
+**Mostly opened on phones** — Make sure your PDF looks good on a small screen.
 
-**Someone keeps re-opening it**
-→ Good sign — they're interested. This is useful when tracking proposals or job applications.
+**Someone keeps re-opening it** — They're probably interested. Useful to know when tracking proposals.
 
-## Adjusting controls based on what you see
+## What to do based on what you see
 
-The whole point of statistics is to help you decide what to do next:
+**Everything looks normal** — No changes needed. Extend the expiration if the document is still relevant.
 
-**Everything looks normal** → no changes needed. Maybe extend the expiration if the document is still relevant.
-
-**Something looks off** (too many opens, unexpected timing):
-- Turn on email verification
-- Lower the view limit
-- Enable watermarks
+**Something looks off** (too many opens or unexpected timing):
+- Require email to open the link
+- Lower the number of allowed opens
+- Add a watermark
 - Shorten the expiration
 
-**Nobody's opening it** (low engagement):
-- Remove email verification — it might be scaring people off
+**Nobody's opening it**:
+- Remove the email requirement — it might be stopping people from opening it
 - Extend the expiration
-- Try sharing through a different channel (chat instead of email, or vice versa)
+- Try a different sharing channel (chat instead of email, or the other way around)
 
 ![Access Control Decision](/maipdf2026/flowchart/en-access-control-decision.svg)
 
-## When to check your statistics
+## When to check
 
-| What you shared | When to check |
-|----------------|---------------|
-| A proposal to a client | Next day, then every few days |
-| Internal team document | Once a week |
-| Training material | After each training session |
-| Something long-term | Once a month |
+- **Client proposal** — the next day, then every few days
+- **Team document** — once a week
+- **Training material** — after each training session
+- **Long-term share** — once a month
 
 ![Full Product Overview](/maipdf2026/show_off/show_off_page.png)
 
