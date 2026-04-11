@@ -451,6 +451,29 @@
   <div class="progress-label">0 / 6 完成 (0%)</div>
   <div class="progress-wrap"><div class="progress-bar" style="width:0%"></div></div>
 
+  <h2>📱 手机端阅读体验改进计划</h2>
+  <div class="info-box">
+    <strong>目标</strong>：减少「大段文字 + 宽表格 + 过大留白」，让拇指扫读更轻松；与桌面共用同一套内容，主要靠版式与组件化解决。
+  </div>
+  <div class="info-box" style="border-left:4px solid #6366f1;">
+    <strong>P0 · 全站样式（blog-post.css / BlogPost）</strong><br>
+    · 移动端继续收紧卡片网格：<code>gap</code>、<code>.feature-item</code> 内边距、<code>.scenario-section</code> 留白（已部分落地，按需再调）。<br>
+    · 标题用自适应字号（<code>clamp</code>），避免 <code>h1</code> 占满首屏。<br>
+    · 宽表格：默认可横向滚动；优先把「对照表」改成卡片列表（已在多篇文章试点）。
+  </div>
+  <div class="info-box" style="border-left:4px solid #22c55e;">
+    <strong>P1 · 内容形态（逐篇改）</strong><br>
+    · 长文开头加 3～5 行「要点 / TL;DR」，下面再展开。<br>
+    · 少连续段落：拆成短段 + 列表 + <code>feature-grid</code> / <code>scenario-section</code>。<br>
+    · 高流量 / 高字数英文文优先排队精修（与「英文改稿计划」表同步勾选）。
+  </div>
+  <div class="info-box" style="border-left:4px solid #f59e0b;">
+    <strong>P2 · 增强（可选）</strong><br>
+    · 长文加阅读时间估算、文末目录（ToC）锚点。<br>
+    · 抽检真实手机宽度（375 / 390 / 414）看首屏与卡片折行。
+  </div>
+  <div class="audit-meta" style="margin-top:0.75rem;">记录日期：2026-04-11 · 状态：执行中（样式与试点文章并行）</div>
+
   <h2>⚠️ 核心问题诊断</h2>
   <div class="info-box warn">
     <strong>问题 1：Stub / 空壳文章 — 严重影响 SEO</strong><br>
@@ -947,6 +970,9 @@
       <div class="priority-issues"><span class="issue-chip">Email / IP watermark identity</span><span class="issue-chip">Real-time access records</span></div>
       <div class="edit-note">
         <strong>已处理记录</strong>：2026-04-10 已精修（将 “Five Essential Controls” 改为卡片网格便于扫读；移除/弱化 IP、location、real-time identity 追踪式措辞；“Monitoring” 改为 minimal + privacy-first 的分享状态检查；新增 `updatedDate: Apr 10 2026`）。
+      </div>
+      <div class="edit-note">
+        <strong>已处理记录</strong>：2026-04-11 作为手机端阅读试点：文首增加 <code>TL;DR</code>（<code>intro-panel</code>）；博客显示日期以 <code>updatedDate</code> 为准，已更新为 <strong>Apr 11 2026</strong>。
       </div>
     </div>
 
@@ -3508,7 +3534,7 @@
           <td>
             <div class="audit-title">
               <a href="/blog/en/safe-control-pdf" target="_blank" rel="noopener noreferrer">Safe Control PDF: Manage Who Reads, Downloads, and Shares Your Documents</a>
-              <div class="audit-subline">safe-control-pdf · Apr 2 2026</div>
+              <div class="audit-subline">safe-control-pdf · Apr 11 2026</div>
               <div class="mono-path">src/content/blog/en/safe-control-pdf.md</div>
             </div>
           </td>
@@ -4511,6 +4537,10 @@
 
   <h2>📅 完成日志</h2>
 
+  <div class="log-entry">
+    <div class="log-date">2026-04-11</div>
+    <div class="log-text">手机端阅读试点：<code>en/safe-control-pdf</code> 文首增加 TL;DR（<code>intro-panel</code>）；<code>updatedDate</code> 更新为 Apr 11 2026（页面显示日期以更新为准）。</div>
+  </div>
   <div class="log-entry">
     <div class="log-date">2026-04-02</div>
     <div class="log-text">替换 5 篇英文文章中 25 处中文截图引用 (/maifle/ → 英文截图)</div>
