@@ -2,6 +2,7 @@
 title: "Freelancer Portfolio Links: Win More Clients with Clear Sharing"
 description: "A practical freelancer playbook for portfolio links: faster viewing, cleaner presentation, and stronger control for client-facing work."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/show_off/goodlookingshow.png"
 tags: ["freelancer portfolio", "freelance business", "client acquisition", "portfolio sharing", "freelance success"]
 showDefaultCta: true

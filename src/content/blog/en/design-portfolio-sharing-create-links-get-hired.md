@@ -67,7 +67,7 @@ MaiPDF logs every open with a timestamp. Check [Control Center](https://www.maip
 
 **Related reading:**
 
-- [Freelancer Portfolio Links: Showcase Skills and Land More Clients](/blog/en/freelancer-portfolio-links-showcase-skills-land-more-clients) — client-focused portfolio sharing
+- [Freelancer Portfolio Links: Win More Clients with Clear Sharing](/blog/en/freelancer-portfolio-links-win-more-clients-with-clear-sharing) — client-focused portfolio sharing
 - [Resume Link Generator: Share Your CV Professionally](/blog/en/resume-link-generator-share-cv-professionally-securely) — CV sharing alongside portfolio
 - [Create PDF Links That Actually Get Opened](/blog/en/create-pdf-links-actually-get-opened-5-strategies) — improve open rates
 - [Smart PDF Sharing: Upload, Control, Send in 3 Steps](/blog/en/smart-pdf-sharing) — full sharing workflow

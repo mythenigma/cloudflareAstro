@@ -71,5 +71,5 @@ For everything else, a link is operationally better.
 
 - [Email PDF Links Instead of Attachments](/blog/en/email-pdf-links) — email-specific workflow for link sharing
 - [PDF Link Generator: Professional Sharing Workflow](/blog/en/pdf-link-generator-ultimate-tool-professional-sharing) — how to generate and manage links
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — full product overview
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — full product overview
 - [PDF Share Online: Simple, Secure, and Registration-Free](/blog/en/pdf-share-online) — getting started guide

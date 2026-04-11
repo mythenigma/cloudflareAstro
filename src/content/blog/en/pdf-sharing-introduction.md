@@ -76,4 +76,4 @@ MaiPDF works best when you keep policy simple and consistent: small set of contr
 - [Convert PDFs to Shareable Links](/blog/en/convert-pdfs-to-shareable-links) — step-by-step setup guide
 - [PDF Share Online](/blog/en/pdf-share-online) — quick start for new users
 - [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the detailed upload guide
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — product overview
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — product overview

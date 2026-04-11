@@ -63,6 +63,6 @@ If you're applying across multiple roles or industries, create different PDF ver
 **Related reading:**
 
 - [Design Portfolio Sharing: Create Links That Help You Get Hired](/blog/en/design-portfolio-sharing-create-links-get-hired) — portfolio links for creatives
-- [Freelancer Portfolio Links: Showcase Skills and Land More Clients](/blog/en/freelancer-portfolio-links-showcase-skills-land-more-clients) — client-facing portfolio sharing
+- [Freelancer Portfolio Links: Win More Clients with Clear Sharing](/blog/en/freelancer-portfolio-links-win-more-clients-with-clear-sharing) — client-facing portfolio sharing
 - [Create PDF Links That Actually Get Opened](/blog/en/create-pdf-links-actually-get-opened-5-strategies) — improve open rates
 - [PDF Link Sharing: A Better Alternative to Email Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — links vs attachments

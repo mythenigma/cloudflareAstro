@@ -105,4 +105,4 @@ This is the biggest difference from email attachments. Once you send an attachme
 - [Email Verification for PDF Access](/blog/en/email-verification-for-pdf-access) — deep dive on the email verification flow
 - [PDF Access Control: View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — when to use limits vs expiry vs both
 - [Control PDF Access: Enable or Disable Downloads](/blog/en/control-pdf-downloads-permissions) — download prevention in detail
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — full product overview
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — full product overview

@@ -62,7 +62,7 @@ You're not locked in. From Control Center you can:
 
 - [PDF Share Online: Simple, Secure, and Registration-Free](/blog/en/pdf-share-online) — getting started in 3 steps
 - [PDF Link Sharing: A Better Alternative to Email Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — why links beat attachments
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — full product guide
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — full product guide
 - [Email Verification for PDF Access](/blog/en/email-verification-for-pdf-access) — add an email gate to your generated link
 
 PDF link generation is not just convenience. It is the base layer for controlled, scalable document operations.

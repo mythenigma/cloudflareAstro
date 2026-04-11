@@ -66,4 +66,4 @@ For sensitive documents: set both.
 - [PDF Access Control: View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — view limits + expiry together
 - [View Limits + Watermarks: Why Use Both](/blog/en/pdf-link-view-limit-watermark) — combining limits with identity tracking
 - [PDF Security Protection: Layered Document Security](/blog/en/pdf-security-protection) — complete controls overview
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — product overview
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — product overview

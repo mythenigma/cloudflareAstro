@@ -2,6 +2,7 @@
 title: "MaiPDF: A Practical Tool for Controlled PDF Sharing"
 description: "A focused evaluation of MaiPDF for controlled sharing: what it does, how the workflow looks, and when it fits best."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Security", "File Protection", "Secure Sharing", "MaiPDF", "Access Control"]
 showDefaultCta: true

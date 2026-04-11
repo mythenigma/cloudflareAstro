@@ -2,6 +2,7 @@
 title: "How to Make PDF Files Browsable Online: Making Document Sharing Unprecedentedly Simple"
 description: "Practical guide to turning PDFs into browser-view links with access controls, mobile-friendly delivery, and open statistics."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/show_off/showpdf.png"
 tags: ["PDF online browsing", "online viewing", "document sharing", "browser preview", "MaiPDF"]
 showDefaultCta: true

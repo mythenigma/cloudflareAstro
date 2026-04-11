@@ -65,7 +65,7 @@ Content is identical template: 3 bullet points + 1 SVG diagram reference.
 | 29 | `[✓]` | `src/content/blog/en/pdf-dynamic-watermark-security-guide.md` — **DELETED** |
 | 30 | `[✓]` | `src/content/blog/en/pdf-online-preview.md` — **DELETED** |
 | 31 | `[✓]` | `src/content/blog/en/pdf-online-sharing-security-best-practices.md` — **DELETED** |
-| 32 | `[✓]` | `src/content/blog/en/pdf-online-viewing-guide.md` — **DELETED** |
+| 32 | `[✓]` | `src/content/blog/en/pdf-online-viewing-guide-browser-based-document-access.md` (slug 与标题路径对齐) |
 | 33 | `[✓]` | `src/content/blog/en/pdf-qrcode-generation-tutorial.md` — **DELETED** |
 | 34 | `[✓]` | `src/content/blog/en/pdf-safe-sharing-training-2.md` — **DELETED** |
 | 35 | `[✓]` | `src/content/blog/en/pdf-security-best-practices.md` — **DELETED** |

@@ -2,6 +2,7 @@
 title: "PDF Sharing Settings: Practical Configuration Guide"
 description: "Configure PDF sharing settings with a compact policy model: access, lifecycle, protection, and monitoring."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Settings", "Security Configuration", "PDF Configuration", "Document Settings", "Sharing Options"]
 showDefaultCta: true

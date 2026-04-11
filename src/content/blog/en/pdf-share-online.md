@@ -88,7 +88,7 @@ No registration. No forced expiry. Full control over your document.
 
 **Related reading:**
 
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — full product overview
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — full product overview
 - [Enhancing Document Security with MaiPDF](/blog/en/pdf-security-features) — deep dive on all security controls
 - [Email Verification for PDF Access](/blog/en/email-verification-for-pdf-access) — how the email gate works
 - [PDF Access Control: View Limits and Expiration](/blog/en/pdf-access-control-view-limits-expiration) — combining limits with expiry dates

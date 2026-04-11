@@ -74,5 +74,5 @@ This turns your PDF into a sales signal, not just a document.
 
 - [PDF Link Generator: Professional Sharing Workflow](/blog/en/pdf-link-generator-ultimate-tool-professional-sharing) — how to generate and configure links
 - [Email PDF Links Instead of Attachments](/blog/en/email-pdf-links) — link sharing in email specifically
-- [Freelancer Portfolio Links: Win More Clients](/blog/en/freelancer-portfolio-links-showcase-skills-land-more-clients) — audience-specific portfolio links
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-best-choice-secure-pdf-sharing) — product overview
+- [Freelancer Portfolio Links: Win More Clients with Clear Sharing](/blog/en/freelancer-portfolio-links-win-more-clients-with-clear-sharing) — audience-specific portfolio links
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — product overview
