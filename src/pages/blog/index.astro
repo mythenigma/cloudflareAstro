@@ -4,11 +4,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 
+/** Same rule as BlogPost.astro: show the more recent of publish vs update. */
+function getDisplayDate(data: { pubDate: Date; updatedDate?: Date }) {
+	const publishedAt = data.pubDate instanceof Date ? data.pubDate : new Date(data.pubDate);
+	const updatedAt = data.updatedDate
+		? data.updatedDate instanceof Date
+			? data.updatedDate
+			: new Date(data.updatedDate)
+		: null;
+	return updatedAt && updatedAt.getTime() > publishedAt.getTime() ? updatedAt : publishedAt;
+}
+
 const posts = (await getCollection('blog'))
 	.filter((post) => post.data.noindex !== true)
-	.sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+	.sort((a, b) => getDisplayDate(b.data).valueOf() - getDisplayDate(a.data).valueOf());
 
 const sections = {
 	English: posts.filter((post) => post.id.startsWith('en/')),
@@ -250,7 +259,7 @@ const sectionsWithContent = Object.entries(sections).filter(([_, posts]) => post
 									<a href={`/blog/${post.id}`} class="post-item block">
 										<h3 class={`post-title${isOffline ? ' post-title-offline' : ''}`}>{post.data.title}</h3>
 										<p class="post-date">
-											<FormattedDate date={post.data.pubDate} />
+											<FormattedDate date={getDisplayDate(post.data)} />
 										</p>
 										<p class="post-description">{post.data.description}</p>
 									</a>
