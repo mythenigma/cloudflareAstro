@@ -82,7 +82,7 @@ If your open limit is exceeded before you extend it, scanners see an "access lim
 
 **Related reading:**
 
-- [Instant PDF Sharing with QR Codes](/blog/en/instant-pdf-sharing-with-qr-codes) — QR distribution guide
+- [Instant PDF Sharing with QR Codes](/blog/en/instant-pdf-sharing-with-qr-codes-how-it-works) — QR distribution guide
 - [Convert PDFs to Shareable Links](/blog/en/convert-pdfs-to-shareable-links) — the core setup guide
 - [Temporary PDF Sharing Links](/blog/en/pdf-temporary-sharing-link) — view limits and expiry for events
 - [PDF View Count Limit Guide](/blog/en/pdf-set-view-count-limit-guide) — setting scan limits in detail

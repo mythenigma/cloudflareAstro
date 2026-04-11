@@ -1,7 +1,8 @@
-﻿---
+---
 title: "💼 Industry-Specific PDF Security: Tailored Protection for Different Sectors"
 description: "Learn how different industries can implement customized PDF security strategies to meet their unique document protection requirements and compliance needs."
 pubDate: "Apr 3 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["Industry Solutions", "PDF Security", "Compliance", "Document Protection", "Sector-Specific Security"]
 ---

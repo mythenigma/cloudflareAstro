@@ -37,11 +37,11 @@ flowchart TB
   B --> C["Create share link or QR"]
   C --> D[Send to recipients]
   D --> E[They open in browser]
-  E --> F{Need to update or revoke?}
-  F -->|Review history (if logged)| G[Query reading history]
+  E --> F{Update or revoke}
+  F -->|"Review history if logged"| G[Query reading history]
   F -->|Replace file| H[Swap file while keeping link]
   F -->|Tighten controls| I[Adjust settings]
-  F -->|Done| J["Let it expire or close out"]
+  F -->|Done| J["Expire or close out"]
 ```
 
 ![Overview: upload, settings, then link and QR](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)

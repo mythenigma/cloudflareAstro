@@ -22,6 +22,10 @@ const blog = defineCollection({
      * Optional SEO control for pages that should stay reachable but not indexed.
      */
     noindex: z.boolean().optional(),
+    /**
+     * Override header nav brand (e.g. MaiImg for image posts whose slug does not contain "maiimg").
+     */
+    headerTitle: z.string().optional(),
   }),
 });
 

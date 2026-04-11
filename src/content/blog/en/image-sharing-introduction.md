@@ -1,14 +1,15 @@
 ---
-title: "Maiimg Complete Introduction: Professional Image Sharing Platform Made Simple and Secure"
+title: "MaiImg: Simple, Secure Image Sharing"
 description: "A practical introduction to Maiimg: where it fits, how the workflow works, and how to share galleries with a cleaner, more controlled presentation."
 pubDate: "Feb 11 2026"
-updatedDate: "Apr 3 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maiimg/static-images/common/show/english-share-entry-hero.svg"
 tags: ["Maiimg", "Image Sharing", "Gallery Management", "Access Control", "Complete Guide"]
 showDefaultCta: false
+headerTitle: "MaiImg"
 ---
 
-# Maiimg Complete Introduction: Professional Image Sharing Platform Made Simple and Secure
+# MaiImg: Simple, Secure Image Sharing
 
 <div class="intro-panel">
   <p>Maiimg is designed for one specific job: take a focused set of images, publish them as one clean gallery, share them by link or QR code, and keep enough control to manage access without turning the workflow into a heavy digital asset system. It is a practical middle ground between dumping files into chat and adopting a full enterprise DAM.</p>
@@ -53,8 +54,8 @@ showDefaultCta: false
     <p>Use expiry, view limits, and gallery-level rules to keep distribution more intentional without overwhelming the sender.</p>
   </div>
   <div class="feature-item">
-    <h4>Open statistics</h4>
-    <p>Use basic visibility to see whether a gallery is being accessed and whether a follow-up is worth doing.</p>
+    <h4>Visibility for follow-up</h4>
+    <p>Basic signals on whether a gallery is being used help you decide when to nudge or retire a link—not full analytics.</p>
   </div>
 </div>
 
@@ -81,7 +82,7 @@ showDefaultCta: false
   <div class="step-card">
     <div class="step-number">4</div>
     <h3>Check engagement</h3>
-    <p>Review open statistics, keep the gallery active only as long as needed, and retire stale links cleanly.</p>
+    <p>Review high-level open activity, keep the gallery active only as long as needed, and retire stale links cleanly.</p>
   </div>
 </div>
 
@@ -89,12 +90,28 @@ showDefaultCta: false
 
 ## Where Maiimg fits best
 
-| Team or scenario | Typical goal | Why Maiimg fits |
-| --- | --- | --- |
-| Marketing | Share campaign visuals or draft image sets | One gallery is cleaner than multiple attachments |
-| Sales | Send proposal images or product visuals | Controlled previews with simple follow-up |
-| Creative teams | Present portfolios or concept drafts | Polished gallery layout with lower friction |
-| Events and education | Give many people mobile access quickly | QR-based entry works well in-person |
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4 data-icon="📣">Marketing</h4>
+    <p><strong>Goal:</strong> campaign visuals or draft image sets.</p>
+    <p><strong>Why Maiimg:</strong> one gallery reads cleaner than a chain of attachments.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🤝">Sales</h4>
+    <p><strong>Goal:</strong> proposal images or product shots.</p>
+    <p><strong>Why Maiimg:</strong> controlled previews with a simple follow-up story.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🎨">Creative teams</h4>
+    <p><strong>Goal:</strong> portfolios or concept drafts.</p>
+    <p><strong>Why Maiimg:</strong> polished layout with less friction than ZIPs.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="🎓">Events and education</h4>
+    <p><strong>Goal:</strong> many people on mobile, fast.</p>
+    <p><strong>Why Maiimg:</strong> QR entry fits in-person and classroom flows.</p>
+  </div>
+</div>
 
 ## A more professional visual presentation
 

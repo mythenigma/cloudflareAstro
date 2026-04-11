@@ -54,15 +54,15 @@ heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
 
 ```mermaid
 flowchart TB
-  A[Upload PDF] --> B["Configure: access limit, each session, expiration"]
-  B --> C["Optional: view mode, watermark, email verification"]
+  A[Upload PDF] --> B["Configure rules"]
+  B --> C["Optional hardening"]
   C --> D["Share link or QR"]
   D --> E[Viewer opens in browser]
-  E --> F{Need changes?}
-  F -->|History (if logged)| G[Query reading history]
+  E --> F{Need changes}
+  F -->|"History if logged"| G[Query reading history]
   F -->|Replace file| H[Swap file in control panel]
   F -->|Tighten rules| B
-  F -->|Done| I[Let it expire / close out]
+  F -->|Done| I["Expire or close out"]
 ```
 
 ![Overview: upload, secure settings, then link and QR](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)

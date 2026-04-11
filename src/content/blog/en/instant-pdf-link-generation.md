@@ -70,5 +70,6 @@ You typically get:
 ## Related reading
 
 - [Upload a PDF and Get a Link](/blog/en/upload-pdf-get-link)
-- [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-pdf-and-generate-secure-link)
-- [Instant PDF Sharing With QR Codes](/blog/en/instant-pdf-sharing-with-qr-codes)
+- [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
+- [Generate PDF Links That Work on Any Device](/blog/en/generate-pdf-links-that-work-on-any-device)
+- [Instant PDF Sharing With QR Codes](/blog/en/instant-pdf-sharing-with-qr-codes-how-it-works)

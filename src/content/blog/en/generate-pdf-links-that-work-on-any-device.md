@@ -2,6 +2,7 @@
 title: "Generate PDF Links That Work on Any Device"
 description: "A practical guide to creating PDF links that load reliably across mobile, tablet, and desktop with proper control settings."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["cross-platform", "mobile optimization", "device compatibility", "universal access", "responsive design"]
 showDefaultCta: true

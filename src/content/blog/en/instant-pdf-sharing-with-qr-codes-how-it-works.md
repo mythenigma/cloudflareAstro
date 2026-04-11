@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Instant PDF Sharing with QR Codes: How It Works"
 description: "How to share a PDF via QR code: generate the code, display it, and let recipients scan to view. Use cases, mobile scan tips, and access controls for event and in-person distribution."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Code", "PDF sharing", "instant sharing", "event distribution", "MaiPDF"]
 showDefaultCta: true

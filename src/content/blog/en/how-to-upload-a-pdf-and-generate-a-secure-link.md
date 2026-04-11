@@ -2,6 +2,7 @@
 title: "How to Upload a PDF and Generate a Secure Link"
 description: "A compact step-by-step guide to uploading PDFs, setting access controls, and sharing secure links with MaiPDF."
 pubDate: "Apr 4 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Upload", "Secure Link Generation", "PDF Sharing", "Document Upload", "Link Sharing"]
 showDefaultCta: true

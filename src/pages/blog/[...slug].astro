@@ -32,7 +32,8 @@ const language = pathParts[0] || 'en';
 const lang = langMap[language] || 'en';
 
 const isMaiimgPost = post.id.toLowerCase().includes('maiimg');
-const headerTitle = isMaiimgPost ? 'MaiImg' : undefined;
+const headerTitle =
+	post.data.headerTitle ?? (isMaiimgPost ? 'MaiImg' : undefined);
 ---
 
 <Layout 
