@@ -1409,9 +1409,12 @@
     margin-bottom: 0.8rem;
   }
   
+  /* Reset desktop "bleed" width — it causes horizontal scroll on narrow viewports */
   .content-wrapper table {
-    font-size: 0.86rem;
+    width: 100%;
+    max-width: 100%;
     margin: 1rem 0;
+    font-size: 0.86rem;
   }
   
   .content-wrapper th, 

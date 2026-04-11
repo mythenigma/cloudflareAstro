@@ -2,7 +2,7 @@
 title: "DRM certificates vs practical PDF sharing controls: what to use"
 description: "Certificate-based DRM vs link-based access controls for PDFs. A decision framework covering cost, friction, security level, and when each approach makes sense."
 pubDate: "Apr 2 2026"
-updatedDate: "Apr 2 2026"
+updatedDate: "Apr 11 2026"
 tags: ["PDF DRM","Enterprise Security","Access Control","Verification"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/email%20verify.png"
@@ -69,7 +69,7 @@ The document stays **on the server** and renders in a **browser-based viewer**. 
 - Setup: minutes; works in any browser, zero friction for recipients
 - Offline viewing: no
 - Revocation: instant (disable the link)
-- Audit: IP, timestamp, email
+- Audit: optional high-level access signals (keep privacy-first messaging)
 - Cost: free to low
 - Best for: most business sharing — proposals, training, client docs
 
@@ -101,10 +101,27 @@ This covers proposals, contracts for review, training materials, hiring document
 
 Some teams use **both**: certificate DRM for a small set of highly classified documents, and link-based controls for everything else. This avoids forcing the heavy onboarding process on every recipient for every document.
 
-| Document type | Recommended approach |
-|--------------|---------------------|
-| Classified IP, regulated data | Certificate DRM |
-| Client proposals, sales decks | Link-based with email verification |
-| Training materials | Link-based with view limits |
-| Press embargoes | Link-based with expiration + watermark |
-| Internal memos | Link-based (simplest settings) |
+### Quick mapping (mobile-friendly)
+
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4 data-icon="🏛️">Classified IP / regulated data</h4>
+    <p><strong>Certificate DRM</strong> when mandates require device-bound access.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📄">Client proposals / sales decks</h4>
+    <p><strong>Link-based</strong> + email verification when appropriate.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📚">Training materials</h4>
+    <p><strong>Link-based</strong> + view limits.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📰">Press embargoes</h4>
+    <p><strong>Link-based</strong> + expiration + watermark.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="📝">Internal memos</h4>
+    <p><strong>Link-based</strong> with the simplest settings that match risk.</p>
+  </div>
+</div>

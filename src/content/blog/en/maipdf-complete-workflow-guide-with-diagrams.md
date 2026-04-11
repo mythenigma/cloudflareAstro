@@ -2,11 +2,20 @@
 title: "MaiPDF complete workflow guide (2026): Upload → Configure → Share, with diagrams"
 description: "A practical end-to-end guide to turning a PDF into a controlled share link or QR code—expiration, access limits, session time, viewing modes, watermark, verification, and file replacement."
 pubDate: "Mar 26 2026"
-updatedDate: "Mar 26 2026"
+updatedDate: "Apr 11 2026"
 tags: ["PDF Sharing","Secure Sharing","Document Control","PDF DRM","QR Code","Workflow"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
 ---
+
+<div class="intro-panel">
+  <p><strong>At a glance</strong></p>
+  <ul>
+    <li><strong>Flow:</strong> Upload → Configure (rules) → Share (link + QR).</li>
+    <li><strong>Rules you’ll set:</strong> expiry, open cap, session length, viewing mode; optional watermark, email check, Telegram open alerts.</li>
+    <li><strong>After sharing:</strong> same link can get a <strong>new PDF</strong> from the control panel; optional <strong>reading history</strong> when logging is enabled.</li>
+  </ul>
+</div>
 
 MaiPDF’s core idea is simple: **the file stays a file, but sharing becomes a controlled link**.
 
@@ -29,7 +38,7 @@ flowchart TB
   C --> D[Send to recipients]
   D --> E[They open in browser]
   E --> F{Need to update or revoke?}
-  F -->|Check access records| G[Query reading history]
+  F -->|Review history (if logged)| G[Query reading history]
   F -->|Replace file| H[Swap file while keeping link]
   F -->|Tighten controls| I[Adjust settings]
   F -->|Done| J["Let it expire or close out"]
@@ -38,6 +47,12 @@ flowchart TB
 ![Overview: upload, settings, then link and QR](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 ## Step 1: Upload
+
+### What you’re doing
+
+You’re putting the PDF into MaiPDF so the product can host it and attach rules—not emailing the binary around.
+
+### In the UI
 
 Upload the PDF you want to share.
 
@@ -75,6 +90,10 @@ If you need to show the “no print / no download” style viewer UI:
 
 ## Step 3: Share (link + QR)
 
+### What recipients get
+
+A **URL** (and optionally a **QR**). You keep **Read** / **Modify** codes to manage the share later.
+
 When configuration is done, generate the link and (optionally) a QR code.
 
 ![Link and QR result after creating a share](/maipdf2026/Result_of_qr_link.png)
@@ -83,11 +102,11 @@ When configuration is done, generate the link and (optionally) a QR code.
 
 If **Access limit** is above **10,000**, the link can behave like it’s effectively public, and **access records may not be logged**. Use a limit that matches your real audience.
 
-## Access records (reading history)
+## Reading history (when available)
 
-For audits and follow-ups, you can check when/where the PDF was opened by using the codes on the share page.
+When logging applies, you can use the **Read** / **Modify** codes on the share page to see **high-level open activity**—useful for follow-ups, not “surveillance-style” tracking. (Very high access limits can disable some logging; see the caveat above.)
 
-![Access records: where to enter reading and modification code](/maipdf2026/how_to_fill_access_record_for_check.png)
+![Where to enter reading and modification codes](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## Replace the file (without changing the share experience)
 

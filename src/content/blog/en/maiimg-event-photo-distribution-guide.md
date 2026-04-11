@@ -2,6 +2,7 @@
 title: "MaiImg Event Photo Distribution Guide: Share Event Images Securely"
 description: "How to distribute event photos securely using MaiImg. Upload, generate QR codes, set access controls, and track who views your event photography."
 pubDate: "Apr 2 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maiimg/maiimg-head.png"
 tags: ["MaiImg", "Event Photography", "Image Sharing"]
 ---
@@ -39,19 +40,28 @@ Each upload generates a unique shareable link and QR code. For events, QR codes 
 ### Step 3: Set Access Controls
 Configure per-image controls:
 
-| Control | Event Use Case |
-|---------|---------------|
-| View limit | Limit access to registered attendees |
-| Expiration | Auto-disable after the event closes |
-| Download toggle | Allow or prevent photo downloads |
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4 data-icon="🔢">View limit</h4>
+    <p>Cap opens so a leaked link can’t be reused indefinitely.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="⏳">Expiration</h4>
+    <p>Auto-disable shares after the event window ends.</p>
+  </div>
+  <div class="feature-item">
+    <h4 data-icon="⬇️">Download toggle</h4>
+    <p>Allow downloads for personal keepsakes, or keep view-only when needed.</p>
+  </div>
+</div>
 
 ![MaiImg Settings](/maiimg/maiimg-setting.png)
 
 ### Step 4: Distribute
 Share QR codes at the venue, send links via email, or post to event-specific channels. Each method tracks independently.
 
-### Step 5: Monitor
-Check which photos were viewed most, which attendees engaged, and when peak access occurred.
+### Step 5: Review distribution (optional)
+Use high-level signals to see which galleries were opened and whether access looks normal—keep messaging privacy-first, not “surveillance of attendees.”
 
 ![Tracking](/maiimg/result_tracking.png)
 
@@ -90,15 +100,14 @@ The fastest workflow:
 
 This creates a live photo feed without requiring any app installation from attendees.
 
-## Post-Event Analytics
+## After the event
 
-After the event, review MaiImg's access records:
+Useful checks (keep them proportional to your needs):
 
-- **Most viewed photos** — highlight these in post-event communications
-- **Peak access times** — understand when attendees were most engaged
-- **Device breakdown** — optimize future photo sizes for the dominant device type
-- **Geographic spread** — see if images reached beyond the event location
+- **Which galleries got traction** — for follow-up highlights
+- **Rough timing of access spikes** — to plan distribution windows next time
+- Avoid turning this section into public copy that promises invasive tracking
 
 ## Getting Started
 
-Upload your event photos at [maiimg.com](https://www.maiimg.com), generate QR codes, and distribute instantly. Every view is tracked, every image is controlled.
+Upload your event photos at [maiimg.com](https://www.maiimg.com), generate QR codes, and distribute with access rules you can revoke or adjust later.

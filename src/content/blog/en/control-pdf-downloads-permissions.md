@@ -2,11 +2,33 @@
 title: "Control PDF Access: Enable or Disable Downloads"
 description: "Pair MaiPDF viewing modes (SecureView, FenceView, Unrestricted) with access limits, expiry, Telegram read alerts, and email verification—so “can they keep a file?” matches your real risk."
 pubDate: "Mar 26 2026"
+updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF control", "download management", "document security", "access permissions"]
 ---
 
-Whether someone can **download** or only **read in the browser** is part of how you set up the link on [MaiPDF’s main tool](https://maipdf.com/pdf/maipdf2026.html). Alongside that, you’ll choose **how many opens** you allow, **session length**, **expiration**, optional **Telegram read alerts**, optional **email verification**, and a **viewing mode** that can tighten or loosen what the reader can do on screen.
+<div class="intro-panel">
+  <p><strong>TL;DR</strong></p>
+  <ul>
+    <li><strong>Download on</strong> when people need a file copy or offline reading.</li>
+    <li><strong>View-only / stricter viewer</strong> when you want fewer copies in the wild.</li>
+    <li>Set that on <strong>Configure</strong> together with <strong>limits</strong>, <strong>expiry</strong>, optional <strong>verification</strong>, and <strong>viewing mode</strong>.</li>
+  </ul>
+</div>
+
+**Core question:** should someone get a **downloadable file**, or only **read in the browser**?
+
+That choice is set on [MaiPDF’s main tool](https://maipdf.com/pdf/maipdf2026.html) in the same place as the rest of the rules—not as a lone toggle.
+
+### What you configure together
+
+On **step 2 · Configure**, you typically line up:
+
+- **How many opens** and **session length**
+- **Expiration**
+- Optional **Telegram read alerts** (if you want open notifications)
+- Optional **email verification**
+- **Viewing mode** (SecureView, FenceView, or Unrestricted)—this shapes what the reader can do on screen, alongside download behavior
 
 ## Quick decision guide
 

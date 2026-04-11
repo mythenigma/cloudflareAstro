@@ -1,13 +1,13 @@
 ---
-title: "🛡️ Safeguard Your PDFs Online—Control Who Views, Shares, or Edits Your Documents"
-description: "Learn how to protect sensitive information in your PDFs without complex software or costly tools. Take control of your document sharing with simple yet powerful security measures."
+title: "Safeguard PDFs Online: Links, Limits, and Revocation"
+description: "Use hosted links with view limits, expiry, and revoke—so proposals and contracts don’t float around as permanent inbox attachments."
 pubDate: "Apr 3 2026"
 updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["PDF Security", "Document Protection", "File Sharing", "Information Control"]
 ---
 
-# 🛡️ Safeguard Your PDFs Online—Control Who Views, Shares, or Edits Your Documents
+# Safeguard PDFs Online: Links, Limits, and Revocation
 
 <div class="intro-panel">
   <p><strong>TL;DR</strong></p>
@@ -16,16 +16,19 @@ tags: ["PDF Security", "Document Protection", "File Sharing", "Information Contr
     <li>Use <strong>revoke / edit codes</strong> to stop or adjust access after sending.</li>
     <li>Optional: <strong>share status</strong> (high-level)—privacy-first, not “track every reader.”</li>
   </ul>
-  <p>Protect sensitive information without complex software or costly tools.</p>
-  <p>PDFs are a go-to format for proposals, contracts, reports, internal docs, and training—but once sent, control gets fuzzy.</p>
+  <p><strong>Typical pain:</strong> a proposal sits in ten inboxes forever, or a pricing PDF gets forwarded without you knowing. A <strong>hosted link with rules</strong> keeps one distribution channel you can tighten or shut off.</p>
 </div>
 
-* Anyone can forward it
-* Anyone can download and copy it
-* You can't stop someone from opening it days, weeks, or years later
-* It's hard to manage distribution without link-level controls
-
-If that sounds familiar, it's time to safeguard your PDFs.
+<div class="scenario-section">
+  <div class="scenario-card">
+    <h3>📄 Sales / BD</h3>
+    <p>Send one link for a deal deck; cap opens and set expiry before the next pricing round—no more “which attachment is current?”</p>
+  </div>
+  <div class="scenario-card">
+    <h3>🏢 HR / People</h3>
+    <p>Offer letters and policy PDFs: view-only + short expiry reduces long-term leakage from personal mailboxes.</p>
+  </div>
+</div>
 
 
 ![PDF Security Layers Overview](/maipdf2026/flowchart/en-security-layers.svg)

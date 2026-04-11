@@ -30,6 +30,9 @@ const langMap: Record<string, string> = {
 const pathParts = post.id.split('/');
 const language = pathParts[0] || 'en';
 const lang = langMap[language] || 'en';
+
+const isMaiimgPost = post.id.toLowerCase().includes('maiimg');
+const headerTitle = isMaiimgPost ? 'MaiImg' : undefined;
 ---
 
 <Layout 
@@ -37,6 +40,7 @@ const lang = langMap[language] || 'en';
 	description={post.data.description} 
 	image={post.data.heroImage}
 	lang={lang}
+	headerTitle={headerTitle}
 	noindex={post.data.noindex ?? false}
 	article={{
 		pubDate: post.data.pubDate.toISOString(),

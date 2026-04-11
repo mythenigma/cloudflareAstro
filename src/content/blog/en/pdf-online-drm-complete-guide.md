@@ -1,16 +1,16 @@
 ---
 title: "PDF online DRM (complete guide): controls that work in a browser"
-description: "A practical guide to online PDF DRM-style sharing: view limits, session time, expiration, protected viewer modes, watermarking, verification, access records, and file replacement."
+description: "A practical guide to online PDF DRM-style sharing: view limits, session time, expiration, protected viewer modes, watermarking, verification, optional reading history, and file replacement."
 pubDate: "Apr 1 2026"
-updatedDate: "Apr 10 2026"
+updatedDate: "Apr 11 2026"
 tags: ["PDF DRM","Secure Sharing","Access Control","Workflow"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
 ---
 
 <div class="intro-panel">
-  <p>Online PDF DRM is best understood as <strong>enforceable sharing rules in a browser</strong>. Instead of sending a copy of the PDF, you share a link and control access at the viewer.</p>
-  <p>This guide is “complete” in the sense that it covers the controls most teams actually use—not theoretical DRM terminology.</p>
+  <p>Picture a <strong>pricing sheet</strong> or <strong>contract draft</strong>: email it once and it lives in inboxes forever. <strong>Browser-first sharing</strong> means one link where you set <strong>expiry</strong>, <strong>open caps</strong>, and optional <strong>verification</strong>—then adjust or replace the file without resending a new attachment chain.</p>
+  <p>“DRM” here means <strong>those rules at the viewer</strong>, not a glossary of vendor acronyms. Below is the control set teams actually use.</p>
 </div>
 
 ## What you can control online
@@ -41,8 +41,8 @@ heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
     <p>Email verification when needed.</p>
   </div>
   <div class="feature-item">
-    <h4 data-icon="📒">Accountability</h4>
-    <p>Access records.</p>
+    <h4 data-icon="📒">Follow-up</h4>
+    <p>Optional reading history (when logged).</p>
   </div>
   <div class="feature-item">
     <h4 data-icon="🔄">Maintenance</h4>
@@ -59,7 +59,7 @@ flowchart TB
   C --> D["Share link or QR"]
   D --> E[Viewer opens in browser]
   E --> F{Need changes?}
-  F -->|Access records| G[Query reading history]
+  F -->|History (if logged)| G[Query reading history]
   F -->|Replace file| H[Swap file in control panel]
   F -->|Tighten rules| B
   F -->|Done| I[Let it expire / close out]
@@ -87,9 +87,9 @@ flowchart TB
 
 ![Link and QR result after creating a share](/maipdf2026/Result_of_qr_link.png)
 
-## Access records
+## Reading history (optional)
 
-![Access records: where to enter reading and modification code](/maipdf2026/how_to_fill_access_record_for_check.png)
+![Where to enter reading and modification codes](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## Replace the file (keep the sharing channel)
 
