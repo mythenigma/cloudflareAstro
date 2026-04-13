@@ -184,6 +184,21 @@
   }
   .info-box.warn { border-left-color: var(--yellow); }
   .info-box.success { border-left-color: var(--green); }
+  .info-box.tier-a { border-left-color: var(--red); }
+  .info-box.tier-b { border-left-color: var(--yellow); }
+  .info-box.tier-c { border-left-color: var(--green); }
+  .abc-pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+    margin-right: 0.35rem;
+    vertical-align: middle;
+  }
+  .abc-pill.a { background: rgba(239,68,68,0.2); color: #fca5a5; }
+  .abc-pill.b { background: rgba(234,179,8,0.2); color: #fde047; }
+  .abc-pill.c { background: rgba(34,197,94,0.2); color: #86efac; }
 
   /* ── Progress bar ── */
   .progress-wrap {
@@ -396,6 +411,7 @@
   <button class="tab-btn" onclick="switchTab('phase2', this)">📝 Phase 2 专业化</button>
   <button class="tab-btn" onclick="switchTab('phase3', this)">🏗️ Phase 3 增强</button>
   <button class="tab-btn" onclick="switchTab('audit', this)">✍️ 英文改稿计划</button>
+  <button class="tab-btn" onclick="switchTab('abc', this)">🎯 内容分层 ABC</button>
   <button class="tab-btn" onclick="switchTab('log', this)">📅 完成日志</button>
   <button class="tab-btn" onclick="switchTab('notes', this)">🧠 认知</button>
 </div>
@@ -4537,6 +4553,146 @@
 </div>
 </div>
 
+<!-- ═══════════════════════════════════════ TAB: 内容分层 ABC ═══════════════════════ -->
+<div class="tab-content" id="tab-abc">
+<div class="container">
+
+  <h2><span class="abc-pill a">A</span><span class="abc-pill b">B</span><span class="abc-pill c">C</span> 内容分层 ABC（重复与主力文）</h2>
+  <div class="info-box">
+    <strong>用途</strong>：把 article.maipdf.com 上的文章按 <strong>重复程度 / 独立价值 / 战略地位</strong> 分成三类，并绑定<strong>不同处置方式</strong>。与「英文改稿计划」互补：改稿表偏单篇可读性与合规；本页偏<strong>整站信息架构、重复治理、与主站功能页的分工</strong>。
+  </div>
+  <div class="audit-meta" style="margin-top:0.5rem;">维护：归类需人工判断；下列清单随审计更新 slug 与状态。</div>
+
+  <h3>一、三类定义（怎么筛）</h3>
+
+  <div class="info-box tier-a">
+    <strong><span class="abc-pill a">A</span> 明显重复 / 换词不换内容</strong><br>
+    标题角度不同（例如 host PDF online、make PDF into a link、upload PDF get link），但<strong>正文骨架、小节顺序、核心信息高度重叠</strong>，读起来像在换关键词复述同一篇产品说明。
+  </div>
+  <div class="info-box tier-b">
+    <strong><span class="abc-pill b">B</span> 有点像，但仍有独立价值</strong><br>
+    与「入门式说明文」有重叠，但多了<strong>具体场景、可执行步骤、真实 use case、或一条可照做的检查清单</strong>；删掉会少一块检索意图。
+  </div>
+  <div class="info-box tier-c">
+    <strong><span class="abc-pill c">C</span> 主力内容（值得长期投入）</strong><br>
+    能<strong>解决一个明确问题</strong>（或一条清晰检索意图），结构完整；与 maipdf.com 功能落地页<strong>不完全撞车</strong>（博客讲场景与决策，功能页讲能力与操作）。
+  </div>
+
+  <h3>二、处置方式（最重要）</h3>
+  <div class="info-box warn">
+    <strong>A 类 — 不建议直接删</strong><br>
+    优先按 Google 对相近内容的常规做法做<strong>收敛</strong>：<code>noindex</code>，或对重复簇设 <code>rel=canonical</code> 指向选定「主 URL」/ 合并到一篇，再评估是否保留入口链接。避免「看到重复就整站乱砍」导致可用 URL 突然消失。
+  </div>
+  <div class="info-box" style="border-left-color:#64748b;">
+    <strong>B 类 — 保留，往「强场景文」升级</strong><br>
+    重写时把<strong>和主站抢同一主关键词</strong>的段落收一收，把主关键词让给功能页或选定 C 类支柱文；正文强化场景标题、步骤、边界条件（何时不适用）。
+  </div>
+  <div class="info-box success">
+    <strong>C 类 — 保留并持续增强</strong><br>
+    加强<strong>内链</strong>（指向相关 B/C、指向主站对应功能）、<strong>截图 / 流程</strong>、<strong>FAQ</strong>、以及<strong>场景深度</strong>（行业 / 角色 / 失败案例），作为博客侧的「锚点文章」维护。
+  </div>
+
+  <h3>三、清单（英文 en · 按类维护）</h3>
+  <p style="color:var(--text-dim);font-size:0.9rem;margin-bottom:0.75rem;">路径格式：<code>/blog/en/&lt;slug&gt;</code>。状态示例：待确认 · 已 canonical · 已 noindex · 已重写。</p>
+
+  <h4 style="margin-top:1.25rem;"><span class="abc-pill a">A</span> 候选（重复簇 / 待确认 canonical）</h4>
+  <div class="table-scroll">
+    <table class="task-table">
+      <thead>
+        <tr><th>slug</th><th>备注（为何像一类）</th><th>建议主篇 / 合并方向</th><th>状态</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>host-pdf-online-secure-sharing-guide</code></td>
+          <td>与「上传 / 链式分享」入门文易同构</td>
+          <td>待定：选一 canonical，余文指向或 noindex</td>
+          <td>待确认</td>
+        </tr>
+        <tr>
+          <td><code>make-pdf-into-a-link</code></td>
+          <td>典型「换角度复述同一流程」</td>
+          <td>同上</td>
+          <td>待确认</td>
+        </tr>
+        <tr>
+          <td><code>upload-pdf-get-link</code></td>
+          <td>与上两条同一产品路径</td>
+          <td>同上</td>
+          <td>待确认</td>
+        </tr>
+        <tr>
+          <td><code>free-pdf-hosting</code></td>
+          <td>易与「免费 / 在线 / 托管」簇重叠</td>
+          <td>视搜索表现与内链决定主篇</td>
+          <td>待确认</td>
+        </tr>
+        <tr>
+          <td colspan="4" style="color:var(--text-dim);font-size:0.85rem;">↓ 继续追加行：同簇文章填同一「建议主篇」，便于批量设 canonical。</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="margin-top:1.5rem;"><span class="abc-pill b">B</span> 有重叠但值得改成场景文</h4>
+  <div class="table-scroll">
+    <table class="task-table">
+      <thead>
+        <tr><th>slug</th><th>当前价值点</th><th>重写重点（关键词让路）</th><th>状态</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="4" style="color:var(--text-dim);">（随审计填入：优先填「有步骤/场景但和 A 簇仍像」的篇目。）</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="margin-top:1.5rem;"><span class="abc-pill c">C</span> 支柱文（长期维护）</h4>
+  <div class="table-scroll">
+    <table class="task-table">
+      <thead>
+        <tr><th>slug</th><th>解决的明确问题</th><th>下一批增强（内链 / 图 / FAQ）</th><th>状态</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="4" style="color:var(--text-dim);">（随审计填入：与主站功能页互补、检索意图清晰的篇目。）</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="info-box" style="margin-top:1.5rem;border-left-color:#8b5cf6;">
+    <strong>技术备忘（实施 canonical / noindex）</strong><br>
+    在 Astro 内容集合里通常为该篇 frontmatter 增加字段（如 <code>canonicalURL</code>、<code>noindex</code>），由 <code>BlogPost.astro</code> 或布局注入 <code>&lt;link rel="canonical"&gt;</code> 与 robots；合并两篇正文前务必保留 301 或长期 canonical，避免外链失效。具体字段名以仓库现有 schema 为准。
+  </div>
+
+  <h3>四、搜索可见度：为什么「不带 MaiPDF 基本搜不到我们」</h3>
+  <div class="info-box success">
+    <strong>1. 收录 ≠ 泛词有排名</strong><br>
+    用 <code>site:article.maipdf.com</code> 能看到首页与文章 URL，说明<strong>博客子域通常已被 Google 收录</strong>。运营上说的「搜不到」多指：<strong>在非品牌、泛需求词下，前几页看不到我们的文章</strong>——两者不是一回事。
+  </div>
+  <div class="info-box">
+    <strong>2. 不带品牌的长尾 / 教程类查询</strong><br>
+    典型英文说法（如分享 PDF、view limit、expiration、教程类组合）下，SERP 前几屏常见<strong>老牌知识库、竞品博客、高权重域名</strong>，以及<strong>主站</strong> <code>maipdf.com</code> 上的功能/落地页；<strong>article.maipdf.com 某篇长文经常挤不进前排</strong>（具体名次因地区与个性化而异，但模式稳定）。
+  </div>
+  <div class="info-box warn">
+    <strong>3. 常见原因（与 ABC 一致）</strong><br>
+    · <strong>泛词竞争极强</strong>：PDF 分享、在线托管、生成链接等头部意图被大站长期占据。<br>
+    · <strong>多篇 A 类重复</strong>：结构雷同会分散站内信号，难以让单篇在泛词上立住。<br>
+    · <strong>品牌词易排</strong>：含 MaiPDF / 产品名的查询竞争面小，容易「一搜就有」。<br>
+    · <strong>主站与博客分工</strong>：同一主题下，搜索引擎有时更倾向展示<strong>产品/功能页</strong>而非博客子域的多篇相似说明文。
+  </div>
+  <div class="info-box" style="border-left-color:#64748b;">
+    <strong>4. 若要改善「非品牌可见度」（方向备忘）</strong><br>
+    · <strong>A 类收敛</strong>：canonical / 合并 / noindex，避免重复簇稀释权重，集中养少数 URL。<br>
+    · <strong>B / C 占住具体检索意图</strong>：场景、对比维度、反例、检查清单——避免多篇抢同一意图。<br>
+    · <strong>技术侧</strong>：稳定 canonical、从主站与高流量页<strong>内链</strong>到支柱文、性能（Core Web Vitals）、持续<strong>自然外链</strong>——比单纯堆篇数更能动「不带品牌也能被看到」的概率。
+  </div>
+  <div class="audit-meta" style="margin-top:0.75rem;">说明：以上为公开检索与行业常见模式的归纳，非单关键词排名承诺；选 1～2 个目标 query 做 SERP 拆解后再定 C 类支柱选题更有效。</div>
+
+</div>
+</div>
+
 <!-- Completion Log Tab -->
 <div class="tab-content" id="tab-log">
 <div class="container">
@@ -4745,7 +4901,7 @@
 </div>
 
 <div class="footer">
-  工作面板 v1.3 ｜ 最后更新：2026-04-04 ｜ 基于 article.maipdf.com 博客审计和专业化改善计划
+  工作面板 v1.4 ｜ 最后更新：2026-04-11 ｜ 基于 article.maipdf.com 博客审计和专业化改善计划
 </div>
 <script>
 function switchTab(id, btn) {
