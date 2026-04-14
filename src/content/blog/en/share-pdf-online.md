@@ -2,7 +2,7 @@
 title: "Share PDF Online: Easy Document Sharing Without Email Attachments"
 description: "Upload and share PDF files online instantly. No email size limits, no file compression - just clean, professional links that work on any device."
 pubDate: "Apr 3 2026"
-heroImage: "/maipdf2026/show_off/share pdf wordwide.png"
+heroImage: "/maipdf2026/show_off/share%20pdf%20wordwide.png"
 tags: ["share PDF", "online sharing", "document links", "file sharing"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["share PDF", "online sharing", "document links", "file sharing"]
 
 Tired of email attachment limits? Skip the hassle of file size restrictions and share PDF documents online with ease. MaiPDF lets you upload any PDF and create instant sharing links that work perfectly across all devices and platforms.
 
-![Share PDF Worldwide](/maipdf2026/show_off/share pdf wordwide.png)
+![Share PDF Worldwide](/maipdf2026/show_off/share%20pdf%20wordwide.png)
 
 
 ![Upload Share Track Workflow](/maipdf2026/flowchart/en-upload-share-flow.svg)
@@ -61,7 +61,7 @@ Recipients enjoy fast, responsive document viewing that works seamlessly across 
 
 **Desktop Viewing**: Full-screen reading with smooth navigation and crisp text rendering.
 
-![PDF Native View](/maipdf2026/pdf native view on ui.png)
+![PDF Native View](/maipdf2026/pdf%20native%20view%20on%20ui.png)
 
 **Mobile Optimized**: Documents automatically adjust for smartphone and tablet screens, ensuring perfect readability on any device.
 

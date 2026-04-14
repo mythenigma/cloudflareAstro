@@ -25,24 +25,93 @@ Sets a specific date after which the link becomes inactive. Useful when the docu
 
 ## Why both together is stronger
 
-| Situation | View limit alone | Expiry alone | Both |
-|-----------|-----------------|--------------|------|
-| Link forwarded widely | Stops after limit hit | Doesn't help | Stops after limit, also expires |
-| Link never used, sits active | Doesn't expire | Expires on schedule | Both conditions terminate access |
-| Short-window review | Doesn't expire | Expires correctly | Both: tight window + count |
-| One allowed reviewer | Limit of 1 is fragile | Doesn't help | Limit + expiry after review window |
+<div class="access-control-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Situation</th>
+        <th>View limit alone</th>
+        <th>Expiry alone</th>
+        <th>Both</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Situation">Link forwarded widely</td>
+        <td data-label="View limit alone">Stops after limit hit</td>
+        <td data-label="Expiry alone">Doesn't help</td>
+        <td data-label="Both">Stops after limit, also expires</td>
+      </tr>
+      <tr>
+        <td data-label="Situation">Link never used, sits active</td>
+        <td data-label="View limit alone">Doesn't expire</td>
+        <td data-label="Expiry alone">Expires on schedule</td>
+        <td data-label="Both">Both conditions terminate access</td>
+      </tr>
+      <tr>
+        <td data-label="Situation">Short-window review</td>
+        <td data-label="View limit alone">Doesn't expire</td>
+        <td data-label="Expiry alone">Expires correctly</td>
+        <td data-label="Both">Both: tight window + count</td>
+      </tr>
+      <tr>
+        <td data-label="Situation">One allowed reviewer</td>
+        <td data-label="View limit alone">Limit of 1 is fragile</td>
+        <td data-label="Expiry alone">Doesn't help</td>
+        <td data-label="Both">Limit + expiry after review window</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ![Settings panel — open limit, expiry, all controls in one place](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Recommended presets by document type
 
-| Document type | View limit | Expiry | Notes |
-|--------------|-----------|--------|-------|
-| Public report / whitepaper | None | 180 days | Still want it to eventually expire |
-| Sales proposal | 30 | 30 days | Both — proposal window bounded |
-| Contract for review | 10 | 14 days | Tight on both |
-| Confidential executive memo | 5 | 7 days | Add email gate + watermark too |
-| Product launch announcement | 500 | 7 days | High limit, short window |
+<div class="access-control-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Document type</th>
+        <th>View limit</th>
+        <th>Expiry</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Document type">Public report / whitepaper</td>
+        <td data-label="View limit">None</td>
+        <td data-label="Expiry">180 days</td>
+        <td data-label="Notes">Still want it to eventually expire</td>
+      </tr>
+      <tr>
+        <td data-label="Document type">Sales proposal</td>
+        <td data-label="View limit">30</td>
+        <td data-label="Expiry">30 days</td>
+        <td data-label="Notes">Both — proposal window bounded</td>
+      </tr>
+      <tr>
+        <td data-label="Document type">Contract for review</td>
+        <td data-label="View limit">10</td>
+        <td data-label="Expiry">14 days</td>
+        <td data-label="Notes">Tight on both</td>
+      </tr>
+      <tr>
+        <td data-label="Document type">Confidential executive memo</td>
+        <td data-label="View limit">5</td>
+        <td data-label="Expiry">7 days</td>
+        <td data-label="Notes">Add email gate + watermark too</td>
+      </tr>
+      <tr>
+        <td data-label="Document type">Product launch announcement</td>
+        <td data-label="View limit">500</td>
+        <td data-label="Expiry">7 days</td>
+        <td data-label="Notes">High limit, short window</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Setting it up in MaiPDF
 
@@ -68,3 +137,66 @@ You don't need to reshare a new link — the same URL respects the new settings 
 - [View Limits + Watermarks: Why Use Both](/blog/en/pdf-link-view-limit-watermark) — combining view limits with identity tracking
 - [PDF Security Protection: Layered Document Security](/blog/en/pdf-security-protection) — complete controls overview
 - [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — product overview
+
+<style>
+  .access-control-table {
+    margin: 2rem 0;
+  }
+
+  .access-control-table table {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .access-control-table {
+      margin: 1.25rem 0;
+    }
+
+    .access-control-table table,
+    .access-control-table thead,
+    .access-control-table tbody,
+    .access-control-table tr,
+    .access-control-table th,
+    .access-control-table td {
+      display: block;
+      width: 100%;
+    }
+
+    .access-control-table thead {
+      display: none;
+    }
+
+    .access-control-table tr {
+      margin: 0 0 1rem;
+      padding: 0.15rem 0;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      background: #ffffff;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+    }
+
+    .access-control-table td {
+      display: grid;
+      grid-template-columns: minmax(7.5rem, 42%) 1fr;
+      gap: 0.75rem;
+      align-items: start;
+      padding: 0.8rem 0.95rem;
+      text-align: left;
+      border-bottom: 1px solid #eef2f7;
+    }
+
+    .access-control-table tr td:last-child {
+      border-bottom: none;
+    }
+
+    .access-control-table td::before {
+      content: attr(data-label);
+      font-size: 0.76rem;
+      font-weight: 700;
+      line-height: 1.4;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #475569;
+    }
+  }
+</style>

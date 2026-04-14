@@ -62,7 +62,7 @@ The people viewing your shared documents also benefit from the performance impro
 
 **Professional Presentation**: Quick, reliable access creates a positive impression of your shared content.
 
-![Document Viewer Interface](/maipdf2026/pdf native view on ui.png)
+![Document Viewer Interface](/maipdf2026/pdf%20native%20view%20on%20ui.png)
 
 ## Technical Improvements Behind the Speed
 
