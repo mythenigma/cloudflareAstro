@@ -1,9 +1,15 @@
 ---
-title: "Conversión de PDF a HTML: Guía Completa"
-description: "Aprenda cómo convertir PDFs a HTML. Guía completa sobre conversión de PDF a HTML, páginas web y visualización en navegador."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "HTML", "Conversión", "Web"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Conversión de PDF a HTML: Guía Completa'
+description: >-
+  Aprenda cómo convertir PDFs a HTML. Guía completa sobre conversión de PDF a
+  HTML, páginas web y visualización en navegador.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - HTML
+  - Conversión
+  - Web
+heroImage: /maipdf2026/pdf native view on ui.png
 ---
 
 # Conversión de PDF a HTML: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>La conversión de PDF a HTML permite visualizar documentos PDF directamente en navegadores web. Esta guía le enseñará cómo convertir PDFs a HTML y crear páginas web interactivas.</p>
 </div>
 
-![Conversión PDF a HTML](/diagram/en/features-overview.svg)
+![Conversión PDF a HTML](/maipdf2026/pdf native view on ui.png)
 
 ## 🎯 ¿Por Qué Convertir PDF a HTML?
 

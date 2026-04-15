@@ -1,16 +1,23 @@
 ---
-title: "Envía archivos de feedback de diseño con límites de visualización"
-description: "Comparte archivos de diseño de forma segura con límites de visualización. Protege tu trabajo creativo mientras recopilas feedback valioso de clientes y colaboradores."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
-tags: ["feedback de diseño", "compartir seguro", "límites de visualización", "protección creativa"]
+title: Envía archivos de feedback de diseño con límites de visualización
+description: >-
+  Comparte archivos de diseño de forma segura con límites de visualización.
+  Protege tu trabajo creativo mientras recopilas feedback valioso de clientes y
+  colaboradores.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/flowchart/en-access-control-decision.svg
+tags:
+  - feedback de diseño
+  - compartir seguro
+  - límites de visualización
+  - protección creativa
 ---
 
 # Envía archivos de feedback de diseño con límites de visualización
 
 Como diseñador, compartir tu trabajo para recibir feedback es esencial, pero también arriesgado. Los límites de visualización de MaiPDF te permiten controlar exactamente cuántas veces pueden ver tus diseños, protegiendo tu propiedad intelectual mientras obtienes la retroalimentación que necesitas.
 
-![Nivel de Seguridad en Configuración PDF](/maipdf-images/security_level_in_pdf_setting.png)
+![Nivel de Seguridad en Configuración PDF](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ## Por qué los diseñadores necesitan compartir de forma segura
 
@@ -22,11 +29,11 @@ Como diseñador, compartir tu trabajo para recibir feedback es esencial, pero ta
 
 **Versiones confidenciales**: Mantén protegidos los bocetos y conceptos preliminares que no están listos para distribución amplia.
 
-![Compartir PDF Inseguro](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Compartir PDF Inseguro](/maipdf2026/show_off/shareandsend.png)
 
 ## Configuración de seguridad para archivos de diseño
 
-![Configuración de Seguridad](/maipdf-images/security_setting.png)
+![Configuración de Seguridad](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **Límites de visualización apropiados**: Para feedback inicial, considera 2-3 visualizaciones. Para revisiones finales, permite 5-7 vistas.
 
@@ -46,11 +53,11 @@ Como diseñador, compartir tu trabajo para recibir feedback es esencial, pero ta
 
 **Revisiones de marca**: Comparte conceptos de branding que requieren confidencialidad estricta.
 
-![Resultado de Enlace PDF y Código QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultado de Enlace PDF y Código QR](/maipdf2026/Result_of_qr_link.png)
 
 ## Gestión posterior al envío
 
-![Cambiar Configuración de PDF Después de Enviado](/maipdf-images/pdf_change_setting_after_sent.png)
+![Cambiar Configuración de PDF Después de Enviado](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 **Ajustes dinámicos**: Modifica los límites de acceso incluso después del envío, permitiendo flexibilidad según progrese el feedback.
 

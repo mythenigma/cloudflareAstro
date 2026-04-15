@@ -106,7 +106,7 @@ tags: ["PDF-Sicherheit", "Offline-Lesen", "Dokumentenkontrolle", "HTML-Paket"]
     <div class="step-content">
       <h3>Datei hochladen</h3>
       <p>Browser öffnen → PDF per Drag & Drop ablegen → Auf Upload und Verschlüsselung (AES-256) warten.</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF-Upload-Oberfläche" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="PDF-Upload-Oberfläche" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -117,7 +117,7 @@ tags: ["PDF-Sicherheit", "Offline-Lesen", "Dokumentenkontrolle", "HTML-Paket"]
       <p>Sitzungsdauer: 1–120 Minuten</p>
       <p>Ablaufdatum: Benutzerdefinierter Kalender</p>
       <p>Download/Druck: Standardmäßig deaktiviert, optional aktivierbar</p>
-      <img src="/offlinepages/security_setting.png" alt="Sicherheitseinstellungen-Oberfläche" class="small">
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Sicherheitseinstellungen-Oberfläche" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -126,7 +126,7 @@ tags: ["PDF-Sicherheit", "Offline-Lesen", "Dokumentenkontrolle", "HTML-Paket"]
       <h3>Offline-Paket herunterladen</h3>
       <p>Plattform gibt .zip zurück → Entpacken, um index.html + assets/ zu erhalten</p>
       <p>Offline-Paket versenden oder auf USB-Stick / Unternehmens-Cloud-Speicher ablegen</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Ergebnis des Offline-Paket-Downloads" class="small">
+      <img src="/offlinepages/security_setting.png" alt="Ergebnis des Offline-Paket-Downloads" class="small">
     </div>
   </div>
 </div>

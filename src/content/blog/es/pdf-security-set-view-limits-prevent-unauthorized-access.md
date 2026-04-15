@@ -1,9 +1,18 @@
 ---
-title: "Seguridad PDF: Establecer Límites de Visualización para Prevenir Acceso No Autorizado"
-description: "Aprenda cómo establecer límites de visualización en PDFs para prevenir acceso no autorizado. Guía completa sobre seguridad PDF, límites de acceso y protección de documentos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Seguridad", "Límites", "Protección"]
-heroImage: "/diagram/en/features-overview.svg"
+title: >-
+  Seguridad PDF: Establecer Límites de Visualización para Prevenir Acceso No
+  Autorizado
+description: >-
+  Aprenda cómo establecer límites de visualización en PDFs para prevenir acceso
+  no autorizado. Guía completa sobre seguridad PDF, límites de acceso y
+  protección de documentos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Seguridad
+  - Límites
+  - Protección
+heroImage: /maipdf2026/show_off/openlimit.png
 ---
 
 # Seguridad PDF: Establecer Límites de Visualización para Prevenir Acceso No Autorizado
@@ -12,7 +21,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Establecer límites de visualización es una medida de seguridad esencial para prevenir acceso no autorizado a sus documentos PDF. Esta guía le enseñará cómo configurar límites efectivos para proteger sus documentos.</p>
 </div>
 
-![Seguridad PDF](/diagram/en/features-overview.svg)
+![Seguridad PDF](/maipdf2026/show_off/openlimit.png)
 
 ## 🎯 ¿Por Qué Establecer Límites?
 

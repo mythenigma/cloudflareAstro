@@ -1,9 +1,16 @@
 ---
-title: "Elegantes und Sicheres Teilen von Lebenslauf und Portfolio"
-description: "Erfahren Sie, wie Sie Lebensläufe und Portfolios elegant und sicher teilen. Vollständiger Leitfaden zum sicheren Teilen von Lebensläufen, Portfolios und professionellen Dokumenten."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Lebenslauf", "Portfolio", "Sharing"]
-heroImage: "/diagram/en/features-overview.svg"
+title: Elegantes und Sicheres Teilen von Lebenslauf und Portfolio
+description: >-
+  Erfahren Sie, wie Sie Lebensläufe und Portfolios elegant und sicher teilen.
+  Vollständiger Leitfaden zum sicheren Teilen von Lebensläufen, Portfolios und
+  professionellen Dokumenten.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Lebenslauf
+  - Portfolio
+  - Sharing
+heroImage: /maipdf2026/show_off/shareandsend.png
 ---
 
 # Elegantes und Sicheres Teilen von Lebenslauf und Portfolio
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das elegante und sichere Teilen von Lebensläufen und Portfolios ist wichtig für professionelle Präsentationen. Diese Anleitung zeigt Ihnen, wie Sie Lebensläufe und Portfolios sicher und professionell teilen können.</p>
 </div>
 
-![Lebenslauf und Portfolio Teilen](/diagram/en/features-overview.svg)
+![Lebenslauf und Portfolio Teilen](/maipdf2026/show_off/shareandsend.png)
 
 ## 🎯 Warum Elegant und Sicher Teilen?
 

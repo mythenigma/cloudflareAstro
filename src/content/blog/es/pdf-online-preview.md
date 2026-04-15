@@ -1,9 +1,16 @@
 ---
-title: "Vista Previa de PDF en Línea: Ver PDFs Sin Descargar"
-description: "Aprenda cómo obtener una vista previa de documentos PDF en línea sin necesidad de descargarlos. Acceso instantáneo, visualización optimizada y sin uso de almacenamiento."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Vista Previa", "Online", "Visualización"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Vista Previa de PDF en Línea: Ver PDFs Sin Descargar'
+description: >-
+  Aprenda cómo obtener una vista previa de documentos PDF en línea sin necesidad
+  de descargarlos. Acceso instantáneo, visualización optimizada y sin uso de
+  almacenamiento.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Vista Previa
+  - Online
+  - Visualización
+heroImage: /maipdf2026/pdf native view on ui.png
 ---
 
 # Vista Previa de PDF en Línea: Ver PDFs Sin Descargar
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>La vista previa de PDF en línea le permite ver documentos PDF directamente en su navegador sin necesidad de descargar archivos. Esta función moderna hace que acceder a documentos sea más rápido, más conveniente y más eficiente.</p>
 </div>
 
-![Vista Previa PDF en Línea](/diagram/en/features-overview.svg)
+![Vista Previa PDF en Línea](/maipdf2026/pdf native view on ui.png)
 
 ## 🎯 ¿Qué es la Vista Previa de PDF en Línea?
 

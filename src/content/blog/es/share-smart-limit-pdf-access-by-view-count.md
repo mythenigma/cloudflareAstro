@@ -1,9 +1,16 @@
 ---
-title: "🔢 Comparte de forma inteligente: Limita el acceso a PDF por número de vistas, no por fecha de caducidad"
-description: "Descubre cómo limitar los PDF por número de vistas ofrece un control más preciso que la caducidad tradicional basada en tiempo, proporcionando mejor seguridad para tus documentos sensibles."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security level in pdf setting.png"
-tags: ["Seguridad PDF", "Control de Documentos", "Límites de Vista", "Gestión de Acceso"]
+title: "\U0001F522 Comparte de forma inteligente: Limita el acceso a PDF por número de vistas, no por fecha de caducidad"
+description: >-
+  Descubre cómo limitar los PDF por número de vistas ofrece un control más
+  preciso que la caducidad tradicional basada en tiempo, proporcionando mejor
+  seguridad para tus documentos sensibles.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/share pdf wordwide.png
+tags:
+  - Seguridad PDF
+  - Control de Documentos
+  - Límites de Vista
+  - Gestión de Acceso
 ---
 
 # 🔢 Comparte de forma inteligente: Limita el acceso a PDF por número de vistas, no por fecha de caducidad
@@ -88,7 +95,7 @@ Cuando subes un archivo a una plataforma como MaiPDF, recibes:
     <div class="step-content">
       <h3>Código de lectura</h3>
       <p>Para que los destinatarios vean el archivo</p>
-      <img src="/maipdf-images/security level in pdf setting.png" alt="Configuración de seguridad con código de lectura" class="medium">
+      <img src="/maipdf2026/show_off/share pdf wordwide.png" alt="Configuración de seguridad con código de lectura" class="medium">
     </div>
   </div>
   <div class="step">
@@ -133,7 +140,7 @@ Esto lo hace ideal para:
     <div class="step-content">
       <h3>Configura los límites de vista</h3>
       <p>Establece el número máximo de veces que el documento puede abrirse</p>
-      <img src="/maipdf-images/security level in pdf setting.png" alt="Configuración de límite de vistas" class="medium">
+      <img src="/maipdf2026/show_off/share pdf wordwide.png" alt="Configuración de límite de vistas" class="medium">
     </div>
   </div>
   <div class="step">

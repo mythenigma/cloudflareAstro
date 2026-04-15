@@ -2,6 +2,7 @@
 title: "MaiPDF 소개"
 description: "MaiPDF 소개"
 pubDate: "Jul 15 2024"
+noindex: true
 ---
 
 ![MaiPDF 랜딩 페이지](/maipdf-images/maipdf_landing_page.png)
@@ -20,7 +21,7 @@ pubDate: "Jul 15 2024"
 
 4. **전문적인 외관** – 큰 이메일 첨부 파일이나 물리적 포트폴리오를 보내는 대신, 깔끔한 PDF 링크나 작업에 연결된 QR 코드는 공유 방법에 전문적인 터치를 추가합니다. 간단하고 직접적이며 지속적인 인상을 남깁니다.
 
-![인쇄 불가·다운로드 불가 PDF 아이콘](/maipdf-images/pdf_icon_of_no_printing_no_downloading.png)
+![인쇄 불가·다운로드 불가 PDF 아이콘](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 프리랜서 디자이너이든 창의 에이전시에서 고용된 사람이든, 포트폴리오를 안전한 PDF 링크로 보내는 것은 잠재적 클라이언트, 협력자 또는 고용주와 작업을 공유하는 스마트하고 효과적인 방법입니다. 또한 MaiPDF의 사용자 정의 가능한 기능을 통해 디자인이 보호되고 있다는 것을 알면서 문서의 보안을 향상시킬 수 있습니다.
 

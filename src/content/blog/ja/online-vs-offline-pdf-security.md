@@ -1,9 +1,13 @@
 ---
-title: "オンラインリンク vs. ネットワーク認証オフラインパッケージ：最適なPDF暗号化モードの選び方ガイド"
-description: "クラウドベースのPDF共有とオフラインDRMパッケージの詳細な比較で、最適なドキュメント配布セキュリティモデルを選択しましょう。"
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDFセキュリティ", "ドキュメント共有", "DRM保護", "クラウドセキュリティ"]
+title: オンラインリンク vs. ネットワーク認証オフラインパッケージ：最適なPDF暗号化モードの選び方ガイド
+description: クラウドベースのPDF共有とオフラインDRMパッケージの詳細な比較で、最適なドキュメント配布セキュリティモデルを選択しましょう。
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDFセキュリティ
+  - ドキュメント共有
+  - DRM保護
+  - クラウドセキュリティ
 ---
 
 # オンラインリンク vs. ネットワーク認証オフラインパッケージ：最適なPDF暗号化モードの選び方ガイド

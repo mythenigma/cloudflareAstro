@@ -1,8 +1,13 @@
 ---
-title: "PDF共有機能の全体像（ビジュアルガイド）"
-description: "オンライン制御、オフライン配布、そして安全性のレイヤーを一枚で整理するビジュアルガイド。"
-pubDate: "Jan 15 2026"
-tags: ["PDF共有", "アクセス制御", "PDFセキュリティ", "ビジュアルガイド"]
+title: PDF共有機能の全体像（ビジュアルガイド）
+description: オンライン制御、オフライン配布、そして安全性のレイヤーを一枚で整理するビジュアルガイド。
+pubDate: Jan 15 2026
+tags:
+  - PDF共有
+  - アクセス制御
+  - PDFセキュリティ
+  - ビジュアルガイド
+heroImage: /maipdf2026/show_off/securityshowoff.png
 ---
 
 # PDF共有機能の全体像（ビジュアルガイド）

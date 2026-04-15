@@ -1,9 +1,16 @@
 ---
-title: "PDF-Sicherheit: Ansichtslimits Festlegen um Unbefugten Zugriff zu Verhindern"
-description: "Erfahren Sie, wie Sie Ansichtslimits für PDFs festlegen, um unbefugten Zugriff zu verhindern. Vollständiger Leitfaden zu PDF-Sicherheit, Zugriffslimits und Dokumentenschutz."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Sicherheit", "Limits", "Schutz"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF-Sicherheit: Ansichtslimits Festlegen um Unbefugten Zugriff zu Verhindern'
+description: >-
+  Erfahren Sie, wie Sie Ansichtslimits für PDFs festlegen, um unbefugten Zugriff
+  zu verhindern. Vollständiger Leitfaden zu PDF-Sicherheit, Zugriffslimits und
+  Dokumentenschutz.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Sicherheit
+  - Limits
+  - Schutz
+heroImage: /maipdf2026/show_off/openlimit.png
 ---
 
 # PDF-Sicherheit: Ansichtslimits Festlegen um Unbefugten Zugriff zu Verhindern
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Festlegen von Ansichtslimits ist eine wichtige Sicherheitsmaßnahme, um unbefugten Zugriff auf Ihre PDF-Dokumente zu verhindern. Diese Anleitung zeigt Ihnen, wie Sie effektive Limits konfigurieren, um Ihre Dokumente zu schützen.</p>
 </div>
 
-![PDF-Sicherheit](/diagram/en/features-overview.svg)
+![PDF-Sicherheit](/maipdf2026/show_off/openlimit.png)
 
 ## 🎯 Warum Ansichtslimits Festlegen?
 

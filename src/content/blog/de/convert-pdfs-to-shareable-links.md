@@ -1,9 +1,16 @@
 ---
-title: "PDFs in Teilbare Links Konvertieren: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie PDFs in teilbare Links konvertieren. Vollständiger Leitfaden zur PDF-Konvertierung, Link-Generierung und einfachem Dokumenten-Sharing."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Konvertierung", "Links", "Sharing"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDFs in Teilbare Links Konvertieren: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie PDFs in teilbare Links konvertieren. Vollständiger
+  Leitfaden zur PDF-Konvertierung, Link-Generierung und einfachem
+  Dokumenten-Sharing.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Konvertierung
+  - Links
+  - Sharing
+heroImage: /maipdf2026/show_off/shareandsend.png
 ---
 
 # PDFs in Teilbare Links Konvertieren: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Konvertieren von PDFs in teilbare Links ermöglicht es Ihnen, Ihre Dokumente einfach zu teilen, ohne große Dateien anhängen zu müssen. Diese Anleitung zeigt Ihnen, wie Sie PDFs schnell und sicher in teilbare Links konvertieren.</p>
 </div>
 
-![PDFs in Links Konvertieren](/diagram/en/features-overview.svg)
+![PDFs in Links Konvertieren](/maipdf2026/show_off/shareandsend.png)
 
 ## 🎯 Warum PDFs in Links Konvertieren?
 

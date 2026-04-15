@@ -1,8 +1,14 @@
 ---
-title: "Conformité de la distribution de documents : une checklist vraiment utile"
-description: "Une checklist simple : identité, limites, journaux d’audit et gouvernance."
-pubDate: "Jan 15 2026"
-tags: ["Conformité", "Journaux d'audit", "Sécurité", "Contrôle d'accès", "Gouvernance"]
+title: 'Conformité de la distribution de documents : une checklist vraiment utile'
+description: 'Une checklist simple : identité, limites, journaux d’audit et gouvernance.'
+pubDate: Jan 15 2026
+tags:
+  - Conformité
+  - Journaux d'audit
+  - Sécurité
+  - Contrôle d'accès
+  - Gouvernance
+heroImage: /maipdf2026/page_redirect_to_accessRecord.png
 ---
 
 # Conformité de la distribution de documents : une checklist vraiment utile

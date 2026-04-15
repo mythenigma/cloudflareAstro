@@ -1,8 +1,12 @@
 ---
-title: "Maiimg：画像をリンクとQRでかんたん共有"
-description: "画像共有の基本フロー：画像を選ぶ → アップロード → リンク/QR を取得 → 共有 → 必要なら閲覧状況を確認。"
-pubDate: "Jan 26 2026"
-tags: ["画像共有", "QRコード", "Maiimg"]
+title: Maiimg：画像をリンクとQRでかんたん共有
+description: 画像共有の基本フロー：画像を選ぶ → アップロード → リンク/QR を取得 → 共有 → 必要なら閲覧状況を確認。
+pubDate: Jan 26 2026
+tags:
+  - 画像共有
+  - QRコード
+  - Maiimg
+heroImage: /maiimg/maiimg-head.png
 ---
 
 チャットに画像を何枚も貼るより、**リンクでまとめて共有**したほうがスムーズな場面があります。
@@ -31,7 +35,7 @@ flowchart TD
 
 ![Settings](/maiimg/maiimg-setting.png)
 
-![Link result](/maiimg/image_result.png)
+![Link result](/maiimg/result_tracking.png)
 
 ![Tracking](/maiimg/result_tracking.png)
 

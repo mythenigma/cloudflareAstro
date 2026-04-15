@@ -1,9 +1,16 @@
 ---
-title: "Tutorial: PDF in Teilbaren Link Konvertieren in 3 Schritten"
-description: "Erfahren Sie, wie Sie jedes PDF in nur 3 Schritten in einen sicheren, teilbaren Link konvertieren. Keine Downloads, keine Registrierung erforderlich - einfach hochladen, generieren und sofort mit MaiPDF teilen."
-pubDate: "Jan 17 2026"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
-tags: ["PDF", "Tutorial", "Links", "Teilen"]
+title: 'Tutorial: PDF in Teilbaren Link Konvertieren in 3 Schritten'
+description: >-
+  Erfahren Sie, wie Sie jedes PDF in nur 3 Schritten in einen sicheren,
+  teilbaren Link konvertieren. Keine Downloads, keine Registrierung erforderlich
+  - einfach hochladen, generieren und sofort mit MaiPDF teilen.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF
+  - Tutorial
+  - Links
+  - Teilen
 ---
 
 # Tutorial: PDF in Teilbaren Link Konvertieren in 3 Schritten
@@ -12,7 +19,7 @@ tags: ["PDF", "Tutorial", "Links", "Teilen"]
   <p>Sind Sie müde von E-Mail-Anhängen, die aufgrund von Größenbeschränkungen zurückgewiesen werden? Frustriert von Cloud-Speicher, der von allen die Erstellung von Konten erfordert? <strong>MaiPDF</strong> löst diese Probleme, indem es jedes PDF in nur 3 einfachen Schritten in einen sicheren, teilbaren Link verwandelt.</p>
 </div>
 
-![MaiPDF Hauptoberfläche](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDF Hauptoberfläche](/maipdf2026/show_off/shareandsend.png)
 
 ## 🚀 Warum PDF-Links Game-Changer sind
 
@@ -29,7 +36,7 @@ tags: ["PDF", "Tutorial", "Links", "Teilen"]
 
 ### Schritt 1: Laden Sie Ihr PDF hoch
 
-![Upload-Interface](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload-Interface](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 **Was passiert**: Ziehen Sie Ihre PDF-Datei (bis zu 100MB) per Drag & Drop oder klicken Sie zum Durchsuchen
 
@@ -45,7 +52,7 @@ tags: ["PDF", "Tutorial", "Links", "Teilen"]
 
 ### Schritt 2: Generieren Sie Ihren Link
 
-![Link-Generierung](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link-Generierung](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **Was passiert**: MaiPDF verarbeitet Ihre Datei und erstellt einen sicheren Anzeigelink
 
@@ -86,7 +93,7 @@ tags: ["PDF", "Tutorial", "Links", "Teilen"]
 
 ## 🔐 Optionale Sicherheitseinstellungen
 
-![Sicherheitseinstellungen](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Sicherheitseinstellungen](/maipdf2026/flowchart/en-document-replace-flow.svg)
 
 Sie können die Sicherheit Ihres Links anpassen:
 

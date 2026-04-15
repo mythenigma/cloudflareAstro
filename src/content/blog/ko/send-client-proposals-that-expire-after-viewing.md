@@ -1,16 +1,22 @@
 ---
-title: "열람 후 만료되는 고객 제안서 전송"
-description: "열람 후 자동 만료되는 기능으로 민감한 비즈니스 제안서를 보호하세요. 보안 강화를 위해 자동 삭제되는 안전하고 전문적인 제안서 전송 방법을 알아보세요."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
-tags: ["고객 제안서", "안전한 공유", "비즈니스 보안", "PDF 만료"]
+title: 열람 후 만료되는 고객 제안서 전송
+description: >-
+  열람 후 자동 만료되는 기능으로 민감한 비즈니스 제안서를 보호하세요. 보안 강화를 위해 자동 삭제되는 안전하고 전문적인 제안서 전송 방법을
+  알아보세요.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - 고객 제안서
+  - 안전한 공유
+  - 비즈니스 보안
+  - PDF 만료
 ---
 
 # 열람 후 만료되는 고객 제안서 전송
 
 민감한 비즈니스 제안서를 고객과 공유할 때는 보안이 최우선이어야 합니다. MaiPDF의 만료 기능은 제안서가 열람 후 자동으로 접근 불가능해지도록 하여, 무단 배포로부터 비즈니스 전략과 가격 정보를 보호합니다.
 
-![제안서 보안](/maipdf-images/security_level_in_pdf_setting.png)
+![제안서 보안](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 기존 제안서 공유 방식의 한계
 

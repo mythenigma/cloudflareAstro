@@ -1,9 +1,16 @@
 ---
-title: "Offline-PDF-DRM: Enterprise-Lösung"
-description: "Erfahren Sie, wie Sie Offline-PDF-DRM für Unternehmen implementieren. Vollständiger Leitfaden zu Enterprise-DRM-Lösungen, Offline-Schutz und Dokumentensicherheit."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "DRM", "Enterprise", "Offline"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Offline-PDF-DRM: Enterprise-Lösung'
+description: >-
+  Erfahren Sie, wie Sie Offline-PDF-DRM für Unternehmen implementieren.
+  Vollständiger Leitfaden zu Enterprise-DRM-Lösungen, Offline-Schutz und
+  Dokumentensicherheit.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - DRM
+  - Enterprise
+  - Offline
+heroImage: /offlinepages/result_download_zip_file.png
 ---
 
 # Offline-PDF-DRM: Enterprise-Lösung
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Offline-PDF-DRM bietet Unternehmen eine umfassende Lösung zum Schutz von Dokumenten auch ohne Internetverbindung. Diese Anleitung zeigt Ihnen, wie Sie Enterprise-DRM-Lösungen für Offline-PDF-Schutz implementieren.</p>
 </div>
 
-![Offline-PDF-DRM](/diagram/en/features-overview.svg)
+![Offline-PDF-DRM](/offlinepages/result_download_zip_file.png)
 
 ## 🎯 Was ist Offline-PDF-DRM?
 

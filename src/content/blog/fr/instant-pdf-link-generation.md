@@ -1,8 +1,14 @@
 ---
-title: "Générer un lien PDF rapidement : un flux minimal"
-description: "Téléverser un PDF, générer un lien (ou un QR), partager — puis remplacer le fichier lors des mises à jour."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "pdf", "link"]
+title: 'Générer un lien PDF rapidement : un flux minimal'
+description: >-
+  Téléverser un PDF, générer un lien (ou un QR), partager — puis remplacer le
+  fichier lors des mises à jour.
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - pdf
+  - link
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 Si ton objectif est simple — **un lien PDF à partager** — garde le processus court.
@@ -24,9 +30,9 @@ flowchart TD
 
 > Note : on évite toute promesse “expiration date”.
 
-![Upload](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
-![Link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link and QR](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 Pour mettre à jour sans changer le lien : `https://sendpdfonline.com/article/replace-pdf-without-changing-link-zh`
 

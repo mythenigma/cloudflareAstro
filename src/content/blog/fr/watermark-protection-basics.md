@@ -1,8 +1,15 @@
 ---
-title: "Bases du filigrane : dissuader les fuites et retracer le partage"
-description: "Un guide pratique : ce que le filigrane dissuade, ce qu’il ne peut pas empêcher, et comment le déployer efficacement."
-pubDate: "Jan 15 2026"
-tags: ["Filigrane", "Sécurité des documents", "Prévention des fuites", "Traçabilité"]
+title: 'Bases du filigrane : dissuader les fuites et retracer le partage'
+description: >-
+  Un guide pratique : ce que le filigrane dissuade, ce qu’il ne peut pas
+  empêcher, et comment le déployer efficacement.
+pubDate: Jan 15 2026
+tags:
+  - Filigrane
+  - Sécurité des documents
+  - Prévention des fuites
+  - Traçabilité
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
 ---
 
 # Bases du filigrane : dissuader les fuites et retracer le partage

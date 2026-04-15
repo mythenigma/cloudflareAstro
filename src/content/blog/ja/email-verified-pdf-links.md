@@ -1,8 +1,12 @@
 ---
-title: "メール認証付きPDFリンク：転送アクセスを抑える"
-description: "リンク転送による流出を減らすシンプルな方法：メール認証を通した人だけがPDFを開けるようにする。"
-pubDate: "Jan 15 2026"
-tags: ["PDFセキュリティ", "アクセス制御", "メール認証"]
+title: メール認証付きPDFリンク：転送アクセスを抑える
+description: リンク転送による流出を減らすシンプルな方法：メール認証を通した人だけがPDFを開けるようにする。
+pubDate: Jan 15 2026
+tags:
+  - PDFセキュリティ
+  - アクセス制御
+  - メール認証
+heroImage: /maipdf2026/show_off/email verify.png
 ---
 
 # メール認証付きPDFリンク：転送アクセスを抑える

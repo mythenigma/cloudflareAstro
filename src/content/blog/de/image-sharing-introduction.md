@@ -1,9 +1,18 @@
 ---
-title: "Maiimg Komplette Einfuehrung: Professionelle Bild-Sharing-Plattform Einfach und Sicher"
-description: "Praxisnahe Einfuehrung in Maiimg: Kernfunktionen, passende Einsatzfaelle, empfohlene Einstellungen und ein klarer Ablauf."
-pubDate: "Feb 11 2026"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["Maiimg", "Bild-Sharing", "Galerie-Verwaltung", "Zugriffskontrolle", "Komplette Einfuehrung"]
+title: >-
+  Maiimg Komplette Einfuehrung: Professionelle Bild-Sharing-Plattform Einfach
+  und Sicher
+description: >-
+  Praxisnahe Einfuehrung in Maiimg: Kernfunktionen, passende Einsatzfaelle,
+  empfohlene Einstellungen und ein klarer Ablauf.
+pubDate: Feb 11 2026
+heroImage: /maiimg/static-images/common/show/english-share-entry-hero.svg
+tags:
+  - Maiimg
+  - Bild-Sharing
+  - Galerie-Verwaltung
+  - Zugriffskontrolle
+  - Komplette Einfuehrung
 ---
 
 # Maiimg Komplette Einfuehrung: Professionelle Bild-Sharing-Plattform Einfach und Sicher
@@ -12,7 +21,7 @@ tags: ["Maiimg", "Bild-Sharing", "Galerie-Verwaltung", "Zugriffskontrolle", "Kom
   <p>Maiimg ist fuer kontrolliertes Bild-Sharing gedacht: Galerie erstellen, Regeln setzen, per Link/QR teilen und Oeffnungsstatistik pruefen.</p>
 </div>
 
-![Maiimg Homepage](/maiimg/maiimg-head.png)
+![Maiimg Homepage](/maiimg/static-images/common/show/english-share-entry-hero.svg)
 
 ## Welche Probleme Maiimg loest
 

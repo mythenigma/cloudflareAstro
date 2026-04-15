@@ -1,9 +1,15 @@
 ---
-title: "Limitar Visualizaciones PDF con DRM: Guía Completa"
-description: "Aprenda cómo limitar visualizaciones PDF con DRM. Guía completa sobre límites DRM, control de acceso y protección de documentos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "DRM", "Límites", "Protección"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Limitar Visualizaciones PDF con DRM: Guía Completa'
+description: >-
+  Aprenda cómo limitar visualizaciones PDF con DRM. Guía completa sobre límites
+  DRM, control de acceso y protección de documentos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - DRM
+  - Límites
+  - Protección
+heroImage: /maipdf2026/show_off/openlimit.png
 ---
 
 # Limitar Visualizaciones PDF con DRM: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Limitar visualizaciones PDF con DRM ofrece protección avanzada para sus documentos. Esta guía le mostrará cómo usar límites DRM para controlar y proteger el acceso a sus documentos PDF.</p>
 </div>
 
-![Limitar Visualizaciones con DRM](/diagram/en/features-overview.svg)
+![Limitar Visualizaciones con DRM](/maipdf2026/show_off/openlimit.png)
 
 ## 🎯 ¿Qué es DRM para Visualizaciones PDF?
 

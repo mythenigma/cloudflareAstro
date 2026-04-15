@@ -1,9 +1,16 @@
 ---
-title: "Lebenslauf Sicher mit Link Teilen: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie Lebensläufe sicher mit Links teilen. Vollständiger Leitfaden zum sicheren Teilen von Lebensläufen, Link-Sharing und professioneller Präsentation."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Lebenslauf", "Sicher", "Link"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Lebenslauf Sicher mit Link Teilen: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie Lebensläufe sicher mit Links teilen. Vollständiger
+  Leitfaden zum sicheren Teilen von Lebensläufen, Link-Sharing und
+  professioneller Präsentation.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Lebenslauf
+  - Sicher
+  - Link
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 # Lebenslauf Sicher mit Link Teilen: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das sichere Teilen von Lebensläufen mit Links ermöglicht es Ihnen, Ihre Lebensläufe professionell und sicher mit Arbeitgebern zu teilen. Diese Anleitung zeigt Ihnen, wie Sie Lebensläufe sicher mit Links teilen können.</p>
 </div>
 
-![Lebenslauf Sicher Teilen](/diagram/en/features-overview.svg)
+![Lebenslauf Sicher Teilen](/maipdf2026/Result_of_qr_link.png)
 
 ## 🎯 Warum Lebenslauf mit Link Teilen?
 

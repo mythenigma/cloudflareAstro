@@ -1,9 +1,18 @@
 ---
-title: "Bilder Automatisch Löschen: Leitfaden für Bildablauf und Automatisches Löschen"
-description: "Erfahren Sie, wie Sie Bilder nach einer bestimmten Zeit automatisch löschen. Maiimg ermöglicht es Ihnen, Bildablaufdaten festzulegen, Links nach Zeiträumen automatisch zu deaktivieren und zu kontrollieren, wann Bilder entfernt werden. Vollständiger Leitfaden für temporäres Bild-Hosting."
-pubDate: "Dec 29 2025"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["Bilder Automatisch Löschen", "Bildablauf", "Automatisches Löschen", "Bildablaufdatum", "Temporäres Bild-Hosting"]
+title: 'Bilder Automatisch Löschen: Leitfaden für Bildablauf und Automatisches Löschen'
+description: >-
+  Erfahren Sie, wie Sie Bilder nach einer bestimmten Zeit automatisch löschen.
+  Maiimg ermöglicht es Ihnen, Bildablaufdaten festzulegen, Links nach Zeiträumen
+  automatisch zu deaktivieren und zu kontrollieren, wann Bilder entfernt werden.
+  Vollständiger Leitfaden für temporäres Bild-Hosting.
+pubDate: Dec 29 2025
+heroImage: /maiimg/static-images/common/show/limtandexpirtion.png
+tags:
+  - Bilder Automatisch Löschen
+  - Bildablauf
+  - Automatisches Löschen
+  - Bildablaufdatum
+  - Temporäres Bild-Hosting
 ---
 
 # Bilder Automatisch Löschen: Leitfaden für Bildablauf und Automatisches Löschen
@@ -12,7 +21,7 @@ tags: ["Bilder Automatisch Löschen", "Bildablauf", "Automatisches Löschen", "B
   <p>Müssen Sie <strong>Bilder automatisch löschen</strong> nach einer bestimmten Zeit? Maiimg ermöglicht es Ihnen, Bildablaufdaten festzulegen, Links nach Zeiträumen automatisch zu deaktivieren und zu kontrollieren, wann Bilder entfernt werden. Dieser vollständige Leitfaden zeigt Ihnen, wie Sie Auto-Lösch- und Ablauffunktionen für temporäres Bild-Hosting verwenden.</p>
 </div>
 
-![Maiimg Bilder Automatisch Löschen](/maiimg/maiimg-head.png)
+![Maiimg Bilder Automatisch Löschen](/maiimg/static-images/common/show/limtandexpirtion.png)
 
 ## Was ist Automatisches Löschen von Bildern?
 

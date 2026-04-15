@@ -1,9 +1,17 @@
 ---
-title: "Maiimg QR-Code-Generierung: Vollständiger Leitfaden zur QR-Code-Erstellung"
-description: "Erfahren Sie, wie Sie QR-Codes mit Maiimg generieren können. Vollständiger Leitfaden zur QR-Code-Generierung, QR-Code-Erstellung und Bildfreigabe mit QR-Codes."
-pubDate: "Dec 29 2025"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["QR-Code-Generierung", "QR-Code-Erstellung", "Maiimg QR-Code", "Bildfreigabe", "QR-Code"]
+title: 'Maiimg QR-Code-Generierung: Vollständiger Leitfaden zur QR-Code-Erstellung'
+description: >-
+  Erfahren Sie, wie Sie QR-Codes mit Maiimg generieren können. Vollständiger
+  Leitfaden zur QR-Code-Generierung, QR-Code-Erstellung und Bildfreigabe mit
+  QR-Codes.
+pubDate: Dec 29 2025
+heroImage: /maiimg/image_result.png
+tags:
+  - QR-Code-Generierung
+  - QR-Code-Erstellung
+  - Maiimg QR-Code
+  - Bildfreigabe
+  - QR-Code
 ---
 
 # Maiimg QR-Code-Generierung: Vollständiger Leitfaden zur QR-Code-Erstellung
@@ -12,7 +20,7 @@ tags: ["QR-Code-Generierung", "QR-Code-Erstellung", "Maiimg QR-Code", "Bildfreig
   <p>QR-Codes sind eine einfache und effektive Möglichkeit, Bilder zu teilen. <strong>Maiimg QR-Code-Generierung</strong> bietet umfassende Lösungen zur Erstellung von QR-Codes für Bildfreigabe.</p>
 </div>
 
-![Maiimg QR-Code-Generierung](/maiimg/maiimg-head.png)
+![Maiimg QR-Code-Generierung](/maiimg/image_result.png)
 
 ## Was ist QR-Code-Generierung?
 

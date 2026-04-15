@@ -1,9 +1,16 @@
 ---
-title: "MaiPDF: Sichereres und effizienteres Online-PDF-Sharing"
-description: "Entdecken Sie, wie MaiPDF durch anmeldungsfreien Zugriff, E-Mail-Verifizierung und Cloudflare R2-Technologie eine sicherere und bequemere PDF-Sharing-Lösung als traditionelle Cloud-Speicher bietet."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/secure-pdf-sharing.png"
-tags: ["PDF-Sharing", "Dokumentsicherheit", "Cloud-Speicher", "Cloudflare"]
+title: 'MaiPDF: Sichereres und effizienteres Online-PDF-Sharing'
+description: >-
+  Entdecken Sie, wie MaiPDF durch anmeldungsfreien Zugriff, E-Mail-Verifizierung
+  und Cloudflare R2-Technologie eine sicherere und bequemere PDF-Sharing-Lösung
+  als traditionelle Cloud-Speicher bietet.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF-Sharing
+  - Dokumentsicherheit
+  - Cloud-Speicher
+  - Cloudflare
 ---
 
 # MaiPDF: Sichereres und effizienteres Online-PDF-Sharing

@@ -1,16 +1,23 @@
 ---
-title: "PDF Online Teilen: Einfaches Dokumententeilen ohne E-Mail-Anhänge"
-description: "Laden Sie PDF-Dateien online sofort hoch und teilen Sie sie. Keine E-Mail-Größenbeschränkungen, keine Dateikomprimierung - nur saubere, professionelle Links, die auf jedem Gerät funktionieren."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF teilen", "Online-Teilen", "Dokumentenlinks", "Dateiteilen"]
+title: 'PDF Online Teilen: Einfaches Dokumententeilen ohne E-Mail-Anhänge'
+description: >-
+  Laden Sie PDF-Dateien online sofort hoch und teilen Sie sie. Keine
+  E-Mail-Größenbeschränkungen, keine Dateikomprimierung - nur saubere,
+  professionelle Links, die auf jedem Gerät funktionieren.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/share_pdf_online-show.png
+tags:
+  - PDF teilen
+  - Online-Teilen
+  - Dokumentenlinks
+  - Dateiteilen
 ---
 
 # PDF Online Teilen: Einfaches Dokumententeilen ohne E-Mail-Anhänge
 
 Sind Sie müde von E-Mail-Anhang-Beschränkungen? Überspringen Sie den Ärger mit Dateigrößenbeschränkungen und teilen Sie PDF-Dokumente online mit Leichtigkeit. MaiPDF ermöglicht es Ihnen, jedes PDF hochzuladen und sofortige Freigabe-Links zu erstellen, die perfekt auf allen Geräten und Plattformen funktionieren.
 
-![PDF Weltweit Teilen](/maipdf-images/share_pdf_wordwide.png)
+![PDF Weltweit Teilen](/maipdf2026/show_off/share_pdf_online-show.png)
 
 ## Warum PDFs Online Statt E-Mail-Anhänge Teilen
 
@@ -22,7 +29,7 @@ Sind Sie müde von E-Mail-Anhang-Beschränkungen? Überspringen Sie den Ärger m
 
 **Professionelles Erscheinungsbild**: Saubere, markierte Links sehen professioneller aus als sperrige E-Mail-Anhänge.
 
-![Upload-Interface](/maipdf-images/upload_section.png)
+![Upload-Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Fazit: PDF Online Teilen
 

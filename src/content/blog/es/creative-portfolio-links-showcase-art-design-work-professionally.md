@@ -1,9 +1,20 @@
 ---
-title: "Enlaces de Portafolio Creativo: Muestre Su Trabajo de Arte y Diseño Profesionalmente"
-description: "Aprenda cómo crear enlaces de portafolio creativo impresionantes que muestren su trabajo de arte y diseño profesionalmente. Perfecto para artistas, diseñadores y profesionales creativos que buscan impresionar a clientes y galerías."
-pubDate: "Aug 25 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["portafolio creativo", "portafolio de arte", "muestra de diseño", "profesionales creativos", "trabajo artístico"]
+title: >-
+  Enlaces de Portafolio Creativo: Muestre Su Trabajo de Arte y Diseño
+  Profesionalmente
+description: >-
+  Aprenda cómo crear enlaces de portafolio creativo impresionantes que muestren
+  su trabajo de arte y diseño profesionalmente. Perfecto para artistas,
+  diseñadores y profesionales creativos que buscan impresionar a clientes y
+  galerías.
+pubDate: Aug 25 2025
+heroImage: /maiimg/static-images/common/show/english-portfolio-preview.svg
+tags:
+  - portafolio creativo
+  - portafolio de arte
+  - muestra de diseño
+  - profesionales creativos
+  - trabajo artístico
 ---
 
 # Enlaces de Portafolio Creativo: Muestre Su Trabajo de Arte y Diseño Profesionalmente

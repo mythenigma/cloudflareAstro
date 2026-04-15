@@ -1,9 +1,10 @@
 ---
-title: "🔒 Limitation des Vues PDF avec DRM : Une Approche Pratique pour l'Accès Contrôlé aux Documents (Removed)"
-description: "This page has been removed and is no longer publicly available."
-pubDate: "Apr 23 2025"
+title: "\U0001F512 Limitation des Vues PDF avec DRM : Une Approche Pratique pour l'Accès Contrôlé aux Documents (Removed)"
+description: This page has been removed and is no longer publicly available.
+pubDate: Apr 23 2025
 noindex: true
 showDefaultCta: false
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 # 404 - Page Removed

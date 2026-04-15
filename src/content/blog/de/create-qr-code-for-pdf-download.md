@@ -1,9 +1,15 @@
 ---
-title: "📲 So erstellen Sie einen QR-Code, der sofort ein PDF herunterlädt"
-description: "Lernen Sie den schnellsten Weg, um Dokumente offline mit QR-Codes zu teilen, die direkt zu herunterladbaren PDFs führen."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["QR-Codes", "PDF-Teilen", "Dokumentenverteilung", "Offline-Teilen"]
+title: "\U0001F4F2 So erstellen Sie einen QR-Code, der sofort ein PDF herunterlädt"
+description: >-
+  Lernen Sie den schnellsten Weg, um Dokumente offline mit QR-Codes zu teilen,
+  die direkt zu herunterladbaren PDFs führen.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - QR-Codes
+  - PDF-Teilen
+  - Dokumentenverteilung
+  - Offline-Teilen
 ---
 
 # 📲 So erstellen Sie einen QR-Code, der sofort ein PDF herunterlädt
@@ -13,7 +19,7 @@ tags: ["QR-Codes", "PDF-Teilen", "Dokumentenverteilung", "Offline-Teilen"]
   <p>Einfach, sauber und unglaublich effizient.</p>
 </div>
 
-![Ergebnis von PDF-Link und QR-Code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Ergebnis von PDF-Link und QR-Code](/maipdf2026/Result_of_qr_link.png)
 
 Hier erfahren Sie, wie Sie einen QR-Code erstellen können, der direkt zu einem herunterladbaren PDF führt – und warum dies der intelligenteste Weg sein könnte, um Dokumente im Jahr 2025 zu teilen.
 
@@ -41,7 +47,7 @@ Das ist alles.
 
 Wenn jemand den Code scannt, öffnet sich der Link – und das PDF wird je nach Browser entweder automatisch heruntergeladen oder in einem Ansichts-/Download-Bildschirm geöffnet.
 
-![Upload-Bereich](/maipdf-images/upload_section.png)
+![Upload-Bereich](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🌐 Wo Sie die PDF-Datei hochladen können
 

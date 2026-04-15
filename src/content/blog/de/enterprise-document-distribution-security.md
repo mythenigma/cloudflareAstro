@@ -1,8 +1,16 @@
 ---
-title: "Enterprise-Dokumentverteilung: Ein praxistauglicher Security-Workflow"
-description: "Ein klarer, Schritt-für-Schritt-Workflow, um sensible Dokumente zu verteilen, ohne die Kontrolle zu verlieren."
-pubDate: "Jan 15 2026"
-tags: ["Enterprise", "Dokumentenverteilung", "Zugriffskontrolle", "Sicherheit", "Workflow"]
+title: 'Enterprise-Dokumentverteilung: Ein praxistauglicher Security-Workflow'
+description: >-
+  Ein klarer, Schritt-für-Schritt-Workflow, um sensible Dokumente zu verteilen,
+  ohne die Kontrolle zu verlieren.
+pubDate: Jan 15 2026
+tags:
+  - Enterprise
+  - Dokumentenverteilung
+  - Zugriffskontrolle
+  - Sicherheit
+  - Workflow
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 # Enterprise-Dokumentverteilung: Ein praxistauglicher Security-Workflow

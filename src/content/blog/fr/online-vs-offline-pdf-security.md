@@ -1,9 +1,18 @@
 ---
-title: "Liens en ligne vs. Paquets hors ligne avec authentification réseau : Guide ultime pour choisir le bon mode de chiffrement PDF"
-description: "Une comparaison approfondie entre le partage de PDF basé sur le cloud et les paquets DRM hors ligne pour vous aider à choisir le meilleur modèle de sécurité pour la distribution de vos documents."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Sécurité PDF", "Partage de documents", "Protection DRM", "Sécurité cloud"]
+title: >-
+  Liens en ligne vs. Paquets hors ligne avec authentification réseau : Guide
+  ultime pour choisir le bon mode de chiffrement PDF
+description: >-
+  Une comparaison approfondie entre le partage de PDF basé sur le cloud et les
+  paquets DRM hors ligne pour vous aider à choisir le meilleur modèle de
+  sécurité pour la distribution de vos documents.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Sécurité PDF
+  - Partage de documents
+  - Protection DRM
+  - Sécurité cloud
 ---
 
 # Liens en ligne vs. Paquets hors ligne avec authentification réseau : Guide ultime pour choisir le bon mode de chiffrement PDF

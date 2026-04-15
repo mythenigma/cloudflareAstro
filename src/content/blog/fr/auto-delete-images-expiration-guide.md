@@ -1,8 +1,16 @@
 ---
-title: "Expiration d’images partagées : garder le contrôle (sans sur-promesse)"
-description: "Une approche simple pour éviter que des liens d’images restent accessibles trop longtemps : partage par lien, suivi, et suppression manuelle quand c’est terminé."
-pubDate: "Jan 26 2026"
-tags: ["images", "partage", "contrôle", "Maiimg"]
+title: 'Expiration d’images partagées : garder le contrôle (sans sur-promesse)'
+description: >-
+  Une approche simple pour éviter que des liens d’images restent accessibles
+  trop longtemps : partage par lien, suivi, et suppression manuelle quand c’est
+  terminé.
+pubDate: Jan 26 2026
+tags:
+  - images
+  - partage
+  - contrôle
+  - Maiimg
+heroImage: /maiimg/static-images/common/show/limtandexpirtion.png
 ---
 
 Par défaut, un lien partagé peut circuler longtemps. Si votre besoin est “que ça n’existe plus après un certain temps”, le plus sûr est d’avoir un **processus clair** (et pas une promesse magique).
@@ -27,11 +35,11 @@ flowchart TD
 
 ## Captures
 
-![Upload](/maiimg/maiimg-head.png)
+![Upload](/maiimg/static-images/common/show/limtandexpirtion.png)
 
-![Lien](/maiimg/image_result.png)
+![Lien](/maiimg/static-images/common/show/sharegallery.png)
 
-![Suivi](/maiimg/result_tracking.png)
+![Suivi](/maiimg/static-images/common/show/sharewithacharacter.png)
 
 ![Gestion / suppression](/maiimg/tracking_or_delete.png)
 

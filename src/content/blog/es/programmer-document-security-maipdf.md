@@ -1,9 +1,16 @@
 ---
-title: "Seguridad de Documentos para Programadores con MaiPDF: Guía Completa"
-description: "Aprenda cómo los programadores pueden compartir documentos de forma segura con MaiPDF. Guía completa sobre seguridad de documentos para programadores, compartir código y documentación técnica."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Programador", "Seguridad", "Documentos"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Seguridad de Documentos para Programadores con MaiPDF: Guía Completa'
+description: >-
+  Aprenda cómo los programadores pueden compartir documentos de forma segura con
+  MaiPDF. Guía completa sobre seguridad de documentos para programadores,
+  compartir código y documentación técnica.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Programador
+  - Seguridad
+  - Documentos
+heroImage: /maipdf2026/en-upload-screenshot.png
 ---
 
 # Seguridad de Documentos para Programadores con MaiPDF: Guía Completa
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Los programadores necesitan métodos seguros para compartir documentos técnicos, documentación de código y materiales de proyectos. Esta guía muestra a los programadores cómo compartir documentos de forma segura con MaiPDF.</p>
 </div>
 
-![Seguridad de Documentos para Programadores](/diagram/en/features-overview.svg)
+![Seguridad de Documentos para Programadores](/maipdf2026/en-upload-screenshot.png)
 
 ## 🎯 ¿Por Qué Seguridad de Documentos para Programadores?
 

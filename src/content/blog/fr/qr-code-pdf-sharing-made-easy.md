@@ -1,9 +1,16 @@
 ---
-title: "📲 Partage de PDF Facile avec Codes QR"
-description: "Découvrez comment partager des PDF instantanément avec des codes QR. Une solution rapide, sécurisée et sans e-mail pour les événements en direct et les présentations."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["Partage de PDF", "Code QR", "Événements en Direct", "Outils Numériques"]
+title: "\U0001F4F2 Partage de PDF Facile avec Codes QR"
+description: >-
+  Découvrez comment partager des PDF instantanément avec des codes QR. Une
+  solution rapide, sécurisée et sans e-mail pour les événements en direct et les
+  présentations.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - Partage de PDF
+  - Code QR
+  - Événements en Direct
+  - Outils Numériques
 ---
 
 # 📲 Partage de PDF Facile avec Codes QR
@@ -37,7 +44,7 @@ flowchart TD
   C --> D[Scanner et ouvrir]
 ```
 
-![Exemple de partage par code QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Exemple de partage par code QR](/maipdf2026/Result_of_qr_link.png)
 
 ## 🧠 Pourquoi Éviter l'E-mail?
 
@@ -56,7 +63,7 @@ En revanche, les codes QR sont:
 
 Parfaits pour les conférences, les salles de classe, les salons professionnels et plus encore.
 
-![E-mail vs Partage par Code QR](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![E-mail vs Partage par Code QR](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🔄 Comment Fonctionne le Partage de PDF par QR
 
@@ -76,7 +83,7 @@ Voici comment partager des PDF en utilisant des codes QR:
 
 Votre public scanne le code et accède instantanément au PDF—sans téléchargement, sans connexion.
 
-![Étapes pour partager un PDF](/maipdf-images/upload_section.png)
+![Étapes pour partager un PDF](/maipdf2026/show_off/shareandsend.png)
 
 ## 🧪 Scénarios Réels
 
@@ -89,7 +96,7 @@ Offrez aux étudiants un accès instantané aux supports d'étude.
 ### 🛍️ Salons Professionnels
 Distribuez des brochures ou catalogues de produits sans copies physiques.
 
-![Cas d'utilisation réel](/maipdf-images/share_pdf_wordwide.png)
+![Cas d'utilisation réel](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 🛠 Des Outils comme MaiPDF Simplifient le Processus
 
@@ -102,7 +109,7 @@ Les plateformes comme MaiPDF rationalisent le processus:
 
 Vous pouvez même désactiver des liens ou mettre à jour les paramètres d'accès ultérieurement.
 
-![Fonctionnalités de MaiPDF](/maipdf-images/pdf_change_setting_after_sent.png)
+![Fonctionnalités de MaiPDF](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 🔒 Confidentialité et Contrôle
 
@@ -112,7 +119,7 @@ Le partage par code QR offre:
 - **Accès Limité dans le Temps:** Désactivez le lien lorsqu'il n'est plus nécessaire.
 - **Suivi:** Surveillez qui a accédé à votre fichier et quand.
 
-![Paramètres de confidentialité](/maipdf-images/security_setting.png)
+![Paramètres de confidentialité](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ## ✅ Points Clés
 

@@ -1,9 +1,16 @@
 ---
-title: "Programmierer-Dokumentensicherheit mit MaiPDF: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Programmierer Dokumente sicher mit MaiPDF teilen können. Vollständiger Leitfaden zu Dokumentensicherheit für Programmierer, Code-Sharing und technische Dokumentation."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Programmierer", "Sicherheit", "Dokumente"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Programmierer-Dokumentensicherheit mit MaiPDF: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Programmierer Dokumente sicher mit MaiPDF teilen können.
+  Vollständiger Leitfaden zu Dokumentensicherheit für Programmierer,
+  Code-Sharing und technische Dokumentation.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Programmierer
+  - Sicherheit
+  - Dokumente
+heroImage: /maipdf2026/en-upload-screenshot.png
 ---
 
 # Programmierer-Dokumentensicherheit mit MaiPDF: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Programmierer benötigen sichere Methoden zum Teilen von technischen Dokumenten, Code-Dokumentation und Projektmaterialien. Diese Anleitung zeigt Programmierern, wie sie Dokumente sicher mit MaiPDF teilen können.</p>
 </div>
 
-![Dokumentensicherheit für Programmierer](/diagram/en/features-overview.svg)
+![Dokumentensicherheit für Programmierer](/maipdf2026/en-upload-screenshot.png)
 
 ## 🎯 Warum Dokumentensicherheit für Programmierer?
 

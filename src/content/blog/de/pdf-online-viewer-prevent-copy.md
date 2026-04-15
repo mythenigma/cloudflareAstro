@@ -1,9 +1,18 @@
 ---
-title: "PDF Online Viewer Kopieren Verhindern: Dokumenteninhalt vor Kopieren Schützen"
-description: "Erfahren Sie, wie Sie Dokumenteninhalte durch die Funktion zum Verhindern des Kopierens im PDF-Online-Viewer schützen. Verhindern Sie das Kopieren von Text und das Speichern von Bildern, um die Sicherheit des Dokumenteninhalts zu gewährleisten und Missbrauch zu verhindern."
-pubDate: "Dec 19 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF Online Viewer", "Kopieren Verhindern", "Inhaltsschutz", "Dokumentsicherheit", "PDF-Schutz"]
+title: 'PDF Online Viewer Kopieren Verhindern: Dokumenteninhalt vor Kopieren Schützen'
+description: >-
+  Erfahren Sie, wie Sie Dokumenteninhalte durch die Funktion zum Verhindern des
+  Kopierens im PDF-Online-Viewer schützen. Verhindern Sie das Kopieren von Text
+  und das Speichern von Bildern, um die Sicherheit des Dokumenteninhalts zu
+  gewährleisten und Missbrauch zu verhindern.
+pubDate: Dec 19 2025
+heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
+tags:
+  - PDF Online Viewer
+  - Kopieren Verhindern
+  - Inhaltsschutz
+  - Dokumentsicherheit
+  - PDF-Schutz
 ---
 
 # PDF Online Viewer Kopieren Verhindern: Dokumenteninhalt vor Kopieren Schützen
@@ -12,7 +21,7 @@ tags: ["PDF Online Viewer", "Kopieren Verhindern", "Inhaltsschutz", "Dokumentsic
   <p>Wie können Sie beim Teilen von PDF-Dokumenten verhindern, dass Empfänger Dokumenteninhalte kopieren? Die <strong>Funktion zum Verhindern des Kopierens</strong> kann effektiv das Kopieren von Text, das Speichern von Bildern und andere Operationen blockieren, um die Sicherheit des Dokumenteninhalts zu schützen. Dieser Leitfaden erklärt, wie Sie die Funktion zum Verhindern des Kopierens für PDF-Online-Viewer einrichten.</p>
 </div>
 
-![PDF-Einstellungs-Oberfläche](/maipdf-images/security_setting.png)
+![PDF-Einstellungs-Oberfläche](/maipdf2026/show_off/pdf icon of no printing no downloading.png)
 
 ## Warum Kopieren Verhindern?
 

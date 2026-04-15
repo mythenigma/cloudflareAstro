@@ -1,16 +1,23 @@
 ---
-title: "Generación Instantánea de Enlaces PDF: Compartir Documentos en Segundos"
-description: "Transforme cualquier PDF en un enlace compartible al instante con MaiPDF. No se requiere registro, velocidades de carga rápidas y control completo sobre permisos de acceso."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["Enlaces PDF", "Compartir Instantáneo", "Carga Rápida", "Compartir Documentos"]
+title: 'Generación Instantánea de Enlaces PDF: Compartir Documentos en Segundos'
+description: >-
+  Transforme cualquier PDF en un enlace compartible al instante con MaiPDF. No
+  se requiere registro, velocidades de carga rápidas y control completo sobre
+  permisos de acceso.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - Enlaces PDF
+  - Compartir Instantáneo
+  - Carga Rápida
+  - Compartir Documentos
 ---
 
 # Generación Instantánea de Enlaces PDF: Compartir Documentos en Segundos
 
 ¿Necesita compartir un documento PDF rápidamente? MaiPDF transforma cualquier archivo PDF en un enlace compartible en segundos. Ya sea que esté enviando un informe a colegas, compartiendo un menú con clientes o distribuyendo materiales educativos, obtener un enlace de compartir profesional nunca ha sido más rápido.
 
-![Resultado de Generación de Enlace](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultado de Generación de Enlace](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## La Ventaja de Velocidad
 
@@ -22,7 +29,7 @@ Mejoras recientes de rendimiento incluyen:
 - **Mejor Confiabilidad**: Cargas más estables incluso para archivos más grandes
 - **Mejor Capacidad de Respuesta**: La interfaz responde rápidamente a las acciones del usuario
 
-![Interfaz de Carga Rápida](/maipdf-images/upload_section.png)
+![Interfaz de Carga Rápida](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 ## Conclusión: Generación Instantánea de Enlaces PDF
 

@@ -1,8 +1,15 @@
 ---
-title: "Grundlagen von Wasserzeichen: Leaks abschrecken und Weitergabe nachverfolgen"
-description: "Ein praktischer Überblick: was Wasserzeichen leisten, was sie nicht lösen, und wie man sie sinnvoll einsetzt."
-pubDate: "Jan 15 2026"
-tags: ["Wasserzeichen", "Dokumentensicherheit", "Leak Prevention", "Nachverfolgung"]
+title: 'Grundlagen von Wasserzeichen: Leaks abschrecken und Weitergabe nachverfolgen'
+description: >-
+  Ein praktischer Überblick: was Wasserzeichen leisten, was sie nicht lösen, und
+  wie man sie sinnvoll einsetzt.
+pubDate: Jan 15 2026
+tags:
+  - Wasserzeichen
+  - Dokumentensicherheit
+  - Leak Prevention
+  - Nachverfolgung
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
 ---
 
 # Grundlagen von Wasserzeichen: Leaks abschrecken und Weitergabe nachverfolgen

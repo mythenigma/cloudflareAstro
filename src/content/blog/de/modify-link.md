@@ -1,8 +1,15 @@
 ---
-title: "Geteilten PDF-Link ändern, ohne ihn zu zerstören: „Replace File“"
-description: "Wenn sich ein PDF nach dem Teilen ändert, ist der beste Weg meist: Link stabil lassen und die Datei ersetzen (statt neue URLs zu verteilen)."
-pubDate: "Jan 26 2026"
-tags: ["PDF", "Sharing", "Workflow", "MaiPDF"]
+title: 'Geteilten PDF-Link ändern, ohne ihn zu zerstören: „Replace File“'
+description: >-
+  Wenn sich ein PDF nach dem Teilen ändert, ist der beste Weg meist: Link stabil
+  lassen und die Datei ersetzen (statt neue URLs zu verteilen).
+pubDate: Jan 26 2026
+tags:
+  - PDF
+  - Sharing
+  - Workflow
+  - MaiPDF
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 Viele Teams teilen ein PDF, merken später „Wir müssen noch etwas korrigieren“ – und schicken dann einen **neuen** Link herum. Das erzeugt schnell Chaos.
@@ -29,9 +36,9 @@ flowchart TD
 
 ## Screenshots
 
-![Upload](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload](/maipdf2026/user_control_panel_alotof_functions.png)
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ![Link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
 

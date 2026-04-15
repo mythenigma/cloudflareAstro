@@ -1,9 +1,15 @@
 ---
-title: "📲 PDF-Freigabe mit QR-Codes leicht gemacht"
-description: "Entdecken Sie, wie Sie PDFs sofort mit QR-Codes teilen können. Eine schnelle, sichere und E-Mail-freie Lösung für Live-Veranstaltungen und Präsentationen."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF-Freigabe", "QR-Code", "Live-Veranstaltungen", "Digitale Werkzeuge"]
+title: "\U0001F4F2 PDF-Freigabe mit QR-Codes leicht gemacht"
+description: >-
+  Entdecken Sie, wie Sie PDFs sofort mit QR-Codes teilen können. Eine schnelle,
+  sichere und E-Mail-freie Lösung für Live-Veranstaltungen und Präsentationen.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - PDF-Freigabe
+  - QR-Code
+  - Live-Veranstaltungen
+  - Digitale Werkzeuge
 ---
 
 # 📲 PDF-Freigabe mit QR-Codes leicht gemacht
@@ -37,7 +43,7 @@ flowchart TD
   C --> D[Scannen und öffnen]
 ```
 
-![QR-Code-Sharing-Beispiel](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![QR-Code-Sharing-Beispiel](/maipdf2026/Result_of_qr_link.png)
 
 ## 🧠 Warum auf E-Mail verzichten?
 
@@ -56,7 +62,7 @@ Im Gegensatz dazu sind QR-Codes:
 
 Perfekt für Konferenzen, Klassenzimmer, Messen und mehr.
 
-![E-Mail vs. QR-Code-Freigabe](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![E-Mail vs. QR-Code-Freigabe](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🔄 Wie die QR-basierte PDF-Freigabe funktioniert
 
@@ -76,7 +82,7 @@ So können Sie PDFs mit QR-Codes teilen:
 
 Ihr Publikum scannt den Code und greift sofort auf das PDF zu—keine Downloads, keine Anmeldungen.
 
-![Schritte zur PDF-Freigabe](/maipdf-images/upload_section.png)
+![Schritte zur PDF-Freigabe](/maipdf2026/show_off/shareandsend.png)
 
 ## 🧪 Reale Szenarien
 
@@ -89,7 +95,7 @@ Bieten Sie Schülern sofortigen Zugriff auf Studienmaterialien.
 ### 🛍️ Messen
 Verteilen Sie Broschüren oder Produktkataloge ohne physische Kopien.
 
-![Anwendungsbeispiel aus der Praxis](/maipdf-images/share_pdf_wordwide.png)
+![Anwendungsbeispiel aus der Praxis](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 🛠 Tools wie MaiPDF machen es einfach
 
@@ -102,7 +108,7 @@ Plattformen wie MaiPDF vereinfachen den Prozess:
 
 Sie können sogar Links deaktivieren oder Zugriffseinstellungen später aktualisieren.
 
-![MaiPDF-Funktionen](/maipdf-images/pdf_change_setting_after_sent.png)
+![MaiPDF-Funktionen](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 🔒 Datenschutz und Kontrolle
 
@@ -112,7 +118,7 @@ QR-Code-Freigabe bietet:
 - **Zeitlich begrenzter Zugriff:** Deaktivieren Sie den Link, wenn er nicht mehr benötigt wird.
 - **Nachverfolgung:** Überwachen Sie, wer wann auf Ihre Datei zugegriffen hat.
 
-![Datenschutzeinstellungen](/maipdf-images/security_setting.png)
+![Datenschutzeinstellungen](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ## ✅ Wichtige Erkenntnisse
 

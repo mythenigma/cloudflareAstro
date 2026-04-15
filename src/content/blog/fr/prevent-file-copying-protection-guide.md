@@ -1,9 +1,20 @@
 ---
-title: "Comment Empêcher la Copie de Fichiers : Guide Complet de Protection des Fichiers"
-description: "Apprenez à empêcher que les fichiers envoyés soient copiés, téléchargés et transférés. Maîtrisez les techniques professionnelles de protection des fichiers pour assurer la sécurité des documents et la protection des droits d'auteur."
-pubDate: "Aug 25 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["protection de fichiers", "empêcher la copie", "sécurité des documents", "protection des droits d'auteur", "contrôle des fichiers"]
+title: >-
+  Comment Empêcher la Copie de Fichiers : Guide Complet de Protection des
+  Fichiers
+description: >-
+  Apprenez à empêcher que les fichiers envoyés soient copiés, téléchargés et
+  transférés. Maîtrisez les techniques professionnelles de protection des
+  fichiers pour assurer la sécurité des documents et la protection des droits
+  d'auteur.
+pubDate: Aug 25 2025
+heroImage: /maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png
+tags:
+  - protection de fichiers
+  - empêcher la copie
+  - sécurité des documents
+  - protection des droits d'auteur
+  - contrôle des fichiers
 ---
 
 # Comment Empêcher la Copie de Fichiers : Guide Complet de Protection des Fichiers

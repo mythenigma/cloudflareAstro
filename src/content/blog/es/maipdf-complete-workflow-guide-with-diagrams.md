@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF Guía Completa de Flujo de Trabajo con Diagramas"
-description: "Aprenda el flujo de trabajo completo de MaiPDF con diagramas. Guía completa sobre flujos de trabajo de compartir PDF, procesos y mejores prácticas."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "MaiPDF", "Flujo de Trabajo", "Guía"]
-heroImage: "/diagram/en/features-overview.svg"
+title: MaiPDF Guía Completa de Flujo de Trabajo con Diagramas
+description: >-
+  Aprenda el flujo de trabajo completo de MaiPDF con diagramas. Guía completa
+  sobre flujos de trabajo de compartir PDF, procesos y mejores prácticas.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - MaiPDF
+  - Flujo de Trabajo
+  - Guía
+heroImage: /maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg
 ---
 
 # MaiPDF Guía Completa de Flujo de Trabajo con Diagramas
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>La guía completa de flujo de trabajo de MaiPDF le muestra paso a paso cómo compartir y gestionar PDFs de forma efectiva. Esta guía incluye diagramas y procesos detallados para resultados óptimos.</p>
 </div>
 
-![Flujo de Trabajo MaiPDF](/diagram/en/features-overview.svg)
+![Flujo de Trabajo MaiPDF](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 ## 🎯 Resumen del Flujo de Trabajo
 

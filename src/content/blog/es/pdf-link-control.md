@@ -1,9 +1,15 @@
 ---
-title: "Control de Enlaces PDF: Gestión y Protección de Enlaces"
-description: "Aprenda cómo controlar y gestionar enlaces PDF compartidos. Guía completa sobre control de enlaces, gestión de acceso y protección de enlaces PDF."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Enlaces", "Control", "Gestión"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Control de Enlaces PDF: Gestión y Protección de Enlaces'
+description: >-
+  Aprenda cómo controlar y gestionar enlaces PDF compartidos. Guía completa
+  sobre control de enlaces, gestión de acceso y protección de enlaces PDF.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Enlaces
+  - Control
+  - Gestión
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
 ---
 
 # Control de Enlaces PDF: Gestión y Protección de Enlaces
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>El control de enlaces PDF le permite gestionar y proteger los enlaces que comparte. Con las herramientas adecuadas, puede controlar el acceso, monitorear el uso y proteger sus enlaces de forma efectiva.</p>
 </div>
 
-![Control de Enlaces PDF](/diagram/en/features-overview.svg)
+![Control de Enlaces PDF](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🎯 ¿Qué es el Control de Enlaces PDF?
 

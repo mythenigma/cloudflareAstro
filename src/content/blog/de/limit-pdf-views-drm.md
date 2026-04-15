@@ -1,9 +1,15 @@
 ---
-title: "PDF-Ansichten Begrenzen mit DRM: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie PDF-Ansichten mit DRM begrenzen. Vollständiger Leitfaden zu DRM-Limits, Zugriffskontrolle und Dokumentenschutz."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "DRM", "Limits", "Schutz"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF-Ansichten Begrenzen mit DRM: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie PDF-Ansichten mit DRM begrenzen. Vollständiger Leitfaden
+  zu DRM-Limits, Zugriffskontrolle und Dokumentenschutz.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - DRM
+  - Limits
+  - Schutz
+heroImage: /maipdf2026/show_off/openlimit.png
 ---
 
 # PDF-Ansichten Begrenzen mit DRM: Vollständiger Leitfaden
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Begrenzen von PDF-Ansichten mit DRM bietet erweiterten Schutz für Ihre Dokumente. Diese Anleitung zeigt Ihnen, wie Sie DRM-Limits verwenden, um den Zugriff auf Ihre PDF-Dokumente zu kontrollieren und zu schützen.</p>
 </div>
 
-![PDF-Ansichten mit DRM Begrenzen](/diagram/en/features-overview.svg)
+![PDF-Ansichten mit DRM Begrenzen](/maipdf2026/show_off/openlimit.png)
 
 ## 🎯 Was ist DRM für PDF-Ansichten?
 

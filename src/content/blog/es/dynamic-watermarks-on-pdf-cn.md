@@ -1,9 +1,16 @@
 ---
-title: "Marcas de Agua Dinámicas en PDF: Guía Completa"
-description: "Aprenda cómo usar marcas de agua dinámicas en PDFs. Guía completa sobre marcas de agua dinámicas, seguridad y protección de documentos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Marca de Agua", "Dinámica", "Protección"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Marcas de Agua Dinámicas en PDF: Guía Completa'
+description: >-
+  Aprenda cómo usar marcas de agua dinámicas en PDFs. Guía completa sobre marcas
+  de agua dinámicas, seguridad y protección de documentos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Marca de Agua
+  - Dinámica
+  - Protección
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+noindex: true
 ---
 
 # Marcas de Agua Dinámicas en PDF: Guía Completa
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Las marcas de agua dinámicas son una característica de seguridad poderosa que protege sus documentos PDF agregando información única a cada visualización. Esta guía le mostrará cómo usar marcas de agua dinámicas para proteger sus documentos.</p>
 </div>
 
-![Marcas de Agua Dinámicas](/diagram/en/features-overview.svg)
+![Marcas de Agua Dinámicas](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## 🎯 ¿Qué son las Marcas de Agua Dinámicas?
 

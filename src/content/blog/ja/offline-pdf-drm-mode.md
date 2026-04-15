@@ -20,7 +20,7 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
     <p><strong>埋め込みDRM：</strong> HTMLには、ローカルで権限チェックを実行し（閲覧回数、有効期限など）、読み取りログを記録する組み込みスクリプトがあります。Adobe DRMやLocklizard PDCと同様ですが、専用のリーダーを必要としません。</p>
   </div>
   <div class="feature-image">
-    <img src="/offlinepages/security_setting.png" alt="MaiPDFセキュリティ設定インターフェース" class="medium">
+    <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="MaiPDFセキュリティ設定インターフェース" class="medium">
   </div>
 </div>
 
@@ -78,7 +78,7 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
     <div class="step-content">
       <h3>PDFのアップロード</h3>
       <p>ファイルは分割され、アップロードされ、保存のために暗号化されます。</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDFアップロードインターフェース" class="small">
+      <img src="/offlinepages/security_setting.png" alt="PDFアップロードインターフェース" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -86,7 +86,7 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
     <div class="step-content">
       <h3>権限の設定</h3>
       <p>閲覧回数、時間、有効期限、ダウンロード/印刷トグルを設定します。</p>
-      <img src="/offlinepages/security_setting.png" alt="権限設定" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="権限設定" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -94,7 +94,7 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
     <div class="step-content">
       <h3>オフラインパッケージの生成</h3>
       <p>プラットフォームは圧縮パッケージを返します：index.html + assets/。</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="生成されたオフラインパッケージ" class="small">
+      <img src="/offlinepages/security_setting.png" alt="生成されたオフラインパッケージ" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -113,7 +113,7 @@ tags: ["PDF保護", "文書DRM", "オフライン制御", "ファイル暗号化
     <div class="step-content">
       <h3>ローカルでの開封</h3>
       <p>受信者はindex.htmlをダブルクリックしてオフラインで読みます。デバイスがオンラインの場合、ログはバックグラウンドで送信されます。</p>
-      <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="HTMLファイルをローカルで開く" class="small">
+      <img src="/offlinepages/result_download_zip_file.png" alt="HTMLファイルをローカルで開く" class="small">
     </div>
   </div>
 </div>

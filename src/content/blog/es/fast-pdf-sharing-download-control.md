@@ -1,26 +1,33 @@
 ---
-title: "Compartir PDF Rápido: Generar Enlaces Seguros con Control de Descarga"
-description: "Cree enlaces PDF compartibles al instante con MaiPDF. Controle quién puede descargar sus archivos y disfrute de velocidades de carga más rápidas para una mejor experiencia de visualización de documentos."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["Compartir PDF", "Control de Descarga", "Enlaces Seguros", "Carga Rápida"]
+title: 'Compartir PDF Rápido: Generar Enlaces Seguros con Control de Descarga'
+description: >-
+  Cree enlaces PDF compartibles al instante con MaiPDF. Controle quién puede
+  descargar sus archivos y disfrute de velocidades de carga más rápidas para una
+  mejor experiencia de visualización de documentos.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - Compartir PDF
+  - Control de Descarga
+  - Enlaces Seguros
+  - Carga Rápida
 ---
 
 # Compartir PDF Rápido: Generar Enlaces Seguros con Control de Descarga
 
 Compartir documentos PDF nunca ha sido más fácil. Con MaiPDF, puede subir cualquier archivo PDF e instantáneamente generar un enlace de compartir seguro, dándole control completo sobre cómo otros acceden a sus documentos.
 
-![MaiPDF Página de Inicio](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Página de Inicio](/maipdf2026/show_off/shareandsend.png)
 
 ## Generación Rápida de Enlaces
 
 El proceso es directo. Suba su archivo PDF, y MaiPDF crea un enlace de compartir único en segundos. No se requiere registro, no hay configuración complicada: solo suba y comparta.
 
-![Interfaz de Subida](/maipdf-images/upload_section.png)
+![Interfaz de Subida](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 Una vez subido, recibe un enlace limpio y profesional que puede compartir por correo electrónico, aplicaciones de mensajería o cualquier otro método de comunicación. Los destinatarios pueden acceder a su documento inmediatamente sin necesidad de crear cuentas o descargar software adicional.
 
-![Resultado de Enlace y Código QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultado de Enlace y Código QR](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## Opciones de Control de Descarga
 

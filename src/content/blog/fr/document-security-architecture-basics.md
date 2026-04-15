@@ -1,8 +1,13 @@
 ---
-title: "Réglages de partage PDF (écran d’envoi MaiPDF)"
-description: "Explication simple de chaque réglage visible sur l’écran d’envoi."
-pubDate: "Jan 15 2026"
-tags: ["Sécurité documentaire", "Architecture", "Chiffrement", "Contrôle d'accès"]
+title: Réglages de partage PDF (écran d’envoi MaiPDF)
+description: Explication simple de chaque réglage visible sur l’écran d’envoi.
+pubDate: Jan 15 2026
+tags:
+  - Sécurité documentaire
+  - Architecture
+  - Chiffrement
+  - Contrôle d'accès
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
 ---
 
 # Réglages de partage PDF
@@ -11,7 +16,7 @@ tags: ["Sécurité documentaire", "Architecture", "Chiffrement", "Contrôle d'ac
   <p>Cette page explique <strong>les réglages que vous voyez à l’écran</strong> et à quoi ils servent.</p>
 </div>
 
-![Réglages de partage PDF](/diagram/fr/pdf-sharing-settings.svg)
+![Réglages de partage PDF](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Les 5 réglages à connaître
 

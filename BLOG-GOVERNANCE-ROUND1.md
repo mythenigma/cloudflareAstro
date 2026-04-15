@@ -1,6 +1,6 @@
 # Blog Governance Round 1
 
-Scope: English + Chinese blog posts only.
+Scope: English + Chinese + French + German + Japanese + Korean + Spanish blog posts.
 
 ## Action Counts
 - en / keep: 197
@@ -9,6 +9,31 @@ Scope: English + Chinese blog posts only.
 - cn / keep: 148
 - cn / 301: 35
 - cn / noindex: 0
+- fr / keep: 74
+- fr / 301: 0
+- fr / noindex: 0
+- de / keep: 129
+- de / 301: 0
+- de / noindex: 0
+
+- ja / keep: 71
+- ja / 301: 4
+- ja / noindex: 0
+- ko / keep: 44
+- ko / 301: 4
+- ko / noindex: 0
+- es / keep: 112
+- es / 301: 5
+- es / noindex: 0
+
+## Sitemap (current policy)
+- **robots.txt** points to `https://article.maipdf.com/sitemap-index.xml`.
+- **Generation**: `@astrojs/sitemap` at build time (`dist/sitemap-index.xml` -> `dist/sitemap-0.xml`).
+- **Exclusions**:
+  - Any blog markdown carrying frontmatter `noindex: true` (including governance 301 source placeholders) is excluded via `astro.config.mjs` sitemap `filter`.
+  - `/blog-backup/` and `/fonts` are excluded.
+  - Verified that **legacy redirect source URLs** (from `src/data/blog-legacy-redirects.mjs`) do **not** appear in the sitemap.
+- **Sanity check (latest build)**: 774 total URLs, 770 `/blog/` URLs.
 
 ## Implemented 301 Sources
 - `en/drm-limit-pdf-views` -> `en/limit-pdf-views-drm`
@@ -66,77 +91,19 @@ Scope: English + Chinese blog posts only.
 - `cn/secure-pdf-sharing-options` -> `cn/maipdf-best-choice-secure-pdf-sharing`
 - `cn/share-pdf-online-free-secure-tool` -> `cn/share-pdf-online`
 - `cn/skip-cloud-drive-hassle-share-health-reports-qr-code` -> `cn/secure-document-sharing-in-healthcare`
+- `ja/first-post` -> `ja/share-design-portfolio-with-link`
+- `ja/generate-pdf-links-work-any-device` -> `ja/pdf-one-click-share-links-maipdf`
+- `ja/pdf-to-qr` -> `ja/qr-code-pdf-sharing-made-easy`
+- `ja/qr-codes-future-digital-distribution` -> `ja/qr-codes-for-document-distribution`
+- `ko/first-post` -> `ko/share-design-portfolio-with-link`
+- `ko/maipdf-qrcode-generation-guide` -> `ko/qr-code-pdf-sharing-made-easy`
+- `ko/partage-pdf-en-ligne-securise-guide-complet` -> `ko/pdf-sharing-introduction`
+- `ko/pdf-to-qr` -> `ko/qr-code-pdf-sharing-made-easy`
+- `es/dynamic-watermarks-on-pdf-cn` -> `es/pdf-dynamic-watermark-security-guide`
+- `es/first-post` -> `es/share-design-portfolio-with-link`
+- `es/pdf-to-qr` -> `es/qr-code-pdf-sharing-made-easy`
+- `es/qr-codes-future-digital-distribution` -> `es/qr-code-pdf-sharing-made-easy`
+- `es/quick-pdf-links` -> `es/upload-pdf-get-link`
 
 ## Direct Noindex Sources
 - `en/_tmp_restore`
-
-## Refinement Progress
-
-Last updated in this tracker: 2026-04-15.
-
-### Current Working Standard
-- Keep fewer, stronger canonical pages instead of many near-duplicate SEO pages.
-- Preserve useful ideas from redirected/legacy pages, but rewrite the canonical page instead of pasting old copy.
-- Use a scan-friendly "newspaper" structure: short intro, clear section headings, compact tables, workflow blocks, scenario blocks, and direct slug-answer endings.
-- Avoid long paragraphs, loose bullet stacks, repeated manual related-reading blocks, and generic "Final takeaway" sections.
-- Prefer landscape `show_off` images when a visual supports the section; do not use images as decoration only.
-- Do not mechanically set every `updatedDate` to the same day. Only update dates for substantial rewrites, and keep dates natural across pages.
-- Do not run `build` during this content pass unless explicitly requested.
-
-### Layout / Template Adjustments
-- Updated `src/layouts/BlogPost.astro` mobile table behavior so tables fit narrow screens better:
-- Mobile tables now use fixed layout, wrapping text, smaller padding, and no forced first-column `nowrap`.
-
-### Sitemap Status
-- `dist/sitemap-0.xml` and `dist/sitemap-index.xml` were refreshed from the current content files without running a full build.
-- Current sitemap blog URL counts after `noindex` filtering:
-- English blog URLs: 197
-- Chinese blog URLs: 148
-- Reduction from the first-round governance scope:
-- English: 21 fewer URLs (`20` legacy 301 sources + `1` direct noindex)
-- Chinese: 35 fewer URLs (`35` legacy 301 sources)
-
-### Canonical Pages Already Refined
-
-English:
-- `en/how-to-upload-a-pdf-and-generate-a-secure-link`
-- `en/share-pdf-online`
-- `en/share-pdf-securely`
-- `en/pdf-link-sharing-modern-alternative-email-attachments`
-- `en/limit-pdf-views-drm`
-- `en/pdf-online-viewing-without-download`
-- `en/maipdf-secure-efficient-sharing`
-- `en/modify-pdf-links`
-- `en/pdf-sharing-with-qr-code-complete-guide`
-- `en/share-design-portfolio-with-link`
-- `en/convert-pdfs-to-shareable-links`
-- `en/make-pdf-into-a-link`
-- `en/pdf-to-shareable-link-tutorial`
-- `en/host-pdf-online-secure-sharing-guide`
-- `en/create-pdf-links-actually-get-opened-5-strategies`
-- `en/control-pdf-downloads-permissions`
-
-Chinese:
-- `cn/upload-pdf-get-link`
-- `cn/share-pdf-online`
-- `cn/share-pdf-securely`
-- `cn/pdf-set-view-count-limit-guide`
-- `cn/pdf-online-viewing-without-download`
-- `cn/maipdf-best-choice-secure-pdf-sharing`
-- `cn/pdf-share-link-disable-download`
-- `cn/enterprise-document-security-management`
-- `cn/replace-pdf-keep-the-same-link`
-- `cn/qr-code-pdf-sharing`
-- `cn/share-design-portfolio-with-link`
-
-### Notes From User Direction
-- The page should feel like a professional 2026 SaaS/product content page, not an old SEO article.
-- Readers should understand each block by scanning headings and tables; deeper reading should be optional.
-- Avoid wasting vertical space with repetitive `heading + many bullets` layouts.
-- Avoid portrait images where they make the page hard to lay out.
-- Endings should directly answer the slug/query, for example: upload in MaiPDF, set options, share link/QR, no install, reader usually does not need to register.
-
-### Next Priority Candidates
-- Clean remaining old HTML-heavy or loose-list pages surfaced by `rg` for `intro-panel`, manual `Related reading`, `Final takeaway`, and many `###` subheadings.
-- Continue with high-value English/CN PDF access, watermark, view-only, and business-use pages before touching lower-priority long-tail pages.
-- Revisit legacy `301` implementation later: middleware redirects exist, but prerendered legacy source pages may still be generated unless the blog route excludes redirect sources.

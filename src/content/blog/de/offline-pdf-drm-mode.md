@@ -20,7 +20,7 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
     <p><strong>Eingebettetes DRM:</strong> HTML enthält integrierte Skripte, die Berechtigungsprüfungen lokal durchführen (Anzahl der Aufrufe, Ablaufdatum usw.) und Leseprotokolle aufzeichnen, ähnlich wie Adobe DRM oder Locklizard PDC, jedoch ohne spezielle Reader zu erfordern.</p>
   </div>
   <div class="feature-image">
-    <img src="/offlinepages/security_setting.png" alt="MaiPDF Sicherheitseinstellungen" class="medium">
+    <img src="/offlinepages/upload_section_offline_maipdf.png" alt="MaiPDF Sicherheitseinstellungen" class="medium">
   </div>
 </div>
 
@@ -78,7 +78,7 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
     <div class="step-content">
       <h3>PDF hochladen</h3>
       <p>Datei wird in Teile zerlegt, hochgeladen und zur Speicherung verschlüsselt.</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF-Upload-Schnittstelle" class="small">
+      <img src="/offlinepages/security_setting.png" alt="PDF-Upload-Schnittstelle" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -86,7 +86,7 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
     <div class="step-content">
       <h3>Berechtigungen konfigurieren</h3>
       <p>Aufrufzahl, Dauer, Ablaufdatum, Download-/Druck-Umschalter festlegen.</p>
-      <img src="/offlinepages/security_setting.png" alt="Berechtigungseinstellungen" class="small">
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Berechtigungseinstellungen" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -94,7 +94,7 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
     <div class="step-content">
       <h3>Offline-Paket generieren</h3>
       <p>Plattform liefert ein komprimiertes Paket: index.html + assets/.</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Generiertes Offline-Paket" class="small">
+      <img src="/offlinepages/security_setting.png" alt="Generiertes Offline-Paket" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -113,7 +113,7 @@ tags: ["PDF-Sicherheit", "Dokument-DRM", "Offline-Kontrolle", "Dateiverschlüsse
     <div class="step-content">
       <h3>Lokales Öffnen</h3>
       <p>Empfänger doppelklicken auf index.html zum Offline-Lesen; wenn ihr Gerät online ist, werden Protokolle im Hintergrund übertragen.</p>
-      <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="Lokales Öffnen der HTML-Datei" class="small">
+      <img src="/offlinepages/result_download_zip_file.png" alt="Lokales Öffnen der HTML-Datei" class="small">
     </div>
   </div>
 </div>

@@ -1,8 +1,14 @@
 ---
-title: "PDF-Sicherheit in der Praxis: Best Practices für den Dokumentenschutz"
-description: "Ein pragmatischer Leitfaden: Link teilen, Zugriff steuern, Einblicke prüfen, Updates sauber ausrollen – ohne Übertreibung."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "pdf security", "best practices"]
+title: 'PDF-Sicherheit in der Praxis: Best Practices für den Dokumentenschutz'
+description: >-
+  Ein pragmatischer Leitfaden: Link teilen, Zugriff steuern, Einblicke prüfen,
+  Updates sauber ausrollen – ohne Übertreibung.
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - pdf security
+  - best practices
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 PDF-Sicherheit scheitert selten an fehlenden Features – meist an **unklarem Prozess**. Diese Seite fasst einen einfachen Ablauf zusammen, der in Teams gut funktioniert.

@@ -1,9 +1,16 @@
 ---
-title: "Sichere PDF-Kontrolle: Verwaltung und Schutz von Dokumenten"
-description: "Erfahren Sie, wie Sie Ihre PDF-Dokumente sicher kontrollieren und schützen. Vollständiger Leitfaden zur sicheren PDF-Kontrolle, Zugriffsverwaltung und Dokumentenschutz."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Kontrolle", "Sicherheit", "Verwaltung"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Sichere PDF-Kontrolle: Verwaltung und Schutz von Dokumenten'
+description: >-
+  Erfahren Sie, wie Sie Ihre PDF-Dokumente sicher kontrollieren und schützen.
+  Vollständiger Leitfaden zur sicheren PDF-Kontrolle, Zugriffsverwaltung und
+  Dokumentenschutz.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Kontrolle
+  - Sicherheit
+  - Verwaltung
+heroImage: /maipdf2026/how_to_control_panel.png
 ---
 
 # Sichere PDF-Kontrolle: Verwaltung und Schutz von Dokumenten
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Die sichere PDF-Kontrolle ermöglicht es Ihnen, Ihre Dokumente effektiv zu verwalten und zu schützen. Mit den richtigen Tools können Sie kontrollieren, wer auf Ihre Dokumente zugreift, wann und wie, und so eine wesentliche Sicherheitsebene für vertrauliche Informationen bieten.</p>
 </div>
 
-![Sichere PDF-Kontrolle](/diagram/en/features-overview.svg)
+![Sichere PDF-Kontrolle](/maipdf2026/how_to_control_panel.png)
 
 ## 🎯 Was ist Sichere PDF-Kontrolle?
 

@@ -1,9 +1,18 @@
 ---
-title: "Enlaces en línea vs. Paquetes offline con autorización en red: La guía definitiva para elegir el modo correcto de cifrado PDF"
-description: "Una comparación detallada entre el compartir PDF basado en la nube y los paquetes DRM offline para ayudarte a seleccionar el mejor modelo de seguridad para tus necesidades de distribución de documentos."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Seguridad PDF", "Compartir documentos", "Protección DRM", "Seguridad en la nube"]
+title: >-
+  Enlaces en línea vs. Paquetes offline con autorización en red: La guía
+  definitiva para elegir el modo correcto de cifrado PDF
+description: >-
+  Una comparación detallada entre el compartir PDF basado en la nube y los
+  paquetes DRM offline para ayudarte a seleccionar el mejor modelo de seguridad
+  para tus necesidades de distribución de documentos.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Seguridad PDF
+  - Compartir documentos
+  - Protección DRM
+  - Seguridad en la nube
 ---
 
 # Enlaces en línea vs. Paquetes offline con autorización en red: La guía definitiva para elegir el modo correcto de cifrado PDF

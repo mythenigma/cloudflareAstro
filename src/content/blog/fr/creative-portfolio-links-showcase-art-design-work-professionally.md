@@ -1,7 +1,12 @@
 ---
-title: "Guide rapide : Creative Portfolio Links Showcase Art Design Work Professionally"
-description: "Un article court sur creative portfolio links showcase art design work professionally, avec un schéma."
-pubDate: "Jan 15 2026"
+title: >-
+  Guide rapide : Creative Portfolio Links Showcase Art Design Work
+  Professionally
+description: >-
+  Un article court sur creative portfolio links showcase art design work
+  professionally, avec un schéma.
+pubDate: Jan 15 2026
+heroImage: /maiimg/static-images/common/show/english-portfolio-preview.svg
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

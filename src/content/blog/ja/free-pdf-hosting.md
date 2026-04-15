@@ -1,9 +1,13 @@
 ---
-title: "無料PDFホスティング：完全ガイド"
-description: "無料でPDFをオンラインにアップロード、共有、管理。登録不要。MaiPDFでアクセス制御付きの安全なPDFホスティングを利用。"
-pubDate: "Jan 15 2026"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["無料PDFホスティング", "PDFホスティング", "ドキュメント共有", "セキュアビューア"]
+title: 無料PDFホスティング：完全ガイド
+description: 無料でPDFをオンラインにアップロード、共有、管理。登録不要。MaiPDFでアクセス制御付きの安全なPDFホスティングを利用。
+pubDate: Jan 15 2026
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - 無料PDFホスティング
+  - PDFホスティング
+  - ドキュメント共有
+  - セキュアビューア
 ---
 
 # 無料PDFホスティング：完全ガイド

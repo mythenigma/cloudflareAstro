@@ -1,16 +1,21 @@
 ---
-title: "WhatsAppでPDF共有：ファイル送信の代わりにリンクを使用"
-description: "WhatsAppでPDF文書をクリーンなリンクで共有。大きなファイル添付の代わりに、より速い共有、より良いモバイル体験、プロフェッショナルなプレゼンテーション。"
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/send_pdf_link_on_instant_mesenger.png"
-tags: ["WhatsApp共有", "PDFリンク", "モバイル共有", "インスタントメッセージ"]
+title: WhatsAppでPDF共有：ファイル送信の代わりにリンクを使用
+description: >-
+  WhatsAppでPDF文書をクリーンなリンクで共有。大きなファイル添付の代わりに、より速い共有、より良いモバイル体験、プロフェッショナルなプレゼンテーション。
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - WhatsApp共有
+  - PDFリンク
+  - モバイル共有
+  - インスタントメッセージ
 ---
 
 # WhatsAppでPDF共有：ファイル送信の代わりにリンクを使用
 
 WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送信とダウンロードに時間がかかります。MaiPDFはより良いソリューションを提供します - PDFを共有可能なリンクに変換し、WhatsAppの会話で完璧に動作し、待機なしで即座にアクセスできます。
 
-![WhatsApp PDFリンク共有](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![WhatsApp PDFリンク共有](/maipdf2026/show_off/shareandsend.png)
 
 ## WhatsAppでリンクがファイルより優れている理由
 
@@ -24,7 +29,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **プロフェッショナルな外観**：クリーンなリンクは、ビジネス会話で大きなファイル添付よりプロフェッショナルに見えます。
 
-![アップロードしてリンク生成](/maipdf-images/upload_section.png)
+![アップロードしてリンク生成](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 ## WhatsAppでPDFをリンクで共有する方法
 
@@ -32,7 +37,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **ステップ2：リンクをコピー** - メッセージングに最適なクリーンでプロフェッショナルなURLを取得。
 
-![リンク生成結果](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![リンク生成結果](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 **ステップ3：WhatsAppに貼り付け** - WhatsAppの会話にリンクを貼り付けて送信するだけ。
 
@@ -48,7 +53,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **マーケティング資料**：WhatsAppマーケティングキャンペーンを通じてパンフレット、カタログ、プロモーション内容を配布。
 
-![プロフェッショナルPDFビューアー](/maipdf-images/pdf_native_view_on_ui.png)
+![プロフェッショナルPDFビューアー](/maipdf2026/Result_of_qr_link.png)
 
 ## モバイル最適化された表示体験
 
@@ -72,7 +77,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **アクセス追跡**：共有文書がいつ、どのくらいの頻度で表示されているかを監視。
 
-![設定構成](/maipdf-images/security_setting.png)
+![設定構成](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **時間制限**：時間敏感な情報に有効期限を設定。
 
@@ -100,7 +105,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **クロスプラットフォーム互換性**：受信者がiPhone、Android、WhatsApp Webのどれを使用していてもリンクは同じように動作。
 
-![世界規模での共有](/maipdf-images/share_pdf_wordwide.png)
+![世界規模での共有](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## WhatsAppでのプライバシーとセキュリティ
 
@@ -112,7 +117,7 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **直接制御**：アクセス権を取り消す必要がある場合はいつでもリンクを無効化。
 
-![セキュリティ設定](/maipdf-images/security_setting.png)
+![セキュリティ設定](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 完璧な様々なWhatsApp使用ケース
 
@@ -136,19 +141,19 @@ WhatsAppでは文書の共有が簡単ですが、大きなPDFファイルは送
 
 **イベント共有**：WhatsAppステータスのQRコードを通じてイベントプログラム、スケジュール、情報を共有。
 
-![QRコード生成](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![QRコード生成](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## WhatsApp PDF共有の管理
 
 **リアルタイム分析**：WhatsApp共有文書がいつアクセスされているかを確認。
 
-![アクセス追跡](/maipdf-images/check_pdf_open_result.png)
+![アクセス追跡](/maipdf2026/user_control_panel_alotof_functions.png)
 
 **設定更新**：WhatsApp会話でリンクを共有した後でも権限を変更。
 
 **使用監視**：エンゲージメントレベルを追跡し、どの文書が最も人気かを確認。
 
-![いつでも設定変更](/maipdf-images/pdf_change_setting_after_sent.png)
+![いつでも設定変更](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## WhatsApp PDF共有のベストプラクティス
 

@@ -1,8 +1,15 @@
 ---
-title: "Fonctionnalités clés du partage de PDF (guide visuel)"
-description: "Une vue d’ensemble rapide des fonctionnalités les plus utiles : contrôles en ligne, options hors ligne, et couche de sécurité."
-pubDate: "Jan 15 2026"
-tags: ["Partage PDF", "Contrôle d'accès", "Sécurité PDF", "Guide visuel"]
+title: Fonctionnalités clés du partage de PDF (guide visuel)
+description: >-
+  Une vue d’ensemble rapide des fonctionnalités les plus utiles : contrôles en
+  ligne, options hors ligne, et couche de sécurité.
+pubDate: Jan 15 2026
+tags:
+  - Partage PDF
+  - Contrôle d'accès
+  - Sécurité PDF
+  - Guide visuel
+heroImage: /maipdf2026/show_off/securityshowoff.png
 ---
 
 # Fonctionnalités clés du partage de PDF (guide visuel)

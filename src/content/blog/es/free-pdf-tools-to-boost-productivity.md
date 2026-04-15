@@ -1,9 +1,17 @@
 ---
-title: "Aumenta tu productividad con estas 10 herramientas gratuitas para PDF"
-description: "Descubre las mejores herramientas gratuitas para PDF para edición simple, conversión, fusión, compresión y más. Haz todo sin suscripciones o instalaciones."
-pubDate: "May 15 2025"
-heroImage: "/maipdf-images/pdf_native_view_on_ui.png"
-tags: ["Herramientas gratuitas PDF", "Edición PDF", "Conversión PDF", "PDF online", "Gestión de documentos"]
+title: Aumenta tu productividad con estas 10 herramientas gratuitas para PDF
+description: >-
+  Descubre las mejores herramientas gratuitas para PDF para edición simple,
+  conversión, fusión, compresión y más. Haz todo sin suscripciones o
+  instalaciones.
+pubDate: May 15 2025
+heroImage: /maipdf2026/en-upload-screenshot.png
+tags:
+  - Herramientas gratuitas PDF
+  - Edición PDF
+  - Conversión PDF
+  - PDF online
+  - Gestión de documentos
 ---
 
 # Aumenta tu productividad con estas 10 herramientas gratuitas para PDF
@@ -18,7 +26,7 @@ Exploremos 10 de las mejores herramientas gratuitas que pueden ayudarte a optimi
 
 ## 1. MaiPDF – Herramienta para compartir PDF de forma segura
 
-![Opciones de compartir PDF seguro](/maipdf-images/security_setting.png)
+![Opciones de compartir PDF seguro](/maipdf2026/show_off/show_off_page.png)
 
 **Características principales:**
 - Envío y seguimiento seguro de archivos PDF
@@ -76,7 +84,7 @@ iLovePDF destaca por su funcionalidad multiplataforma sin problemas. Ya sea que 
 
 ## 5. DocFly – Edición de PDF con texto enriquecido
 
-![Edición de PDF online](/maipdf-images/pdf_native_view_on_ui.png)
+![Edición de PDF online](/maipdf2026/en-upload-screenshot.png)
 
 **Características principales:**
 - Edición directa de texto PDF en el navegador

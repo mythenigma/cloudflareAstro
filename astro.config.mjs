@@ -12,10 +12,12 @@ import rehypeRaw from 'rehype-raw';
 const siteUrl = "https://article.maipdf.com";
 const blogContentRoot = "./src/content/blog";
 
+/** @param {string} rootDir @param {string} site */
 function collectNoindexBlogPages(rootDir, site) {
   /** @type {string[]} */
   const files = [];
 
+  /** @param {string} dir */
   function walk(dir) {
     for (const entry of readdirSync(dir)) {
       const fullPath = join(dir, entry);

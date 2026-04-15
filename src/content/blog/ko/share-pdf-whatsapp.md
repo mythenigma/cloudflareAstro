@@ -1,16 +1,22 @@
 ---
-title: "WhatsApp에서 PDF 공유: 파일 대신 링크로 문서 전송"
-description: "WhatsApp에서 깔끔한 링크를 사용하여 PDF 문서를 공유하세요. 대용량 파일 첨부 대신 더 빠른 공유, 더 나은 모바일 경험, 전문적인 프레젠테이션을 제공합니다."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/send_pdf_link_on_instant_mesenger.png"
-tags: ["WhatsApp 공유", "PDF 링크", "모바일 공유", "인스턴트 메시징"]
+title: 'WhatsApp에서 PDF 공유: 파일 대신 링크로 문서 전송'
+description: >-
+  WhatsApp에서 깔끔한 링크를 사용하여 PDF 문서를 공유하세요. 대용량 파일 첨부 대신 더 빠른 공유, 더 나은 모바일 경험, 전문적인
+  프레젠테이션을 제공합니다.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - WhatsApp 공유
+  - PDF 링크
+  - 모바일 공유
+  - 인스턴트 메시징
 ---
 
 # WhatsApp에서 PDF 공유: 파일 대신 링크로 문서 전송
 
 WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송과 다운로드에 시간이 오래 걸립니다. MaiPDF는 더 나은 솔루션을 제공합니다 - PDF를 공유 가능한 링크로 변환하여 WhatsApp 대화에서 완벽하게 작동하며, 기다림 없이 즉시 액세스할 수 있습니다.
 
-![WhatsApp PDF 링크 공유](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![WhatsApp PDF 링크 공유](/maipdf2026/show_off/shareandsend.png)
 
 ## WhatsApp에서 링크가 파일보다 나은 이유
 
@@ -24,7 +30,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **전문적인 외관**: 깔끔한 링크가 비즈니스 대화에서 큰 파일 첨부보다 더 전문적으로 보입니다.
 
-![업로드 및 링크 생성](/maipdf-images/upload_section.png)
+![업로드 및 링크 생성](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 ## WhatsApp에서 PDF를 링크로 공유하는 방법
 
@@ -32,7 +38,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **2단계: 링크 복사** - 메시징에 완벽한 깔끔하고 전문적인 URL을 받습니다.
 
-![링크 생성 결과](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![링크 생성 결과](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 **3단계: WhatsApp에 붙여넣기** - 단순히 링크를 WhatsApp 대화에 붙여넣고 전송합니다.
 
@@ -48,7 +54,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **마케팅 자료**: WhatsApp 마케팅 캠페인을 통해 브로셔, 카탈로그 또는 홍보 내용을 배포.
 
-![전문적인 PDF 뷰어](/maipdf-images/pdf_native_view_on_ui.png)
+![전문적인 PDF 뷰어](/maipdf2026/Result_of_qr_link.png)
 
 ## 모바일 최적화된 보기 경험
 
@@ -72,7 +78,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **액세스 추적**: 공유된 문서가 언제, 얼마나 자주 보여지는지 모니터링.
 
-![설정 구성](/maipdf-images/security_setting.png)
+![설정 구성](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **시간 제한**: 시간에 민감한 정보에 만료 날짜 설정.
 
@@ -100,7 +106,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **크로스 플랫폼 호환성**: 수신자가 iPhone, Android 또는 WhatsApp Web을 사용하든 링크가 동일하게 작동.
 
-![전 세계 공유](/maipdf-images/share_pdf_wordwide.png)
+![전 세계 공유](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## WhatsApp에서의 개인정보보호 및 보안
 
@@ -112,7 +118,7 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **직접 제어**: 액세스를 취소해야 할 경우 언제든지 링크를 비활성화.
 
-![보안 설정](/maipdf-images/security_setting.png)
+![보안 설정](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 다양한 WhatsApp 사용 사례에 완벽
 
@@ -136,19 +142,19 @@ WhatsApp으로 문서를 공유하는 것은 쉽지만, 큰 PDF 파일은 전송
 
 **이벤트 공유**: WhatsApp 상태의 QR 코드를 통해 이벤트 프로그램, 일정 또는 정보를 공유.
 
-![QR 코드 생성](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![QR 코드 생성](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## WhatsApp PDF 공유 관리
 
 **실시간 분석**: WhatsApp 공유 문서가 언제 액세스되는지 확인.
 
-![액세스 추적](/maipdf-images/check_pdf_open_result.png)
+![액세스 추적](/maipdf2026/user_control_panel_alotof_functions.png)
 
 **설정 업데이트**: WhatsApp 대화에서 링크를 공유한 후에도 권한 변경.
 
 **사용량 모니터링**: 참여 수준을 추적하고 어떤 문서가 가장 인기 있는지 확인.
 
-![언제든지 설정 변경](/maipdf-images/pdf_change_setting_after_sent.png)
+![언제든지 설정 변경](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## WhatsApp PDF 공유 모범 사례
 

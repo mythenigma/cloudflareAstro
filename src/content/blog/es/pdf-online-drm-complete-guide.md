@@ -1,9 +1,18 @@
 ---
-title: "PDF DRM en Línea: Guía Completa de Gestión de Derechos Digitales PDF en Línea"
-description: "Aprenda sobre DRM PDF en línea (Gestión de Derechos Digitales). Guía completa que cubre la protección PDF en línea, control de acceso, límites de visualización, prevención de descargas y compartir PDF seguro. Proteja sus PDFs en línea con tecnología DRM."
-pubDate: "Dec 30 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF DRM en Línea", "DRM en Línea", "PDF DRM", "Gestión de Derechos Digitales", "Protección PDF"]
+title: 'PDF DRM en Línea: Guía Completa de Gestión de Derechos Digitales PDF en Línea'
+description: >-
+  Aprenda sobre DRM PDF en línea (Gestión de Derechos Digitales). Guía completa
+  que cubre la protección PDF en línea, control de acceso, límites de
+  visualización, prevención de descargas y compartir PDF seguro. Proteja sus
+  PDFs en línea con tecnología DRM.
+pubDate: Dec 30 2025
+heroImage: /maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg
+tags:
+  - PDF DRM en Línea
+  - DRM en Línea
+  - PDF DRM
+  - Gestión de Derechos Digitales
+  - Protección PDF
 ---
 
 # PDF DRM en Línea: Guía Completa de Gestión de Derechos Digitales PDF en Línea
@@ -12,7 +21,7 @@ tags: ["PDF DRM en Línea", "DRM en Línea", "PDF DRM", "Gestión de Derechos Di
   <p>¿Necesita proteger sus documentos PDF en línea? El <strong>DRM PDF en línea</strong> (Gestión de Derechos Digitales) le permite controlar el acceso, prevenir descargas, limitar visualizaciones y rastrear el uso de sus PDFs. Esta guía completa explica cómo funciona el DRM en línea, sus características y cómo implementar la protección DRM PDF en línea para sus documentos.</p>
 </div>
 
-![Configuración DRM PDF en Línea](/maipdf-images/security_setting.png)
+![Configuración DRM PDF en Línea](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 ## ¿Qué es el DRM PDF en Línea?
 

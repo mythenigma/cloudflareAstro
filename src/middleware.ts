@@ -22,9 +22,10 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     return next();
   }
 
-  const legacyTarget = BLOG_LEGACY_REDIRECTS[normalizedPath];
-  if (legacyTarget && legacyTarget !== normalizedPath) {
-    url.pathname = legacyTarget;
+  const redirectTarget = (BLOG_LEGACY_REDIRECTS as Record<string, string>)[normalizedPath];
+
+  if (redirectTarget && redirectTarget !== normalizedPath) {
+    url.pathname = redirectTarget;
     return Response.redirect(url.toString(), 301);
   }
 

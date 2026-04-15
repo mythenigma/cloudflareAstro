@@ -1,8 +1,14 @@
 ---
-title: "Partager un PDF facilement : une méthode propre par lien"
-description: "Un flux court pour partager un PDF via un lien (et le mettre à jour proprement)."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "pdf", "sharing"]
+title: 'Partager un PDF facilement : une méthode propre par lien'
+description: >-
+  Un flux court pour partager un PDF via un lien (et le mettre à jour
+  proprement).
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - pdf
+  - sharing
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 Partager un PDF ne devrait pas créer dix versions différentes dans des boîtes mail. Une approche plus simple est de **partager un lien**.

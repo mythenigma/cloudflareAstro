@@ -1,9 +1,15 @@
 ---
-title: "🔒 공유 PDF의 조회수 제한하기 – 방법 안내"
-description: "PDF 파일에 누가 접근할 수 있는지뿐만 아니라 몇 번이나 볼 수 있는지도 제어하는 방법을 민감한 콘텐츠를 안전하게 유지하는 실용적인 솔루션과 함께 알아보세요."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF 보안", "문서 공유", "조회수 제한", "콘텐츠 보호"]
+title: "\U0001F512 공유 PDF의 조회수 제한하기 – 방법 안내"
+description: >-
+  PDF 파일에 누가 접근할 수 있는지뿐만 아니라 몇 번이나 볼 수 있는지도 제어하는 방법을 민감한 콘텐츠를 안전하게 유지하는 실용적인
+  솔루션과 함께 알아보세요.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF 보안
+  - 문서 공유
+  - 조회수 제한
+  - 콘텐츠 보호
 ---
 
 PDF를 온라인으로 공유하는 것은 쉽습니다. 그러나 몇 번이나 볼 수 있는지 제어하는 것? 그것이 바로 과제입니다.
@@ -14,7 +20,7 @@ PDF를 온라인으로 공유하는 것은 쉽습니다. 그러나 몇 번이나
 
 ## 🎯 PDF 조회를 제한하는 이유는?
 
-![PDF 보안 설정](/maipdf-images/security_setting.png)
+![PDF 보안 설정](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 모든 PDF가 영원히 존재해야 하는 것은 아닙니다. 조회 제한이 유용한 경우:
 

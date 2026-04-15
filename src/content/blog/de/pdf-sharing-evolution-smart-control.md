@@ -1,9 +1,16 @@
 ---
-title: "PDF-Sharing-Evolution: Intelligente Kontrolle"
-description: "Erfahren Sie, wie sich PDF-Sharing entwickelt hat und wie intelligente Kontrolle funktioniert. Vollständiger Leitfaden zur PDF-Sharing-Evolution, intelligenter Kontrolle und modernen Features."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Evolution", "Intelligente Kontrolle", "Sharing"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF-Sharing-Evolution: Intelligente Kontrolle'
+description: >-
+  Erfahren Sie, wie sich PDF-Sharing entwickelt hat und wie intelligente
+  Kontrolle funktioniert. Vollständiger Leitfaden zur PDF-Sharing-Evolution,
+  intelligenter Kontrolle und modernen Features.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Evolution
+  - Intelligente Kontrolle
+  - Sharing
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # PDF-Sharing-Evolution: Intelligente Kontrolle
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>PDF-Sharing hat sich von einfachem Datei-Sharing zu intelligenten Kontrollsystemen entwickelt. Diese Anleitung zeigt Ihnen die Evolution des PDF-Sharings und wie intelligente Kontrolle funktioniert.</p>
 </div>
 
-![PDF-Sharing-Evolution](/diagram/en/features-overview.svg)
+![PDF-Sharing-Evolution](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🎯 Die Evolution des PDF-Sharings
 

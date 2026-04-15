@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF Guía de Generación H5: Guía Completa"
-description: "Aprenda cómo generar páginas H5 con MaiPDF. Guía completa sobre generación H5, páginas móviles y presentaciones PDF interactivas."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "MaiPDF", "H5", "Móvil"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'MaiPDF Guía de Generación H5: Guía Completa'
+description: >-
+  Aprenda cómo generar páginas H5 con MaiPDF. Guía completa sobre generación H5,
+  páginas móviles y presentaciones PDF interactivas.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - MaiPDF
+  - H5
+  - Móvil
+heroImage: /maipdf2026/show_off/en-offline-version.svg
 ---
 
 # MaiPDF Guía de Generación H5: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>La generación H5 con MaiPDF le permite crear páginas optimizadas para móviles a partir de PDFs. Esta guía le mostrará cómo generar páginas H5 y optimizarlas para dispositivos móviles.</p>
 </div>
 
-![Generación H5 MaiPDF](/diagram/en/features-overview.svg)
+![Generación H5 MaiPDF](/maipdf2026/show_off/en-offline-version.svg)
 
 ## 🎯 ¿Qué es la Generación H5?
 

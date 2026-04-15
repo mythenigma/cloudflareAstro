@@ -1,9 +1,16 @@
 ---
-title: "🔒 Bildungsressourcen mit eingeschränkten Zugriffskontrollen verteilen"
-description: "Erfahren Sie, wie Pädagogen Unterrichtsmaterialien sicher teilen können und gleichzeitig die Kontrolle darüber behalten, wer sie einsieht, wie oft und wie lange."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Bildung", "Unterrichtsmaterialien", "Dokumentensicherheit", "Digitale Bildung"]
+title: "\U0001F512 Bildungsressourcen mit eingeschränkten Zugriffskontrollen verteilen"
+description: >-
+  Erfahren Sie, wie Pädagogen Unterrichtsmaterialien sicher teilen können und
+  gleichzeitig die Kontrolle darüber behalten, wer sie einsieht, wie oft und wie
+  lange.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - Bildung
+  - Unterrichtsmaterialien
+  - Dokumentensicherheit
+  - Digitale Bildung
 ---
 
 # 🔒 Bildungsressourcen mit eingeschränkten Zugriffskontrollen verteilen
@@ -14,7 +21,7 @@ tags: ["Bildung", "Unterrichtsmaterialien", "Dokumentensicherheit", "Digitale Bi
   <p>Es gibt einen besseren Weg, Ihre wertvollen Inhalte zu verteilen und gleichzeitig die Kontrolle zu behalten.</p>
 </div>
 
-![Sicherheitskontrollen für Bildungsinhalte](/maipdf-images/security_level_in_pdf_setting.png)
+![Sicherheitskontrollen für Bildungsinhalte](/maipdf2026/show_off/securityshowoff.png)
 
 ## 📚 Warum traditionelle Verteilungsmethoden zu kurz greifen
 
@@ -27,7 +34,7 @@ Aktuelle Ansätze zum Teilen von Bildungsmaterialien opfern oft Sicherheit für 
 
 Das Ergebnis? Ihre sorgfältig erstellten Materialien können sich weit über Ihr beabsichtigtes Publikum hinaus verbreiten, was ihren Wert und Ihre Kontrolle mindert.
 
-![Probleme beim traditionellen Teilen](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Probleme beim traditionellen Teilen](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ## 🔐 Kontrollierter Zugriff: Der moderne Ansatz zur Inhaltsverteilung
 
@@ -41,7 +48,7 @@ Bildungsinhalte verdienen Schutz. Mit zugriffskontrolliertem Teilen können Sie:
 
 Dies bewahrt die Integrität Ihrer Arbeit und erfüllt gleichzeitig Ihren Bildungsauftrag.
 
-![Sicherheitseinstellungen für Bildungsmaterialien](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungen für Bildungsmaterialien](/maipdf2026/show_off/shareandsend.png)
 
 ## 📝 Praxisanwendungen
 
@@ -60,7 +67,7 @@ Dies bewahrt die Integrität Ihrer Arbeit und erfüllt gleichzeitig Ihren Bildun
 - Verfolgen Sie die Nutzung von Pflichtlektüre
 - Stellen Sie sicher, dass unternehmenssensible Informationen in den beabsichtigten Abteilungen bleiben
 
-![PDF-Verteilung weltweit](/maipdf-images/share_pdf_wordwide.png)
+![PDF-Verteilung weltweit](/maipdf2026/show_off/shareandsend.png)
 
 ## 🔍 Wie es funktioniert
 
@@ -77,7 +84,7 @@ Mit spezialisierten Plattformen wie MaiPDF ist der Prozess unkompliziert:
 
 Studenten klicken einfach auf den Link und sehen das Dokument in ihrem Browser – keine Downloads, keine Konten erforderlich.
 
-![Upload-Prozess](/maipdf-images/upload_section.png)
+![Upload-Prozess](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 📊 Messbare Vorteile
 
@@ -91,7 +98,7 @@ Pädagogen, die kontrolliertes Dokumenten-Sharing implementieren, berichten:
 
 Am wichtigsten ist, dass Sie die Kontrolle über Ihr geistiges Eigentum zurückgewinnen.
 
-![Ansichtsergebnisse](/maipdf-images/check_pdf_open_result.png)
+![Ansichtsergebnisse](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## 🔄 Flexibilität bewahren
 
@@ -104,7 +111,7 @@ Ein wichtiger Vorteil des zugriffskontrollierten Teilens ist die Möglichkeit, a
 
 Diese Flexibilität behält Ihnen die Kontrolle während des gesamten Bildungsprozesses.
 
-![PDF-Einstellungen nach dem Teilen](/maipdf-images/pdf_change_setting_after_sent.png)
+![PDF-Einstellungen nach dem Teilen](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ## 💡 Abschließende Gedanken
 

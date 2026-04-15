@@ -1,8 +1,10 @@
 ---
-title: "Kurzguide: Maiimg Quick Image Sharing Guide"
-description: "Ein kurzer Artikel zu maiimg quick image sharing guide – mit Diagramm."
-pubDate: "Jan 15 2026"
-tags: ["Image Sharing"]
+title: 'Kurzguide: Maiimg Quick Image Sharing Guide'
+description: Ein kurzer Artikel zu maiimg quick image sharing guide – mit Diagramm.
+pubDate: Jan 15 2026
+tags:
+  - Image Sharing
+heroImage: /maiimg/maiimg-head.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

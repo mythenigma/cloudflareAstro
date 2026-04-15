@@ -1,9 +1,16 @@
 ---
-title: "Mejores Prácticas de Seguridad para Compartir PDF en Línea"
-description: "Aprenda las mejores prácticas de seguridad para compartir documentos PDF en línea. Guía completa sobre protección de documentos, control de acceso y seguridad."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Seguridad", "Mejores Prácticas", "Protección"]
-heroImage: "/diagram/en/security-architecture.svg"
+title: Mejores Prácticas de Seguridad para Compartir PDF en Línea
+description: >-
+  Aprenda las mejores prácticas de seguridad para compartir documentos PDF en
+  línea. Guía completa sobre protección de documentos, control de acceso y
+  seguridad.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Seguridad
+  - Mejores Prácticas
+  - Protección
+heroImage: /maipdf2026/choose_online_for_sharing_online.png
 ---
 
 # Mejores Prácticas de Seguridad para Compartir PDF en Línea
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/security-architecture.svg"
   <p>Compartir documentos PDF en línea de forma segura requiere seguir las mejores prácticas de seguridad. Esta guía completa le enseñará cómo proteger sus documentos, controlar el acceso y mantener la seguridad durante todo el proceso de compartir.</p>
 </div>
 
-![Arquitectura de Seguridad](/diagram/en/security-architecture.svg)
+![Arquitectura de Seguridad](/maipdf2026/choose_online_for_sharing_online.png)
 
 ## 🎯 Principios Fundamentales de Seguridad
 

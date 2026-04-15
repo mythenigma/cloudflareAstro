@@ -1,9 +1,16 @@
 ---
-title: "Compartir PDF en WhatsApp: Usar Enlaces en Lugar de Archivos"
-description: "Comparta documentos PDF en WhatsApp con enlaces limpios en lugar de enviar archivos grandes. Experiencia de intercambio más rápida, mejor acceso móvil, presentación profesional."
-pubDate: "Jan 17 2026"
-heroImage: "/maifle/网址.png"
-tags: ["PDF", "WhatsApp", "Compartir", "Móvil"]
+title: 'Compartir PDF en WhatsApp: Usar Enlaces en Lugar de Archivos'
+description: >-
+  Comparta documentos PDF en WhatsApp con enlaces limpios en lugar de enviar
+  archivos grandes. Experiencia de intercambio más rápida, mejor acceso móvil,
+  presentación profesional.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF
+  - WhatsApp
+  - Compartir
+  - Móvil
 ---
 
 # Compartir PDF en WhatsApp: Usar Enlaces en Lugar de Archivos
@@ -12,7 +19,7 @@ tags: ["PDF", "WhatsApp", "Compartir", "Móvil"]
   <p>Aunque WhatsApp puede compartir documentos, el envío y descarga de archivos PDF grandes es lento. MaiPDF ofrece una mejor solución: convertir PDFs en enlaces compartibles que funcionan perfectamente en conversaciones de WhatsApp, proporcionando acceso instantáneo sin esperas.</p>
 </div>
 
-![Compartir Enlace PDF WhatsApp](/maifle/网址.png)
+![Compartir Enlace PDF WhatsApp](/maipdf2026/show_off/shareandsend.png)
 
 ## Por Qué los Enlaces son Mejores que los Archivos en WhatsApp
 
@@ -37,7 +44,7 @@ tags: ["PDF", "WhatsApp", "Compartir", "Móvil"]
 
 ## Cómo Compartir PDFs con Enlaces en WhatsApp
 
-![Interfaz de Carga](/maifle/maipdf_upload_pdf_cn.png)
+![Interfaz de Carga](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 ### Paso 1: Subir el PDF
 
@@ -47,7 +54,7 @@ Visite [MaiPDF.com](https://maipdf.com) y suba su documento. El procesamiento so
 
 Obtenga una URL limpia y profesional, perfecta para mensajería.
 
-![Resultado de Generación de Enlace](/maifle/maipdf_link_result.png)
+![Resultado de Generación de Enlace](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ### Paso 3: Pegar en WhatsApp
 
@@ -80,7 +87,7 @@ Amigos, familia o colegas pueden acceder al documento instantáneamente.
 
 ## Experiencia de Visualización Optimizada para Móvil
 
-![Visor PDF Profesional](/maifle/展示PDF列子.png)
+![Visor PDF Profesional](/maipdf2026/Result_of_qr_link.png)
 
 Cuando los destinatarios hacen clic en su enlace PDF de WhatsApp, obtienen una experiencia de visualización optimizada para móvil:
 
@@ -92,7 +99,7 @@ Cuando los destinatarios hacen clic en su enlace PDF de WhatsApp, obtienen una e
 
 ## Controlar lo que los Destinatarios Pueden Hacer
 
-![Configuración de Ajustes](/maifle/setting_example.png)
+![Configuración de Ajustes](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 <div class="control-features">
   <div class="control-item">

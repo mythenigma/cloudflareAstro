@@ -1,8 +1,12 @@
 ---
-title: "Guide rapide : Secure Private Image Sharing Client Delivery"
-description: "Un article court sur secure private image sharing client delivery, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["Image Sharing"]
+title: 'Guide rapide : Secure Private Image Sharing Client Delivery'
+description: >-
+  Un article court sur secure private image sharing client delivery, avec un
+  schéma.
+pubDate: Jan 15 2026
+tags:
+  - Image Sharing
+heroImage: /maiimg/maiimg-head.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->
@@ -14,7 +18,7 @@ tags: ["Image Sharing"]
   <p>Un article court sur secure private image sharing client delivery, avec un schéma.</p>
 </div>
 
-![Diagram](/diagram/en/bulk-image-gallery-workflow.svg)
+![Diagram](/maiimg/maiimg-head.png)
 
 ## Points clés
 - De quoi il s'agit : un aperçu rapide du sujet.

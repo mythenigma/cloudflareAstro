@@ -1,9 +1,17 @@
 ---
-title: "Steigern Sie Ihre Produktivität mit diesen 10 kostenlosen PDF-Tools"
-description: "Entdecken Sie die besten kostenlosen PDF-Tools für einfache Bearbeitung, Konvertierung, Zusammenführung, Komprimierung und mehr. Erledigen Sie alles ohne Abonnements oder Installationen."
-pubDate: "May 15 2025"
-heroImage: "/maipdf-images/pdf_native_view_on_ui.png"
-tags: ["Kostenlose PDF-Tools", "PDF-Bearbeitung", "PDF-Konvertierung", "Online-PDF", "Dokumentenverwaltung"]
+title: Steigern Sie Ihre Produktivität mit diesen 10 kostenlosen PDF-Tools
+description: >-
+  Entdecken Sie die besten kostenlosen PDF-Tools für einfache Bearbeitung,
+  Konvertierung, Zusammenführung, Komprimierung und mehr. Erledigen Sie alles
+  ohne Abonnements oder Installationen.
+pubDate: May 15 2025
+heroImage: /maipdf2026/en-upload-screenshot.png
+tags:
+  - Kostenlose PDF-Tools
+  - PDF-Bearbeitung
+  - PDF-Konvertierung
+  - Online-PDF
+  - Dokumentenverwaltung
 ---
 
 # Steigern Sie Ihre Produktivität mit diesen 10 kostenlosen PDF-Tools
@@ -18,7 +26,7 @@ Lassen Sie uns 10 der besten kostenlosen Tools erkunden, die Ihnen helfen könne
 
 ## 1. MaiPDF – Sicheres PDF-Sharing-Tool
 
-![Sichere PDF-Sharing-Optionen](/maipdf-images/security_setting.png)
+![Sichere PDF-Sharing-Optionen](/maipdf2026/show_off/show_off_page.png)
 
 **Hauptfunktionen:**
 - Sicheres Senden und Verfolgen von PDF-Dateien
@@ -76,7 +84,7 @@ iLovePDF zeichnet sich durch seine nahtlose plattformübergreifende Funktionalit
 
 ## 5. DocFly – Rich-Text-PDF-Bearbeitung
 
-![Online-PDF-Bearbeitung](/maipdf-images/pdf_native_view_on_ui.png)
+![Online-PDF-Bearbeitung](/maipdf2026/en-upload-screenshot.png)
 
 **Hauptfunktionen:**
 - Direktes Bearbeiten von PDF-Text im Browser

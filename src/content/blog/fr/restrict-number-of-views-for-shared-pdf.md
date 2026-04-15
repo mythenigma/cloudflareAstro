@@ -1,9 +1,16 @@
 ---
-title: "🔒 Limiter le Nombre de Vues d'un PDF Partagé – Voici Comment"
-description: "Apprenez à contrôler non seulement qui peut accéder à vos fichiers PDF, mais aussi combien de fois ils peuvent être consultés, avec des solutions pratiques qui protègent votre contenu sensible."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Sécurité PDF", "Partage de Documents", "Limites de Vues", "Protection de Contenu"]
+title: "\U0001F512 Limiter le Nombre de Vues d'un PDF Partagé – Voici Comment"
+description: >-
+  Apprenez à contrôler non seulement qui peut accéder à vos fichiers PDF, mais
+  aussi combien de fois ils peuvent être consultés, avec des solutions pratiques
+  qui protègent votre contenu sensible.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - Sécurité PDF
+  - Partage de Documents
+  - Limites de Vues
+  - Protection de Contenu
 ---
 
 Partager un PDF en ligne est facile. Contrôler combien de fois il peut être consulté ? C'est là le défi.
@@ -14,7 +21,7 @@ Voici une explication simple des raisons pour lesquelles vous pourriez vouloir r
 
 ## 🎯 Pourquoi Limiter les Vues PDF ?
 
-![Paramètres de sécurité PDF](/maipdf-images/security_setting.png)
+![Paramètres de sécurité PDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 Tous les PDF ne devraient pas exister éternellement. Limiter les vues est utile quand :
 

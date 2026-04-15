@@ -1,9 +1,16 @@
 ---
-title: "Tutorial: Convertir PDF en Enlace Compartible en 3 Pasos"
-description: "Aprenda cómo convertir cualquier PDF en un enlace seguro y compartible en solo 3 pasos. Sin descargas, sin registro requerido - solo suba, genere y comparta instantáneamente con MaiPDF."
-pubDate: "Jan 17 2026"
-heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
-tags: ["PDF", "Tutorial", "Enlaces", "Compartir"]
+title: 'Tutorial: Convertir PDF en Enlace Compartible en 3 Pasos'
+description: >-
+  Aprenda cómo convertir cualquier PDF en un enlace seguro y compartible en solo
+  3 pasos. Sin descargas, sin registro requerido - solo suba, genere y comparta
+  instantáneamente con MaiPDF.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF
+  - Tutorial
+  - Enlaces
+  - Compartir
 ---
 
 # Tutorial: Convertir PDF en Enlace Compartible en 3 Pasos
@@ -12,7 +19,7 @@ tags: ["PDF", "Tutorial", "Enlaces", "Compartir"]
   <p>¿Cansado de archivos adjuntos de correo que rebotan debido a límites de tamaño? ¿Frustrado con el almacenamiento en la nube que requiere que todos creen cuentas? <strong>MaiPDF</strong> resuelve estos problemas convirtiendo cualquier PDF en un enlace seguro y compartible en solo 3 pasos simples.</p>
 </div>
 
-![Interfaz Principal MaiPDF](/2025MayMaiPDF/Home_Landing.png)
+![Interfaz Principal MaiPDF](/maipdf2026/show_off/shareandsend.png)
 
 ## 🚀 Por Qué los Enlaces PDF Cambian las Reglas del Juego
 
@@ -29,7 +36,7 @@ tags: ["PDF", "Tutorial", "Enlaces", "Compartir"]
 
 ### Paso 1: Suba Su PDF
 
-![Interfaz de Carga](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Interfaz de Carga](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 **Qué sucede**: Arrastre y suelte su archivo PDF (hasta 100MB) o haga clic para explorar
 
@@ -45,7 +52,7 @@ tags: ["PDF", "Tutorial", "Enlaces", "Compartir"]
 
 ### Paso 2: Genere Su Enlace
 
-![Generación de Enlace](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Generación de Enlace](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 **Qué sucede**: MaiPDF procesa su archivo y crea un enlace de visualización seguro
 
@@ -86,7 +93,7 @@ tags: ["PDF", "Tutorial", "Enlaces", "Compartir"]
 
 ## 🔐 Configuración de Seguridad Opcional
 
-![Configuración de Seguridad](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Configuración de Seguridad](/maipdf2026/flowchart/en-document-replace-flow.svg)
 
 Puede personalizar la seguridad de su enlace:
 

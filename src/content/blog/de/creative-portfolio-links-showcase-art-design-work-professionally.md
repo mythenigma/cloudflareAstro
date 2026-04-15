@@ -1,9 +1,20 @@
 ---
-title: "Kreative Portfolio-Links: Präsentieren Sie Ihre Kunst- und Design-Arbeit Professionell"
-description: "Erfahren Sie, wie Sie atemberaubende kreative Portfolio-Links erstellen, die Ihre Kunst- und Design-Arbeit professionell präsentieren. Perfekt für Künstler, Designer und kreative Profis, die Kunden und Galerien beeindrucken möchten."
-pubDate: "Aug 25 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["Kreatives Portfolio", "Kunstportfolio", "Design-Präsentation", "Kreative Profis", "Künstlerische Arbeit"]
+title: >-
+  Kreative Portfolio-Links: Präsentieren Sie Ihre Kunst- und Design-Arbeit
+  Professionell
+description: >-
+  Erfahren Sie, wie Sie atemberaubende kreative Portfolio-Links erstellen, die
+  Ihre Kunst- und Design-Arbeit professionell präsentieren. Perfekt für
+  Künstler, Designer und kreative Profis, die Kunden und Galerien beeindrucken
+  möchten.
+pubDate: Aug 25 2025
+heroImage: /maiimg/static-images/common/show/english-portfolio-preview.svg
+tags:
+  - Kreatives Portfolio
+  - Kunstportfolio
+  - Design-Präsentation
+  - Kreative Profis
+  - Künstlerische Arbeit
 ---
 
 # Kreative Portfolio-Links: Präsentieren Sie Ihre Kunst- und Design-Arbeit Professionell

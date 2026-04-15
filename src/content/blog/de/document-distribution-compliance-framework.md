@@ -1,8 +1,16 @@
 ---
-title: "Compliance bei der Dokumentverteilung: Eine Checkliste, die wirklich hilft"
-description: "Eine einfache Compliance-Checkliste für Dokumentlinks: Identität, Limits, Audit-Logs und Governance."
-pubDate: "Jan 15 2026"
-tags: ["Compliance", "Audit-Logs", "Sicherheit", "Zugriffskontrolle", "Governance"]
+title: 'Compliance bei der Dokumentverteilung: Eine Checkliste, die wirklich hilft'
+description: >-
+  Eine einfache Compliance-Checkliste für Dokumentlinks: Identität, Limits,
+  Audit-Logs und Governance.
+pubDate: Jan 15 2026
+tags:
+  - Compliance
+  - Audit-Logs
+  - Sicherheit
+  - Zugriffskontrolle
+  - Governance
+heroImage: /maipdf2026/page_redirect_to_accessRecord.png
 ---
 
 # Compliance bei der Dokumentverteilung: Eine Checkliste, die wirklich hilft

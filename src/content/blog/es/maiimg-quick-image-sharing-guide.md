@@ -1,9 +1,15 @@
 ---
-title: "MaiImg Guía Rápida de Compartir Imágenes: Guía Completa"
-description: "Aprenda cómo compartir imágenes rápidamente con MaiImg. Guía completa sobre compartir imágenes rápido, generación de enlaces y códigos QR."
-pubDate: "Jan 17 2026"
-tags: ["Imágenes", "MaiImg", "Rápido", "Compartir"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'MaiImg Guía Rápida de Compartir Imágenes: Guía Completa'
+description: >-
+  Aprenda cómo compartir imágenes rápidamente con MaiImg. Guía completa sobre
+  compartir imágenes rápido, generación de enlaces y códigos QR.
+pubDate: Jan 17 2026
+tags:
+  - Imágenes
+  - MaiImg
+  - Rápido
+  - Compartir
+heroImage: /maiimg/maiimg-head.png
 ---
 
 # MaiImg Guía Rápida de Compartir Imágenes: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>La guía rápida de compartir imágenes con MaiImg le muestra cómo compartir imágenes de forma rápida y eficiente. Esta guía completa cubre el proceso rápido de compartir imágenes y mejores prácticas.</p>
 </div>
 
-![Compartir Imágenes Rápido](/diagram/en/features-overview.svg)
+![Compartir Imágenes Rápido](/maiimg/maiimg-head.png)
 
 ## 🎯 Compartir Rápido
 

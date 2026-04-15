@@ -1,8 +1,15 @@
 ---
-title: "Compartir PDF online vs offline: comparación práctica"
-description: "Cuándo conviene un enlace online y cuándo conviene un paquete offline (ZIP/HTML). Incluye un flujo de decisión y ejemplos."
-pubDate: "Jan 26 2026"
-tags: ["PDF", "Offline", "Online", "Comparación"]
+title: 'Compartir PDF online vs offline: comparación práctica'
+description: >-
+  Cuándo conviene un enlace online y cuándo conviene un paquete offline
+  (ZIP/HTML). Incluye un flujo de decisión y ejemplos.
+pubDate: Jan 26 2026
+tags:
+  - PDF
+  - Offline
+  - Online
+  - Comparación
+heroImage: /offlinepages/offline-MaiPDF-Home-Page.png
 ---
 
 No existe una sola “mejor” forma de compartir un PDF. Depende de **conectividad**, **control** y **experiencia del lector**.

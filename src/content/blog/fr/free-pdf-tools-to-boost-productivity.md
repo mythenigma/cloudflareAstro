@@ -1,9 +1,17 @@
 ---
-title: "Boostez votre productivité avec ces 10 outils PDF gratuits"
-description: "Découvrez les meilleurs outils PDF gratuits pour l'édition simple, la conversion, la fusion, la compression et plus. Accomplissez tout sans abonnements ni installations."
-pubDate: "May 15 2025"
-heroImage: "/maipdf-images/pdf_native_view_on_ui.png"
-tags: ["Outils PDF gratuits", "Édition PDF", "Conversion PDF", "PDF en ligne", "Gestion de documents"]
+title: Boostez votre productivité avec ces 10 outils PDF gratuits
+description: >-
+  Découvrez les meilleurs outils PDF gratuits pour l'édition simple, la
+  conversion, la fusion, la compression et plus. Accomplissez tout sans
+  abonnements ni installations.
+pubDate: May 15 2025
+heroImage: /maipdf2026/en-upload-screenshot.png
+tags:
+  - Outils PDF gratuits
+  - Édition PDF
+  - Conversion PDF
+  - PDF en ligne
+  - Gestion de documents
 ---
 
 # Boostez votre productivité avec ces 10 outils PDF gratuits
@@ -18,7 +26,7 @@ Explorons 10 des meilleurs outils gratuits qui peuvent vous aider à optimiser v
 
 ## 1. MaiPDF – Outil de partage sécurisé de PDF
 
-![Options de partage sécurisé de PDF](/maipdf-images/security_setting.png)
+![Options de partage sécurisé de PDF](/maipdf2026/show_off/show_off_page.png)
 
 **Caractéristiques principales:**
 - Envoi et suivi sécurisés des fichiers PDF
@@ -76,7 +84,7 @@ iLovePDF se distingue par sa fonctionnalité multiplateforme sans faille. Que vo
 
 ## 5. DocFly – Édition PDF avec texte enrichi
 
-![Édition PDF en ligne](/maipdf-images/pdf_native_view_on_ui.png)
+![Édition PDF en ligne](/maipdf2026/en-upload-screenshot.png)
 
 **Caractéristiques principales:**
 - Édition directe du texte PDF dans le navigateur

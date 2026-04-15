@@ -1,9 +1,14 @@
 ---
-title: "PDFダウンロードを防ぐ：閲覧のみの完全ガイド"
-description: "PDFダウンロードを防ぐ方法を学びます。完全ガイドで、ダウンロード無効化、閲覧のみモード、文書保護をカバーします。"
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDFダウンロード防止", "閲覧のみ", "アクセス制御", "文書保護", "PDF保護"]
+title: PDFダウンロードを防ぐ：閲覧のみの完全ガイド
+description: PDFダウンロードを防ぐ方法を学びます。完全ガイドで、ダウンロード無効化、閲覧のみモード、文書保護をカバーします。
+pubDate: May 29 2025
+heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
+tags:
+  - PDFダウンロード防止
+  - 閲覧のみ
+  - アクセス制御
+  - 文書保護
+  - PDF保護
 ---
 
 # PDFダウンロードを防ぐ：閲覧のみの完全ガイド
@@ -12,7 +17,7 @@ tags: ["PDFダウンロード防止", "閲覧のみ", "アクセス制御", "文
   <p>PDFダウンロードを防ぐことは、文書保護の重要な側面です。 <strong>PDFダウンロード防止</strong>は、PDFダウンロードを防ぐための包括的なソリューションを提供します。</p>
 </div>
 
-![セキュリティ設定インターフェース](/maipdf-images/security_setting.png)
+![セキュリティ設定インターフェース](/maipdf2026/show_off/pdf icon of no printing no downloading.png)
 
 ## PDFダウンロードを防ぐとは何か？
 

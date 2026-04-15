@@ -1,8 +1,15 @@
 ---
-title: "View-Limits und Ablaufdatum: einfache Controls gegen Oversharing"
-description: "Zwei einfache Controls — View-Limits und Ablaufdatum — senken das Risiko von überteilten Dokumentlinks deutlich."
-pubDate: "Jan 15 2026"
-tags: ["Zugriffskontrolle", "View-Limits", "Ablaufdatum", "Dokumentenfreigabe"]
+title: 'View-Limits und Ablaufdatum: einfache Controls gegen Oversharing'
+description: >-
+  Zwei einfache Controls — View-Limits und Ablaufdatum — senken das Risiko von
+  überteilten Dokumentlinks deutlich.
+pubDate: Jan 15 2026
+tags:
+  - Zugriffskontrolle
+  - View-Limits
+  - Ablaufdatum
+  - Dokumentenfreigabe
+heroImage: /maipdf2026/show_off/openlimit.png
 ---
 
 # View-Limits und Ablaufdatum: einfache Controls gegen Oversharing

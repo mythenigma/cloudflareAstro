@@ -1,9 +1,12 @@
 ---
-title: "Mode MaiPDF Offline PDF DRM : Contrôle Sécurisé des Documents en Environnements Hors Ligne (Removed)"
-description: "This page has been removed and is no longer publicly available."
-pubDate: "Jan 17 2026"
+title: >-
+  Mode MaiPDF Offline PDF DRM : Contrôle Sécurisé des Documents en
+  Environnements Hors Ligne (Removed)
+description: This page has been removed and is no longer publicly available.
+pubDate: Jan 17 2026
 noindex: true
 showDefaultCta: false
+heroImage: /offlinepages/offline-MaiPDF-Home-Page.png
 ---
 
 # 404 - Page Removed

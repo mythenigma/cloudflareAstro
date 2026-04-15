@@ -1,9 +1,15 @@
 ---
-title: "Compartir PDF Fácilmente: Guía Simple para Principiantes"
-description: "Aprenda a compartir PDFs de la forma más fácil posible. Sin complicaciones, sin registro, solo suba y comparta en segundos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Fácil", "Compartir", "Principiantes"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Compartir PDF Fácilmente: Guía Simple para Principiantes'
+description: >-
+  Aprenda a compartir PDFs de la forma más fácil posible. Sin complicaciones,
+  sin registro, solo suba y comparta en segundos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Fácil
+  - Compartir
+  - Principiantes
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # Compartir PDF Fácilmente: Guía Simple para Principiantes
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Compartir PDFs no tiene que ser complicado. Con las herramientas modernas, puede compartir documentos PDF de forma increíblemente fácil, sin registro, sin configuración complicada, solo suba y comparta en segundos.</p>
 </div>
 
-![Compartir PDF Fácilmente](/diagram/en/features-overview.svg)
+![Compartir PDF Fácilmente](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🎯 ¿Qué Hace que el Compartir PDF sea Fácil?
 

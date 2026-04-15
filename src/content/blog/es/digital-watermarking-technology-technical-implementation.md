@@ -1,9 +1,17 @@
 ---
-title: "Tecnología de Filigranas Digitales: Cómo Funciona Realmente la Protección PDF"
-description: "Explore los aspectos técnicos de las filigranas PDF, desde métodos de implementación hasta la efectividad en la prevención del compartir no autorizado de documentos."
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/check_water_mark_information.png"
-tags: ["Filigranas PDF", "Seguridad de Documentos", "Implementación Técnica", "DRM", "Protección de Información"]
+title: 'Tecnología de Filigranas Digitales: Cómo Funciona Realmente la Protección PDF'
+description: >-
+  Explore los aspectos técnicos de las filigranas PDF, desde métodos de
+  implementación hasta la efectividad en la prevención del compartir no
+  autorizado de documentos.
+pubDate: May 29 2025
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+tags:
+  - Filigranas PDF
+  - Seguridad de Documentos
+  - Implementación Técnica
+  - DRM
+  - Protección de Información
 ---
 
 # Tecnología de Filigranas Digitales: Cómo Funciona Realmente la Protección PDF
@@ -13,7 +21,7 @@ tags: ["Filigranas PDF", "Seguridad de Documentos", "Implementación Técnica", 
   <p>Esta guía examina las implementaciones técnicas que hacen posible y efectiva la filigranación segura de documentos.</p>
 </div>
 
-![Interfaz de Verificación de Filigrana](/maipdf-images/check_water_mark_information.png)
+![Interfaz de Verificación de Filigrana](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## La Base Técnica de las Filigranas PDF
 

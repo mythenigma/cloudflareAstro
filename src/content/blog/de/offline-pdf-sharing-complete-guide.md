@@ -1,9 +1,15 @@
 ---
-title: "Vollständiger Leitfaden: Offline-PDF-Sharing"
-description: "Erfahren Sie, wie Sie PDFs ohne Internetverbindung teilen. Vollständiger Leitfaden zum Offline-PDF-Sharing, Dokumenten-Download und Offline-Zugriff."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Offline", "Sharing", "Ohne Verbindung"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Vollständiger Leitfaden: Offline-PDF-Sharing'
+description: >-
+  Erfahren Sie, wie Sie PDFs ohne Internetverbindung teilen. Vollständiger
+  Leitfaden zum Offline-PDF-Sharing, Dokumenten-Download und Offline-Zugriff.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Offline
+  - Sharing
+  - Ohne Verbindung
+heroImage: /maipdf2026/show_off/en-offline-version.svg
 ---
 
 # Vollständiger Leitfaden: Offline-PDF-Sharing
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Teilen von PDFs ohne Internetverbindung ist mit MaiPDF möglich. Diese Anleitung zeigt Ihnen, wie Sie PDF-Dokumente für Offline-Zugriff vorbereiten und teilen, sodass Empfänger auch ohne Internetverbindung auf Dokumente zugreifen können.</p>
 </div>
 
-![Offline-PDF-Sharing](/diagram/en/features-overview.svg)
+![Offline-PDF-Sharing](/maipdf2026/show_off/en-offline-version.svg)
 
 ## 🎯 Was ist Offline-PDF-Sharing?
 

@@ -1,8 +1,15 @@
 ---
-title: "Vérification par e-mail pour l’accès à un PDF (flux rapide)"
-description: "Une explication visuelle et courte : exiger une vérification e-mail avant d’ouvrir un lien PDF."
-pubDate: "Jan 15 2026"
-tags: ["Sécurité PDF", "Contrôle d'accès", "Vérification e-mail", "Guide visuel"]
+title: Vérification par e-mail pour l’accès à un PDF (flux rapide)
+description: >-
+  Une explication visuelle et courte : exiger une vérification e-mail avant
+  d’ouvrir un lien PDF.
+pubDate: Jan 15 2026
+tags:
+  - Sécurité PDF
+  - Contrôle d'accès
+  - Vérification e-mail
+  - Guide visuel
+heroImage: /maipdf2026/show_off/email verification_only sepcified people can receive.png
 ---
 
 # Vérification par e-mail pour l’accès à un PDF (flux rapide)

@@ -1,9 +1,16 @@
 ---
-title: "⏱️ Versenden Sie Kundenangebote, die nach dem Betrachten ablaufen"
-description: "Kontrollieren Sie, wie lange Ihr Angebot besteht – auch nachdem Sie es abgeschickt haben. Erfahren Sie, wie Sie Geschäftsangebote mit intelligenten Ablauffristen für bessere Kontrolle und Professionalität teilen können."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Kundenangebote", "Dokumentensicherheit", "Geschäftstools", "Professionelle Tipps"]
+title: '⏱️ Versenden Sie Kundenangebote, die nach dem Betrachten ablaufen'
+description: >-
+  Kontrollieren Sie, wie lange Ihr Angebot besteht – auch nachdem Sie es
+  abgeschickt haben. Erfahren Sie, wie Sie Geschäftsangebote mit intelligenten
+  Ablauffristen für bessere Kontrolle und Professionalität teilen können.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Kundenangebote
+  - Dokumentensicherheit
+  - Geschäftstools
+  - Professionelle Tipps
 ---
 
 # ⏱️ Versenden Sie Kundenangebote, die nach dem Betrachten ablaufen
@@ -41,7 +48,7 @@ Anstatt eine statische Datei zu senden, können Sie Ihr Angebot jetzt über eine
 
 Das Ergebnis? Eine intelligentere, sauberere Art, Angebote zu teilen, die Ihnen die Kontrolle zurückgibt – ohne Professionalität zu opfern.
 
-![Sicherheitseinstellungen](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungen](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 👀 Anwendungsfall: Eine bessere Kundenerfahrung
 

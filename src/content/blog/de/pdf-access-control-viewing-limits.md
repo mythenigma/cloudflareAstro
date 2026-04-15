@@ -1,9 +1,16 @@
 ---
-title: "PDF-Zugriffskontrolle mit Ansichtslimits: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie den Zugriff auf PDFs mit Ansichtslimits kontrollieren. Vollständiger Leitfaden zur Zugriffskontrolle, Ansichtslimits und Dokumentenschutz."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Zugriffskontrolle", "Limits", "Schutz"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF-Zugriffskontrolle mit Ansichtslimits: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie den Zugriff auf PDFs mit Ansichtslimits kontrollieren.
+  Vollständiger Leitfaden zur Zugriffskontrolle, Ansichtslimits und
+  Dokumentenschutz.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Zugriffskontrolle
+  - Limits
+  - Schutz
+heroImage: /maipdf2026/how_to_control_panel.png
 ---
 
 # PDF-Zugriffskontrolle mit Ansichtslimits: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Die PDF-Zugriffskontrolle mit Ansichtslimits ermöglicht es Ihnen, genau zu kontrollieren, wie oft ein Dokument angesehen werden kann. Diese Funktion ist wichtig, um sensible Dokumente zu schützen und den Zugriff zu kontrollieren.</p>
 </div>
 
-![PDF-Zugriffskontrolle](/diagram/en/features-overview.svg)
+![PDF-Zugriffskontrolle](/maipdf2026/how_to_control_panel.png)
 
 ## 🎯 Was sind Ansichtslimits?
 

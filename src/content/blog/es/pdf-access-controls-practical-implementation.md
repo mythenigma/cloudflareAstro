@@ -1,9 +1,17 @@
 ---
-title: "🔒 Controles de Acceso PDF: Implementación Práctica para Seguridad de Documentos"
-description: "Explore cómo implementar efectivamente controles de acceso PDF para proteger información sensible mientras mantiene la usabilidad para destinatarios autorizados."
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Seguridad PDF", "Control de Acceso", "Protección de Documentos", "Límites de Visualización", "Expiración de Documentos"]
+title: "\U0001F512 Controles de Acceso PDF: Implementación Práctica para Seguridad de Documentos"
+description: >-
+  Explore cómo implementar efectivamente controles de acceso PDF para proteger
+  información sensible mientras mantiene la usabilidad para destinatarios
+  autorizados.
+pubDate: May 29 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Seguridad PDF
+  - Control de Acceso
+  - Protección de Documentos
+  - Límites de Visualización
+  - Expiración de Documentos
 ---
 
 # 🔒 Controles de Acceso PDF: Implementación Práctica para Seguridad de Documentos
@@ -13,7 +21,7 @@ tags: ["Seguridad PDF", "Control de Acceso", "Protección de Documentos", "Lími
   <p>Esta guía explora enfoques prácticos para implementar controles de acceso efectivos para sus PDFs sensibles.</p>
 </div>
 
-![Interfaz de Configuración de Seguridad](/maipdf-images/security_setting.png)
+![Interfaz de Configuración de Seguridad](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🛡️ La Base de la Seguridad de Documentos
 

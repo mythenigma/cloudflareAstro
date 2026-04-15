@@ -1,9 +1,16 @@
 ---
-title: "Evolución del Compartir PDF: Control Inteligente"
-description: "Aprenda cómo ha evolucionado el compartir PDF y cómo funciona el control inteligente. Guía completa sobre la evolución del compartir PDF, control inteligente y características modernas."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Evolución", "Control Inteligente", "Compartir"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Evolución del Compartir PDF: Control Inteligente'
+description: >-
+  Aprenda cómo ha evolucionado el compartir PDF y cómo funciona el control
+  inteligente. Guía completa sobre la evolución del compartir PDF, control
+  inteligente y características modernas.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Evolución
+  - Control Inteligente
+  - Compartir
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # Evolución del Compartir PDF: Control Inteligente
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>El compartir PDF ha evolucionado desde el simple compartir de archivos hasta sistemas de control inteligente. Esta guía le mostrará la evolución del compartir PDF y cómo funciona el control inteligente.</p>
 </div>
 
-![Evolución del Compartir PDF](/diagram/en/features-overview.svg)
+![Evolución del Compartir PDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🎯 La Evolución del Compartir PDF
 

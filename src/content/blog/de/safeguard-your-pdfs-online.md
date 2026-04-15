@@ -1,9 +1,16 @@
 ---
-title: "🛡️ Schützen Sie Ihre PDFs online—Kontrollieren Sie, wer Ihre Dokumente ansieht, teilt oder bearbeitet"
-description: "Erfahren Sie, wie Sie sensible Informationen in Ihren PDFs ohne komplexe Software oder teure Tools schützen können. Übernehmen Sie die Kontrolle über Ihre Dokumentenfreigabe mit einfachen, aber wirksamen Sicherheitsmaßnahmen."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
-tags: ["PDF-Sicherheit", "Dokumentenschutz", "Dateifreigabe", "Informationskontrolle"]
+title: "\U0001F6E1️ Schützen Sie Ihre PDFs online—Kontrollieren Sie, wer Ihre Dokumente ansieht, teilt oder bearbeitet"
+description: >-
+  Erfahren Sie, wie Sie sensible Informationen in Ihren PDFs ohne komplexe
+  Software oder teure Tools schützen können. Übernehmen Sie die Kontrolle über
+  Ihre Dokumentenfreigabe mit einfachen, aber wirksamen Sicherheitsmaßnahmen.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/flowchart/en-security-layers.svg
+tags:
+  - PDF-Sicherheit
+  - Dokumentenschutz
+  - Dateifreigabe
+  - Informationskontrolle
 ---
 
 # 🛡️ Schützen Sie Ihre PDFs online—Kontrollieren Sie, wer Ihre Dokumente ansieht, teilt oder bearbeitet
@@ -35,7 +42,7 @@ Es bedeutet:
 
 Denken Sie daran als leichtgewichtige Dokumentensicherheit – konzipiert für reale Weitergabe.
 
-![Sicherheitsstufen in den PDF-Einstellungen](/maipdf-images/security_level_in_pdf_setting.png)
+![Sicherheitsstufen in den PDF-Einstellungen](/maipdf2026/flowchart/en-security-layers.svg)
 
 ## 🔐 Wie MaiPDF Ihnen hilft, Ihre PDFs zu schützen
 
@@ -72,7 +79,7 @@ Hier ist, was Sie mit MaiPDF tun können:
 
 All das geschieht online. Keine Software, kein technisches Setup – nur intelligentes Teilen.
 
-![Upload-Bereich](/maipdf-images/upload_section.png)
+![Upload-Bereich](/maipdf2026/flowchart/en-security-layers.svg)
 
 ## 🧪 Reale Szenarien
 
@@ -109,7 +116,7 @@ All das geschieht online. Keine Software, kein technisches Setup – nur intelli
 
 In jedem Fall senden Sie nicht nur eine Datei – Sie verwalten ein Erlebnis.
 
-![Ergebnis von PDF-Link und QR-Code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Ergebnis von PDF-Link und QR-Code](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 🔁 Müssen Sie die Datei aktualisieren? Kein Problem.
 
@@ -124,7 +131,7 @@ Damit können Sie:
 
 Es ist der Schutz, den Sie immer noch kontrollieren, auch nachdem Sie auf "Senden" geklickt haben.
 
-![PDF-Einstellung nach dem Senden ändern](/maipdf-images/pdf_change_setting_after_sent.png)
+![PDF-Einstellung nach dem Senden ändern](/maipdf2026/Result_of_qr_link.png)
 
 ## 🧭 Warum das wichtig ist
 

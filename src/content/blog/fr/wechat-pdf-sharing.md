@@ -1,9 +1,16 @@
 ---
-title: "Partage de PDF sur WeChat : Guide Complet avec MaiPDF"
-description: "Découvrez comment partager facilement et en toute sécurité des fichiers PDF sur WeChat avec MaiPDF, sans installation de logiciel supplémentaire, en générant un lien ou un code QR en un clic."
-pubDate: "Jan 17 2026"
-heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
-tags: ["PDF", "WeChat", "Partage", "Sécurité"]
+title: 'Partage de PDF sur WeChat : Guide Complet avec MaiPDF'
+description: >-
+  Découvrez comment partager facilement et en toute sécurité des fichiers PDF
+  sur WeChat avec MaiPDF, sans installation de logiciel supplémentaire, en
+  générant un lien ou un code QR en un clic.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - PDF
+  - WeChat
+  - Partage
+  - Sécurité
 ---
 
 # Partage de PDF sur WeChat : Guide Complet avec MaiPDF
@@ -14,7 +21,7 @@ tags: ["PDF", "WeChat", "Partage", "Sécurité"]
 
 ## 🔍 Problèmes Courants du Partage PDF sur WeChat
 
-![Page d'accueil MaiPDF](/maifle/maipdf的首页入口.png)
+![Page d'accueil MaiPDF](/maipdf2026/Result_of_qr_link.png)
 
 Lors du partage de fichiers PDF sur WeChat, les utilisateurs rencontrent souvent ces problèmes :
 
@@ -35,7 +42,7 @@ Lors du partage de fichiers PDF sur WeChat, les utilisateurs rencontrent souvent
 
 ## 💡 Pourquoi Choisir MaiPDF ?
 
-![Génération de Lien PDF](/maifle/PDF链接生成的时候显示的信息.png)
+![Génération de Lien PDF](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 MaiPDF se concentre sur la résolution des problèmes de partage PDF et offre plusieurs méthodes de partage compatibles avec WeChat :
 
@@ -56,7 +63,7 @@ MaiPDF se concentre sur la résolution des problèmes de partage PDF et offre pl
 
 ## 📱 Étapes pour Utiliser MaiPDF sur WeChat
 
-![Interface de Téléchargement MaiPDF](/maifle/MaiPDF中的上传界面.png)
+![Interface de Téléchargement MaiPDF](/maipdf2026/show_off/facebookwhatsapp.png)
 
 Utiliser MaiPDF pour partager des PDF sur WeChat est très simple :
 
@@ -72,7 +79,7 @@ Utiliser MaiPDF pour partager des PDF sur WeChat est très simple :
 
 ## 🌟 Scénarios d'Utilisation
 
-![Page de Fonctionnalités Complètes](/maifle/maipdf整体功能页面.png)
+![Page de Fonctionnalités Complètes](/maipdf2026/show_off/shareandsend.png)
 
 La fonctionnalité de partage WeChat de MaiPDF est largement applicable à divers scénarios :
 

@@ -1,9 +1,15 @@
 ---
-title: "Un générateur de liens PDF minimaliste"
-description: "Téléchargez un PDF et générez un lien partageable avec des contrôles d'accès simples. Aucune inscription requise."
-pubDate: "2025-06-03"
-heroImage: "/maipdf-images/upload_section.png"
-tags: ["partager PDF", "générateur de liens PDF", "partage PDF sécurisé", "maipdf"]
+title: Un générateur de liens PDF minimaliste
+description: >-
+  Téléchargez un PDF et générez un lien partageable avec des contrôles d'accès
+  simples. Aucune inscription requise.
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - partager PDF
+  - générateur de liens PDF
+  - partage PDF sécurisé
+  - maipdf
 ---
 
 # Un générateur de liens PDF minimaliste
@@ -31,7 +37,7 @@ Ces solutions fonctionnent pour des flux de travail complexes, mais elles sont e
 ## Comment fonctionne MaiPDF
 
 <div class="image-container">
-  <img src="/maipdf-images/upload_section.png" alt="Interface de Téléchargement" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="Interface de Téléchargement" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 Le processus est intentionnellement simple :

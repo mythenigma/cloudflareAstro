@@ -1,9 +1,15 @@
 ---
-title: "Compartir PDF Sin Costo: Compartir Documentos Gratis"
-description: "Aprenda cómo compartir PDFs sin costo. Guía completa sobre compartir PDF sin costo, herramientas gratuitas y soluciones de compartir documentos."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["Compartir PDF Sin Costo", "Compartir PDF Gratis", "Herramientas Gratuitas", "Compartir Documentos"]
+title: 'Compartir PDF Sin Costo: Compartir Documentos Gratis'
+description: >-
+  Aprenda cómo compartir PDFs sin costo. Guía completa sobre compartir PDF sin
+  costo, herramientas gratuitas y soluciones de compartir documentos.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - Compartir PDF Sin Costo
+  - Compartir PDF Gratis
+  - Herramientas Gratuitas
+  - Compartir Documentos
 ---
 
 # Compartir PDF Sin Costo: Compartir Documentos Gratis
@@ -12,7 +18,7 @@ tags: ["Compartir PDF Sin Costo", "Compartir PDF Gratis", "Herramientas Gratuita
   <p>El compartir PDF sin costo es una solución moderna para compartir documentos. El <strong>compartir PDF sin costo</strong> proporciona herramientas gratuitas y soluciones completas para compartir documentos.</p>
 </div>
 
-![MaiPDF Página de Inicio](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Página de Inicio](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## ¿Qué es el Compartir PDF Sin Costo?
 

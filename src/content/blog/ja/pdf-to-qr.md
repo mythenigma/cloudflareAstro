@@ -1,9 +1,14 @@
 ---
-title: "PDFをQRコードに変換"
-description: "PDFをアップロードして瞬時に共有可能なQRコードを作成。アクセスを制御し、閲覧制限を設定して、メール添付なしでドキュメントを共有。"
-pubDate: "2025-06-03"
-heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
-tags: ["PDF QR", "PDF QRコード生成", "QRでPDF共有", "maipdf"]
+title: PDFをQRコードに変換
+description: PDFをアップロードして瞬時に共有可能なQRコードを作成。アクセスを制御し、閲覧制限を設定して、メール添付なしでドキュメントを共有。
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/flowchart/en-qr-sharing-flow.svg
+tags:
+  - PDF QR
+  - PDF QRコード生成
+  - QRでPDF共有
+  - maipdf
+noindex: true
 ---
 
 # PDFをQRコードに変換
@@ -14,7 +19,7 @@ tags: ["PDF QR", "PDF QRコード生成", "QRでPDF共有", "maipdf"]
 </div>
 
 <div class="image-container">
-  <img src="/maifle/maipdf示例把PDF生成二维码.png" alt="PDF to QRコードの例" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/flowchart/en-qr-sharing-flow.svg" alt="PDF to QRコードの例" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## PDF QRコードを使用する理由
@@ -35,7 +40,7 @@ QRコードは物理的空間とデジタル空間を繋ぎます。以下に配
 - PDFがいつ、どのくらいの頻度でアクセスされたかを追跡
 
 <div class="image-container">
-  <img src="/maipdf-images/security_setting.png" alt="QRアクセス設定" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="QRアクセス設定" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## PDF QRコードの作成方法
@@ -78,7 +83,7 @@ QRコードをどこにでも配置し、ダッシュボードで使用状況を
 **結婚式やイベント**：ゲストブック、プログラム、または写真アルバム用のQRコードを作成。
 
 <div class="image-container">
-  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="QRコード結果" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="QRコード結果" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## 技術的考慮事項

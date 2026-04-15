@@ -1,9 +1,15 @@
 ---
-title: "Alojamiento PDF Gratuito: Guía Completa"
-description: "Carga, compartición y gestión gratuita de PDF en línea. No se requiere registro. Use MaiPDF para alojamiento seguro de PDF con control de acceso."
-pubDate: "Jan 15 2026"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["Alojamiento PDF Gratuito", "Alojamiento PDF", "Compartición de Documentos", "Visor Seguro"]
+title: 'Alojamiento PDF Gratuito: Guía Completa'
+description: >-
+  Carga, compartición y gestión gratuita de PDF en línea. No se requiere
+  registro. Use MaiPDF para alojamiento seguro de PDF con control de acceso.
+pubDate: Jan 15 2026
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - Alojamiento PDF Gratuito
+  - Alojamiento PDF
+  - Compartición de Documentos
+  - Visor Seguro
 ---
 
 # Alojamiento PDF Gratuito: Guía Completa

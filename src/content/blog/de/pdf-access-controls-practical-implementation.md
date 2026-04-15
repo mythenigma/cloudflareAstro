@@ -1,9 +1,17 @@
 ---
-title: "🔒 PDF-Zugriffskontrollen: Praktische Implementierung für Dokumentsicherheit"
-description: "Erkunden Sie, wie Sie PDF-Zugriffskontrollen effektiv implementieren, um sensible Informationen zu schützen und gleichzeitig die Benutzerfreundlichkeit für autorisierte Empfänger aufrechtzuerhalten."
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF-Sicherheit", "Zugriffskontrolle", "Dokumentschutz", "Ansichtslimits", "Dokumentablauf"]
+title: "\U0001F512 PDF-Zugriffskontrollen: Praktische Implementierung für Dokumentsicherheit"
+description: >-
+  Erkunden Sie, wie Sie PDF-Zugriffskontrollen effektiv implementieren, um
+  sensible Informationen zu schützen und gleichzeitig die Benutzerfreundlichkeit
+  für autorisierte Empfänger aufrechtzuerhalten.
+pubDate: May 29 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDF-Sicherheit
+  - Zugriffskontrolle
+  - Dokumentschutz
+  - Ansichtslimits
+  - Dokumentablauf
 ---
 
 # 🔒 PDF-Zugriffskontrollen: Praktische Implementierung für Dokumentsicherheit
@@ -13,7 +21,7 @@ tags: ["PDF-Sicherheit", "Zugriffskontrolle", "Dokumentschutz", "Ansichtslimits"
   <p>Dieser Leitfaden untersucht praktische Ansätze zur Implementierung effektiver Zugriffskontrollen für Ihre sensiblen PDFs.</p>
 </div>
 
-![Sicherheitseinstellungs-Interface](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungs-Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🛡️ Die Grundlage der Dokumentsicherheit
 

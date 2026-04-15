@@ -1,9 +1,16 @@
 ---
-title: "🔒 Distribuir Recursos Educativos con Controles de Acceso Limitado"
-description: "Aprenda cómo los educadores pueden compartir materiales didácticos de forma segura mientras mantienen el control sobre quién los ve, cuántas veces y por cuánto tiempo."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Educación", "Materiales Didácticos", "Seguridad de Documentos", "Educación Digital"]
+title: "\U0001F512 Distribuir Recursos Educativos con Controles de Acceso Limitado"
+description: >-
+  Aprenda cómo los educadores pueden compartir materiales didácticos de forma
+  segura mientras mantienen el control sobre quién los ve, cuántas veces y por
+  cuánto tiempo.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - Educación
+  - Materiales Didácticos
+  - Seguridad de Documentos
+  - Educación Digital
 ---
 
 # 🔒 Distribuir Recursos Educativos con Controles de Acceso Limitado
@@ -14,7 +21,7 @@ tags: ["Educación", "Materiales Didácticos", "Seguridad de Documentos", "Educa
   <p>Existe una mejor manera de distribuir su valioso contenido mientras mantiene el control.</p>
 </div>
 
-![Controles de Seguridad para Contenido Educativo](/maipdf-images/security_level_in_pdf_setting.png)
+![Controles de Seguridad para Contenido Educativo](/maipdf2026/show_off/securityshowoff.png)
 
 ## 📚 Por Qué los Métodos Tradicionales de Distribución Se Quedan Cortos
 
@@ -27,7 +34,7 @@ Los enfoques actuales para compartir materiales educativos a menudo sacrifican l
 
 ¿El resultado? Sus materiales cuidadosamente elaborados pueden extenderse mucho más allá de su audiencia prevista, disminuyendo su valor y su control.
 
-![Problemas de Compartir Tradicional](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Problemas de Compartir Tradicional](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ## 🔐 Acceso Controlado: El Enfoque Moderno para la Distribución de Contenido
 
@@ -41,7 +48,7 @@ El contenido educativo merece protección. Con el compartir de acceso controlado
 
 Esto mantiene la integridad de su trabajo mientras cumple con su misión educativa.
 
-![Configuración de Seguridad para Materiales Educativos](/maipdf-images/security_setting.png)
+![Configuración de Seguridad para Materiales Educativos](/maipdf2026/show_off/shareandsend.png)
 
 ## 📝 Aplicaciones en el Mundo Real
 
@@ -60,7 +67,7 @@ Esto mantiene la integridad de su trabajo mientras cumple con su misión educati
 - Rastrear la participación con materiales de lectura obligatoria
 - Asegurar que la información corporativa sensible permanezca dentro de los departamentos previstos
 
-![Distribución de PDF Mundial](/maipdf-images/share_pdf_wordwide.png)
+![Distribución de PDF Mundial](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🔍 Cómo Funciona
 
@@ -77,7 +84,7 @@ Utilizando plataformas especializadas como MaiPDF, el proceso es sencillo:
 
 Los estudiantes simplemente hacen clic en el enlace y ven el documento en su navegador—sin descargas, sin necesidad de cuentas.
 
-![Proceso de Carga](/maipdf-images/upload_section.png)
+![Proceso de Carga](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 📊 Beneficios Medibles
 
@@ -91,7 +98,7 @@ Los educadores que implementan el compartir documentos controlado informan:
 
 Lo más importante, recupera el control sobre su propiedad intelectual.
 
-![Resultados de Visualización](/maipdf-images/check_pdf_open_result.png)
+![Resultados de Visualización](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## 🔄 Manteniendo la Flexibilidad
 
@@ -104,7 +111,7 @@ Una ventaja clave del compartir con acceso controlado es la capacidad de realiza
 
 Esta flexibilidad lo mantiene en control durante todo el proceso educativo.
 
-![Configuración PDF Después de Compartir](/maipdf-images/pdf_change_setting_after_sent.png)
+![Configuración PDF Después de Compartir](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ## 💡 Pensamientos Finales
 

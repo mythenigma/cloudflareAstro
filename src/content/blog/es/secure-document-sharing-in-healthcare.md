@@ -1,9 +1,19 @@
 ---
-title: "Compartición Segura de Documentos en Atención Sanitaria: Protegiendo Información de Pacientes y Mejorando el Acceso"
-description: "Descubra cómo los proveedores de salud pueden compartir documentos de pacientes de forma segura con mayor control, trazabilidad y cumplimiento de normativas de privacidad."
-pubDate: "May 15 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Atención Sanitaria", "Seguridad Documental", "Cumplimiento HIPAA", "Información de Pacientes", "Compartición Segura"]
+title: >-
+  Compartición Segura de Documentos en Atención Sanitaria: Protegiendo
+  Información de Pacientes y Mejorando el Acceso
+description: >-
+  Descubra cómo los proveedores de salud pueden compartir documentos de
+  pacientes de forma segura con mayor control, trazabilidad y cumplimiento de
+  normativas de privacidad.
+pubDate: May 15 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Atención Sanitaria
+  - Seguridad Documental
+  - Cumplimiento HIPAA
+  - Información de Pacientes
+  - Compartición Segura
 ---
 
 # Compartición Segura de Documentos en Atención Sanitaria: Protegiendo Información de Pacientes y Mejorando el Acceso
@@ -12,7 +22,7 @@ tags: ["Atención Sanitaria", "Seguridad Documental", "Cumplimiento HIPAA", "Inf
   <p>Los proveedores de atención sanitaria se enfrentan a un delicado equilibrio: necesitan compartir información sensible de pacientes de manera eficiente mientras mantienen estricta seguridad y cumplimiento con regulaciones como HIPAA. Los métodos tradicionales de compartición como archivos adjuntos de correo electrónico o copias físicas crean riesgos de acceso no autorizado, mientras que las soluciones de almacenamiento en la nube pueden carecer de controles de acceso adecuados. Este artículo explora cómo las soluciones modernas de compartición de documentos como MaiPDF pueden transformar la distribución segura de documentos sanitarios.</p>
 </div>
 
-![Interfaz de configuración de seguridad para documentos sanitarios](/maipdf-images/security_setting.png)
+![Interfaz de configuración de seguridad para documentos sanitarios](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## El Desafío de la Seguridad Documental en Atención Sanitaria
 
@@ -38,7 +48,7 @@ La capacidad de verificar la identidad del destinatario antes de conceder acceso
 - **Límites de visualización:** Los documentos caducan automáticamente después de un número determinado de visualizaciones
 - **Acceso temporizado:** Los documentos se vuelven inaccesibles después de un período predeterminado
 
-![Pantalla de verificación por email para acceso a documentos](/maipdf-images/get_email_verification_before_read.jpg)
+![Pantalla de verificación por email para acceso a documentos](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ### 2. Registros de Auditoría Completos
 
@@ -51,7 +61,7 @@ Cada interacción con el documento debe registrarse para crear una cadena verifi
 
 Esta información no solo es útil para la seguridad—es esencial para demostrar cumplimiento durante auditorías.
 
-![Panel de seguimiento de acceso a documentos](/maipdf-images/check_pdf_open_result.png)
+![Panel de seguimiento de acceso a documentos](/maipdf2026/get_email_verification_before_read.jpg)
 
 ### 3. Prevención de Distribución No Autorizada
 
@@ -62,7 +72,7 @@ Los documentos sanitarios a menudo contienen información de salud protegida (PH
 - **Protección contra copia:** Bloquear la selección de texto y copia de información sensible
 - **Marcas de agua dinámicas:** Añadir información del destinatario en cada página para disuadir capturas de pantalla
 
-![Niveles de seguridad para protección de documentos](/maipdf-images/security_level_in_pdf_setting.png)
+![Niveles de seguridad para protección de documentos](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## Mejores Prácticas de Implementación para Organizaciones Sanitarias
 
@@ -94,7 +104,7 @@ Las medidas de seguridad no deben crear barreras que frustren a los pacientes:
 - **Optimización móvil:** Documentos correctamente formateados para visualización en smartphone
 - **Características de accesibilidad:** Soporte para lectores de pantalla y otras tecnologías de asistencia
 
-![Visualización de documentos basada en navegador](/maipdf-images/pdf_native_view_on_ui.png)
+![Visualización de documentos basada en navegador](/maipdf2026/show_off/securityshowoff.png)
 
 ## Aplicaciones Prácticas en Entornos Sanitarios
 

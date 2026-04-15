@@ -1,9 +1,16 @@
 ---
-title: "🎨 Senden Sie Design-Feedback-Dateien mit Ansichtslimits"
-description: "Erfahren Sie, wie Sie die Kontrolle über frühe Designarbeiten behalten, indem Sie Ansichtslimits für geteilte Dateien festlegen. Perfekt für das Sammeln von Feedback bei gleichzeitiger Verhinderung unbefugter Verbreitung."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Design-Workflow", "Design-Feedback", "Datei-Sharing", "Design-Schutz"]
+title: "\U0001F3A8 Senden Sie Design-Feedback-Dateien mit Ansichtslimits"
+description: >-
+  Erfahren Sie, wie Sie die Kontrolle über frühe Designarbeiten behalten, indem
+  Sie Ansichtslimits für geteilte Dateien festlegen. Perfekt für das Sammeln von
+  Feedback bei gleichzeitiger Verhinderung unbefugter Verbreitung.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - Design-Workflow
+  - Design-Feedback
+  - Datei-Sharing
+  - Design-Schutz
 ---
 
 # 🎨 Senden Sie Design-Feedback-Dateien mit Ansichtslimits
@@ -29,7 +36,7 @@ Stellen Sie sich Folgendes vor:
 
 Jetzt liegt die Erzählung nicht mehr in Ihren Händen.
 
-![Unsicheres PDF-Teilen](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Unsicheres PDF-Teilen](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ## ✅ Der intelligentere Weg: Nur-Anzeige-Zugriff mit Limits
 
@@ -43,7 +50,7 @@ Anstatt E-Mail-Anhänge oder offene Google Drive-Links zu verwenden, nutzen Sie 
 
 Sie senden einen Link oder QR-Code, sie sehen es an – und das war's. Keine Kopien. Keine Verwirrung. Keine Inhaltsverbreitung über Ihre Kontrolle hinaus.
 
-![Sicherheitseinstellungen](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungen](/maipdf2026/show_off/shareandsend.png)
 
 ## 🧪 Realer Anwendungsfall: Ein UX-Team im Überprüfungsmodus
 
@@ -63,7 +70,7 @@ Daher:
 
 Dies hält Überprüfungen produktiv – und schützt Ihren Prozess.
 
-![Ergebnis des PDF-Links und QR-Codes](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Ergebnis des PDF-Links und QR-Codes](/maipdf2026/show_off/shareandsend.png)
 
 ## 🛠 Wie Plattformen wie MaiPDF helfen können
 
@@ -77,7 +84,7 @@ Tools wie MaiPDF bieten leichtgewichtiges Design-Sharing mit Kontrollfunktionen 
 
 Keine Notwendigkeit, Berechtigungen in Cloud-Laufwerken zu verwalten. Kein manuelles Senden von Datei-Updates erforderlich. Nur ein Link – mit Regeln.
 
-![PDF-Einstellungen nach dem Senden ändern](/maipdf-images/pdf_change_setting_after_sent.png)
+![PDF-Einstellungen nach dem Senden ändern](/maipdf2026/Result_of_qr_link.png)
 
 ## 🧩 Wann Sie dies verwenden sollten
 

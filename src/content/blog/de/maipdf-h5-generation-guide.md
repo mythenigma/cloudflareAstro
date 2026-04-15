@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF H5-Generierung: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie H5-Seiten mit MaiPDF generieren. Vollständiger Leitfaden zur H5-Generierung, mobilen Seiten und interaktiven PDF-Präsentationen."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "MaiPDF", "H5", "Mobile"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'MaiPDF H5-Generierung: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie H5-Seiten mit MaiPDF generieren. Vollständiger Leitfaden
+  zur H5-Generierung, mobilen Seiten und interaktiven PDF-Präsentationen.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - MaiPDF
+  - H5
+  - Mobile
+heroImage: /maipdf2026/show_off/en-offline-version.svg
 ---
 
 # MaiPDF H5-Generierung: Vollständiger Leitfaden
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Die H5-Generierung mit MaiPDF ermöglicht es Ihnen, mobile-optimierte Seiten aus PDFs zu erstellen. Diese Anleitung zeigt Ihnen, wie Sie H5-Seiten generieren und für mobile Geräte optimieren können.</p>
 </div>
 
-![MaiPDF H5-Generierung](/diagram/en/features-overview.svg)
+![MaiPDF H5-Generierung](/maipdf2026/show_off/en-offline-version.svg)
 
 ## 🎯 Was ist H5-Generierung?
 

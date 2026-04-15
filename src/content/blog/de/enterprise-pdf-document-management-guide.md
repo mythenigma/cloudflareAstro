@@ -1,9 +1,16 @@
 ---
-title: "Enterprise-PDF-Dokumentenverwaltung: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie Enterprise-PDF-Dokumentenverwaltung implementieren. Vollständiger Leitfaden zu Dokumentenverwaltung, Enterprise-Lösungen und zentralisierter Verwaltung."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Enterprise", "Verwaltung", "Dokumente"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Enterprise-PDF-Dokumentenverwaltung: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie Enterprise-PDF-Dokumentenverwaltung implementieren.
+  Vollständiger Leitfaden zu Dokumentenverwaltung, Enterprise-Lösungen und
+  zentralisierter Verwaltung.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Enterprise
+  - Verwaltung
+  - Dokumente
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 # Enterprise-PDF-Dokumentenverwaltung: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Enterprise-PDF-Dokumentenverwaltung bietet Unternehmen eine umfassende Lösung zur Verwaltung, Organisation und Sicherung von PDF-Dokumenten. Diese Anleitung zeigt Ihnen, wie Sie Enterprise-Dokumentenverwaltung implementieren können.</p>
 </div>
 
-![Enterprise-Dokumentenverwaltung](/diagram/en/features-overview.svg)
+![Enterprise-Dokumentenverwaltung](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## 🎯 Was ist Enterprise-Dokumentenverwaltung?
 

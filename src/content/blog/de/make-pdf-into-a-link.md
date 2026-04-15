@@ -1,16 +1,23 @@
 ---
-title: "PDF in Link Konvertieren: Dokumente in Teilbare URLs Transformieren"
-description: "Konvertieren Sie jedes PDF-Dokument in Sekunden in einen klickbaren Link. Hochladen, generieren und teilen Sie professionelle URLs, die überall funktionieren, ohne Dateigrößenbeschränkungen."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["PDF zu Link", "Dokumentkonvertierung", "URL-Generierung", "Dateiteilen"]
+title: 'PDF in Link Konvertieren: Dokumente in Teilbare URLs Transformieren'
+description: >-
+  Konvertieren Sie jedes PDF-Dokument in Sekunden in einen klickbaren Link.
+  Hochladen, generieren und teilen Sie professionelle URLs, die überall
+  funktionieren, ohne Dateigrößenbeschränkungen.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/share_pdf_online-show.png
+tags:
+  - PDF zu Link
+  - Dokumentkonvertierung
+  - URL-Generierung
+  - Dateiteilen
 ---
 
 # PDF in Link Konvertieren: Dokumente in Teilbare URLs Transformieren
 
 Konvertieren Sie jedes PDF-Dokument in nur Sekunden in einen professionellen, teilbaren Link. Ob Geschäftsbericht, Bildungsmaterial oder persönliches Dokument, MaiPDF verwandelt Ihre Dateien in saubere URLs, die auf jedem Gerät perfekt funktionieren.
 
-![PDF-Link und QR-Code-Generierung](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![PDF-Link und QR-Code-Generierung](/maipdf2026/show_off/share_pdf_online-show.png)
 
 ## Die Magie der PDF-zu-Link-Konvertierung
 

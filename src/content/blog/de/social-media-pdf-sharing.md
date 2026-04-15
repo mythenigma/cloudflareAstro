@@ -1,9 +1,17 @@
 ---
-title: "PDF in sozialen Medien teilen: Professionelle Links für Instagram und LinkedIn"
-description: "Teilen Sie PDF-Dokumente auf Social-Media-Plattformen mit professionellen Links. Besseres Engagement, mobile Optimierung und verbesserte professionelle Präsenz auf allen Plattformen."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF", "Soziale Medien", "Instagram", "LinkedIn", "Marketing"]
+title: 'PDF in sozialen Medien teilen: Professionelle Links für Instagram und LinkedIn'
+description: >-
+  Teilen Sie PDF-Dokumente auf Social-Media-Plattformen mit professionellen
+  Links. Besseres Engagement, mobile Optimierung und verbesserte professionelle
+  Präsenz auf allen Plattformen.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/share pdf wordwide.png
+tags:
+  - PDF
+  - Soziale Medien
+  - Instagram
+  - LinkedIn
+  - Marketing
 ---
 
 # PDF in sozialen Medien teilen: Professionelle Links für Instagram und LinkedIn
@@ -12,7 +20,7 @@ tags: ["PDF", "Soziale Medien", "Instagram", "LinkedIn", "Marketing"]
   <p>Social Media ist perfekt zum Teilen wertvoller Inhalte, aber traditionelle Datei-Uploads funktionieren nicht gut auf allen Plattformen. MaiPDF verwandelt Ihre PDFs in teilbare Links, die wunderbar auf Instagram, LinkedIn, Twitter und allen Social-Media-Plattformen funktionieren.</p>
 </div>
 
-![PDF in sozialen Medien teilen](/maipdf-images/share_pdf_wordwide.png)
+![PDF in sozialen Medien teilen](/maipdf2026/show_off/share pdf wordwide.png)
 
 ## Warum PDF-Links in sozialen Medien überzeugen
 

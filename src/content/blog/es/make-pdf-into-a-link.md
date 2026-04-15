@@ -1,16 +1,23 @@
 ---
-title: "Convertir PDF en Enlace: Transformar Documentos en URLs Compartibles"
-description: "Convierte cualquier documento PDF en un enlace clicable en segundos. Sube, genera y comparte URLs profesionales que funcionan en todas partes sin límites de tamaño de archivo."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["PDF a enlace", "conversión de documento", "generación de URL", "compartir archivos"]
+title: 'Convertir PDF en Enlace: Transformar Documentos en URLs Compartibles'
+description: >-
+  Convierte cualquier documento PDF en un enlace clicable en segundos. Sube,
+  genera y comparte URLs profesionales que funcionan en todas partes sin límites
+  de tamaño de archivo.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDF a enlace
+  - conversión de documento
+  - generación de URL
+  - compartir archivos
 ---
 
 # Convertir PDF en Enlace: Transformar Documentos en URLs Compartibles
 
 Convierte cualquier documento PDF en un enlace profesional y compartible en solo segundos. Ya sea un informe comercial, material educativo o documento personal, MaiPDF convierte tus archivos en URLs limpias que funcionan perfectamente en cualquier dispositivo.
 
-![Generación de Enlace PDF y Código QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Generación de Enlace PDF y Código QR](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## La Magia de la Conversión de PDF a Enlace
 
@@ -20,7 +27,7 @@ Convertir un PDF en un enlace transforma cómo compartes documentos. En lugar de
 
 **A Esto**: Compartir un enlace limpio como `https://maipdf.com/file/abc123@pdf` en el que cualquiera puede hacer clic para ver inmediatamente.
 
-![Sube Tu PDF](/maipdf-images/upload_section.png)
+![Sube Tu PDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Cómo Funciona la Conversión de PDF a Enlace
 
@@ -34,7 +41,7 @@ El proceso es notablemente simple:
 
 **Paso 4 - Compartir**: Copia el enlace y compártelo en cualquier lugar: correo electrónico, mensajes de texto, redes sociales o sitios web.
 
-![Resultados de Generación de Enlace](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultados de Generación de Enlace](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Conclusión: Convertir PDF en Enlace
 

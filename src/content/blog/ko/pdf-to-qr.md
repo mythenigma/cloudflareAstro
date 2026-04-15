@@ -1,8 +1,14 @@
 ---
-title: "PDF를 QR 코드로 공유하는 방법: 링크 공유 워크플로우"
-description: "PDF를 업로드하고 QR 코드를 만들어 공유하는 가장 단순한 흐름(과장 없이)."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "pdf", "qr code", "sharing"]
+title: 'PDF를 QR 코드로 공유하는 방법: 링크 공유 워크플로우'
+description: PDF를 업로드하고 QR 코드를 만들어 공유하는 가장 단순한 흐름(과장 없이).
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - pdf
+  - qr code
+  - sharing
+noindex: true
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 회의 자료나 안내문 PDF를 공유할 때, 파일을 여기저기 보내면 버전 관리가 어려워집니다.  
@@ -27,11 +33,11 @@ flowchart TD
 
 > 참고: “만료일(expiration date) 설정” 같은 기능은 전제로 쓰지 않습니다.
 
-![Upload](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/Result_of_qr_link.png)
 
-![Link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link and QR](/maipdf2026/Result_of_qr_link.png)
 
 업데이트가 필요하면 **Replace File**로 새 버전을 올리고 링크는 그대로 유지하는 방식이 실무에서 편합니다.  
 참고: `https://sendpdfonline.com/article/replace-pdf-without-changing-link-zh`

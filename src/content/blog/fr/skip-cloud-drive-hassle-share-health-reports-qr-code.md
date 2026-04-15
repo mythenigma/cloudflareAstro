@@ -1,14 +1,24 @@
 ---
-title: "Évitez les tracas du Cloud Drive : Partagez les rapports de santé avec vos parents via un simple code QR"
-description: "Partagez facilement de gros fichiers médicaux avec vos parents grâce à un simple code QR. Pas d'applications, pas de connexion, juste un accès instantané au navigateur."
-pubDate: "May 02 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["Code QR", "Partage PDF", "Rapports de santé", "Partage familial", "Adapté aux seniors"]
+title: >-
+  Évitez les tracas du Cloud Drive : Partagez les rapports de santé avec vos
+  parents via un simple code QR
+description: >-
+  Partagez facilement de gros fichiers médicaux avec vos parents grâce à un
+  simple code QR. Pas d'applications, pas de connexion, juste un accès
+  instantané au navigateur.
+pubDate: May 02 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - Code QR
+  - Partage PDF
+  - Rapports de santé
+  - Partage familial
+  - Adapté aux seniors
 ---
 
 Le partage familial peut être simple, même lorsque les fichiers médicaux sont volumineux et que vos parents ne veulent pas d'une autre application. Avec un seul code QR, vous pouvez envoyer un rapport de santé complet qui s'ouvre instantanément dans n'importe quel navigateur, s'adapte parfaitement à l'écran d'un téléphone et n'encombre jamais leur stockage. Voici un guide pratique qui traite vos parents comme des personnes intelligentes et indépendantes qui préfèrent simplement moins d'étapes.
 
-![Résultat du code QR et du lien PDF](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Résultat du code QR et du lien PDF](/maipdf2026/Result_of_qr_link.png)
 
 ## Pourquoi se donner la peine d'abandonner les liens de cloud drive ?
 
@@ -29,7 +39,7 @@ Le partage familial peut être simple, même lorsque les fichiers médicaux sont
 4.  **Les parents scannent et lisent**—L'appareil photo intégré de leur téléphone lance instantanément le rapport dans le navigateur.
 5.  **Suivez en toute tranquillité**—Un rapide coup d'œil à votre tableau de bord confirme que Maman l'a consulté deux fois et Papa une fois—fini les appels téléphoniques "Tu l'as reçu ?".
 
-![Interface de la section de téléchargement](/maipdf-images/upload_section.png)
+![Interface de la section de téléchargement](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 *(Le nom de MaiPDF n'apparaît jamais sur l'écran de démarrage du QR, gardant le flux propre et neutre en termes de marque.)*
 
@@ -41,7 +51,7 @@ Renommez-le `Papa_Bilan_Mars2025.pdf` avant le téléchargement ; le nom du fich
 ### 2. Choisissez le "Mode de lecture adapté aux familles"
 Ce préréglage optionnel de MaiPDF agrandit le corps du texte à 16 px minimum et active des vignettes de page à contraste élevé—idéal pour les yeux vieillissants.
 
-![Panneau des paramètres de sécurité](/maipdf-images/security_setting.png)
+![Panneau des paramètres de sécurité](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ### 3. Ajoutez une note personnelle
 Dans la case "Message d'introduction" de MaiPDF, tapez :
@@ -63,7 +73,7 @@ Laissez le suivi d'ouverture intégré faire le reste. Si le rapport n'a pas ét
 *   **L'expiration automatique** efface le lien à la date que vous choisissez, réduisant l'encombrement numérique pour vos parents.
 *   **Indépendant de l'appareil :** Fonctionne sur iPhone, Android, iPad—n'importe quel navigateur de Safari à Chrome.
 
-![Affichage natif du PDF dans le navigateur](/maipdf-images/pdf_native_view_on_ui.png)
+![Affichage natif du PDF dans le navigateur](/maipdf2026/show_off/showpdf.png)
 
 ## Intégrez-le à la routine
 
@@ -77,4 +87,4 @@ Laissez le suivi d'ouverture intégré faire le reste. Si le rapport n'a pas ét
 
 Partage familial, conception adaptée aux seniors, visualisation par code QR, livraison de rapports de santé—assemblez ces quatre idées et vous obtenez un flux de travail qui élimine les frictions pour tout le monde. La prochaine fois que vous recevrez un PDF de l'hôpital, passez 30 secondes dans MaiPDF, générez un code et envoyez-le. Vos parents restent informés, vous restez organisé et personne ne se bat plus jamais avec les connexions au cloud drive.
 
-![Suivi des personnes qui ont consulté votre document](/maipdf-images/check_pdf_open_result.png)
+![Suivi des personnes qui ont consulté votre document](/maipdf2026/page_redirect_to_accessRecord.png)

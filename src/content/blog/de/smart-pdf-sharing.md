@@ -1,16 +1,22 @@
 ---
-title: "Intelligentes PDF-Teilen: Moderne Dokumententeilen-Lösung"
-description: "Erfahren Sie, wie Sie PDFs intelligent teilen können. Moderne Lösungen für Dokumententeilen mit erweiterten Funktionen, Sicherheit und Kontrolle."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["Intelligentes PDF-Teilen", "PDF-Teilen", "Dokumententeilen", "Moderne Lösungen"]
+title: 'Intelligentes PDF-Teilen: Moderne Dokumententeilen-Lösung'
+description: >-
+  Erfahren Sie, wie Sie PDFs intelligent teilen können. Moderne Lösungen für
+  Dokumententeilen mit erweiterten Funktionen, Sicherheit und Kontrolle.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Intelligentes PDF-Teilen
+  - PDF-Teilen
+  - Dokumententeilen
+  - Moderne Lösungen
 ---
 
 # Intelligentes PDF-Teilen: Moderne Dokumententeilen-Lösung
 
 Intelligentes PDF-Teilen revolutioniert die Art, wie wir Dokumente teilen. Mit modernen Tools können Sie PDFs sicher, effizient und mit vollständiger Kontrolle teilen.
 
-![MaiPDF Homepage](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Homepage](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Was ist Intelligentes PDF-Teilen?
 

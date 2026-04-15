@@ -1,9 +1,18 @@
 ---
-title: "Auto Eliminar Imágenes: Guía de Expiración y Auto Eliminación de Imágenes"
-description: "Aprenda cómo auto eliminar imágenes después de un cierto tiempo. Maiimg le permite establecer fechas de expiración de imágenes, desactivar automáticamente enlaces después de períodos de tiempo y controlar cuándo se eliminan las imágenes. Guía completa para alojamiento temporal de imágenes."
-pubDate: "Dec 29 2025"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["Auto Eliminar Imágenes", "Expiración de Imágenes", "Auto Eliminar", "Fecha de Expiración de Imágenes", "Alojamiento Temporal de Imágenes"]
+title: 'Auto Eliminar Imágenes: Guía de Expiración y Auto Eliminación de Imágenes'
+description: >-
+  Aprenda cómo auto eliminar imágenes después de un cierto tiempo. Maiimg le
+  permite establecer fechas de expiración de imágenes, desactivar
+  automáticamente enlaces después de períodos de tiempo y controlar cuándo se
+  eliminan las imágenes. Guía completa para alojamiento temporal de imágenes.
+pubDate: Dec 29 2025
+heroImage: /maiimg/static-images/common/show/limtandexpirtion.png
+tags:
+  - Auto Eliminar Imágenes
+  - Expiración de Imágenes
+  - Auto Eliminar
+  - Fecha de Expiración de Imágenes
+  - Alojamiento Temporal de Imágenes
 ---
 
 # Auto Eliminar Imágenes: Guía de Expiración y Auto Eliminación de Imágenes
@@ -12,7 +21,7 @@ tags: ["Auto Eliminar Imágenes", "Expiración de Imágenes", "Auto Eliminar", "
   <p>¿Necesita <strong>auto eliminar imágenes</strong> después de cierto tiempo? Maiimg le permite establecer fechas de expiración de imágenes, desactivar automáticamente enlaces después de períodos de tiempo y controlar cuándo se eliminan las imágenes. Esta guía completa muestra cómo usar funciones de auto eliminación y expiración para alojamiento temporal de imágenes.</p>
 </div>
 
-![Maiimg Auto Eliminar Imágenes](/maiimg/maiimg-head.png)
+![Maiimg Auto Eliminar Imágenes](/maiimg/static-images/common/show/limtandexpirtion.png)
 
 ## ¿Qué es Auto Eliminar Imágenes?
 

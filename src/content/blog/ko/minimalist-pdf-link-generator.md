@@ -1,9 +1,13 @@
 ---
-title: "미니멀리스트 PDF 링크 생성기"
-description: "PDF를 업로드하고 간단한 접근 제어로 공유 가능한 링크를 생성하세요. 등록 불필요."
-pubDate: "2025-06-03"
-heroImage: "/maipdf-images/upload_section.png"
-tags: ["PDF 공유", "PDF 링크 생성기", "안전한 PDF 공유", "maipdf"]
+title: 미니멀리스트 PDF 링크 생성기
+description: PDF를 업로드하고 간단한 접근 제어로 공유 가능한 링크를 생성하세요. 등록 불필요.
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - PDF 공유
+  - PDF 링크 생성기
+  - 안전한 PDF 공유
+  - maipdf
 ---
 
 # 미니멀리스트 PDF 링크 생성기
@@ -31,7 +35,7 @@ tags: ["PDF 공유", "PDF 링크 생성기", "안전한 PDF 공유", "maipdf"]
 ## MaiPDF 작동 방식
 
 <div class="image-container">
-  <img src="/maipdf-images/upload_section.png" alt="업로드 인터페이스" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="업로드 인터페이스" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 과정은 의도적으로 간단합니다:

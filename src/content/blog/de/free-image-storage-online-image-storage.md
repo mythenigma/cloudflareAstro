@@ -1,9 +1,15 @@
 ---
-title: "Kostenlose Bildspeicherung: Online-Bildspeicher"
-description: "Erfahren Sie, wie Sie Bilder kostenlos online speichern. Vollständiger Leitfaden zu kostenloser Bildspeicherung, Online-Speicher und Bild-Sharing."
-pubDate: "Jan 17 2026"
-tags: ["Bilder", "Speicherung", "Kostenlos", "Online"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Kostenlose Bildspeicherung: Online-Bildspeicher'
+description: >-
+  Erfahren Sie, wie Sie Bilder kostenlos online speichern. Vollständiger
+  Leitfaden zu kostenloser Bildspeicherung, Online-Speicher und Bild-Sharing.
+pubDate: Jan 17 2026
+tags:
+  - Bilder
+  - Speicherung
+  - Kostenlos
+  - Online
+heroImage: /maiimg/maiimg-head.png
 ---
 
 # Kostenlose Bildspeicherung: Online-Bildspeicher
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Kostenlose Online-Bildspeicherung ermöglicht es Ihnen, Bilder sicher zu speichern und zu teilen. Diese Anleitung zeigt Ihnen, wie Sie kostenlose Bildspeicherung nutzen und Ihre Bilder online verwalten können.</p>
 </div>
 
-![Kostenlose Bildspeicherung](/diagram/en/features-overview.svg)
+![Kostenlose Bildspeicherung](/maiimg/maiimg-head.png)
 
 ## 🎯 Was ist Kostenlose Bildspeicherung?
 

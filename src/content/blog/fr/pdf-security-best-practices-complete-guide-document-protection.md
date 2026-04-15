@@ -1,8 +1,15 @@
 ---
-title: "Sécurité PDF : bonnes pratiques (version courte)"
-description: "Un checklist simple pour partager des PDFs plus proprement : lien, réglages d’accès si besoin, suivi, et mise à jour via Replace File."
-pubDate: "Jan 26 2026"
-tags: ["pdf", "sécurité", "partage", "MaiPDF"]
+title: 'Sécurité PDF : bonnes pratiques (version courte)'
+description: >-
+  Un checklist simple pour partager des PDFs plus proprement : lien, réglages
+  d’accès si besoin, suivi, et mise à jour via Replace File.
+pubDate: Jan 26 2026
+tags:
+  - pdf
+  - sécurité
+  - partage
+  - MaiPDF
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 La plupart des fuites viennent de **copies incontrôlées** (pièces jointes, re-partage) et de l’absence de **traçabilité**.

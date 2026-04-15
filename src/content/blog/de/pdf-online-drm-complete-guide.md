@@ -1,9 +1,20 @@
 ---
-title: "PDF Online DRM: Vollständiger Leitfaden für Online PDF Digital Rights Management"
-description: "Erfahren Sie mehr über PDF Online DRM (Digital Rights Management). Vollständiger Leitfaden zu Online-PDF-Schutz, Zugriffskontrolle, Ansichtslimits, Download-Verhinderung und sicherem PDF-Sharing. Schützen Sie Ihre PDFs online mit DRM-Technologie."
-pubDate: "Dec 30 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF Online DRM", "Online DRM", "PDF DRM", "Digital Rights Management", "PDF-Schutz"]
+title: >-
+  PDF Online DRM: Vollständiger Leitfaden für Online PDF Digital Rights
+  Management
+description: >-
+  Erfahren Sie mehr über PDF Online DRM (Digital Rights Management).
+  Vollständiger Leitfaden zu Online-PDF-Schutz, Zugriffskontrolle,
+  Ansichtslimits, Download-Verhinderung und sicherem PDF-Sharing. Schützen Sie
+  Ihre PDFs online mit DRM-Technologie.
+pubDate: Dec 30 2025
+heroImage: /maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg
+tags:
+  - PDF Online DRM
+  - Online DRM
+  - PDF DRM
+  - Digital Rights Management
+  - PDF-Schutz
 ---
 
 # PDF Online DRM: Vollständiger Leitfaden für Online PDF Digital Rights Management
@@ -12,7 +23,7 @@ tags: ["PDF Online DRM", "Online DRM", "PDF DRM", "Digital Rights Management", "
   <p>Müssen Sie Ihre PDF-Dokumente online schützen? <strong>PDF Online DRM</strong> (Digital Rights Management) ermöglicht es Ihnen, den Zugriff zu kontrollieren, Downloads zu verhindern, Ansichten zu begrenzen und die Nutzung Ihrer PDFs zu verfolgen. Dieser vollständige Leitfaden erklärt, wie Online-DRM funktioniert, seine Funktionen und wie Sie PDF-Online-DRM-Schutz für Ihre Dokumente implementieren.</p>
 </div>
 
-![PDF Online DRM Einstellungen](/maipdf-images/security_setting.png)
+![PDF Online DRM Einstellungen](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 ## Was ist PDF Online DRM?
 

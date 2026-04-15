@@ -1,8 +1,13 @@
 ---
-title: "PDFアクセスのメール認証（クイックフロー）"
-description: "PDFリンクを開く前にメール認証を入れる理由と、最短フローを図で説明します。"
-pubDate: "Jan 15 2026"
-tags: ["PDFセキュリティ", "アクセス制御", "メール認証", "ビジュアルガイド"]
+title: PDFアクセスのメール認証（クイックフロー）
+description: PDFリンクを開く前にメール認証を入れる理由と、最短フローを図で説明します。
+pubDate: Jan 15 2026
+tags:
+  - PDFセキュリティ
+  - アクセス制御
+  - メール認証
+  - ビジュアルガイド
+heroImage: /maipdf2026/show_off/email verification_only sepcified people can receive.png
 ---
 
 # PDFアクセスのメール認証（クイックフロー）

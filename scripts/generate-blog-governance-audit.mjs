@@ -1,8 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { BLOG_GOVERNANCE_OVERRIDES } from "./blog-governance-config.mjs";
 import {
   buildGovernanceRows,
-  buildRedirectMap,
   buildSummaryMarkdown,
   toCsv,
 } from "./blog-governance-lib.mjs";
@@ -12,7 +12,14 @@ const summaryPath = path.join(process.cwd(), "BLOG-GOVERNANCE-ROUND1.md");
 const redirectModulePath = path.join(process.cwd(), "src", "data", "blog-legacy-redirects.mjs");
 
 const rows = await buildGovernanceRows();
-const redirects = buildRedirectMap(rows);
+
+// Redirects should be generated from governance overrides directly so legacy sources
+// can be removed from the content collection without losing the 301 map.
+const redirects = Object.fromEntries(
+  Object.entries(BLOG_GOVERNANCE_OVERRIDES)
+    .filter(([_, override]) => override?.action === "301" && override?.targetSlug)
+    .map(([key, override]) => [`/blog/${key}`, `/blog/${override.targetSlug}`]),
+);
 
 await fs.mkdir(path.dirname(redirectModulePath), { recursive: true });
 await fs.writeFile(auditCsvPath, toCsv(rows), "utf8");

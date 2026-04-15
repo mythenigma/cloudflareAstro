@@ -1,8 +1,14 @@
 ---
-title: "Liens PDF vérifiés par e-mail : limiter l’accès via transfert"
-description: "Un moyen rapide de réduire le transfert de liens : exiger une vérification e-mail avant d’ouvrir un PDF."
-pubDate: "Jan 15 2026"
-tags: ["Sécurité PDF", "Contrôle d'accès", "Vérification e-mail"]
+title: 'Liens PDF vérifiés par e-mail : limiter l’accès via transfert'
+description: >-
+  Un moyen rapide de réduire le transfert de liens : exiger une vérification
+  e-mail avant d’ouvrir un PDF.
+pubDate: Jan 15 2026
+tags:
+  - Sécurité PDF
+  - Contrôle d'accès
+  - Vérification e-mail
+heroImage: /maipdf2026/show_off/email verify.png
 ---
 
 # Liens PDF vérifiés par e-mail : limiter l’accès via transfert

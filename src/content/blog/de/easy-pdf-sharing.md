@@ -1,9 +1,15 @@
 ---
-title: "PDFs Einfach Teilen: Einfache Anleitung für Anfänger"
-description: "Erfahren Sie, wie Sie PDFs auf die einfachste Weise teilen. Keine Komplikationen, keine Registrierung, einfach hochladen und in Sekunden teilen."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Einfach", "Teilen", "Anfänger"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDFs Einfach Teilen: Einfache Anleitung für Anfänger'
+description: >-
+  Erfahren Sie, wie Sie PDFs auf die einfachste Weise teilen. Keine
+  Komplikationen, keine Registrierung, einfach hochladen und in Sekunden teilen.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Einfach
+  - Teilen
+  - Anfänger
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # PDFs Einfach Teilen: Einfache Anleitung für Anfänger
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Teilen von PDFs muss nicht kompliziert sein. Mit modernen Tools können Sie PDF-Dokumente unglaublich einfach teilen, ohne Registrierung, ohne komplizierte Einrichtung, einfach hochladen und in Sekunden teilen.</p>
 </div>
 
-![PDFs Einfach Teilen](/diagram/en/features-overview.svg)
+![PDFs Einfach Teilen](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🎯 Was Macht das PDF-Sharing Einfach?
 

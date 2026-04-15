@@ -1,8 +1,14 @@
 ---
-title: "QR-Codes für Dokumentverteilung: vom Link zum Scan"
-description: "Kurz und praktisch: wie QR-Codes die Dokumentverteilung über Print und digitale Kanäle beschleunigen."
-pubDate: "Jan 15 2026"
-tags: ["QR-Codes", "Dokumentenverteilung", "Sharing-Workflow"]
+title: 'QR-Codes für Dokumentverteilung: vom Link zum Scan'
+description: >-
+  Kurz und praktisch: wie QR-Codes die Dokumentverteilung über Print und
+  digitale Kanäle beschleunigen.
+pubDate: Jan 15 2026
+tags:
+  - QR-Codes
+  - Dokumentenverteilung
+  - Sharing-Workflow
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 # QR-Codes für Dokumentverteilung: vom Link zum Scan

@@ -1,8 +1,15 @@
 ---
-title: "E-Mail-Verifizierung für PDF-Zugriff (Quick Flow)"
-description: "Kurz und visuell: warum E-Mail-Verifizierung hilft, bevor ein PDF-Link geöffnet werden darf."
-pubDate: "Jan 15 2026"
-tags: ["PDF-Sicherheit", "Zugriffskontrolle", "E-Mail-Verifizierung", "Visueller Guide"]
+title: E-Mail-Verifizierung für PDF-Zugriff (Quick Flow)
+description: >-
+  Kurz und visuell: warum E-Mail-Verifizierung hilft, bevor ein PDF-Link
+  geöffnet werden darf.
+pubDate: Jan 15 2026
+tags:
+  - PDF-Sicherheit
+  - Zugriffskontrolle
+  - E-Mail-Verifizierung
+  - Visueller Guide
+heroImage: /maipdf2026/show_off/email verification_only sepcified people can receive.png
 ---
 
 # E-Mail-Verifizierung für PDF-Zugriff (Quick Flow)

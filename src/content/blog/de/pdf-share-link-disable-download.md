@@ -1,9 +1,16 @@
 ---
-title: "PDF-Link Teilen mit Download-Deaktivierung: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie PDF-Links teilen und Downloads deaktivieren. Vollständiger Leitfaden zum Teilen von PDF-Links mit Download-Schutz und Sicherheitsfunktionen."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Link", "Download", "Schutz"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF-Link Teilen mit Download-Deaktivierung: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie PDF-Links teilen und Downloads deaktivieren.
+  Vollständiger Leitfaden zum Teilen von PDF-Links mit Download-Schutz und
+  Sicherheitsfunktionen.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Link
+  - Download
+  - Schutz
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
 ---
 
 # PDF-Link Teilen mit Download-Deaktivierung: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Teilen von PDF-Links mit deaktiviertem Download bietet zusätzliche Sicherheit für Ihre Dokumente. Erfahren Sie, wie Sie Links teilen und gleichzeitig verhindern, dass Empfänger Ihre Dokumente herunterladen.</p>
 </div>
 
-![PDF-Link mit Download-Schutz](/diagram/en/features-overview.svg)
+![PDF-Link mit Download-Schutz](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🎯 Warum Download Deaktivieren?
 

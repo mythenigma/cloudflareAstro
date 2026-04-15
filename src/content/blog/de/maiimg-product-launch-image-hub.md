@@ -1,8 +1,10 @@
 ---
-title: "Kurzguide: Maiimg Product Launch Image Hub"
-description: "Ein kurzer Artikel zu maiimg product launch image hub – mit Diagramm."
-pubDate: "Jan 15 2026"
-tags: ["Image Sharing"]
+title: 'Kurzguide: Maiimg Product Launch Image Hub'
+description: Ein kurzer Artikel zu maiimg product launch image hub – mit Diagramm.
+pubDate: Jan 15 2026
+tags:
+  - Image Sharing
+heroImage: /maiimg/maiimg-head.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->
@@ -14,7 +16,7 @@ tags: ["Image Sharing"]
   <p>Ein kurzer Artikel zu maiimg product launch image hub – mit Diagramm.</p>
 </div>
 
-![Diagram](/diagram/en/bulk-image-gallery-workflow.svg)
+![Diagram](/maiimg/maiimg-head.png)
 
 ## Wichtige Punkte
 - Was es ist: ein schneller Überblick über das Thema.

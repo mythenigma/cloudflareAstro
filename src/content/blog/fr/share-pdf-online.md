@@ -1,8 +1,14 @@
 ---
-title: "Partager un PDF en ligne : lien, contrôle minimal, mise à jour propre"
-description: "Un guide court pour partager un PDF par lien et garder un minimum de maîtrise (sans promesses exagérées)."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "pdf", "sharing"]
+title: 'Partager un PDF en ligne : lien, contrôle minimal, mise à jour propre'
+description: >-
+  Un guide court pour partager un PDF par lien et garder un minimum de maîtrise
+  (sans promesses exagérées).
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - pdf
+  - sharing
+heroImage: /maipdf2026/show_off/share_pdf_online-show.png
 ---
 
 Partager un PDF “en ligne” revient souvent à une chose : **un lien unique** plutôt que des fichiers envoyés partout.
@@ -27,11 +33,11 @@ flowchart TD
 
 > Note : on ne suppose pas une “date d’expiration” comme option.
 
-![Upload](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload](/maipdf2026/show_off/share_pdf_online-show.png)
 
-![Link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link and QR](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
-![Access records](/2025MayMaiPDF/PDF_ACCESS_RECORDS.png)
+![Access records](/maipdf2026/page_redirect_to_accessRecord.png)
 
 Référence (remplacer le fichier sans changer le lien) : `https://sendpdfonline.com/article/replace-pdf-without-changing-link-zh`
 

@@ -1,9 +1,15 @@
 ---
-title: "Kostenloses PDF-Sharing: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie PDFs kostenlos teilen. Vollständiger Leitfaden zu kostenlosem PDF-Sharing, kostenlosen Tools und effizientem Dokumenten-Sharing."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Kostenlos", "Sharing", "Tools"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Kostenloses PDF-Sharing: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie PDFs kostenlos teilen. Vollständiger Leitfaden zu
+  kostenlosem PDF-Sharing, kostenlosen Tools und effizientem Dokumenten-Sharing.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Kostenlos
+  - Sharing
+  - Tools
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # Kostenloses PDF-Sharing: Vollständiger Leitfaden
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Kostenloses PDF-Sharing ermöglicht es Ihnen, Dokumente ohne Kosten zu teilen. Diese Anleitung zeigt Ihnen, wie Sie kostenlose PDF-Sharing-Tools nutzen und Ihre Dokumente effizient teilen können.</p>
 </div>
 
-![Kostenloses PDF-Sharing](/diagram/en/features-overview.svg)
+![Kostenloses PDF-Sharing](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🎯 Warum Kostenloses PDF-Sharing?
 

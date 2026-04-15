@@ -1,8 +1,13 @@
 ---
-title: "PDF共有の設定（MaiPDFアップロード画面）"
-description: "アップロード画面で見える設定を、わかりやすく説明します。"
-pubDate: "Jan 15 2026"
-tags: ["文書セキュリティ", "セキュリティ設計", "暗号化", "アクセス制御"]
+title: PDF共有の設定（MaiPDFアップロード画面）
+description: アップロード画面で見える設定を、わかりやすく説明します。
+pubDate: Jan 15 2026
+tags:
+  - 文書セキュリティ
+  - セキュリティ設計
+  - 暗号化
+  - アクセス制御
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
 ---
 
 # PDF共有の設定
@@ -11,7 +16,7 @@ tags: ["文書セキュリティ", "セキュリティ設計", "暗号化", "ア
   <p>ここでは<strong>アップロード画面の設定項目</strong>だけをわかりやすく説明します。</p>
 </div>
 
-![PDF共有の設定](/diagram/ja/pdf-sharing-settings.svg)
+![PDF共有の設定](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 5つの設定項目
 

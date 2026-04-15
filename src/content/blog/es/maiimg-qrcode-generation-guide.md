@@ -1,9 +1,16 @@
 ---
-title: "Maiimg Generación de Código QR: Guía Completa para Crear Códigos QR"
-description: "Aprenda cómo generar códigos QR con Maiimg. Guía completa sobre generación de códigos QR, creación de códigos QR y compartir imágenes con códigos QR."
-pubDate: "Dec 29 2025"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["Generación de Código QR", "Creación de Código QR", "Maiimg Código QR", "Compartir Imágenes", "Código QR"]
+title: 'Maiimg Generación de Código QR: Guía Completa para Crear Códigos QR'
+description: >-
+  Aprenda cómo generar códigos QR con Maiimg. Guía completa sobre generación de
+  códigos QR, creación de códigos QR y compartir imágenes con códigos QR.
+pubDate: Dec 29 2025
+heroImage: /maiimg/image_result.png
+tags:
+  - Generación de Código QR
+  - Creación de Código QR
+  - Maiimg Código QR
+  - Compartir Imágenes
+  - Código QR
 ---
 
 # Maiimg Generación de Código QR: Guía Completa para Crear Códigos QR
@@ -12,7 +19,7 @@ tags: ["Generación de Código QR", "Creación de Código QR", "Maiimg Código Q
   <p>Los códigos QR son una forma simple y efectiva de compartir imágenes. La <strong>generación de códigos QR de Maiimg</strong> proporciona soluciones completas para crear códigos QR para compartir imágenes.</p>
 </div>
 
-![Maiimg Generación de Código QR](/maiimg/maiimg-head.png)
+![Maiimg Generación de Código QR](/maiimg/image_result.png)
 
 ## ¿Qué es la Generación de Código QR?
 

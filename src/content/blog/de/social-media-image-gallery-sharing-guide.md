@@ -1,8 +1,14 @@
 ---
-title: "Bild-Galerien für Social Media teilen: ein einfacher Workflow mit Maiimg"
-description: "Viele Bilder, ein Link: So teilst du Kampagnen-Assets und Referenzen ohne Dateichaos."
-pubDate: "Jan 21 2026"
-tags: ["maiimg", "image sharing", "social media"]
+title: 'Bild-Galerien für Social Media teilen: ein einfacher Workflow mit Maiimg'
+description: >-
+  Viele Bilder, ein Link: So teilst du Kampagnen-Assets und Referenzen ohne
+  Dateichaos.
+pubDate: Jan 21 2026
+tags:
+  - maiimg
+  - image sharing
+  - social media
+heroImage: /maiimg/maiimg-head.png
 ---
 
 Bei Social-Media-Projekten geht es selten um ein einzelnes Bild. Meist sind es **viele Assets** (Varianten, Formate, Screenshots) – und genau da eskalieren Anhänge in E‑Mails oder Chats.

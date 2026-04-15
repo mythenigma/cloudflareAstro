@@ -1,9 +1,13 @@
 ---
-title: "🔐 PDF 암호화 및 보호 도구: 암호화를 넘어선 보안"
-description: "PDF를 암호화하고 보호하는 현대적인 도구를 통해 단순한 암호화를 넘어선 보안과 제어를 경험하세요."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF 보안", "문서 보호", "디지털 권한 관리", "암호화"]
+title: "\U0001F510 PDF 암호화 및 보호 도구: 암호화를 넘어선 보안"
+description: PDF를 암호화하고 보호하는 현대적인 도구를 통해 단순한 암호화를 넘어선 보안과 제어를 경험하세요.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDF 보안
+  - 문서 보호
+  - 디지털 권한 관리
+  - 암호화
 ---
 
 # 🔐 PDF 암호화 및 보호 도구: 암호화를 넘어선 보안
@@ -13,7 +17,7 @@ tags: ["PDF 보안", "문서 보호", "디지털 권한 관리", "암호화"]
   <p>이 글에서는 암호화의 한계를 살펴보고, 현대적인 도구가 어떻게 PDF에 대한 진정한 제어를 제공하는지 알아봅니다.</p>
 </div>
 
-![PDF 보안 설정](/maipdf-images/security_setting.png)
+![PDF 보안 설정](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🔑 암호화의 한계
 
@@ -66,7 +70,7 @@ MaiPDF와 같은 플랫폼은 다음과 같은 고급 기능을 제공합니다:
 5. **사용 추적**: 누가 파일에 접근했는지, 언제, 어디서 접근했는지 모니터링.
 6. **접근 취소 또는 업데이트**: 공유 후에도 접근을 수정하거나 비활성화.
 
-![업로드 과정](/maipdf-images/upload_section.png)
+![업로드 과정](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## ✅ 이러한 도구를 사용할 때
 

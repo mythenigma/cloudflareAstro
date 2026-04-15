@@ -1,8 +1,14 @@
 ---
-title: "Guía de gestión de documentos PDF para empresas: compartir por enlace"
-description: "Un flujo simple para distribuir PDFs, aplicar controles cuando haga falta y actualizar versiones sin caos."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "enterprise", "pdf"]
+title: 'Guía de gestión de documentos PDF para empresas: compartir por enlace'
+description: >-
+  Un flujo simple para distribuir PDFs, aplicar controles cuando haga falta y
+  actualizar versiones sin caos.
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - enterprise
+  - pdf
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 En entornos corporativos, enviar PDFs como adjuntos suele terminar en **versiones duplicadas** y poca trazabilidad. Una alternativa más ordenada es compartir **un enlace**.
@@ -30,15 +36,15 @@ flowchart TD
 
 ## Subir
 
-![Upload](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Configurar (opcional)
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Compartir por enlace/QR
 
-![Link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link and QR](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## Mantener el enlace y actualizar la versión
 

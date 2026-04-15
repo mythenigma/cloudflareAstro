@@ -1,8 +1,10 @@
 ---
-title: "Guide rapide : PDF Online Viewer Prevent Copy"
-description: "Un article court sur pdf online viewer prevent copy, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["PDF"]
+title: 'Guide rapide : PDF Online Viewer Prevent Copy'
+description: 'Un article court sur pdf online viewer prevent copy, avec un schéma.'
+pubDate: Jan 15 2026
+tags:
+  - PDF
+heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

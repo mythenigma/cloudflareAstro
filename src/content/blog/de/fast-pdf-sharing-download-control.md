@@ -1,26 +1,33 @@
 ---
-title: "Schnelles PDF-Teilen: Sichere Links mit Download-Kontrolle Generieren"
-description: "Erstellen Sie teilbare PDF-Links sofort mit MaiPDF. Kontrollieren Sie, wer Ihre Dateien herunterladen kann, und genießen Sie schnellere Ladegeschwindigkeiten für ein besseres Dokumentenansichtserlebnis."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["PDF-Teilen", "Download-Kontrolle", "Sichere Links", "Schnelles Laden"]
+title: 'Schnelles PDF-Teilen: Sichere Links mit Download-Kontrolle Generieren'
+description: >-
+  Erstellen Sie teilbare PDF-Links sofort mit MaiPDF. Kontrollieren Sie, wer
+  Ihre Dateien herunterladen kann, und genießen Sie schnellere
+  Ladegeschwindigkeiten für ein besseres Dokumentenansichtserlebnis.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF-Teilen
+  - Download-Kontrolle
+  - Sichere Links
+  - Schnelles Laden
 ---
 
 # Schnelles PDF-Teilen: Sichere Links mit Download-Kontrolle Generieren
 
 Das Teilen von PDF-Dokumenten war noch nie einfacher. Mit MaiPDF können Sie jede PDF-Datei hochladen und sofort einen sicheren Freigabe-Link generieren, der Ihnen vollständige Kontrolle darüber gibt, wie andere auf Ihre Dokumente zugreifen.
 
-![MaiPDF Homepage](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Homepage](/maipdf2026/show_off/shareandsend.png)
 
 ## Schnelle Link-Generierung
 
 Der Prozess ist unkompliziert. Laden Sie Ihre PDF-Datei hoch, und MaiPDF erstellt innerhalb von Sekunden einen eindeutigen Freigabe-Link. Keine Registrierung erforderlich, keine komplizierte Einrichtung - einfach hochladen und teilen.
 
-![Upload-Interface](/maipdf-images/upload_section.png)
+![Upload-Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 Nach dem Hochladen erhalten Sie einen sauberen, professionellen Link, den Sie per E-Mail, Messaging-Apps oder anderen Kommunikationsmethoden teilen können. Empfänger können sofort auf Ihr Dokument zugreifen, ohne Konten erstellen oder zusätzliche Software herunterladen zu müssen.
 
-![Link und QR-Code-Ergebnis](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Link und QR-Code-Ergebnis](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## Download-Kontrolloptionen
 

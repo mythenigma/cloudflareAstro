@@ -1,9 +1,16 @@
 ---
-title: "DRM PDF Sin Conexión: Solución Empresarial"
-description: "Aprenda cómo implementar DRM PDF sin conexión para empresas. Guía completa sobre soluciones DRM empresariales, protección sin conexión y seguridad de documentos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "DRM", "Empresarial", "Sin Conexión"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'DRM PDF Sin Conexión: Solución Empresarial'
+description: >-
+  Aprenda cómo implementar DRM PDF sin conexión para empresas. Guía completa
+  sobre soluciones DRM empresariales, protección sin conexión y seguridad de
+  documentos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - DRM
+  - Empresarial
+  - Sin Conexión
+heroImage: /offlinepages/result_download_zip_file.png
 ---
 
 # DRM PDF Sin Conexión: Solución Empresarial
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>DRM PDF sin conexión ofrece a las empresas una solución completa para proteger documentos incluso sin conexión a internet. Esta guía le mostrará cómo implementar soluciones DRM empresariales para protección PDF sin conexión.</p>
 </div>
 
-![DRM PDF Sin Conexión](/diagram/en/features-overview.svg)
+![DRM PDF Sin Conexión](/offlinepages/result_download_zip_file.png)
 
 ## 🎯 ¿Qué es DRM PDF Sin Conexión?
 

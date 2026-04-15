@@ -1,16 +1,25 @@
 ---
-title: "Compartir PDF de Forma Segura: Compartir Documentos Fácil Sin Adjuntos de Correo"
-description: "Suba y comparta archivos PDF en línea de forma segura al instante. Sin límites de tamaño de correo, sin compresión de archivos - solo enlaces limpios y profesionales que funcionan en cualquier dispositivo."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["compartir PDF de forma segura", "compartir seguro", "enlaces de documentos", "compartir archivos"]
+title: >-
+  Compartir PDF de Forma Segura: Compartir Documentos Fácil Sin Adjuntos de
+  Correo
+description: >-
+  Suba y comparta archivos PDF en línea de forma segura al instante. Sin límites
+  de tamaño de correo, sin compresión de archivos - solo enlaces limpios y
+  profesionales que funcionan en cualquier dispositivo.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/securityshowoff.png
+tags:
+  - compartir PDF de forma segura
+  - compartir seguro
+  - enlaces de documentos
+  - compartir archivos
 ---
 
 # Compartir PDF de Forma Segura: Compartir Documentos Fácil Sin Adjuntos de Correo
 
 ¿Cansado de los límites de adjuntos de correo? Omita la molestia de las restricciones de tamaño de archivo y comparta documentos PDF en línea de forma segura con facilidad. MaiPDF le permite subir cualquier PDF y crear enlaces de compartir seguros instantáneos que funcionan perfectamente en todos los dispositivos y plataformas.
 
-![Compartir PDF Mundialmente](/maipdf-images/share_pdf_wordwide.png)
+![Compartir PDF Mundialmente](/maipdf2026/show_off/securityshowoff.png)
 
 ## Por Qué Compartir PDFs de Forma Segura en Línea
 

@@ -1,8 +1,13 @@
 ---
-title: "PDF‑Freigabeeinstellungen (MaiPDF Upload‑Bildschirm)"
-description: "Einfach erklärt: die Einstellungen, die du auf dem Upload‑Bildschirm siehst."
-pubDate: "Jan 15 2026"
-tags: ["Dokumentensicherheit", "Sicherheitsarchitektur", "Verschlüsselung", "Zugriffskontrolle"]
+title: PDF‑Freigabeeinstellungen (MaiPDF Upload‑Bildschirm)
+description: 'Einfach erklärt: die Einstellungen, die du auf dem Upload‑Bildschirm siehst.'
+pubDate: Jan 15 2026
+tags:
+  - Dokumentensicherheit
+  - Sicherheitsarchitektur
+  - Verschlüsselung
+  - Zugriffskontrolle
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
 ---
 
 # PDF‑Freigabeeinstellungen
@@ -11,7 +16,7 @@ tags: ["Dokumentensicherheit", "Sicherheitsarchitektur", "Verschlüsselung", "Zu
   <p>Hier erklären wir <strong>die konkreten Optionen</strong> auf dem Upload‑Bildschirm und wofür sie da sind.</p>
 </div>
 
-![PDF‑Freigabeeinstellungen](/diagram/de/pdf-sharing-settings.svg)
+![PDF‑Freigabeeinstellungen](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Die 5 Einstellungen
 

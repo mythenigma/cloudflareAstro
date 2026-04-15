@@ -1,9 +1,16 @@
 ---
-title: "Ein-Klick-Sharing Mehrerer Bilder: Galerie-Sharing"
-description: "Erfahren Sie, wie Sie mehrere Bilder mit einem Klick teilen. Vollständiger Leitfaden zum Galerie-Sharing, Bulk-Image-Sharing und effizientem Bild-Sharing."
-pubDate: "Jan 17 2026"
-tags: ["Bilder", "Galerie", "Sharing", "Bulk"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Ein-Klick-Sharing Mehrerer Bilder: Galerie-Sharing'
+description: >-
+  Erfahren Sie, wie Sie mehrere Bilder mit einem Klick teilen. Vollständiger
+  Leitfaden zum Galerie-Sharing, Bulk-Image-Sharing und effizientem
+  Bild-Sharing.
+pubDate: Jan 17 2026
+tags:
+  - Bilder
+  - Galerie
+  - Sharing
+  - Bulk
+heroImage: /maiimg/maiimg-head.png
 ---
 
 # Ein-Klick-Sharing Mehrerer Bilder: Galerie-Sharing
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Ein-Klick-Sharing mehrerer Bilder ermöglicht es Ihnen, ganze Galerien mit einem einzigen Klick zu teilen. Diese Anleitung zeigt Ihnen, wie Sie mehrere Bilder effizient teilen und Galerien erstellen können.</p>
 </div>
 
-![Galerie-Sharing](/diagram/en/features-overview.svg)
+![Galerie-Sharing](/maiimg/maiimg-head.png)
 
 ## 🎯 Warum Galerie-Sharing?
 

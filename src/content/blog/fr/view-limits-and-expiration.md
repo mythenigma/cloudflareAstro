@@ -1,8 +1,15 @@
 ---
-title: "Limites de vues et expiration : deux contrôles simples contre le sur-partage"
-description: "Deux contrôles — limites de vues et expiration — réduisent fortement les risques liés aux liens de documents."
-pubDate: "Jan 15 2026"
-tags: ["Contrôle d'accès", "Limites de vues", "Expiration", "Partage de documents"]
+title: 'Limites de vues et expiration : deux contrôles simples contre le sur-partage'
+description: >-
+  Deux contrôles — limites de vues et expiration — réduisent fortement les
+  risques liés aux liens de documents.
+pubDate: Jan 15 2026
+tags:
+  - Contrôle d'accès
+  - Limites de vues
+  - Expiration
+  - Partage de documents
+heroImage: /maipdf2026/show_off/openlimit.png
 ---
 
 # Limites de vues et expiration : deux contrôles simples contre le sur-partage

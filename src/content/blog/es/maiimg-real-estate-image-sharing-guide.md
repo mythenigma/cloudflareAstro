@@ -1,9 +1,16 @@
 ---
-title: "MaiImg Guía de Compartir Imágenes Inmobiliarias: Guía Completa"
-description: "Aprenda cómo compartir imágenes inmobiliarias con MaiImg. Guía completa sobre compartir imágenes inmobiliarias, galerías de propiedades y presentaciones profesionales."
-pubDate: "Jan 17 2026"
-tags: ["Imágenes", "MaiImg", "Inmobiliaria", "Compartir"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'MaiImg Guía de Compartir Imágenes Inmobiliarias: Guía Completa'
+description: >-
+  Aprenda cómo compartir imágenes inmobiliarias con MaiImg. Guía completa sobre
+  compartir imágenes inmobiliarias, galerías de propiedades y presentaciones
+  profesionales.
+pubDate: Jan 17 2026
+tags:
+  - Imágenes
+  - MaiImg
+  - Inmobiliaria
+  - Compartir
+heroImage: /maiimg/maiimg-head.png
 ---
 
 # MaiImg Guía de Compartir Imágenes Inmobiliarias: Guía Completa
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Compartir imágenes inmobiliarias con MaiImg permite a los agentes inmobiliarios crear galerías profesionales y compartir propiedades de forma efectiva. Esta guía le mostrará cómo usar MaiImg para compartir imágenes inmobiliarias.</p>
 </div>
 
-![Compartir Imágenes Inmobiliarias](/diagram/en/features-overview.svg)
+![Compartir Imágenes Inmobiliarias](/maiimg/maiimg-head.png)
 
 ## 🎯 ¿Por Qué MaiImg para Inmobiliaria?
 

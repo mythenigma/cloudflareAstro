@@ -1,8 +1,15 @@
 ---
-title: "PDF-Sharing-Funktionen im Überblick (visueller Guide)"
-description: "Ein schneller visueller Überblick: Online-Controls, Offline-Optionen und die Sicherheits-Schicht dazwischen."
-pubDate: "Jan 15 2026"
-tags: ["PDF teilen", "Zugriffskontrolle", "PDF-Sicherheit", "Visueller Guide"]
+title: PDF-Sharing-Funktionen im Überblick (visueller Guide)
+description: >-
+  Ein schneller visueller Überblick: Online-Controls, Offline-Optionen und die
+  Sicherheits-Schicht dazwischen.
+pubDate: Jan 15 2026
+tags:
+  - PDF teilen
+  - Zugriffskontrolle
+  - PDF-Sicherheit
+  - Visueller Guide
+heroImage: /maipdf2026/show_off/securityshowoff.png
 ---
 
 # PDF-Sharing-Funktionen im Überblick (visueller Guide)

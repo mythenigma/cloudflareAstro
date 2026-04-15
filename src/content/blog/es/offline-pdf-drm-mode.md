@@ -20,7 +20,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
     <p><strong>DRM integrado:</strong> El HTML tiene scripts incorporados que realizan verificaciones de permisos localmente (recuento de vistas, fecha de caducidad, etc.) y registran registros de lectura, similar a Adobe DRM o Locklizard PDC, pero sin requerir lectores especializados.</p>
   </div>
   <div class="feature-image">
-    <img src="/offlinepages/security_setting.png" alt="Interfaz de configuración de seguridad MaiPDF" class="medium">
+    <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="Interfaz de configuración de seguridad MaiPDF" class="medium">
   </div>
 </div>
 
@@ -78,7 +78,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
     <div class="step-content">
       <h3>Subir PDF</h3>
       <p>El archivo se divide en partes, se sube y se cifra para almacenamiento.</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interfaz de carga de PDF" class="small">
+      <img src="/offlinepages/security_setting.png" alt="Interfaz de carga de PDF" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -86,7 +86,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
     <div class="step-content">
       <h3>Configurar Permisos</h3>
       <p>Establecer recuento de vistas, duración, fecha de vencimiento, interruptores de descarga/impresión.</p>
-      <img src="/offlinepages/security_setting.png" alt="Configuración de permisos" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="Configuración de permisos" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -94,7 +94,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
     <div class="step-content">
       <h3>Generar Paquete Offline</h3>
       <p>La plataforma devuelve un paquete comprimido: index.html + assets/.</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Paquete offline generado" class="small">
+      <img src="/offlinepages/security_setting.png" alt="Paquete offline generado" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -113,7 +113,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
     <div class="step-content">
       <h3>Apertura Local</h3>
       <p>Los destinatarios hacen doble clic en index.html para leer sin conexión; si su dispositivo está en línea, los registros se transmiten en segundo plano.</p>
-      <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="Abrir archivo HTML localmente" class="small">
+      <img src="/offlinepages/result_download_zip_file.png" alt="Abrir archivo HTML localmente" class="small">
     </div>
   </div>
 </div>

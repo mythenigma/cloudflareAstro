@@ -1,8 +1,14 @@
 ---
-title: "PDF ersetzen, ohne den Link zu ändern"
-description: "Den gleichen Lese‑Link behalten und Datei sowie Einstellungen mit MaiPDF aktualisieren."
-pubDate: "Jan 16 2026"
-tags: ["PDF", "Link-Verwaltung", "Aktualisierung"]
+title: 'PDF ersetzen, ohne den Link zu ändern'
+description: >-
+  Den gleichen Lese‑Link behalten und Datei sowie Einstellungen mit MaiPDF
+  aktualisieren.
+pubDate: Jan 16 2026
+tags:
+  - PDF
+  - Link-Verwaltung
+  - Aktualisierung
+heroImage: /maipdf2026/show_off/Replace1showoff.png
 ---
 
 # PDF ersetzen, ohne den Link zu ändern

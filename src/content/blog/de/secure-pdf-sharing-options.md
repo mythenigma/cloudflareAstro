@@ -1,9 +1,16 @@
 ---
-title: "Sichere PDF-Sharing-Optionen: Vollständiger Sicherheitsleitfaden"
-description: "Entdecken Sie die besten Optionen zum sicheren Teilen von PDFs. Vollständiger Leitfaden zu sicheren PDF-Sharing-Methoden, Sicherheitsfunktionen und Best Practices."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Sicherheit", "Sicheres Teilen", "Optionen"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Sichere PDF-Sharing-Optionen: Vollständiger Sicherheitsleitfaden'
+description: >-
+  Entdecken Sie die besten Optionen zum sicheren Teilen von PDFs. Vollständiger
+  Leitfaden zu sicheren PDF-Sharing-Methoden, Sicherheitsfunktionen und Best
+  Practices.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Sicherheit
+  - Sicheres Teilen
+  - Optionen
+heroImage: /maipdf2026/show_off/securityshowoff.png
 ---
 
 # Sichere PDF-Sharing-Optionen: Vollständiger Sicherheitsleitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das sichere Teilen von PDF-Dokumenten ist in der heutigen digitalen Welt unerlässlich. Ob für vertrauliche Geschäftsdokumente, rechtliche Verträge oder persönliche Informationen - Sie benötigen Sharing-Optionen, die Ihre Inhalte schützen und gleichzeitig kontrollierten Zugriff ermöglichen.</p>
 </div>
 
-![Sichere PDF-Sharing-Optionen](/diagram/en/features-overview.svg)
+![Sichere PDF-Sharing-Optionen](/maipdf2026/show_off/securityshowoff.png)
 
 ## 🎯 Was ist Sicheres PDF-Sharing?
 

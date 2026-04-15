@@ -1,9 +1,15 @@
 ---
-title: "Convertir PDFs a Enlaces Compartibles: Guía Completa"
-description: "Aprenda cómo convertir PDFs a enlaces compartibles. Guía completa sobre conversión de PDF, generación de enlaces y compartir documentos fácilmente."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Conversión", "Enlaces", "Compartir"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Convertir PDFs a Enlaces Compartibles: Guía Completa'
+description: >-
+  Aprenda cómo convertir PDFs a enlaces compartibles. Guía completa sobre
+  conversión de PDF, generación de enlaces y compartir documentos fácilmente.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Conversión
+  - Enlaces
+  - Compartir
+heroImage: /maipdf2026/show_off/shareandsend.png
 ---
 
 # Convertir PDFs a Enlaces Compartibles: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Convertir PDFs a enlaces compartibles le permite compartir sus documentos fácilmente sin necesidad de adjuntar archivos pesados. Esta guía le enseñará cómo convertir PDFs a enlaces compartibles de forma rápida y segura.</p>
 </div>
 
-![Convertir PDFs a Enlaces](/diagram/en/features-overview.svg)
+![Convertir PDFs a Enlaces](/maipdf2026/show_off/shareandsend.png)
 
 ## 🎯 ¿Por Qué Convertir PDFs a Enlaces?
 

@@ -1,9 +1,19 @@
 ---
-title: "Sicherer Dokumentenaustausch im Gesundheitswesen: Schutz von Patienteninformationen bei verbessertem Zugriff"
-description: "Erfahren Sie, wie Gesundheitsdienstleister Patientendokumente sicher austauschen können – mit verbesserter Kontrolle, Nachverfolgbarkeit und Einhaltung von Datenschutzbestimmungen."
-pubDate: "May 15 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Gesundheitswesen", "Dokumentensicherheit", "HIPAA-Konformität", "Patienteninformationen", "Sicheres Teilen"]
+title: >-
+  Sicherer Dokumentenaustausch im Gesundheitswesen: Schutz von
+  Patienteninformationen bei verbessertem Zugriff
+description: >-
+  Erfahren Sie, wie Gesundheitsdienstleister Patientendokumente sicher
+  austauschen können – mit verbesserter Kontrolle, Nachverfolgbarkeit und
+  Einhaltung von Datenschutzbestimmungen.
+pubDate: May 15 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Gesundheitswesen
+  - Dokumentensicherheit
+  - HIPAA-Konformität
+  - Patienteninformationen
+  - Sicheres Teilen
 ---
 
 # Sicherer Dokumentenaustausch im Gesundheitswesen: Schutz von Patienteninformationen bei verbessertem Zugriff
@@ -12,7 +22,7 @@ tags: ["Gesundheitswesen", "Dokumentensicherheit", "HIPAA-Konformität", "Patien
   <p>Gesundheitsdienstleister stehen vor einer herausfordernden Balance: Sie müssen sensible Patienteninformationen effizient austauschen und gleichzeitig strenge Sicherheits- und Compliance-Anforderungen wie HIPAA einhalten. Herkömmliche Austauschverfahren wie E-Mail-Anhänge oder physische Kopien bergen Risiken für unbefugten Zugriff, während Cloud-Speicherlösungen möglicherweise keine angemessenen Zugriffskontrollen bieten. Dieser Artikel untersucht, wie moderne Dokumentenaustausch-Lösungen wie MaiPDF die sichere Verteilung von Gesundheitsdokumenten revolutionieren können.</p>
 </div>
 
-![Sicherheitseinstellungen für Gesundheitsdokumente](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungen für Gesundheitsdokumente](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Die Herausforderung der Dokumentensicherheit im Gesundheitswesen
 
@@ -38,7 +48,7 @@ Die Möglichkeit, die Identität des Empfängers zu überprüfen, bevor Dokument
 - **Ansichtsbegrenzungen:** Dokumente laufen automatisch nach einer festgelegten Anzahl von Ansichten ab
 - **Zeitlich begrenzter Zugriff:** Dokumente werden nach einem vorgegebenen Zeitraum unzugänglich
 
-![E-Mail-Verifizierungsbildschirm für Dokumentenzugriff](/maipdf-images/get_email_verification_before_read.jpg)
+![E-Mail-Verifizierungsbildschirm für Dokumentenzugriff](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ### 2. Umfassende Prüfprotokolle
 
@@ -51,7 +61,7 @@ Jede Dokumenteninteraktion sollte aufgezeichnet werden, um eine überprüfbare Z
 
 Diese Informationen sind nicht nur für die Sicherheit nützlich – sie sind auch wesentlich, um die Einhaltung von Vorschriften bei Audits nachzuweisen.
 
-![Dashboard zur Dokumentenzugriffsverfolgung](/maipdf-images/check_pdf_open_result.png)
+![Dashboard zur Dokumentenzugriffsverfolgung](/maipdf2026/get_email_verification_before_read.jpg)
 
 ### 3. Verhinderung unbefugter Weitergabe
 
@@ -62,7 +72,7 @@ Gesundheitsdokumente enthalten oft geschützte Gesundheitsinformationen (PHI), d
 - **Kopierschutz:** Blockieren der Textauswahl und des Kopierens sensibler Informationen
 - **Dynamische Wasserzeichen:** Hinzufügen von Empfängerinformationen auf jeder Seite, um Screenshots zu erschweren
 
-![Sicherheitsstufen für Dokumentenschutz](/maipdf-images/security_level_in_pdf_setting.png)
+![Sicherheitsstufen für Dokumentenschutz](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## Implementierungsempfehlungen für Gesundheitsorganisationen
 
@@ -94,7 +104,7 @@ Sicherheitsmaßnahmen sollten keine Barrieren schaffen, die Patienten frustriere
 - **Mobile Optimierung:** Dokumente richtig formatiert für Smartphone-Ansicht
 - **Barrierefreiheitsfunktionen:** Unterstützung für Screenreader und andere Hilfstechnologien
 
-![Browser-basierte Dokumentenansicht](/maipdf-images/pdf_native_view_on_ui.png)
+![Browser-basierte Dokumentenansicht](/maipdf2026/show_off/securityshowoff.png)
 
 ## Praktische Anwendungen im Gesundheitswesen
 

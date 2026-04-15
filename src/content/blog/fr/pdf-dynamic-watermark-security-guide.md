@@ -1,8 +1,12 @@
 ---
-title: "Guide rapide : PDF Dynamic Watermark Security Guide"
-description: "Un article court sur pdf dynamic watermark security guide, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["PDF", "Watermark", "Security"]
+title: 'Guide rapide : PDF Dynamic Watermark Security Guide'
+description: 'Un article court sur pdf dynamic watermark security guide, avec un schéma.'
+pubDate: Jan 15 2026
+tags:
+  - PDF
+  - Watermark
+  - Security
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

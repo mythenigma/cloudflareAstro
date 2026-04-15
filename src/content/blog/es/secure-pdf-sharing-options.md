@@ -1,9 +1,16 @@
 ---
-title: "Opciones de Compartir PDF Seguro: Guía Completa de Seguridad"
-description: "Descubra las mejores opciones para compartir PDFs de forma segura. Guía completa sobre métodos de compartir PDF seguro, características de seguridad y mejores prácticas."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Seguridad", "Compartir Seguro", "Opciones"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Opciones de Compartir PDF Seguro: Guía Completa de Seguridad'
+description: >-
+  Descubra las mejores opciones para compartir PDFs de forma segura. Guía
+  completa sobre métodos de compartir PDF seguro, características de seguridad y
+  mejores prácticas.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Seguridad
+  - Compartir Seguro
+  - Opciones
+heroImage: /maipdf2026/show_off/securityshowoff.png
 ---
 
 # Opciones de Compartir PDF Seguro: Guía Completa de Seguridad
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Compartir documentos PDF de forma segura es esencial en el mundo digital actual. Ya sea para documentos empresariales confidenciales, contratos legales o información personal, necesita opciones de compartir que protejan su contenido mientras permiten acceso controlado.</p>
 </div>
 
-![Opciones de Compartir PDF Seguro](/diagram/en/features-overview.svg)
+![Opciones de Compartir PDF Seguro](/maipdf2026/show_off/securityshowoff.png)
 
 ## 🎯 ¿Qué es el Compartir PDF Seguro?
 

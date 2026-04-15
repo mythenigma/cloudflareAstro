@@ -1,9 +1,13 @@
 ---
-title: "研修資料を安全に配布するには？PDFを無造作に送るのはやめましょう"
-description: "教育業界でPDF研修資料を安全に共有し、内容の流出や盗用を防ぎ、資料管理の専門性を高める方法。"
-pubDate: "2025-06-05"
-tags: ["PDF安全共有", "教育研修", "コンテンツ保護", "権限管理"]
-heroImage: "/maipdf-images/check_pdf_open_result.png"
+title: 研修資料を安全に配布するには？PDFを無造作に送るのはやめましょう
+description: 教育業界でPDF研修資料を安全に共有し、内容の流出や盗用を防ぎ、資料管理の専門性を高める方法。
+pubDate: '2025-06-05'
+tags:
+  - PDF安全共有
+  - 教育研修
+  - コンテンツ保護
+  - 権限管理
+heroImage: /maipdf2026/page_redirect_to_accessRecord.png
 ---
 
 # 研修資料を安全に配布するには？PDFを無造作に送るのはやめましょう

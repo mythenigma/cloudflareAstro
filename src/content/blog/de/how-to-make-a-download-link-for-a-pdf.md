@@ -1,9 +1,17 @@
 ---
-title: "PDF-Download-Link Erstellen: Vollständige Schritt-für-Schritt-Anleitung"
-description: "Erfahren Sie, wie Sie einen Download-Link für ein PDF erstellen. Vollständige Anleitung zu PDF-Upload, Download-Link-Generierung, Freigabemethoden und Best Practices zum Erstellen von herunterladbaren PDF-Links."
-pubDate: "Dec 29 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["PDF-Download-Link", "PDF-Freigabe", "Download-Link", "PDF-Link-Generierung", "Dokument-Download"]
+title: 'PDF-Download-Link Erstellen: Vollständige Schritt-für-Schritt-Anleitung'
+description: >-
+  Erfahren Sie, wie Sie einen Download-Link für ein PDF erstellen. Vollständige
+  Anleitung zu PDF-Upload, Download-Link-Generierung, Freigabemethoden und Best
+  Practices zum Erstellen von herunterladbaren PDF-Links.
+pubDate: Dec 29 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF-Download-Link
+  - PDF-Freigabe
+  - Download-Link
+  - PDF-Link-Generierung
+  - Dokument-Download
 ---
 
 # PDF-Download-Link Erstellen: Vollständige Schritt-für-Schritt-Anleitung
@@ -12,7 +20,7 @@ tags: ["PDF-Download-Link", "PDF-Freigabe", "Download-Link", "PDF-Link-Generieru
   <p>Müssen Sie wissen, <strong>wie man einen Download-Link für ein PDF erstellt</strong>? Diese einfache Anleitung zeigt Ihnen, wie Sie in nur wenigen Schritten herunterladbare PDF-Links erstellen.</p>
 </div>
 
-![MaiPDF Home Landing Page](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Home Landing Page](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Warum Download-Links Verwenden? 📥
 

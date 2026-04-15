@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF Compartir Seguro y Eficiente: Guía Completa"
-description: "Aprenda cómo compartir PDFs de forma segura y eficiente con MaiPDF. Guía completa sobre compartir PDF seguro, eficiencia y mejores prácticas."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "MaiPDF", "Seguro", "Eficiente"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'MaiPDF Compartir Seguro y Eficiente: Guía Completa'
+description: >-
+  Aprenda cómo compartir PDFs de forma segura y eficiente con MaiPDF. Guía
+  completa sobre compartir PDF seguro, eficiencia y mejores prácticas.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - MaiPDF
+  - Seguro
+  - Eficiente
+heroImage: /maipdf2026/show_off/shareandsend.png
 ---
 
 # MaiPDF Compartir Seguro y Eficiente: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>MaiPDF ofrece compartir PDF seguro y eficiente con características de seguridad completas y herramientas fáciles de usar. Esta guía le mostrará cómo compartir PDFs de forma segura y eficiente.</p>
 </div>
 
-![Compartir Seguro y Eficiente](/diagram/en/features-overview.svg)
+![Compartir Seguro y Eficiente](/maipdf2026/show_off/shareandsend.png)
 
 ## 🎯 ¿Por Qué MaiPDF?
 

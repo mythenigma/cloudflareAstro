@@ -1,9 +1,16 @@
 ---
-title: "Inteligencia de Marca de Agua: Protección Avanzada"
-description: "Aprenda cómo usar la inteligencia de marca de agua para protección avanzada. Guía completa sobre marcas de agua inteligentes, protección avanzada y seguridad de documentos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Marca de Agua", "Inteligencia", "Protección"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Inteligencia de Marca de Agua: Protección Avanzada'
+description: >-
+  Aprenda cómo usar la inteligencia de marca de agua para protección avanzada.
+  Guía completa sobre marcas de agua inteligentes, protección avanzada y
+  seguridad de documentos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Marca de Agua
+  - Inteligencia
+  - Protección
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
 ---
 
 # Inteligencia de Marca de Agua: Protección Avanzada
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>La inteligencia de marca de agua ofrece protección avanzada para sus documentos PDF mediante marcas de agua inteligentes que se adaptan y evolucionan. Esta guía le enseñará cómo usar la inteligencia de marca de agua para protección avanzada.</p>
 </div>
 
-![Inteligencia de Marca de Agua](/diagram/en/features-overview.svg)
+![Inteligencia de Marca de Agua](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## 🎯 ¿Qué es la Inteligencia de Marca de Agua?
 

@@ -1,9 +1,13 @@
 ---
-title: "PDFオンラインビューア：オンラインでPDFを表示する方法"
-description: "PDFオンラインビューアの使用方法を学びます。完全ガイドで、PDFオンラインビューア、PDF表示、PDF共有をカバーします。"
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["PDFオンラインビューア", "PDF表示", "PDF共有", "PDFビューア"]
+title: PDFオンラインビューア：オンラインでPDFを表示する方法
+description: PDFオンラインビューアの使用方法を学びます。完全ガイドで、PDFオンラインビューア、PDF表示、PDF共有をカバーします。
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/pdf native view on ui.png
+tags:
+  - PDFオンラインビューア
+  - PDF表示
+  - PDF共有
+  - PDFビューア
 ---
 
 # PDFオンラインビューア：オンラインでPDFを表示する方法
@@ -12,7 +16,7 @@ tags: ["PDFオンラインビューア", "PDF表示", "PDF共有", "PDFビュー
   <p>PDFオンラインビューアは、現代的なPDF表示ソリューションです。 <strong>PDFオンラインビューア</strong>は、オンラインでPDFを表示するための包括的なツールとソリューションを提供します。</p>
 </div>
 
-![MaiPDFホームページ](/maipdf-images/maipdf_landing_page.png)
+![MaiPDFホームページ](/maipdf2026/pdf native view on ui.png)
 
 ## PDFオンラインビューアとは何か？
 

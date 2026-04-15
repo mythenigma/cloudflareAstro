@@ -1,9 +1,13 @@
 ---
-title: "📲 PDFを即座にダウンロードするQRコードの作成方法"
-description: "オフラインでQRコードを使用して、PDFドキュメントを直接ダウンロードできる最速の方法を学びましょう。"
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["QRコード", "PDF共有", "文書配布", "オフライン共有"]
+title: "\U0001F4F2 PDFを即座にダウンロードするQRコードの作成方法"
+description: オフラインでQRコードを使用して、PDFドキュメントを直接ダウンロードできる最速の方法を学びましょう。
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - QRコード
+  - PDF共有
+  - 文書配布
+  - オフライン共有
 ---
 
 # 📲 PDFを即座にダウンロードするQRコードの作成方法
@@ -13,7 +17,7 @@ tags: ["QRコード", "PDF共有", "文書配布", "オフライン共有"]
   <p>シンプルで、クリーンで、信じられないほど効率的です。</p>
 </div>
 
-![PDFリンクとQRコードの結果](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![PDFリンクとQRコードの結果](/maipdf2026/Result_of_qr_link.png)
 
 ダウンロード可能なPDFに直接つながるQRコードを作成する方法と、2025年にドキュメントを共有するための最もスマートな方法である理由を紹介します。
 
@@ -41,7 +45,7 @@ QRコードは今やどこにでもあります。それには理由がありま
 
 誰かがコードをスキャンすると、リンクが開き、PDFはブラウザに応じて自動的にダウンロードされるか、表示/ダウンロード画面で開きます。
 
-![アップロードセクション](/maipdf-images/upload_section.png)
+![アップロードセクション](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🌐 PDFをアップロードする場所
 

@@ -1,16 +1,23 @@
 ---
-title: "Compartir PDF en Línea: Compartir Documentos Fácil Sin Adjuntos de Correo"
-description: "Suba y comparta archivos PDF en línea al instante. Sin límites de tamaño de correo, sin compresión de archivos - solo enlaces limpios y profesionales que funcionan en cualquier dispositivo."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["compartir PDF", "compartir en línea", "enlaces de documentos", "compartir archivos"]
+title: 'Compartir PDF en Línea: Compartir Documentos Fácil Sin Adjuntos de Correo'
+description: >-
+  Suba y comparta archivos PDF en línea al instante. Sin límites de tamaño de
+  correo, sin compresión de archivos - solo enlaces limpios y profesionales que
+  funcionan en cualquier dispositivo.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/share_pdf_online-show.png
+tags:
+  - compartir PDF
+  - compartir en línea
+  - enlaces de documentos
+  - compartir archivos
 ---
 
 # Compartir PDF en Línea: Compartir Documentos Fácil Sin Adjuntos de Correo
 
 ¿Cansado de los límites de adjuntos de correo? Omita la molestia de las restricciones de tamaño de archivo y comparta documentos PDF en línea con facilidad. MaiPDF le permite subir cualquier PDF y crear enlaces de compartir instantáneos que funcionan perfectamente en todos los dispositivos y plataformas.
 
-![Compartir PDF Mundialmente](/maipdf-images/share_pdf_wordwide.png)
+![Compartir PDF Mundialmente](/maipdf2026/show_off/share_pdf_online-show.png)
 
 ## Por Qué Compartir PDFs en Línea En Lugar de Adjuntos de Correo
 
@@ -22,7 +29,7 @@ tags: ["compartir PDF", "compartir en línea", "enlaces de documentos", "compart
 
 **Apariencia Profesional**: Enlaces limpios y de marca se ven más profesionales que adjuntos de correo voluminosos.
 
-![Interfaz de Subida](/maipdf-images/upload_section.png)
+![Interfaz de Subida](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Conclusión: Compartir PDF en Línea
 

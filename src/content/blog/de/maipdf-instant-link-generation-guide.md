@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF Sofortige Link-Generierung: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie sofort Links mit MaiPDF generieren. Vollständiger Leitfaden zur schnellen Link-Generierung, PDF-Sharing und QR-Codes."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "MaiPDF", "Links", "Schnell"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'MaiPDF Sofortige Link-Generierung: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie sofort Links mit MaiPDF generieren. Vollständiger
+  Leitfaden zur schnellen Link-Generierung, PDF-Sharing und QR-Codes.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - MaiPDF
+  - Links
+  - Schnell
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 # MaiPDF Sofortige Link-Generierung: Vollständiger Leitfaden
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Die sofortige Link-Generierung mit MaiPDF ermöglicht es Ihnen, teilbare Links für Ihre PDF-Dokumente in Sekunden zu erstellen. Diese Anleitung zeigt Ihnen, wie Sie Links schnell generieren und Ihre PDFs effizient teilen.</p>
 </div>
 
-![Sofortige Link-Generierung](/diagram/en/features-overview.svg)
+![Sofortige Link-Generierung](/maipdf2026/Result_of_qr_link.png)
 
 ## 🎯 Was ist Sofortige Link-Generierung?
 

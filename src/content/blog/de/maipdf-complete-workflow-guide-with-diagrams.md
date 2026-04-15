@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF Vollständiger Workflow-Leitfaden mit Diagrammen"
-description: "Erfahren Sie den vollständigen MaiPDF-Workflow mit Diagrammen. Vollständiger Leitfaden zu PDF-Sharing-Workflows, Prozessen und Best Practices."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "MaiPDF", "Workflow", "Leitfaden"]
-heroImage: "/diagram/en/features-overview.svg"
+title: MaiPDF Vollständiger Workflow-Leitfaden mit Diagrammen
+description: >-
+  Erfahren Sie den vollständigen MaiPDF-Workflow mit Diagrammen. Vollständiger
+  Leitfaden zu PDF-Sharing-Workflows, Prozessen und Best Practices.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - MaiPDF
+  - Workflow
+  - Leitfaden
+heroImage: /maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg
 ---
 
 # MaiPDF Vollständiger Workflow-Leitfaden mit Diagrammen
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Der vollständige MaiPDF-Workflow-Leitfaden zeigt Ihnen Schritt für Schritt, wie Sie PDFs effektiv teilen und verwalten. Diese Anleitung enthält Diagramme und detaillierte Prozesse für optimale Ergebnisse.</p>
 </div>
 
-![MaiPDF Workflow](/diagram/en/features-overview.svg)
+![MaiPDF Workflow](/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg)
 
 ## 🎯 Workflow-Übersicht
 

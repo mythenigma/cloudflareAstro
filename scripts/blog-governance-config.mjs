@@ -1,4 +1,4 @@
-export const BLOG_GOVERNANCE_SCOPE = ["en", "cn"];
+export const BLOG_GOVERNANCE_SCOPE = ["en", "cn", "fr", "de", "ja", "ko", "es"];
 
 /**
  * High-confidence governance actions for round 1.
@@ -340,5 +340,165 @@ export const BLOG_GOVERNANCE_OVERRIDES = {
     targetSlug: "cn/replace-pdf-keep-the-same-link",
     reason: "Duplicate same-link replacement guide with a weaker slug.",
     notes: ["duplicate-intent", "same-link-update"],
+  },
+
+  // French consolidation (Round 1 extension)
+  "fr/first-post": {
+    action: "301",
+    targetSlug: "fr/share-design-portfolio-with-link",
+    reason: "Legacy starter slug overlaps the main French portfolio-sharing guide.",
+    notes: ["legacy-test-slug", "portfolio"],
+  },
+  "fr/second-post": {
+    action: "301",
+    targetSlug: "fr/replace-email-attachments",
+    reason: "Legacy generic slug overlaps the stronger attachment-replacement page.",
+    notes: ["legacy-test-slug", "attachment-replacement"],
+  },
+  "fr/modify-link": {
+    action: "301",
+    targetSlug: "fr/modify-pdf-links",
+    reason: "Short alias overlaps the stronger same-link update guide.",
+    notes: ["duplicate-intent", "same-link-update"],
+  },
+  "fr/pdf-to-qr": {
+    action: "301",
+    targetSlug: "fr/qr-code-pdf-sharing-made-easy",
+    reason: "Same PDF-to-QR task as the canonical QR-sharing page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "fr/qr-codes-future-digital-distribution": {
+    action: "301",
+    targetSlug: "fr/qr-codes-for-document-distribution",
+    reason: "Future-of-distribution framing overlaps the canonical QR document distribution guide.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "fr/generate-pdf-links-work-any-device": {
+    action: "301",
+    targetSlug: "fr/make-pdf-into-a-link",
+    reason: "Auto-generated placeholder should consolidate into the real PDF-to-link guide.",
+    notes: ["gsc-placeholder-history", "duplicate-intent", "sharing-basic"],
+  },
+
+  // German consolidation (Round 1 extension)
+  "de/first-post": {
+    action: "301",
+    targetSlug: "de/secure-portfolio-sharing-for-designers",
+    reason: "Legacy starter slug overlaps the real German portfolio-sharing guide.",
+    notes: ["legacy-test-slug", "portfolio"],
+  },
+  "de/pdf-one-click-share-links-maipdf": {
+    action: "301",
+    targetSlug: "de/upload-pdf-get-link",
+    reason: "One-click share promise overlaps the main upload-and-get-link guide.",
+    notes: ["duplicate-intent", "sharing-basic"],
+  },
+  "de/pdf-qrcode-generation-tutorial": {
+    action: "301",
+    targetSlug: "de/qr-code-pdf-sharing-made-easy",
+    reason: "Tutorial alias should consolidate into the stronger QR-sharing guide.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "de/instant-pdf-link-generation": {
+    action: "301",
+    targetSlug: "de/upload-pdf-get-link",
+    reason: "Thin instant-link variant should fold into the stronger upload-to-link guide.",
+    notes: ["duplicate-intent", "sharing-basic"],
+  },
+  "de/qr-codes-future-digital-distribution": {
+    action: "301",
+    targetSlug: "de/qr-codes-for-document-distribution",
+    reason: "Future-of-distribution framing overlaps the canonical QR document distribution guide.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "de/dynamic-watermarks-on-pdf-cn": {
+    action: "301",
+    targetSlug: "de/pdf-dynamic-watermark-security-guide",
+    reason: "Wrong-language suffix should consolidate into the correct German watermark guide.",
+    notes: ["wrong-language-slug", "watermark"],
+  },
+
+  // Japanese consolidation
+  "ja/first-post": {
+    action: "301",
+    targetSlug: "ja/share-design-portfolio-with-link",
+    reason: "Legacy starter slug overlaps the main Japanese portfolio-sharing guide.",
+    notes: ["legacy-test-slug", "portfolio"],
+  },
+  "ja/pdf-to-qr": {
+    action: "301",
+    targetSlug: "ja/qr-code-pdf-sharing-made-easy",
+    reason: "Same PDF-to-QR task as the canonical Japanese QR sharing page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "ja/qr-codes-future-digital-distribution": {
+    action: "301",
+    targetSlug: "ja/qr-codes-for-document-distribution",
+    reason: "Future-of-distribution framing overlaps the canonical Japanese document distribution page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "ja/generate-pdf-links-work-any-device": {
+    action: "301",
+    targetSlug: "ja/pdf-one-click-share-links-maipdf",
+    reason: "Thin device-compatibility variant overlaps the stronger one-click link generation guide.",
+    notes: ["duplicate-intent", "sharing-basic"],
+  },
+
+  // Korean consolidation
+  "ko/first-post": {
+    action: "301",
+    targetSlug: "ko/share-design-portfolio-with-link",
+    reason: "Legacy starter slug overlaps the main Korean portfolio-sharing guide.",
+    notes: ["legacy-test-slug", "portfolio"],
+  },
+  "ko/pdf-to-qr": {
+    action: "301",
+    targetSlug: "ko/qr-code-pdf-sharing-made-easy",
+    reason: "Same PDF-to-QR task as the canonical Korean QR sharing page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "ko/maipdf-qrcode-generation-guide": {
+    action: "301",
+    targetSlug: "ko/qr-code-pdf-sharing-made-easy",
+    reason: "Overlapping QR-generation slug should consolidate into the main QR PDF sharing page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "ko/partage-pdf-en-ligne-securise-guide-complet": {
+    action: "301",
+    targetSlug: "ko/pdf-sharing-introduction",
+    reason: "Auto-generated cross-language placeholder slug should consolidate into the Korean sharing introduction.",
+    notes: ["gsc-placeholder-history", "wrong-language-slug", "duplicate-intent", "sharing-basic"],
+  },
+
+  // Spanish consolidation
+  "es/first-post": {
+    action: "301",
+    targetSlug: "es/share-design-portfolio-with-link",
+    reason: "Legacy starter slug overlaps the main Spanish portfolio-sharing guide.",
+    notes: ["legacy-test-slug", "portfolio"],
+  },
+  "es/pdf-to-qr": {
+    action: "301",
+    targetSlug: "es/qr-code-pdf-sharing-made-easy",
+    reason: "Same PDF-to-QR task as the canonical Spanish QR sharing page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "es/qr-codes-future-digital-distribution": {
+    action: "301",
+    targetSlug: "es/qr-code-pdf-sharing-made-easy",
+    reason: "Future-of-distribution framing overlaps the canonical Spanish QR PDF sharing page.",
+    notes: ["duplicate-intent", "qr-sharing"],
+  },
+  "es/quick-pdf-links": {
+    action: "301",
+    targetSlug: "es/upload-pdf-get-link",
+    reason: "Quick-link wording overlaps the core upload-and-get-link page.",
+    notes: ["duplicate-intent", "sharing-basic"],
+  },
+  "es/dynamic-watermarks-on-pdf-cn": {
+    action: "301",
+    targetSlug: "es/pdf-dynamic-watermark-security-guide",
+    reason: "Wrong-language suffix should consolidate into the correct Spanish watermark guide.",
+    notes: ["wrong-language-slug", "watermark"],
   },
 };

@@ -1,9 +1,16 @@
 ---
-title: "🔒 Restringir el Número de Visualizaciones de un PDF Compartido – Así es Cómo"
-description: "Aprenda a controlar no solo quién puede acceder a sus archivos PDF, sino también cuántas veces pueden ser visualizados, con soluciones prácticas que mantienen su contenido sensible seguro."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Seguridad PDF", "Compartir Documentos", "Límites de Visualización", "Protección de Contenido"]
+title: "\U0001F512 Restringir el Número de Visualizaciones de un PDF Compartido – Así es Cómo"
+description: >-
+  Aprenda a controlar no solo quién puede acceder a sus archivos PDF, sino
+  también cuántas veces pueden ser visualizados, con soluciones prácticas que
+  mantienen su contenido sensible seguro.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - Seguridad PDF
+  - Compartir Documentos
+  - Límites de Visualización
+  - Protección de Contenido
 ---
 
 Compartir un PDF en línea es fácil. ¿Controlar cuántas veces puede ser visto? Ese es el desafío.
@@ -14,7 +21,7 @@ Aquí hay un simple desglose de por qué podría querer restringir las visualiza
 
 ## 🎯 ¿Por Qué Limitar las Visualizaciones de PDF?
 
-![Configuración de seguridad PDF](/maipdf-images/security_setting.png)
+![Configuración de seguridad PDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 No todos los PDF deberían vivir para siempre. Limitar las visualizaciones es útil cuando:
 

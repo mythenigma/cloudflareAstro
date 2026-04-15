@@ -1,8 +1,11 @@
 ---
-title: "Guide rapide : Enterprise PDF Document Management Guide"
-description: "Un article court sur enterprise pdf document management guide, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["PDF", "Security"]
+title: 'Guide rapide : Enterprise PDF Document Management Guide'
+description: 'Un article court sur enterprise pdf document management guide, avec un schéma.'
+pubDate: Jan 15 2026
+tags:
+  - PDF
+  - Security
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

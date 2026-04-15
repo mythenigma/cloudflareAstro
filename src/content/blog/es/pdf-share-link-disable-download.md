@@ -1,212 +1,58 @@
 ---
-title: "Deshabilitar Descarga en Enlaces PDF: Protección de Documentos"
-description: "Aprenda cómo deshabilitar la descarga en enlaces PDF compartidos. Proteja sus documentos permitiendo solo visualización sin descarga."
+title: "Enlace PDF sin descarga: modo solo lectura"
+description: "Cómo compartir un enlace a un PDF con el botón de descarga deshabilitado: configuración paso a paso, qué ve el lector y cuándo conviene usar modo solo lectura."
 pubDate: "Jan 17 2026"
-tags: ["PDF", "Seguridad", "Protección", "Control de Acceso"]
-heroImage: "/diagram/en/simple-access-control-flow.svg"
+updatedDate: "Apr 15 2026"
+heroImage: "/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png"
+tags: ["PDF", "Seguridad", "Control de acceso", "Solo lectura", "Deshabilitar descarga"]
+showDefaultCta: true
 ---
 
-# Deshabilitar Descarga en Enlaces PDF: Protección de Documentos
+# Enlace PDF sin descarga: modo solo lectura
 
-<div class="intro-panel">
-  <p>Cuando comparte documentos PDF importantes, a menudo necesita controlar cómo los destinatarios pueden acceder a ellos. Deshabilitar la descarga permite que otros vean sus documentos sin poder guardarlos localmente, proporcionando una capa adicional de seguridad y control.</p>
-</div>
+Cuando envías un PDF como adjunto, el destinatario obtiene una copia local en cuanto lo abre. Esa copia queda fuera de tu control. Un **enlace de solo lectura** funciona distinto: el lector ve todas las páginas en el navegador, pero **no hay botón de descarga** (y, si quieres, tampoco impresión).
 
-![Control de Acceso Simple](/diagram/en/simple-access-control-flow.svg)
+![Visor limpio: lectura completa sin descarga](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
-## 🎯 ¿Por Qué Deshabilitar la Descarga?
+## Cómo crear un enlace de solo lectura en MaiPDF
 
-<div class="reasons-grid">
-  <div class="reason-card">
-    <h3>🔒 Protección de Contenido</h3>
-    <p>Evite que documentos confidenciales se descarguen y se compartan sin autorización.</p>
-  </div>
-  <div class="reason-card">
-    <h3>📊 Control de Distribución</h3>
-    <p>Mantenga control sobre dónde y cómo se accede a sus documentos.</p>
-  </div>
-  <div class="reason-card">
-    <h3>🛡️ Seguridad Mejorada</h3>
-    <p>Reduzca el riesgo de que documentos sensibles se almacenen en dispositivos no seguros.</p>
-  </div>
-  <div class="reason-card">
-    <h3>📈 Seguimiento Mejorado</h3>
-    <p>Sepa exactamente cuándo y cómo se accede a sus documentos.</p>
-  </div>
-</div>
+1. Sube tu PDF en [maipdf.com](https://maipdf.com).
+2. En el panel de ajustes, **deshabilita la descarga** (y opcionalmente la impresión).
+3. Define un **límite de aperturas** y una **fecha de caducidad**.
+4. Genera el enlace y compártelo.
 
-## 📋 Cómo Deshabilitar la Descarga
+![Panel de ajustes: descarga, caducidad y límite](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
-### Proceso Simple
+## Qué experimenta el lector
 
-1. **Suba su PDF**: Cargue su documento a MaiPDF
-2. **Abra Configuración**: Acceda a las opciones de seguridad
-3. **Deshabilite Descarga**: Active la opción para bloquear descargas
-4. **Genere Enlace**: Obtenga su enlace protegido
-5. **Comparta**: Envíe el enlace a los destinatarios
+- **Puede leer todas las páginas**: scroll, zoom y navegación normal
+- **Sin botón de descarga**: se elimina el icono habitual de guardar
+- **Sin impresión** (si la desactivas): se bloquea el diálogo de impresión
+- **Sin “archivo” a mano**: no se incentiva guardar una copia local
 
-### Configuración de Seguridad
+La experiencia es limpia; la mayoría simplemente lee el documento.
 
-<div class="security-settings">
-  <div class="setting-item">
-    <h4>🚫 Bloquear Descarga</h4>
-    <p>Los destinatarios pueden ver pero no descargar el documento.</p>
-  </div>
-  <div class="setting-item">
-    <h4>👁️ Solo Visualización</h4>
-    <p>Acceso limitado a solo ver el contenido en línea.</p>
-  </div>
-  <div class="setting-item">
-    <h4>🔐 Protección Adicional</h4>
-    <p>Combine con otras medidas de seguridad para mayor protección.</p>
-  </div>
-  <div class="setting-item">
-    <h4>📊 Seguimiento de Acceso</h4>
-    <p>Monitoree quién accedió y cuándo.</p>
-  </div>
-</div>
+## Cuándo conviene deshabilitar descargas
 
-## 💡 Casos de Uso
+| Escenario | ¿Descarga off? | Por qué |
+|---|---:|---|
+| Propuesta a un cliente | Sí | Reduce copias no autorizadas mientras se negocia |
+| Contrato en revisión | Sí | Control de versiones: solo la última versión |
+| Reporte de pago / contenido premium | Sí | El valor es el acceso, no el archivo |
+| Borrador de diseño | Sí | Protege trabajo en progreso |
+| Folleto de marketing | No | Quieres distribución amplia |
+| Formulario para firmar | No | A menudo se necesita imprimir |
 
-### Documentos Confidenciales
+## Combínalo con otros controles
 
-- **Contratos**: Comparta contratos que solo se pueden ver, no descargar
-- **Propuestas**: Envíe propuestas comerciales con protección de descarga
-- **Informes**: Distribuya informes sensibles sin riesgo de descarga
+Deshabilitar descarga reduce la redistribución casual. Para más protección:
 
-### Materiales de Propiedad Intelectual
+- **Límite de aperturas**: el enlace se cierra tras N vistas
+- **Caducidad**: el enlace muere en una fecha
+- **Marca de agua**: disuasión e identificación
+- **Verificación por email**: validación antes de cargar el PDF
 
-- **Diseños**: Comparta diseños sin permitir descarga
-- **Documentos de Investigación**: Proteja contenido de investigación
-- **Contenido Creativo**: Comparta contenido creativo con protección
+## Puedes cambiarlo en cualquier momento
 
-### Documentos Temporales
+¿Ya compartiste el enlace? Entra al [Control Center](https://www.maipdf.com/6/control-center.html) y activa/desactiva descarga cuando quieras. El cambio se aplica al siguiente lector y no necesitas reenviar la URL.
 
-- **Borradores**: Comparta borradores que no deben guardarse
-- **Documentos de Revisión**: Permita revisión sin descarga
-- **Materiales de Prueba**: Comparta materiales de prueba temporalmente
-
-## 🔒 Características de Seguridad Adicionales
-
-<div class="additional-security">
-  <div class="security-feature">
-    <h4>⏰ Expiración de Enlaces</h4>
-    <p>Establezca fechas de expiración para acceso temporal.</p>
-  </div>
-  <div class="security-feature">
-    <h4>🔢 Límites de Visualización</h4>
-    <p>Controle cuántas veces se puede ver el documento.</p>
-  </div>
-  <div class="security-feature">
-    <h4>📧 Verificación de Email</h4>
-    <p>Requiera verificación antes del acceso.</p>
-  </div>
-  <div class="security-feature">
-    <h4>🖨️ Prevención de Impresión</h4>
-    <p>Bloquee la impresión para mayor protección.</p>
-  </div>
-</div>
-
-## 🎯 Ventajas de Deshabilitar Descarga
-
-<div class="advantages-list">
-  <div class="advantage-item">
-    <h4>🔐 Mayor Seguridad</h4>
-    <p>Los documentos no se almacenan localmente, reduciendo riesgos.</p>
-  </div>
-  <div class="advantage-item">
-    <h4>📊 Mejor Control</h4>
-    <p>Mantenga control completo sobre el acceso a sus documentos.</p>
-  </div>
-  <div class="advantage-item">
-    <h4>🔄 Versión Única</h4>
-    <p>Los destinatarios siempre ven la versión más reciente.</p>
-  </div>
-  <div class="advantage-item">
-    <h4>📈 Seguimiento Mejorado</h4>
-    <p>Monitoree el acceso con mayor precisión.</p>
-  </div>
-</div>
-
-## 💡 Mejores Prácticas
-
-1. **Evalúe la Sensibilidad**: Determine qué documentos necesitan protección
-2. **Combine Medidas**: Use múltiples capas de seguridad
-3. **Comunique Claramente**: Informe a los destinatarios sobre las restricciones
-4. **Monitoree el Acceso**: Revise regularmente quién accedió
-5. **Ajuste Según Necesidad**: Modifique la configuración según cambien las necesidades
-
-## 🚀 Cómo Configurar
-
-Para deshabilitar la descarga en MaiPDF:
-
-1. Visite [MaiPDF.com](https://maipdf.com)
-2. Suba su PDF
-3. Abra "Configuración"
-4. Active "Bloquear Descarga"
-5. Genere y comparta su enlace
-
-## 📊 Puntos Clave
-
-- **Seguridad**: Proteja documentos confidenciales
-- **Control**: Mantenga control sobre el acceso
-- **Seguimiento**: Monitoree quién accede y cuándo
-- **Flexibilidad**: Ajuste la configuración según sus necesidades
-- **Profesional**: Presentación profesional con protección
-
-<div class="cta-box">
-  <h3>🚀 Proteja Sus Documentos</h3>
-  <p>Comience a usar protección de descarga con MaiPDF hoy mismo.</p>
-  <a href="https://maipdf.com" class="cta-button">Probar MaiPDF</a>
-</div>
-
-<style>
-  .intro-panel {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    margin: 2rem 0;
-    font-size: 1.1rem;
-    line-height: 1.6;
-  }
-  
-  .reasons-grid, .security-settings, .additional-security, .advantages-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-  }
-  
-  .reason-card, .setting-item, .security-feature, .advantage-item {
-    background: #f8fafc;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    border-left: 4px solid #667eea;
-  }
-  
-  .reason-card h3, .setting-item h4, .security-feature h4, .advantage-item h4 {
-    margin-top: 0;
-    color: #1e293b;
-  }
-  
-  .cta-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    margin: 2rem 0;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    background: white;
-    color: #667eea;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 1rem;
-  }
-</style>

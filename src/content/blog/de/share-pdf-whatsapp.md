@@ -1,9 +1,16 @@
 ---
-title: "PDF auf WhatsApp teilen: Links statt Dateien verwenden"
-description: "Teilen Sie PDF-Dokumente auf WhatsApp mit sauberen Links statt große Dateien zu senden. Schnellere Sharing-Erfahrung, besserer mobiler Zugriff, professionelle Präsentation."
-pubDate: "Jan 17 2026"
-heroImage: "/maifle/网址.png"
-tags: ["PDF", "WhatsApp", "Teilen", "Mobil"]
+title: 'PDF auf WhatsApp teilen: Links statt Dateien verwenden'
+description: >-
+  Teilen Sie PDF-Dokumente auf WhatsApp mit sauberen Links statt große Dateien
+  zu senden. Schnellere Sharing-Erfahrung, besserer mobiler Zugriff,
+  professionelle Präsentation.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF
+  - WhatsApp
+  - Teilen
+  - Mobil
 ---
 
 # PDF auf WhatsApp teilen: Links statt Dateien verwenden
@@ -12,7 +19,7 @@ tags: ["PDF", "WhatsApp", "Teilen", "Mobil"]
   <p>Obwohl WhatsApp Dokumente teilen kann, ist das Senden und Herunterladen großer PDF-Dateien langsam. MaiPDF bietet eine bessere Lösung - konvertieren Sie PDFs in teilbare Links, die perfekt in WhatsApp-Konversationen funktionieren und sofortigen Zugriff ohne Wartezeit bieten.</p>
 </div>
 
-![WhatsApp PDF-Link teilen](/maifle/网址.png)
+![WhatsApp PDF-Link teilen](/maipdf2026/show_off/shareandsend.png)
 
 ## Warum Links besser sind als Dateien auf WhatsApp
 
@@ -37,7 +44,7 @@ tags: ["PDF", "WhatsApp", "Teilen", "Mobil"]
 
 ## So teilen Sie PDFs mit Links auf WhatsApp
 
-![Upload-Interface](/maifle/maipdf_upload_pdf_cn.png)
+![Upload-Interface](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 ### Schritt 1: PDF hochladen
 
@@ -47,7 +54,7 @@ Besuchen Sie [MaiPDF.com](https://maipdf.com) und laden Sie Ihr Dokument hoch. D
 
 Erhalten Sie eine saubere, professionelle URL, perfekt für Messaging.
 
-![Link-Generierungsergebnis](/maifle/maipdf_link_result.png)
+![Link-Generierungsergebnis](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ### Schritt 3: In WhatsApp einfügen
 
@@ -80,7 +87,7 @@ Freunde, Familie oder Kollegen können sofort auf das Dokument zugreifen.
 
 ## Mobile-optimierte Anzeigeerfahrung
 
-![Professioneller PDF-Viewer](/maifle/展示PDF列子.png)
+![Professioneller PDF-Viewer](/maipdf2026/Result_of_qr_link.png)
 
 Wenn Empfänger auf Ihren WhatsApp-PDF-Link klicken, erhalten sie eine mobile-optimierte Anzeigeerfahrung:
 
@@ -92,7 +99,7 @@ Wenn Empfänger auf Ihren WhatsApp-PDF-Link klicken, erhalten sie eine mobile-op
 
 ## Kontrollieren, was Empfänger tun können
 
-![Einstellungskonfiguration](/maifle/setting_example.png)
+![Einstellungskonfiguration](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 <div class="control-features">
   <div class="control-item">

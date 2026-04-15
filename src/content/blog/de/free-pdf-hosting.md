@@ -1,9 +1,16 @@
 ---
-title: "Kostenloses PDF-Hosting: Vollständiger Leitfaden"
-description: "Kostenlos PDF-Dateien online hochladen, teilen und verwalten. Keine Registrierung erforderlich. Verwenden Sie MaiPDF für sicheres PDF-Hosting mit Zugriffskontrolle."
-pubDate: "Jan 15 2026"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["Kostenloses PDF-Hosting", "PDF-Hosting", "Dokument-Sharing", "Sicherer Viewer"]
+title: 'Kostenloses PDF-Hosting: Vollständiger Leitfaden'
+description: >-
+  Kostenlos PDF-Dateien online hochladen, teilen und verwalten. Keine
+  Registrierung erforderlich. Verwenden Sie MaiPDF für sicheres PDF-Hosting mit
+  Zugriffskontrolle.
+pubDate: Jan 15 2026
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - Kostenloses PDF-Hosting
+  - PDF-Hosting
+  - Dokument-Sharing
+  - Sicherer Viewer
 ---
 
 # Kostenloses PDF-Hosting: Vollständiger Leitfaden

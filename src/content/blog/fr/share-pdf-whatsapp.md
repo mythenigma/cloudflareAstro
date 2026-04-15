@@ -1,9 +1,16 @@
 ---
-title: "Partager des PDF sur WhatsApp : Utiliser des Liens au Lieu de Fichiers"
-description: "Partagez des documents PDF sur WhatsApp avec des liens propres au lieu d'envoyer de gros fichiers. Expérience de partage plus rapide, meilleur accès mobile, présentation professionnelle."
-pubDate: "Jan 17 2026"
-heroImage: "/maifle/网址.png"
-tags: ["PDF", "WhatsApp", "Partage", "Mobile"]
+title: 'Partager des PDF sur WhatsApp : Utiliser des Liens au Lieu de Fichiers'
+description: >-
+  Partagez des documents PDF sur WhatsApp avec des liens propres au lieu
+  d'envoyer de gros fichiers. Expérience de partage plus rapide, meilleur accès
+  mobile, présentation professionnelle.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF
+  - WhatsApp
+  - Partage
+  - Mobile
 ---
 
 # Partager des PDF sur WhatsApp : Utiliser des Liens au Lieu de Fichiers
@@ -12,7 +19,7 @@ tags: ["PDF", "WhatsApp", "Partage", "Mobile"]
   <p>Bien que WhatsApp puisse partager des documents, l'envoi et le téléchargement de gros fichiers PDF sont lents. MaiPDF offre une meilleure solution - convertir les PDF en liens partageables qui fonctionnent parfaitement dans les conversations WhatsApp, offrant un accès instantané sans attente.</p>
 </div>
 
-![Partage de Lien PDF WhatsApp](/maifle/网址.png)
+![Partage de Lien PDF WhatsApp](/maipdf2026/show_off/shareandsend.png)
 
 ## Pourquoi les Liens sont Meilleurs que les Fichiers sur WhatsApp
 
@@ -37,7 +44,7 @@ tags: ["PDF", "WhatsApp", "Partage", "Mobile"]
 
 ## Comment Partager des PDF avec des Liens sur WhatsApp
 
-![Interface de Téléchargement](/maifle/maipdf_upload_pdf_cn.png)
+![Interface de Téléchargement](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
 ### Étape 1 : Télécharger le PDF
 
@@ -47,7 +54,7 @@ Visitez [MaiPDF.com](https://maipdf.com) et téléchargez votre document. Le tra
 
 Obtenez une URL propre et professionnelle, parfaite pour la messagerie.
 
-![Résultat de Génération de Lien](/maifle/maipdf_link_result.png)
+![Résultat de Génération de Lien](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ### Étape 3 : Coller dans WhatsApp
 
@@ -80,7 +87,7 @@ Les amis, la famille ou les collègues peuvent accéder au document instantaném
 
 ## Expérience de Visualisation Optimisée Mobile
 
-![Visualiseur PDF Professionnel](/maifle/展示PDF列子.png)
+![Visualiseur PDF Professionnel](/maipdf2026/Result_of_qr_link.png)
 
 Lorsque les destinataires cliquent sur votre lien PDF WhatsApp, ils obtiennent une expérience de visualisation optimisée pour mobile :
 
@@ -92,7 +99,7 @@ Lorsque les destinataires cliquent sur votre lien PDF WhatsApp, ils obtiennent u
 
 ## Contrôler ce que les Destinataires Peuvent Faire
 
-![Configuration des Paramètres](/maifle/setting_example.png)
+![Configuration des Paramètres](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 <div class="control-features">
   <div class="control-item">

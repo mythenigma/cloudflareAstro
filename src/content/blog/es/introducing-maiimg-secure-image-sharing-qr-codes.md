@@ -2,7 +2,7 @@
 title: "Presentando Maiimg: Compartir Imágenes de Forma Segura con Códigos QR"
 description: "Descubra Maiimg.com - la nueva plataforma de intercambio de imágenes seguras que se basa en el éxito de MaiPDF. Suba hasta 25 imágenes, genere códigos QR y controle el acceso con funciones de seguridad avanzadas."
 pubDate: "Jan 17 2026"
-heroImage: "/maiimg/maiimg-head.png"
+heroImage: "/maiimg/result_tracking.png"
 tags: ["QR Code", "Image Sharing", "Maiimg", "Seguridad"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["QR Code", "Image Sharing", "Maiimg", "Seguridad"]
   <p>En el mundo digital actual, compartir imágenes de forma rápida y segura se ha vuelto más importante que nunca. Basándose en el éxito de MaiPDF, que se especializa en la distribución segura de documentos, el equipo ha lanzado una plataforma completamente nueva: <strong>Maiimg.com</strong>. Este nuevo servicio aporta el mismo enfoque en privacidad, control y conveniencia a las imágenes, permitiendo a los usuarios subir fotos, generar enlaces seguros e intercambiar códigos QR instantáneamente.</p>
 </div>
 
-![Flujo de Trabajo Maiimg QR Code](/diagram/es/maiimg-qr-code-sharing-workflow.svg)
+![Flujo de Trabajo Maiimg QR Code](/maiimg/result_tracking.png)
 
 ## 🚀 Características Principales
 
@@ -39,7 +39,7 @@ Maiimg protege sus imágenes convirtiéndolas en enlaces controlados. A diferenc
 
 ### 📦 Cargas Múltiples
 
-![Sección de Carga](/maiimg/maiimg-head.png)
+![Sección de Carga](/maiimg/result_tracking.png)
 
 <div class="feature-card">
   <h3>🎯 Suba Hasta 25 Imágenes</h3>
@@ -74,7 +74,7 @@ Maiimg protege sus imágenes convirtiéndolas en enlaces controlados. A diferenc
 
 ## 🌟 ¿Por Qué Maiimg?
 
-![Compartir Imágenes en Todo el Mundo](/maiimg/maiimg-head.png)
+![Compartir Imágenes en Todo el Mundo](/maiimg/result_tracking.png)
 
 Las plataformas tradicionales de alojamiento de imágenes a menudo carecen de control detallado. Una vez que sus imágenes se comparten, pierde el rastro de cómo se usan o acceden. Maiimg cambia eso combinando la facilidad de compartir con herramientas avanzadas de análisis y seguimiento.
 

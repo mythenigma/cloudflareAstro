@@ -1,9 +1,16 @@
 ---
-title: "🛡️ Sichere Dokumentenverteilung für Unternehmensteams"
-description: "Schützen Sie sensible Unternehmensinformationen auch nach der Weitergabe. Erfahren Sie, wie moderne Zugriffskontrollen die Verteilung interner Dokumente ohne das Risiko unerwünschter Weiterleitung oder Lecks ermöglichen."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Unternehmenssicherheit", "Dokumentenaustausch", "Informationssicherheit", "Teamzusammenarbeit"]
+title: "\U0001F6E1️ Sichere Dokumentenverteilung für Unternehmensteams"
+description: >-
+  Schützen Sie sensible Unternehmensinformationen auch nach der Weitergabe.
+  Erfahren Sie, wie moderne Zugriffskontrollen die Verteilung interner Dokumente
+  ohne das Risiko unerwünschter Weiterleitung oder Lecks ermöglichen.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - Unternehmenssicherheit
+  - Dokumentenaustausch
+  - Informationssicherheit
+  - Teamzusammenarbeit
 ---
 
 # 🛡️ Sichere Dokumentenverteilung für Unternehmensteams
@@ -14,7 +21,7 @@ tags: ["Unternehmenssicherheit", "Dokumentenaustausch", "Informationssicherheit"
   <p>Was wäre, wenn Sie die Aufsicht über jedes sensible Dokument behalten könnten, selbst nachdem Sie es mit Ihrem Team geteilt haben?</p>
 </div>
 
-![Unternehmenssicherheitseinstellungen](/maipdf-images/security_level_in_pdf_setting.png)
+![Unternehmenssicherheitseinstellungen](/maipdf2026/show_off/securityshowoff.png)
 
 ## 📊 Informationslecks: Das unsichtbare Unternehmensrisiko
 
@@ -27,7 +34,7 @@ Die meisten Organisationen verlassen sich auf Dokumentenaustauschverfahren, die 
 
 Die unbequeme Wahrheit? Laut aktuellen Forschungen sind bei 74% der Datenschutzverletzungen interne Akteure beteiligt – nicht raffinierte Hacker, sondern alltägliche Mitarbeiter, die Dokumente ohne angemessene Schutzmaßnahmen teilen.
 
-![Risiken bei traditioneller Dokumentenfreigabe](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Risiken bei traditioneller Dokumentenfreigabe](/maipdf2026/flowchart/en-security-layers.svg)
 
 ## 🔒 Die zugriffskontrollierte Alternative
 
@@ -41,7 +48,7 @@ Anstatt Dokumente als übertragbare Objekte zu behandeln, betrachtet moderne Dok
 
 Das Ergebnis ist eine Dokumentenzirkulation, die sowohl Sicherheit als auch Komfort gewährleistet – die ideale Balance für die heutige Unternehmensumgebung.
 
-![Sicherheitskontrollen für Unternehmensdokumente](/maipdf-images/security_setting.png)
+![Sicherheitskontrollen für Unternehmensdokumente](/maipdf2026/show_off/shareandsend.png)
 
 ## 💼 Unternehmensanwendungsfälle, die höhere Kontrolle erfordern
 
@@ -62,7 +69,7 @@ Das Ergebnis ist eine Dokumentenzirkulation, die sowohl Sicherheit als auch Komf
 
 Jeder dieser Dokumententypen enthält Informationen, die Ihrer Organisation schaden könnten, wenn sie unsachgemäß geteilt oder durchgesickert werden.
 
-![Weltweite sichere Dokumentenfreigabe](/maipdf-images/share_pdf_wordwide.png)
+![Weltweite sichere Dokumentenfreigabe](/maipdf2026/show_off/shareandsend.png)
 
 ## 🔐 Implementierung: Praktische Sicherheit ohne Reibungsverluste
 
@@ -80,7 +87,7 @@ Moderne sichere Dokumentenplattformen wie MaiPDF machen die Implementierung unko
 
 Empfänger klicken einfach auf den Link und sehen den Inhalt in ihrem Browser an – keine speziellen Apps, keine komplizierten Logins, keine Workflow-Unterbrechung.
 
-![Upload-Prozess für sichere Dokumente](/maipdf-images/upload_section.png)
+![Upload-Prozess für sichere Dokumente](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 📱 Zugang ohne Kompromisse
 
@@ -94,7 +101,7 @@ Der Hauptvorteil moderner Dokumentenkontrollsysteme ist, dass sie Sicherheit mit
 
 Dieser Ansatz macht die Einführung schmerzlos, während er Ihre Sicherheitslage dramatisch verbessert.
 
-![Überprüfung der Dokumentenzugriffsprotokolle](/maipdf-images/check_pdf_open_result.png)
+![Überprüfung der Dokumentenzugriffsprotokolle](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## 📈 Messbare Sicherheitsverbesserungen
 
@@ -108,7 +115,7 @@ Organisationen, die zugriffskontrollierte Dokumentenfreigabe implementieren, ber
 
 Diese Vorteile erstrecken sich über das Sicherheitsteam hinaus und verbessern die Abläufe in der gesamten Organisation.
 
-![Sicherheitseinstellungsaktualisierungen nach der Freigabe](/maipdf-images/pdf_change_setting_after_sent.png)
+![Sicherheitseinstellungsaktualisierungen nach der Freigabe](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ## 🔄 Beispiel: Quartalsfinanzprüfung
 

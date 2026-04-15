@@ -1,9 +1,17 @@
 ---
-title: "¿Cómo compartir materiales de formación de forma segura? ¡No envíes PDFs sin control!"
-description: "Cómo compartir de forma segura materiales PDF en el sector educativo, evitar fugas y plagio, y mejorar la gestión profesional de documentos."
-pubDate: "2025-06-05"
-tags: ["PDF seguro", "formación educativa", "protección de contenido", "control de permisos"]
-heroImage: "/maipdf-images/check_pdf_open_result.png"
+title: >-
+  ¿Cómo compartir materiales de formación de forma segura? ¡No envíes PDFs sin
+  control!
+description: >-
+  Cómo compartir de forma segura materiales PDF en el sector educativo, evitar
+  fugas y plagio, y mejorar la gestión profesional de documentos.
+pubDate: '2025-06-05'
+tags:
+  - PDF seguro
+  - formación educativa
+  - protección de contenido
+  - control de permisos
+heroImage: /maipdf2026/page_redirect_to_accessRecord.png
 ---
 
 # ¿Cómo compartir materiales de formación de forma segura? ¡No envíes PDFs sin control!

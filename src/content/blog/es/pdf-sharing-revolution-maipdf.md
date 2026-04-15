@@ -1,9 +1,16 @@
 ---
-title: "Revolución del Compartir PDF: Cómo MaiPDF Cambia el Compartir Documentos"
-description: "Aprenda cómo MaiPDF revoluciona la experiencia de compartir PDF. Guía completa sobre la revolución del compartir PDF, características modernas y experiencia de usuario mejorada."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["Revolución del Compartir PDF", "MaiPDF", "Compartir Documentos", "Soluciones Modernas"]
+title: 'Revolución del Compartir PDF: Cómo MaiPDF Cambia el Compartir Documentos'
+description: >-
+  Aprenda cómo MaiPDF revoluciona la experiencia de compartir PDF. Guía completa
+  sobre la revolución del compartir PDF, características modernas y experiencia
+  de usuario mejorada.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - Revolución del Compartir PDF
+  - MaiPDF
+  - Compartir Documentos
+  - Soluciones Modernas
 ---
 
 # Revolución del Compartir PDF: Cómo MaiPDF Cambia el Compartir Documentos
@@ -12,7 +19,7 @@ tags: ["Revolución del Compartir PDF", "MaiPDF", "Compartir Documentos", "Soluc
   <p>MaiPDF revoluciona la experiencia de compartir PDF con características modernas y experiencia de usuario mejorada. La <strong>revolución del compartir PDF</strong> proporciona soluciones completas para el compartir moderno de documentos.</p>
 </div>
 
-![MaiPDF Página de Inicio](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Página de Inicio](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## ¿Qué es la Revolución del Compartir PDF?
 

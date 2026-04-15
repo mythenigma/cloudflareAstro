@@ -1,9 +1,16 @@
 ---
-title: "🎨 Teilen Sie Ihr Design-Portfolio mit einem Link — Der intelligente Weg"
-description: "Entdecken Sie, wie Sie Ihr Design-Portfolio mit Links statt mit Anhängen teilen können. Ein professioneller Ansatz, der Kontrolle, Nachverfolgung und eine bessere Erfahrung für Empfänger bietet."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["Design-Portfolio", "Portfolio-Freigabe", "Berufliche Entwicklung", "Digitale Werkzeuge"]
+title: "\U0001F3A8 Teilen Sie Ihr Design-Portfolio mit einem Link — Der intelligente Weg"
+description: >-
+  Entdecken Sie, wie Sie Ihr Design-Portfolio mit Links statt mit Anhängen
+  teilen können. Ein professioneller Ansatz, der Kontrolle, Nachverfolgung und
+  eine bessere Erfahrung für Empfänger bietet.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/goodlookingshow.png
+tags:
+  - Design-Portfolio
+  - Portfolio-Freigabe
+  - Berufliche Entwicklung
+  - Digitale Werkzeuge
 ---
 
 # 🎨 Teilen Sie Ihr Design-Portfolio mit einem Link — Der intelligente Weg
@@ -13,7 +20,7 @@ tags: ["Design-Portfolio", "Portfolio-Freigabe", "Berufliche Entwicklung", "Digi
   <p>Im heutigen Arbeitsmarkt bleiben PDFs ein beliebtes Format für die Präsentation von Designarbeiten – übersichtlich, konsistent und leicht zu kontrollieren. Aber eines kann Ihre Präsentation entscheidend beeinflussen: wie Sie sie übermitteln.</p>
 </div>
 
-![Portfolio-Freigabe](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Portfolio-Freigabe](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 📎 Das Problem mit Anhängen
 
@@ -27,7 +34,7 @@ Das Versenden eines Portfolios als E-Mail-Anhang hat seine Nachteile:
 
 Nicht ideal, wenn Sie Ihre nächste Chance ergreifen möchten.
 
-![E-Mail vs. Link-Freigabe](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![E-Mail vs. Link-Freigabe](/maipdf2026/show_off/shareandsend.png)
 
 ## 🔗 Der bessere Weg: Teilen Sie Ihr Portfolio mit einem Link
 
@@ -43,7 +50,7 @@ Anstatt die Datei zu versenden, hosten Sie Ihr PDF in der Cloud und generieren e
 
 Betrachten Sie es als ein lebendiges Portfolio, nicht als ein unveränderliches Dokument.
 
-![Upload-Bereich](/maipdf-images/upload_section.png)
+![Upload-Bereich](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 👀 Bonus: Machen Sie es privat oder begrenzt
 
@@ -59,7 +66,7 @@ Sie können:
 
 Es ist eine moderne Lösung, die Ihnen Freiheit und Sicherheit bietet, nicht nur Bequemlichkeit.
 
-![Sicherheitseinstellungen](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungen](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## 🧪 Ein Anwendungsfall aus der Praxis
 
@@ -73,7 +80,7 @@ Stellen Sie sich vor, Sie bewerben sich bei 10 Agenturen. Anstatt ein schweres P
 
 Sie wirken professionell, organisiert und einen Schritt voraus.
 
-![PDF weltweit teilen](/maipdf-images/share_pdf_wordwide.png)
+![PDF weltweit teilen](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 🛠 Wie Sie es umsetzen
 

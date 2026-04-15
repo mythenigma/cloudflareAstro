@@ -1,9 +1,15 @@
 ---
-title: "📲 Cómo crear un código QR que descargue un PDF instantáneamente"
-description: "Aprende la forma más rápida de compartir documentos sin conexión mediante códigos QR que llevan directamente a PDFs descargables."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["Códigos QR", "Compartir PDF", "Distribución de Documentos", "Compartir Sin Conexión"]
+title: "\U0001F4F2 Cómo crear un código QR que descargue un PDF instantáneamente"
+description: >-
+  Aprende la forma más rápida de compartir documentos sin conexión mediante
+  códigos QR que llevan directamente a PDFs descargables.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - Códigos QR
+  - Compartir PDF
+  - Distribución de Documentos
+  - Compartir Sin Conexión
 ---
 
 # 📲 Cómo crear un código QR que descargue un PDF instantáneamente
@@ -13,7 +19,7 @@ tags: ["Códigos QR", "Compartir PDF", "Distribución de Documentos", "Compartir
   <p>Simple, limpio e increíblemente eficiente.</p>
 </div>
 
-![Resultado de enlace PDF y código QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultado de enlace PDF y código QR](/maipdf2026/Result_of_qr_link.png)
 
 Aquí te mostramos cómo crear un código QR que lleve directamente a un PDF descargable, y por qué podría ser la forma más inteligente de compartir documentos en 2025.
 
@@ -41,7 +47,7 @@ Eso es todo.
 
 Cuando alguien escanea el código, se abre el enlace, y el PDF se descarga automáticamente o se abre en una pantalla de visualización/descarga, dependiendo de su navegador.
 
-![Sección de carga](/maipdf-images/upload_section.png)
+![Sección de carga](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🌐 Dónde subir el PDF
 

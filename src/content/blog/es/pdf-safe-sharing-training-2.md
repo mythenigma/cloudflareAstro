@@ -1,9 +1,15 @@
 ---
-title: "Entrenamiento de Compartir PDF Seguro 2: Guía Completa"
-description: "Aprenda técnicas avanzadas de compartir PDF seguro. Guía completa sobre entrenamiento de compartir seguro, mejores prácticas y seguridad avanzada."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Seguro", "Entrenamiento", "Mejores Prácticas"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Entrenamiento de Compartir PDF Seguro 2: Guía Completa'
+description: >-
+  Aprenda técnicas avanzadas de compartir PDF seguro. Guía completa sobre
+  entrenamiento de compartir seguro, mejores prácticas y seguridad avanzada.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Seguro
+  - Entrenamiento
+  - Mejores Prácticas
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 # Entrenamiento de Compartir PDF Seguro 2: Guía Completa
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>El entrenamiento de compartir PDF seguro le enseña técnicas avanzadas para proteger y compartir documentos PDF de forma segura. Esta guía completa cubre mejores prácticas y técnicas avanzadas de seguridad.</p>
 </div>
 
-![Entrenamiento de Compartir Seguro](/diagram/en/features-overview.svg)
+![Entrenamiento de Compartir Seguro](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## 🎯 Conceptos Clave
 

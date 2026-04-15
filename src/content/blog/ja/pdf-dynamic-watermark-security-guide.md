@@ -1,8 +1,12 @@
 ---
-title: "クイックガイド：PDF Dynamic Watermark Security Guide"
-description: "PDF Dynamic Watermark Security Guideを短く整理（図付き）。"
-pubDate: "Jan 15 2026"
-tags: ["PDF", "Watermark", "Security"]
+title: クイックガイド：PDF Dynamic Watermark Security Guide
+description: PDF Dynamic Watermark Security Guideを短く整理（図付き）。
+pubDate: Jan 15 2026
+tags:
+  - PDF
+  - Watermark
+  - Security
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

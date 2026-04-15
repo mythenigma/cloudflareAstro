@@ -1,8 +1,15 @@
 ---
-title: "Lire un PDF en ligne sans téléchargement : un flux simple pour le partage"
-description: "Partager un PDF via un lien et garder un minimum de contrôle (sans promesses exagérées)."
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "pdf", "sharing", "security"]
+title: 'Lire un PDF en ligne sans téléchargement : un flux simple pour le partage'
+description: >-
+  Partager un PDF via un lien et garder un minimum de contrôle (sans promesses
+  exagérées).
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - pdf
+  - sharing
+  - security
+heroImage: /maipdf2026/show_off/showpdf.png
 ---
 
 Envoyer un PDF en pièce jointe crée vite des copies partout. Une approche plus propre consiste à **partager un lien** et à ajuster les règles d’accès si nécessaire.
@@ -30,15 +37,15 @@ flowchart TD
 
 ## Téléverser
 
-![Upload](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload](/maipdf2026/show_off/showpdf.png)
 
 ## Configurer l’accès (optionnel)
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## Lien / QR pour partager
 
-![Link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Link and QR](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ## Mettre à jour sans changer le lien
 

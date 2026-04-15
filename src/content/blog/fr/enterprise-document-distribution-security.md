@@ -1,8 +1,16 @@
 ---
-title: "Distribution de documents en entreprise : un workflow de sécurité pratique"
-description: "Un workflow clair, étape par étape, pour distribuer des documents sensibles sans perdre le contrôle."
-pubDate: "Jan 15 2026"
-tags: ["Entreprise", "Distribution de documents", "Contrôle d'accès", "Sécurité", "Workflow"]
+title: 'Distribution de documents en entreprise : un workflow de sécurité pratique'
+description: >-
+  Un workflow clair, étape par étape, pour distribuer des documents sensibles
+  sans perdre le contrôle.
+pubDate: Jan 15 2026
+tags:
+  - Entreprise
+  - Distribution de documents
+  - Contrôle d'accès
+  - Sécurité
+  - Workflow
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 # Distribution de documents en entreprise : un workflow de sécurité pratique

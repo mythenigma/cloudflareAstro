@@ -1,9 +1,16 @@
 ---
-title: "⏱️ Envía Propuestas a Clientes que Caducan Después de Verlas"
-description: "Controla cuánto tiempo vive tu propuesta, incluso después de enviarla. Aprende a compartir propuestas de negocio con límites de expiración inteligentes para un mejor control y profesionalismo."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Propuestas para Clientes", "Seguridad de Documentos", "Herramientas de Negocio", "Consejos Profesionales"]
+title: ⏱️ Envía Propuestas a Clientes que Caducan Después de Verlas
+description: >-
+  Controla cuánto tiempo vive tu propuesta, incluso después de enviarla. Aprende
+  a compartir propuestas de negocio con límites de expiración inteligentes para
+  un mejor control y profesionalismo.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Propuestas para Clientes
+  - Seguridad de Documentos
+  - Herramientas de Negocio
+  - Consejos Profesionales
 ---
 
 # ⏱️ Envía Propuestas a Clientes que Caducan Después de Verlas
@@ -41,7 +48,7 @@ En lugar de enviar un archivo estático, ahora puedes compartir tu propuesta a t
 
 ¿El resultado? Una forma más inteligente y limpia de compartir propuestas que te devuelve el control, sin sacrificar el profesionalismo.
 
-![Configuración de Seguridad](/maipdf-images/security_setting.png)
+![Configuración de Seguridad](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 👀 Caso de Uso: Una Mejor Experiencia para el Cliente
 

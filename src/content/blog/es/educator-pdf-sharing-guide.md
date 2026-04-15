@@ -1,9 +1,16 @@
 ---
-title: "Guía para Educadores: Compartir PDF"
-description: "Aprenda cómo los educadores pueden compartir PDFs de forma segura. Guía completa sobre compartir PDF para educadores, materiales educativos y distribución segura."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Educación", "Educadores", "Compartir"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Guía para Educadores: Compartir PDF'
+description: >-
+  Aprenda cómo los educadores pueden compartir PDFs de forma segura. Guía
+  completa sobre compartir PDF para educadores, materiales educativos y
+  distribución segura.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Educación
+  - Educadores
+  - Compartir
+heroImage: /maipdf2026/en-upload-screenshot.png
 ---
 
 # Guía para Educadores: Compartir PDF
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Los educadores necesitan métodos seguros y eficientes para compartir documentos PDF con estudiantes, colegas y padres. Esta guía muestra a los educadores cómo compartir PDFs de forma segura y distribuir materiales educativos efectivamente.</p>
 </div>
 
-![Compartir PDF para Educadores](/diagram/en/features-overview.svg)
+![Compartir PDF para Educadores](/maipdf2026/en-upload-screenshot.png)
 
 ## 🎯 ¿Por Qué Compartir PDF para Educadores?
 

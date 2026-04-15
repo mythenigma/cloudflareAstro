@@ -1,8 +1,13 @@
 ---
-title: "イベント写真の配布：QRで一括共有する方法"
-description: "会場でQRを出して、参加者がその場でアクセスできる画像共有の流れを短くまとめます。"
-pubDate: "Jan 26 2026"
-tags: ["イベント", "画像共有", "QRコード", "Maiimg"]
+title: イベント写真の配布：QRで一括共有する方法
+description: 会場でQRを出して、参加者がその場でアクセスできる画像共有の流れを短くまとめます。
+pubDate: Jan 26 2026
+tags:
+  - イベント
+  - 画像共有
+  - QRコード
+  - Maiimg
+heroImage: /maiimg/maiimg-head.png
 ---
 
 イベント後の写真配布は、URL を配るだけでも混乱しがちです。**QR を表示**しておくと、参加者がその場でアクセスできます。
@@ -30,5 +35,5 @@ flowchart TD
 
 ![Link result](/maiimg/image_result.png)
 
-![Tracking](/maiimg/result_tracking.png)
+![Tracking](/maiimg/maiimg-setting.png)
 

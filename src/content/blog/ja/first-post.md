@@ -2,6 +2,7 @@
 title: "MaiPDFの紹介"
 description: "MaiPDFの紹介"
 pubDate: "Jul 15 2024"
+noindex: true
 ---
 
 ![MaiPDFランディングページ](/maipdf-images/maipdf_landing_page.png)
@@ -20,7 +21,7 @@ pubDate: "Jul 15 2024"
 
 4. **プロフェッショナルな外観** – 大きなメール添付ファイルや物理的なポートフォリオを送信する代わりに、クリーンなPDFリンクや作品にリンクされたQRコードは、共有方法にプロフェッショナルなタッチを加えます。シンプルで直接的で、永続的な印象を与えます。
 
-![印刷不可・ダウンロード不可のPDFアイコン](/maipdf-images/pdf_icon_of_no_printing_no_downloading.png)
+![印刷不可・ダウンロード不可のPDFアイコン](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 フリーランスのデザイナーでも、クリエイティブエージェンシーで雇用されていても、ポートフォリオを安全なPDFリンクとして送信することは、潜在的なクライアント、協力者、または雇用主と作品を共有するためのスマートで効果的な方法です。さらに、MaiPDFのカスタマイズ可能な機能により、デザインが保護されていることを知りながら、ドキュメントのセキュリティを強化できます。
 

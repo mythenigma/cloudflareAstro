@@ -1,9 +1,16 @@
 ---
-title: "Schutz-Leitfaden: PDF-Druck Deaktivieren"
-description: "Erfahren Sie, wie Sie den Druck von PDFs deaktivieren, um Ihre Dokumente zu schützen. Vollständiger Leitfaden zu Druckverhinderung, Zugriffskontrolle und Dokumentensicherheit."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Schutz", "Druck", "Sicherheit"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Schutz-Leitfaden: PDF-Druck Deaktivieren'
+description: >-
+  Erfahren Sie, wie Sie den Druck von PDFs deaktivieren, um Ihre Dokumente zu
+  schützen. Vollständiger Leitfaden zu Druckverhinderung, Zugriffskontrolle und
+  Dokumentensicherheit.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Schutz
+  - Druck
+  - Sicherheit
+heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
 ---
 
 # Schutz-Leitfaden: PDF-Druck Deaktivieren
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das Deaktivieren des PDF-Drucks ist eine wichtige Sicherheitsmaßnahme zum Schutz sensibler Dokumente. Diese Anleitung zeigt Ihnen, wie Sie verhindern, dass Empfänger Ihre geteilten PDF-Dokumente drucken.</p>
 </div>
 
-![Druckverhinderung](/diagram/en/features-overview.svg)
+![Druckverhinderung](/maipdf2026/show_off/pdf icon of no printing no downloading.png)
 
 ## 🎯 Warum Druck Deaktivieren?
 

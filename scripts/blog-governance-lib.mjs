@@ -269,14 +269,29 @@ export function buildSummaryMarkdown(rows) {
   const countLine = (lang, action) => `- ${lang} / ${action}: ${actionCounts.get(`${lang}:${action}`) || 0}`;
 
   return `# Blog Governance Round 1\n\n` +
-    `Scope: English + Chinese blog posts only.\n\n` +
+    `Scope: English + Chinese + French + German + Japanese + Korean + Spanish blog posts.\n\n` +
     `## Action Counts\n` +
     `${countLine("en", "keep")}\n` +
     `${countLine("en", "301")}\n` +
     `${countLine("en", "noindex")}\n` +
     `${countLine("cn", "keep")}\n` +
     `${countLine("cn", "301")}\n` +
-    `${countLine("cn", "noindex")}\n\n` +
+    `${countLine("cn", "noindex")}\n` +
+    `${countLine("fr", "keep")}\n` +
+    `${countLine("fr", "301")}\n` +
+    `${countLine("fr", "noindex")}\n` +
+    `${countLine("de", "keep")}\n` +
+    `${countLine("de", "301")}\n` +
+    `${countLine("de", "noindex")}\n\n` +
+    `${countLine("ja", "keep")}\n` +
+    `${countLine("ja", "301")}\n` +
+    `${countLine("ja", "noindex")}\n` +
+    `${countLine("ko", "keep")}\n` +
+    `${countLine("ko", "301")}\n` +
+    `${countLine("ko", "noindex")}\n` +
+    `${countLine("es", "keep")}\n` +
+    `${countLine("es", "301")}\n` +
+    `${countLine("es", "noindex")}\n\n` +
     `## Implemented 301 Sources\n` +
     `${redirects.map((row) => `- \`${row.key}\` -> \`${row.targetSlug}\``).join("\n")}\n\n` +
     `## Direct Noindex Sources\n` +

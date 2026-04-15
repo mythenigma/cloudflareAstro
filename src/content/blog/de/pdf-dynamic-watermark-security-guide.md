@@ -1,9 +1,16 @@
 ---
-title: "Sicherheits-Leitfaden: Dynamische Wasserzeichen auf PDF"
-description: "Erfahren Sie, wie Sie dynamische Wasserzeichen zum Schutz Ihrer PDFs verwenden. Vollständiger Leitfaden zu dynamischen Wasserzeichen, Dokumentensicherheit und erweitertem Schutz."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Wasserzeichen", "Sicherheit", "Schutz"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Sicherheits-Leitfaden: Dynamische Wasserzeichen auf PDF'
+description: >-
+  Erfahren Sie, wie Sie dynamische Wasserzeichen zum Schutz Ihrer PDFs
+  verwenden. Vollständiger Leitfaden zu dynamischen Wasserzeichen,
+  Dokumentensicherheit und erweitertem Schutz.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Wasserzeichen
+  - Sicherheit
+  - Schutz
+heroImage: /maipdf2026/dynamic_water_mark_example.jpg
 ---
 
 # Sicherheits-Leitfaden: Dynamische Wasserzeichen auf PDF
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Dynamische Wasserzeichen sind ein leistungsstarkes Sicherheitstool, das Ihre PDF-Dokumente schützt, indem es bei jeder Ansicht eindeutige Informationen hinzufügt. Diese Anleitung zeigt Ihnen, wie Sie dynamische Wasserzeichen zum Schutz Ihrer Dokumente verwenden.</p>
 </div>
 
-![Dynamische Wasserzeichen](/diagram/en/features-overview.svg)
+![Dynamische Wasserzeichen](/maipdf2026/dynamic_water_mark_example.jpg)
 
 ## 🎯 Was sind Dynamische Wasserzeichen?
 

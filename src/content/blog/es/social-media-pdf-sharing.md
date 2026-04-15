@@ -1,9 +1,19 @@
 ---
-title: "Compartir PDF en Redes Sociales: Enlaces Profesionales para Instagram y LinkedIn"
-description: "Comparta documentos PDF en plataformas de redes sociales usando enlaces profesionales. Mejor participación, optimización móvil y presencia profesional mejorada en todas las plataformas."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF", "Redes Sociales", "Instagram", "LinkedIn", "Marketing"]
+title: >-
+  Compartir PDF en Redes Sociales: Enlaces Profesionales para Instagram y
+  LinkedIn
+description: >-
+  Comparta documentos PDF en plataformas de redes sociales usando enlaces
+  profesionales. Mejor participación, optimización móvil y presencia profesional
+  mejorada en todas las plataformas.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/share pdf wordwide.png
+tags:
+  - PDF
+  - Redes Sociales
+  - Instagram
+  - LinkedIn
+  - Marketing
 ---
 
 # Compartir PDF en Redes Sociales: Enlaces Profesionales para Instagram y LinkedIn
@@ -12,7 +22,7 @@ tags: ["PDF", "Redes Sociales", "Instagram", "LinkedIn", "Marketing"]
   <p>Las redes sociales son perfectas para compartir contenido valioso, pero las cargas de archivos tradicionales no funcionan bien en todas las plataformas. MaiPDF transforma sus PDFs en enlaces compartibles que funcionan perfectamente en Instagram, LinkedIn, Twitter y todas las plataformas sociales.</p>
 </div>
 
-![Compartir PDF en Redes Sociales](/maipdf-images/share_pdf_wordwide.png)
+![Compartir PDF en Redes Sociales](/maipdf2026/show_off/share pdf wordwide.png)
 
 ## Por Qué los Enlaces PDF Destacan en Redes Sociales
 

@@ -1,9 +1,16 @@
 ---
-title: "Tutorial de Generación de Código QR para PDF: Guía Completa"
-description: "Aprenda cómo generar códigos QR para documentos PDF. Guía completa sobre generación de códigos QR PDF, creación de códigos QR y compartir PDF con códigos QR."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "QR Code", "Tutorial", "Compartir"]
-heroImage: "/diagram/en/pdf-qr-code-generation-workflow.svg"
+title: 'Tutorial de Generación de Código QR para PDF: Guía Completa'
+description: >-
+  Aprenda cómo generar códigos QR para documentos PDF. Guía completa sobre
+  generación de códigos QR PDF, creación de códigos QR y compartir PDF con
+  códigos QR.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - QR Code
+  - Tutorial
+  - Compartir
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 # Tutorial de Generación de Código QR para PDF: Guía Completa
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/pdf-qr-code-generation-workflow.svg"
   <p>Los códigos QR son una forma simple y efectiva de compartir PDFs. La <strong>generación de códigos QR para PDF</strong> ofrece soluciones completas para crear códigos QR para compartir documentos PDF.</p>
 </div>
 
-![Flujo de Generación de Código QR PDF](/diagram/en/pdf-qr-code-generation-workflow.svg)
+![Flujo de Generación de Código QR PDF](/maipdf2026/Result_of_qr_link.png)
 
 ## 🎯 ¿Qué es la Generación de Código QR para PDF?
 

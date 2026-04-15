@@ -1,8 +1,14 @@
 ---
-title: "E-Mail-verifizierte PDF-Links: Zugriff bei Weiterleitung stoppen"
-description: "Ein schneller Weg gegen Link-Forwarding: erst E-Mail verifizieren, dann PDF öffnen."
-pubDate: "Jan 15 2026"
-tags: ["PDF-Sicherheit", "Zugriffskontrolle", "E-Mail-Verifizierung"]
+title: 'E-Mail-verifizierte PDF-Links: Zugriff bei Weiterleitung stoppen'
+description: >-
+  Ein schneller Weg gegen Link-Forwarding: erst E-Mail verifizieren, dann PDF
+  öffnen.
+pubDate: Jan 15 2026
+tags:
+  - PDF-Sicherheit
+  - Zugriffskontrolle
+  - E-Mail-Verifizierung
+heroImage: /maipdf2026/show_off/email verify.png
 ---
 
 # E-Mail-verifizierte PDF-Links: Zugriff bei Weiterleitung stoppen

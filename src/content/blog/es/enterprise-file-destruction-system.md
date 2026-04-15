@@ -1,9 +1,16 @@
 ---
-title: "Sistema de Destrucción de Archivos Empresarial: Guía Completa"
-description: "Aprenda cómo implementar un sistema de destrucción de archivos empresarial. Guía completa sobre destrucción de archivos, eliminación automática y seguridad empresarial."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Empresarial", "Destrucción", "Seguridad"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Sistema de Destrucción de Archivos Empresarial: Guía Completa'
+description: >-
+  Aprenda cómo implementar un sistema de destrucción de archivos empresarial.
+  Guía completa sobre destrucción de archivos, eliminación automática y
+  seguridad empresarial.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Empresarial
+  - Destrucción
+  - Seguridad
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
 ---
 
 # Sistema de Destrucción de Archivos Empresarial: Guía Completa
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Un sistema de destrucción de archivos empresarial permite a las empresas eliminar documentos automáticamente cuando ya no se necesitan. Esta guía le mostrará cómo implementar tal sistema.</p>
 </div>
 
-![Destrucción de Archivos Empresarial](/diagram/en/features-overview.svg)
+![Destrucción de Archivos Empresarial](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🎯 ¿Qué es un Sistema de Destrucción de Archivos?
 

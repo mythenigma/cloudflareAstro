@@ -1,9 +1,16 @@
 ---
-title: "🎨 Comparte tu Portafolio de Diseño con un Enlace — La Manera Inteligente"
-description: "Descubre cómo compartir tu portafolio de diseño usando enlaces en lugar de archivos adjuntos. Un enfoque profesional que ofrece control, seguimiento y una mejor experiencia para los destinatarios."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["Portafolio de Diseño", "Compartir Portafolio", "Desarrollo Profesional", "Herramientas Digitales"]
+title: "\U0001F3A8 Comparte tu Portafolio de Diseño con un Enlace — La Manera Inteligente"
+description: >-
+  Descubre cómo compartir tu portafolio de diseño usando enlaces en lugar de
+  archivos adjuntos. Un enfoque profesional que ofrece control, seguimiento y
+  una mejor experiencia para los destinatarios.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/goodlookingshow.png
+tags:
+  - Portafolio de Diseño
+  - Compartir Portafolio
+  - Desarrollo Profesional
+  - Herramientas Digitales
 ---
 
 # 🎨 Comparte tu Portafolio de Diseño con un Enlace — La Manera Inteligente
@@ -13,7 +20,7 @@ tags: ["Portafolio de Diseño", "Compartir Portafolio", "Desarrollo Profesional"
   <p>En el mercado laboral actual, los PDFs siguen siendo un formato popular para mostrar trabajos de diseño: limpios, consistentes y fáciles de controlar. Pero hay algo que puede hacer o deshacer tu presentación: cómo la entregas.</p>
 </div>
 
-![Compartir Portafolio](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Compartir Portafolio](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 📎 El Problema con los Archivos Adjuntos
 
@@ -27,7 +34,7 @@ Enviar un portafolio como archivo adjunto de correo electrónico tiene sus desve
 
 No es ideal cuando estás tratando de conseguir tu próxima oportunidad.
 
-![Correo vs Compartir con Enlace](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Correo vs Compartir con Enlace](/maipdf2026/show_off/shareandsend.png)
 
 ## 🔗 La Mejor Manera: Comparte tu Portafolio con un Enlace
 
@@ -43,7 +50,7 @@ En lugar de enviar el archivo, aloja tu PDF en la nube y genera un enlace compar
 
 Piensa en ello como un portafolio vivo, no un documento congelado.
 
-![Sección de Carga](/maipdf-images/upload_section.png)
+![Sección de Carga](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 👀 Bonus: Hazlo Privado o Limitado
 
@@ -59,7 +66,7 @@ Puedes:
 
 Es una solución moderna que te da libertad y seguridad, no solo comodidad.
 
-![Configuración de Seguridad](/maipdf-images/security_setting.png)
+![Configuración de Seguridad](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## 🧪 Un Caso de Uso Real
 
@@ -73,7 +80,7 @@ Imagina que estás aplicando a 10 agencias. En lugar de adjuntar un PDF pesado d
 
 Te verás profesional, organizado y un paso adelante.
 
-![Compartir PDF Mundialmente](/maipdf-images/share_pdf_wordwide.png)
+![Compartir PDF Mundialmente](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 🛠 Cómo Hacerlo
 

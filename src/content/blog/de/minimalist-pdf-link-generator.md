@@ -1,9 +1,15 @@
 ---
-title: "Ein minimalistischer PDF-Link-Generator"
-description: "Laden Sie eine PDF hoch und erstellen Sie einen teilbaren Link mit einfachen Zugangskontrollen. Keine Registrierung erforderlich."
-pubDate: "2025-06-03"
-heroImage: "/maipdf-images/upload_section.png"
-tags: ["PDF teilen", "PDF Link Generator", "sichere PDF-Freigabe", "maipdf"]
+title: Ein minimalistischer PDF-Link-Generator
+description: >-
+  Laden Sie eine PDF hoch und erstellen Sie einen teilbaren Link mit einfachen
+  Zugangskontrollen. Keine Registrierung erforderlich.
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - PDF teilen
+  - PDF Link Generator
+  - sichere PDF-Freigabe
+  - maipdf
 ---
 
 # Ein minimalistischer PDF-Link-Generator
@@ -31,7 +37,7 @@ Diese Lösungen funktionieren für komplexe Arbeitsabläufe, aber sie sind über
 ## Wie MaiPDF funktioniert
 
 <div class="image-container">
-  <img src="/maipdf-images/upload_section.png" alt="Upload Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="Upload Interface" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 Der Prozess ist absichtlich einfach:

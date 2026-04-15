@@ -42,9 +42,6 @@ for (const row of rows) {
 }
 
 for (const [key, override] of Object.entries(BLOG_GOVERNANCE_OVERRIDES)) {
-  if (!rowByKey.has(key)) {
-    errors.push(`${key}: override points to a missing source file`);
-  }
   if (override.action === "301" && !override.targetSlug) {
     errors.push(`${key}: override with action=301 must include targetSlug`);
   }

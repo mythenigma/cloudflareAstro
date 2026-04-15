@@ -1,9 +1,15 @@
 ---
-title: "Guía Completa: Compartir PDF Sin Conexión"
-description: "Aprenda cómo compartir PDFs sin conexión a internet. Guía completa sobre compartir PDF offline, descarga de documentos y acceso sin conexión."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Offline", "Compartir", "Sin Conexión"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Guía Completa: Compartir PDF Sin Conexión'
+description: >-
+  Aprenda cómo compartir PDFs sin conexión a internet. Guía completa sobre
+  compartir PDF offline, descarga de documentos y acceso sin conexión.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Offline
+  - Compartir
+  - Sin Conexión
+heroImage: /maipdf2026/show_off/en-offline-version.svg
 ---
 
 # Guía Completa: Compartir PDF Sin Conexión
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Compartir PDFs sin conexión a internet es posible con MaiPDF. Esta guía le enseñará cómo preparar y compartir documentos PDF para acceso offline, permitiendo que los destinatarios accedan a documentos incluso sin conexión a internet.</p>
 </div>
 
-![Compartir PDF Offline](/diagram/en/features-overview.svg)
+![Compartir PDF Offline](/maipdf2026/show_off/en-offline-version.svg)
 
 ## 🎯 ¿Qué es el Compartir PDF Offline?
 

@@ -1,9 +1,15 @@
 ---
-title: "Sicherheits-Best-Practices für Online-PDF-Sharing"
-description: "Erfahren Sie die Best-Practices für sicheres Online-PDF-Sharing. Vollständiger Leitfaden zu Dokumentenschutz, Zugriffskontrolle und Sicherheit."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Sicherheit", "Best Practices", "Schutz"]
-heroImage: "/diagram/en/security-architecture.svg"
+title: Sicherheits-Best-Practices für Online-PDF-Sharing
+description: >-
+  Erfahren Sie die Best-Practices für sicheres Online-PDF-Sharing. Vollständiger
+  Leitfaden zu Dokumentenschutz, Zugriffskontrolle und Sicherheit.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Sicherheit
+  - Best Practices
+  - Schutz
+heroImage: /maipdf2026/choose_online_for_sharing_online.png
 ---
 
 # Sicherheits-Best-Practices für Online-PDF-Sharing
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/security-architecture.svg"
   <p>Sicheres Online-PDF-Sharing erfordert die Befolgung von Sicherheits-Best-Practices. Diese vollständige Anleitung zeigt Ihnen, wie Sie Ihre Dokumente schützen, den Zugriff kontrollieren und die Sicherheit während des gesamten Sharing-Prozesses aufrechterhalten.</p>
 </div>
 
-![Sicherheits-Architektur](/diagram/en/security-architecture.svg)
+![Sicherheits-Architektur](/maipdf2026/choose_online_for_sharing_online.png)
 
 ## 🎯 Grundlegende Sicherheitsprinzipien
 

@@ -1,9 +1,16 @@
 ---
-title: "PDF-Teilungs-Revolution: Wie MaiPDF das Dokumententeilen Verändert"
-description: "Erfahren Sie, wie MaiPDF das PDF-Teilungs-Erlebnis revolutioniert. Vollständiger Leitfaden zur PDF-Teilungs-Revolution, modernen Funktionen und verbessertem Benutzererlebnis."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["PDF-Teilungs-Revolution", "MaiPDF", "Dokumententeilen", "Moderne Lösungen"]
+title: 'PDF-Teilungs-Revolution: Wie MaiPDF das Dokumententeilen Verändert'
+description: >-
+  Erfahren Sie, wie MaiPDF das PDF-Teilungs-Erlebnis revolutioniert.
+  Vollständiger Leitfaden zur PDF-Teilungs-Revolution, modernen Funktionen und
+  verbessertem Benutzererlebnis.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF-Teilungs-Revolution
+  - MaiPDF
+  - Dokumententeilen
+  - Moderne Lösungen
 ---
 
 # PDF-Teilungs-Revolution: Wie MaiPDF das Dokumententeilen Verändert
@@ -12,7 +19,7 @@ tags: ["PDF-Teilungs-Revolution", "MaiPDF", "Dokumententeilen", "Moderne Lösung
   <p>MaiPDF revolutioniert das PDF-Teilungs-Erlebnis mit modernen Funktionen und verbessertem Benutzererlebnis. <strong>PDF-Teilungs-Revolution</strong> bietet umfassende Lösungen für modernes Dokumententeilen.</p>
 </div>
 
-![MaiPDF Homepage](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Homepage](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Was ist die PDF-Teilungs-Revolution?
 

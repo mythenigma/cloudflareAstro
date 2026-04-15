@@ -1,9 +1,15 @@
 ---
-title: "🎨 링크로 디자인 포트폴리오 공유하기 — 스마트한 방법"
-description: "첨부 파일 대신 링크를 사용하여 디자인 포트폴리오를 공유하는 방법을 알아보세요. 제어, 추적 및 수신자에게 더 나은 경험을 제공하는 전문적인 접근 방식입니다."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["디자인 포트폴리오", "포트폴리오 공유", "전문 개발", "디지털 도구"]
+title: "\U0001F3A8 링크로 디자인 포트폴리오 공유하기 — 스마트한 방법"
+description: >-
+  첨부 파일 대신 링크를 사용하여 디자인 포트폴리오를 공유하는 방법을 알아보세요. 제어, 추적 및 수신자에게 더 나은 경험을 제공하는 전문적인
+  접근 방식입니다.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/goodlookingshow.png
+tags:
+  - 디자인 포트폴리오
+  - 포트폴리오 공유
+  - 전문 개발
+  - 디지털 도구
 ---
 
 # 🎨 링크로 디자인 포트폴리오 공유하기 — 스마트한 방법
@@ -13,7 +19,7 @@ tags: ["디자인 포트폴리오", "포트폴리오 공유", "전문 개발", "
   <p>오늘날의 취업 시장에서 PDF는 디자인 작업을 선보이는 인기 있는 형식으로 남아 있습니다—깔끔하고, 일관되며, 쉽게 제어할 수 있기 때문입니다. 하지만 프레젠테이션의 성패를 좌우하는 한 가지가 있습니다: 어떻게 전달하느냐입니다.</p>
 </div>
 
-![포트폴리오 공유](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![포트폴리오 공유](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 📎 첨부 파일의 문제점
 
@@ -27,7 +33,7 @@ tags: ["디자인 포트폴리오", "포트폴리오 공유", "전문 개발", "
 
 다음 기회를 잡으려고 할 때 이상적이지 않습니다.
 
-![이메일 vs 링크 공유](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![이메일 vs 링크 공유](/maipdf2026/show_off/shareandsend.png)
 
 ## 🔗 더 나은 방법: 링크로 포트폴리오 공유하기
 
@@ -43,7 +49,7 @@ tags: ["디자인 포트폴리오", "포트폴리오 공유", "전문 개발", "
 
 이것을 고정된 문서가 아닌, 살아있는 포트폴리오로 생각하세요.
 
-![업로드 섹션](/maipdf-images/upload_section.png)
+![업로드 섹션](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 👀 보너스: 비공개 또는 제한적으로 만들기
 
@@ -59,7 +65,7 @@ tags: ["디자인 포트폴리오", "포트폴리오 공유", "전문 개발", "
 
 이는 단순한 편의성이 아닌, 자유와 보안을 제공하는 현대적인 솔루션입니다.
 
-![보안 설정](/maipdf-images/security_setting.png)
+![보안 설정](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## 🧪 실제 사용 사례
 
@@ -73,7 +79,7 @@ tags: ["디자인 포트폴리오", "포트폴리오 공유", "전문 개발", "
 
 여러분은 전문적이고, 조직적이며, 한 발 앞선 모습을 보여줍니다.
 
-![PDF 전 세계 공유](/maipdf-images/share_pdf_wordwide.png)
+![PDF 전 세계 공유](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 🛠 실행 방법
 

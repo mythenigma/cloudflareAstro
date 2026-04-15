@@ -1,9 +1,14 @@
 ---
-title: "MaiPDF閲覧回数設定ガイド：PDF閲覧回数を制限する方法"
-description: "MaiPDFでPDF閲覧回数を設定する方法を学びます。完全ガイドで、閲覧回数設定、アクセス制御、文書保護をカバーします。"
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["閲覧回数設定", "PDF閲覧制限", "アクセス制御", "文書保護", "PDF保護"]
+title: MaiPDF閲覧回数設定ガイド：PDF閲覧回数を制限する方法
+description: MaiPDFでPDF閲覧回数を設定する方法を学びます。完全ガイドで、閲覧回数設定、アクセス制御、文書保護をカバーします。
+pubDate: May 29 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - 閲覧回数設定
+  - PDF閲覧制限
+  - アクセス制御
+  - 文書保護
+  - PDF保護
 ---
 
 # MaiPDF閲覧回数設定ガイド：PDF閲覧回数を制限する方法
@@ -12,7 +17,7 @@ tags: ["閲覧回数設定", "PDF閲覧制限", "アクセス制御", "文書保
   <p>PDF閲覧回数を設定することは、文書保護の重要な側面です。 <strong>MaiPDF閲覧回数設定ガイド</strong>は、PDF閲覧回数を設定するための包括的なソリューションを提供します。</p>
 </div>
 
-![セキュリティ設定インターフェース](/maipdf-images/security_setting.png)
+![セキュリティ設定インターフェース](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 閲覧回数設定とは何か？
 

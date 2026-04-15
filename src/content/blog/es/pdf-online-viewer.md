@@ -1,9 +1,15 @@
 ---
-title: "Visor de PDF en Línea: Ver Documentos en el Navegador"
-description: "Descubra cómo usar un visor de PDF en línea para ver documentos directamente en su navegador. Sin descargas, sin instalaciones, solo haga clic y vea."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Visor", "Navegador", "Online"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Visor de PDF en Línea: Ver Documentos en el Navegador'
+description: >-
+  Descubra cómo usar un visor de PDF en línea para ver documentos directamente
+  en su navegador. Sin descargas, sin instalaciones, solo haga clic y vea.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Visor
+  - Navegador
+  - Online
+heroImage: /maipdf2026/pdf native view on ui.png
 ---
 
 # Visor de PDF en Línea: Ver Documentos en el Navegador
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Los visores de PDF en línea permiten ver documentos PDF directamente en su navegador web sin necesidad de descargar archivos o instalar software adicional. Esta tecnología moderna hace que acceder a documentos sea más conveniente y eficiente que nunca.</p>
 </div>
 
-![Visor PDF en Línea](/diagram/en/features-overview.svg)
+![Visor PDF en Línea](/maipdf2026/pdf native view on ui.png)
 
 ## 🎯 ¿Qué es un Visor de PDF en Línea?
 

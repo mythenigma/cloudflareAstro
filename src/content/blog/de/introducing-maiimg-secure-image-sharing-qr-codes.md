@@ -1,9 +1,17 @@
 ---
-title: "Maiimg Vorstellung: Sichere Bildfreigabe mit QR-Codes"
-description: "Entdecken Sie Maiimg.com - die neue sichere Bildfreigabe-Plattform, die auf dem Erfolg von MaiPDF aufbaut. Laden Sie bis zu 25 Bilder hoch, generieren Sie QR-Codes und kontrollieren Sie den Zugriff mit erweiterten Sicherheitsfunktionen."
-pubDate: "Jan 17 2026"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["QR Code", "Image Sharing", "Maiimg", "Sicherheit"]
+title: 'Maiimg Vorstellung: Sichere Bildfreigabe mit QR-Codes'
+description: >-
+  Entdecken Sie Maiimg.com - die neue sichere Bildfreigabe-Plattform, die auf
+  dem Erfolg von MaiPDF aufbaut. Laden Sie bis zu 25 Bilder hoch, generieren Sie
+  QR-Codes und kontrollieren Sie den Zugriff mit erweiterten
+  Sicherheitsfunktionen.
+pubDate: Jan 17 2026
+heroImage: /maiimg/result_tracking.png
+tags:
+  - QR Code
+  - Image Sharing
+  - Maiimg
+  - Sicherheit
 ---
 
 # Maiimg Vorstellung: Sichere Bildfreigabe mit QR-Codes
@@ -12,7 +20,7 @@ tags: ["QR Code", "Image Sharing", "Maiimg", "Sicherheit"]
   <p>In der heutigen digitalen Welt ist das schnelle und sichere Teilen von Bildern wichtiger denn je. Basierend auf dem Erfolg von MaiPDF, das sich auf sichere Dokumentenverteilung spezialisiert, hat das Team eine brandneue Plattform gestartet: <strong>Maiimg.com</strong>. Dieser neue Service bringt den gleichen Fokus auf Privatsphäre, Kontrolle und Bequemlichkeit zu Bildern, sodass Benutzer Fotos hochladen, sichere Links generieren und QR-Codes sofort teilen können.</p>
 </div>
 
-![Maiimg QR-Code-Workflow](/diagram/de/maiimg-qr-code-sharing-workflow.svg)
+![Maiimg QR-Code-Workflow](/maiimg/result_tracking.png)
 
 ## 🚀 Hauptfunktionen
 
@@ -39,7 +47,7 @@ Maiimg schützt Ihre Bilder, indem es sie in kontrollierte Links umwandelt. Im G
 
 ### 📦 Bulk-Uploads
 
-![Upload-Bereich](/maiimg/maiimg-head.png)
+![Upload-Bereich](/maiimg/result_tracking.png)
 
 <div class="feature-card">
   <h3>🎯 Bis zu 25 Bilder hochladen</h3>
@@ -74,7 +82,7 @@ Maiimg schützt Ihre Bilder, indem es sie in kontrollierte Links umwandelt. Im G
 
 ## 🌟 Warum Maiimg?
 
-![Bilder weltweit teilen](/maiimg/maiimg-head.png)
+![Bilder weltweit teilen](/maiimg/result_tracking.png)
 
 Traditionelle Bildhosting-Plattformen haben oft keine detaillierte Kontrolle. Sobald Ihre Bilder geteilt sind, verlieren Sie den Überblick darüber, wie sie verwendet oder darauf zugegriffen wird. Maiimg ändert das, indem es die Leichtigkeit des Teilens mit erweiterten Analyse- und Tracking-Tools kombiniert.
 

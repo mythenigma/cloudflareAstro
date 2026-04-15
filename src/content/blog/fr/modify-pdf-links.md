@@ -1,8 +1,14 @@
 ---
-title: "Remplacer un PDF sans changer le lien"
-description: "Garder le même lien de lecture tout en remplaçant le fichier et les réglages avec MaiPDF."
-pubDate: "Jan 16 2026"
-tags: ["PDF", "Lien", "Mise à jour"]
+title: Remplacer un PDF sans changer le lien
+description: >-
+  Garder le même lien de lecture tout en remplaçant le fichier et les réglages
+  avec MaiPDF.
+pubDate: Jan 16 2026
+tags:
+  - PDF
+  - Lien
+  - Mise à jour
+heroImage: /maipdf2026/show_off/Replace1showoff.png
 ---
 
 # Remplacer un PDF sans changer le lien

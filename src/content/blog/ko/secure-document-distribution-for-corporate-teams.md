@@ -1,9 +1,15 @@
 ---
-title: "🛡️ 기업 팀을 위한 안전한 문서 배포"
-description: "민감한 기업 정보를 공유 후에도 보호합니다. 최신 액세스 제어를 통해 원치 않는 전달이나 유출 위험 없이 내부 문서를 배포하는 방법을 알아보세요."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["기업 보안", "문서 공유", "정보 보안", "팀 협업"]
+title: "\U0001F6E1️ 기업 팀을 위한 안전한 문서 배포"
+description: >-
+  민감한 기업 정보를 공유 후에도 보호합니다. 최신 액세스 제어를 통해 원치 않는 전달이나 유출 위험 없이 내부 문서를 배포하는 방법을
+  알아보세요.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - 기업 보안
+  - 문서 공유
+  - 정보 보안
+  - 팀 협업
 ---
 
 # 🛡️ 기업 팀을 위한 안전한 문서 배포
@@ -14,7 +20,7 @@ tags: ["기업 보안", "문서 공유", "정보 보안", "팀 협업"]
   <p>팀과 공유한 후에도 민감한 문서를 모두 계속 모니터링할 수 있다면 어떨까요?</p>
 </div>
 
-![기업 보안 설정](/maipdf-images/security_level_in_pdf_setting.png)
+![기업 보안 설정](/maipdf2026/show_off/securityshowoff.png)
 
 ## 📊 정보 유출: 보이지 않는 기업 위험
 
@@ -27,7 +33,7 @@ tags: ["기업 보안", "문서 공유", "정보 보안", "팀 협업"]
 
 불편한 진실은 무엇일까요? 최근 연구에 따르면 데이터 유출의 74%는 내부자와 관련되어 있습니다—정교한 해커가 아니라 적절한 보호 없이 문서를 공유하는 일반 직원들입니다.
 
-![전통적인 문서 공유 위험](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![전통적인 문서 공유 위험](/maipdf2026/flowchart/en-security-layers.svg)
 
 ## 🔒 액세스 제어를 통한 대안
 
@@ -41,7 +47,7 @@ tags: ["기업 보안", "문서 공유", "정보 보안", "팀 협업"]
 
 결과적으로 보안과 편의성을 모두 유지하는 문서 유통이 가능해집니다—오늘날의 기업 환경에 이상적인 균형입니다.
 
-![기업 문서를 위한 보안 제어](/maipdf-images/security_setting.png)
+![기업 문서를 위한 보안 제어](/maipdf2026/show_off/shareandsend.png)
 
 ## 💼 더 높은 통제가 필요한 기업 사용 사례
 
@@ -62,7 +68,7 @@ tags: ["기업 보안", "문서 공유", "정보 보안", "팀 협업"]
 
 이러한 각 문서 유형에는 부적절하게 공유되거나 유출될 경우 조직에 손해를 줄 수 있는 정보가 포함되어 있습니다.
 
-![전 세계적 안전 문서 공유](/maipdf-images/share_pdf_wordwide.png)
+![전 세계적 안전 문서 공유](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 🔐 구현: 마찰 없는 실용적 보안
 
@@ -80,7 +86,7 @@ MaiPDF와 같은 최신 보안 문서 플랫폼을 통해 구현이 쉬워집니
 
 수신자는 링크를 클릭하여 브라우저에서 콘텐츠를 볼 수 있을 뿐입니다—특별한 앱, 복잡한 로그인, 워크플로 중단 없음.
 
-![보안 문서 업로드 프로세스](/maipdf-images/upload_section.png)
+![보안 문서 업로드 프로세스](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 📱 타협 없는 액세스
 
@@ -94,7 +100,7 @@ MaiPDF와 같은 최신 보안 문서 플랫폼을 통해 구현이 쉬워집니
 
 이 접근 방식은 도입을 쉽게 하면서도 보안 태세를 크게 개선합니다.
 
-![문서 액세스 로그 확인](/maipdf-images/check_pdf_open_result.png)
+![문서 액세스 로그 확인](/maipdf2026/how_to_fill_access_record_for_check.png)
 
 ## 📈 측정 가능한 보안 향상
 
@@ -108,7 +114,7 @@ MaiPDF와 같은 최신 보안 문서 플랫폼을 통해 구현이 쉬워집니
 
 이러한 이점은 보안 팀을 넘어 조직 전체의 운영을 향상시킵니다.
 
-![공유 후 보안 설정 업데이트](/maipdf-images/pdf_change_setting_after_sent.png)
+![공유 후 보안 설정 업데이트](/maipdf2026/swap_file_easy_in_user_control_panel.png)
 
 ## 🔄 예시: 분기별 재무 검토
 

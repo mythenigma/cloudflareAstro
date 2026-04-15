@@ -1,8 +1,14 @@
 ---
-title: "QR codes pour distribuer des documents : du lien au scan"
-description: "Une approche pratique pour distribuer des documents plus vite via QR code, sur supports papier et canaux digitaux."
-pubDate: "Jan 15 2026"
-tags: ["QR codes", "Distribution de documents", "Workflow de partage"]
+title: 'QR codes pour distribuer des documents : du lien au scan'
+description: >-
+  Une approche pratique pour distribuer des documents plus vite via QR code, sur
+  supports papier et canaux digitaux.
+pubDate: Jan 15 2026
+tags:
+  - QR codes
+  - Distribution de documents
+  - Workflow de partage
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 # QR codes pour distribuer des documents : du lien au scan

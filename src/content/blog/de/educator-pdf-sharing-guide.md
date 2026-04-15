@@ -1,9 +1,15 @@
 ---
-title: "Leitfaden für Pädagogen: PDF-Sharing"
-description: "Erfahren Sie, wie Pädagogen PDFs sicher teilen können. Vollständiger Leitfaden zum PDF-Sharing für Pädagogen, Bildungsmaterialien und sichere Verteilung."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Bildung", "Pädagogen", "Sharing"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Leitfaden für Pädagogen: PDF-Sharing'
+description: >-
+  Erfahren Sie, wie Pädagogen PDFs sicher teilen können. Vollständiger Leitfaden
+  zum PDF-Sharing für Pädagogen, Bildungsmaterialien und sichere Verteilung.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Bildung
+  - Pädagogen
+  - Sharing
+heroImage: /maipdf2026/en-upload-screenshot.png
 ---
 
 # Leitfaden für Pädagogen: PDF-Sharing
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Pädagogen benötigen sichere und effiziente Methoden zum Teilen von PDF-Dokumenten mit Schülern, Kollegen und Eltern. Diese Anleitung zeigt Pädagogen, wie sie PDFs sicher teilen und Bildungsmaterialien effektiv verteilen können.</p>
 </div>
 
-![PDF-Sharing für Pädagogen](/diagram/en/features-overview.svg)
+![PDF-Sharing für Pädagogen](/maipdf2026/en-upload-screenshot.png)
 
 ## 🎯 Warum PDF-Sharing für Pädagogen?
 

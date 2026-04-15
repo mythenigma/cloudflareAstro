@@ -1,9 +1,15 @@
 ---
-title: "Introducción al Compartir PDF: Guía Completa para Principiantes"
-description: "Aprenda los conceptos básicos del intercambio de PDF en línea. Descubra cómo compartir documentos PDF de forma segura y eficiente con MaiPDF."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Compartir", "Guía", "Principiantes"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Introducción al Compartir PDF: Guía Completa para Principiantes'
+description: >-
+  Aprenda los conceptos básicos del intercambio de PDF en línea. Descubra cómo
+  compartir documentos PDF de forma segura y eficiente con MaiPDF.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Compartir
+  - Guía
+  - Principiantes
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # Introducción al Compartir PDF: Guía Completa para Principiantes
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Compartir documentos PDF en línea se ha convertido en una necesidad esencial en el mundo digital actual. Ya sea para trabajo, educación o uso personal, saber cómo compartir PDFs de forma segura y eficiente puede ahorrar tiempo y proteger su información. Esta guía completa le enseñará todo lo que necesita saber sobre el intercambio de PDF.</p>
 </div>
 
-![Introducción al Compartir PDF](/diagram/en/features-overview.svg)
+![Introducción al Compartir PDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## ¿Qué es el Compartir PDF?
 

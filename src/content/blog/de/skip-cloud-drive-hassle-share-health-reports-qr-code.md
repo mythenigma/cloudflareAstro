@@ -1,14 +1,24 @@
 ---
-title: "Cloud-Drive-Ärger vermeiden: Gesundheitsberichte über einen einzigen QR-Code mit den Eltern teilen"
-description: "Teilen Sie große medizinische Dateien einfach mit den Eltern über einen einzigen QR-Code. Keine Apps, keine Anmeldungen, nur sofortiger Browser-Zugriff."
-pubDate: "May 02 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["QR-Code", "PDF-Teilen", "Gesundheitsberichte", "Familienfreigabe", "Seniorenfreundlich"]
+title: >-
+  Cloud-Drive-Ärger vermeiden: Gesundheitsberichte über einen einzigen QR-Code
+  mit den Eltern teilen
+description: >-
+  Teilen Sie große medizinische Dateien einfach mit den Eltern über einen
+  einzigen QR-Code. Keine Apps, keine Anmeldungen, nur sofortiger
+  Browser-Zugriff.
+pubDate: May 02 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - QR-Code
+  - PDF-Teilen
+  - Gesundheitsberichte
+  - Familienfreigabe
+  - Seniorenfreundlich
 ---
 
 Das Teilen innerhalb der Familie kann einfach sein – selbst wenn medizinische Dateien groß sind und Ihre Eltern keine weitere App möchten. Mit einem einzigen QR-Code können Sie einen vollständigen Gesundheitsbericht senden, der sich sofort in jedem Browser öffnet, auf einem Telefonbildschirm sauber skaliert und niemals deren Speicherplatz verstopft. Unten finden Sie eine praktische Anleitung, die Ihre Eltern als kluge, unabhängige Menschen behandelt, die einfach weniger Schritte bevorzugen.
 
-![QR-Code und PDF-Link Ergebnis](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![QR-Code und PDF-Link Ergebnis](/maipdf2026/Result_of_qr_link.png)
 
 ## Warum sich die Mühe machen, Cloud-Drive-Links zu vermeiden?
 
@@ -29,7 +39,7 @@ Das Teilen innerhalb der Familie kann einfach sein – selbst wenn medizinische 
 4.  **Eltern scannen & lesen** – Die eingebaute Kamera ihres Telefons startet den Bericht sofort im Browser.
 5.  **Beruhigung verfolgen** – Ein kurzer Blick auf Ihr Dashboard bestätigt, dass Mama ihn zweimal und Papa einmal angesehen hat – keine „Hast du es bekommen?"-Anrufe mehr.
 
-![Upload-Bereich Oberfläche](/maipdf-images/upload_section.png)
+![Upload-Bereich Oberfläche](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 *(Der Name von MaiPDF erscheint nie auf dem QR-Startbildschirm, wodurch der Ablauf sauber und markenneutral bleibt.)*
 
@@ -41,7 +51,7 @@ Benennen Sie es vor dem Hochladen in `Papa_Checkup_März2025.pdf` um; der Datein
 ### 2. „Familienfreundlichen Lesemodus" wählen
 Diese optionale MaiPDF-Voreinstellung vergrößert den Fließtext auf mindestens 16 px und aktiviert kontrastreiche Seitenminiaturen – ideal für alternde Augen.
 
-![Sicherheitseinstellungen-Panel](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungen-Panel](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ### 3. Persönliche Notiz hinzufügen
 Geben Sie in das Feld „Einführungsnachricht“ von MaiPDF Folgendes ein:
@@ -63,7 +73,7 @@ Lassen Sie die integrierte Öffnungsverfolgung den Rest erledigen. Wenn der Beri
 *   **Automatisches Ablaufen** löscht den Link an dem von Ihnen gewählten Datum und reduziert digitalen Ballast für Ihre Eltern.
 *   **Geräteunabhängig:** Funktioniert auf iPhone, Android, iPad – jedem Browser von Safari bis Chrome.
 
-![PDF native Ansicht im Browser](/maipdf-images/pdf_native_view_on_ui.png)
+![PDF native Ansicht im Browser](/maipdf2026/show_off/showpdf.png)
 
 ## Machen Sie es zur Routine
 
@@ -77,4 +87,4 @@ Lassen Sie die integrierte Öffnungsverfolgung den Rest erledigen. Wenn der Beri
 
 Familienfreigabe, seniorenfreundliches Design, QR-Code-Ansicht, Zustellung von Gesundheitsberichten – fügen Sie diese vier Ideen zusammen und Sie erhalten einen Arbeitsablauf, der Reibungsverluste für alle beseitigt. Wenn Sie das nächste Mal ein PDF vom Krankenhaus erhalten, verbringen Sie 30 Sekunden in MaiPDF, generieren Sie einen Code und senden Sie ihn ab. Ihre Eltern bleiben informiert, Sie bleiben organisiert und niemand kämpft jemals wieder mit Cloud-Drive-Anmeldungen.
 
-![Nachverfolgung, wer Ihr Dokument angesehen hat](/maipdf-images/check_pdf_open_result.png)
+![Nachverfolgung, wer Ihr Dokument angesehen hat](/maipdf2026/page_redirect_to_accessRecord.png)

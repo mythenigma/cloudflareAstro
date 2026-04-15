@@ -1,8 +1,15 @@
 ---
-title: "Offline-PDF-Paket verteilen: Best Practices (ZIP/HTML-Paket)"
-description: "Wenn Empfänger offline lesen müssen: Offline-Paket erzeugen, als ZIP verteilen, lokal öffnen – und Updates sauber versionieren."
-pubDate: "Jan 26 2026"
-tags: ["PDF", "Offline", "Distribution", "Workflow"]
+title: 'Offline-PDF-Paket verteilen: Best Practices (ZIP/HTML-Paket)'
+description: >-
+  Wenn Empfänger offline lesen müssen: Offline-Paket erzeugen, als ZIP
+  verteilen, lokal öffnen – und Updates sauber versionieren.
+pubDate: Jan 26 2026
+tags:
+  - PDF
+  - Offline
+  - Distribution
+  - Workflow
+heroImage: /offlinepages/result_download_zip_file.png
 ---
 
 Online-Link-Sharing ist bequem, aber manchmal braucht man ein **offline-fähiges Paket** (z. B. für geschlossene Netzwerke oder Geräte ohne dauerhafte Verbindung).

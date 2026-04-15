@@ -1,9 +1,14 @@
 ---
-title: "Maiimg完全紹介：プロフェッショナルな画像共有プラットフォーム、シンプルで安全"
-description: "Maiimgの実務向けガイド。主要機能、適用シーン、推奨設定、運用フローをコンパクトに整理。"
-pubDate: "Feb 11 2026"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["Maiimg", "画像共有", "ギャラリー管理", "アクセス制御", "完全紹介"]
+title: Maiimg完全紹介：プロフェッショナルな画像共有プラットフォーム、シンプルで安全
+description: Maiimgの実務向けガイド。主要機能、適用シーン、推奨設定、運用フローをコンパクトに整理。
+pubDate: Feb 11 2026
+heroImage: /maiimg/static-images/common/show/english-share-entry-hero.svg
+tags:
+  - Maiimg
+  - 画像共有
+  - ギャラリー管理
+  - アクセス制御
+  - 完全紹介
 ---
 
 # Maiimg完全紹介：プロフェッショナルな画像共有プラットフォーム、シンプルで安全
@@ -12,7 +17,7 @@ tags: ["Maiimg", "画像共有", "ギャラリー管理", "アクセス制御", 
   <p>Maiimgは「素早く共有したいが、アクセス条件は管理したい」ケースに向いた画像配布ワークフローです。</p>
 </div>
 
-![Maiimg Homepage](/maiimg/maiimg-head.png)
+![Maiimg Homepage](/maiimg/static-images/common/show/english-share-entry-hero.svg)
 
 ## Maiimgで解決できること
 

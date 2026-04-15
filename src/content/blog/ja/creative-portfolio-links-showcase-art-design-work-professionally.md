@@ -1,7 +1,8 @@
 ---
-title: "クイックガイド：Creative Portfolio Links Showcase Art Design Work Professionally"
-description: "Creative Portfolio Links Showcase Art Design Work Professionallyを短く整理（図付き）。"
-pubDate: "Jan 15 2026"
+title: クイックガイド：Creative Portfolio Links Showcase Art Design Work Professionally
+description: Creative Portfolio Links Showcase Art Design Work Professionallyを短く整理（図付き）。
+pubDate: Jan 15 2026
+heroImage: /maiimg/static-images/common/show/english-portfolio-preview.svg
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

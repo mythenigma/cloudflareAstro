@@ -1,9 +1,15 @@
 ---
-title: "Beneficios de Compartir PDF: Por Qué Usar Enlaces en Lugar de Archivos"
-description: "Descubra los numerosos beneficios de compartir PDFs a través de enlaces en lugar de archivos adjuntos. Mejor experiencia, más seguridad y mayor control."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Beneficios", "Compartir", "Ventajas"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Beneficios de Compartir PDF: Por Qué Usar Enlaces en Lugar de Archivos'
+description: >-
+  Descubra los numerosos beneficios de compartir PDFs a través de enlaces en
+  lugar de archivos adjuntos. Mejor experiencia, más seguridad y mayor control.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Beneficios
+  - Compartir
+  - Ventajas
+heroImage: /maipdf2026/show_off/shareandsend.png
 ---
 
 # Beneficios de Compartir PDF: Por Qué Usar Enlaces en Lugar de Archivos
@@ -12,7 +18,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Compartir PDFs a través de enlaces en lugar de archivos adjuntos ofrece numerosos beneficios que mejoran la experiencia tanto para el remitente como para el destinatario. Desde mayor velocidad hasta mejor seguridad, los enlaces PDF transforman cómo compartimos documentos.</p>
 </div>
 
-![Beneficios de Compartir PDF](/diagram/en/features-overview.svg)
+![Beneficios de Compartir PDF](/maipdf2026/show_off/shareandsend.png)
 
 ## 🚀 Beneficios Principales
 

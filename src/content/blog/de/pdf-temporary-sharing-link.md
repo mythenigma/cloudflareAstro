@@ -1,9 +1,16 @@
 ---
-title: "PDF Temporäres Freigabe-Link-Tool"
-description: "Laden Sie PDF-Dateien hoch, um temporäre Freigabe-Links mit Zugriffsanzahl- und Download-Berechtigungskontrolle zu generieren. Keine Registrierung erforderlich. Links laufen automatisch ab, wenn das Limit erreicht ist."
-pubDate: "Jun 03 2025"
-heroImage: "/maifle/home.png"
-tags: ["PDF-Teilung", "Temporärer Link", "Zugriffskontrolle", "Keine Registrierung"]
+title: PDF Temporäres Freigabe-Link-Tool
+description: >-
+  Laden Sie PDF-Dateien hoch, um temporäre Freigabe-Links mit Zugriffsanzahl-
+  und Download-Berechtigungskontrolle zu generieren. Keine Registrierung
+  erforderlich. Links laufen automatisch ab, wenn das Limit erreicht ist.
+pubDate: Jun 03 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDF-Teilung
+  - Temporärer Link
+  - Zugriffskontrolle
+  - Keine Registrierung
 ---
 
 # PDF Temporäres Freigabe-Link-Tool
@@ -12,7 +19,7 @@ In der täglichen Arbeit und im Studium müssen wir oft PDF-Dateien mit anderen 
 
 Seine Kernfunktion besteht darin, temporäre Freigabe-Links mit Zugriffskontrolle für hochgeladene PDF-Dateien zu generieren, sodass Benutzer den Freigabebereich und die Zugriffsberechtigungen von Dateien präzise kontrollieren können.
 
-![Homepage-Interface](/maifle/home.png)
+![Homepage-Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Warum Temporäres Teilen Wählen?
 

@@ -1,9 +1,15 @@
 ---
-title: "Un generador de enlaces PDF minimalista"
-description: "Sube un PDF y genera un enlace compartible con controles de acceso simples. No se requiere registro."
-pubDate: "2025-06-03"
-heroImage: "/maipdf-images/upload_section.png"
-tags: ["compartir PDF", "generador de enlaces PDF", "compartir PDF seguro", "maipdf"]
+title: Un generador de enlaces PDF minimalista
+description: >-
+  Sube un PDF y genera un enlace compartible con controles de acceso simples. No
+  se requiere registro.
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - compartir PDF
+  - generador de enlaces PDF
+  - compartir PDF seguro
+  - maipdf
 ---
 
 # Un generador de enlaces PDF minimalista
@@ -31,7 +37,7 @@ Estas soluciones funcionan para flujos de trabajo complejos, pero son excesivas 
 ## Cómo funciona MaiPDF
 
 <div class="image-container">
-  <img src="/maipdf-images/upload_section.png" alt="Interfaz de Subida" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="Interfaz de Subida" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 El proceso es intencionalmente simple:

@@ -1,9 +1,18 @@
 ---
-title: "Wie teilt man Trainingsmaterialien sicher? Hören Sie auf, PDFs einfach herumzuschicken!"
-description: "Wie man PDF-Trainingsmaterialien in der Bildungsbranche sicher teilt, Datenlecks und Diebstahl verhindert und das Dokumentenmanagement professionalisiert."
-pubDate: "2025-06-05"
-tags: ["PDF sichere Freigabe", "Bildungstraining", "Inhaltsschutz", "Berechtigungssteuerung"]
-heroImage: "/maipdf-images/check_pdf_open_result.png"
+title: >-
+  Wie teilt man Trainingsmaterialien sicher? Hören Sie auf, PDFs einfach
+  herumzuschicken!
+description: >-
+  Wie man PDF-Trainingsmaterialien in der Bildungsbranche sicher teilt,
+  Datenlecks und Diebstahl verhindert und das Dokumentenmanagement
+  professionalisiert.
+pubDate: '2025-06-05'
+tags:
+  - PDF sichere Freigabe
+  - Bildungstraining
+  - Inhaltsschutz
+  - Berechtigungssteuerung
+heroImage: /maipdf2026/page_redirect_to_accessRecord.png
 ---
 
 # Wie teilt man Trainingsmaterialien sicher? Hören Sie auf, PDFs einfach herumzuschicken!

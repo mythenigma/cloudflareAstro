@@ -1,9 +1,18 @@
 ---
-title: "Maiimg Guide Complet : Plateforme Professionnelle de Partage d'Images Simple et Securisee"
-description: "Introduction pratique a Maiimg : fonctions cles, cas d'usage, regles conseillees et workflow de partage controle."
-pubDate: "Feb 11 2026"
-heroImage: "/maiimg/maiimg-head.png"
-tags: ["Maiimg", "Partage d'Images", "Gestion de Galerie", "Controle d'Acces", "Guide Complet"]
+title: >-
+  Maiimg Guide Complet : Plateforme Professionnelle de Partage d'Images Simple
+  et Securisee
+description: >-
+  Introduction pratique a Maiimg : fonctions cles, cas d'usage, regles
+  conseillees et workflow de partage controle.
+pubDate: Feb 11 2026
+heroImage: /maiimg/static-images/common/show/english-share-entry-hero.svg
+tags:
+  - Maiimg
+  - Partage d'Images
+  - Gestion de Galerie
+  - Controle d'Acces
+  - Guide Complet
 ---
 
 # Maiimg Guide Complet : Plateforme Professionnelle de Partage d'Images Simple et Securisee
@@ -12,7 +21,7 @@ tags: ["Maiimg", "Partage d'Images", "Gestion de Galerie", "Controle d'Acces", "
   <p>Maiimg convient aux equipes qui veulent partager vite, mais garder la maitrise de l'acces et de la duree de disponibilite.</p>
 </div>
 
-![Maiimg Homepage](/maiimg/maiimg-head.png)
+![Maiimg Homepage](/maiimg/static-images/common/show/english-share-entry-hero.svg)
 
 ## Problemes que Maiimg resout
 

@@ -1,9 +1,19 @@
 ---
-title: "MaiPDF Guide Complet : Plateforme Professionnelle de Partage PDF Simple et Sécurisée"
-description: "Qu'est-ce que MaiPDF ? Comment partager rapidement des PDF ? Ce guide complet présente les fonctionnalités principales, méthodes d'utilisation et scénarios d'application de MaiPDF à travers des diagrammes clairs et des organigrammes."
-pubDate: "Dec 05 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["MaiPDF", "Partage PDF", "Gestion de Documents", "Contrôle d'Accès", "Guide Complet"]
+title: >-
+  MaiPDF Guide Complet : Plateforme Professionnelle de Partage PDF Simple et
+  Sécurisée
+description: >-
+  Qu'est-ce que MaiPDF ? Comment partager rapidement des PDF ? Ce guide complet
+  présente les fonctionnalités principales, méthodes d'utilisation et scénarios
+  d'application de MaiPDF à travers des diagrammes clairs et des organigrammes.
+pubDate: Dec 05 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - MaiPDF
+  - Partage PDF
+  - Gestion de Documents
+  - Contrôle d'Accès
+  - Guide Complet
 ---
 
 # MaiPDF Guide Complet : Plateforme Professionnelle de Partage PDF Simple et Sécurisée
@@ -12,7 +22,7 @@ tags: ["MaiPDF", "Partage PDF", "Gestion de Documents", "Contrôle d'Accès", "G
   <p><strong>MaiPDF</strong> est une plateforme professionnelle de partage PDF en ligne qui vous permet de générer rapidement des liens de partage sans inscription, de contrôler les permissions d'accès à tout moment et de suivre l'ouverture des documents en temps réel. Qu'il s'agisse de contrats commerciaux, de manuels produits ou de rapports d'équipe, MaiPDF rend le partage de documents simple, sécurisé et contrôlable.</p>
 </div>
 
-![Page d'accueil MaiPDF](/maipdf-images/maipdf_landing_page.png)
+![Page d'accueil MaiPDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Qu'est-ce que MaiPDF ?
 
@@ -126,7 +136,7 @@ flowchart TD
 - Ou télécharger code QR pour partager
 - Consulter enregistrements d'accès en temps réel
 
-![Interface de Téléchargement MaiPDF](/maipdf-images/upload_section.png)
+![Interface de Téléchargement MaiPDF](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Fonctionnalités Principales Expliquées
 
@@ -151,7 +161,7 @@ flowchart LR
     style E fill:#50C878,color:#fff
 ```
 
-![Résultat de Génération de Lien MaiPDF](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Résultat de Génération de Lien MaiPDF](/maipdf2026/Result_of_qr_link.png)
 
 ### Fonctionnalité 2 : Contrôle d'Accès
 
@@ -187,7 +197,7 @@ flowchart TD
     style K fill:#50C878,color:#fff
 ```
 
-![Interface de Paramètres MaiPDF](/maipdf-images/security_setting.png)
+![Interface de Paramètres MaiPDF](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ### Fonctionnalité 3 : Suivi des Données
 

@@ -1,9 +1,15 @@
 ---
-title: "MaiPDF：より安全で効率的なオンラインPDF共有"
-description: "ログイン不要のアクセス、メール認証、Cloudflare R2技術により、MaiPDFが従来のクラウドストレージよりも安全で便利なPDF共有ソリューションを提供する方法を探ります。"
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/secure-pdf-sharing.png"
-tags: ["PDF共有", "ドキュメントセキュリティ", "クラウドストレージ", "Cloudflare"]
+title: MaiPDF：より安全で効率的なオンラインPDF共有
+description: >-
+  ログイン不要のアクセス、メール認証、Cloudflare
+  R2技術により、MaiPDFが従来のクラウドストレージよりも安全で便利なPDF共有ソリューションを提供する方法を探ります。
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - PDF共有
+  - ドキュメントセキュリティ
+  - クラウドストレージ
+  - Cloudflare
 ---
 
 # MaiPDF：より安全で効率的なオンラインPDF共有

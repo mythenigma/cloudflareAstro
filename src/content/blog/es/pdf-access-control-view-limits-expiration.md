@@ -1,9 +1,17 @@
 ---
-title: "Control de Acceso PDF: Límites de Visualización y Expiración - Guía Completa"
-description: "Aprenda cómo implementar controles de acceso PDF con límites de visualización y expiración. Guía completa sobre control de acceso PDF, límites de visualización y expiración."
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Control de Acceso PDF", "Límites de Visualización", "Expiración", "Protección de Documentos", "Protección PDF"]
+title: 'Control de Acceso PDF: Límites de Visualización y Expiración - Guía Completa'
+description: >-
+  Aprenda cómo implementar controles de acceso PDF con límites de visualización
+  y expiración. Guía completa sobre control de acceso PDF, límites de
+  visualización y expiración.
+pubDate: May 29 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Control de Acceso PDF
+  - Límites de Visualización
+  - Expiración
+  - Protección de Documentos
+  - Protección PDF
 ---
 
 # Control de Acceso PDF: Límites de Visualización y Expiración - Guía Completa
@@ -12,7 +20,7 @@ tags: ["Control de Acceso PDF", "Límites de Visualización", "Expiración", "Pr
   <p>El control de acceso PDF con límites de visualización y expiración es un aspecto importante de la protección de documentos. El <strong>control de acceso PDF</strong> proporciona soluciones completas para controlar el acceso a documentos PDF.</p>
 </div>
 
-![Interfaz de Configuración de Seguridad](/maipdf-images/security_setting.png)
+![Interfaz de Configuración de Seguridad](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## ¿Qué es el Control de Acceso PDF?
 

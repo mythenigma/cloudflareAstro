@@ -1,9 +1,15 @@
 ---
-title: "📲 Comment créer un QR code qui télécharge instantanément un PDF"
-description: "Découvrez la méthode la plus rapide pour partager des documents hors ligne à l'aide de QR codes qui mènent directement à des PDF téléchargeables."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["QR Codes", "Partage de PDF", "Distribution de Documents", "Partage Hors Ligne"]
+title: "\U0001F4F2 Comment créer un QR code qui télécharge instantanément un PDF"
+description: >-
+  Découvrez la méthode la plus rapide pour partager des documents hors ligne à
+  l'aide de QR codes qui mènent directement à des PDF téléchargeables.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - QR Codes
+  - Partage de PDF
+  - Distribution de Documents
+  - Partage Hors Ligne
 ---
 
 # 📲 Comment créer un QR code qui télécharge instantanément un PDF
@@ -13,7 +19,7 @@ tags: ["QR Codes", "Partage de PDF", "Distribution de Documents", "Partage Hors 
   <p>Simple, propre et incroyablement efficace.</p>
 </div>
 
-![Résultat du lien PDF et du QR code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Résultat du lien PDF et du QR code](/maipdf2026/Result_of_qr_link.png)
 
 Voici comment créer un QR code qui mène directement à un PDF téléchargeable – et pourquoi ce pourrait être la façon la plus intelligente de partager des documents en 2025.
 
@@ -41,7 +47,7 @@ C'est tout.
 
 Lorsque quelqu'un scanne le code, le lien s'ouvre – et le PDF se télécharge automatiquement ou s'ouvre dans un écran de visualisation/téléchargement, selon le navigateur.
 
-![Section de téléchargement](/maipdf-images/upload_section.png)
+![Section de téléchargement](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🌐 Où héberger le PDF
 

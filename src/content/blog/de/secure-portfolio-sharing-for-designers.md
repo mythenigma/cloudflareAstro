@@ -1,9 +1,16 @@
 ---
-title: "Sicheres Portfolio-Sharing für Designer: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Designer Portfolios sicher teilen können. Vollständiger Leitfaden zum Portfolio-Sharing für Designer, professionelle Präsentation und sichere Verteilung."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Portfolio", "Designer", "Sharing"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Sicheres Portfolio-Sharing für Designer: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Designer Portfolios sicher teilen können. Vollständiger
+  Leitfaden zum Portfolio-Sharing für Designer, professionelle Präsentation und
+  sichere Verteilung.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Portfolio
+  - Designer
+  - Sharing
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 # Sicheres Portfolio-Sharing für Designer: Vollständiger Leitfaden
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Das sichere Portfolio-Sharing ermöglicht es Designern, ihre Portfolios professionell und sicher mit Kunden und Arbeitgebern zu teilen. Diese Anleitung zeigt Designern, wie sie Portfolios sicher teilen können.</p>
 </div>
 
-![Portfolio-Sharing für Designer](/diagram/en/features-overview.svg)
+![Portfolio-Sharing für Designer](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 🎯 Warum Portfolio-Sharing für Designer?
 

@@ -1,9 +1,16 @@
 ---
-title: "🔒 Anzahl der Ansichten für ein geteiltes PDF beschränken – So geht's"
-description: "Erfahren Sie, wie Sie nicht nur kontrollieren können, wer auf Ihre PDF-Dateien zugreifen kann, sondern auch wie oft sie angesehen werden können, mit praktischen Lösungen, die Ihre sensiblen Inhalte schützen."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF-Sicherheit", "Dokumentenaustausch", "Ansichtsbegrenzungen", "Inhaltsschutz"]
+title: "\U0001F512 Anzahl der Ansichten für ein geteiltes PDF beschränken – So geht's"
+description: >-
+  Erfahren Sie, wie Sie nicht nur kontrollieren können, wer auf Ihre PDF-Dateien
+  zugreifen kann, sondern auch wie oft sie angesehen werden können, mit
+  praktischen Lösungen, die Ihre sensiblen Inhalte schützen.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF-Sicherheit
+  - Dokumentenaustausch
+  - Ansichtsbegrenzungen
+  - Inhaltsschutz
 ---
 
 Ein PDF online zu teilen ist einfach. Aber zu kontrollieren, wie oft es angesehen werden kann? Das ist die Herausforderung.
@@ -14,7 +21,7 @@ Hier erfahren Sie, warum Sie PDF-Ansichten beschränken möchten, wie das funkti
 
 ## 🎯 Warum PDF-Ansichten begrenzen?
 
-![PDF-Sicherheitseinstellungen](/maipdf-images/security_setting.png)
+![PDF-Sicherheitseinstellungen](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 Nicht jedes PDF sollte ewig leben. Die Begrenzung der Ansichten ist nützlich, wenn:
 

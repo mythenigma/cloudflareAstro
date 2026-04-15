@@ -1,9 +1,13 @@
 ---
-title: "📲 PDF를 즉시 다운로드하는 QR 코드 만들기"
-description: "QR 코드를 사용하여 오프라인에서 PDF 문서를 바로 다운로드할 수 있는 가장 빠른 방법을 알아보세요."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["QR 코드", "PDF 공유", "문서 배포", "오프라인 공유"]
+title: "\U0001F4F2 PDF를 즉시 다운로드하는 QR 코드 만들기"
+description: QR 코드를 사용하여 오프라인에서 PDF 문서를 바로 다운로드할 수 있는 가장 빠른 방법을 알아보세요.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/Result_of_qr_link.png
+tags:
+  - QR 코드
+  - PDF 공유
+  - 문서 배포
+  - 오프라인 공유
 ---
 
 # 📲 PDF를 즉시 다운로드하는 QR 코드 만들기
@@ -13,7 +17,7 @@ tags: ["QR 코드", "PDF 공유", "문서 배포", "오프라인 공유"]
   <p>간단하고, 깔끔하며, 믿을 수 없을 정도로 효율적입니다.</p>
 </div>
 
-![PDF 링크와 QR 코드 결과](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![PDF 링크와 QR 코드 결과](/maipdf2026/Result_of_qr_link.png)
 
 다운로드 가능한 PDF로 바로 연결되는 QR 코드를 만드는 방법과 2025년에 문서를 공유하는 가장 스마트한 방법이 될 수 있는 이유를 알아보겠습니다.
 
@@ -41,7 +45,7 @@ QR 코드는 이제 어디에나 있습니다. 그 이유는:
 
 누군가 코드를 스캔하면 링크가 열리고, 브라우저에 따라 PDF가 자동으로 다운로드되거나 보기/다운로드 화면에서 열립니다.
 
-![업로드 섹션](/maipdf-images/upload_section.png)
+![업로드 섹션](/maipdf2026/flowchart/en-qr-sharing-flow.svg)
 
 ## 🌐 PDF를 업로드할 위치
 

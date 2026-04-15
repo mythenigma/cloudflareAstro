@@ -1,9 +1,16 @@
 ---
-title: "Enlaces PDF Rápidos: Compartir Documentos en Segundos"
-description: "Genere enlaces PDF compartibles instantáneamente. Sin registro, sin complicaciones - solo suba, genere y comparta en segundos con MaiPDF."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Enlaces", "Compartir Rápido", "Sin Registro"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Enlaces PDF Rápidos: Compartir Documentos en Segundos'
+description: >-
+  Genere enlaces PDF compartibles instantáneamente. Sin registro, sin
+  complicaciones - solo suba, genere y comparta en segundos con MaiPDF.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Enlaces
+  - Compartir Rápido
+  - Sin Registro
+heroImage: /maipdf2026/Result_of_qr_link.png
+noindex: true
 ---
 
 # Enlaces PDF Rápidos: Compartir Documentos en Segundos
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>¿Necesita compartir un PDF rápidamente? Los enlaces PDF rápidos le permiten generar enlaces compartibles en segundos, sin registro, sin complicaciones. Perfecto para cuando necesita compartir documentos de inmediato.</p>
 </div>
 
-![Enlaces PDF Rápidos](/diagram/en/features-overview.svg)
+![Enlaces PDF Rápidos](/maipdf2026/Result_of_qr_link.png)
 
 ## ⚡ ¿Qué son los Enlaces PDF Rápidos?
 

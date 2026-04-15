@@ -1,8 +1,13 @@
 ---
-title: "QRコードで資料配布：リンク共有をもっと手軽に"
-description: "QRはリンクを開くための近道。リンク/QRを作り、掲示して配布し、更新はReplace Fileでリンクを維持します。"
-pubDate: "Jan 26 2026"
-tags: ["QRコード", "PDF", "共有"]
+title: QRコードで資料配布：リンク共有をもっと手軽に
+description: QRはリンクを開くための近道。リンク/QRを作り、掲示して配布し、更新はReplace Fileでリンクを維持します。
+pubDate: Jan 26 2026
+tags:
+  - QRコード
+  - PDF
+  - 共有
+noindex: true
+heroImage: /maipdf2026/Result_of_qr_link.png
 ---
 
 QRコードは「リンクを開くためのショートカット」です。配布や案内で **入力ミスを減らして**アクセスを早くできます。

@@ -1,9 +1,16 @@
 ---
-title: "🛡️ Protege tus PDFs en línea—Controla quién visualiza, comparte o edita tus documentos"
-description: "Aprende a proteger información sensible en tus PDFs sin software complejo ni herramientas costosas. Toma el control de la compartición de tus documentos con medidas de seguridad simples pero potentes."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_level_in_pdf_setting.png"
-tags: ["Seguridad PDF", "Protección de Documentos", "Compartición de Archivos", "Control de Información"]
+title: "\U0001F6E1️ Protege tus PDFs en línea—Controla quién visualiza, comparte o edita tus documentos"
+description: >-
+  Aprende a proteger información sensible en tus PDFs sin software complejo ni
+  herramientas costosas. Toma el control de la compartición de tus documentos
+  con medidas de seguridad simples pero potentes.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/flowchart/en-security-layers.svg
+tags:
+  - Seguridad PDF
+  - Protección de Documentos
+  - Compartición de Archivos
+  - Control de Información
 ---
 
 # 🛡️ Protege tus PDFs en línea—Controla quién visualiza, comparte o edita tus documentos
@@ -35,7 +42,7 @@ Significa:
 
 Piénsalo como una seguridad ligera para documentos—diseñada para compartir en el mundo real.
 
-![Niveles de seguridad en la configuración de PDF](/maipdf-images/security_level_in_pdf_setting.png)
+![Niveles de seguridad en la configuración de PDF](/maipdf2026/flowchart/en-security-layers.svg)
 
 ## 🔐 Cómo MaiPDF te ayuda a proteger tus PDFs
 
@@ -72,7 +79,7 @@ Esto es lo que puedes hacer con MaiPDF:
 
 Todo esto sucede en línea. Sin software, sin configuración técnica—solo compartición inteligente.
 
-![Sección de carga](/maipdf-images/upload_section.png)
+![Sección de carga](/maipdf2026/show_off/securityshowoff.png)
 
 ## 🧪 Escenarios del mundo real
 
@@ -109,7 +116,7 @@ Todo esto sucede en línea. Sin software, sin configuración técnica—solo com
 
 En cada caso, no estás simplemente enviando un archivo—estás gestionando una experiencia.
 
-![Resultado del enlace PDF y código QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultado del enlace PDF y código QR](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
 ## 🔁 ¿Necesitas actualizar el archivo? No hay problema.
 
@@ -124,7 +131,7 @@ Con él, puedes:
 
 Es la protección que sigues controlando, incluso después de hacer clic en "enviar".
 
-![Cambiar la configuración del PDF después de enviarlo](/maipdf-images/pdf_change_setting_after_sent.png)
+![Cambiar la configuración del PDF después de enviarlo](/maipdf2026/Result_of_qr_link.png)
 
 ## 🧭 Por qué esto es importante
 

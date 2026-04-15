@@ -1,16 +1,23 @@
 ---
-title: "PDF Hochladen Link Erhalten: Einfaches Dateiteilen in Drei Einfachen Schritten"
-description: "Laden Sie jede PDF-Datei hoch und erhalten Sie einen sofortigen teilbaren Link. Keine Registrierung, keine Komplexität - nur schnelles, einfaches Dokumententeilen, das überall funktioniert."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/upload_section.png"
-tags: ["PDF hochladen", "sofortige Links", "einfaches Teilen", "Datei-Upload"]
+title: 'PDF Hochladen Link Erhalten: Einfaches Dateiteilen in Drei Einfachen Schritten'
+description: >-
+  Laden Sie jede PDF-Datei hoch und erhalten Sie einen sofortigen teilbaren
+  Link. Keine Registrierung, keine Komplexität - nur schnelles, einfaches
+  Dokumententeilen, das überall funktioniert.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF hochladen
+  - sofortige Links
+  - einfaches Teilen
+  - Datei-Upload
 ---
 
 # PDF Hochladen Link Erhalten: Einfaches Dateiteilen in Drei Einfachen Schritten
 
 Dokumententeilen sollte einfach sein. Laden Sie Ihr PDF hoch, erhalten Sie einen Link, teilen Sie ihn überall. Genau so funktioniert MaiPDF - keine komplizierten Prozesse, keine langwierigen Registrierungen, nur direktes Dateiteilen, das die Arbeit erledigt.
 
-![Upload-Interface](/maipdf-images/upload_section.png)
+![Upload-Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Der Drei-Schritte-Prozess
 
@@ -20,7 +27,7 @@ Dokumententeilen sollte einfach sein. Laden Sie Ihr PDF hoch, erhalten Sie einen
 
 **Schritt 3: Teilen** - Kopieren Sie den Link und teilen Sie ihn per E-Mail, Nachrichten, soziale Medien oder woanders Sie ihn benötigen.
 
-![Upload-Prozess-Fluss](/maipdf-images/upload_section.png)
+![Upload-Prozess-Fluss](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 Das war's. Keine Kontenerstellung, keine komplexen Einstellungen zum Konfigurieren, kein technisches Wissen erforderlich. Einfach hochladen, Link erhalten, teilen.
 

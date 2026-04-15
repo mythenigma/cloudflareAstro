@@ -1,9 +1,18 @@
 ---
-title: "MaiPDF Druckbeschränkung: Vollständiger Leitfaden zum Verhindern von PDF-Drucken"
-description: "Erfahren Sie, wie Sie PDF-Drucken mit MaiPDF verhindern können. Vollständiger Leitfaden zur Druckbeschränkung, Druckkontrolle und Dokumentenschutz."
-pubDate: "May 29 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF-Druckbeschränkung", "Druck verhindern", "Druckkontrolle", "Dokumentschutz", "PDF-Schutz"]
+title: >-
+  MaiPDF Druckbeschränkung: Vollständiger Leitfaden zum Verhindern von
+  PDF-Drucken
+description: >-
+  Erfahren Sie, wie Sie PDF-Drucken mit MaiPDF verhindern können. Vollständiger
+  Leitfaden zur Druckbeschränkung, Druckkontrolle und Dokumentenschutz.
+pubDate: May 29 2025
+heroImage: /maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png
+tags:
+  - PDF-Druckbeschränkung
+  - Druck verhindern
+  - Druckkontrolle
+  - Dokumentschutz
+  - PDF-Schutz
 ---
 
 # MaiPDF Druckbeschränkung: Vollständiger Leitfaden zum Verhindern von PDF-Drucken
@@ -12,7 +21,7 @@ tags: ["PDF-Druckbeschränkung", "Druck verhindern", "Druckkontrolle", "Dokument
   <p>Das Verhindern von PDF-Drucken ist ein wichtiger Aspekt des Dokumentschutzes. <strong>MaiPDF Druckbeschränkung</strong> bietet umfassende Lösungen zum Verhindern von PDF-Drucken und zum Schutz sensibler Dokumente.</p>
 </div>
 
-![Sicherheitseinstellungs-Interface](/maipdf-images/security_setting.png)
+![Sicherheitseinstellungs-Interface](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## Was ist PDF-Druckbeschränkung?
 

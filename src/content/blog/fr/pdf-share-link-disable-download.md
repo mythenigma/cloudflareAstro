@@ -1,8 +1,10 @@
 ---
-title: "Guide rapide : PDF Share Link Disable Download"
-description: "Un article court sur pdf share link disable download, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["PDF"]
+title: 'Guide rapide : PDF Share Link Disable Download'
+description: 'Un article court sur pdf share link disable download, avec un schéma.'
+pubDate: Jan 15 2026
+tags:
+  - PDF
+heroImage: /maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->
@@ -14,7 +16,7 @@ tags: ["PDF"]
   <p>Un article court sur pdf share link disable download, avec un schéma.</p>
 </div>
 
-![Diagram](/diagram/en/simple-access-control-flow.svg)
+![Diagram](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Points clés
 - De quoi il s'agit : un aperçu rapide du sujet.

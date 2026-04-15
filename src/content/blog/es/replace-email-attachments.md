@@ -1,9 +1,16 @@
 ---
-title: "Reemplazar Adjuntos de Email: Compartir PDF Moderno para Empresas"
-description: "Deje de luchar con los límites de adjuntos de email. Comparta documentos PDF a través de enlaces profesionales que garantizan la entrega, funcionan en móviles y ofrecen mejor seguimiento."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF", "Email", "Empresas", "Compartir"]
+title: 'Reemplazar Adjuntos de Email: Compartir PDF Moderno para Empresas'
+description: >-
+  Deje de luchar con los límites de adjuntos de email. Comparta documentos PDF a
+  través de enlaces profesionales que garantizan la entrega, funcionan en
+  móviles y ofrecen mejor seguimiento.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF
+  - Email
+  - Empresas
+  - Compartir
 ---
 
 # Reemplazar Adjuntos de Email: Compartir PDF Moderno para Empresas
@@ -12,7 +19,7 @@ tags: ["PDF", "Email", "Empresas", "Compartir"]
   <p>Los adjuntos de email son una tecnología obsoleta que frena la comunicación empresarial moderna. Los archivos grandes son rechazados, la visualización móvil es deficiente y el seguimiento es imposible. Es hora de modernizar su intercambio de documentos con enlaces PDF profesionales que resuelven estos problemas.</p>
 </div>
 
-![Compartir PDF Moderno](/maipdf-images/share_pdf_wordwide.png)
+![Compartir PDF Moderno](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## El Problema con los Adjuntos de Email en 2025
 
@@ -37,7 +44,7 @@ tags: ["PDF", "Email", "Empresas", "Compartir"]
 
 ## La Alternativa Moderna: Enlaces PDF Profesionales
 
-![Solución Moderna de Carga](/maipdf-images/upload_section.png)
+![Solución Moderna de Carga](/maipdf2026/flowchart/en-document-replace-flow.svg)
 
 <div class="solutions-grid">
   <div class="solution-card">
@@ -64,7 +71,7 @@ tags: ["PDF", "Email", "Empresas", "Compartir"]
 
 ## Transformación de las Comunicaciones Empresariales
 
-![Resultados de Enlaces Profesionales](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Resultados de Enlaces Profesionales](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 <div class="business-applications">
   <div class="application-card">
@@ -91,7 +98,7 @@ tags: ["PDF", "Email", "Empresas", "Compartir"]
 
 ## Experiencia del Cliente Mejorada
 
-![Visualización PDF Profesional](/maipdf-images/pdf_native_view_on_ui.png)
+![Visualización PDF Profesional](/maipdf2026/Result_of_qr_link.png)
 
 <div class="client-benefits">
   <div class="benefit-item">
@@ -114,7 +121,7 @@ tags: ["PDF", "Email", "Empresas", "Compartir"]
 
 ## Seguridad y Control de Nivel Empresarial
 
-![Configuración de Seguridad Empresarial](/maipdf-images/security_setting.png)
+![Configuración de Seguridad Empresarial](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 <div class="security-features">
   <div class="security-item">

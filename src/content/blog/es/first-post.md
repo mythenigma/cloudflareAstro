@@ -2,6 +2,7 @@
 title: "Introducción a MaiPDF"
 description: "Introducción a MaiPDF"
 pubDate: "Jul 15 2024"
+noindex: true
 ---
 
 ![MaiPDF Landing Page](/maipdf-images/maipdf_landing_page.png)
@@ -20,7 +21,7 @@ Ya sea que sea un diseñador independiente, un artista o alguien que necesita co
 
 4. **Apariencia Profesional** – En lugar de enviar un gran adjunto de correo electrónico o un portafolio físico, un enlace PDF limpio o incluso un código QR vinculado a su trabajo agrega un toque profesional a su método de compartir. Es simple, directo y deja una impresión duradera.
 
-![Icono PDF Sin Impresión Sin Descarga](/maipdf-images/pdf_icon_of_no_printing_no_downloading.png)
+![Icono PDF Sin Impresión Sin Descarga](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 Ya sea que sea un diseñador independiente o empleado en una agencia creativa, enviar su portafolio como un enlace PDF seguro es una forma inteligente y efectiva de compartir su trabajo con clientes potenciales, colaboradores o empleadores. Además, con las funciones personalizables de MaiPDF, puede mejorar la seguridad de sus documentos, sabiendo que sus diseños están protegidos.
 

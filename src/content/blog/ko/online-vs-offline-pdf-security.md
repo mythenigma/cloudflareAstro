@@ -1,9 +1,13 @@
 ---
-title: "온라인 링크 vs. 네트워크 인증 오프라인 패키지: 올바른 PDF 암호화 모드 선택 가이드"
-description: "클라우드 기반 PDF 공유와 오프라인 DRM 패키지의 심층 비교를 통해 문서 배포에 가장 적합한 보안 모델을 선택하세요."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF 보안", "문서 공유", "DRM 보호", "클라우드 보안"]
+title: '온라인 링크 vs. 네트워크 인증 오프라인 패키지: 올바른 PDF 암호화 모드 선택 가이드'
+description: 클라우드 기반 PDF 공유와 오프라인 DRM 패키지의 심층 비교를 통해 문서 배포에 가장 적합한 보안 모델을 선택하세요.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDF 보안
+  - 문서 공유
+  - DRM 보호
+  - 클라우드 보안
 ---
 
 # 온라인 링크 vs. 네트워크 인증 오프라인 패키지: 올바른 PDF 암호화 모드 선택 가이드

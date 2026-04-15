@@ -1,8 +1,11 @@
 ---
-title: "빠른 가이드: Enterprise PDF Document Management Guide"
-description: "Enterprise PDF Document Management Guide를 짧게 정리한 글(다이어그램 포함)."
-pubDate: "Jan 15 2026"
-tags: ["PDF", "Security"]
+title: '빠른 가이드: Enterprise PDF Document Management Guide'
+description: Enterprise PDF Document Management Guide를 짧게 정리한 글(다이어그램 포함).
+pubDate: Jan 15 2026
+tags:
+  - PDF
+  - Security
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

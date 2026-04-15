@@ -1,9 +1,19 @@
 ---
-title: "MaiPDF Komplette Einführung: Professionelle PDF-Sharing-Plattform Einfach und Sicher"
-description: "Was ist MaiPDF? Wie teilt man schnell PDFs? Diese umfassende Anleitung stellt MaiPDFs Kernfunktionen, Verwendungsmethoden und Anwendungsszenarien durch klare Diagramme und Flussdiagramme vor."
-pubDate: "Dec 05 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["MaiPDF", "PDF-Sharing", "Dokumentenverwaltung", "Zugriffskontrolle", "Komplette Einführung"]
+title: >-
+  MaiPDF Komplette Einführung: Professionelle PDF-Sharing-Plattform Einfach und
+  Sicher
+description: >-
+  Was ist MaiPDF? Wie teilt man schnell PDFs? Diese umfassende Anleitung stellt
+  MaiPDFs Kernfunktionen, Verwendungsmethoden und Anwendungsszenarien durch
+  klare Diagramme und Flussdiagramme vor.
+pubDate: Dec 05 2025
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - MaiPDF
+  - PDF-Sharing
+  - Dokumentenverwaltung
+  - Zugriffskontrolle
+  - Komplette Einführung
 ---
 
 # MaiPDF Komplette Einführung: Professionelle PDF-Sharing-Plattform Einfach und Sicher
@@ -12,7 +22,7 @@ tags: ["MaiPDF", "PDF-Sharing", "Dokumentenverwaltung", "Zugriffskontrolle", "Ko
   <p><strong>MaiPDF</strong> ist eine professionelle Online-PDF-Sharing-Plattform, die es Ihnen ermöglicht, ohne Registrierung schnell Sharing-Links zu generieren, Zugriffsberechtigungen jederzeit zu kontrollieren und Dokumentöffnungen in Echtzeit zu verfolgen. Ob Geschäftsverträge, Produkthandbücher oder Teamberichte, MaiPDF macht Dokument-Sharing einfach, sicher und kontrollierbar.</p>
 </div>
 
-![MaiPDF Startseite](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Startseite](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Was ist MaiPDF?
 
@@ -126,7 +136,7 @@ flowchart TD
 - Oder QR-Code herunterladen zum Teilen
 - Zugriffsaufzeichnungen in Echtzeit anzeigen
 
-![MaiPDF Upload-Interface](/maipdf-images/upload_section.png)
+![MaiPDF Upload-Interface](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Kernfunktionen Erklärt
 
@@ -151,7 +161,7 @@ flowchart LR
     style E fill:#50C878,color:#fff
 ```
 
-![MaiPDF Link-Generierung Ergebnis](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![MaiPDF Link-Generierung Ergebnis](/maipdf2026/Result_of_qr_link.png)
 
 ### Funktion 2: Zugriffskontrolle
 
@@ -187,7 +197,7 @@ flowchart TD
     style K fill:#50C878,color:#fff
 ```
 
-![MaiPDF Einstellungs-Interface](/maipdf-images/security_setting.png)
+![MaiPDF Einstellungs-Interface](/maipdf2026/page_redirect_to_accessRecord.png)
 
 ### Funktion 3: Datenverfolgung
 

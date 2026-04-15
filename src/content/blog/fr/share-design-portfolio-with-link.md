@@ -1,9 +1,16 @@
 ---
-title: "🎨 Partagez Votre Portfolio de Design avec un Lien — La Méthode Intelligente"
-description: "Découvrez comment partager votre portfolio de design en utilisant des liens plutôt que des pièces jointes. Une approche professionnelle qui offre contrôle, suivi et une meilleure expérience pour les destinataires."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["Portfolio de Design", "Partage de Portfolio", "Développement Professionnel", "Outils Numériques"]
+title: "\U0001F3A8 Partagez Votre Portfolio de Design avec un Lien — La Méthode Intelligente"
+description: >-
+  Découvrez comment partager votre portfolio de design en utilisant des liens
+  plutôt que des pièces jointes. Une approche professionnelle qui offre
+  contrôle, suivi et une meilleure expérience pour les destinataires.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/show_off/goodlookingshow.png
+tags:
+  - Portfolio de Design
+  - Partage de Portfolio
+  - Développement Professionnel
+  - Outils Numériques
 ---
 
 # 🎨 Partagez Votre Portfolio de Design avec un Lien — La Méthode Intelligente
@@ -13,7 +20,7 @@ tags: ["Portfolio de Design", "Partage de Portfolio", "Développement Profession
   <p>Sur le marché du travail actuel, les PDF restent un format populaire pour présenter des travaux de design—propres, cohérents et faciles à contrôler. Mais il y a une chose qui peut faire ou défaire votre présentation : comment vous la livrez.</p>
 </div>
 
-![Partage de Portfolio](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Partage de Portfolio](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 📎 Le Problème des Pièces Jointes
 
@@ -27,7 +34,7 @@ L'envoi d'un portfolio en pièce jointe d'un e-mail présente des inconvénients
 
 Ce n'est pas idéal lorsque vous essayez de décrocher votre prochaine opportunité.
 
-![E-mail vs Partage par Lien](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![E-mail vs Partage par Lien](/maipdf2026/show_off/shareandsend.png)
 
 ## 🔗 La Meilleure Solution : Partagez Votre Portfolio avec un Lien
 
@@ -43,7 +50,7 @@ Au lieu d'envoyer le fichier, hébergez votre PDF dans le cloud et générez un 
 
 Considérez-le comme un portfolio vivant, et non un document figé.
 
-![Section de Téléchargement](/maipdf-images/upload_section.png)
+![Section de Téléchargement](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 👀 Bonus : Rendez-le Privé ou Limité
 
@@ -59,7 +66,7 @@ Vous pouvez :
 
 C'est une solution moderne qui vous offre liberté et sécurité, pas seulement de la commodité.
 
-![Paramètres de Sécurité](/maipdf-images/security_setting.png)
+![Paramètres de Sécurité](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
 ## 🧪 Un Cas d'Utilisation Concret
 
@@ -73,7 +80,7 @@ Imaginez que vous postulez auprès de 10 agences. Au lieu de joindre un PDF lour
 
 Vous paraîtrez professionnel, organisé et un pas en avance.
 
-![Partage de PDF Mondial](/maipdf-images/share_pdf_wordwide.png)
+![Partage de PDF Mondial](/maipdf2026/show_off/goodlookingshow.png)
 
 ## 🛠 Comment Procéder
 

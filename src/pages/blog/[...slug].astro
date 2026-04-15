@@ -6,7 +6,11 @@ import { render } from 'astro:content';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
-	return posts.map((post) => ({
+	// Do not prerender noindex pages (e.g., governance 301 sources / placeholders).
+	// They should exist only for redirects or internal references, not as crawlable pages.
+	return posts
+		.filter((post) => post.data.noindex !== true)
+		.map((post) => ({
 		params: { slug: post.id },
 		props: post,
 	}));

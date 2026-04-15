@@ -1,9 +1,16 @@
 ---
-title: "🎨 Envoyez des Fichiers de Feedback de Design avec des Limites de Visualisation"
-description: "Apprenez à garder le contrôle sur les travaux de design en phase initiale en définissant des limites de visualisation sur les fichiers partagés. Parfait pour recueillir des retours tout en évitant la distribution non autorisée."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Workflow de Design", "Feedback de Design", "Partage de Fichiers", "Protection de Design"]
+title: "\U0001F3A8 Envoyez des Fichiers de Feedback de Design avec des Limites de Visualisation"
+description: >-
+  Apprenez à garder le contrôle sur les travaux de design en phase initiale en
+  définissant des limites de visualisation sur les fichiers partagés. Parfait
+  pour recueillir des retours tout en évitant la distribution non autorisée.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/show_off/shareandsend.png
+tags:
+  - Workflow de Design
+  - Feedback de Design
+  - Partage de Fichiers
+  - Protection de Design
 ---
 
 # 🎨 Envoyez des Fichiers de Feedback de Design avec des Limites de Visualisation
@@ -29,7 +36,7 @@ Imaginez ceci :
 
 Maintenant, la narration n'est plus entre vos mains.
 
-![Partage de PDF Non Sécurisé](/maipdf-images/send_pdf_link_on_instant_mesenger.png)
+![Partage de PDF Non Sécurisé](/maipdf2026/flowchart/en-access-control-decision.svg)
 
 ## ✅ La Méthode Plus Intelligente : Accès en Visualisation Uniquement avec Limites
 
@@ -43,7 +50,7 @@ Au lieu de pièces jointes d'e-mail ou de liens Google Drive ouverts, utilisez u
 
 Vous envoyez un lien ou un code QR, ils le consultent—et c'est tout. Pas de copies. Pas de confusion. Pas de contenu se propageant au-delà de votre contrôle.
 
-![Paramètres de Sécurité](/maipdf-images/security_setting.png)
+![Paramètres de Sécurité](/maipdf2026/show_off/shareandsend.png)
 
 ## 🧪 Cas d'Utilisation Réel : Une Équipe UX en Mode Révision
 
@@ -63,7 +70,7 @@ Vous :
 
 Cela rend les révisions productives—et votre processus protégé.
 
-![Résultat du Lien PDF et Code QR](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Résultat du Lien PDF et Code QR](/maipdf2026/show_off/shareandsend.png)
 
 ## 🛠 Comment des Plateformes Comme MaiPDF Peuvent Aider
 
@@ -77,7 +84,7 @@ Des outils comme MaiPDF offrent un partage de design léger avec des fonctionnal
 
 Pas besoin de gérer les permissions dans les drives cloud. Pas besoin d'envoyer manuellement des mises à jour de fichiers. Juste un lien—avec des règles.
 
-![Modifier les Paramètres PDF Après Envoi](/maipdf-images/pdf_change_setting_after_sent.png)
+![Modifier les Paramètres PDF Après Envoi](/maipdf2026/Result_of_qr_link.png)
 
 ## 🧩 Quand l'Utiliser
 

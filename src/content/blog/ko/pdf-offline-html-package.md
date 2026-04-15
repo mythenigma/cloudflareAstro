@@ -106,7 +106,7 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
     <div class="step-content">
       <h3>파일 업로드</h3>
       <p>브라우저 열기 → PDF 드래그 앤 드롭 → 업로드 및 암호화(AES-256) 대기.</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF 업로드 인터페이스" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="PDF 업로드 인터페이스" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -117,7 +117,7 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <p>세션 지속 시간: 1–120분</p>
       <p>만료 날짜: 사용자 정의 캘린더</p>
       <p>다운로드/인쇄: 기본적으로 비활성화, 선택적으로 활성화 가능</p>
-      <img src="/offlinepages/security_setting.png" alt="보안 설정 인터페이스" class="small">
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="보안 설정 인터페이스" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -126,7 +126,7 @@ tags: ["PDF 보안", "오프라인 읽기", "문서 제어", "HTML 패키지"]
       <h3>오프라인 패키지 다운로드</h3>
       <p>플랫폼이 .zip 반환 → 압축 해제하여 index.html + assets/ 획득</p>
       <p>오프라인 패키지 전송 또는 USB 드라이브 / 기업 클라우드 스토리지에 저장</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="오프라인 패키지 다운로드 결과" class="small">
+      <img src="/offlinepages/security_setting.png" alt="오프라인 패키지 다운로드 결과" class="small">
     </div>
   </div>
 </div>

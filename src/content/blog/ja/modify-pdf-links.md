@@ -1,8 +1,12 @@
 ---
-title: "リンクを変えずにPDFを差し替える"
-description: "同じ閲覧リンクのまま、ファイルと設定をMaiPDFで更新する方法。"
-pubDate: "Jan 16 2026"
-tags: ["PDF", "リンク管理", "更新"]
+title: リンクを変えずにPDFを差し替える
+description: 同じ閲覧リンクのまま、ファイルと設定をMaiPDFで更新する方法。
+pubDate: Jan 16 2026
+tags:
+  - PDF
+  - リンク管理
+  - 更新
+heroImage: /maipdf2026/show_off/Replace1showoff.png
 ---
 
 # リンクを変えずにPDFを差し替える

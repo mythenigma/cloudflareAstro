@@ -1,9 +1,16 @@
 ---
-title: "Guía de Protección: Desactivar Impresión de PDF"
-description: "Aprenda cómo desactivar la impresión de PDFs para proteger sus documentos. Guía completa sobre protección contra impresión, control de acceso y seguridad de documentos."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Protección", "Impresión", "Seguridad"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'Guía de Protección: Desactivar Impresión de PDF'
+description: >-
+  Aprenda cómo desactivar la impresión de PDFs para proteger sus documentos.
+  Guía completa sobre protección contra impresión, control de acceso y seguridad
+  de documentos.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Protección
+  - Impresión
+  - Seguridad
+heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
 ---
 
 # Guía de Protección: Desactivar Impresión de PDF
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Desactivar la impresión de PDFs es una medida de seguridad importante para proteger documentos sensibles. Esta guía le enseñará cómo prevenir que los destinatarios impriman sus documentos PDF compartidos.</p>
 </div>
 
-![Protección contra Impresión](/diagram/en/features-overview.svg)
+![Protección contra Impresión](/maipdf2026/show_off/pdf icon of no printing no downloading.png)
 
 ## 🎯 ¿Por Qué Desactivar la Impresión?
 

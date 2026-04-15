@@ -106,7 +106,7 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
     <div class="step-content">
       <h3>Télécharger le fichier</h3>
       <p>Ouvrir le navigateur → Glisser-déposer le PDF → Attendre le téléchargement et le chiffrement (AES-256).</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interface de téléchargement PDF" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="Interface de téléchargement PDF" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -117,7 +117,7 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <p>Durée de session : 1–120 minutes</p>
       <p>Date d'expiration : Calendrier personnalisé</p>
       <p>Téléchargement/impression : Désactivé par défaut, activation optionnelle</p>
-      <img src="/offlinepages/security_setting.png" alt="Interface des paramètres de sécurité" class="small">
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interface des paramètres de sécurité" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -126,7 +126,7 @@ tags: ["Sécurité PDF", "Lecture hors ligne", "Contrôle de documents", "Paquet
       <h3>Télécharger le paquet hors ligne</h3>
       <p>La plateforme renvoie un .zip → Extraire pour obtenir index.html + assets/</p>
       <p>Envoyer le paquet hors ligne ou le mettre sur une clé USB / stockage cloud d'entreprise</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Résultat du téléchargement du paquet hors ligne" class="small">
+      <img src="/offlinepages/security_setting.png" alt="Résultat du téléchargement du paquet hors ligne" class="small">
     </div>
   </div>
 </div>

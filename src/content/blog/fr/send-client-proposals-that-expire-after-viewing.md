@@ -1,9 +1,16 @@
 ---
-title: "⏱️ Envoyez des Propositions Clients qui Expirent Après Consultation"
-description: "Contrôlez la durée de vie de votre proposition, même après l'avoir envoyée. Découvrez comment partager des propositions commerciales avec des limites d'expiration intelligentes pour un meilleur contrôle et professionnalisme."
-pubDate: "Apr 23 2025"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["Propositions Clients", "Sécurité des Documents", "Outils Professionnels", "Conseils d'Affaires"]
+title: ⏱️ Envoyez des Propositions Clients qui Expirent Après Consultation
+description: >-
+  Contrôlez la durée de vie de votre proposition, même après l'avoir envoyée.
+  Découvrez comment partager des propositions commerciales avec des limites
+  d'expiration intelligentes pour un meilleur contrôle et professionnalisme.
+pubDate: Apr 23 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Propositions Clients
+  - Sécurité des Documents
+  - Outils Professionnels
+  - Conseils d'Affaires
 ---
 
 # ⏱️ Envoyez des Propositions Clients qui Expirent Après Consultation
@@ -41,7 +48,7 @@ Au lieu d'envoyer un fichier statique, vous pouvez désormais partager votre pro
 
 Le résultat ? Une façon plus intelligente et plus propre de partager des propositions qui vous redonne le contrôle, sans sacrifier le professionnalisme.
 
-![Paramètres de Sécurité](/maipdf-images/security_setting.png)
+![Paramètres de Sécurité](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## 👀 Cas d'Utilisation : Une Meilleure Expérience Client
 

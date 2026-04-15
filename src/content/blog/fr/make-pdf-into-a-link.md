@@ -1,16 +1,23 @@
 ---
-title: "Transformer un PDF en Lien : Transformer des Documents en URLs Partageables"
-description: "Convertir n'importe quel document PDF en un lien cliquable en quelques secondes. Téléchargez, générez et partagez des URLs professionnelles qui fonctionnent partout sans limite de taille de fichier."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
-tags: ["PDF en lien", "conversion de document", "génération d'URL", "partage de fichiers"]
+title: 'Transformer un PDF en Lien : Transformer des Documents en URLs Partageables'
+description: >-
+  Convertir n'importe quel document PDF en un lien cliquable en quelques
+  secondes. Téléchargez, générez et partagez des URLs professionnelles qui
+  fonctionnent partout sans limite de taille de fichier.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/share_pdf_online-show.png
+tags:
+  - PDF en lien
+  - conversion de document
+  - génération d'URL
+  - partage de fichiers
 ---
 
 # Transformer un PDF en Lien : Transformer des Documents en URLs Partageables
 
 Transformez n'importe quel document PDF en un lien professionnel et partageable en quelques secondes seulement. Qu'il s'agisse d'un rapport commercial, de matériel éducatif ou d'un document personnel, MaiPDF convertit vos fichiers en URLs propres qui fonctionnent parfaitement sur n'importe quel appareil.
 
-![Génération de Lien PDF et QR Code](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Génération de Lien PDF et QR Code](/maipdf2026/show_off/share_pdf_online-show.png)
 
 ## La Magie de la Conversion PDF en Lien
 
@@ -34,7 +41,7 @@ Le processus est remarquablement simple :
 
 **Étape 4 - Partage** : Copiez le lien et partagez-le partout - e-mail, messages texte, réseaux sociaux ou sites Web.
 
-![Résultats de Génération de Lien](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Résultats de Génération de Lien](/maipdf2026/show_off/share_pdf_online-show.png)
 
 ## Avantages du Partage de Documents Basé sur les Liens
 

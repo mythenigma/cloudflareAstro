@@ -1,8 +1,15 @@
 ---
-title: "Buenas prácticas de seguridad para PDFs: guía concisa"
-description: "Un checklist corto para compartir PDFs de forma más segura: enlace controlado, ajustes básicos, seguimiento y actualizaciones con Replace File."
-pubDate: "Jan 26 2026"
-tags: ["PDF", "Seguridad", "Compartir", "MaiPDF"]
+title: 'Buenas prácticas de seguridad para PDFs: guía concisa'
+description: >-
+  Un checklist corto para compartir PDFs de forma más segura: enlace controlado,
+  ajustes básicos, seguimiento y actualizaciones con Replace File.
+pubDate: Jan 26 2026
+tags:
+  - PDF
+  - Seguridad
+  - Compartir
+  - MaiPDF
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 La seguridad de un PDF compartido suele fallar por dos cosas: **copias descontroladas** y **falta de trazabilidad**.

@@ -1,9 +1,16 @@
 ---
-title: "PDF-Link-Sharing: Moderne Alternative zu E-Mail-Anhängen"
-description: "Erfahren Sie, warum PDF-Link-Sharing eine moderne Alternative zu E-Mail-Anhängen ist. Vollständiger Leitfaden zu Link-Sharing, Vorteilen und Best Practices."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Links", "E-Mail", "Sharing"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF-Link-Sharing: Moderne Alternative zu E-Mail-Anhängen'
+description: >-
+  Erfahren Sie, warum PDF-Link-Sharing eine moderne Alternative zu
+  E-Mail-Anhängen ist. Vollständiger Leitfaden zu Link-Sharing, Vorteilen und
+  Best Practices.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Links
+  - E-Mail
+  - Sharing
+heroImage: /maipdf2026/show_off/shareandsend.png
 ---
 
 # PDF-Link-Sharing: Moderne Alternative zu E-Mail-Anhängen
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>PDF-Link-Sharing ist eine moderne und effiziente Alternative zum Senden von E-Mail-Anhängen. Diese Anleitung zeigt Ihnen die Vorteile des Link-Sharings und wie Sie es effektiv nutzen können.</p>
 </div>
 
-![PDF-Link-Sharing](/diagram/en/features-overview.svg)
+![PDF-Link-Sharing](/maipdf2026/show_off/shareandsend.png)
 
 ## 🎯 Warum PDF-Link-Sharing?
 

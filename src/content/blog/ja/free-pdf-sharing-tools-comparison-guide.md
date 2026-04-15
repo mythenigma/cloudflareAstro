@@ -1,9 +1,14 @@
 ---
-title: "無料PDF共有ツール比較ガイド：2025年最高の無料PDF共有ツール"
-description: "主流の無料PDF共有ツールを包括的に比較。機能、セキュリティ、使いやすさなどの次元から、最適なPDF共有ソリューションを選択するためのガイド。"
-pubDate: "Jan 15 2026"
-heroImage: "/2025MayMaiPDF/Home_Landing.png"
-tags: ["無料PDF共有ツール", "PDF共有ツール比較", "無料PDF共有", "最高のPDF共有ツール", "PDF共有レビュー"]
+title: 無料PDF共有ツール比較ガイド：2025年最高の無料PDF共有ツール
+description: 主流の無料PDF共有ツールを包括的に比較。機能、セキュリティ、使いやすさなどの次元から、最適なPDF共有ソリューションを選択するためのガイド。
+pubDate: Jan 15 2026
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - 無料PDF共有ツール
+  - PDF共有ツール比較
+  - 無料PDF共有
+  - 最高のPDF共有ツール
+  - PDF共有レビュー
 ---
 
 # 無料PDF共有ツール比較ガイド：2025年最高の無料PDF共有ツール
@@ -12,7 +17,7 @@ tags: ["無料PDF共有ツール", "PDF共有ツール比較", "無料PDF共有"
   <p>数多くの無料PDF共有ツールがある中で、最適なものをどのように選びますか？この記事では、機能、セキュリティ、使いやすさ、コストなどの複数の次元から主流の無料PDF共有ツールを包括的に比較し、情報に基づいた決定を支援します。</p>
 </div>
 
-![MaiPDFプラットフォームホームページ](/2025MayMaiPDF/Home_Landing.png)
+![MaiPDFプラットフォームホームページ](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## 4つの主要ツールのクイック比較
 

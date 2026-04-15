@@ -20,7 +20,7 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
     <p><strong>내장 DRM:</strong> HTML에는 로컬에서 권한 확인(보기 횟수, 만료 날짜 등)을 수행하고 읽기 로그를 기록하는 내장 스크립트가 포함되어 있으며, Adobe DRM이나 Locklizard PDC와 유사하지만 특수 리더가 필요하지 않습니다.</p>
   </div>
   <div class="feature-image">
-    <img src="/offlinepages/security_setting.png" alt="MaiPDF 보안 설정 인터페이스" class="medium">
+    <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="MaiPDF 보안 설정 인터페이스" class="medium">
   </div>
 </div>
 
@@ -78,7 +78,7 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
     <div class="step-content">
       <h3>PDF 업로드</h3>
       <p>파일이 분할되고, 업로드되고, 저장을 위해 암호화됩니다.</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF 업로드 인터페이스" class="small">
+      <img src="/offlinepages/security_setting.png" alt="PDF 업로드 인터페이스" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -86,7 +86,7 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
     <div class="step-content">
       <h3>권한 구성</h3>
       <p>보기 횟수, 시간, 만료 날짜, 다운로드/인쇄 토글 설정.</p>
-      <img src="/offlinepages/security_setting.png" alt="권한 설정" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="권한 설정" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -94,7 +94,7 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
     <div class="step-content">
       <h3>오프라인 패키지 생성</h3>
       <p>플랫폼이 압축된 패키지를 반환: index.html + assets/.</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="생성된 오프라인 패키지" class="small">
+      <img src="/offlinepages/security_setting.png" alt="생성된 오프라인 패키지" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -113,7 +113,7 @@ tags: ["PDF 보안", "문서 DRM", "오프라인 제어", "파일 암호화"]
     <div class="step-content">
       <h3>로컬 열기</h3>
       <p>수신자는 index.html을 더블클릭하여 오프라인으로 읽습니다; 장치가 온라인이면 로그가 백그라운드로 전송됩니다.</p>
-      <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="로컬에서 HTML 파일 열기" class="small">
+      <img src="/offlinepages/result_download_zip_file.png" alt="로컬에서 HTML 파일 열기" class="small">
     </div>
   </div>
 </div>

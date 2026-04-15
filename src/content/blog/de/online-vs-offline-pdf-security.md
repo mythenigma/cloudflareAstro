@@ -1,9 +1,18 @@
 ---
-title: "Online-Links vs. Netzwerk-Autorisierte Offline-Pakete: Der ultimative Leitfaden zur Auswahl des richtigen PDF-Verschlüsselungsmodus"
-description: "Ein ausführlicher Vergleich zwischen Cloud-basiertem PDF-Sharing und Offline-DRM-Paketen, um Ihnen bei der Auswahl des besten Sicherheitsmodells für Ihre Dokumentenverteilung zu helfen."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF-Sicherheit", "Dokumentenaustausch", "DRM-Schutz", "Cloud-Sicherheit"]
+title: >-
+  Online-Links vs. Netzwerk-Autorisierte Offline-Pakete: Der ultimative
+  Leitfaden zur Auswahl des richtigen PDF-Verschlüsselungsmodus
+description: >-
+  Ein ausführlicher Vergleich zwischen Cloud-basiertem PDF-Sharing und
+  Offline-DRM-Paketen, um Ihnen bei der Auswahl des besten Sicherheitsmodells
+  für Ihre Dokumentenverteilung zu helfen.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - PDF-Sicherheit
+  - Dokumentenaustausch
+  - DRM-Schutz
+  - Cloud-Sicherheit
 ---
 
 # Online-Links vs. Netzwerk-Autorisierte Offline-Pakete: Der ultimative Leitfaden zur Auswahl des richtigen PDF-Verschlüsselungsmodus

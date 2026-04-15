@@ -1,16 +1,23 @@
 ---
-title: "PDF Sicher Teilen: Einfaches Dokumententeilen ohne E-Mail-Anhänge"
-description: "Laden Sie PDF-Dateien online sofort hoch und teilen Sie sie sicher. Keine E-Mail-Größenbeschränkungen, keine Dateikomprimierung - nur saubere, professionelle Links, die auf jedem Gerät funktionieren."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF sicher teilen", "Sicheres Teilen", "Dokumentenlinks", "Dateiteilen"]
+title: 'PDF Sicher Teilen: Einfaches Dokumententeilen ohne E-Mail-Anhänge'
+description: >-
+  Laden Sie PDF-Dateien online sofort hoch und teilen Sie sie sicher. Keine
+  E-Mail-Größenbeschränkungen, keine Dateikomprimierung - nur saubere,
+  professionelle Links, die auf jedem Gerät funktionieren.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/show_off/securityshowoff.png
+tags:
+  - PDF sicher teilen
+  - Sicheres Teilen
+  - Dokumentenlinks
+  - Dateiteilen
 ---
 
 # PDF Sicher Teilen: Einfaches Dokumententeilen ohne E-Mail-Anhänge
 
 Sind Sie müde von E-Mail-Anhang-Beschränkungen? Überspringen Sie den Ärger mit Dateigrößenbeschränkungen und teilen Sie PDF-Dokumente online sicher mit Leichtigkeit. MaiPDF ermöglicht es Ihnen, jedes PDF hochzuladen und sofortige sichere Freigabe-Links zu erstellen, die perfekt auf allen Geräten und Plattformen funktionieren.
 
-![PDF Weltweit Teilen](/maipdf-images/share_pdf_wordwide.png)
+![PDF Weltweit Teilen](/maipdf2026/show_off/securityshowoff.png)
 
 ## Warum PDFs Sicher Online Teilen
 

@@ -1,9 +1,16 @@
 ---
-title: "E-Mail-Anhänge ersetzen: Modernes PDF-Sharing für Unternehmen"
-description: "Hören Sie auf, mit E-Mail-Anhang-Limits zu kämpfen. Teilen Sie PDF-Dokumente über professionelle Links, die die Zustellung garantieren, auf Mobilgeräten funktionieren und besseres Tracking bieten."
-pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/share_pdf_wordwide.png"
-tags: ["PDF", "Email", "Unternehmen", "Teilen"]
+title: 'E-Mail-Anhänge ersetzen: Modernes PDF-Sharing für Unternehmen'
+description: >-
+  Hören Sie auf, mit E-Mail-Anhang-Limits zu kämpfen. Teilen Sie PDF-Dokumente
+  über professionelle Links, die die Zustellung garantieren, auf Mobilgeräten
+  funktionieren und besseres Tracking bieten.
+pubDate: Jan 17 2026
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+tags:
+  - PDF
+  - Email
+  - Unternehmen
+  - Teilen
 ---
 
 # E-Mail-Anhänge ersetzen: Modernes PDF-Sharing für Unternehmen
@@ -12,7 +19,7 @@ tags: ["PDF", "Email", "Unternehmen", "Teilen"]
   <p>E-Mail-Anhänge sind eine veraltete Technologie, die die moderne Unternehmenskommunikation behindert. Große Dateien werden abgelehnt, die mobile Anzeige ist schlecht und das Tracking ist unmöglich. Es ist Zeit, Ihr Dokument-Sharing mit professionellen PDF-Links zu modernisieren, die diese Probleme lösen.</p>
 </div>
 
-![Modernes PDF-Sharing](/maipdf-images/share_pdf_wordwide.png)
+![Modernes PDF-Sharing](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## Das Problem mit E-Mail-Anhängen im Jahr 2025
 
@@ -37,7 +44,7 @@ tags: ["PDF", "Email", "Unternehmen", "Teilen"]
 
 ## Die moderne Alternative: Professionelle PDF-Links
 
-![Moderne Upload-Lösung](/maipdf-images/upload_section.png)
+![Moderne Upload-Lösung](/maipdf2026/flowchart/en-document-replace-flow.svg)
 
 <div class="solutions-grid">
   <div class="solution-card">
@@ -64,7 +71,7 @@ tags: ["PDF", "Email", "Unternehmen", "Teilen"]
 
 ## Transformation der Unternehmenskommunikation
 
-![Professionelle Link-Ergebnisse](/maipdf-images/result_of_pdf_link_and_qr_code.png)
+![Professionelle Link-Ergebnisse](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 <div class="business-applications">
   <div class="application-card">
@@ -91,7 +98,7 @@ tags: ["PDF", "Email", "Unternehmen", "Teilen"]
 
 ## Verbesserte Kundenerfahrung
 
-![Professionelle PDF-Anzeige](/maipdf-images/pdf_native_view_on_ui.png)
+![Professionelle PDF-Anzeige](/maipdf2026/Result_of_qr_link.png)
 
 <div class="client-benefits">
   <div class="benefit-item">
@@ -114,7 +121,7 @@ tags: ["PDF", "Email", "Unternehmen", "Teilen"]
 
 ## Unternehmenssicherheit und -kontrolle
 
-![Unternehmenssicherheitseinstellungen](/maipdf-images/security_setting.png)
+![Unternehmenssicherheitseinstellungen](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 <div class="security-features">
   <div class="security-item">

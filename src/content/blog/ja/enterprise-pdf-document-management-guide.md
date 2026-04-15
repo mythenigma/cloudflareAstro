@@ -1,8 +1,13 @@
 ---
-title: "企業向けPDFドキュメント管理ガイド：リンク共有で運用をシンプルに"
-description: "添付ファイル地獄を避け、PDFをリンクで配布・更新するための実務的な流れ（誇張なし）。"
-pubDate: "Jan 21 2026"
-tags: ["maipdf", "enterprise", "pdf", "document management"]
+title: 企業向けPDFドキュメント管理ガイド：リンク共有で運用をシンプルに
+description: 添付ファイル地獄を避け、PDFをリンクで配布・更新するための実務的な流れ（誇張なし）。
+pubDate: Jan 21 2026
+tags:
+  - maipdf
+  - enterprise
+  - pdf
+  - document management
+heroImage: /maipdf2026/user_control_panel_alotof_functions.png
 ---
 
 社内外にPDFを配布するとき、メール添付やチャット送信は「最新版が分からない」「転送されて管理できない」など運用が崩れがちです。  
@@ -30,19 +35,19 @@ flowchart TD
 
 ## ステップ1：アップロード
 
-![Upload PDF](/2025MayMaiPDF/upload_in_cloudshare.png)
+![Upload PDF](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
 ## ステップ2：アクセス制御（必要な時だけ）
 
 社内ポリシーに合わせて、閲覧のルールを絞り込みます（例：閲覧回数、閲覧時間、メール認証など）。
 
-![Settings](/2025MayMaiPDF/settings_in_cloudshare.png)
+![Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## ステップ3：リンク／QRで共有
 
 共有は「1つのリンク」にまとめると運用が安定します。
 
-![Result link and QR](/2025MayMaiPDF/result_link_qr_cloudshare.png)
+![Result link and QR](/maipdf2026/user_control_panel_alotof_functions.png)
 
 ## ステップ4：更新は「ファイル差し替え」（リンクはそのまま）
 

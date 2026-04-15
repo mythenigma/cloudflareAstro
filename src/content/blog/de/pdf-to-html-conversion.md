@@ -1,9 +1,15 @@
 ---
-title: "PDF zu HTML Konvertierung: Vollständiger Leitfaden"
-description: "Erfahren Sie, wie Sie PDFs in HTML konvertieren können. Vollständiger Leitfaden zur PDF-zu-HTML-Konvertierung, HTML-Generierung und Web-Integration."
-pubDate: "Jul 03 2025"
-heroImage: "/maipdf-images/maipdf_landing_page.png"
-tags: ["PDF zu HTML", "HTML-Konvertierung", "PDF-Konvertierung", "Web-Integration"]
+title: 'PDF zu HTML Konvertierung: Vollständiger Leitfaden'
+description: >-
+  Erfahren Sie, wie Sie PDFs in HTML konvertieren können. Vollständiger
+  Leitfaden zur PDF-zu-HTML-Konvertierung, HTML-Generierung und Web-Integration.
+pubDate: Jul 03 2025
+heroImage: /maipdf2026/pdf native view on ui.png
+tags:
+  - PDF zu HTML
+  - HTML-Konvertierung
+  - PDF-Konvertierung
+  - Web-Integration
 ---
 
 # PDF zu HTML Konvertierung: Vollständiger Leitfaden
@@ -12,7 +18,7 @@ tags: ["PDF zu HTML", "HTML-Konvertierung", "PDF-Konvertierung", "Web-Integratio
   <p>Die Konvertierung von PDFs in HTML ermöglicht es, PDF-Inhalte in Webseiten zu integrieren. <strong>PDF zu HTML Konvertierung</strong> bietet umfassende Lösungen zur Konvertierung von PDFs in HTML-Format.</p>
 </div>
 
-![MaiPDF Homepage](/maipdf-images/maipdf_landing_page.png)
+![MaiPDF Homepage](/maipdf2026/pdf native view on ui.png)
 
 ## Was ist PDF zu HTML Konvertierung?
 

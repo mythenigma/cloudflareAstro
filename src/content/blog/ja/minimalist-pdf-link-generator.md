@@ -1,9 +1,13 @@
 ---
-title: "ミニマリストなPDFリンクジェネレーター"
-description: "PDFをアップロードし、シンプルなアクセス制御で共有可能なリンクを生成します。登録不要。"
-pubDate: "2025-06-03"
-heroImage: "/maipdf-images/upload_section.png"
-tags: ["PDF共有", "PDFリンクジェネレーター", "安全なPDF共有", "maipdf"]
+title: ミニマリストなPDFリンクジェネレーター
+description: PDFをアップロードし、シンプルなアクセス制御で共有可能なリンクを生成します。登録不要。
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/maipdf_header_login_or_upload_file.png
+tags:
+  - PDF共有
+  - PDFリンクジェネレーター
+  - 安全なPDF共有
+  - maipdf
 ---
 
 # ミニマリストなPDFリンクジェネレーター
@@ -31,7 +35,7 @@ tags: ["PDF共有", "PDFリンクジェネレーター", "安全なPDF共有", "
 ## MaiPDFの仕組み
 
 <div class="image-container">
-  <img src="/maipdf-images/upload_section.png" alt="アップロードインターフェース" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="アップロードインターフェース" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 プロセスは意図的にシンプルです：

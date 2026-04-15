@@ -106,7 +106,7 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
     <div class="step-content">
       <h3>Subir archivo</h3>
       <p>Abrir navegador → Arrastrar y soltar PDF → Esperar la carga y el cifrado (AES-256).</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interfaz de carga de PDF" class="small">
+      <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="Interfaz de carga de PDF" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -117,7 +117,7 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <p>Duración de sesión: 1–120 minutos</p>
       <p>Fecha de caducidad: Calendario personalizado</p>
       <p>Descarga/impresión: Desactivada por defecto, activación opcional</p>
-      <img src="/offlinepages/security_setting.png" alt="Interfaz de configuración de seguridad" class="small">
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Interfaz de configuración de seguridad" class="small">
     </div>
   </div>
   <div class="step-item">
@@ -126,7 +126,7 @@ tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTM
       <h3>Descargar paquete offline</h3>
       <p>La plataforma devuelve un .zip → Extraer para obtener index.html + assets/</p>
       <p>Enviar paquete offline o ponerlo en una unidad USB / almacenamiento en la nube empresarial</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Resultado de la descarga del paquete offline" class="small">
+      <img src="/offlinepages/security_setting.png" alt="Resultado de la descarga del paquete offline" class="small">
     </div>
   </div>
 </div>

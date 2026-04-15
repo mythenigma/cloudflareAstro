@@ -1,8 +1,10 @@
 ---
-title: "Guide rapide : Free PDF Hosting"
-description: "Un article court sur free pdf hosting, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["PDF"]
+title: 'Guide rapide : Free PDF Hosting'
+description: 'Un article court sur free pdf hosting, avec un schéma.'
+pubDate: Jan 15 2026
+tags:
+  - PDF
+heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

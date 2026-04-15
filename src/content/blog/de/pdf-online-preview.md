@@ -1,9 +1,16 @@
 ---
-title: "PDF Online-Vorschau: PDFs Ansehen ohne Herunterladen"
-description: "Erfahren Sie, wie Sie eine Vorschau von PDF-Dokumenten online ansehen können, ohne sie herunterladen zu müssen. Sofortiger Zugriff, optimierte Anzeige und kein Speicherverbrauch."
-pubDate: "Jan 17 2026"
-tags: ["PDF", "Vorschau", "Online", "Anzeige"]
-heroImage: "/diagram/en/features-overview.svg"
+title: 'PDF Online-Vorschau: PDFs Ansehen ohne Herunterladen'
+description: >-
+  Erfahren Sie, wie Sie eine Vorschau von PDF-Dokumenten online ansehen können,
+  ohne sie herunterladen zu müssen. Sofortiger Zugriff, optimierte Anzeige und
+  kein Speicherverbrauch.
+pubDate: Jan 17 2026
+tags:
+  - PDF
+  - Vorschau
+  - Online
+  - Anzeige
+heroImage: /maipdf2026/pdf native view on ui.png
 ---
 
 # PDF Online-Vorschau: PDFs Ansehen ohne Herunterladen
@@ -12,7 +19,7 @@ heroImage: "/diagram/en/features-overview.svg"
   <p>Die PDF-Online-Vorschau ermöglicht es Ihnen, PDF-Dokumente direkt in Ihrem Browser anzuzeigen, ohne Dateien herunterladen zu müssen. Diese moderne Funktion macht den Zugriff auf Dokumente schneller, bequemer und effizienter.</p>
 </div>
 
-![PDF Online-Vorschau](/diagram/en/features-overview.svg)
+![PDF Online-Vorschau](/maipdf2026/pdf native view on ui.png)
 
 ## 🎯 Was ist PDF-Online-Vorschau?
 

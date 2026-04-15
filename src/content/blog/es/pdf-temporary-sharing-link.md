@@ -1,9 +1,16 @@
 ---
-title: "Herramienta de Enlace de Compartir Temporal PDF"
-description: "Subir archivos PDF para generar enlaces de compartir temporales con control de número de accesos y permisos de descarga. No se requiere registro. Los enlaces expiran automáticamente cuando se alcanza el límite."
-pubDate: "Jun 03 2025"
-heroImage: "/maifle/home.png"
-tags: ["Compartir PDF", "Enlace Temporal", "Control de Acceso", "Sin Registro"]
+title: Herramienta de Enlace de Compartir Temporal PDF
+description: >-
+  Subir archivos PDF para generar enlaces de compartir temporales con control de
+  número de accesos y permisos de descarga. No se requiere registro. Los enlaces
+  expiran automáticamente cuando se alcanza el límite.
+pubDate: Jun 03 2025
+heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+tags:
+  - Compartir PDF
+  - Enlace Temporal
+  - Control de Acceso
+  - Sin Registro
 ---
 
 # Herramienta de Enlace de Compartir Temporal PDF
@@ -12,7 +19,7 @@ En el trabajo y estudio diarios, a menudo necesitamos compartir archivos PDF con
 
 Su función principal es generar enlaces de compartir temporales con control de acceso para archivos PDF subidos, permitiendo a los usuarios controlar con precisión el alcance de compartir y los permisos de acceso de los archivos.
 
-![Interfaz de Inicio](/maifle/home.png)
+![Interfaz de Inicio](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
 ## Por Qué Elegir Compartir Temporal
 

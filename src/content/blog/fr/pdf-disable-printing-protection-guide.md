@@ -1,8 +1,10 @@
 ---
-title: "Guide rapide : PDF Disable Printing Protection Guide"
-description: "Un article court sur pdf disable printing protection guide, avec un schéma."
-pubDate: "Jan 15 2026"
-tags: ["PDF"]
+title: 'Guide rapide : PDF Disable Printing Protection Guide'
+description: 'Un article court sur pdf disable printing protection guide, avec un schéma.'
+pubDate: Jan 15 2026
+tags:
+  - PDF
+heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

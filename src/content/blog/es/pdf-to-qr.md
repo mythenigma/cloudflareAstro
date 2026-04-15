@@ -1,9 +1,17 @@
 ---
-title: "Convierte cualquier PDF en un código QR"
-description: "Sube un PDF y crea instantáneamente un código QR compartible. Controla el acceso, establece límites de visualización y comparte documentos sin adjuntos de correo."
-pubDate: "2025-06-03"
-heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
-tags: ["PDF a QR", "generador de código QR PDF", "compartir PDF con QR", "maipdf"]
+title: Convierte cualquier PDF en un código QR
+description: >-
+  Sube un PDF y crea instantáneamente un código QR compartible. Controla el
+  acceso, establece límites de visualización y comparte documentos sin adjuntos
+  de correo.
+pubDate: '2025-06-03'
+heroImage: /maipdf2026/flowchart/en-qr-sharing-flow.svg
+tags:
+  - PDF a QR
+  - generador de código QR PDF
+  - compartir PDF con QR
+  - maipdf
+noindex: true
 ---
 
 # Convierte cualquier PDF en un código QR
@@ -14,7 +22,7 @@ tags: ["PDF a QR", "generador de código QR PDF", "compartir PDF con QR", "maipd
 </div>
 
 <div class="image-container">
-  <img src="/maifle/maipdf示例把PDF生成二维码.png" alt="Ejemplo de PDF a código QR" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/flowchart/en-qr-sharing-flow.svg" alt="Ejemplo de PDF a código QR" style="width: 100%; max-width: 650px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## ¿Por qué usar códigos QR de PDF?
@@ -35,7 +43,7 @@ A diferencia de los códigos QR estáticos, con MaiPDF mantienes el control:
 - Rastrea cuándo y con qué frecuencia se accede a tu PDF
 
 <div class="image-container">
-  <img src="/maipdf-images/security_setting.png" alt="Configuraciones de acceso del código QR" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="Configuraciones de acceso del código QR" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Cómo crear códigos QR de PDF
@@ -78,7 +86,7 @@ Coloca tu código QR en cualquier lugar y monitorea el uso a través de tu panel
 **Bodas y eventos**: Crea códigos QR para libros de huéspedes, programas o álbumes de fotos.
 
 <div class="image-container">
-  <img src="/maipdf-images/result_of_pdf_link_and_qr_code.png" alt="Resultado del código QR" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
+  <img src="/maipdf2026/Result_of_qr_link.png" alt="Resultado del código QR" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 1rem 0;">
 </div>
 
 ## Consideraciones técnicas
