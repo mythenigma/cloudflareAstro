@@ -4,6 +4,7 @@ description: "探索如何使用MaiPDF的二维码功能轻松分享PDF文档，
 pubDate: "May 29 2025"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["二维码分享", "PDF文档", "移动阅读", "扫码查看", "文件传输"]
+noindex: true
 ---
 
 # 二维码分享PDF：移动时代的文档传输革命

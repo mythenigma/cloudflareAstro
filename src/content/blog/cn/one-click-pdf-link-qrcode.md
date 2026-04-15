@@ -4,6 +4,7 @@ description: "如何将PDF转换为链接与二维码，实现简历、交易凭
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["PDF链接", "二维码分享", "轻量分享", "免费工具", "文件控制"]
+noindex: true
 ---
 
 # 📱 一键链接 & 二维码：PDF 轻量分享实用指南

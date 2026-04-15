@@ -3,6 +3,7 @@ title: "PDF 安全最佳实践完整指南"
 description: "从权限配置到水印追溯，一文掌握 PDF 安全分享的全部最佳实践。"
 pubDate: "Jan 15 2026"
 tags: ["PDF安全", "最佳实践", "文档保护"]
+noindex: true
 ---
 
 # PDF 安全最佳实践完整指南

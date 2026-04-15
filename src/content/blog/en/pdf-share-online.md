@@ -5,6 +5,7 @@ heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 pubDate: "Apr 3 2026"
 tags: ["PDF Sharing", "MaiPDF", "Online PDF", "Access Control"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Share Online: Simple, Secure, and Registration-Free

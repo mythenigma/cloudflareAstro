@@ -40,6 +40,7 @@
   },
   "scripts": {
     "astro": "astro",
+    "blog-governance": "node scripts/generate-blog-governance-audit.mjs && node scripts/validate-blog-governance.mjs",
     "build": "npm run generate-search-index && npm run optimize-images && astro build",
     "build:fast": "astro build",
     "check": "astro build && tsc && wrangler deploy --dry-run",

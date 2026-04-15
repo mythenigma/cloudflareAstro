@@ -1,4 +1,5 @@
 import type { MiddlewareHandler } from "astro";
+import { BLOG_LEGACY_REDIRECTS } from "./data/blog-legacy-redirects.mjs";
 
 // Canonicalize URLs to match astro.config.mjs: trailingSlash: 'never'
 // Astro's trailingSlash config only affects build-time link generation.
@@ -7,6 +8,10 @@ import type { MiddlewareHandler } from "astro";
 export const onRequest: MiddlewareHandler = async (context, next) => {
   const url = new URL(context.request.url);
   const { pathname } = url;
+  const normalizedPath =
+    pathname !== "/" && pathname.endsWith("/")
+      ? pathname.replace(/\/+$/, "")
+      : pathname;
 
   // Skip root, files with extensions, and internal asset paths
   if (
@@ -17,9 +22,15 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     return next();
   }
 
+  const legacyTarget = BLOG_LEGACY_REDIRECTS[normalizedPath];
+  if (legacyTarget && legacyTarget !== normalizedPath) {
+    url.pathname = legacyTarget;
+    return Response.redirect(url.toString(), 301);
+  }
+
   // Redirect any trailing slash to the non-trailing-slash version
-  if (pathname.endsWith("/")) {
-    url.pathname = pathname.replace(/\/+$/, "");
+  if (pathname !== normalizedPath) {
+    url.pathname = normalizedPath;
     return Response.redirect(url.toString(), 301);
   }
 

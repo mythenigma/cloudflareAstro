@@ -3,6 +3,7 @@ title: "PDF 转换为可分享链接"
 description: "把本地 PDF 变成一个可点击链接的完整教程，含操作截图和实用技巧。"
 pubDate: "Jan 15 2026"
 tags: ["PDF转链接", "在线分享", "教程"]
+noindex: true
 ---
 
 # PDF 转换为可分享链接

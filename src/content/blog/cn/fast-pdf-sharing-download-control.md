@@ -3,6 +3,7 @@ title: "快速分享 PDF 并控制下载"
 description: "60 秒内生成 PDF 分享链接，同时控制对方能不能下载、打印、截图。"
 pubDate: "Jan 15 2026"
 tags: ["PDF分享", "下载控制", "防泄密"]
+noindex: true
 ---
 
 # 快速分享 PDF 并控制下载

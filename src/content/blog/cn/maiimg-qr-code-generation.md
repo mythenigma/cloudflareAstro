@@ -3,6 +3,7 @@ title: "MaiImg 二维码生成"
 description: "上传图片自动生成二维码，适合线下分享、活动展示、产品说明等场景。"
 pubDate: "Jan 16 2026"
 tags: ["MaiImg", "二维码"]
+noindex: true
 ---
 
 # MaiImg 二维码生成

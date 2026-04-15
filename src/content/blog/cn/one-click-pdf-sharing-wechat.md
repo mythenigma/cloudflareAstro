@@ -4,6 +4,7 @@ description: "告别繁琐的PDF分享方式，使用MaiPDF实现一键生成链
 pubDate: "May 29 2025"
 heroImage: "/cn2025May/home.png"
 tags: ["PDF分享", "文档传输", "在线查看", "微信分享", "文件安全"]
+noindex: true
 ---
 
 # 发 PDF 还在用网盘？我现在都用这个方法，一键生成链接，微信点开直接看

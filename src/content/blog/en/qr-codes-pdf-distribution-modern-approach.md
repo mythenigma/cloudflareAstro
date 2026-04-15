@@ -1,9 +1,10 @@
-﻿---
+---
 title: "📱 QR Codes for PDF Distribution: The Modern Approach to Document Sharing"
 description: "Learn how QR codes revolutionize PDF sharing by providing instant access, enhanced security, and tracking capabilities for your important documents."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Codes", "PDF Sharing", "Document Distribution", "Mobile Access", "Digital Documents"]
+noindex: true
 ---
 
 # 📱 QR Codes for PDF Distribution: The Modern Approach to Document Sharing

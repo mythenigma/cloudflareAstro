@@ -3,6 +3,7 @@ title: "PDF 访问控制的实操方案"
 description: "不讲理论，只讲操作——手把手教你配置 PDF 的打开次数、保护模式、邮箱验证等访问控制。"
 pubDate: "Jan 15 2026"
 tags: ["访问控制", "权限管理", "实操教程"]
+noindex: true
 ---
 
 # PDF 访问控制的实操方案

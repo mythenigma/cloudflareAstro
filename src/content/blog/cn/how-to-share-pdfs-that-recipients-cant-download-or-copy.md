@@ -3,6 +3,7 @@ title: "如何分享不可下载/复制的 PDF"
 description: "让对方能看但不能下载、不能复制、不能打印——具体操作方法和技术原理。"
 pubDate: "Jan 15 2026"
 tags: ["防下载", "防复制", "PDF安全"]
+noindex: true
 ---
 
 # 如何分享不可下载/复制的 PDF

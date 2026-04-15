@@ -1,9 +1,10 @@
-﻿---
+---
 title: "The Power of QR Codes for PDF Access: Streamlining Content Sharing"
 description: "Learn how QR codes simplify PDF access and make content sharing more efficient."
 pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 showDefaultCta: true
+noindex: true
 ---
 
 # The Power of QR Codes for PDF Access: Streamlining Content Sharing

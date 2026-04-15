@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Turn any PDF into a QR code"
 description: "Upload a PDF and instantly generate a shareable QR code. Control access, set view limits, and share documents without email attachments."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF to QR", "PDF QR code generator", "share PDF with QR", "maipdf"]
+noindex: true
 ---
 
 # Turn any PDF into a QR code

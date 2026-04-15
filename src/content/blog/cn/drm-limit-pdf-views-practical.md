@@ -3,6 +3,7 @@ title: "用 DRM 限制 PDF 查看次数的实操"
 description: "手把手教你用 MaiPDF 的 DRM 功能限制 PDF 查看次数，含在线和离线两种方式的操作截图。"
 pubDate: "Jan 15 2026"
 tags: ["DRM", "实操教程", "查看限制"]
+noindex: true
 ---
 
 # 用 DRM 限制 PDF 查看次数的实操

@@ -6,6 +6,7 @@ pubDate: "Apr 2 2026"
 tags: ["PDF DRM","View Limits","Access Control","Secure Sharing"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/openlimit.png"
+noindex: true
 ---
 
 When people say "PDF DRM," they usually mean one thing: **stop the document from being opened by anyone, anytime, forever.** The most direct way to do that is a **view limit** - a server-side counter that ticks down every time someone opens the link.

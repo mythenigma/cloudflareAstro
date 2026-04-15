@@ -4,6 +4,7 @@ description: "Upload your PDF, configure access rules (expiry, limits, Telegram,
 pubDate: "Mar 26 2026"
 heroImage: "/maipdf2026/maipdf_header_login_or_upload_file.png"
 tags: ["PDF links", "document sharing", "quick setup", "controlled access", "expiry", "Telegram alerts"]
+noindex: true
 ---
 
 # Transform PDFs into Shareable Links in 3 Steps

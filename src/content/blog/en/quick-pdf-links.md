@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Quick PDF Links: Generate Shareable URLs in Seconds"
 description: "Create professional PDF sharing links instantly. No registration needed, just upload and get clean URLs that work on any device with enhanced loading speeds."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["quick links", "PDF URLs", "instant sharing", "fast generation"]
+noindex: true
 ---
 
 # Quick PDF Links: Generate Shareable URLs in Seconds

@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Dynamic Watermarks on PDF: Chinese Language Document Protection"
 description: "How to apply dynamic watermarks to Chinese-language PDFs. Protect bilingual documents, contracts, and business materials shared across Chinese-speaking markets."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/dynamic_water_mark_example.jpg"
 tags: ["Watermark", "Chinese PDF", "Document Protection"]
+noindex: true
 ---
 
 # Dynamic Watermarks on PDF: Chinese Language Document Protection

@@ -3,6 +3,7 @@ title: "免费在线安全分享 PDF 的工具"
 description: "免费工具也能安全分享 PDF——上传即生成链接，自带次数限制、防下载、阅读追踪功能。"
 pubDate: "Jan 15 2026"
 tags: ["免费工具", "PDF分享", "文档安全"]
+noindex: true
 ---
 
 # 免费在线安全分享 PDF 的工具

@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Introduction to MaiPDF"
 description: "Intro of MaiPDF"
 pubDate: "Jul 15 2024"
+noindex: true
 ---
 
 ![MaiPDF Landing Page](/maipdf-images/maipdf_landing_page.png)

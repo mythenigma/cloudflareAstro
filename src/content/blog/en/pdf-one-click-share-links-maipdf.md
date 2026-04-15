@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF sharing", "one-click sharing", "QR code", "link generation", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # One-Click PDF Sharing with MaiPDF: Quick Link and QR Code Generation

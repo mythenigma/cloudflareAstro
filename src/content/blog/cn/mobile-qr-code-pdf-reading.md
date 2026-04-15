@@ -4,6 +4,7 @@ description: "详细介绍如何使用MaiPDF将PDF文件转换为二维码，实
 pubDate: "Jul 16 2025"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["二维码", "PDF分享", "移动阅读", "扫码阅读", "MaiPDF"]
+noindex: true
 ---
 
 <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin-bottom: 2rem;">

@@ -1,9 +1,10 @@
-﻿---
+---
 title: "PDF Online Viewer: Fast Loading Documents That Work Everywhere"
 description: "View PDF documents online with MaiPDF's fast, responsive viewer. No downloads required, works on any device, with improved loading speeds for better user experience."
 pubDate: "Jul 03 2025"
 heroImage: "/maipdf2026/show_off/showpdf.png"
 tags: ["PDF viewer", "online documents", "fast loading", "web viewer"]
+noindex: true
 ---
 
 # PDF Online Viewer: Fast Loading Documents That Work Everywhere

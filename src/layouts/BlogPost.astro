@@ -672,21 +672,36 @@ const buttonText = isMaiimg
     }
 
     .content-wrapper table {
-      display: block;
+      display: table;
       width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      font-size: 0.85rem;
+      margin: 1rem 0;
+      table-layout: fixed;
+      font-size: 0.82rem;
       border-radius: 10px;
     }
 
     .content-wrapper thead th {
-      padding: 0.65rem 0.75rem;
-      font-size: 0.78rem;
+      padding: 0.6rem 0.65rem;
+      font-size: 0.74rem;
+      line-height: 1.35;
+      letter-spacing: 0.01em;
+      text-transform: none;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: anywhere;
     }
 
     .content-wrapper tbody td {
-      padding: 0.6rem 0.75rem;
+      padding: 0.58rem 0.65rem;
+      line-height: 1.4;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+
+    .content-wrapper tbody td:first-child {
+      min-width: 0;
+      white-space: normal;
     }
     
     article blockquote {
@@ -805,6 +820,15 @@ const buttonText = isMaiimg
 
     .title h1 {
       font-size: 1.65rem;
+    }
+
+    .content-wrapper table {
+      font-size: 0.78rem;
+    }
+
+    .content-wrapper thead th,
+    .content-wrapper tbody td {
+      padding: 0.5rem 0.55rem;
     }
   }
 </style>

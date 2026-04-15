@@ -4,6 +4,7 @@ description: "How MaiPDF turns a PDF into a shareable link and QR in three steps
 pubDate: "Mar 26 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF links", "instant sharing", "quick upload", "document sharing"]
+noindex: true
 ---
 
 **Instant** here means: after you upload, you get a **URL** and usually a **QR code** you can drop into email, Slack, or a calendar invite—once you click **Create Secure Link** on the [main MaiPDF tool](https://maipdf.com/pdf/maipdf2026.html).

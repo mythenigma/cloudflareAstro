@@ -3,6 +3,7 @@ title: "限制已分享 PDF 的查看次数"
 description: "PDF 已经分享出去了，还能限制查看次数吗？可以——登录后台随时调整。"
 pubDate: "Jan 15 2026"
 tags: ["查看限制", "链接管理", "PDF分享"]
+noindex: true
 ---
 
 # 限制已分享 PDF 的查看次数

@@ -3,6 +3,7 @@ title: "PDF 转链接教程"
 description: "一篇简短说明：PDF 转链接教程（附流程图）。"
 pubDate: "Jan 15 2026"
 tags: ["PDF"]
+noindex: true
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

@@ -3,6 +3,7 @@ title: "MaiImg 安全图片分享与二维码功能介绍"
 description: "MaiImg 是什么？一个让你安全分享图片的工具，自动生成二维码，支持打开次数限制和自动过期。"
 pubDate: "Jan 16 2026"
 tags: ["MaiImg", "二维码", "图片分享"]
+noindex: true
 ---
 
 # MaiImg 安全图片分享与二维码功能介绍

@@ -3,6 +3,7 @@ title: "安全分享 PDF 的几种方案"
 description: "逐项对比 MaiPDF 的全部安全分享选项：次数限制、有效期、防下载、水印、邮箱验证、阅读提醒。"
 pubDate: "Jan 15 2026"
 tags: ["安全分享", "权限控制", "PDF保护"]
+noindex: true
 ---
 
 # 安全分享 PDF 的几种方案

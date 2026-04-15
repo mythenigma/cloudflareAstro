@@ -5,6 +5,7 @@ pubDate: "Mar 26 2026"
 updatedDate: "Mar 26 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Code", "PDF sharing", "document distribution", "mobile", "MaiPDF"]
+noindex: true
 ---
 
 A QR code is **a picture of a URL**. For PDFs shared through [MaiPDF](https://maipdf.com/pdf/maipdf2026.html), that usually means: someone scans, the phone opens your **secure link**, and the same **Upload → Configure → Share** rules apply as with the plain link—**expiration**, **access limit**, **session length**, **viewing mode**, and optional **email verification** or **Telegram read alerts**.

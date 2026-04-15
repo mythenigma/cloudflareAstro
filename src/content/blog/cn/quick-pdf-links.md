@@ -3,6 +3,7 @@ title: "快速生成 PDF 分享链接"
 description: "三步把 PDF 变成可分享的链接，不用注册网盘，不用压缩文件。"
 pubDate: "Jan 15 2026"
 tags: ["PDF", "分享链接"]
+noindex: true
 ---
 
 # 快速生成 PDF 分享链接

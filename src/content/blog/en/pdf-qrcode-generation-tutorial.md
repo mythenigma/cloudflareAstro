@@ -4,6 +4,7 @@ description: "Step-by-step tutorial on generating QR codes for PDF documents. Le
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Code", "PDF Sharing", "Tutorial"]
+noindex: true
 ---
 
 # PDF QR Code Generation Tutorial: Create Scannable Links for Any Document

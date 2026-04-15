@@ -1,10 +1,11 @@
-﻿---
+---
 title: "How to Update or Modify a Shared PDF Link"
 description: "How to update a shared PDF link in MaiPDF: swap the file under the same URL, change access settings after sharing, extend expiry, or revoke access. No need to resend."
 pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/user_control_panel_alotof_functions.png"
 tags: ["PDF link", "update PDF", "modify link", "replace file", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # How to Update or Modify a Shared PDF Link

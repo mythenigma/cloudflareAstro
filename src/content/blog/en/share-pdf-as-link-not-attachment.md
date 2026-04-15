@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/share pdf wordwide.png"
 tags: ["PDF sharing", "document links", "file sharing", "email attachments", "online PDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Share PDFs as Links, Not Attachments

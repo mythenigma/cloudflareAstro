@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF view limits", "document security", "access control"]
 showDefaultCta: true
+noindex: true
 ---
 
 # How to Restrict PDF Views and Control Document Access

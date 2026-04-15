@@ -3,6 +3,7 @@ title: "PDF 分享的优势"
 description: "为什么 PDF 是分享文档的最佳格式？格式统一、跨平台兼容、支持权限控制——比 Word/图片都更适合外发。"
 pubDate: "Jan 15 2026"
 tags: ["PDF分享", "文档格式", "办公效率"]
+noindex: true
 ---
 
 # PDF 分享的优势

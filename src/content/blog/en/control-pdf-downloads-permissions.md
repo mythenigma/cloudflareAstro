@@ -1,103 +1,79 @@
 ---
 title: "Control PDF Access: Enable or Disable Downloads"
-description: "Pair MaiPDF viewing modes (SecureView, FenceView, Unrestricted) with access limits, expiry, Telegram read alerts, and email verification—so “can they keep a file?” matches your real risk."
+description: "Decide when a shared PDF should be downloadable, when it should stay browser-only, and which access controls should be paired with that choice."
 pubDate: "Mar 26 2026"
-updatedDate: "Apr 11 2026"
-heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
+updatedDate: "Apr 9 2026"
+heroImage: "/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png"
 tags: ["PDF control", "download management", "document security", "access permissions"]
+showDefaultCta: true
 ---
 
-<div class="intro-panel">
-  <p><strong>TL;DR</strong></p>
-  <ul>
-    <li><strong>Download on</strong> when people need a file copy or offline reading.</li>
-    <li><strong>View-only / stricter viewer</strong> when you want fewer copies in the wild.</li>
-    <li>Set that on <strong>Configure</strong> together with <strong>limits</strong>, <strong>expiry</strong>, optional <strong>verification</strong>, and <strong>viewing mode</strong>.</li>
-  </ul>
-</div>
+# Control PDF Access: Enable or Disable Downloads
 
-**Core question:** should someone get a **downloadable file**, or only **read in the browser**?
+The real question is simple: should the reader keep a file copy, or should they only read the PDF in the browser? That decision should be made together with expiry, open limits, and verification, not as an isolated toggle.
 
-That choice is set on [MaiPDF’s main tool](https://maipdf.com/pdf/maipdf2026.html) in the same place as the rest of the rules—not as a lone toggle.
+![View-only sharing works best when download control still leaves a clean reading experience](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
-### What you configure together
+## At a glance
 
-On **step 2 · Configure**, you typically line up:
+| If the document is... | Download setting to consider |
+|------|------|
+| public brochure | download on is usually fine |
+| client proposal | download off or limited access is often better |
+| internal draft | browser-only plus expiry may fit |
+| field reference document | download may be necessary |
+| sensitive external file | download off plus watermark or verification |
 
-- **How many opens** and **session length**
-- **Expiration**
-- Optional **Telegram read alerts** (if you want open notifications)
-- Optional **email verification**
-- **Viewing mode** (SecureView, FenceView, or Unrestricted)—this shapes what the reader can do on screen, alongside download behavior
+## The decision guide
 
-## Quick decision guide
+| Ask this | If yes... |
+|------|------|
+| does the recipient need offline possession? | allow download |
+| would a saved copy create risk? | keep browser-only |
+| is the file temporary? | pair with expiry |
+| is the audience small and specific? | add open limits or verification |
 
-- **Want fewer file copies?** Use a stricter mode + set access limits and expiration.
-- **Reader just needs a normal reading experience?** Choose Unrestricted mode.
-- **Need to deter casual screenshots?** Try FenceView.
-- **Sharing with unknown people?** Add email verification + shorter expiration.
+## Configure the controls together
 
-Always set **expiration** and **access limits** for sensitive or external shares.
+![Same configure step: limits, expiry, verification, and viewing mode belong together](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
-## Where it happens in the product (one screen)
+| Control | Why it belongs with download policy |
+|------|------|
+| Open limit | keeps a browser-only route from lasting forever |
+| Expiry | closes temporary access at the right time |
+| Email verification | makes the audience more explicit |
+| Viewing mode | shapes what the reader can do on screen |
+| Watermark | adds traceability when risk is higher |
 
-Step **2 · Configure** is where **access limit**, **each session**, **expiration**, **Telegram alerts**, **email verification**, **viewing mode**, and **dynamic watermark** (when available) come together—*before* you click **Create Secure Link**.
+## Common setups
 
-![Same step on maipdf.com: limits, session, expiry, Telegram, email check, viewing mode](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
+| Scenario | Suggested setup |
+|------|------|
+| early proposal | download off + expiry + modest open limit |
+| final customer packet | download on if policy allows + longer expiry |
+| confidential draft | download off + short expiry + verification |
+| portfolio review | optional download + reasonable open limit |
+| offline field work | use a channel that supports required offline access |
 
-**Suggested order**
+## What the reader receives
 
-1. Upload the PDF (step 1).  
-2. Set **access limit** and **session** length.  
-3. Choose **expiration** (preset or custom).  
-4. Toggle **Telegram read alerts** if you want open notifications—add the bot (`@maipdfbot`) and your `chat_id` as the page explains.  
-5. Enable **email verification** when you need verified readers.  
-6. Pick **SecureView**, **FenceView**, or **Unrestricted** to match policy.  
-7. Create the link, then **test** on desktop and mobile.
+![Link and QR output make the controlled route easy to share](/maipdf2026/Result_of_qr_link.png)
 
-> **Limits:** Access limit **above 10,000** opens disables access logging, Telegram alerts, and dynamic watermark in MaiPDF—fine for odd edge cases, not typical team use.
-
-## After creation: what you hand to people
-
-They get the URL (and QR); you keep **Read** / **Modify** codes to manage the link or swap the file later.
-
-![Link, QR, codes, change file and access records](/maipdf2026/Result_of_qr_link.png)
-
-## Why a “viewer” graphic still helps
-
-Even when saving the file is discouraged, readers should still get a clear, calm reading surface—not a maze of mystery buttons.
-
-![Illustration: protected reader chrome](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
-
-## How it fits in the bigger story
-
-![Owner configures and shares · reader opens · owner monitors](/maipdf2026/flowchart/en-user-journey.svg)
-
-## Stack these three every time it matters
-
-- **Time** — expiration  
-- **Volume** — access limit (+ session length)  
-- **Trust** — email verification (and Telegram alerts when useful)
-
-## Quick scenarios
-
-- **Early proposal:** stricter viewing, short expiry, modest access limit, email verification if external.  
-- **Final customer packet:** looser viewing if policy allows, longer expiry, document naming discipline.  
-- **Field staff who must work offline:** policy may require a different channel—browser links can’t replace every offline need.
+| Output | Why it matters |
+|------|------|
+| viewer link | opens the PDF without installing software |
+| QR code | works for mobile and print handoff |
+| managed settings | access rules travel with the route |
 
 ## Mistakes to avoid
 
-- Skipping **expiration** “because we’ll remember.”  
-- Setting **absurdly high** access limits and losing Telegram / watermark / logs without noticing.  
-- Changing rules **without telling** people who already have the link.
+| Mistake | Better move |
+|------|------|
+| turning off downloads for every file | match the policy to real risk |
+| leaving sensitive files open forever | use expiry and open limits |
+| setting huge limits without checking side effects | keep limits intentional |
+| changing rules without telling readers | communicate when access changes |
 
-## Summary
+## Short answer
 
-“Download yes/no” in real life is bundled with **viewing mode**, **expiry**, **limits**, and often **email** or **Telegram**—set them together on the configure step, then share once you’ve tested.
-
-## Related reading
-
-- [Prevent PDF Downloads (View-Only Sharing)](/blog/en/prevent-pdf-downloads-view-only)
-- [PDF Online Viewing Without Download](/blog/en/pdf-online-viewing-without-download)
-- [Fast PDF Sharing With Download Control](/blog/en/fast-pdf-sharing-download-control)
-- [PDF Disable Printing: Protection Guide](/blog/en/pdf-disable-printing-protection-guide)
+Enable PDF downloads when the reader truly needs a local copy. Disable downloads when the goal is controlled browser reading, then pair that choice with expiry, open limits, verification, or watermarking so the access policy matches the document risk.

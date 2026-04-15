@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Upload PDF Get Link: Simple File Sharing in Three Easy Steps"
 description: "Upload any PDF file and get an instant shareable link. No registration, no complexity - just fast, simple document sharing that works everywhere."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["upload PDF", "instant links", "simple sharing", "file upload"]
+noindex: true
 ---
 
 # Upload PDF Get Link: Simple File Sharing in Three Easy Steps

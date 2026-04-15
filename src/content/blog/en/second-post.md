@@ -4,6 +4,7 @@ description: "Email attachments were never designed for document distribution. M
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/en-upload-screenshot.png"
 tags: ["PDF Sharing", "MaiPDF", "Document Management"]
+noindex: true
 ---
 
 # Why PDF Sharing Needs to Evolve Beyond Email Attachments

@@ -1,65 +1,78 @@
-﻿---
+---
 title: "Share Your Design Portfolio with a Link"
-description: "A cleaner portfolio delivery method: send one controlled link, manage access, and review open statistics."
+description: "A better portfolio workflow than attachments: one cleaner link, better mobile viewing, clearer version control, and access policies that match the situation."
 pubDate: "Apr 4 2026"
-heroImage: "/maipdf2026/show_off/shareandsend.png"
+updatedDate: "Apr 15 2026"
+heroImage: "/maipdf2026/show_off/goodlookingshow.png"
 showDefaultCta: true
-tags: ["Design Portfolio", "Portfolio Sharing", "Professional Development", "Digital Tools"]
+tags: ["Design Portfolio", "Portfolio Sharing", "Creative Work", "PDF Portfolio", "Link Sharing"]
 ---
 
 # Share Your Design Portfolio with a Link
 
-Attachments make portfolios harder to manage.  
-A single share link is cleaner for both recruiters and clients.
+For portfolios, delivery matters almost as much as the work itself. A clean link feels more professional because it opens fast, reads better on mobile, and stays easier to keep current than a drifting attachment.
 
-![Portfolio Sharing](/maipdf2026/Result_of_qr_link.png)
+![A portfolio link should feel like a clean presentation layer, not just a file transfer](/maipdf2026/show_off/goodlookingshow.png)
 
-## Why Links Beat Attachments
+## At a glance
 
-- Fewer spam and size-limit issues
-- One canonical version
-- Access can be limited or expired
-- Open statistics are visible
-- Better viewing on mobile
+| If you want to... | A portfolio link is usually better because... |
+|------|------|
+| make a strong first impression | the work opens like a presentation, not a download chore |
+| keep it readable on phones | the recipient can start in browser |
+| avoid version drift | one stable destination stays easier to maintain |
+| adjust openness by situation | hiring, pitching, and review can use different rules |
 
-![Email vs Link Sharing](/maipdf2026/show_off/shareandsend.png)
+## Best-fit portfolio situations
 
-## Recommended Workflow
+| Situation | What usually matters |
+|------|------|
+| job application | fast open, low friction, clear presentation |
+| client proposal | polished delivery with less casual redistribution |
+| competitive review | tighter access and traceability |
+| events or printed cards | QR-friendly access to the full portfolio |
 
-1. Export portfolio PDF with clear section titles.
-2. Upload to a controlled sharing service.
-3. Set policy: expiry date, max opens, optional passcode.
-4. Decide download policy (on/off).
-5. Send one short message with the link.
+## Typical starting setups
 
-![Upload Section](/maipdf2026/Maipdf_LANDING_PAGE.png)
+| Scenario | Open limit | Expiry | Download | Extra note |
+|------|------|------|------|------|
+| job application | 20-50 | 14-30 days | optional | keep it easy to open |
+| client proposal | 5-20 | 7-14 days | usually off | protect pitch materials a bit more |
+| sensitive review | low | short | off | watermark is often worth adding |
 
-## Privacy Controls
+![Portfolio sharing is strongest when the link feels polished and the policy matches the scenario](/maipdf2026/show_off/shareandsend.png)
 
-- Share privately with selected recipients
-- Limit opens (for example, 3-10)
-- Add passcode for sensitive projects
-- Disable downloads if reuse risk is high
-- Review Visitor-ID based open statistics
+## The workflow
 
-![Security Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
+| Step | Better habit |
+|------|------|
+| export a clean PDF | make sure the section order and pacing are solid first |
+| upload once | create one polished reading destination |
+| add only useful controls | do not over-protect by default |
+| share one short link or QR | let the work do the talking |
+| keep the same destination when updating | avoid spawning a new version every time |
 
-## Practical Job-Search Use
+![A good portfolio workflow starts with a clean upload and controlled reading path](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
-Apply to multiple studios with one controlled link, then prioritize follow-up based on opens instead of guessing.
+## Which controls matter most
 
-![Share PDF Worldwide](/maipdf2026/show_off/shareandsend.png)
+![Protection settings make more sense when they support the portfolio context instead of overwhelming it](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
 
-## Message Template
+| Control | Use it when... | Why |
+|------|------|------|
+| Download off | the work is valuable or still commercially sensitive | reading does not have to mean file retention |
+| Open limit | the review window is short | the link should not float forever |
+| Watermark | you are sharing before trust is established | it adds traceability without killing the flow |
 
-```text
-Hi [Name], here is my portfolio link:
-[LINK]
-Access is open until [DATE]. If you prefer, I can also send a project-specific version.
-```
+## Common mistakes
 
-![PDF Change Settings](/maipdf2026/user_control_panel_alotof_functions.png)
+| Mistake | Better move |
+|------|------|
+| sending a bulky attachment first | let the portfolio open cleanly by link |
+| making every version a new URL | keep one main destination when possible |
+| over-locking a hiring portfolio | stay readable first, then add light control |
+| ignoring phone reading | assume many first opens happen on mobile |
 
-## Final Takeaway
+## Short answer
 
-For design portfolios, link-first delivery is the professional default: easier access, cleaner updates, and better control.
+Share your design portfolio with a link when you want the work to open cleanly, stay easy to update, and feel more professional than an attachment. Upload the PDF to MaiPDF, choose a light policy that matches the situation, and send one stable destination instead of many loose copies.

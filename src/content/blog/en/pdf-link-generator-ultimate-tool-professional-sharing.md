@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF generator", "professional sharing", "document links", "MaiPDF", "secure sharing"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Link Generator: Professional Sharing Workflow

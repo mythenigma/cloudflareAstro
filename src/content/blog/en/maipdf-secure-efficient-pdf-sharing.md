@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF Sharing", "Document Security", "Cloud Storage", "Cloudflare"]
 showDefaultCta: true
+noindex: true
 ---
 
 # MaiPDF: Secure and Efficient PDF Sharing

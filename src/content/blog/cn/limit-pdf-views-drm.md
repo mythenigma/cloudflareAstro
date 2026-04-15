@@ -3,6 +3,7 @@ title: "限制 PDF 查看次数：DRM 方案"
 description: "在线 DRM 和离线 DRM 两种方式限制 PDF 的查看次数，附操作步骤和对比表格。"
 pubDate: "Jan 15 2026"
 tags: ["DRM", "查看限制", "PDF保护"]
+noindex: true
 ---
 
 # 限制 PDF 查看次数：DRM 方案

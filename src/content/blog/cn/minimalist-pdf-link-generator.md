@@ -3,6 +3,7 @@ title: "极简 PDF 链接生成器"
 description: "不登录、不注册、不安装，打开网页就能把 PDF 变成链接。"
 pubDate: "Jan 15 2026"
 tags: ["PDF", "工具"]
+noindex: true
 ---
 
 # 极简 PDF 链接生成器

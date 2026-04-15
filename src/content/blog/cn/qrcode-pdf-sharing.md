@@ -4,6 +4,7 @@ description: "通过MaiPDF生成PDF文件二维码，实现微信等平台上的
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["二维码分享", "PDF在线预览", "移动阅读", "文档分享"]
+noindex: true
 ---
 
 # 二维码一扫，PDF随时随地看

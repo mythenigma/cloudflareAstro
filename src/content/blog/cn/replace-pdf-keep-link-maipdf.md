@@ -3,6 +3,7 @@ title: "替换PDF但不换链接：MaiPDF 的版本更新最佳实践"
 description: "用流程图 + SVG 双重说明：如何在不改变分享地址的情况下替换 PDF 内容，避免版本混乱（此功能属于 MaiPDF）。"
 pubDate: "Jan 15 2026"
 tags: ["MaiPDF", "版本管理", "链接分享", "文件替换", "流程图"]
+noindex: true
 ---
 
 # 替换PDF但不换链接：MaiPDF 的版本更新最佳实践

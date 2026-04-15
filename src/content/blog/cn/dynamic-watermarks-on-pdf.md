@@ -3,6 +3,7 @@ title: "PDF 动态水印的用法与价值"
 description: "动态水印能在 PDF 上实时显示查看者信息，有效追踪泄密来源。了解怎么用、什么时候用。"
 pubDate: "Jan 15 2026"
 tags: ["PDF", "水印", "安全"]
+noindex: true
 ---
 
 # PDF 动态水印的用法与价值
