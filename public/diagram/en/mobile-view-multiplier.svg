@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#f8fafc"/>
+
+  <text x="400" y="45" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">
+    1 reader ≠ 1 counted view
+  </text>
+  <text x="400" y="72" font-size="14" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">
+    On mobile, a single "read" routinely registers as 3–5 opens on the server.
+  </text>
+
+  <!-- Left: 1 reader -->
+  <circle cx="110" cy="210" r="60" fill="#3b82f6"/>
+  <text x="110" y="220" font-size="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif">👤</text>
+  <text x="110" y="300" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif">1 reader</text>
+  <text x="110" y="320" font-size="13" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif">on a phone</text>
+
+  <!-- Flow arrow -->
+  <path d="M 180 210 L 235 210" stroke="#94a3b8" stroke-width="3" fill="none" marker-end="url(#arrow-multi)"/>
+
+  <!-- Event stack -->
+  <g font-family="Arial, sans-serif">
+    <rect x="250" y="105" width="300" height="42" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="270" y="132" font-size="18">1️⃣</text>
+    <text x="305" y="132" font-size="15" fill="#1e293b">First tap on the share link</text>
+
+    <rect x="250" y="155" width="300" height="42" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="270" y="182" font-size="18">2️⃣</text>
+    <text x="305" y="182" font-size="15" fill="#1e293b">Pull-to-refresh to check a page</text>
+
+    <rect x="250" y="205" width="300" height="42" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="270" y="232" font-size="18">3️⃣</text>
+    <text x="305" y="232" font-size="15" fill="#1e293b">Switch to email app, switch back</text>
+
+    <rect x="250" y="255" width="300" height="42" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="270" y="282" font-size="18">4️⃣</text>
+    <text x="305" y="282" font-size="15" fill="#1e293b">iOS Safari drops cache → reloads</text>
+
+    <rect x="250" y="305" width="300" height="42" rx="8" fill="white" stroke="#e2e8f0"/>
+    <text x="270" y="332" font-size="18">5️⃣</text>
+    <text x="305" y="332" font-size="15" fill="#1e293b">Tap link again from same message</text>
+  </g>
+
+  <!-- Arrow to result -->
+  <path d="M 570 225 L 625 225" stroke="#94a3b8" stroke-width="3" fill="none" marker-end="url(#arrow-multi)"/>
+
+  <!-- Right: counted opens -->
+  <rect x="640" y="165" width="130" height="125" rx="12" fill="#ef4444"/>
+  <text x="705" y="200" font-size="14" text-anchor="middle" fill="#fecaca" font-family="Arial, sans-serif">COUNTED</text>
+  <text x="705" y="248" font-size="52" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">5</text>
+  <text x="705" y="275" font-size="13" text-anchor="middle" fill="#fee2e2" font-family="Arial, sans-serif">opens</text>
+
+  <text x="400" y="395" font-size="13" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-style="italic">
+    Set the limit for the reader you imagine, then multiply — not for the opens you imagine.
+  </text>
+
+  <defs>
+    <marker id="arrow-multi" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <g id="platform-watermark">
+    <rect x="60%" y="92%" width="38%" height="6%" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="97%" y="96%" text-anchor="end" dominant-baseline="middle"
+          font-size="12" font-family="Arial, sans-serif" fill="#0f172a" opacity="0.55">MaiPDF • Mobile reading</text>
+  </g>
+</svg>
