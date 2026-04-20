@@ -3,6 +3,7 @@ title: "Setting View Limits for PDF Links: Control Access Effectively"
 description: "Learn how to enhance document security by setting view limits on your shared PDFs with MaiPDF."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
+noindex: true
 ---
 
 # Setting View Limits for PDF Links: Control Access Effectively

@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF access limits", "document security", "access control", "view limits", "document protection"]
 showDefaultCta: true
+noindex: true
 ---
 
 # How to Limit PDF Access Count: Practical Guide

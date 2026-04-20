@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["MaiPDF", "PDF Sharing", "Document Management", "Access Control", "Complete Guide"]
 showDefaultCta: true
+noindex: true
 ---
 
 # MaiPDF Introduction: Fast and Controlled PDF Sharing

@@ -1,9 +1,10 @@
-﻿---
+---
 title: "PDF Online Sharing Security Best Practices"
 description: "Secure your PDF sharing workflow with practical best practices. From link generation to access monitoring — protect documents without slowing down collaboration."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/choose_online_for_sharing_online.png"
 tags: ["PDF Sharing", "Security", "Best Practices"]
+noindex: true
 ---
 
 # PDF Online Sharing Security Best Practices

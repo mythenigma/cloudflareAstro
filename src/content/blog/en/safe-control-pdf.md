@@ -1,10 +1,11 @@
-﻿---
+---
 title: "Safe Control PDF: Manage Who Reads, Downloads, and Shares Your Documents"
 description: "Take full control of your PDFs after sharing. Set view limits, block downloads, add watermarks, and revoke access at any time with safe sharing controls."
 pubDate: "Apr 2 2026"
 updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/how_to_control_panel.png"
 tags: ["PDF Control", "Document Security", "Access Control"]
+noindex: true
 ---
 
 # Safe Control PDF: Manage Who Reads, Downloads, and Shares Your Documents

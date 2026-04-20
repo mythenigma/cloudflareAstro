@@ -6,6 +6,7 @@ updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Code", "PDF sharing", "instant sharing", "event distribution", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Instant PDF Sharing with QR Codes

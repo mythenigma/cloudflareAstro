@@ -1,9 +1,10 @@
-﻿---
+---
 title: "🔒 PDF Access Controls: Practical Implementation for Document Security"
 description: "Explore how to effectively implement PDF access controls to protect sensitive information while maintaining usability for authorized recipients."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Security", "Access Control", "Document Protection", "View Limits", "Document Expiration"]
+noindex: true
 ---
 
 # 🔒 PDF Access Controls: Practical Implementation for Document Security

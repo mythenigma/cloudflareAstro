@@ -6,6 +6,7 @@ updatedDate: "Apr 15 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF sharing", "shareable link", "convert PDF", "document sharing", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Convert PDFs to Shareable Links: 3-Step Setup Guide

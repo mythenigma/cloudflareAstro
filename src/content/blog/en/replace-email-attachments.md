@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Replace Email Attachments: Modern PDF Sharing for Business"
 description: "Stop struggling with email attachment limits. Share PDF documents through professional links that ensure delivery, work on mobile, and provide better tracking."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["email modernization", "attachment replacement", "business communication", "professional sharing"]
+noindex: true
 ---
 
 # Replace Email Attachments: Modern PDF Sharing for Business

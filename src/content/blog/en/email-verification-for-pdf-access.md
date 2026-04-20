@@ -5,6 +5,7 @@ heroImage: "/maipdf2026/show_off/email verification_only sepcified people can re
 pubDate: "Apr 4 2026"
 tags: ["PDF Security", "Access Control", "Email Verification"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Email Verification for PDF Access

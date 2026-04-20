@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/show_off/share%20pdf%20wordwide.png"
 tags: ["PDF Sharing", "QR Code", "Live Events", "Digital Tools"]
+noindex: true
 ---
 
 # QR Code PDF Sharing for Live Events and Classrooms

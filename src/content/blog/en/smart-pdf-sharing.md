@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF sharing", "smart sharing", "access control", "document workflow", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Smart PDF Sharing: Upload, Control, Send in 3 Steps

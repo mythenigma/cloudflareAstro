@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF sharing", "download control", "secure links", "view-only", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Fast PDF Sharing with Download Control

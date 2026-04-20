@@ -4,6 +4,7 @@ description: "Discover how to transform static PDFs into smart, trackable links 
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF Sharing", "Document Control", "Link Sharing", "MaiPDF", "Secure Documents"]
+noindex: true
 ---
 
 # 🔗 Convert Your PDFs into Shareable Links: A Smarter Way to Share Documents

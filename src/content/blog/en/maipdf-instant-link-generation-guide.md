@@ -1,9 +1,10 @@
-﻿---
+---
 title: "MaiPDF Instant Link Generation Guide"
 description: "How to generate instant shareable links for your PDF documents. Upload, get a link in seconds, and share across any platform with built-in tracking."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["Link Generation", "PDF Sharing", "Quick Start"]
+noindex: true
 ---
 
 # MaiPDF Instant Link Generation Guide

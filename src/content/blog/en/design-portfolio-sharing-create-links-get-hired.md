@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/goodlookingshow.png"
 tags: ["design portfolio", "creative work", "portfolio sharing", "design career", "creative professionals"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Design Portfolio Sharing: Create Links That Help You Get Hired

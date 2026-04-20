@@ -17,9 +17,9 @@ showDefaultCta: true
 
 ## The forwarding problem
 
-A plain PDF link is just a URL. Copy, paste, forward — there's no gate. Passwords help a little, but the password can be forwarded too.
+A plain PDF link is just a URL. Copy, paste, forward — there's no gate. Passwords help a little, but the password travels with the link: whoever it gets forwarded to can type it in just as easily as the intended reader.
 
-The only way to stop a forwarded link from working is to verify the *person*, not the link. That's what email verification does: the reader must prove they control an inbox before the document opens.
+The only way to stop a forwarded link from working is to verify the *person*, not the link. That's what email verification does: the reader must prove they control an inbox before the document opens. The whole flow takes a reader under 30 seconds, and you get a log of exactly who passed the gate.
 
 ## How MaiPDF's email-verified links work
 
@@ -45,6 +45,8 @@ Email verification alone means any inbox can verify. To truly lock down forwardi
 
 When you set an allowlist, forwarding the link is pointless. The new recipient's email won't match, they never get a code, and they never see the PDF.
 
+If you skip the allowlist entirely, any inbox can verify. That still stops casual forwarding — each new reader must prove their own address — but it won't block someone who has their own working email. For private or regulated documents, always pair verification with an allowlist.
+
 ## Real scenarios
 
 ### Client proposal
@@ -55,6 +57,12 @@ You share a benefits update with the whole team using @company.com as the allowe
 
 ### Freelancer deliverable
 You send a design draft to the client (two email addresses on the list). The client can review and verify; their intern (not on the list) cannot.
+
+### Contracts and NDAs
+You need a record of who opened the document — not just that *someone* did. Verification logs each reader's email and timestamp, so later you can prove that a given party accessed the file before signing.
+
+### Course materials
+You distribute a study packet to students. Set the allowed domain to the school's (e.g. `@state.edu`) so only enrolled students can verify, no matter who reshared the link.
 
 ## What you see after sharing
 
@@ -67,6 +75,20 @@ MaiPDF logs every verification attempt:
 Check these records anytime in [Control Center](https://www.maipdf.com/6/control-center.html). You can also enable **Telegram alerts** to get a push notification the moment someone opens your PDF.
 
 ![Access records — see exactly who opened and when](/maipdf2026/page_redirect_to_accessRecord.png)
+
+## Why email verification beats the alternatives
+
+Of the common ways to gate a shared PDF, only email verification ties each open to a specific person:
+
+**Email verification.** Stops forwarding — the new reader has to verify their own inbox. Reader effort: low (type email, type code). You learn exactly who opened: **yes**.
+
+**Password.** Only partial protection — the password can be forwarded alongside the link. Reader effort: low (type password). You learn who opened: **no** — just that *someone* knew the password.
+
+**Open limit.** Doesn't stop forwarding at all — whoever gets the link first uses up the allowed opens. Reader effort: none. You learn who opened: **no**.
+
+**Expiry date.** Doesn't stop forwarding — just shrinks the window it works in. Reader effort: none. You learn who opened: **no**.
+
+Email verification is the only option in that list that ties each open to a real person. Combine it with an open limit and an expiry for the tightest control.
 
 ## Layer it with other controls
 
@@ -97,8 +119,8 @@ That's it. The link now requires email verification before anyone can see a sing
 
 **Related reading:**
 
-- [Email Verification for PDF Access (Quick Flow)](/blog/en/email-verification-for-pdf-access) — step-by-step walkthrough of how the verification flow works
-- [PDF Encryption to Reduce Forwarding Risk](/blog/en/pdf-encryption-prevent-forwarding-complete-guide) — encryption-based approach to the same problem
 - [PDF Prevent Forwarding: Practical Guide](/blog/en/pdf-prevent-forwarding-guide) — all anti-forwarding strategies compared
-- [PDF Security Best Practices](/blog/en/pdf-security-best-practices-complete-guide-document-protection) — full guide to protecting shared documents
+- [Limit PDF Views with DRM](/blog/en/limit-pdf-views-drm) — add an open-count cap on top of email verification
+- [Share PDFs Securely](/blog/en/share-pdf-securely) — the full picture of protected sharing with MaiPDF
+- [Dynamic Watermarks on PDFs](/blog/en/dynamic-watermarks-on-pdf) — burn the verified reader's email into each page
 

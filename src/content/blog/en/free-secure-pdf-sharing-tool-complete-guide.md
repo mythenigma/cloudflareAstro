@@ -6,6 +6,7 @@ updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF", "Sharing", "Security"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Free Secure PDF Sharing Tool: Complete Guide

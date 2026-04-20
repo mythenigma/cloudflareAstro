@@ -4,6 +4,7 @@ description: "A practical training guide for teams on secure PDF sharing. Cover 
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/user_control_panel_alotof_functions.png"
 tags: ["Training", "PDF Sharing", "Team Security"]
+noindex: true
 ---
 
 # PDF Safe Sharing Training: Teach Your Team to Share Documents Securely

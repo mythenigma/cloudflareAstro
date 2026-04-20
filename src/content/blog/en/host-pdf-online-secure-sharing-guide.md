@@ -6,6 +6,7 @@ updatedDate: "Apr 12 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF Sharing", "Online PDF", "Host PDF", "Document Security", "Cloud Sharing"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Host PDF Online: Secure Sharing Without Attachment Chaos

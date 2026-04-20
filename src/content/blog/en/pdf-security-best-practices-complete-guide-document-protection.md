@@ -1,10 +1,11 @@
-﻿---
+---
 title: "PDF Security Best Practices: Practical Protection Guide"
 description: "Use this practical framework for PDF protection: access control, lifecycle policy, watermarking, and incident response."
 pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 showDefaultCta: true
 tags: ["PDF security", "best practices", "document protection", "compliance", "security guide"]
+noindex: true
 ---
 
 # PDF Security Best Practices: Practical Protection Guide

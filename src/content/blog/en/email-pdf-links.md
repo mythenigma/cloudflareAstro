@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Email PDF Links Instead of Attachments: Faster and More Professional"
 description: "Replace large email attachments with clean PDF links. Bypass size limits, ensure delivery, and provide better mobile access for your email recipients."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["email attachments", "PDF links", "email delivery", "professional communication"]
+noindex: true
 ---
 
 # Email PDF Links Instead of Attachments: Faster and More Professional

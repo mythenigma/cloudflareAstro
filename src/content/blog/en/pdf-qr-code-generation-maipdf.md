@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF QR Code", "Document Sharing", "QR Code", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF QR Code Generation with MaiPDF

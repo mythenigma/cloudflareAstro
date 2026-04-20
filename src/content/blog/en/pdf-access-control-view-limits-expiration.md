@@ -4,6 +4,7 @@ description: "Combine view limits with expiration dates for double-layered acces
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Access Control", "View Limits", "Expiration", "PDF Security"]
+noindex: true
 ---
 
 # PDF Access Control: View Limits and Expiration Working Together

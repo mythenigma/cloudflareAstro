@@ -4,6 +4,7 @@ description: "Replace attachment-first sharing with controlled PDF links, lifecy
 pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Sharing Revolution: Practical MaiPDF Workflow

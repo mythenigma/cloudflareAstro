@@ -4,6 +4,7 @@ description: "Set an access limit (number of opens) for a shared PDF, pair it wi
 pubDate: "Mar 26 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Security", "Document Sharing", "View Limits", "Access Limits", "Expiration", "Telegram alerts"]
+noindex: true
 ---
 
 # Restrict Number of Views for a Shared PDF

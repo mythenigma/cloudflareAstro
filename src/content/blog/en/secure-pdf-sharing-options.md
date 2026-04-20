@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 updatedDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["PDF Security", "Document Sharing", "Secure Distribution", "PDF Protection"]
+noindex: true
 ---
 
 # How to Securely Share PDFs with Modern Controls

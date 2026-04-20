@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/dynamic_water_mark_example.jpg"
 tags: ["PDF watermark", "dynamic watermark", "document security", "information leakage", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Dynamic Watermarking: Protect and Trace Your Documents

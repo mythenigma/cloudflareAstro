@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Easy PDF Sharing: Upload Once, Share Anywhere"
 description: "The simplest way to share PDF documents online. Upload your file, get a link, and send it to anyone — no software installs, no email size limits."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Sharing", "Easy Sharing", "File Sharing"]
+noindex: true
 ---
 
 # Easy PDF Sharing: Upload Once, Share Anywhere

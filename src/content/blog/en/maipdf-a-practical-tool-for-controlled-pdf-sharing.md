@@ -6,6 +6,7 @@ updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Security", "File Protection", "Secure Sharing", "MaiPDF", "Access Control"]
 showDefaultCta: true
+noindex: true
 ---
 
 # MaiPDF: A Practical Tool for Controlled PDF Sharing

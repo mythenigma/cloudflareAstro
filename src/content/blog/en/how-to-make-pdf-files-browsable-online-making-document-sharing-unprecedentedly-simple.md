@@ -6,6 +6,7 @@ updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/show_off/showpdf.png"
 tags: ["PDF online browsing", "online viewing", "document sharing", "browser preview", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # How to Make PDF Files Browsable Online

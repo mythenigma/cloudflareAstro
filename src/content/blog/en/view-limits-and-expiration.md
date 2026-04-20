@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["Access Control", "View Limits", "Expiration", "Document Sharing"]
 showDefaultCta: true
+noindex: true
 ---
 
 # View Limits and Expiration: Simple Controls That Prevent Oversharing

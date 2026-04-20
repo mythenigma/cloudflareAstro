@@ -5,6 +5,7 @@ heroImage: "/maipdf2026/show_off/securityshowoff.png"
 pubDate: "Apr 3 2026"
 tags: ["PDF Security", "Access Control", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Enhancing Document Security with MaiPDF

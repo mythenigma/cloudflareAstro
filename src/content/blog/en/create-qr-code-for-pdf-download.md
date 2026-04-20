@@ -4,6 +4,7 @@ description: "Learn the fastest way to share documents offline using QR codes th
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Codes", "PDF Sharing", "Document Distribution", "Mobile Sharing"]
+noindex: true
 ---
 
 # 📲 How to Create a QR Code That Instantly Downloads a PDF

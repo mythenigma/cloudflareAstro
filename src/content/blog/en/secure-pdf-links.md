@@ -5,6 +5,7 @@ pubDate: "Mar 26 2026"
 updatedDate: "Mar 26 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["secure PDF", "PDF links", "document sharing", "access control", "MaiPDF"]
+noindex: true
 ---
 
 A **secure PDF link** here means: one URL (and optional QR) where **you decide** how long it works, **how many times** it can open, **how long each read session** lasts, and **how strictly** the file is shown—not a public folder anyone can rifle through. That is what [MaiPDF’s main tool](https://maipdf.com/pdf/maipdf2026.html) is built for: **Upload → Configure → Share**.

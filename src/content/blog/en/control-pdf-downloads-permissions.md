@@ -6,6 +6,7 @@ updatedDate: "Apr 9 2026"
 heroImage: "/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png"
 tags: ["PDF control", "download management", "document security", "access permissions"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Control PDF Access: Enable or Disable Downloads

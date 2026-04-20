@@ -6,6 +6,7 @@ updatedDate: "Apr 15 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF Link", "Shareable Link", "Link Generation"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF to Shareable Link: Convert Any Document into a One-Click URL

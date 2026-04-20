@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR code PDF", "mobile scanning", "offline promotion", "document sharing", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # Mobile QR-to-PDF Reading: Fast Setup for Offline-to-Online Sharing

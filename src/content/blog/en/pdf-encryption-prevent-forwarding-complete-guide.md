@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Encryption", "Prevent Forwarding", "Document Security", "Password Protection", "Access Control"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Encryption to Reduce Forwarding Risk

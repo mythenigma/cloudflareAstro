@@ -4,6 +4,7 @@ description: "A practical overview of free PDF tools for viewing, sharing, conve
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/en-upload-screenshot.png"
 tags: ["PDF Tools", "Productivity", "Free Tools", "MaiPDF"]
+noindex: true
 ---
 
 # Free PDF Tools to Boost Your Productivity

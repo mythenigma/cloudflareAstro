@@ -1,10 +1,11 @@
-﻿---
+---
 title: "🔐 PDF Encryption and Protection Tools: Beyond Basic Encryption"
 description: "Learn how to protect your PDFs with modern tools that go beyond traditional encryption methods."
 pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 showDefaultCta: true
 tags: ["PDF Security", "Document Protection", "Digital Rights Management", "Encryption"]
+noindex: true
 ---
 
 # 🔐 PDF Encryption and Protection Tools: Beyond Basic Encryption

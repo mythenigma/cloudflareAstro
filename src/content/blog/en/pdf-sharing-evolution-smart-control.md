@@ -4,6 +4,7 @@ description: "Trace the evolution of PDF sharing — from floppy disks to email 
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Sharing", "Document Evolution", "Smart Control"]
+noindex: true
 ---
 
 # PDF Sharing Evolution: From Static Files to Smart Document Control

@@ -1,10 +1,11 @@
-﻿---
+---
 title: "Create PDF Links That Convert: Ultimate Guide to Smart Document Sharing"
 description: "Learn how to generate secure PDF links that drive engagement, enhance security, and provide valuable insights into document performance."
 pubDate: "Apr 3 2026"
 updatedDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["PDF Link", "PDF Share", "Document Sharing", "Link Analytics", "Secure Links"]
+noindex: true
 ---
 
 # Create PDF Links That Convert: Ultimate Guide to Smart Document Sharing

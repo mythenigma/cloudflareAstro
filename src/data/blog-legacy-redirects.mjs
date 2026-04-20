@@ -78,5 +78,101 @@ export const BLOG_LEGACY_REDIRECTS = {
   "/blog/es/pdf-to-qr": "/blog/es/qr-code-pdf-sharing-made-easy",
   "/blog/es/qr-codes-future-digital-distribution": "/blog/es/qr-code-pdf-sharing-made-easy",
   "/blog/es/quick-pdf-links": "/blog/es/upload-pdf-get-link",
-  "/blog/es/dynamic-watermarks-on-pdf-cn": "/blog/es/pdf-dynamic-watermark-security-guide"
+  "/blog/es/dynamic-watermarks-on-pdf-cn": "/blog/es/pdf-dynamic-watermark-security-guide",
+
+  // ===== Round 2 — EN online maipdf consolidation (2026-04-20) =====
+  // Cluster 1: Upload → Link  → how-to-upload-a-pdf-and-generate-a-secure-link
+  "/blog/en/minimalist-pdf-link-generator": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/convert-pdfs-to-shareable-links": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/pdf-shareable-links": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/pdf-to-shareable-link-tutorial": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/streamlined-document-sharing-upload-process": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/secure-pdf-links": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/maipdf-instant-link-generation-guide": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+
+  // Cluster 2: Email attachment → Link  → pdf-link-sharing-modern-alternative-email-attachments
+  "/blog/en/replace-email-attachments": "/blog/en/pdf-link-sharing-modern-alternative-email-attachments",
+  "/blog/en/email-pdf-links": "/blog/en/pdf-link-sharing-modern-alternative-email-attachments",
+
+  // Cluster 3: Online viewer / no download  → pdf-online-viewing-without-download
+  "/blog/en/pdf-online-viewer": "/blog/en/pdf-online-viewing-without-download",
+  "/blog/en/pdf-online-preview": "/blog/en/pdf-online-viewing-without-download",
+  "/blog/en/pdf-online-viewing-guide-browser-based-document-access": "/blog/en/pdf-online-viewing-without-download",
+  "/blog/en/pdf-online-sharing-security-best-practices": "/blog/en/pdf-online-viewing-without-download",
+  "/blog/en/how-to-make-pdf-files-browsable-online-making-document-sharing-unprecedentedly-simple": "/blog/en/pdf-online-viewing-without-download",
+  "/blog/en/prevent-pdf-downloads-complete-guide-view-only-sharing": "/blog/en/pdf-online-viewing-without-download",
+
+  // Cluster 4: View limits / DRM  → limit-pdf-views-drm
+  "/blog/en/drm-limit-pdf-views-practical": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/setting-view-limits": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/secure-pdf-view-limits": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/restrict-number-of-views-for-shared-pdf": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/share-smart-limit-pdf-access-by-view-count": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/view-limits-and-expiration": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-access-control-setting-view-limits-time-restrictions": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-access-control-view-limits": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-access-control-view-limits-expiration": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-access-control-viewing-limits": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-access-controls-practical-implementation": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-access-limit-control-guide": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-security-set-view-limits-prevent-unauthorized-access": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-set-view-count-limit-guide": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/pdf-temporary-sharing-link": "/blog/en/limit-pdf-views-drm",
+  "/blog/en/control-pdf-downloads-permissions": "/blog/en/limit-pdf-views-drm",
+
+  // Cluster 5: Dynamic watermark  → dynamic-watermarks-on-pdf
+  "/blog/en/digital-watermarks-pdf-protection-guide": "/blog/en/dynamic-watermarks-on-pdf",
+  "/blog/en/pdf-dynamic-watermark-security-guide": "/blog/en/dynamic-watermarks-on-pdf",
+  "/blog/en/marketing-materials-dynamic-watermark": "/blog/en/dynamic-watermarks-on-pdf",
+  "/blog/en/pdf-watermarking-protect-documents-dynamic-security": "/blog/en/dynamic-watermarks-on-pdf",
+  "/blog/en/watermark-intelligence-advanced-protection": "/blog/en/dynamic-watermarks-on-pdf",
+
+  // Cluster 6: Email verification gate  → email-verified-pdf-links
+  "/blog/en/email-verification-for-pdf-access": "/blog/en/email-verified-pdf-links",
+
+  // Cluster 7: QR sharing  → dual canonicals
+  "/blog/en/qr-code-pdf-sharing-made-easy": "/blog/en/pdf-sharing-with-qr-code-complete-guide",
+  "/blog/en/pdf-qr-code-generation-maipdf": "/blog/en/pdf-sharing-with-qr-code-complete-guide",
+  "/blog/en/create-qr-code-for-pdf-download": "/blog/en/pdf-sharing-with-qr-code-complete-guide",
+  "/blog/en/instant-pdf-sharing-with-qr-codes-how-it-works": "/blog/en/pdf-sharing-with-qr-code-complete-guide",
+  "/blog/en/mobile-qr-code-pdf-reading": "/blog/en/qr-codes-for-document-distribution",
+  "/blog/en/mobile-qr-scan-read-pdf-guide": "/blog/en/qr-codes-for-document-distribution",
+
+  // Cluster 8: Anti-forward / No-print
+  "/blog/en/pdf-encryption-prevent-forwarding-complete-guide": "/blog/en/pdf-prevent-forwarding-guide",
+  "/blog/en/pdf-disable-printing-protection-guide": "/blog/en/maipdf-print-restriction-guide",
+
+  // Cluster 9: Generic security umbrella  → dual canonicals (share-pdf-online / share-pdf-securely)
+  "/blog/en/pdf-security-best-practices": "/blog/en/share-pdf-securely",
+  "/blog/en/pdf-security-best-practices-complete-guide-document-protection": "/blog/en/share-pdf-securely",
+  "/blog/en/pdf-security-features": "/blog/en/share-pdf-securely",
+  "/blog/en/modern-pdf-protection-tools": "/blog/en/share-pdf-securely",
+  "/blog/en/pdf-safe-sharing-training": "/blog/en/share-pdf-securely",
+  "/blog/en/pdf-safe-sharing-training-2": "/blog/en/share-pdf-securely",
+  "/blog/en/safe-control-pdf": "/blog/en/share-pdf-securely",
+  "/blog/en/secure-pdf-sharing-options": "/blog/en/share-pdf-securely",
+  "/blog/en/pdf-security-protection": "/blog/en/share-pdf-securely",
+  "/blog/en/fast-pdf-sharing-download-control": "/blog/en/share-pdf-securely",
+  "/blog/en/free-secure-pdf-sharing-tool-complete-guide": "/blog/en/share-pdf-online",
+  "/blog/en/free-pdf-tools-to-boost-productivity": "/blog/en/share-pdf-online",
+  "/blog/en/host-pdf-online-secure-sharing-guide": "/blog/en/share-pdf-online",
+  "/blog/en/easy-pdf-sharing": "/blog/en/share-pdf-online",
+  "/blog/en/smart-pdf-sharing": "/blog/en/share-pdf-online",
+  "/blog/en/zero-cost-pdf-sharing": "/blog/en/share-pdf-online",
+
+  // Cluster 10: Product intro / workflow  → maipdf-secure-efficient-sharing
+  "/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing": "/blog/en/maipdf-secure-efficient-sharing",
+  "/blog/en/pdf-sharing-introduction": "/blog/en/maipdf-secure-efficient-sharing",
+  "/blog/en/pdf-sharing-benefits": "/blog/en/maipdf-secure-efficient-sharing",
+  "/blog/en/pdf-sharing-control-revolution": "/blog/en/maipdf-secure-efficient-sharing",
+  "/blog/en/pdf-sharing-evolution-smart-control": "/blog/en/maipdf-secure-efficient-sharing",
+  "/blog/en/pdf-sharing-revolution-maipdf": "/blog/en/maipdf-secure-efficient-sharing",
+  "/blog/en/pdf-links-smart-document-sharing-guide": "/blog/en/maipdf-secure-efficient-sharing",
+
+  // Cluster 11: Portfolio & Resume  → dual canonicals
+  "/blog/en/create-professional-portfolio-links-showcase-work-pro": "/blog/en/share-design-portfolio-with-link",
+  "/blog/en/creative-portfolio-links-showcase-art-design-work-professionally": "/blog/en/share-design-portfolio-with-link",
+  "/blog/en/design-portfolio-sharing-create-links-get-hired": "/blog/en/share-design-portfolio-with-link",
+  "/blog/en/elegant-secure-sharing-resume-portfolio": "/blog/en/resume-link-generator-share-cv-professionally-securely",
+  "/blog/en/share-resume-safely-link": "/blog/en/resume-link-generator-share-cv-professionally-securely"
 };

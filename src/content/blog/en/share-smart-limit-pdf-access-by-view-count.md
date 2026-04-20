@@ -4,6 +4,7 @@ description: "Discover how QR code-based PDF sharing offers instant, frictionles
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/share pdf wordwide.png"
 tags: ["PDF Sharing", "QR Code", "Document Control", "Live Presentations"]
+noindex: true
 ---
 
 # 📤 Send PDF with No Email—Just a QR Code

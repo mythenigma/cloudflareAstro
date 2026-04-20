@@ -4,6 +4,7 @@ description: "Share PDFs for free without hidden fees or forced sign-ups. Learn 
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["Free PDF Sharing", "PDF Tools", "Cost-Free"]
+noindex: true
 ---
 
 # Zero-Cost PDF Sharing: Free Tools That Actually Work

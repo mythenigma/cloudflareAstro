@@ -60,6 +60,7 @@ You're not locked in once you share. From Control Center:
 
 An attachment sent to a mailing list will sit in inboxes forever. If you realize you sent the wrong version, or the document contains information that's no longer accurate, there's nothing you can do. A temporary link with an expiry means the document naturally stops being accessible without any manual intervention.
 
+noindex: true
 ---
 
 **Related reading:**

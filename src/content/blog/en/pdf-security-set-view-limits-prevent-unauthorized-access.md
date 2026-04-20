@@ -5,6 +5,7 @@ pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF security", "view limits", "access control", "document protection", "unauthorized access"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Security: Set View Limits to Prevent Unauthorized Access

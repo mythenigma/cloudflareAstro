@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["PDF security", "document protection", "access control", "information security", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Security Protection: Layered Document Security

@@ -4,6 +4,7 @@ description: "How to share your resume or portfolio as a secure PDF link instead
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/en-upload-screenshot.png"
 tags: ["Portfolio", "Resume", "PDF Sharing", "MaiPDF"]
+noindex: true
 ---
 
 # Elegant, Secure Sharing for Resumes and Portfolios

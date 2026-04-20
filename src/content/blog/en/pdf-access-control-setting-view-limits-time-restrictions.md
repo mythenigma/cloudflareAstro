@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF access control", "view limit", "expiry", "document security", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # PDF Access Control: Setting View Limits and Time Restrictions

@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Marketing Materials Dynamic Watermark: Protect Branded Content"
 description: "How to use dynamic watermarks on marketing PDFs. Protect brochures, price lists, and brand assets while still allowing easy distribution to partners and clients."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/dynamic_water_mark_example.jpg"
 tags: ["Marketing", "Watermark", "Brand Protection"]
+noindex: true
 ---
 
 # Marketing Materials Dynamic Watermark: Protect Branded Content

@@ -6,6 +6,7 @@ updatedDate: "Mar 26 2026"
 tags: ["Creative Portfolio","PDF Sharing","Design Portfolio","Artist Tools"]
 author: "David Chen"
 heroImage: "/maiimg/static-images/common/show/english-portfolio-preview.svg"
+noindex: true
 ---
 
 Art directors and clients rarely want another heavy email attachment. A short link to your portfolio PDF keeps the first impression clean: one tap opens your work on a phone or laptop, and you keep control of **who** can open it, **for how long**, and **how** it displays.

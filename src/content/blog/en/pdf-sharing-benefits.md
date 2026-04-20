@@ -51,6 +51,7 @@ MaiPDF makes it easy to share your PDFs instantly via secure links or QR codes. 
 
 MaiPDF is a powerful tool for anyone looking to share PDFs securely and professionally. Its advanced features, such as access control and download prevention, make it an ideal choice for businesses, educators, and freelancers. Start using MaiPDF today to experience secure and hassle-free PDF sharing.
 
+noindex: true
 ---
 
 ## You might also like:

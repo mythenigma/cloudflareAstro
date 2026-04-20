@@ -5,6 +5,7 @@ pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/show_off/showpdf.png"
 tags: ["PDF downloads", "view-only", "document security", "prevent copying", "MaiPDF"]
 showDefaultCta: true
+noindex: true
 ---
 
 # How to Prevent PDF Downloads: Complete Guide with MaiPDF

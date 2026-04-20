@@ -1,9 +1,10 @@
-﻿---
+---
 title: "PDF Access Control: Viewing Limits for Sensitive Document Distribution"
 description: "How viewing limits protect sensitive documents during distribution. Real-world examples from legal, HR, finance, and education sectors."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/how_to_control_panel.png"
 tags: ["Access Control", "Viewing Limits", "Sensitive Documents"]
+noindex: true
 ---
 
 # PDF Access Control: Viewing Limits for Sensitive Document Distribution

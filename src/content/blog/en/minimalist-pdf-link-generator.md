@@ -441,6 +441,7 @@ The simplicity ensures longevity—there's nothing complex enough to become obso
   <p><strong><a href="https://maipdf.com">Start sharing at MaiPDF.com →</a></strong></p>
 </div>
 
+noindex: true
 ---
 
 ## You might also like:

@@ -1,9 +1,10 @@
-﻿---
+---
 title: "🚀 Streamlined Document Sharing: Mastering the PDF Upload Process"
 description: "Learn how to efficiently upload and configure security settings for your PDFs to ensure safe sharing while maintaining control over your sensitive documents."
 pubDate: "Apr 3 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
 tags: ["PDF Upload", "Document Sharing", "Security Settings", "File Sharing", "Document Management"]
+noindex: true
 ---
 
 # 🚀 Streamlined Document Sharing: Mastering the PDF Upload Process

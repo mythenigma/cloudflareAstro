@@ -6,6 +6,7 @@ updatedDate: "Apr 2 2026"
 tags: ["PDF DRM","View Limit","Expiration","Secure Sharing"]
 author: "David Chen"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
+noindex: true
 ---
 
 This is a hands-on walkthrough. No theory, no comparisons - just the steps to share a PDF with enforceable view limits and get access records back.

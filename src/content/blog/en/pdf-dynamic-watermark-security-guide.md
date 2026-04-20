@@ -1,9 +1,10 @@
-﻿---
+---
 title: "PDF Dynamic Watermark Security Guide"
 description: "A comprehensive guide to using dynamic watermarks for PDF security. How they work, when to use them, configuration options, and integration with other access controls."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/dynamic_water_mark_example.jpg"
 tags: ["Watermark", "PDF Security", "Dynamic Watermark"]
+noindex: true
 ---
 
 # PDF Dynamic Watermark Security Guide

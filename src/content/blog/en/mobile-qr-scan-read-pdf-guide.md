@@ -78,6 +78,7 @@ If your open limit is exceeded before you extend it, scanners see an "access lim
 - **Swap the file** if the PDF content is updated — QR URL never changes
 - **Deactivate** when the campaign ends: revoke or let expiry handle it
 
+noindex: true
 ---
 
 **Related reading:**

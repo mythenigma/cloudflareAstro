@@ -1,9 +1,10 @@
-﻿---
+---
 title: "PDF Security Best Practices: A Practical Checklist"
 description: "A no-nonsense checklist of PDF security best practices. Cover access control, watermarking, expiration, analytics, and common mistakes to avoid."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/how_to_control_panel.png"
 tags: ["PDF Security", "Best Practices", "Document Protection"]
+noindex: true
 ---
 
 # PDF Security Best Practices: A Practical Checklist

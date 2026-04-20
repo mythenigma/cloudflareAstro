@@ -4,6 +4,7 @@ description: "How smart link sharing is replacing email attachments. Understand 
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/choose_online_for_sharing_online.png"
 tags: ["PDF Sharing", "Document Control", "Smart Links"]
+noindex: true
 ---
 
 # PDF Sharing Control Revolution: From Attachments to Smart Links

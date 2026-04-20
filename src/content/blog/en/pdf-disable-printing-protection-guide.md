@@ -4,6 +4,7 @@ description: "Use MaiPDF viewing modes (SecureView, FenceView) plus expiry, acce
 pubDate: "Mar 26 2026"
 heroImage: "/maipdf2026/show_off/pdf icon of no printing no downloading.png"
 tags: ["PDF print restriction", "document protection", "print control", "document security", "PDF security"]
+noindex: true
 ---
 
 Casual **printing** is how confidential PDFs turn into **untracked paper**. On [MaiPDF](https://maipdf.com/pdf/maipdf2026.html) you reduce that risk by choosing how strict the **reader session** should be—**SecureView** (protected default), **FenceView** (extra deterrence against screenshots), or **Unrestricted** (fewer viewer limits)—then layering **expiration**, **access limits**, **optional Telegram read alerts**, and **email verification** before you create the link.

@@ -4,6 +4,7 @@ description: "Learn how to set view limits on shared PDFs. Understand why cappin
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Access Control", "View Limits", "PDF Security"]
+noindex: true
 ---
 
 # PDF Access Control: Set View Limits to Protect Your Documents

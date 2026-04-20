@@ -1,9 +1,10 @@
-﻿---
+---
 title: "PDF Online Preview: Let Recipients Read Without Downloading"
 description: "Enable instant PDF preview in any browser. No downloads, no plugins — just a clean reading experience that works on desktop and mobile."
 pubDate: "Apr 2 2026"
 heroImage: "/maipdf2026/pdf native view on ui.png"
 tags: ["PDF Preview", "Online Viewing", "Browser PDF"]
+noindex: true
 ---
 
 # PDF Online Preview: Let Recipients Read Without Downloading

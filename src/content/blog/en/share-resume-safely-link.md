@@ -1,10 +1,11 @@
-﻿---
+---
 title: "Share Your Resume Safely: Create a Secure PDF Link"
 description: "Protect your personal information when job hunting. Learn how to share your resume as a secure, professional PDF link with download control and access tracking."
 pubDate: "Apr 4 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 showDefaultCta: true
 tags: ["resume sharing", "job hunting", "PDF security", "secure link"]
+noindex: true
 ---
 
 # Share Your Resume Safely: Create a Secure PDF Link

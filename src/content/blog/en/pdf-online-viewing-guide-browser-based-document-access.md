@@ -5,6 +5,7 @@ pubDate: "Apr 2 2026"
 updatedDate: "Apr 11 2026"
 heroImage: "/maipdf2026/pdf%20native%20view%20on%20ui.png"
 tags: ["PDF Viewing", "Online Documents", "Browser Viewing"]
+noindex: true
 ---
 
 # PDF Online Viewing Guide: Browser-Based Document Access
