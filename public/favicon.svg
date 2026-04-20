@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="MaiPDF favicon">
+  <defs>
+    <linearGradient id="maipdf-favicon-gradient" x1="15" y1="76" x2="81" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b000a8" />
+      <stop offset="0.55" stop-color="#f21770" />
+      <stop offset="1" stop-color="#ff5a2a" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M12 72 L23 24 C25 15 33 15 35 24 L44 63 C46 73 54 73 56 63 L65 24 C67 15 75 15 77 24 L88 72"
+    fill="none"
+    stroke="url(#maipdf-favicon-gradient)"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="8"
+  />
+  <path
+    d="M33 71 L39 46"
+    fill="none"
+    stroke="url(#maipdf-favicon-gradient)"
+    stroke-linecap="round"
+    stroke-width="8"
+  />
+</svg>
