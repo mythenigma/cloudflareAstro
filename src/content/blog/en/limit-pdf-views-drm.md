@@ -213,6 +213,8 @@ Estimate **audience × rereads × 1.5** before you type a number. Pair the limit
 
 ## Related reading
 
+- [PDF Access Control: Setting View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — the configuration companion covering view limit + expiry together and how to adjust them after sharing
+- [PDF Security: Set View Limits to Prevent Unauthorized Access](/blog/en/pdf-security-set-view-limits-prevent-unauthorized-access) — the security-angle companion: threat model, detection in the access log, incident response
 - [Dynamic Watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the identification layer that pairs with view limits for high-risk sends
 - [Email-Verified PDF Links](/blog/en/email-verified-pdf-links) — the "who opened it" gate when a view limit is not enough
 - [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — where the limit is set during upload
