@@ -34,7 +34,7 @@ For the distribution-side playbook (industry examples, placement strategy, acces
 3. **Generate the QR tied to that link.** MaiPDF builds the image directly from the managed URL, and the same PDF accepts different codes for different channels if you want per-channel analytics.
 4. **Test on real phones before printing.** iPhone and Android camera apps both handle QR natively now, but low-light scans, older devices, and printed-versus-screen codes all behave differently in practice.
 
-![QR code generation workflow](/diagram/en/qr-code-distribution-workflow.svg)
+![QR code generation workflow: upload, set controls, generate code, test scan](/diagram/en/pdf-qr-code-generation-workflow.svg)
 
 ## File specs worth getting right
 
