@@ -4,8 +4,8 @@ description: "学习如何使用MaiPDF设置PDF文档的查看次数限制，包
 pubDate: "Aug 22 2025"
 heroImage: "/cn2025May/setting_example.png"
 tags: ["PDF查看次数", "访问限制", "安全控制", "文档保护", "MaiPDF"]
+noindex: true
 ---
-
 # MaiPDF打开次数设置指南：如何限制PDF文档的查看次数
 
 

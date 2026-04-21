@@ -3,8 +3,8 @@ title: "PDF快速分享三步法：上传、设置、发送"
 description: "用一张流程图理解“PDF快速分享”的最短路径：上传文件→设置权限→发送链接/二维码。"
 pubDate: "Jan 15 2026"
 tags: ["PDF分享", "快速分享", "权限设置"]
+noindex: true
 ---
-
 # PDF快速分享三步法：上传、设置、发送
 
 <div class="intro-panel">

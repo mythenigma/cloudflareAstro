@@ -4,8 +4,8 @@ description: "MaiPDF是什么？如何快速分享PDF？本文通过清晰的图
 pubDate: "Dec 05 2025"
 heroImage: "/2025MayMaiPDF/Home_Landing.png"
 tags: ["MaiPDF", "PDF分享", "文档管理", "访问控制", "完整介绍"]
+noindex: true
 ---
-
 # MaiPDF完整介绍：专业PDF分享平台，让文档分享变得简单安全
 
 <div class="intro-panel">

@@ -4,8 +4,8 @@ description: "MaiPDF提供全方位PDF文档安全保护方案，通过访问控
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/动态水印的选项.png"
 tags: ["PDF加密", "文档安全", "防泄密", "信息保护"]
+noindex: true
 ---
-
 # PDF加密防泄露，MaiPDF让分享更安心
 
 <div class="intro-panel">

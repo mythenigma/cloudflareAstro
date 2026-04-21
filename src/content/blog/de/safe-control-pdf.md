@@ -11,6 +11,7 @@ tags:
   - Sicherheit
   - Verwaltung
 heroImage: /maipdf2026/how_to_control_panel.png
+noindex: true
 ---
 
 # Sichere PDF-Kontrolle: Verwaltung und Schutz von Dokumenten

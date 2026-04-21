@@ -11,6 +11,7 @@ tags:
   - PDF-Hosting
   - Dokument-Sharing
   - Sicherer Viewer
+noindex: true
 ---
 
 # Kostenloses PDF-Hosting: Vollständiger Leitfaden

@@ -4,8 +4,8 @@ description: "MaiPDF提供精细化的PDF访问控制系统，让您能够限制
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf整体功能页面.png"
 tags: ["PDF加密", "访问控制", "文件安全", "信息保护", "数据泄露防护"]
+noindex: true
 ---
-
 # PDF加密分享：你掌控每一次访问
 
 <div class="intro-panel">

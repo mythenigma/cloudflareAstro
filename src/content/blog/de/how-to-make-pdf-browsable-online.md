@@ -4,6 +4,7 @@ description: "Erfahren Sie, wie Sie PDFs online durchsuchbar machen. Vollständi
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Online", "Durchsuchbar", "Browser"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # PDF Online Durchsuchbar Machen: Vollständiger Leitfaden

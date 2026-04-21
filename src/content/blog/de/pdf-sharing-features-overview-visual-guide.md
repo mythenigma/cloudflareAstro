@@ -10,6 +10,7 @@ tags:
   - PDF-Sicherheit
   - Visueller Guide
 heroImage: /maipdf2026/show_off/securityshowoff.png
+noindex: true
 ---
 
 # PDF-Sharing-Funktionen im Überblick (visueller Guide)

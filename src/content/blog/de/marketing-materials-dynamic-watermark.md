@@ -11,6 +11,7 @@ tags:
   - Wasserzeichen
   - Schutz
 heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+noindex: true
 ---
 
 # Marketing-Materialien mit Dynamischen Wasserzeichen: Vollständiger Leitfaden

@@ -1,608 +1,193 @@
 ---
-title: "MaiPDF：更安全、更高效的在线 PDF 分享方式"
-description: "探索 MaiPDF 如何通过免登录访问、邮箱验证和 Cloudflare R2 技术，提供比传统网盘更安全、更便捷的 PDF 分享解决方案。"
+title: "MaiPDF 是什么：一条链接讲清它的完整用法"
+description: "把 MaiPDF 当工具看：上传 PDF 生成一条带访问控制的链接，怎么选站点、怎么配权限、怎么分发、发出去之后怎么管。一篇让你看懂整个工作流的入口文章。"
 pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/secure-pdf-sharing.png"
-tags: ["PDF分享", "文档安全", "云存储", "Cloudflare"]
-showDefaultCta: false
+updatedDate: "Apr 21 2026"
+heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
+tags: ["MaiPDF", "PDF分享", "访问控制", "工作流", "文档安全"]
+showDefaultCta: true
 ---
 
-# MaiPDF：更安全、更高效的在线 PDF 分享方式
+# MaiPDF 是什么：一条链接讲清它的完整用法
 
-<div class="intro-panel">
-  <p>在日常工作和学习中，我们经常需要分享 PDF 文件，但传统的分享方式往往存在一些问题。如果你想要一个更安全、更高效的解决方案，MaiPDF 是一个非常值得尝试的工具。</p>
-</div>
+如果用一句话概括 MaiPDF 在做什么：**把 PDF 变成一条带访问控制的链接，而不是把 PDF 文件本身发出去**。这一小步看起来平常，其实改变的是你对"分享"这件事的掌控度——链接可以限次数、限时长、限有效期、要手机验证、可以被替换、可以直接关掉，而原始文件从头到尾没有离开过你这一侧。
 
-## 📋 传统 PDF 分享的痛点
+这篇不是讲某个单独功能，而是把整条工作流过一遍：上传 → 设权限 → 分发（链接 / 二维码）→ 发出去之后怎么管 → 什么时候结束。读完你应该能对 MaiPDF 有一张全图，再按自己场景去查具体那篇深讲。
 
-在探讨 MaiPDF 的优势之前，让我们先看看传统分享方式的局限性：
+![MaiPDF 首页入口](/maipdf2026/Maipdf_LANDING_PAGE.png)
 
-<div class="problems-grid">
-  <div class="problem-card">
-    <div class="problem-icon">🔐</div>
-    <div class="problem-content">
-      <h3>需要登录</h3>
-      <p>接收方没有账号，打不开文件</p>
-    </div>
-  </div>
-  <div class="problem-card">
-    <div class="problem-icon">⚙️</div>
-    <div class="problem-content">
-      <h3>权限设置复杂</h3>
-      <p>经常忘记设置"允许访问"</p>
-    </div>
-  </div>
-  <div class="problem-card">
-    <div class="problem-icon">🐌</div>
-    <div class="problem-content">
-      <h3>速度慢</h3>
-      <p>大文件上传和下载体验差</p>
-    </div>
-  </div>
-  <div class="problem-card">
-    <div class="problem-icon">⚠️</div>
-    <div class="problem-content">
-      <h3>安全隐患</h3>
-      <p>文件被无限转发，隐私失控</p>
-    </div>
-  </div>
-</div>
+## 一眼看懂
 
-## 1️⃣ 免登录即可查看，分享更高效
+| 环节 | 你做的事 | MaiPDF 给的东西 |
+|---|---|---|
+| 上传 | 拖一个 PDF 进去 | 一条链接 + 一张二维码 |
+| 设权限 | 填几个参数 | 打开次数 / 时长 / 过期 / 下载控制 / 水印 / 手机验证 |
+| 分发 | 复制链接 / 保存二维码 | 对方点开即读，不用下载原文件 |
+| 管理 | 后台看统计、调参数 | 访问记录、文件替换、实时收紧 |
 
-<div class="feature-highlight">
-  <div class="feature-content">
-    <p>使用 MaiPDF 上传 PDF 后，系统会自动生成一个专属分享链接。接收方只需要点击链接，就能直接在线查看文件，<strong>无需注册，无需登录</strong>，非常适合快速分享资料、报告、合同等。</p>
-  </div>
-  <div class="feature-image">
-    <img src="/maipdf-images/no-login-access.png" alt="免登录直接访问 PDF" />
-  </div>
-</div>
+## 核心心智：发链接，不是发文件
 
-### ✨ 一键分享的便利性
+传统的分享路径是把 PDF 当附件发出去——邮件、微信、云盘。文件一旦落在对方设备里，后面怎么被看、被转、被截图、被下载，都不在你这一侧。
 
-- 📤 **即时生成**：上传完成后立即获得分享链接
-- 🔗 **通用兼容**：任何设备、任何浏览器都能打开
-- ⚡ **快速访问**：点击链接即可开始阅读
-- 📱 **移动友好**：手机、平板完美适配
+MaiPDF 做的事只有一件：**把"分享一个 PDF"拆成"分享一条阅读入口"**。
 
-## 2️⃣ 可开启邮箱验证，更安全
+- 对方拿到的是链接（或二维码），不是 PDF 文件本身
+- 阅读发生在浏览器里，原文件始终在 MaiPDF 这侧
+- 这条入口上挂着你设好的规则：几次、多久、要不要手机号、能不能下载
+- 任何一条规则触发，入口就结束——文件没走、入口关了
 
-<div class="security-section">
-<h3>🛡️ 灵活的安全控制</h3>
-<p>如果文件比较敏感，MaiPDF 提供了更高的访问权限控制：</p>
+这个心智很朴素，但很多场景只有切到"链接型分享"才能真正可控。文件式分享连"对方看没看"都不知道，谈不上安全。
 
-<div class="security-features">
-<div class="security-item">
-<span class="security-icon">📧</span>
-<div class="security-text">
-<h4>邮箱验证</h4>
-<p>要求用户输入邮箱并验证才能打开 PDF</p>
-</div>
-</div>
+## 两个站点，选哪个
 
-<div class="security-item">
-<span class="security-icon">📊</span>
-<div class="security-text">
-<h4>打开统计</h4>
-<p>每次访问都有记录，避免文件被随意传播</p>
-</div>
-</div>
+MaiPDF 有两个独立站点，面向不同人群：
 
-<div class="security-item">
-<span class="security-icon">🔒</span>
-<div class="security-text">
-<h4>权限控制</h4>
-<p>比 Google Drive 的"开放链接"更安全可控</p>
-</div>
-</div>
-</div>
-</div>
+| 站点 | 适合 | 核心差别 |
+|---|---|---|
+| **maipdf.com**（国际版） | 面向海外接收方 | 用**邮箱白名单**做身份验证，英文界面为主 |
+| **maipdf.cn**（中文版） | 面向中国大陆接收方 | 用**手机号白名单**做身份验证，最多 50 个大陆手机号 |
 
-### 🎯 适用场景
+两个站点的核心访问控制（打开次数、单次时长、过期时间、下载开关、动态水印、QR、文件替换）都有，**真正的差异在验证方式上**：如果接收方在大陆，走 maipdf.cn + 手机号验证；如果是海外客户、海外合作方，走 maipdf.com + 邮箱白名单。
 
-这让 MaiPDF 非常适合用于：
+接收方在哪用哪个，不要混——用错站点就会出现"短信收不到/邮件进垃圾箱"这类糟心事。本文后面涉及身份验证的部分都以 **maipdf.cn + 手机号** 为默认（中文博客面向的是大陆读者）。
 
-<div class="use-cases">
-  <div class="use-case-item">
-    <span class="use-case-icon">🎓</span>
-    <span>内部培训资料</span>
-  </div>
-  <div class="use-case-item">
-    <span class="use-case-icon">📚</span>
-    <span>学术论文分享</span>
-  </div>
-  <div class="use-case-item">
-    <span class="use-case-icon">📋</span>
-    <span>项目合同传阅</span>
-  </div>
-  <div class="use-case-item">
-    <span class="use-case-icon">📝</span>
-    <span>学生作业或课堂讲义</span>
-  </div>
-</div>
+## 完整工作流：从上传到结束
 
-## 3️⃣ Cloudflare R2 提供极速存储与访问
+下面是一次典型分享的五个阶段。真正用熟之后，单次分享从上传到发链接，大概一两分钟。
 
-<div class="tech-section">
-  <h3>🚀 强大的技术支撑</h3>
-  <p>MaiPDF 采用 Cloudflare R2 云存储技术，这意味着：</p>
-  <div class="tech-advantages">
-    <div class="tech-card">
-      <div class="tech-icon">🌍</div>
-      <div class="tech-content">
-        <h4>全球加速</h4>
-        <p>无论在国内还是海外，打开速度都很快</p>
-      </div>
-    </div>
-    <div class="tech-card">
-      <div class="tech-icon">⚡</div>
-      <div class="tech-content">
-        <h4>高可用性</h4>
-        <p>文件稳定托管，不会因为服务器问题导致打不开</p>
-      </div>
-    </div>
-    <div class="tech-card">
-      <div class="tech-icon">🔐</div>
-      <div class="tech-content">
-        <h4>安全性高</h4>
-        <p>数据传输与存储全程加密，保护隐私与知识产权</p>
-      </div>
-    </div>
-  </div>
-  <div class="comparison-note">
-    <p><strong>💡 技术优势：</strong>相比传统的 Google Drive 或普通网盘，MaiPDF 在速度和安全上都更有优势。</p>
-  </div>
-</div>
+### 一、上传：单文件 ≤ 100 MB
 
-## 4️⃣ 总结
+登录或以游客身份都可以，拖一个 PDF 进去即可。游客模式不需要注册，全套访问控制都能用；注册登录多一个**用户控制面板**，后面要看历史、批量改设置、直接替换文件时会顺很多。
 
-<div class="conclusion-section">
-  <h3>🎯 为什么选择 MaiPDF？</h3>
-  <p>如果你正在寻找一款 <strong>安全、便捷、高速</strong> 的在线 PDF 分享工具，MaiPDF 是一个非常好的选择：</p>
-  <div class="summary-grid">
-    <div class="summary-item">
-      <span class="summary-icon">🔓</span>
-      <div class="summary-text">
-        <h4>免登录</h4>
-        <p>链接一发，直接查看</p>
-      </div>
-    </div>
-    <div class="summary-item">
-      <span class="summary-icon">📧</span>
-      <div class="summary-text">
-        <h4>可选邮箱验证</h4>
-        <p>精准控制访问权限</p>
-      </div>
-    </div>
-    <div class="summary-item">
-      <span class="summary-icon">☁️</span>
-      <div class="summary-text">
-        <h4>Cloudflare R2</h4>
-        <p>极速稳定的云存储</p>
-      </div>
-    </div>
-    <div class="summary-item">
-      <span class="summary-icon">⚡</span>
-      <div class="summary-text">
-        <h4>简单高效</h4>
-        <p>几秒钟就能完成分享</p>
-      </div>
-    </div>
-  </div>
-</div>
+![拖放上传或登录后上传](/maipdf2026/maipdf_header_login_or_upload_file.png)
 
-<div class="cta-section">
-  <h3>🚀 立即体验 MaiPDF</h3>
-  <p>体验更流畅的 PDF 分享方式！</p>
-  <div class="cta-button">
-    <a href="https://maipdf.com" target="_blank" rel="noopener noreferrer">试试 MaiPDF</a>
-  </div>
-</div>
+上传后选择"在线分享"路径（本文讲的全是在线链接分享；需要完全脱网的离线 DRM 是另一条工作流，不在本文范围内）。
 
-<style>
-  .intro-panel {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2.5rem;
-    border-radius: 1rem;
-    margin: 2rem 0;
-    font-size: 1.15rem;
-    line-height: 1.7;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .intro-panel::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
-    pointer-events: none;
-  }
-  
-  .intro-panel p {
-    position: relative;
-    z-index: 1;
-    margin: 0;
-  }
-  
-  h2 {
-    color: #1e293b;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-    font-weight: 700;
-    border-bottom: 3px solid #667eea;
-    padding-bottom: 0.5rem;
-  }
-  
-  h3 {
-    color: #334155;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-  
-  .problems-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-  }
-  
-  .problem-card {
-    background: #fef2f2;
-    border: 1px solid #fecaca;
-    border-radius: 0.75rem;
-    padding: 1.25rem 1.25rem;
-    text-align: left;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-  
-  .problem-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.15);
-  }
-  
-  .problem-icon {
-    font-size: 1.35rem;
-    line-height: 1;
-    width: 44px;
-    height: 44px;
-    border-radius: 12px;
-    display: grid;
-    place-items: center;
-    background: rgba(220, 38, 38, 0.10);
-    border: 1px solid rgba(220, 38, 38, 0.18);
-    flex: 0 0 auto;
-    margin: 0;
-  }
-  
-  .problem-content h3 {
-    margin: 0 0 0.5rem 0;
-    color: #1e293b;
-    font-size: 1.25rem;
-    border-bottom: none;
-    padding-bottom: 0;
-    line-height: 1.25;
-  }
-  
-  .problem-content p {
-    margin: 0;
-    color: #475569;
-    line-height: 1.5;
-  }
+![选择在线分享](/maipdf2026/choose_online_for_sharing_online.png)
 
-  /* Make cards stack nicely on small screens */
-  @media (max-width: 520px) {
-    .problem-card {
-      gap: 0.85rem;
-    }
-    .problem-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-    }
-    .problem-content h3 {
-      font-size: 1.15rem;
-    }
-  }
-  
-  .feature-highlight {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    align-items: center;
-    margin: 2rem 0;
-    background: #f8fafc;
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 1px solid #e2e8f0;
-  }
-  
-  .feature-content {
-    font-size: 1.1rem;
-    line-height: 1.6;
-  }
-  
-  .feature-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .security-section {
-    background: #f8fafc;
-    padding: 2rem;
-    border-radius: 1rem;
-    border-left: 4px solid #667eea;
-    margin: 2rem 0;
-  }
-  
-  .security-section h3 {
-    color: #667eea;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  
-  .security-features {
-    display: grid;
-    gap: 1.5rem;
-    margin: 1.5rem 0;
-  }
-  
-  .security-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    background: white;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    border: 1px solid #e2e8f0;
-  }
-  
-  .security-icon {
-    font-size: 1.5rem;
-    flex-shrink: 0;
-  }
-  
-  .security-text h4 {
-    margin: 0 0 0.5rem 0;
-    color: #1e293b;
-    font-size: 1.1rem;
-  }
-  
-  .security-text p {
-    margin: 0;
-    color: #475569;
-    line-height: 1.5;
-  }
-  
-  .use-cases {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0;
-  }
-  
-  .use-case-item {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    background: #f1f5f9;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    color: #334155;
-    border: 1px solid #cbd5e1;
-  }
-  
-  .use-case-icon {
-    font-size: 1.25rem;
-  }
-  
-  .tech-section {
-    background: #f8fafc;
-    padding: 2rem;
-    border-radius: 1rem;
-    border-left: 4px solid #667eea;
-    margin: 2rem 0;
-  }
-  
-  .tech-section h3 {
-    color: #667eea;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  
-  .tech-advantages {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 1.5rem 0;
-  }
-  
-  .tech-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid #e2e8f0;
-  }
-  
-  .tech-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
-  }
-  
-  .tech-icon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .tech-content h4 {
-    margin: 0 0 0.5rem 0;
-    color: #1e293b;
-    font-size: 1.25rem;
-  }
-  
-  .tech-content p {
-    margin: 0;
-    color: #475569;
-    line-height: 1.5;
-  }
-  
-  .comparison-note {
-    background: #ede9fe;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    margin-top: 1.5rem;
-    border: 1px solid #c4b5fd;
-  }
-  
-  .comparison-note p {
-    margin: 0;
-    color: #5b21b6;
-  }
-  
-  .conclusion-section {
-    background: #f8fafc;
-    padding: 2rem;
-    border-radius: 1rem;
-    border-left: 4px solid #667eea;
-    margin: 2rem 0;
-  }
-  
-  .conclusion-section h3 {
-    color: #667eea;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  
-  .summary-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin: 1.5rem 0;
-  }
-  
-  .summary-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    background: white;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    border: 1px solid #e2e8f0;
-  }
-  
-  .summary-icon {
-    font-size: 1.5rem;
-    flex-shrink: 0;
-  }
-  
-  .summary-text h4 {
-    margin: 0 0 0.5rem 0;
-    color: #1e293b;
-    font-size: 1.1rem;
-  }
-  
-  .summary-text p {
-    margin: 0;
-    color: #475569;
-    line-height: 1.5;
-  }
-  
-  .cta-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    text-align: center;
-    padding: 3rem 2rem;
-    border-radius: 1rem;
-    margin: 3rem 0;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
-  }
-  
-  .cta-section h3 {
-    margin: 0 0 1rem 0;
-    font-size: 1.75rem;
-    color: white;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  
-  .cta-section p {
-    margin: 0 0 2rem 0;
-    font-size: 1.1rem;
-    opacity: 0.9;
-  }
-  
-  .cta-button a {
-    display: inline-block;
-    background: white;
-    color: #667eea;
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cta-button a:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  strong {
-    color: #667eea;
-    font-weight: 600;
-  }
-  
-  ul, ol {
-    margin: 1.5rem 0;
-    padding-left: 2rem;
-  }
-  
-  li {
-    margin: 0.75rem 0;
-    line-height: 1.7;
-  }
-  
-  @media (max-width: 768px) {
-    .feature-highlight {
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
-    
-    .problems-grid,
-    .tech-advantages,
-    .summary-grid {
-      grid-template-columns: 1fr;
-    }
-    
-    .use-cases {
-      grid-template-columns: 1fr;
-    }
-    
-    .intro-panel {
-      padding: 1.5rem;
-      font-size: 1rem;
-    }
-  }
-</style>
+### 二、设置访问控制
+
+这是 MaiPDF 的主要价值所在。控制项分成两层：
+
+**四大核心控制项**（任何一项先触发都让链接失效）：
+
+| 控制项 | 管的是 |
+|---|---|
+| 打开次数 | 链接总共还能被点开几次（1–1000） |
+| 单次阅读时长 | 一次打开最长可读多久（1 分钟–24 小时），超时关页 |
+| 过期时间 | 链接到哪一天彻底失效 |
+| 是否允许下载 | 纯在线阅读 vs 允许下载原文件 |
+
+**更严格时再加两层**：
+
+- **动态水印**：把查看者的 IP 盖在每一页上，截图可溯源
+- **手机号白名单验证**（maipdf.cn 特有）：最多 50 个中国大陆手机号，仅名单内号码能收到短信验证码后打开
+
+把下载 + 打印同时关掉，就是所谓**标准防护模式**——纯在线阅读，落地不到对方硬盘上。
+
+![文件设置面板：四大控制项一览](/maipdf2026/how_to_control_panel.png)
+
+一个常见的**场景配方**：给客户发报价单——打开次数 5、过期时间 7 天、禁止下载、开水印。5 次够客户自己和内部同事评一轮，7 天盖住商务周期，水印让对方不敢随手截图转出去。
+
+### 三、分发：链接 or 二维码
+
+设完参数，系统同时生成一条链接和一张二维码。两者**背后是同一条入口**，你设的所有访问控制对链接和二维码同样生效——扫二维码不是扫到 PDF 文件，扫的是链接。
+
+![链接 + 二维码一起出](/maipdf2026/Result_of_qr_link.png)
+
+使用场景的分工：
+
+- **链接**：微信 / 邮件 / 企业微信 / 钉钉 / 短信里发
+- **二维码**：印在名片、海报、PPT 上，或线下活动入口，对方扫一下就能读
+
+二维码这里没有花哨的自定义（颜色、Logo 这些都没有，也不需要）——它就是把同一条链接做成可扫的图。
+
+### 四、发出去之后怎么管
+
+这是链接型分享最有价值的环节：**发出去的不是文件，所以规则后面还能改**。
+
+- **看访问记录**：谁什么时候打开的、剩余次数、配手机验证时能看到是哪个号码打开的
+- **实时调整**：次数不够了加几次；需要收紧就把总额调低（注意：调到比已用量低会立即失效）；有效期延后或提前
+- **一键关闭**：感觉对方在过度转发，直接把链接关掉——文件还在你账户里，但入口断了
+
+![用户控制面板：历史、统计、管理入口](/maipdf2026/user_control_panel_alotof_functions.png)
+
+**文件替换不换链接**——这条很容易被忽略但特别实用。发了之后文件改版、修了勘误、换了更清晰的版本，不需要重新发新链接：
+
+- 游客模式：用第一次上传时系统给你的**修改码**（另存好它）替换
+- 注册 + 登录：在用户控制面板里直接点替换，无需修改码
+
+链接 URL 保持不变，对方下次打开看到的是新文件。
+
+![登录后在控制面板里直接替换](/maipdf2026/swap_file_easy_in_user_control_panel.png)
+
+### 五、结束：次数用完 / 到期 / 主动关闭
+
+任何一条控制项先触发都会让链接进入"已失效"状态。接下来**你能做**和**不能做**的：
+
+- ✅ 文件仍在你账户 / 历史里，可以重新生成新链接
+- ✅ 访问统计保留，还能回头对账
+- ✅ 想让同一个链接继续工作：把次数加几次 / 把有效期延后，URL 不变
+- ❌ 不会"自动删除原文件"——链接失效 ≠ 文件被清除，这是很多源文档传错的一点
+
+## 和传统分享方式的区别
+
+不要写得太长，三句话说清：
+
+- **邮件附件**：大文件发不了，发出去之后完全失控，对方看没看都不知道
+- **云盘分享**：链接能传递，但权限粒度粗，看过几次、谁看的普遍追不出来
+- **本地文件直发（微信 / QQ / Telegram 文件）**：下载即落地，离开你这一侧就等于放弃了掌控
+
+MaiPDF 这条路换的不是"更快更大"，换的是**能不能回头管**。
+
+## 不同角色常用什么组合
+
+下面这些是长期观察用户实际怎么用出来的搭法，不是硬规则，拿去当起点就好：
+
+| 角色 | 典型场景 | 常用组合 |
+|---|---|---|
+| 商务 / 销售 | 报价单、商业提案 | 5 次 + 7 天 + 禁下载 + 水印 |
+| HR | 候选人作品集、offer 草案 | 20 次 + 面试周期 + 禁下载 |
+| 讲师 / 培训 | 课程讲义、内部培训材料 | 100 次 + 30 天 + 允许下载（学员要回看） |
+| 设计师 | 作品集、提案稿 | 10 次 + 7 天 + 禁下载 + 水印 |
+| 法务 / 合同 | 合同草案、NDA | 5 次 + 30 天 + 手机号白名单 + 水印 |
+| 内部敏感 | 财报、内部报告 | 1–3 次 + 3 天 + 手机号白名单 + 水印 + 禁下载 |
+
+"看起来更安全就设更小"是很多人的直觉，但**低次数不等于高安全**——够对方和内部同事正常评完、不误伤正事最重要。具体怎么估这个数，见下面 Related 里的 Cluster 4。
+
+## 什么时候这篇不够，去看哪篇
+
+MaiPDF 的各个具体能力，这篇只讲到"有什么、怎么串起来用"。真要把某一项用精，按场景选：
+
+- 想把**链接的次数**配到刚刚好——看 Cluster 4
+- 担心对方**截图转发**，需要盖身份水印——看水印篇
+- 接收方是**大陆手机号的白名单人群**——看手机验证篇
+- 要在海报 / 线下 / 名片上用**二维码**分发——看 QR 篇
+- 只需要最快一条路**上传即拿链接**——看 Cluster 1
+
+这篇是入口地图，点开上面的就是细图。
+
+## 常见误区
+
+- 把 MaiPDF 当"云盘"用——它不是存储，是**分发 + 控制**
+- 以为链接失效后文件会自动删——不会，文件仍在你账户
+- 在 maipdf.cn 下意识去找"邮件提醒"——中文版没有，CN 版的核心是手机号白名单
+- 想用 Word / Excel 直接上传——得先转成 PDF（不支持非 PDF 格式）
+- 把二维码当成带自定义颜色 / Logo 的营销素材——没这个功能，它只是同一条链接的可扫形态
+
+## 直接回答这个页面
+
+**MaiPDF 是什么**：一个把 PDF 转成"带访问控制的链接 + 二维码"的在线分享工具，maipdf.com 是国际版（邮箱验证），maipdf.cn 是中文版（手机号白名单，最多 50 个大陆号）。
+
+**完整工作流**：上传 PDF（≤100 MB）→ 设访问控制（打开次数 / 单次时长 / 过期时间 / 下载开关 / 水印 / 手机验证，按需组合）→ 拿链接和二维码分发 → 发出去之后可以在后台看记录、调参数、替换文件、直接关链，URL 保持不变 → 任何一条规则先触发都让入口结束，文件始终在你这一侧。
+
+**核心价值**：不是"更快地把文件发出去"，而是**发出去之后你还能管**。
+
+## Related reading
+
+- [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link) —— 最快的一条路径：只要一条链接的场景
+- [PDF 设置打开次数限制指南](/blog/cn/pdf-set-view-count-limit-guide) —— 次数到底设几次才合理，不是越小越安全
+- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 高敏感外发时必配，截图可溯源
+- [MaiPDF 手机验证功能](/blog/cn/mobile-verification-document-security) —— CN 专属：最多 50 个大陆手机号白名单
+- [PDF 二维码生成指南](/blog/cn/pdf-qr-code-generation-guide) —— 线下 / 海报 / 活动里用二维码分发
+- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 访问控制的完整全景，更深一层的伞篇

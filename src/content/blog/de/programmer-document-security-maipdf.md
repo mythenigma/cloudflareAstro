@@ -11,6 +11,7 @@ tags:
   - Sicherheit
   - Dokumente
 heroImage: /maipdf2026/en-upload-screenshot.png
+noindex: true
 ---
 
 # Programmierer-Dokumentensicherheit mit MaiPDF: Vollständiger Leitfaden

@@ -10,6 +10,7 @@ tags:
   - Dokumentenschutz
   - Digital Rights Management
   - Verschlüsselung
+noindex: true
 ---
 
 # 🔐 Moderne PDF-Schutztools: Mehr als nur Verschlüsselung

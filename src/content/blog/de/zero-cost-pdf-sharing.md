@@ -10,6 +10,7 @@ tags:
   - Sharing
   - Tools
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 # Kostenloses PDF-Sharing: Vollständiger Leitfaden

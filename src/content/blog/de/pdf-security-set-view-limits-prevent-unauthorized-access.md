@@ -11,6 +11,7 @@ tags:
   - Limits
   - Schutz
 heroImage: /maipdf2026/show_off/openlimit.png
+noindex: true
 ---
 
 # PDF-Sicherheit: Ansichtslimits Festlegen um Unbefugten Zugriff zu Verhindern

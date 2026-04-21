@@ -11,6 +11,7 @@ tags:
   - PDF QR-Code Generator
   - PDF mit QR teilen
   - maipdf
+noindex: true
 ---
 
 # Jede PDF in einen QR-Code verwandeln

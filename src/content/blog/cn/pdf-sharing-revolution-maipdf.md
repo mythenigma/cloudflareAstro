@@ -3,8 +3,8 @@ title: "PDF分享的新时代：MaiPDF如何彻底改变文档安全分享体验
 description: "作为一个经常需要分享敏感文档的职场人，我发现了一个彻底改变PDF分享方式的工具——MaiPDF。它不仅解决了传统分享的安全痛点，还提供了令人惊艳的用户体验。"
 pubDate: "June 01 2025"
 heroImage: "/maifle/maipdf的首页入口.png"
+noindex: true
 ---
-
 # PDF分享的新时代：MaiPDF如何彻底改变文档安全分享体验
 
 

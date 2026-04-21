@@ -10,6 +10,7 @@ tags:
   - Vorteile
   - Sicherheit
 heroImage: /maipdf2026/show_off/shareandsend.png
+noindex: true
 ---
 
 # PDF-Sharing-Vorteile: Warum Sicheres Teilen Wichtig Ist

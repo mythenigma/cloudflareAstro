@@ -11,6 +11,7 @@ tags:
   - Limits
   - Schutz
 heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+noindex: true
 ---
 
 # PDF-Zugriffskontrolle mit Ansichtslimits: Vollständiger Leitfaden

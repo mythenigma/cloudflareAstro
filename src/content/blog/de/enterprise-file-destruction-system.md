@@ -11,6 +11,7 @@ tags:
   - Vernichtung
   - Sicherheit
 heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+noindex: true
 ---
 
 # Enterprise-Datei-Vernichtungssystem: Vollständiger Leitfaden

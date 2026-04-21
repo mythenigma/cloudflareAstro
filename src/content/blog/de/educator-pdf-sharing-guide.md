@@ -10,6 +10,7 @@ tags:
   - Pädagogen
   - Sharing
 heroImage: /maipdf2026/en-upload-screenshot.png
+noindex: true
 ---
 
 # Leitfaden für Pädagogen: PDF-Sharing

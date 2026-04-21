@@ -11,6 +11,7 @@ tags:
   - Sicheres Teilen
   - Optionen
 heroImage: /maipdf2026/show_off/securityshowoff.png
+noindex: true
 ---
 
 # Sichere PDF-Sharing-Optionen: Vollständiger Sicherheitsleitfaden

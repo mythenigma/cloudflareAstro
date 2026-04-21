@@ -11,6 +11,7 @@ tags:
   - Druck
   - Sicherheit
 heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png
+noindex: true
 ---
 
 # Schutz-Leitfaden: PDF-Druck Deaktivieren

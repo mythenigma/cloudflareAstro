@@ -4,6 +4,7 @@ description: "Erfahren Sie, warum die Begrenzung der Anzahl der PDF-Ansichten ei
 pubDate: "Apr 23 2025"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["PDF-Sicherheit", "DRM", "Ansichtslimits", "Dokumentenfreigabe"]
+noindex: true
 ---
 
 # 🔄 Der Unterschied: Ansichtslimits vs. Ablaufdaten

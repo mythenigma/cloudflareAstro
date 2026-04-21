@@ -11,6 +11,7 @@ tags:
   - DRM
   - Ansichtsbegrenzungen
   - Dokumentenfreigabe
+noindex: true
 ---
 
 In einer Ära der schnellen digitalen Verbreitung ist die Kontrolle des Zugriffs auf Dokumente immer wichtiger geworden. Ob Sie vertrauliche Unternehmensberichte, Bildungsmaterial oder interne Kommunikation teilen – oft reicht es nicht aus, das Herunterladen oder Kopieren zu verhindern. Manchmal müssen Sie auch kontrollieren, wie oft ein Dokument geöffnet werden kann.

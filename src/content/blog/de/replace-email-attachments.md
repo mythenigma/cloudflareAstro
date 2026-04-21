@@ -11,6 +11,7 @@ tags:
   - Email
   - Unternehmen
   - Teilen
+noindex: true
 ---
 
 # E-Mail-Anhänge ersetzen: Modernes PDF-Sharing für Unternehmen

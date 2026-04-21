@@ -4,8 +4,8 @@ description: "学习如何使用MaiPDF将PDF文档生成二维码，支持大文
 pubDate: "Aug 22 2025"
 heroImage: "/cn2025May/maipdf_link_result.png"
 tags: ["PDF二维码", "文档分享", "扫码查看", "访问控制", "MaiPDF"]
+noindex: true
 ---
-
 # MaiPDF二维码生成教程：一键生成PDF二维码，扫码即可查看文档
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin-bottom: 2rem;">

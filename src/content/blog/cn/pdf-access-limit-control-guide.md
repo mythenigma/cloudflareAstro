@@ -4,8 +4,8 @@ description: "学习如何设置PDF文件的访问次数限制，保护敏感文
 pubDate: "Aug 25 2025"
 heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
 tags: ["PDF访问限制", "文档安全", "访问控制", "次数限制", "文档保护"]
+noindex: true
 ---
-
 # 如何将PDF文件限制访问次数：精准控制文档访问权限
 
 <div class="intro-panel">

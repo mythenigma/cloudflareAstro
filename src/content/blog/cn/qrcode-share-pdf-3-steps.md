@@ -3,8 +3,8 @@ title: "二维码分享PDF：3步让对方扫码即看"
 description: "用流程图快速理解二维码分享：上传→生成二维码→多渠道投放与扫码访问。"
 pubDate: "Jan 15 2026"
 tags: ["二维码", "PDF分享", "扫码查看"]
+noindex: true
 ---
-
 # 二维码分享PDF：3步让对方扫码即看
 
 <div class="intro-panel">

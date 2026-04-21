@@ -3,6 +3,7 @@ title: "Verhinderung von PDF-Downloads"
 description: "Erfahren Sie, wie Sie Ihre PDF-Dateien schützen können, indem Sie unbefugte Downloads verhindern."
 pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/pdf icon of no printing no downloading.png"
+noindex: true
 ---
 
 # 🔒 Verhinderung von PDF-Downloads: Sichern Sie Ihre Dokumente

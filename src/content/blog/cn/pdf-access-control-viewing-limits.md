@@ -4,8 +4,8 @@ description: "了解如何使用MaiPDF设置PDF文档的查看次数限制和有
 pubDate: "May 29 2025"
 heroImage: "/maifle/替换阅读码的例子.png"
 tags: ["PDF控制", "访问限制", "有效期（仅离线版）设置", "阅读次数", "文档安全"]
+noindex: true
 ---
-
 # PDF文档访问控制：如何限制查看次数和有效期（仅离线版）
 
 <div class="intro-panel">

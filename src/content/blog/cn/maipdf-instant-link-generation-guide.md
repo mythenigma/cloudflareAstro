@@ -4,8 +4,8 @@ description: "MaiPDF让PDF链接生成变得极速简单：上传PDF后秒级生
 pubDate: "Dec 04 2025"
 heroImage: "/2025MayMaiPDF/result_link_qr_cloudshare.png"
 tags: ["MaiPDF", "快速链接", "秒级生成", "无需注册", "PDF分享"]
+noindex: true
 ---
-
 # MaiPDF秒级生成链接：无需注册，上传即分享
 
 <div class="intro-panel">

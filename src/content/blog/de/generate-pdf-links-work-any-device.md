@@ -4,6 +4,7 @@ description: "Erfahren Sie, wie Sie PDF-Links generieren, die auf jedem Gerät f
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Links", "Multi-Device", "Kompatibilität"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # PDF-Links Generieren die auf Jedem Gerät Funktionieren

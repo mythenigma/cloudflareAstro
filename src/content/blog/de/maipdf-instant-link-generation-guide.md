@@ -10,6 +10,7 @@ tags:
   - Links
   - Schnell
 heroImage: /maipdf2026/Result_of_qr_link.png
+noindex: true
 ---
 
 # MaiPDF Sofortige Link-Generierung: Vollständiger Leitfaden

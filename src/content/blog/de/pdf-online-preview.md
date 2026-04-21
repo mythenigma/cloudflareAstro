@@ -11,6 +11,7 @@ tags:
   - Online
   - Anzeige
 heroImage: /maipdf2026/pdf native view on ui.png
+noindex: true
 ---
 
 # PDF Online-Vorschau: PDFs Ansehen ohne Herunterladen

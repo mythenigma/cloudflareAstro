@@ -4,8 +4,8 @@ description: "想让PDF分享更高效？MaiPDF帮您一键生成PDF二维码，
 pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["PDF二维码", "文件分享", "MaiPDF", "二维码生成", "移动办公"]
+noindex: true
 ---
-
 <style>
   .article-container {
     max-width: 800px;

@@ -4,8 +4,8 @@ description: "详细介绍如何使用MaiPDF将PDF文件转换为可在线浏览
 pubDate: "Jul 16 2025"
 heroImage: "/maifle/展示PDF列子.png"
 tags: ["PDF在线浏览", "在线查看", "文档分享", "浏览器预览", "MaiPDF"]
+noindex: true
 ---
-
 <div style="background: linear-gradient(135deg, #059669 0%, #047857 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin-bottom: 2rem;">
 
 # 怎么使PDF文件可以在线浏览：让文档分享变得前所未有的简单

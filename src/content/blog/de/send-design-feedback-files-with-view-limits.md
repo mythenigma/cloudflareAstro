@@ -11,6 +11,7 @@ tags:
   - Design-Feedback
   - Datei-Sharing
   - Design-Schutz
+noindex: true
 ---
 
 # 🎨 Senden Sie Design-Feedback-Dateien mit Ansichtslimits

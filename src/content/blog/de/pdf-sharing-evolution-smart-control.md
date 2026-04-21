@@ -11,6 +11,7 @@ tags:
   - Intelligente Kontrolle
   - Sharing
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 # PDF-Sharing-Evolution: Intelligente Kontrolle

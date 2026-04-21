@@ -4,6 +4,7 @@ description: "Erfahren Sie, wie Sie PDFs online anzeigen. Vollständiger Leitfad
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Online", "Anzeigen", "Browser"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # PDF Online Anzeigen: Vollständiger Leitfaden

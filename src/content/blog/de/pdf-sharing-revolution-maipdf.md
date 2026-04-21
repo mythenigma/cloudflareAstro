@@ -11,6 +11,7 @@ tags:
   - MaiPDF
   - Dokumententeilen
   - Moderne Lösungen
+noindex: true
 ---
 
 # PDF-Teilungs-Revolution: Wie MaiPDF das Dokumententeilen Verändert

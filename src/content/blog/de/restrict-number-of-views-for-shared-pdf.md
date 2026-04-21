@@ -11,6 +11,7 @@ tags:
   - Dokumentenaustausch
   - Ansichtsbegrenzungen
   - Inhaltsschutz
+noindex: true
 ---
 
 Ein PDF online zu teilen ist einfach. Aber zu kontrollieren, wie oft es angesehen werden kann? Das ist die Herausforderung.

@@ -4,6 +4,7 @@ description: "Benötigen Sie sicheres PDF-Sharing für Arbeit, Bildung oder Fors
 pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/security setting.png"
 tags: ["PDF Sicherheit", "Dateischutz", "Sicheres Teilen", "MaiPDF", "Zugriffskontrolle"]
+noindex: true
 ---
 
 <style>

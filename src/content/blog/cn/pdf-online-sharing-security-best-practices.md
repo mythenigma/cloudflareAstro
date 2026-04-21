@@ -4,8 +4,8 @@ description: "学习PDF在线分享的安全最佳实践。完整指南涵盖加
 pubDate: "Nov 28 2025"
 heroImage: "/maipdf-images/maipdf_landing_page.png"
 tags: ["PDF安全", "文档保护", "在线分享", "安全实践", "PDF加密"]
+noindex: true
 ---
-
 # PDF在线分享安全最佳实践：保护文档的完整指南
 
 <div class="intro-panel">

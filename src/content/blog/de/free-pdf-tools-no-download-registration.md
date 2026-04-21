@@ -4,6 +4,7 @@ description: "Diese kostenlosen PDF-Editoren und Konvertierungstools ermögliche
 pubDate: "May 15 2025"
 heroImage: "/maipdf-images/share_pdf_wordwide.png"
 tags: ["Kostenlose PDF-Tools", "PDF-Bearbeitung", "PDF-Konvertierung", "Ohne Registrierung", "Online PDF"]
+noindex: true
 ---
 
 # 15 Kostenlose PDF-Tools – Die besten PDF-Programme ohne Download oder Registrierung

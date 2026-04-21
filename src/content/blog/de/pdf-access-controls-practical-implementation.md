@@ -12,6 +12,7 @@ tags:
   - Dokumentschutz
   - Ansichtslimits
   - Dokumentablauf
+noindex: true
 ---
 
 # 🔒 PDF-Zugriffskontrollen: Praktische Implementierung für Dokumentsicherheit

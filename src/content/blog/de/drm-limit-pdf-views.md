@@ -11,6 +11,7 @@ tags:
   - DRM
   - Ansichtsbegrenzungen
   - Dokumentenfreigabe
+noindex: true
 ---
 
 Digital Rights Management (DRM) ist eine entscheidende Technologie zum Schutz digitaler Inhalte. Bei Dokumenten – insbesondere PDFs – wird DRM häufig verwendet, um unbefugtes Kopieren, Drucken oder Weitergeben zu verhindern. Über diese typischen Kontrollen hinaus gibt es einen fortschrittlichen Anwendungsfall: die Begrenzung der Häufigkeit, mit der ein PDF geöffnet werden kann, was oft als "PDF-Ansichtszahlbegrenzung" bezeichnet wird.

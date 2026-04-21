@@ -4,8 +4,8 @@ description: "告别复杂的文件分享方式！MaiPDF让PDF文件一键生成
 pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/result of pdf link and qr code.png"
 tags: ["PDF分享", "文件管理", "工作效率", "MaiPDF", "链接生成"]
+noindex: true
 ---
-
 <style>
   .article-container {
     max-width: 800px;

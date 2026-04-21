@@ -12,6 +12,7 @@ tags:
   - Ablauf
   - Dokumentschutz
   - PDF-Schutz
+noindex: true
 ---
 
 # PDF-Zugriffskontrolle: Ansichtslimits und Ablauf - Vollständiger Leitfaden

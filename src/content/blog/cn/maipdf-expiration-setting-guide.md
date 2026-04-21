@@ -4,8 +4,8 @@ description: "学习如何使用MaiPDF为分享的PDF文件设置时效，包括
 pubDate: "Aug 22 2025"
 heroImage: "/cn2025May/setting_example.png"
 tags: ["PDF时效", "过期设置", "访问控制", "安全分享", "MaiPDF"]
+noindex: true
 ---
-
 # MaiPDF时效设置指南：如何为分享的PDF文件设置到期日期（仅离线版）
 
 

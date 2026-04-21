@@ -10,6 +10,7 @@ tags:
   - Teilen
   - Anfänger
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 # PDFs Einfach Teilen: Einfache Anleitung für Anfänger

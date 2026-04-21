@@ -13,6 +13,7 @@ tags:
   - Inhaltsschutz
   - Berechtigungssteuerung
 heroImage: /maipdf2026/page_redirect_to_accessRecord.png
+noindex: true
 ---
 
 # Wie teilt man Trainingsmaterialien sicher? Hören Sie auf, PDFs einfach herumzuschicken!

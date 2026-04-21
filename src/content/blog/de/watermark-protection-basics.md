@@ -10,6 +10,7 @@ tags:
   - Leak Prevention
   - Nachverfolgung
 heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+noindex: true
 ---
 
 # Grundlagen von Wasserzeichen: Leaks abschrecken und Weitergabe nachverfolgen

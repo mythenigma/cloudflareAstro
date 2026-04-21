@@ -10,6 +10,7 @@ tags:
   - Best Practices
   - Schutz
 heroImage: /maipdf2026/choose_online_for_sharing_online.png
+noindex: true
 ---
 
 # Sicherheits-Best-Practices für Online-PDF-Sharing

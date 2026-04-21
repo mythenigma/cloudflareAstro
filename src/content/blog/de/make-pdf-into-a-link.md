@@ -11,6 +11,7 @@ tags:
   - Dokumentkonvertierung
   - URL-Generierung
   - Dateiteilen
+noindex: true
 ---
 
 # PDF in Link Konvertieren: Dokumente in Teilbare URLs Transformieren

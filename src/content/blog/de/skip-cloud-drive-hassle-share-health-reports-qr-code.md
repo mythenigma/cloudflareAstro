@@ -14,6 +14,7 @@ tags:
   - Gesundheitsberichte
   - Familienfreigabe
   - Seniorenfreundlich
+noindex: true
 ---
 
 Das Teilen innerhalb der Familie kann einfach sein – selbst wenn medizinische Dateien groß sind und Ihre Eltern keine weitere App möchten. Mit einem einzigen QR-Code können Sie einen vollständigen Gesundheitsbericht senden, der sich sofort in jedem Browser öffnet, auf einem Telefonbildschirm sauber skaliert und niemals deren Speicherplatz verstopft. Unten finden Sie eine praktische Anleitung, die Ihre Eltern als kluge, unabhängige Menschen behandelt, die einfach weniger Schritte bevorzugen.

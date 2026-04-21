@@ -4,8 +4,8 @@ description: "探索MaiPDF的高级访问控制功能，学习如何设置文档
 pubDate: "May 29 2025"
 heroImage: "/maifle/阅读码示例.png"
 tags: ["PDF访问控制", "文档有效期（仅离线版）", "查看次数限制", "阅后即焚", "文档安全"]
+noindex: true
 ---
-
 # PDF文档访问控制：如何限制查看次数和有效期（仅离线版）
 
 <div class="intro-panel">

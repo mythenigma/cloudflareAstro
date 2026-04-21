@@ -10,6 +10,7 @@ tags:
   - PDF Link Generator
   - sichere PDF-Freigabe
   - maipdf
+noindex: true
 ---
 
 # Ein minimalistischer PDF-Link-Generator

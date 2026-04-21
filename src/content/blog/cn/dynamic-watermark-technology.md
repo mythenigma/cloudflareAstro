@@ -4,8 +4,8 @@ description: "探索MaiPDF如何运用动态水印技术保护敏感文档，防
 pubDate: "May 28 2025"
 heroImage: "/maifle/dynamic_water_mark_example.jpg"
 tags: ["动态水印", "文档保护", "数据泄露防护", "安全技术", "文档追踪"]
+noindex: true
 ---
-
 # 动态水印技术：文档保护的隐形守护者
 
 <div class="intro-panel">

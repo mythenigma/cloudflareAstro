@@ -9,6 +9,7 @@ tags:
   - pdf security
   - best practices
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 PDF-Sicherheit scheitert selten an fehlenden Features – meist an **unklarem Prozess**. Diese Seite fasst einen einfachen Ablauf zusammen, der in Teams gut funktioniert.

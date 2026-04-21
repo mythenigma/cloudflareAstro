@@ -10,6 +10,7 @@ tags:
   - H5
   - Mobile
 heroImage: /maipdf2026/show_off/en-offline-version.svg
+noindex: true
 ---
 
 # MaiPDF H5-Generierung: Vollständiger Leitfaden

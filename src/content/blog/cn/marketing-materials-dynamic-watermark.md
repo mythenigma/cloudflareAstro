@@ -4,8 +4,8 @@ description: "如何利用MaiPDF动态水印功能保护企业营销资料、品
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/动态水印的选项.png"
 tags: ["动态水印", "品牌保护", "营销材料", "信息安全", "内容追踪"]
+noindex: true
 ---
-
 # 为营销材料添加动态水印：MaiPDF品牌保护实用指南
 
 <div class="intro-panel">

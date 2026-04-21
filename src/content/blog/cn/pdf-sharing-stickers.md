@@ -4,8 +4,8 @@ description: "零成本将PDF转换成链接和二维码，适用于简历、二
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf示例把PDF生成二维码.png"
 tags: ["PDF分享", "二维码", "轻量分享", "求职简历", "学习资料"]
+noindex: true
 ---
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9224406325142860" crossorigin="anonymous"></script>
 
 # 把 PDF 变贴纸：一键链接 & 二维码的轻量分享指南

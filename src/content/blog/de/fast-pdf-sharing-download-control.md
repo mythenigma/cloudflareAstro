@@ -11,6 +11,7 @@ tags:
   - Download-Kontrolle
   - Sichere Links
   - Schnelles Laden
+noindex: true
 ---
 
 # Schnelles PDF-Teilen: Sichere Links mit Download-Kontrolle Generieren

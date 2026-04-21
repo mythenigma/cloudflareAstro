@@ -5,8 +5,8 @@ pubDate: "Jan 17 2026"
 heroImage: "/maifle/PDF链接生成的时候显示的信息.png"
 tags: ["PDF分享", "二维码", "文件链接", "免费工具", "文档控制"]
 styles: ["blog-post.css"]
+noindex: true
 ---
-
 # 零成本 PDF 分享：把文件秒变链接与二维码 {.title}
 
 <div class="intro-panel">

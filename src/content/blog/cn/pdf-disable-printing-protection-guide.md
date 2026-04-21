@@ -4,8 +4,8 @@ description: "学习如何设置PDF文件不可打印，保护敏感文档安全
 pubDate: "Aug 25 2025"
 heroImage: "/2025MayMaiPDF/maipdf_online_pdf_sharing_header.png"
 tags: ["PDF打印限制", "文档保护", "打印控制", "文档安全", "PDF安全"]
+noindex: true
 ---
-
 # PDF设置不可打印：文档安全保护完整指南
 
 <div class="intro-panel">

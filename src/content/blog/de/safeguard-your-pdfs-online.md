@@ -11,6 +11,7 @@ tags:
   - Dokumentenschutz
   - Dateifreigabe
   - Informationskontrolle
+noindex: true
 ---
 
 # 🛡️ Schützen Sie Ihre PDFs online—Kontrollieren Sie, wer Ihre Dokumente ansieht, teilt oder bearbeitet

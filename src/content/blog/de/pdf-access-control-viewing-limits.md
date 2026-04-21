@@ -11,6 +11,7 @@ tags:
   - Limits
   - Schutz
 heroImage: /maipdf2026/how_to_control_panel.png
+noindex: true
 ---
 
 # PDF-Zugriffskontrolle mit Ansichtslimits: Vollständiger Leitfaden

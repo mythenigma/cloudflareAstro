@@ -4,8 +4,8 @@ description: "探索如何使用MaiPDF的手机验证码功能为重要文档添
 pubDate: "May 29 2025"
 heroImage: "/maifle/添加电话号码,输入手机验证码才能查看文件.jpg"
 tags: ["手机验证", "文档安全", "验证码保护", "信息安全", "PDF保护"]
+noindex: true
 ---
-
 # 手机验证码保护：提升PDF文档安全级别的终极方案
 
 <div class="intro-panel">

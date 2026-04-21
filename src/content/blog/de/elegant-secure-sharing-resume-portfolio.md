@@ -11,6 +11,7 @@ tags:
   - Portfolio
   - Sharing
 heroImage: /maipdf2026/show_off/shareandsend.png
+noindex: true
 ---
 
 # Elegantes und Sicheres Teilen von Lebenslauf und Portfolio

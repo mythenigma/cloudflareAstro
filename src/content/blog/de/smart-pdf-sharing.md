@@ -10,6 +10,7 @@ tags:
   - PDF-Teilen
   - Dokumententeilen
   - Moderne Lösungen
+noindex: true
 ---
 
 # Intelligentes PDF-Teilen: Moderne Dokumententeilen-Lösung

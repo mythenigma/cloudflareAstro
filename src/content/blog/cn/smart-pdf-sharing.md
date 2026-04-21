@@ -4,8 +4,8 @@ description: "MaiPDF提供一站式PDF智能分享解决方案，三步操作即
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf整体功能页面.png"
 tags: ["智能分享", "PDF传递", "文档管理", "在线阅读"]
+noindex: true
 ---
-
 # 智能PDF分享新体验，三步搞定文件传递
 
 <div class="intro-panel">

@@ -4,8 +4,8 @@ description: "从被动分享到主动控制，一个简单的思路转变，让
 pubDate: "2025-06-05"
 heroImage: "/maipdf-images/dynamic_water_mark_example.jpg"
 tags: ["PDF分享", "文件安全", "权限控制", "智能分享"]
+noindex: true
 ---
-
 ## 你有没有遇到过这些尴尬情况？
 
 发简历、报价单、作品集，你是不是也经历过这些让人头疼的时刻：

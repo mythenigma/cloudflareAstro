@@ -11,6 +11,7 @@ tags:
   - WhatsApp
   - Teilen
   - Mobil
+noindex: true
 ---
 
 # PDF auf WhatsApp teilen: Links statt Dateien verwenden

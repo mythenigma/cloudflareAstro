@@ -8,6 +8,7 @@ tags:
   - Verschlüsselung
   - Zugriffskontrolle
 heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+noindex: true
 ---
 
 # PDF‑Freigabeeinstellungen

@@ -4,8 +4,8 @@ description: "MaiPDF为用户提供PDF文件在线预览服务，接收方无需
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/PDF链接生成的时候显示的信息.png"
 tags: ["PDF预览", "在线浏览", "文档分享", "无需下载"]
+noindex: true
 ---
-
 # PDF在线预览，无需下载更便捷
 
 <div class="intro-panel">

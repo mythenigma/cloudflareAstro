@@ -4,8 +4,8 @@ description: "探索MaiPDF团队版如何为企业提供全方位的PDF文档安
 pubDate: "May 29 2025"
 heroImage: "/maifle/maipdf整体功能页面.png"
 tags: ["企业安全", "多人共享", "文档管理", "权限控制", "使用统计"]
+noindex: true
 ---
-
 # 企业文档安全管理：MaiPDF团队版功能详解
 
 <div class="intro-panel">

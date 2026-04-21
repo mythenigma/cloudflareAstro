@@ -4,8 +4,8 @@ description: "发现最佳免费PDF工具，用于简单编辑、转换、合并
 pubDate: "May 15 2025"
 heroImage: "/maipdf-images/pdf_native_view_on_ui.png"
 tags: ["免费PDF工具", "PDF编辑", "PDF转换", "在线PDF", "文档管理"]
+noindex: true
 ---
-
 # 使用这些10个PDF免费工具提高生产力
 
 <div class="intro-panel">

@@ -4,8 +4,8 @@ description: "专为设计师打造的作品集分享解决方案，MaiPDF让你
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/展示PDF列子.png"
 tags: ["设计师求职", "作品集分享", "PDF展示", "面试工具"]
+noindex: true
 ---
-
 # 设计师求职神器：作品集PDF一键生成专属链接和二维码
 
 <div class="intro-panel">

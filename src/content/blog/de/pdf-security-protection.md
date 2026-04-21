@@ -12,6 +12,7 @@ tags:
   - Sicherheitsschutz
   - PDF-Schutz
   - Dokumentsicherheit
+noindex: true
 ---
 
 # PDF-Sicherheitsschutz: Vollständiger Leitfaden zum Dokumentschutz

@@ -11,6 +11,7 @@ tags:
   - PDF in WeChat
   - WeChat-Dateiteilen
   - PDF-Teilung
+noindex: true
 ---
 
 # WeChat PDF-Teilung: PDFs in WeChat Teilen

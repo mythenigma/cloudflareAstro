@@ -14,6 +14,7 @@ tags:
   - Digital Rights Management
   - Unternehmenssicherheit
   - Dokumentverschlüsselung
+noindex: true
 ---
 
 # Wie Man DRM-Digitalzertifikate zu Dateien Hinzufügt: Unternehmens-Grade-Dateischutzlösung

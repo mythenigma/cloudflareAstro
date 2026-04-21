@@ -10,6 +10,7 @@ tags:
   - Workflow
   - MaiPDF
 heroImage: /maipdf2026/user_control_panel_alotof_functions.png
+noindex: true
 ---
 
 Viele Teams teilen ein PDF, merken später „Wir müssen noch etwas korrigieren“ – und schicken dann einen **neuen** Link herum. Das erzeugt schnell Chaos.

@@ -3,8 +3,8 @@ title: "PDF访问次数限制设置教程：精确控制文档查看权限"
 description: "详细介绍如何为PDF文档设置访问次数限制，包括不同场景的配置策略、实际应用案例和管理技巧。"
 pubDate: "June 02 2025"
 heroImage: "/maifle/setting_example.png"
+noindex: true
 ---
-
 # PDF访问次数限制设置教程：精确控制文档查看权限
 
 

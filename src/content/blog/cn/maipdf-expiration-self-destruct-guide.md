@@ -4,8 +4,8 @@ description: "了解MaiPDF的到期自毁功能，通过设置查看次数限制
 pubDate: "Aug 22 2025"
 heroImage: "/cn2025May/setting_example.png"
 tags: ["PDF到期自毁", "查看次数限制", "自动失效", "文档保护", "MaiPDF"]
+noindex: true
 ---
-
 # MaiPDF到期自毁设置指南：如何通过查看次数实现PDF文档的自动失效
 
 

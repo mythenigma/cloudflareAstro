@@ -4,8 +4,8 @@ description: "教培行业如何安全分享PDF课件，防止内容外泄与被
 pubDate: "2025-06-05"
 tags: ["PDF安全分享", "教育培训", "内容保护", "权限控制"]
 heroImage: "/maifle/maipdf整体功能页面.png"
+noindex: true
 ---
-
 # 培训资料怎么发才安全？别再把PDF随便甩群里了
 
 <div style="background: linear-gradient(90deg, #e0e7ff 0%, #f0fdfa 100%); padding: 2rem 1.5rem; border-radius: 1.5rem; margin-bottom: 2rem;">

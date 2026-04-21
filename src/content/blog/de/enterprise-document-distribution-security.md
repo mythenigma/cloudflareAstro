@@ -11,6 +11,7 @@ tags:
   - Sicherheit
   - Workflow
 heroImage: /maipdf2026/user_control_panel_alotof_functions.png
+noindex: true
 ---
 
 # Enterprise-Dokumentverteilung: Ein praxistauglicher Security-Workflow

@@ -11,6 +11,7 @@ tags:
   - Temporärer Link
   - Zugriffskontrolle
   - Keine Registrierung
+noindex: true
 ---
 
 # PDF Temporäres Freigabe-Link-Tool

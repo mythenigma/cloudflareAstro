@@ -11,6 +11,7 @@ tags:
   - Links
   - Sharing
 heroImage: /maipdf2026/show_off/shareandsend.png
+noindex: true
 ---
 
 # PDFs in Teilbare Links Konvertieren: Vollständiger Leitfaden

@@ -13,6 +13,7 @@ tags:
   - Inhaltsschutz
   - Dokumentsicherheit
   - PDF-Schutz
+noindex: true
 ---
 
 # PDF Online Viewer Kopieren Verhindern: Dokumenteninhalt vor Kopieren Schützen

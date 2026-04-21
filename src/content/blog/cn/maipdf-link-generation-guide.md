@@ -4,8 +4,8 @@ description: "学习如何使用MaiPDF将PDF文档生成分享链接，支持大
 pubDate: "Aug 22 2025"
 heroImage: "/cn2025May/maipdf_link_result.png"
 tags: ["PDF链接", "文档分享", "文件上传", "访问控制", "MaiPDF"]
+noindex: true
 ---
-
 # MaiPDF链接生成教程：一键创建PDF分享链接，轻松分享文档
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin-bottom: 2rem;">

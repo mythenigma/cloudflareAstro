@@ -4,8 +4,8 @@ description: "学习如何通过PDF加密技术防止文档被转发。了解密
 pubDate: "Dec 19 2025"
 heroImage: "/2025MayMaiPDF/settings_in_cloudshare.png"
 tags: ["PDF加密", "防止转发", "文档安全", "密码保护", "访问控制"]
+noindex: true
 ---
-
 # PDF加密防止转发：全面保护文档安全的完整指南
 
 <div class="intro-panel">

@@ -10,6 +10,7 @@ tags:
   - Ablaufdatum
   - Dokumentenfreigabe
 heroImage: /maipdf2026/show_off/openlimit.png
+noindex: true
 ---
 
 # View-Limits und Ablaufdatum: einfache Controls gegen Oversharing

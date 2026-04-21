@@ -4,8 +4,8 @@ description: "MaiPDF提供创新的PDF分享方式，让您能像分享网页链
 pubDate: "Jan 17 2026"
 heroImage: "/maifle/maipdf整体功能页面.png"
 tags: ["PDF分享", "访问控制", "阅读限制", "文件安全", "在线预览"]
+noindex: true
 ---
-
 # MaiPDF：像分享网页一样分享PDF，还能控制访问次数和时长
 
 <div class="intro-panel">

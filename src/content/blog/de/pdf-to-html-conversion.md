@@ -10,6 +10,7 @@ tags:
   - HTML-Konvertierung
   - PDF-Konvertierung
   - Web-Integration
+noindex: true
 ---
 
 # PDF zu HTML Konvertierung: Vollständiger Leitfaden

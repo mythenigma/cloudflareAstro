@@ -4,8 +4,8 @@ description: "探索二维码如何重塑数字内容分发方式。了解二维
 pubDate: "Jan 16 2026"
 heroImage: "/maipdf-images/result_of_pdf_link_and_qr_code.png"
 tags: ["二维码", "数字分发", "内容分享", "移动访问", "未来趋势"]
+noindex: true
 ---
-
 # 二维码在数字分发中的未来：趋势、应用与最佳实践
 
 <div class="intro-panel">

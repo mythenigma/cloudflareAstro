@@ -3,8 +3,8 @@ title: "3分钟学会：如何将PDF文件转换成可分享的链接"
 description: "详细教程：使用MaiPDF快速将PDF文件生成可分享的链接，支持在线预览，无需下载即可查看文档内容。"
 pubDate: "June 02 2025"
 heroImage: "/maifle/maipdf_link_result.png"
+noindex: true
 ---
-
 # 3分钟学会：如何将PDF文件转换成可分享的链接
 
 

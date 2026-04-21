@@ -5,8 +5,8 @@ pubDate: May 1, 2025
 author: "MaiPDF Team"
 image: "/images/blog/document-security.jpg"
 tags: ["文档安全", "PDF管理", "权限控制", "企业安全", "数据保护"]
+noindex: true
 ---
-
 # 企业文档安全不可忽视：MaiPDF 精准权限管理实践指南
 
 

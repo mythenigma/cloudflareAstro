@@ -4,8 +4,8 @@ description: "用清洁的PDF链接替换大型邮件附件。绕过大小限制
 pubDate: "Jul 03 2025"
 heroImage: "/maifle/home.png"
 tags: ["邮件附件", "PDF链接", "邮件送达", "专业通信"]
+noindex: true
 ---
-
 # 邮件PDF链接替代附件：更快速更专业的文档分享
 
 
