@@ -7,6 +7,7 @@ description: >-
   présente les fonctionnalités principales, méthodes d'utilisation et scénarios
   d'application de MaiPDF à travers des diagrammes clairs et des organigrammes.
 pubDate: Dec 05 2025
+noindex: true
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
 tags:
   - MaiPDF

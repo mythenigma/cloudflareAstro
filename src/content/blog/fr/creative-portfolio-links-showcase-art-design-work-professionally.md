@@ -7,6 +7,7 @@ description: >-
   professionally, avec un schéma.
 pubDate: Jan 15 2026
 heroImage: /maiimg/static-images/common/show/english-portfolio-preview.svg
+noindex: true
 ---
 
 <!-- Auto-generated from GSC 404 export on 2026-01-15. -->

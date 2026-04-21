@@ -11,6 +11,7 @@ tags:
   - Compartir Seguro
   - Opciones
 heroImage: /maipdf2026/show_off/securityshowoff.png
+noindex: true
 ---
 
 # Opciones de Compartir PDF Seguro: Guía Completa de Seguridad

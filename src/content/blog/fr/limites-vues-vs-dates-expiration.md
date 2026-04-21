@@ -4,6 +4,7 @@ description: "Découvrez pourquoi limiter le nombre de vues d'un PDF offre une a
 pubDate: "Apr 23 2025"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Sécurité PDF", "DRM", "Limites de vues", "Partage de documents"]
+noindex: true
 ---
 
 # 🔄 La différence : Limites de vues vs. Dates d'expiration

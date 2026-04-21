@@ -11,6 +11,7 @@ tags:
   - WeChat
   - Partage
   - Sécurité
+noindex: true
 ---
 
 # Partage de PDF sur WeChat : Guide Complet avec MaiPDF

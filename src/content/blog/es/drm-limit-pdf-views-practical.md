@@ -10,6 +10,7 @@ tags:
   - DRM
   - Límites de Visualización
   - Compartir Documentos
+noindex: true
 ---
 
 En una era de rápida distribución digital, controlar el acceso a los documentos se ha vuelto cada vez más importante. Ya sea que comparta informes corporativos confidenciales, material educativo o comunicación interna, a menudo no es suficiente simplemente evitar la descarga o copia; a veces, también necesita controlar cuántas veces se puede abrir un documento.

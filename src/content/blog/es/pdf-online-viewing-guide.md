@@ -4,6 +4,7 @@ description: "Aprenda cómo ver documentos PDF en línea sin necesidad de descar
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Visualización", "Navegador", "Móvil"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # Guía de Visualización de PDF en Línea: Ver PDFs Sin Descargar

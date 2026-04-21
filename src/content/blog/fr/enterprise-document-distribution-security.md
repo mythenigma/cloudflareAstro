@@ -11,6 +11,7 @@ tags:
   - Sécurité
   - Workflow
 heroImage: /maipdf2026/user_control_panel_alotof_functions.png
+noindex: true
 ---
 
 # Distribution de documents en entreprise : un workflow de sécurité pratique

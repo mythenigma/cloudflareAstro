@@ -5,6 +5,7 @@ description: >-
   complexe ni outils coûteux. Prenez le contrôle du partage de vos documents
   avec des mesures de sécurité simples mais puissantes.
 pubDate: Jan 17 2026
+noindex: true
 heroImage: /maipdf2026/flowchart/en-security-layers.svg
 tags:
   - Sécurité PDF

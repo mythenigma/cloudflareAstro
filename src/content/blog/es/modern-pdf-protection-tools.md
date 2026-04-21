@@ -10,6 +10,7 @@ tags:
   - Protección de Documentos
   - Gestión de Derechos Digitales
   - Cifrado
+noindex: true
 ---
 
 # 🔐 Herramientas Modernas de Protección de PDF: Más Allá de la Cifrado

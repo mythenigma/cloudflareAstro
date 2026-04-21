@@ -11,6 +11,7 @@ tags:
   - Compartir Instantáneo
   - Carga Rápida
   - Compartir Documentos
+noindex: true
 ---
 
 # Generación Instantánea de Enlaces PDF: Compartir Documentos en Segundos

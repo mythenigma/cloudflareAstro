@@ -10,6 +10,7 @@ tags:
   - Marca de Agua
   - Protección
 heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+noindex: true
 ---
 
 # Materiales de Marketing con Marca de Agua Dinámica: Guía Completa

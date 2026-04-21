@@ -10,6 +10,7 @@ tags:
   - Enlaces
   - Generación
 heroImage: /maipdf2026/Result_of_qr_link.png
+noindex: true
 ---
 
 # Guía de Generación Instantánea de Enlaces MaiPDF

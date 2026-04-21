@@ -11,6 +11,7 @@ tags:
   - Inteligencia
   - Protección
 heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+noindex: true
 ---
 
 # Inteligencia de Marca de Agua: Protección Avanzada

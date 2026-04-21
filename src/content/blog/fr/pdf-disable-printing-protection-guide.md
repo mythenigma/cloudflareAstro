@@ -2,6 +2,7 @@
 title: 'Guide rapide : PDF Disable Printing Protection Guide'
 description: 'Un article court sur pdf disable printing protection guide, avec un schéma.'
 pubDate: Jan 15 2026
+noindex: true
 tags:
   - PDF
 heroImage: /maipdf2026/show_off/pdf icon of no printing no downloading.png

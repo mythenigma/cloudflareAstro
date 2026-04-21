@@ -11,6 +11,7 @@ tags:
   - compartir seguro
   - límites de visualización
   - protección creativa
+noindex: true
 ---
 
 # Envía archivos de feedback de diseño con límites de visualización

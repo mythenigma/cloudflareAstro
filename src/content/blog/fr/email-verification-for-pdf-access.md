@@ -10,6 +10,7 @@ tags:
   - Vérification e-mail
   - Guide visuel
 heroImage: /maipdf2026/show_off/email verification_only sepcified people can receive.png
+noindex: true
 ---
 
 # Vérification par e-mail pour l’accès à un PDF (flux rapide)

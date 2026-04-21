@@ -4,6 +4,7 @@ description: "Descubra por qué limitar el número de vistas de PDF ofrece una a
 pubDate: "Apr 23 2025"
 heroImage: "/maipdf-images/security_setting.png"
 tags: ["Seguridad PDF", "DRM", "Límites de vistas", "Compartir documentos"]
+noindex: true
 ---
 
 # 🔄 La diferencia: Límites de vistas vs. Fechas de vencimiento

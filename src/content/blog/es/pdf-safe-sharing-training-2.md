@@ -10,6 +10,7 @@ tags:
   - Entrenamiento
   - Mejores Prácticas
 heroImage: /maipdf2026/user_control_panel_alotof_functions.png
+noindex: true
 ---
 
 # Entrenamiento de Compartir PDF Seguro 2: Guía Completa

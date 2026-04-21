@@ -4,6 +4,7 @@ description: "Descubra cómo compartir PDFs en línea de forma gratuita y segura
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Gratis", "Seguro", "Herramienta"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # Compartir PDF en Línea Gratis y Seguro: Herramienta Completa

@@ -10,6 +10,7 @@ tags:
   - Compartir
   - Principiantes
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 # Compartir PDF Fácilmente: Guía Simple para Principiantes

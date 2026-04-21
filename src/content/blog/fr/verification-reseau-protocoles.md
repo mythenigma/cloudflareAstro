@@ -3,6 +3,7 @@ title: "Protocoles de Vérification Réseau : Guide Complet"
 description: "Comprenez comment les protocoles de vérification réseau fonctionnent dans MaiPDF pour sécuriser l'accès aux documents PDF, avec authentification initiale et contrôle d'accès."
 pubDate: "Jan 17 2026"
 tags: ["Sécurité", "Protocoles", "Vérification", "Contrôle d'Accès"]
+noindex: true
 ---
 
 # Protocoles de Vérification Réseau : Guide Complet

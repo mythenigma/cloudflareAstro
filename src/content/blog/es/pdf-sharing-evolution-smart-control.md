@@ -11,6 +11,7 @@ tags:
   - Control Inteligente
   - Compartir
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 # Evolución del Compartir PDF: Control Inteligente

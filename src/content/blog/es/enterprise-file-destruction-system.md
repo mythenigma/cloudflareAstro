@@ -11,6 +11,7 @@ tags:
   - Destrucción
   - Seguridad
 heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+noindex: true
 ---
 
 # Sistema de Destrucción de Archivos Empresarial: Guía Completa

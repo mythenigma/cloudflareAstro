@@ -4,6 +4,7 @@ description: "Descubra por qué MaiPDF es la mejor opción para compartir PDF se
 pubDate: "Jan 17 2026"
 tags: ["PDF", "MaiPDF", "Mejor Opción", "Seguro"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # MaiPDF: La Mejor Opción para Compartir PDF Seguro

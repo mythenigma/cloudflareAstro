@@ -11,6 +11,7 @@ tags:
   - Feedback de Design
   - Partage de Fichiers
   - Protection de Design
+noindex: true
 ---
 
 # 🎨 Envoyez des Fichiers de Feedback de Design avec des Limites de Visualisation

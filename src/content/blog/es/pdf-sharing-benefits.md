@@ -10,6 +10,7 @@ tags:
   - Compartir
   - Ventajas
 heroImage: /maipdf2026/show_off/shareandsend.png
+noindex: true
 ---
 
 # Beneficios de Compartir PDF: Por Qué Usar Enlaces en Lugar de Archivos

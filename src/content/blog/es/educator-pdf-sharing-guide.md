@@ -11,6 +11,7 @@ tags:
   - Educadores
   - Compartir
 heroImage: /maipdf2026/en-upload-screenshot.png
+noindex: true
 ---
 
 # Guía para Educadores: Compartir PDF

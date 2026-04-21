@@ -13,6 +13,7 @@ tags:
   - remplacement pièces jointes
   - communication d'entreprise
   - partage professionnel
+noindex: true
 ---
 
 # Remplacement des pièces jointes par email : partage PDF moderne pour les entreprises

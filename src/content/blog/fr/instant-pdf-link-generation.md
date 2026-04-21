@@ -9,6 +9,7 @@ tags:
   - pdf
   - link
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 Si ton objectif est simple — **un lien PDF à partager** — garde le processus court.

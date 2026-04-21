@@ -3,6 +3,7 @@ title: "Prevención de Descargas de PDF"
 description: "Aprenda cómo proteger sus archivos PDF evitando descargas no autorizadas."
 pubDate: "Jan 17 2026"
 heroImage: "/maipdf-images/pdf icon of no printing no downloading.png"
+noindex: true
 ---
 
 # 🔒 Prevención de Descargas de PDF: Asegure sus Documentos

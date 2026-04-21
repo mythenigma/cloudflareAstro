@@ -11,6 +11,7 @@ tags:
   - Enlace Temporal
   - Control de Acceso
   - Sin Registro
+noindex: true
 ---
 
 # Herramienta de Enlace de Compartir Temporal PDF

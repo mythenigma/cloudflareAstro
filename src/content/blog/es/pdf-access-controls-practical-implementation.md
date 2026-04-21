@@ -12,6 +12,7 @@ tags:
   - Protección de Documentos
   - Límites de Visualización
   - Expiración de Documentos
+noindex: true
 ---
 
 # 🔒 Controles de Acceso PDF: Implementación Práctica para Seguridad de Documentos

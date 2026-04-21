@@ -11,6 +11,7 @@ tags:
   - Límites
   - Protección
 heroImage: /maipdf2026/how_to_control_panel.png
+noindex: true
 ---
 
 # Control de Acceso PDF con Límites de Visualización: Guía Completa

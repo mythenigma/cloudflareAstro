@@ -10,6 +10,7 @@ tags:
   - Guía
   - Principiantes
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 # Introducción al Compartir PDF: Guía Completa para Principiantes

@@ -11,6 +11,7 @@ tags:
   - Compartir Documentos
   - Límites de Visualización
   - Protección de Contenido
+noindex: true
 ---
 
 Compartir un PDF en línea es fácil. ¿Controlar cuántas veces puede ser visto? Ese es el desafío.

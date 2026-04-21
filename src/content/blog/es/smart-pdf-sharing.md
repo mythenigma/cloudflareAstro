@@ -10,6 +10,7 @@ tags:
   - Compartir PDF
   - Compartir Documentos
   - Soluciones Modernas
+noindex: true
 ---
 
 # Compartir PDF Inteligente: Solución Moderna de Compartir Documentos

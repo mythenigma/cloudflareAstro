@@ -11,6 +11,7 @@ tags:
   - conversión de documento
   - generación de URL
   - compartir archivos
+noindex: true
 ---
 
 # Convertir PDF en Enlace: Transformar Documentos en URLs Compartibles

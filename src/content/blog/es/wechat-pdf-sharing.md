@@ -10,6 +10,7 @@ tags:
   - PDF en WeChat
   - Compartir Archivos en WeChat
   - Compartir PDF
+noindex: true
 ---
 
 # Compartir PDF en WeChat: Compartir PDFs en WeChat

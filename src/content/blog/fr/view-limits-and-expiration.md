@@ -10,6 +10,7 @@ tags:
   - Expiration
   - Partage de documents
 heroImage: /maipdf2026/show_off/openlimit.png
+noindex: true
 ---
 
 # Limites de vues et expiration : deux contrôles simples contre le sur-partage

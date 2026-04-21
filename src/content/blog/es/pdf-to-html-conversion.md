@@ -10,6 +10,7 @@ tags:
   - Conversión
   - Web
 heroImage: /maipdf2026/pdf native view on ui.png
+noindex: true
 ---
 
 # Conversión de PDF a HTML: Guía Completa

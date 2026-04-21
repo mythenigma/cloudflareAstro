@@ -2,6 +2,7 @@
 title: Réglages de partage PDF (écran d’envoi MaiPDF)
 description: Explication simple de chaque réglage visible sur l’écran d’envoi.
 pubDate: Jan 15 2026
+noindex: true
 tags:
   - Sécurité documentaire
   - Architecture

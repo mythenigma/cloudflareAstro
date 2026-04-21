@@ -11,6 +11,7 @@ tags:
   - MaiPDF
   - Compartir Documentos
   - Soluciones Modernas
+noindex: true
 ---
 
 # Revolución del Compartir PDF: Cómo MaiPDF Cambia el Compartir Documentos

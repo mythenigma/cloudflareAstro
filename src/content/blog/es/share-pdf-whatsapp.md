@@ -11,6 +11,7 @@ tags:
   - WhatsApp
   - Compartir
   - Móvil
+noindex: true
 ---
 
 # Compartir PDF en WhatsApp: Usar Enlaces en Lugar de Archivos

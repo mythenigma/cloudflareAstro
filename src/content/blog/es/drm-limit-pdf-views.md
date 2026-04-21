@@ -11,6 +11,7 @@ tags:
   - DRM
   - Límites de Visualización
   - Compartir Documentos
+noindex: true
 ---
 
 La Gestión de Derechos Digitales (DRM) es una tecnología crucial para proteger contenido digital. Cuando se trata de documentos—especialmente PDFs—el DRM se utiliza frecuentemente para prevenir la copia, impresión o redistribución no autorizada. Pero más allá de estos controles típicos, un caso de uso avanzado es limitar cuántas veces se puede abrir un PDF, lo que a menudo se denomina "limitación de recuento de visualizaciones de PDF".

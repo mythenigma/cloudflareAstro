@@ -11,6 +11,7 @@ tags:
   - WhatsApp
   - Partage
   - Mobile
+noindex: true
 ---
 
 # Partager des PDF sur WhatsApp : Utiliser des Liens au Lieu de Fichiers

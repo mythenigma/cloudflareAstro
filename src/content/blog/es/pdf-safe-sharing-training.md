@@ -12,6 +12,7 @@ tags:
   - protección de contenido
   - control de permisos
 heroImage: /maipdf2026/page_redirect_to_accessRecord.png
+noindex: true
 ---
 
 # ¿Cómo compartir materiales de formación de forma segura? ¡No envíes PDFs sin control!

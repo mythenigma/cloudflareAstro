@@ -4,6 +4,7 @@ description: "Aprenda cómo hacer PDFs navegables online. Guía completa sobre h
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Online", "Navegable", "Navegador"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # Cómo Hacer PDF Navegable Online: Guía Completa

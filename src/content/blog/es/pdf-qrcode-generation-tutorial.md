@@ -11,6 +11,7 @@ tags:
   - Tutorial
   - Compartir
 heroImage: /maipdf2026/Result_of_qr_link.png
+noindex: true
 ---
 
 # Tutorial de Generación de Código QR para PDF: Guía Completa

@@ -14,6 +14,7 @@ tags:
   - Rapports de santé
   - Partage familial
   - Adapté aux seniors
+noindex: true
 ---
 
 Le partage familial peut être simple, même lorsque les fichiers médicaux sont volumineux et que vos parents ne veulent pas d'une autre application. Avec un seul code QR, vous pouvez envoyer un rapport de santé complet qui s'ouvre instantanément dans n'importe quel navigateur, s'adapte parfaitement à l'écran d'un téléphone et n'encombre jamais leur stockage. Voici un guide pratique qui traite vos parents comme des personnes intelligentes et indépendantes qui préfèrent simplement moins d'étapes.

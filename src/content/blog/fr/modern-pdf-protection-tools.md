@@ -10,6 +10,7 @@ tags:
   - Protection des Documents
   - Gestion des Droits Numériques
   - Chiffrement
+noindex: true
 ---
 
 # 🔐 Outils Modernes de Protection des PDF : Au-Delà du Chiffrement

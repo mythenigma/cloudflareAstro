@@ -9,6 +9,7 @@ tags:
   - pdf
   - sharing
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 Partager un PDF ne devrait pas créer dix versions différentes dans des boîtes mail. Une approche plus simple est de **partager un lien**.

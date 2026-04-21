@@ -10,6 +10,7 @@ tags:
   - Enlaces
   - Compartir
 heroImage: /maipdf2026/show_off/shareandsend.png
+noindex: true
 ---
 
 # Convertir PDFs a Enlaces Compartibles: Guía Completa

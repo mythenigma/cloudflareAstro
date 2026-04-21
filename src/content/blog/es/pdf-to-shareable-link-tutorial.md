@@ -11,6 +11,7 @@ tags:
   - Tutorial
   - Enlaces
   - Compartir
+noindex: true
 ---
 
 # Tutorial: Convertir PDF en Enlace Compartible en 3 Pasos

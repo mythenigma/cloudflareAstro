@@ -11,6 +11,7 @@ tags:
   - Online
   - Visualización
 heroImage: /maipdf2026/pdf native view on ui.png
+noindex: true
 ---
 
 # Vista Previa de PDF en Línea: Ver PDFs Sin Descargar

@@ -10,6 +10,7 @@ tags:
   - Control
   - Gestión
 heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+noindex: true
 ---
 
 # Control de Enlaces PDF: Gestión y Protección de Enlaces

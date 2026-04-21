@@ -10,6 +10,7 @@ tags:
   - Límites
   - Seguridad
 heroImage: /maipdf2026/MaiPDF_settings_expiration_telegram.png
+noindex: true
 ---
 
 # Control de Acceso PDF: Límites de Visualización

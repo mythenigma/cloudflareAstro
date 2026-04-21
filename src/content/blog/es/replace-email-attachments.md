@@ -11,6 +11,7 @@ tags:
   - Email
   - Empresas
   - Compartir
+noindex: true
 ---
 
 # Reemplazar Adjuntos de Email: Compartir PDF Moderno para Empresas

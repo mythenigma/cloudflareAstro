@@ -11,6 +11,7 @@ tags:
   - Partage de Documents
   - Limites de Vues
   - Protection de Contenu
+noindex: true
 ---
 
 Partager un PDF en ligne est facile. Contrôler combien de fois il peut être consulté ? C'est là le défi.

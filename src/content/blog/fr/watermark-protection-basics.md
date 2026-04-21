@@ -10,6 +10,7 @@ tags:
   - Prévention des fuites
   - Traçabilité
 heroImage: /maipdf2026/dynamic_water_mark_example.jpg
+noindex: true
 ---
 
 # Bases du filigrane : dissuader les fuites et retracer le partage

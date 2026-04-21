@@ -11,6 +11,7 @@ tags:
   - Seguridad
   - Gestión
 heroImage: /maipdf2026/how_to_control_panel.png
+noindex: true
 ---
 
 # Control Seguro de PDF: Gestión y Protección de Documentos

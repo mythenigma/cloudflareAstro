@@ -10,6 +10,7 @@ tags:
   - Compartir PDF Gratis
   - Herramientas Gratuitas
   - Compartir Documentos
+noindex: true
 ---
 
 # Compartir PDF Sin Costo: Compartir Documentos Gratis

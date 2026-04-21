@@ -11,6 +11,7 @@ tags:
   - Control de Descarga
   - Enlaces Seguros
   - Carga Rápida
+noindex: true
 ---
 
 # Compartir PDF Rápido: Generar Enlaces Seguros con Control de Descarga

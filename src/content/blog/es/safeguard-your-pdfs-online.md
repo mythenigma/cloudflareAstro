@@ -11,6 +11,7 @@ tags:
   - Protección de Documentos
   - Compartición de Archivos
   - Control de Información
+noindex: true
 ---
 
 # 🛡️ Protege tus PDFs en línea—Controla quién visualiza, comparte o edita tus documentos

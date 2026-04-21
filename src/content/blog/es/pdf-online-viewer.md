@@ -10,6 +10,7 @@ tags:
   - Navegador
   - Online
 heroImage: /maipdf2026/pdf native view on ui.png
+noindex: true
 ---
 
 # Visor de PDF en Línea: Ver Documentos en el Navegador

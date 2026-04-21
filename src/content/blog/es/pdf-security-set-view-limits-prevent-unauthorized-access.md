@@ -13,6 +13,7 @@ tags:
   - Límites
   - Protección
 heroImage: /maipdf2026/show_off/openlimit.png
+noindex: true
 ---
 
 # Seguridad PDF: Establecer Límites de Visualización para Prevenir Acceso No Autorizado

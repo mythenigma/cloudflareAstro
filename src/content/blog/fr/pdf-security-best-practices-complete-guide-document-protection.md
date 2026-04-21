@@ -10,6 +10,7 @@ tags:
   - partage
   - MaiPDF
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 La plupart des fuites viennent de **copies incontrôlées** (pièces jointes, re-partage) et de l’absence de **traçabilité**.

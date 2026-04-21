@@ -13,6 +13,7 @@ tags:
   - liens PDF
   - livraison email
   - communication professionnelle
+noindex: true
 ---
 
 # Envoyez des Liens PDF au Lieu de Pièces Jointes : Plus Rapide et Plus Professionnel

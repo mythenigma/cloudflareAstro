@@ -10,6 +10,7 @@ tags:
   - Compartir
   - MaiPDF
 heroImage: /maipdf2026/Maipdf_LANDING_PAGE.png
+noindex: true
 ---
 
 La seguridad de un PDF compartido suele fallar por dos cosas: **copias descontroladas** y **falta de trazabilidad**.

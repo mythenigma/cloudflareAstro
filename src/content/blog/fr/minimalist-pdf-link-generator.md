@@ -10,6 +10,7 @@ tags:
   - générateur de liens PDF
   - partage PDF sécurisé
   - maipdf
+noindex: true
 ---
 
 # Un générateur de liens PDF minimaliste

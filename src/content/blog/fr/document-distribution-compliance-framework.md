@@ -9,6 +9,7 @@ tags:
   - Contrôle d'accès
   - Gouvernance
 heroImage: /maipdf2026/page_redirect_to_accessRecord.png
+noindex: true
 ---
 
 # Conformité de la distribution de documents : une checklist vraiment utile

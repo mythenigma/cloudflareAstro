@@ -4,6 +4,7 @@ description: "Aprenda cómo generar enlaces PDF que funcionen en cualquier dispo
 pubDate: "Jan 17 2026"
 tags: ["PDF", "Enlaces", "Multi-Dispositivo", "Compatibilidad"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # Generar Enlaces PDF que Funcionen en Cualquier Dispositivo

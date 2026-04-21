@@ -12,6 +12,7 @@ tags:
   - Protección de Seguridad
   - Protección PDF
   - Seguridad de Documentos
+noindex: true
 ---
 
 # Protección de Seguridad PDF: Guía Completa de Protección de Documentos

@@ -4,6 +4,7 @@ description: "Découvrez les meilleures pratiques pour sécuriser la distributio
 pubDate: "Jan 17 2026"
 tags: ["Entreprise", "Sécurité", "Documents", "Conformité"]
 heroImage: "/diagram/en/features-overview.svg"
+noindex: true
 ---
 
 # Sécurité Documentaire Entreprise : Guide Complet

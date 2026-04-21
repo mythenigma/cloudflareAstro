@@ -11,6 +11,7 @@ tags:
   - Control de Documentos
   - Límites de Vista
   - Gestión de Acceso
+noindex: true
 ---
 
 # 🔢 Comparte de forma inteligente: Limita el acceso a PDF por número de vistas, no por fecha de caducidad

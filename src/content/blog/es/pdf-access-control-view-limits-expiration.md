@@ -12,6 +12,7 @@ tags:
   - Expiración
   - Protección de Documentos
   - Protección PDF
+noindex: true
 ---
 
 # Control de Acceso PDF: Límites de Visualización y Expiración - Guía Completa

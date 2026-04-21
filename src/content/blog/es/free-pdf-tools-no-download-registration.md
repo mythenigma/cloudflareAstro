@@ -3,6 +3,7 @@ title: "Herramientas gratis para compartir PDFs (sin descargas ni registro)"
 description: "Un flujo simple para compartir un PDF por enlace: subir → (opcional) configurar acceso → generar enlace/QR → compartir → actualizar con “Replace File” sin cambiar el enlace."
 pubDate: "Jan 26 2026"
 tags: ["PDF", "Compartir", "Enlace", "MaiPDF"]
+noindex: true
 ---
 
 Enviar PDFs como adjuntos crea copias por todas partes. Una opción más limpia es **compartir un enlace**.

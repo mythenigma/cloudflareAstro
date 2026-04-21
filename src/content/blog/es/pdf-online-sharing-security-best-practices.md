@@ -11,6 +11,7 @@ tags:
   - Mejores Prácticas
   - Protección
 heroImage: /maipdf2026/choose_online_for_sharing_online.png
+noindex: true
 ---
 
 # Mejores Prácticas de Seguridad para Compartir PDF en Línea
