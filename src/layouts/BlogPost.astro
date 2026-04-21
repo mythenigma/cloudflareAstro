@@ -339,16 +339,22 @@ const buttonText = isMaiimg
     color: #374151;
     vertical-align: top;
     white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   article tbody tr:last-child td { border-bottom: none; }
 
+  /* First column is styled (bold, darker) but NOT width-locked. Forcing
+     width:30% + min-width:8rem caused the first column to hog space and
+     squeeze shorter columns into 2–3 word-wide accordions. Let table-layout
+     auto distribute widths based on actual content — any column, including
+     the first, wraps to multiple lines when it's the long one. */
   article tbody td:first-child {
     font-weight: 600;
     color: #1e293b;
     white-space: normal;
-    min-width: 8rem;
-    width: 30%;
   }
 
   article img {
@@ -672,35 +678,48 @@ const buttonText = isMaiimg
       gap: 1rem !important;
     }
 
+    /* Mobile tables: let the browser flexibly distribute column widths based
+       on content. The root cause of cells like "buffer" breaking into
+       "buffe / r" was table-layout:fixed (locked equal columns) + width
+       overrides from desktop + overflow-wrap:anywhere (mid-word breaks).
+       Fix: auto layout, no forced widths, no aggressive breaking — whichever
+       column genuinely needs more lines gets more lines, automatically. */
     .content-wrapper table {
       display: table;
+      table-layout: auto;
       width: 100%;
+      max-width: 100%;
       margin: 1rem 0;
-      table-layout: fixed;
       font-size: 0.82rem;
       border-radius: 10px;
     }
 
     .content-wrapper thead th {
-      padding: 0.6rem 0.65rem;
+      padding: 0.55rem 0.6rem;
       font-size: 0.74rem;
       line-height: 1.35;
       letter-spacing: 0.01em;
       text-transform: none;
       white-space: normal;
-      word-break: break-word;
-      overflow-wrap: anywhere;
+      word-break: normal;
+      overflow-wrap: break-word;
+      hyphens: auto;
     }
 
     .content-wrapper tbody td {
-      padding: 0.58rem 0.65rem;
-      line-height: 1.4;
+      padding: 0.55rem 0.6rem;
+      line-height: 1.45;
       white-space: normal;
-      word-break: break-word;
-      overflow-wrap: anywhere;
+      word-break: normal;
+      overflow-wrap: break-word;
+      hyphens: auto;
     }
 
+    /* Don't lock the first column to a wider share — let it flex like the
+       others so it can wrap when it's the long one, or stay compact when
+       another column is. */
     .content-wrapper tbody td:first-child {
+      width: auto;
       min-width: 0;
       white-space: normal;
     }
