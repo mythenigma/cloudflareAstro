@@ -5,23 +5,23 @@ pubDate: "Jan 15 2026"
 tags: ["Offline PDF", "Online Sharing", "PDF DRM", "PDF Security"]
 ---
 
-# Offline vs Online PDF Sharing: A Quick Choice Guide
+# Locked HTML vs. Online PDF Sharing: A Quick Choice Guide
 
 <div class="intro-panel">
-  <p>Pick online for real-time control and tracking. Pick offline for a self-contained package that doesn’t depend on a network.</p>
+  <p>Pick online when you want a link with live updates and analytics. Pick a locked HTML package when you want the file itself in the recipient's hands — both still need internet to enforce rules.</p>
 </div>
 
-![Offline vs online PDF comparison](/diagram/en/offline-vs-online-pdf-comparison.svg)
+![File-vs-link PDF comparison](/diagram/en/offline-vs-online-pdf-comparison.svg)
 
 ## Choose online when you need
 
-- View limits, expiration, verification
-- Access logs and analytics
-- Instant changes (disable/update anytime)
+- View limits, expiry, identity verification
+- Detailed per-open analytics
+- The ability to swap the underlying file without re-sending
 
-## Choose offline when you need
+## Choose a locked HTML package when you need
 
-- A single file to distribute
-- No dependency on internet access
-- Controlled environments (training rooms, restricted devices)
+- A single self-contained file to hand over (USB, attachment, internal share)
+- Sender-side control that persists after the file is delivered
+- Predictable browser-based reading on the recipient's own device (with internet at open time)
 

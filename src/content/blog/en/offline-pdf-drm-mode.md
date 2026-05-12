@@ -3,28 +3,28 @@ title: "MaiPDF Offline PDF DRM Mode: Secure Document Control in Offline Environm
 description: "Learn about MaiPDF's offline DRM functionality that allows controlling PDF access permissions, viewing duration, and print/copy operations in offline environments without specialized readers."
 pubDate: "Apr 3 2026"
 updatedDate: "Apr 3 2026"
-heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
-tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
+heroImage: "/maipdf2026/offline/offlinedrm.png"
+tags: ["PDF Security", "Document DRM", "Secure Share", "MaiPDF"]
 ---
 
-# MaiPDF Offline PDF DRM Mode: Secure Document Control in Offline Environments
+# MaiPDF Secure Share (DRM Mode): Locked PDF Packages You Can Send
 
 <div class="intro-panel">
-  <p>In scenarios requiring strict document access control without guaranteed network connectivity, MaiPDF's "Offline PDF DRM" mode provides users with a complete offline document security solution. This article details all publicly available information about this feature, helping you understand how to protect important PDF documents in offline environments.</p>
+  <p>MaiPDF Secure Share — hosted on <a href="https://drm.maipdf.com/">drm.maipdf.com</a> — turns a PDF into a single self-contained HTML file with AES-256-GCM encryption, per-page watermarks, view-count limits, and expiry. The reader double-clicks the HTML; their browser contacts the server once to check the license is still valid; the PDF then renders inside the page. This article describes what the product actually does, and what it does not do.</p>
 </div>
 
 
-![View Limit Access Control Decision Flow](/maipdf2026/flowchart/en-access-control-decision.svg)
+![MaiPDF Secure Share — DRM for PDFs](/maipdf2026/offline/offlinedrm.png)
 
 ## 1️⃣ Core Definition
 
 <div class="feature-section">
   <div class="feature-content">
-    <p><strong>Offline Readable:</strong> Converts original PDFs into standalone HTML packages that can be opened on a local machine. As long as the local browser supports HTML5/JavaScript, it can be read offline.</p>
-    <p><strong>Embedded DRM:</strong> HTML has built-in scripts that perform permission checks locally (view count, expiration date, etc.) and record reading logs, similar to Adobe DRM or Locklizard PDC, but without requiring specialized readers.</p>
+    <p><strong>Self-contained HTML output:</strong> The site bundles an encrypted PDF plus a viewer into one HTML file. Recipients open it in any modern browser — no app, no plugin.</p>
+    <p><strong>Server-checked license:</strong> Opening the file makes a single online call to <code>drm.maipdf.com</code> to verify that the license is still active and within its open-count and expiry rules. Without that handshake, the file remains encrypted ciphertext. There is no purely-local decryption mode.</p>
   </div>
   <div class="feature-image">
-    <img src="/offlinepages/security_setting.png" alt="MaiPDF security settings interface" class="medium">
+    <img src="/maipdf2026/offline/inststruct.png" alt="How to use MaiPDF Secure Share" class="medium">
   </div>
 </div>
 
@@ -35,138 +35,143 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
     <thead>
       <tr>
         <th>Feature Dimension</th>
-        <th>Offline DRM Capability</th>
+        <th>Secure Share Capability</th>
         <th>Notes</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Reading Permissions</td>
-        <td>Configurable total view count, single-session duration, expiration date</td>
-        <td>Auto-locks when limits are exceeded</td>
+        <td>Configurable open-count limit and expiry timestamp</td>
+        <td>Enforced server-side and atomically; once exhausted, all copies of the HTML stop opening</td>
       </tr>
       <tr>
-        <td>Action Restrictions</td>
-        <td>Can block download, printing, copying</td>
-        <td>JS intercepts common shortcuts and menu options</td>
+        <td>Viewer Friction</td>
+        <td>Right-click disabled, print dialog neutralized via CSS, blur shield when tab is hidden</td>
+        <td>These are UX friction, not unbreakable barriers — see Limitations below</td>
       </tr>
       <tr>
         <td>Encryption Method</td>
-        <td>Server-side AES-256 encryption during upload → generates encrypted HTML</td>
-        <td>Key stored in script, requires validation process to decrypt</td>
+        <td>AES-256-GCM. The server stores only half of the encryption key plus a license row</td>
+        <td>The PDF itself is never persisted on the server</td>
       </tr>
       <tr>
-        <td>Tracking & Statistics</td>
-        <td>Locally records first/last open time, IP, device info, synchronizes with server</td>
-        <td>Uploads only when user's device is online</td>
+        <td>Anti-Automation</td>
+        <td>The server returns 12 candidate keys with 11 random decoys</td>
+        <td>Slows down AI / bulk-scraping clients that try to harvest keys</td>
+      </tr>
+      <tr>
+        <td>Watermarks</td>
+        <td>Optional per-page watermarks</td>
+        <td>Useful as a forensic trail; does not prevent screenshots or photos of the screen</td>
       </tr>
       <tr>
         <td>Cross-platform</td>
-        <td>Any modern browser (Chrome, Edge, Safari, Firefox ≥ ES6)</td>
-        <td>Windows / macOS / Linux / iOS / Android</td>
+        <td>Any modern browser (Chrome, Edge, Safari, Firefox)</td>
+        <td>Windows / macOS / Linux / iOS / Android — internet required at opening time</td>
       </tr>
       <tr>
         <td>No Installation</td>
-        <td>Final file is standard .html + resource package (can be compressed as ZIP)</td>
-        <td>Recipient needs no plugins or apps</td>
+        <td>Output is a single self-contained <code>.html</code> file</td>
+        <td>Recipients need no plugin, app, or account</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## 3️⃣ Creation Process (Via "Manage DRM → Offline" in Platform)
+## 3️⃣ Creation Process (Pack on drm.maipdf.com)
 
 <div class="steps-container">
   <div class="step-item">
     <div class="step-number">1</div>
     <div class="step-content">
-      <h3>Upload PDF</h3>
-      <p>File is chunked, uploaded, and encrypted for storage.</p>
+      <h3>Drop the PDF on the home page</h3>
+      <p>Open <a href="https://drm.maipdf.com/">drm.maipdf.com</a> and drag a PDF (up to 65 MB) onto the upload zone. The file stays in your browser until you click Pack.</p>
       <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF upload interface" class="small">
     </div>
   </div>
-  
+
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
-      <h3>Configure Permissions</h3>
-      <p>Set view count, duration, expiration date, download/print toggles.</p>
+      <h3>Configure rules</h3>
+      <p>Set the open-count limit and the expiry timestamp. Optionally override the display filename your reader sees. That is the full set of pack-time settings.</p>
       <img src="/offlinepages/security_setting.png" alt="Permission settings" class="small">
     </div>
   </div>
-  
+
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
-      <h3>Generate Offline Package</h3>
-      <p>Platform returns a compressed package: index.html + assets/.</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Generated offline package" class="small">
+      <h3>Click "🔐 Pack &amp; Download"</h3>
+      <p>The server encrypts the PDF, generates a license, and returns a single self-contained HTML file (e.g. <code>MaiPDF-SecureShare-yourdocument-locked.html</code>).</p>
+      <img src="/offlinepages/result_download_zip_file.png" alt="Generated locked HTML" class="small">
     </div>
   </div>
-  
+
   <div class="step-item">
     <div class="step-number">4</div>
     <div class="step-content">
-      <h3>Distribute/Save</h3>
-      <p>You can:</p>
+      <h3>Save your codes</h3>
+      <p>Two codes appear after packing:</p>
       <ul>
-        <li>Send the package directly to recipients;</li>
-        <li>Or upload to your own server/cloud storage and share the link.</li>
+        <li><strong>License ID</strong> — the public identifier of the protected file.</li>
+        <li><strong>Modification Code</strong> — a 26-character secret. Save it in a password manager before leaving the page. It is the only way to manage the license later, unless you signed in with Google.</li>
       </ul>
     </div>
   </div>
-  
+
   <div class="step-item">
     <div class="step-number">5</div>
     <div class="step-content">
-      <h3>Local Opening</h3>
-      <p>Recipients double-click index.html to read offline; if their device is online, logs are transmitted in the background.</p>
-      <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="Opening HTML file locally" class="small">
+      <h3>Send the locked HTML</h3>
+      <p>Email it, drop it in Slack, upload it to Drive, put it on a USB stick — share it however you would share a regular file. Recipients double-click the HTML, click "Open · Unlock", and the viewer renders the PDF after the online license check succeeds.</p>
+      <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="Opening the locked HTML" class="small">
     </div>
   </div>
 </div>
 
 <div class="note-box">
-  <p><strong>Tip:</strong> If you want to revoke access later, you can click Revoke in the dashboard, and the script will check for this revocation flag and prevent further opening (even if the file is still local).</p>
+  <p><strong>Managing the license later:</strong> paste your License ID + Modification Code at <a href="https://drm.maipdf.com/manage">drm.maipdf.com/manage</a> to add opens, extend expiry, pause, resume, or delete — no login required. If you signed in with Google when packing, the dashboard at <a href="https://drm.maipdf.com/dashboard">drm.maipdf.com/dashboard</a> lets you manage every license you have packed without pasting codes.</p>
 </div>
 
-## 4️⃣ Technical Implementation Details
+## 4️⃣ How It Actually Works
 
 <div class="tech-features">
   <div class="tech-item">
-    <div class="tech-icon">🖼️</div>
+    <div class="tech-icon">🔐</div>
     <div class="tech-content">
-      <h3>HTML5 Canvas + PDF.js Rendering</h3>
-      <p>Each page is converted to bitmap or stream-rendered, preventing text extraction.</p>
+      <h3>AES-256-GCM, split-key model</h3>
+      <p>The PDF is encrypted with AES-256-GCM. The server stores a license row plus half of the encryption key; the other half travels with the locked HTML. Neither half alone can decrypt the file.</p>
     </div>
   </div>
-  
+
   <div class="tech-item">
-    <div class="tech-icon">💾</div>
+    <div class="tech-icon">🌐</div>
     <div class="tech-content">
-      <h3>Browser Local Storage Validation</h3>
-      <p>Reads remaining view count from localStorage; works even without network.</p>
+      <h3>Server-side, atomic enforcement</h3>
+      <p>Every "Open · Unlock" click hits the server, which atomically checks and decrements the open count and verifies the expiry. Leaving the tab open does not consume views; closing and re-opening does.</p>
     </div>
   </div>
-  
+
   <div class="tech-item">
-    <div class="tech-icon">🔑</div>
+    <div class="tech-icon">🤖</div>
     <div class="tech-content">
-      <h3>One-time Token Binding</h3>
-      <p>Generates fingerprint on first open (browser UA, screen dimensions, etc.), rejects if fingerprint doesn't match in subsequent sessions.</p>
+      <h3>Anti-automation chaff</h3>
+      <p>To slow down AI / bulk scrapers, the server returns 12 candidate keys with 11 random decoys, only one of which is the real key. The viewer in the HTML knows which to use; an automated harvester does not.</p>
     </div>
   </div>
-  
+
   <div class="tech-item">
     <div class="tech-icon">💧</div>
     <div class="tech-content">
-      <h3>Optional Watermarking</h3>
-      <p>Offline package can embed dynamic watermarks (Email, timestamps), rendered on Canvas layer.</p>
+      <h3>Optional per-page watermarks</h3>
+      <p>You can have the viewer render per-page watermarks on top of the PDF. These give you a forensic trail if a screenshot leaks; they do not stop screenshots from being taken.</p>
     </div>
   </div>
 </div>
 
-## 5️⃣ Common Limitations & Considerations
+## 5️⃣ Honest Limitations
 
 <div class="limitations-table">
   <table>
@@ -178,24 +183,24 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
     </thead>
     <tbody>
       <tr>
-        <td>Single File Limit</td>
-        <td>Official examples suggest ≤ 100 MB; larger files need compression or custom service consultation.</td>
+        <td>Maximum upload size</td>
+        <td>65 MB per PDF. Above this, the upload is rejected. (Cloudflare Workers platform body-size limit, not arbitrary.)</td>
       </tr>
       <tr>
-        <td>Browser Compatibility</td>
-        <td>Requires JavaScript enabled; minimal/privacy browsers may block local storage, preventing statistics collection.</td>
+        <td>Internet required at opening time</td>
+        <td>The viewer must reach <code>drm.maipdf.com</code> to verify the license before decrypting. There is no purely-offline mode; air-gapped readers will not be able to open the file.</td>
       </tr>
       <tr>
-        <td>Delayed Offline Statistics</td>
-        <td>If readers remain offline, logs will only transmit after they connect to the internet.</td>
+        <td>Determined readers with browser devtools</td>
+        <td>The viewer must decrypt the PDF in the reader's browser to render it; that decrypted byte stream is, in principle, extractable by a patient user with developer tools. The viewer's right-click block, print-CSS neutralization, and tab-hidden blur shield are <strong>user-experience friction, not unbreakable barriers</strong>.</td>
       </tr>
       <tr>
-        <td>Secondary Distribution Risk</td>
-        <td>While view limits/dates can be set, screen recording or photos can't be prevented. Sensitive content still requires legal protection or watermarking.</td>
+        <td>Screenshots and photos</td>
+        <td>Pixels on screen leave the system the moment they are displayed. Watermarks give a forensic trail; no browser-based DRM defeats a phone camera pointed at a monitor.</td>
       </tr>
       <tr>
-        <td>Free Allocation</td>
-        <td>Free for personal use; large-scale batch generation (>100 packages/day) or custom branding requires enterprise pricing. Higher offline security (USB binding, etc.) is available as custom solutions.</td>
+        <td>Pricing</td>
+        <td>MaiPDF Secure Share is currently free, running on Cloudflare Pages and D1 free tiers. If usage grows, per-IP rate limits or paid tiers may appear; existing licenses will continue to work.</td>
       </tr>
     </tbody>
   </table>
@@ -232,7 +237,8 @@ tags: ["PDF Security", "Document DRM", "Offline Control", "File Encryption"]
 ## Conclusion
 
 <div class="conclusion-panel">
-  <p>MaiPDF Offline mode integrates traditional "PDF+reader" DRM logic into an encrypted HTML, balancing "offline availability" with "permission control." Compared to expensive specialized DRM platforms, this browser-based solution requires no installation, starts free, and is ideal for education, publishing, content creators, and small teams needing secure PDF distribution in offline environments.</p>
+  <p>MaiPDF Secure Share packages a PDF as a single self-contained HTML file with a server-checked license, AES-256-GCM encryption, and optional watermarks. It is best understood as <strong>controlled distribution</strong>: you keep the ability to revoke, extend, or pause access after the file has been sent, even though the file itself is in someone else's hands. It is not a magic bullet against screenshots, photographs, or determined extraction with browser developer tools — the product is candid about that, and so is this article.</p>
+  <p style="margin-top: 0.75rem"><strong>Try it:</strong> open <a href="https://drm.maipdf.com/">drm.maipdf.com</a>, drop a PDF, click <em>Pack &amp; Download</em>. No signup required.</p>
 </div>
 
 ---

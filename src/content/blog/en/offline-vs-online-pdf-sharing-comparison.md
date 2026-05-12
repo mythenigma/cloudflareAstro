@@ -6,42 +6,42 @@ heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Offline PDF", "Online PDF Sharing", "PDF Comparison", "Sharing Methods", "Offline", "PDF Distribution"]
 ---
 
-# Offline PDF Sharing vs. Online Sharing: Complete Comparison Guide
+# Locked HTML Packages vs. Online Sharing: Complete Comparison Guide
 
 <div class="intro-panel">
-  <p>Offline and online are not substitutes in every scenario. Choose based on operating constraints, not preference alone.</p>
+  <p>Online sharing and locked HTML packages are not substitutes in every scenario. The difference is mostly about what travels: a link, or a file. Both require connectivity to enforce rules.</p>
 </div>
 
-![Offline vs online](/offlinepages/offline-MaiPDF-Home-Page.png)
+![File-vs-link comparison](/offlinepages/offline-MaiPDF-Home-Page.png)
 
-## Side-by-Side Comparison
+## Side-by-side comparison
 
-| Dimension | Offline sharing | Online sharing |
+| Dimension | Locked HTML package | Online sharing |
 |---|---|---|
-| Connectivity dependency | Low | High |
-| Real-time policy updates | Limited | Strong |
-| Open statistics | Limited | Strong |
-| Recipient setup effort | Medium | Low |
-| Revocation speed | Slower | Faster |
+| What recipient holds | A single self-contained HTML file | A short link or QR code |
+| Internet required at open time | Yes — one-shot license check | Yes — continuous while reading |
+| Per-open analytics | Open count and expiry state | Detailed (IP, time, device) |
+| Recipient setup effort | Save the file, open it | Click the link |
+| Revocation effect | Next open is denied | Next refresh is denied |
 
-## Choose Offline When
+## Choose a locked HTML package when
 
-- Internet availability is uncertain.
-- Distribution happens in controlled local environments.
-- Stability matters more than live controls.
+- The artifact needs to live with the recipient (USB, internal share, email attachment).
+- You want sender-side control over the file <em>after</em> it has been delivered.
+- The recipient has intermittent connectivity that is reliable at the moment of opening.
 
-## Choose Online When
+## Choose online sharing when
 
-- You need link-level policy controls.
-- You need open statistics for follow-up.
-- You expect frequent updates or revocation needs.
+- You want link-level control and detailed open analytics.
+- You expect to update or replace the file content over time.
+- The recipient can reliably reach a hosted URL.
 
-## Hybrid Model (Recommended in Many Teams)
+## Hybrid model (recommended in many teams)
 
 - Use online sharing by default.
-- Keep offline packages for fallback or field scenarios.
-- Align both with one version and distribution log.
+- Use locked HTML packages when the file itself needs to travel.
+- Keep one source-of-truth version log so both paths point at the same content.
 
-## Bottom Line
+## Bottom line
 
-Use online for control and adaptability. Use offline for network independence and predictable delivery in constrained environments.
+Use online for live updates and analytics. Use a locked HTML package when you want the file in the recipient's hands while keeping the ability to revoke or extend access — just don't expect either to work fully offline.

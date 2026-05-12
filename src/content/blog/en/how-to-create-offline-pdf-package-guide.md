@@ -1,41 +1,41 @@
 ---
-title: "How to Create an Offline PDF Package (HTML-in-ZIP) for Sharing"
-description: "A practical, non-hype guide to exporting an offline package, opening it locally, and updating it when the PDF changes."
+title: "How to Create a Locked HTML PDF Package for Sharing"
+description: "A practical, non-hype guide to packing a PDF into a self-contained locked HTML file, opening it locally, and updating access when the policy changes."
 pubDate: "Jan 21 2026"
 tags: ["maipdf", "offline", "pdf"]
 ---
 
-Sometimes you need to share a PDF in environments where online viewing is inconvenient (restricted networks, training rooms, internal distribution). One approach is to export an **offline package** that can be opened locally.
+Sometimes you need to put a PDF directly in someone's hands instead of behind a link — restricted networks, training rooms, internal distribution. One approach is to pack the PDF as a **locked HTML file**: a single self-contained file the recipient can save and open in their browser. The viewer does a one-shot online license check at open time, so this is portable, not literally offline.
 
 ## Simple flow
 
 1. **Upload the PDF**
-2. **Configure security options** (if needed)
-3. **Export an offline package (ZIP)**
-4. **Open the included HTML file locally**
+2. **Configure rules** (open count, expiry, optional watermarks)
+3. **Pack &amp; download** — you get a single self-contained HTML file (delivered as a thin ZIP wrapper)
+4. **The recipient opens the HTML in a browser** — the viewer validates the license online, then renders the PDF
 
 ```mermaid
 flowchart TD
-  A[Upload PDF] --> B[Security settings]
-  B --> C[Export offline ZIP]
-  C --> D[Open HTML locally]
+  A[Upload PDF] --> B[Configure rules]
+  B --> C[Pack & download locked HTML]
+  C --> D[Recipient opens HTML; viewer license-checks online]
 ```
 
 ## Upload
 
-![Offline upload section](/offlinepages/upload_section_offline_maipdf.png)
+![Upload section](/offlinepages/upload_section_offline_maipdf.png)
 
-## Export the ZIP package
+## Download the locked HTML
 
-![Download zip result](/offlinepages/result_download_zip_file.png)
+![Download result](/offlinepages/result_download_zip_file.png)
 
-## Open it locally
+## Open it
 
-Unzip the file, then open the included HTML file in a browser.
+Save the file (unzip the wrapper if your OS does not auto-extract), then double-click the HTML to open it in a browser. Internet is required at open time for the license check.
 
-![Click HTML inside ZIP](/offlinepages/click_html_inside_zip_to_view.png)
+![Open the locked HTML](/offlinepages/click_html_inside_zip_to_view.png)
 
-## Optional: security settings
+## Optional: rule settings
 
-![Offline security settings](/offlinepages/security_setting.png)
+![Rule settings](/offlinepages/security_setting.png)
 

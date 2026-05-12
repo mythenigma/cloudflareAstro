@@ -8,11 +8,11 @@ author: "Alex Rivera"
 heroImage: "/offlinepages/result_download_zip_file.png"
 ---
 
-Enterprises talk about “offline PDF DRM” when they need to deliver documents to environments where online viewing is unreliable or not allowed—but they still want controlled access.
+Enterprises talk about "offline PDF DRM" when they want to put the document file itself in the recipient's hands — instead of behind a link — while keeping sender-side control over access. The artifact still needs internet at open time to enforce the rules; "offline" means "portable file you can hand over," not "works air-gapped."
 
 In practice, a deployable pattern is:
 
-- generate an **offline package** (ZIP with an HTML viewer)
+- generate a **locked HTML file** (a single self-contained HTML, delivered as a thin ZIP wrapper)
 - set **open limits** and **expiration**
 - keep a **code-based update path** so you can extend access when needed
 
@@ -20,10 +20,10 @@ In practice, a deployable pattern is:
 
 ```mermaid
 flowchart TB
-  A[Prepare PDF] --> B[Generate offline package]
+  A[Prepare PDF] --> B[Pack as locked HTML]
   B --> C["Set rules: open limit + expiration"]
-  C --> D[Distribute ZIP to recipients]
-  D --> E[Recipients read offline via HTML]
+  C --> D[Distribute file to recipients]
+  D --> E[Recipient opens HTML; viewer does a one-shot online license check]
   E --> F{"Policy change needed?"}
   F -->|No| G[Done]
   F -->|Yes| H["Admin uses codes to check/update access"]
@@ -32,40 +32,42 @@ flowchart TB
 
 ## What admins do (once)
 
-### Upload and generate the offline package
+### Upload and pack the PDF
 
-![Offline upload screen: upload your PDF file](/offlinepages/upload_section_offline_maipdf.png)
+![Upload screen: upload your PDF file](/offlinepages/upload_section_offline_maipdf.png)
 
 ### Configure rules
 
-![Offline DRM settings: open limit and expiration period](/offlinepages/security_setting.png)
+![Settings: open limit and expiration](/offlinepages/security_setting.png)
 
-### Download the ZIP
+### Download the locked HTML
 
 ![Result page: protected file ready and download button](/offlinepages/result_download_zip_file.png)
 
 ## What recipients do (every time)
 
-![Open the HTML inside the extracted ZIP](/offlinepages/click_html_inside_zip_to_view.png)
+Double-click the HTML file. The viewer reaches out to the licensing endpoint, atomically checks the open count and expiry, and renders the PDF if the license is still valid.
+
+![Open the locked HTML file](/offlinepages/click_html_inside_zip_to_view.png)
 
 ## Updates and policy changes
 
 Common examples:
 
 - a contractor needs 3 more opens for a review cycle
-- an audit requires checking whether the package is still valid
+- an audit requires checking whether the file is still valid
 
-Use the generated codes to check status or update access.
+Use the generated License ID + Modification Code to check status or update access — no recipient action required, the next open enforces the new rules.
 
-![Use reading/modification codes to check or change access](/offlinepages/result-check-change.png)
+![Use License ID + Modification Code to check or change access](/offlinepages/result-check-change.png)
 
-## Offline vs online
+## Offline packaging vs online links
 
-Offline packages are great for constrained environments. If your audience can access the web, online links usually give:
+A locked HTML file is the right shape when the artifact needs to live with the recipient. If the audience can reliably reach a hosted link, online sharing usually gives:
 
-- smoother UX (no ZIP)
-- richer access records
-- easier replacement of file versions
+- smoother UX (no file to save and open)
+- richer per-open analytics
+- the ability to swap the underlying file without re-sending
 
 ---
 

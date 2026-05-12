@@ -1,198 +1,198 @@
 ---
-title: "Online Links vs. Network-Authorized Offline Packages: The Ultimate Guide to Choosing the Right PDF Encryption Mode"
-description: "An in-depth comparison between cloud-based PDF sharing and offline DRM packages to help you select the best security model for your document distribution needs."
+title: "Online Share vs. Secure Share: Choosing the Right PDF Protection Model"
+description: "An in-depth comparison between MaiPDF Online Share (cloud-hosted links) and MaiPDF Secure Share (locked HTML files) to help you pick the right security model for the way your document actually travels."
 pubDate: "Apr 3 2026"
 updatedDate: "Apr 3 2026"
-heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
-tags: ["PDF Security", "Document Sharing", "DRM Protection", "Cloud Security"]
+heroImage: "/maipdf2026/offline/two%20comparison.png"
+tags: ["PDF Security", "Document Sharing", "Secure Share", "MaiPDF"]
 ---
 
-# Online Links vs. Network-Authorized Offline Packages: The Ultimate Guide to Choosing the Right PDF Encryption Mode
+# Online Share vs. Secure Share: Choosing the Right PDF Protection Model
 
 <div class="intro-panel">
-  <p>Resumes, quotes, portfolios, and even confidential contracts—PDFs carry not just files, but your time and trust. Once leaked or illegally stored, the consequences can be difficult to mitigate. MaiPDF offers two distinct paths—Cloud Share (online links/QR codes) and DRM HTML (offline packages)—which may seem like a simple toggle switch, but represent fundamentally different security models and user experiences. Understanding their boundaries is key to making your document sharing both convenient and secure.</p>
+  <p>Resumes, quotes, portfolios, confidential contracts — PDFs carry your time and trust, and once leaked the consequences are hard to walk back. MaiPDF runs two products that solve overlapping but distinct problems: <strong>Online Share</strong> at <a href="https://maipdf.com/">maipdf.com</a> (cloud-hosted PDFs viewed via a short link) and <strong>Secure Share</strong> at <a href="https://drm.maipdf.com/">drm.maipdf.com</a> (a single self-contained locked HTML file with a server-checked license). The choice is not "more secure vs. less secure" — it's about whether you want to control <em>access to a link</em> or control <em>the file itself after delivery</em>.</p>
 </div>
 
 
-![PDF Security Layers Overview](/maipdf2026/flowchart/en-security-layers.svg)
+![Online Sharing vs DRM](/maipdf2026/offline/two%20comparison.png)
 
-## In-Depth Comparison: Nine Key Dimensions at a Glance
+## Side-by-side comparison
 
 <div class="comparison-table">
   <table>
     <thead>
       <tr>
         <th>Dimension</th>
-        <th>Cloud Share (Online Links/QR Codes)</th>
-        <th>DRM HTML (Offline Package, Network Auth)</th>
+        <th>Online Share (maipdf.com)</th>
+        <th>Secure Share (drm.maipdf.com)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>File Storage</td>
-        <td>Hosted on MaiPDF cloud</td>
-        <td>HTML file saved locally/on USB drive</td>
+        <td>What you send</td>
+        <td>A short link (or QR code)</td>
+        <td>A single self-contained locked <code>.html</code> file</td>
       </tr>
       <tr>
-        <td>Initial Upload</td>
-        <td>Local → Cloud</td>
-        <td>Local → Cloud → Generate HTML → Download</td>
+        <td>Where the PDF lives</td>
+        <td>Hosted on MaiPDF cloud, viewed in the browser via the link</td>
+        <td>Encrypted inside the HTML file the recipient holds; server keeps a license row and half of the key</td>
       </tr>
       <tr>
-        <td>Network Requirements</td>
-        <td>Continuous internet connection</td>
-        <td>Internet needed only for validation check</td>
+        <td>Network requirements</td>
+        <td>Continuous internet connection while reading</td>
+        <td>Internet required at opening time for the one-shot license check; no purely-offline mode</td>
       </tr>
       <tr>
-        <td>Permission Flexibility</td>
-        <td>Revoke/add views, replace file anytime</td>
-        <td>Permissions fixed on server, only view count can be added</td>
+        <td>Encryption</td>
+        <td>Encrypted transmission and storage</td>
+        <td>AES-256-GCM, split-key model; PDF itself never persisted on the server</td>
       </tr>
       <tr>
-        <td>Tracking & Statistics</td>
-        <td>Real-time IP, region, device, timestamp</td>
-        <td>Only remaining views/expiration date on server</td>
+        <td>Post-delivery control</td>
+        <td>Revoke/pause/extend at any time; can also replace the underlying PDF</td>
+        <td>Revoke/pause/extend or add opens at any time via <code>/manage</code> or the dashboard; the underlying PDF cannot be replaced — you would pack a new file</td>
       </tr>
       <tr>
-        <td>Security Level</td>
-        <td>Encrypted transmission+storage, real-time control</td>
-        <td>File stays local, requires online validation to open</td>
+        <td>What the server knows about each open</td>
+        <td>Real-time open events with IP, region, device, timestamp</td>
+        <td>Open-count and expiry, enforced atomically; less detailed per-open telemetry</td>
       </tr>
       <tr>
-        <td>Speed Experience</td>
-        <td>Initial load depends on network speed</td>
-        <td>Quick first open (local), renders after validation</td>
+        <td>Recipient experience</td>
+        <td>Click link → reads in the browser</td>
+        <td>Double-click HTML → "Open · Unlock" → reads in the browser</td>
       </tr>
       <tr>
-        <td>Typical Scenarios</td>
-        <td>Online submissions, social sharing, remote reviews</td>
-        <td>Manufacturing facilities, trade show USB distribution, sensitive reviews</td>
-      </tr>
-      <tr>
-        <td>Suitable Audience</td>
-        <td>Individuals, freelancers, small teams</td>
-        <td>Organizations with "no cloud storage" policies but with network access</td>
+        <td>Best fit</td>
+        <td>Everyday documents, frequently-updated drafts, scenarios that need rich open analytics</td>
+        <td>Sensitive or premium content, anything where the sender wants to keep authority over the file <em>after</em> it has been delivered</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## Cloud Share: Working Principles and Usage Details
+## Online Share: how it works
 
 <div class="method-section">
-  <h3>1. Upload Generates Instant Short Link/QR</h3>
-  <p>Drag and drop your PDF to the website, and the system returns an encrypted URL and QR code.</p>
-  
-  <h3>2. Real-Time Permission Control</h3>
+  <h3>1. Upload returns a short link or QR code</h3>
+  <p>Drag and drop your PDF onto <a href="https://maipdf.com/">maipdf.com</a>. The system stores it and returns a short URL plus a QR code.</p>
+
+  <h3>2. Live permission control</h3>
   <ul>
-    <li>Modify view count, expiration time, or even replace the PDF while maintaining the same link</li>
-    <li>If accidentally shared, immediately "Kill Link"—when recipients refresh, access is denied</li>
+    <li>Change view count, expiry, or even replace the PDF while keeping the same link.</li>
+    <li>If you shared the link with the wrong person, revoke it — the next refresh denies access.</li>
   </ul>
-  
-  <h3>3. Behavior Tracking</h3>
-  <p>Backend logs record IP, region, device model, and access time, exportable as CSV.</p>
-  
-  <h3>4. Enhanced Protection</h3>
+
+  <h3>3. Open analytics</h3>
+  <p>The backend records each open with IP, region, device, and timestamp.</p>
+
+  <h3>4. Viewer friction (not hard barriers)</h3>
   <ul>
-    <li>Screen and keyboard monitoring (disables F12, Ctrl+S, right-click)</li>
-    <li>Automatic masking when cursor moves outside the reading frame</li>
-    <li>Optional dynamic watermarks, one-time email verification codes</li>
+    <li>Right-click is disabled and the print path is neutralized via CSS.</li>
+    <li>Optional per-page watermarks can be displayed inside the viewer.</li>
   </ul>
+  <p style="margin-top: 0.5rem; color: #6b7280; font-size: 0.95rem">A reader with browser developer tools can still capture a decrypted page; watermarks give a forensic trail, not a stop.</p>
 </div>
 
 <div class="pro-con-section">
   <div class="pro-section">
-    <h3>Advantages</h3>
+    <h3>Strengths</h3>
     <ul>
-      <li>No need to recall files, simply change cloud permissions</li>
-      <li>Any device with a browser can access, no installation required</li>
-      <li>Ideal for frequently updated versions or marketing/design/education scenarios requiring reading statistics</li>
+      <li>Replace files and change permissions without re-sending anything.</li>
+      <li>Any device with a browser can read — no installation, no codes.</li>
+      <li>Best for frequently-updated drafts and any scenario where you want detailed open analytics.</li>
     </ul>
   </div>
-  
+
   <div class="con-section">
-    <h3>Limitations</h3>
+    <h3>Trade-offs</h3>
     <ul>
-      <li>Inaccessible offline; poor experience in subway, aircraft, or weak network environments</li>
-      <li>Files stored in the cloud—though encrypted, still requires enterprise compliance review for highly sensitive materials</li>
+      <li>Needs a live internet connection to read — poor experience on flights, subways, or restricted networks.</li>
+      <li>The PDF sits on a MaiPDF server. Highly-regulated workflows may require a compliance review of that.</li>
     </ul>
   </div>
 </div>
 
-## DRM HTML: Local Storage + Network Authentication Hybrid Mode
+## Secure Share: how it works
 
 <div class="method-section">
-  <h3>1. Localized Storage</h3>
-  <p>System uploads PDF for encapsulation processing, then generates JavaScript-embedded HTML, packaged back to your computer.</p>
-  
-  <h3>2. Network-Based Validation</h3>
-  <p>Embedded scripts in the HTML call MaiPDF API with each opening to verify view count and expiration date. Failed validation displays "Access Denied."</p>
-  
-  <h3>3. Copy Control</h3>
-  <p>Regardless of how many copies are made, the server only recognizes the "reading code"—once the view limit is reached, all copies are locked.</p>
-  
-  <h3>4. The Only Channel for Permission Modification</h3>
-  <p>Permissions can only be updated through the official "DRM Check/Update" page by entering the modification code to add additional views. File content cannot be replaced.</p>
+  <h3>1. Packing happens once, on drm.maipdf.com</h3>
+  <p>Upload the PDF (up to 65 MB), set the open-count and expiry, and the server encrypts the file with AES-256-GCM, generates a license, and hands back a single self-contained locked HTML file.</p>
+
+  <h3>2. Every open does a server check</h3>
+  <p>When the recipient clicks "Open · Unlock", the viewer inside the HTML calls <code>drm.maipdf.com</code> to verify the license, atomically decrement the open count, and confirm the expiry. Failed checks display "License has been revoked." or similar.</p>
+
+  <h3>3. Copies do not multiply the license</h3>
+  <p>The HTML can be copied a thousand times; the server tracks one license. Once the open count is exhausted, every copy of the HTML stops working.</p>
+
+  <h3>4. Two management paths</h3>
+  <ul>
+    <li><strong>Anonymous:</strong> save the License ID + 26-character Modification Code shown after packing, and use <code>/manage</code> to add opens, extend expiry, pause, resume, or delete the license — no login required.</li>
+    <li><strong>Signed-in:</strong> sign in with Google before packing, and every license you create shows up in the dashboard at <code>/dashboard</code> with one-click controls.</li>
+  </ul>
+  <p style="margin-top: 0.5rem; color: #6b7280; font-size: 0.95rem">The file content itself cannot be edited after packing. To publish a corrected version, pack a fresh file and revoke the old license.</p>
 </div>
 
 <div class="pro-con-section">
   <div class="pro-section">
-    <h3>Advantages</h3>
+    <h3>Strengths</h3>
     <ul>
-      <li>File body can be stored on internal file servers or distributed via USB only—data doesn't remain in the cloud</li>
-      <li>Fast first-screen rendering, suitable for large files or areas with weak networks</li>
-      <li>Complies with enterprise audit requirements where "data cannot be stored in public cloud"</li>
+      <li>The file lives where you sent it — internal file server, USB stick, email attachment — and you still keep the ability to revoke or extend it.</li>
+      <li>The PDF is never persisted on the MaiPDF server; only a license row plus half of the encryption key are stored.</li>
+      <li>Fits scenarios where the sender needs lasting authority over the artifact after delivery.</li>
     </ul>
   </div>
-  
+
   <div class="con-section">
-    <h3>Limitations</h3>
+    <h3>Trade-offs</h3>
     <ul>
-      <li>Won't open in complete offline environments—requires temporary hotspot or proxy for handshake</li>
-      <li>Cannot track reading behavior in real-time, only view remaining count</li>
-      <li>Unable to "fix typos online"—content cannot be replaced once generated</li>
+      <li>The recipient must be online at opening time for the license check — Secure Share is not an air-gapped tool.</li>
+      <li>Per-open telemetry is less detailed than Online Share; you see remaining opens and expiry status, not a per-reader IP log.</li>
+      <li>You cannot "fix a typo" inside the locked HTML — corrections require packing a new file.</li>
     </ul>
   </div>
 </div>
 
-## Selection Guide: Identify Your Scenario in One Sentence
+## Pick the right tool in one sentence
 
 <div class="decision-guide">
   <ul>
-    <li><strong>I want to change permissions anytime and see who's viewed → Choose Cloud Share</strong></li>
-    <li><strong>I must keep files in my possession, but have network access on-site → Choose DRM HTML</strong></li>
-    <li><strong>I have no network/external connections allowed → Consider traditional local encryption software or encrypted drives</strong> (MaiPDF currently doesn't support completely offline operation)</li>
+    <li><strong>I want to change permissions anytime and see who opened the file → Online Share</strong> at <a href="https://maipdf.com/">maipdf.com</a></li>
+    <li><strong>The file must travel with the recipient, and I still want to revoke or extend access after delivery → Secure Share</strong> at <a href="https://drm.maipdf.com/">drm.maipdf.com</a></li>
+    <li><strong>The recipient has no internet at all → neither tool fits.</strong> Both Online Share and Secure Share require connectivity (continuous for the former, one-shot at open-time for the latter). For truly air-gapped delivery, use a local-encryption tool or an encrypted drive.</li>
   </ul>
 </div>
 
-## Practical Tips
+## Practical tips
 
 <div class="tips-table">
   <table>
     <thead>
       <tr>
-        <th>Solution</th>
-        <th>Security Enhancement Tips</th>
+        <th>Product</th>
+        <th>Practical tips</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Cloud Share</td>
+        <td>Online Share</td>
         <td>
           <ul>
-            <li>Set up one-time email verification codes to prevent forwarded links</li>
-            <li>Enable dynamic watermarks displaying visitor IP</li>
-            <li>Embed short links in corporate email templates for more intuitive permission management</li>
+            <li>Enable per-page watermarks when sharing material that could plausibly leak — the watermark is a forensic trail, not a stop.</li>
+            <li>Use a short expiry by default; extend rather than create-from-scratch when the review runs long.</li>
+            <li>For sensitive links, prefer one recipient per link so analytics tell you who opened what.</li>
           </ul>
         </td>
       </tr>
       <tr>
-        <td>DRM HTML</td>
+        <td>Secure Share</td>
         <td>
           <ul>
-            <li>Use 7-Zip with password before transferring to USB for double protection</li>
-            <li>If client networks are restricted, bring 4G routers for authorization at presentation sites</li>
-            <li>Create "1-time view" temporary files that expire immediately after use to prevent file drift</li>
+            <li>If you signed in with Google, you do not need to save the Modification Code separately — the dashboard at <code>/dashboard</code> proves ownership via your Google session.</li>
+            <li>If you packed anonymously, store the Modification Code in a password manager <em>before</em> leaving the result page. There is no recovery flow if you lose it without signing in.</li>
+            <li>Plan ahead: confirm the recipient has internet access at opening time. There is no purely-offline open path.</li>
+            <li>For "one-time view" workflows, set open count to 1 and use a tight expiry — closing and reopening the tab consumes a view, leaving it open does not.</li>
           </ul>
         </td>
       </tr>
@@ -203,15 +203,16 @@ tags: ["PDF Security", "Document Sharing", "DRM Protection", "Cloud Security"]
 ## Conclusion
 
 <div class="conclusion-panel">
-  <p>There's no one-size-fits-all encryption method—only workflows best suited to your needs. It's nearly impossible to achieve both "no file footprint" and "instant permission revocation" simultaneously. Understanding where files are stored, who will access them, and what networks they'll use is crucial to your decision-making process. We hope this article helps you quickly determine the optimal solution between Cloud Share and DRM HTML, ensuring both successful delivery and risk mitigation.</p>
+  <p>There is no one-size-fits-all encryption method — only workflows best suited to your needs. Online Share is the right answer when you want a link, live updates, and detailed analytics; Secure Share is the right answer when you need the sender to keep authority over the file itself after it has been delivered. Both products are candid that browser-based DRM has limits — a determined recipient with browser developer tools can extract a decrypted page, and no DRM defeats a phone camera pointed at a monitor. Choose the product that matches how the file will actually travel, and use watermarks plus tight expiry rather than expecting unbreakable protection.</p>
+  <p style="margin-top: 0.75rem"><strong>Try them:</strong> <a href="https://maipdf.com/">maipdf.com</a> for Online Share, <a href="https://drm.maipdf.com/">drm.maipdf.com</a> for Secure Share. Both are free and require no signup.</p>
 </div>
 
 <div class="related-articles">
   <h3>Related Articles</h3>
   <ul>
-    <li><a href="../../en/pdf-offline-html-package/">PDF Offline Secure Reading Solution: One-Click HTML Package Generation</a></li>
+    <li><a href="../../en/pdf-offline-html-package/">PDF Secure Sharing Solution: One-Click Locked HTML File</a></li>
+    <li><a href="../../en/offline-pdf-drm-mode/">MaiPDF Secure Share (DRM Mode): Locked PDF Packages You Can Send</a></li>
     <li><a href="../../en/dynamic-watermarks-on-pdf/">Dynamic PDF Watermarks: Precisely Track Reading Behavior</a></li>
-    <li><a href="../../en/mobile-verification-document-security/">Email Verification: Enhancing PDF Document Access Security</a></li>
   </ul>
 </div>
 

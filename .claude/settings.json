@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:drm.maipdf.com)",
+      "PowerShell(curl.exe -sS -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -I https://drm.maipdf.com/)",
+      "PowerShell(curl.exe -sS -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" https://drm.maipdf.com/ -o \"$env:TEMP\\\\drm_maipdf_home.html\"; \\(Get-Item \"$env:TEMP\\\\drm_maipdf_home.html\"\\).Length)",
+      "Read(//c/Users/chanz/AppData/Local/Temp/**)",
+      "PowerShell($ua = \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\"; foreach \\($p in @\\(\"/help\",\"/blog\",\"/docs\",\"/articles\",\"/learn\",\"/guides\",\"/sitemap.xml\",\"/robots.txt\"\\)\\) { $code = curl.exe -sS -A $ua -o NUL -w \"%{http_code}\" \"https://drm.maipdf.com$p\"; Write-Output \"$p -> $code\" })",
+      "Bash(cd /c/Users/chanz/Documents/GitHub/cloudflareAstro/src/content/blog/en && wc -l how-to-create-offline-pdf-package-complete-guide.md how-to-create-offline-pdf-package-guide.md offline-pdf-package-distribution-best-practices.md offline-pdf-sharing-complete-guide.md offline-vs-online-pdf-sharing-comparison.md offline-vs-online-pdf-sharing-quick-choice.md offline-vs-online-pdf-sharing-visual-comparison.md offline-pdf-drm-mode.md offline-pdf-drm-enterprise-solution.md online-vs-offline-pdf-security.md pdf-offline-html-package.md)",
+      "Read(//c/c/Users/chanz/Documents/GitHub/cloudflareAstro/src/content/blog/en/**)"
+    ]
+  }
+}

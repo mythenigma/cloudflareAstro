@@ -3,18 +3,18 @@ title: "PDF Offline Secure Reading Solution: One-Click HTML Package Generation"
 description: "An offline PDF reading solution for networkless meetings, classrooms, isolated environments, and client material packages, maintaining access control without requiring any software installation."
 pubDate: "Apr 3 2026"
 updatedDate: "Apr 3 2026"
-heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
-tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
+heroImage: "/maipdf2026/offline/inststruct.png"
+tags: ["PDF Security", "Secure Share", "Document Control", "HTML Package", "MaiPDF"]
 ---
 
-# PDF Offline Secure Reading Solution: One-Click HTML Package Generation
+# PDF Secure Sharing Solution: One-Click Locked HTML File
 
 <div class="intro-panel">
-  <p>In many situations—during flights, in underground parking garages, in intranet meeting rooms—we need to read or distribute PDF files without a stable network connection. Traditional approaches either require printing documents in advance or copying entire PDFs to recipients, which is neither environmentally friendly nor maintains control over your content. MaiPDF Offline offers a third path: converting PDFs into offline HTML packages that can be opened anytime while retaining access controls like view count limits and expiration dates.</p>
+  <p>You often need to send a PDF where simply emailing the raw file feels like giving up control: contracts under review, paid sample chapters, internal reports. MaiPDF Secure Share at <a href="https://drm.maipdf.com/">drm.maipdf.com</a> offers a different path — it converts the PDF into a single self-contained locked HTML file with AES-256-GCM encryption, an open-count limit, an expiry date, and optional per-page watermarks. The recipient double-clicks the file, their browser does a one-shot online license check with the server, and the PDF renders inside the page. Revoke or extend access from <code>/manage</code> at any time.</p>
 </div>
 
 
-![View Limit Access Control Decision Flow](/maipdf2026/flowchart/en-access-control-decision.svg)
+![How to use MaiPDF Secure Share](/maipdf2026/offline/inststruct.png)
 
 ## 1️⃣ Why Do We Need Offline Reading Packages?
 
@@ -56,101 +56,100 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
   <p><strong>Core Requirements:</strong> Offline accessibility + Access control + No software installation.</p>
 </div>
 
-## 2️⃣ MaiPDF Offline Solution
+## 2️⃣ What MaiPDF Secure Share Actually Offers
 
 <div class="features-table">
   <table>
     <thead>
       <tr>
         <th>Feature</th>
-        <th>Offline HTML Package Implementation</th>
-        <th>Free/Paid</th>
+        <th>Implementation</th>
+        <th>Available</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>One-click HTML generation</td>
-        <td>Upload PDF → Receive ZIP package (index.html + assets)</td>
-        <td>Free ≤ 100 MB/file</td>
+        <td>One-click locked HTML</td>
+        <td>Upload PDF → server encrypts with AES-256-GCM → you download a single self-contained <code>.html</code></td>
+        <td>Free, up to 65 MB per file</td>
       </tr>
       <tr>
         <td>Access control</td>
-        <td>View count, reading time limit, expiration date</td>
+        <td>Open-count limit (integer, functionally unlimited) + expiry timestamp, both enforced server-side and atomically</td>
         <td>Free</td>
       </tr>
       <tr>
-        <td>Prevent downloading/printing/copying</td>
-        <td>JavaScript interception of menus and keyboard shortcuts</td>
+        <td>Viewer friction</td>
+        <td>Right-click disabled, print dialog neutralized via CSS, blur shield when the tab loses focus</td>
+        <td>Free — but understood as UX friction, not unbreakable barriers</td>
+      </tr>
+      <tr>
+        <td>Per-page watermarks</td>
+        <td>Optional watermark overlay rendered by the viewer on each page</td>
         <td>Free</td>
       </tr>
       <tr>
-        <td>Dynamic watermarking</td>
-        <td>Email / Timestamp / Device fingerprint</td>
-        <td>Free (basic templates)</td>
+        <td>Anti-automation chaff</td>
+        <td>The server returns 12 candidate keys with 11 random decoys to slow AI/bulk scrapers</td>
+        <td>Free, always on</td>
       </tr>
       <tr>
-        <td>Access log transmission</td>
-        <td>Upload IP, time, device when online</td>
-        <td>Free (<10,000 views)</td>
-      </tr>
-      <tr>
-        <td>Batch generation & Brand customization</td>
-        <td>Logo, watermark templates, API</td>
-        <td>Paid Enterprise version</td>
+        <td>License management</td>
+        <td>Anonymous: License ID + 26-char Modification Code at <code>/manage</code>. Signed-in: Google OAuth + dashboard.</td>
+        <td>Free</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## 3️⃣ Three Steps to Generate an Offline Reading Package
+## 3️⃣ Three Steps to Generate a Locked HTML File
 
 <div class="steps-container">
   <div class="step-item">
     <div class="step-number">1</div>
     <div class="step-content">
-      <h3>Upload File</h3>
-      <p>Open browser → Drag and drop PDF → Wait for upload and encryption (AES-256).</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF Upload Interface" class="small">
+      <h3>Upload the PDF</h3>
+      <p>Open <a href="https://drm.maipdf.com/">drm.maipdf.com</a> → drag a PDF (up to 65 MB) onto the upload zone. The file stays in the browser until you click Pack.</p>
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF upload zone" class="small">
     </div>
   </div>
-  
+
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
-      <h3>Set Permissions</h3>
-      <p>View count: 1–999 times</p>
-      <p>Session duration: 1–120 minutes</p>
-      <p>Expiration date: Custom calendar</p>
-      <p>Download/print: Disabled by default, optional enabling</p>
-      <img src="/offlinepages/security_setting.png" alt="Security Settings Interface" class="small">
+      <h3>Set the rules</h3>
+      <p>Open-count limit: any positive integer, or unlimited.</p>
+      <p>Expiration date: a calendar timestamp, or none.</p>
+      <p>Display filename (optional): overrides the title the reader sees inside the viewer.</p>
+      <p>That is the full set of pack-time settings.</p>
+      <img src="/offlinepages/security_setting.png" alt="Pack-time settings" class="small">
     </div>
   </div>
-  
+
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
-      <h3>Download Offline Package</h3>
-      <p>Platform returns .zip → Extract to get index.html + assets/</p>
-      <p>Send offline package or put on USB drive / enterprise cloud storage</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="Offline Package Download Result" class="small">
+      <h3>Pack &amp; download</h3>
+      <p>The server encrypts the PDF with AES-256-GCM, generates a license, and hands you back a single self-contained HTML file like <code>MaiPDF-SecureShare-yourdocument-locked.html</code>. Save the <strong>License ID</strong> and <strong>Modification Code</strong> shown on the result page — the Modification Code is required to manage the license later if you did not sign in with Google.</p>
+      <img src="/offlinepages/result_download_zip_file.png" alt="Locked HTML download" class="small">
     </div>
   </div>
 </div>
 
 <div class="note-box">
-  <p>Recipients don't need to install any app, just double-click index.html to read in their local browser. If their device is online, reading logs will quietly sync to the backend for auditing purposes.</p>
+  <p>Recipients do not install anything. They double-click the HTML, click "Open · Unlock", and the viewer renders the PDF after a one-shot online license check with <code>drm.maipdf.com</code>. There is no purely-offline open path: if the recipient has no internet at all, the file will not open.</p>
 </div>
 
-## 4️⃣ Horizontal Comparison with Traditional Solutions
+## 4️⃣ Side-by-Side With Traditional Solutions
 
 <div class="comparison-table">
   <table>
     <thead>
       <tr>
         <th>Indicator</th>
-        <th>Direct PDF Sharing</th>
-        <th>Dedicated DRM Reader</th>
-        <th>MaiPDF Offline</th>
+        <th>Direct PDF sharing</th>
+        <th>Dedicated DRM reader</th>
+        <th>MaiPDF Secure Share</th>
       </tr>
     </thead>
     <tbody>
@@ -158,37 +157,37 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
         <td>No installation required</td>
         <td>✔</td>
         <td>× Client installation needed</td>
-        <td>✔ Opens directly in browser</td>
+        <td>✔ Opens directly in any modern browser</td>
       </tr>
       <tr>
-        <td>Offline reading</td>
+        <td>Works without internet</td>
         <td>✔</td>
-        <td>Partial (requires offline license)</td>
-        <td>✔ Completely offline</td>
+        <td>Partial (depends on license type)</td>
+        <td>× Internet required at opening time for the license check</td>
       </tr>
       <tr>
         <td>Permission granularity</td>
         <td>×</td>
         <td>Fine</td>
-        <td>Fine (count/duration/expiration)</td>
+        <td>Open-count + expiry, server-side and atomic</td>
       </tr>
       <tr>
-        <td>Reading logs</td>
+        <td>Revoke after delivery</td>
         <td>×</td>
         <td>✔</td>
-        <td>✔ (online transmission)</td>
+        <td>✔ via <code>/manage</code> or the signed-in dashboard</td>
       </tr>
       <tr>
         <td>Cost</td>
         <td>0</td>
-        <td>High (licensing fees)</td>
-        <td>Free to start</td>
+        <td>High (per-seat licensing)</td>
+        <td>Currently free</td>
       </tr>
       <tr>
         <td>Deployment complexity</td>
         <td>Low</td>
         <td>High</td>
-        <td>Low</td>
+        <td>Low — no signup needed</td>
       </tr>
     </tbody>
   </table>
@@ -199,30 +198,30 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
 <div class="use-cases-grid">
   <div class="use-case-card">
     <div class="use-case-icon">📚</div>
-    <h3>Offline Training Materials Distribution</h3>
-    <p>50× views, 60 min duration, download disabled</p>
-    <p>Students can view in class, automatically expires afterwards</p>
+    <h3>Training material distribution</h3>
+    <p>50 opens, expiry set to the day after class</p>
+    <p>Students can view during the session; the file goes inert afterwards</p>
   </div>
-  
+
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
-    <h3>E-book Sample Reading</h3>
-    <p>3× views, 20 min duration, expires in three days</p>
-    <p>Encourages purchase of full version, prevents redistribution</p>
+    <h3>E-book sample chapter</h3>
+    <p>3 opens, expires in three days</p>
+    <p>Encourages purchase of the full version, limits casual redistribution</p>
   </div>
-  
+
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
-    <h3>Isolated Network Report Review</h3>
-    <p>5× views, 30 min duration, download disabled</p>
-    <p>Ensures files remain within internal network</p>
+    <h3>Confidential report review</h3>
+    <p>5 opens, expires when the review window closes, watermark on each page</p>
+    <p>Open count and expiry are revocable in real time from <code>/manage</code></p>
   </div>
-  
+
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
-    <h3>Client Resource Package</h3>
-    <p>7-day expiration, watermark shows device information</p>
-    <p>Easy for clients to read while ensuring document security</p>
+    <h3>Client resource package</h3>
+    <p>7-day expiry, per-page watermark</p>
+    <p>Clients open the file in a browser; you can extend or pause access without resending</p>
   </div>
 </div>
 
@@ -231,37 +230,37 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
 <div class="faq-section">
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q1: Can offline packages be indexed by search engines?</strong></p>
+      <p><strong>Q1: Can the locked HTML file be indexed by search engines?</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A: Offline packages don't rely on the internet, so search engines cannot access local files. When sharing online links, random tokens of ≥32 bits are used, preventing indexing.</p>
+      <p>A: The file is a local artifact you choose to share, so search engines do not see it unless you publish it on a public web server. The license itself uses a long random License ID, so guessing it is impractical.</p>
     </div>
   </div>
-  
+
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q2: Will logs be lost if recipients never connect to the internet?</strong></p>
+      <p><strong>Q2: What if the recipient has no internet at all?</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A: Logs are first saved locally in the browser, then automatically transmitted when the device next connects to the internet.</p>
+      <p>A: The file will not open. Opening always performs a license check against <code>drm.maipdf.com</code>; without that check, the encrypted PDF stays encrypted. There is no purely-offline mode. If you need air-gapped distribution, this product is not the right tool.</p>
     </div>
   </div>
-  
+
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q3: What if my file is very large (>100 MB)?</strong></p>
+      <p><strong>Q3: What if my file is larger than 65 MB?</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A: You can first compress images or split the document into chapters. For higher limits, contact us about the Enterprise version.</p>
+      <p>A: The current limit is 65 MB per PDF — a Cloudflare Workers platform body-size limit, not an arbitrary product cap. You can compress images, downsample scans, or split the document into chapters and pack each part separately.</p>
     </div>
   </div>
-  
+
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q4: Can the offline package be edited secondarily?</strong></p>
+      <p><strong>Q4: Can the locked HTML be edited or repacked by the recipient?</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A: HTML and resource files are encrypted. Manual modifications will cause validation failure, preventing the package from opening.</p>
+      <p>A: The encrypted PDF inside the HTML is bound to a server-side license; modifying the file breaks decryption and produces a permanently inert artifact. Note, however, that a determined recipient with browser developer tools could in principle capture the decrypted PDF stream during a successful open. The product is candid about this trade-off — see the threat model on the <code>/help</code> page.</p>
     </div>
   </div>
 </div>
@@ -269,7 +268,8 @@ tags: ["PDF Security", "Offline Reading", "Document Control", "HTML Package"]
 ## Conclusion
 
 <div class="conclusion-panel">
-  <p>The MaiPDF Offline reading package solution provides offline reading and security control capabilities without requiring any software installation. For scenarios that frequently need to distribute documents in offline environments while maintaining control, it offers an ideal balance: easy for recipients to read while preserving the sender's control over the content.</p>
+  <p>MaiPDF Secure Share is a sender-controlled distribution tool, not a magic "offline reader." It hands the reader a single HTML file that is easy to open, but every open is gated by a one-shot online license check you can revoke, pause, or extend afterwards. The right way to think about it is: you keep authority over the file even after it has left your machine — and the product is honest about the limits of browser-based DRM against determined extraction or screenshot capture.</p>
+  <p style="margin-top: 0.75rem"><strong>Try it:</strong> open <a href="https://drm.maipdf.com/">drm.maipdf.com</a>, drop a PDF, click <em>Pack &amp; Download</em>. No signup needed.</p>
 </div>
 
 ---
