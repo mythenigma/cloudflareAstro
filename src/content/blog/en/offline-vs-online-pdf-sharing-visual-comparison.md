@@ -8,20 +8,27 @@ tags: ["Offline PDF", "Online Sharing", "PDF Security", "Diagrams"]
 # Locked HTML vs. Online PDF Sharing (Visual Comparison)
 
 <div class="intro-panel">
-  <p>Online sharing is best for live updates and per-open analytics. A locked HTML package is best when the file itself needs to live with the recipient — both need a network connection to enforce rules.</p>
+  <p>Online sharing is best for <strong>live updates and per-open analytics</strong>. A locked HTML package is best when the file itself needs to live with the recipient. Neither path is truly offline — both rely on a network check to enforce rules.</p>
 </div>
 
 ![File-vs-link PDF comparison](/diagram/en/offline-vs-online-pdf-comparison.svg)
 
-## Choose online when you need
+## Side-by-side
 
-- Identity verification, view limits, expiry
-- Detailed per-open logs and analytics
-- The ability to swap the file content without re-sending
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4>🔗 Online sharing</h4>
+    <p><strong>What travels:</strong> a short link or QR code.</p>
+    <p><strong>Strengths:</strong> identity verification, view limits, expiry, detailed open logs, swap the file content without re-sending.</p>
+  </div>
+  <div class="feature-item">
+    <h4>📁 Locked HTML package</h4>
+    <p><strong>What travels:</strong> a single self-contained file (laptop, USB, attachment).</p>
+    <p><strong>Strengths:</strong> sender-side control travels with the artifact; predictable browser-based reading with internet only needed at open time.</p>
+  </div>
+</div>
 
-## Choose a locked HTML package when you need
-
-- A single self-contained file to distribute (laptop, USB, attachment)
-- Sender-side control that travels with the artifact
-- Predictable browser-based reading on the recipient's device (with internet at open time)
+<div class="intro-panel">
+  <p><strong>Try them:</strong> <a href="https://maipdf.com/">maipdf.com</a> for online links · <a href="https://drm.maipdf.com/">drm.maipdf.com</a> for locked HTML packages.</p>
+</div>
 

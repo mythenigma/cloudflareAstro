@@ -9,18 +9,31 @@ tags: ["Offline PDF", "Package Distribution", "Document Sharing", "Offline Shari
 # Locked HTML Package Distribution: Best Practices for Secure Document Sharing
 
 <div class="intro-panel">
-  <p>Most distribution issues with locked HTML packages come from weak release process, not from packing itself.</p>
+  <p>Most distribution issues with locked HTML packages come from <em>weak release process</em>, not from packing itself. Treat distribution like a small release: version, owner, channel, and an explicit assumption about network access at open time.</p>
 </div>
 
 ![Locked HTML download](/offlinepages/result_download_zip_file.png)
 
 ## Pre-distribution checklist
 
-- Confirm the packed version and that you can still open it yourself.
-- Confirm recipient list and delivery channel.
-- Define the validity window (open count + expiry) and the update owner.
-- Confirm recipients will have internet access at open time — the license check needs it.
-- Prepare a one-paragraph recipient instruction.
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4>Open the file yourself first</h4>
+    <p>Confirm the packed version actually opens end-to-end before sending it to anyone.</p>
+  </div>
+  <div class="feature-item">
+    <h4>Define the validity window</h4>
+    <p>Decide open count + expiry up-front. Name the update owner who can revoke or extend later.</p>
+  </div>
+  <div class="feature-item">
+    <h4>Confirm network at open time</h4>
+    <p>Recipients need internet when they open the file — the license check requires it.</p>
+  </div>
+  <div class="feature-item">
+    <h4>Prepare one-paragraph instructions</h4>
+    <p>Tell them: save the file, unzip if needed, double-click the HTML, click Open · Unlock.</p>
+  </div>
+</div>
 
 ## Distribution methods
 
@@ -32,19 +45,55 @@ tags: ["Offline PDF", "Package Distribution", "Document Sharing", "Offline Shari
 
 ## Recipient instruction template
 
-1. Save the file you received locally.
-2. If your OS does not auto-extract, unzip the thin wrapper to reach the HTML inside.
-3. Double-click the HTML to open it in a browser.
-4. Make sure you have an internet connection — the viewer does a one-shot license check on open.
-5. Use the provided support contact if the file shows "License not found" or "exhausted".
+<div class="steps-container">
+  <div class="step-card">
+    <div class="step-number">1</div>
+    <h3>Save the file locally</h3>
+    <p>Download or copy it from wherever you received it — email, shared drive, USB.</p>
+  </div>
+  <div class="step-card">
+    <div class="step-number">2</div>
+    <h3>Unzip if needed</h3>
+    <p>If your OS does not auto-extract, unzip the thin wrapper to reach the HTML file inside.</p>
+  </div>
+  <div class="step-card">
+    <div class="step-number">3</div>
+    <h3>Open in a browser</h3>
+    <p>Double-click the HTML. Click "Open · Unlock" in the protected view that appears.</p>
+  </div>
+  <div class="step-card">
+    <div class="step-number">4</div>
+    <h3>Confirm internet</h3>
+    <p>The viewer does a one-shot license check on open. Without internet at that moment, the file will not open.</p>
+  </div>
+  <div class="step-card">
+    <div class="step-number">5</div>
+    <h3>Contact support if blocked</h3>
+    <p>If you see "License not found" or "exhausted", reach out to the sender — they can extend or reissue.</p>
+  </div>
+</div>
 
 ## Frequent failure modes
 
-- Mixed versions sent to different recipients.
-- Missing or wrong open instructions (recipient tries to open inside the ZIP without extracting).
-- No owner for revocations and re-issues.
-- Distributing to an environment with no internet at all — the license check will fail and the file will not open.
+<div class="feature-grid">
+  <div class="feature-item">
+    <h4>⚠️ Mixed versions in flight</h4>
+    <p>Different recipients hold different packed versions; some get revoked content. Repack and reissue one canonical version.</p>
+  </div>
+  <div class="feature-item">
+    <h4>⚠️ Recipient opens inside the ZIP</h4>
+    <p>The file fails to open. Tell them explicitly to extract first.</p>
+  </div>
+  <div class="feature-item">
+    <h4>⚠️ No owner for revocations</h4>
+    <p>The Modification Code is lost or unowned, leaving no way to revoke. Park it in a managed location.</p>
+  </div>
+  <div class="feature-item">
+    <h4>⚠️ Air-gapped recipient</h4>
+    <p>Distributing to an environment with zero internet means the license check will always fail. Plan around this up-front.</p>
+  </div>
+</div>
 
-## Bottom line
-
-Locked HTML distribution should be treated like release management: controlled versioning, clear owner, clear recipient path, and an explicit assumption about network access at open time.
+<div class="intro-panel">
+  <p><strong>Bottom line:</strong> Locked HTML distribution should be treated like release management — controlled versioning, clear owner, clear recipient path, and an explicit assumption about network access at open time. Pack once on <a href="https://drm.maipdf.com/">drm.maipdf.com</a>, distribute through approved channels, and manage the license life-cycle from <code>/manage</code> or the dashboard.</p>
+</div>
