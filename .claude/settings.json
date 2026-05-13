@@ -8,7 +8,10 @@
       "PowerShell($ua = \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\"; foreach \\($p in @\\(\"/help\",\"/blog\",\"/docs\",\"/articles\",\"/learn\",\"/guides\",\"/sitemap.xml\",\"/robots.txt\"\\)\\) { $code = curl.exe -sS -A $ua -o NUL -w \"%{http_code}\" \"https://drm.maipdf.com$p\"; Write-Output \"$p -> $code\" })",
       "Bash(cd /c/Users/chanz/Documents/GitHub/cloudflareAstro/src/content/blog/en && wc -l how-to-create-offline-pdf-package-complete-guide.md how-to-create-offline-pdf-package-guide.md offline-pdf-package-distribution-best-practices.md offline-pdf-sharing-complete-guide.md offline-vs-online-pdf-sharing-comparison.md offline-vs-online-pdf-sharing-quick-choice.md offline-vs-online-pdf-sharing-visual-comparison.md offline-pdf-drm-mode.md offline-pdf-drm-enterprise-solution.md online-vs-offline-pdf-security.md pdf-offline-html-package.md)",
       "Read(//c/c/Users/chanz/Documents/GitHub/cloudflareAstro/src/content/blog/en/**)",
-      "Bash(curl.exe -sS -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" https://drm.maipdf.com/flatten -o /tmp/drm_flatten.html)"
+      "Bash(curl.exe -sS -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" https://drm.maipdf.com/flatten -o /tmp/drm_flatten.html)",
+      "Bash(curl.exe -sS -A 'Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36' -o /dev/null -w '%{http_code}' https://__TRACKED_VAR__/ --max-time 8)",
+      "Bash(cd /c/Users/chanz/Documents/GitHub/cloudflareAstro/src/content/blog/cn && wc -l how-to-create-offline-pdf-package-guide.md offline-pdf-drm-mode.md offline-pdf-sharing-complete-guide.md offline-vs-online-pdf-sharing-comparison.md online-vs-offline-pdf-security.md pdf-offline-html-package.md offline-pdf-drm-workflow-guide.md offline-pdf-drm-enterprise-solution.md)",
+      "Read(//c/c/Users/chanz/Documents/GitHub/cloudflareAstro/src/content/blog/cn/**)"
     ]
   }
 }

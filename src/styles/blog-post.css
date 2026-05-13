@@ -186,7 +186,8 @@
   letter-spacing: 0.04em;
   padding: 0.85rem 1rem;
   text-align: left;
-  white-space: nowrap;
+  /* white-space: nowrap removed — long multi-word headers were starving
+     trailing columns of width and forcing 1-char-per-line wrapping. */
   border: none;
 }
 
@@ -214,17 +215,18 @@
   white-space: normal;
 }
 
-/* First column is a short label — keep it on one line */
+/* First column is a label — bold + bounded min-width. Allow wrapping
+   so realistic multi-word labels don't kill trailing columns' widths. */
 .content-wrapper tbody td:first-child {
   font-weight: 600;
   color: #1e293b;
-  white-space: nowrap;
   min-width: 8rem;
 }
 
 .content-wrapper tbody tr:last-child td {
   border-bottom: none;
 }
+
 
 /* "Yes/No" badge style for short cell values */
 .content-wrapper tbody td strong {

@@ -1,186 +1,187 @@
 ---
-title: "在线外链 vs 联网鉴权离线包：选对 PDF 加密分享模式的终极指南"
-description: "深入对比基于云端的 PDF 分享和离线 DRM 包，帮助您为文档分发需求选择最佳安全模型。"
+title: "Online Share vs Secure Share：选对 PDF 保护模型"
+description: "深入对比 MaiPDF Online Share（maipdf.com 云端外链）与 MaiPDF Secure Share（drm.maipdf.com 加锁 HTML 文件），帮助你按文件真实流转方式挑对工具。"
 pubDate: "Jan 17 2026"
-heroImage: "/maipdf-images/security_setting.png"
-tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
+updatedDate: "May 12 2026"
+heroImage: "/maipdf2026/offline/two%20comparison.png"
+tags: ["PDF安全", "Online Share", "Secure Share", "drm.maipdf.com", "MaiPDF"]
 ---
 
-# 在线外链 vs 联网鉴权离线包：选对 PDF 加密分享模式的终极指南
+# Online Share vs Secure Share：选对 PDF 保护模型
 
 <div class="intro-panel">
-  <p>简历、报价单、作品集甚至机密合同——PDF 承载的不只是文件，而是你的时间与信任。一旦流出或被非法转存，后果可能难以挽回。MaiPDF 给出的两条路径——Cloud Share（在线外链/二维码）与DRM HTML（离线包）——表面只是一键切换，背后却是截然不同的安全模型与使用体验。弄清它们的边界，才能让分享既方便又安心。</p>
+  <p>简历、报价单、作品集、机密合同——PDF 承载的不只是文件，还有你的时间与信任。一旦失控，后果难以挽回。MaiPDF 有两个解决相邻但不同问题的产品：<strong>Online Share</strong>（<a href="https://maipdf.com/">maipdf.com</a>，云端托管的 PDF 通过短链查看）与 <strong>Secure Share</strong>（<a href="https://drm.maipdf.com/">drm.maipdf.com</a>，自包含的加锁 HTML 文件，每次打开做服务端 license 校验）。选择不是"更安全还是更不安全"——而是你想控制<em>对链接的访问</em>还是<em>交付后的文件本身</em>。</p>
 </div>
 
-## 一张深度对比表：九大关键维度一目了然
+## 横向对比
 
 <div class="comparison-table">
   <table>
     <thead>
       <tr>
         <th>维度</th>
-        <th>Cloud Share（在线外链/二维码）</th>
-        <th>DRM HTML（离线包，需联网鉴权）</th>
+        <th>Online Share（maipdf.com）</th>
+        <th>Secure Share（drm.maipdf.com）</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>文件存放</td>
-        <td>MaiPDF 云端托管</td>
-        <td>HTML 文件保存在本地/U 盘</td>
+        <td>发出去的是什么</td>
+        <td>一个短链（或二维码）</td>
+        <td>一个自包含的加锁 <code>.html</code> 文件</td>
       </tr>
       <tr>
-        <td>首次上传</td>
-        <td>本地→云端</td>
-        <td>本地→云端→生成 HTML→下载</td>
+        <td>PDF 存在哪里</td>
+        <td>MaiPDF 云端托管，通过短链在浏览器查看</td>
+        <td>加密内嵌在收件人手里的 HTML 文件中；服务端只存 license 记录和一半的密钥</td>
       </tr>
       <tr>
         <td>打开时网络要求</td>
-        <td>全程联网</td>
-        <td>每次打开都需访问 MaiPDF 服务器校验</td>
+        <td>阅读全程需联网</td>
+        <td>打开时一次性回调校验 license；<strong>不存在纯离线模式</strong></td>
       </tr>
       <tr>
-        <td>权限可变性</td>
-        <td>随时撤销/追加阅读次数、替换文件</td>
-        <td>权限写死在服务器记录内，只能追加阅读次数</td>
+        <td>加密方式</td>
+        <td>传输与存储加密</td>
+        <td>AES-256-GCM、分片密钥模型；PDF 本体不在服务器持久化</td>
       </tr>
       <tr>
-        <td>追踪统计</td>
-        <td>实时查看 访客标识、地区、设备、时间</td>
-        <td>只能在服务器查看剩余次数/到期日</td>
+        <td>交付后控制</td>
+        <td>随时撤销/暂停/延期；也可替换底层 PDF</td>
+        <td>随时撤销/暂停/延期、增加打开次数（在 <code>/manage</code> 或 dashboard）；<strong>不能替换 PDF 内容</strong>——要重新打包</td>
       </tr>
       <tr>
-        <td>安全级别</td>
-        <td>传输+存储加密，对象权限实时可控</td>
-        <td>文件留在本地，复制再多也要联网验证才能开</td>
+        <td>每次打开的服务端记录</td>
+        <td>实时记录 IP、地区、设备、时间</td>
+        <td>原子校验打开次数与过期；逐次访客遥测更轻量</td>
       </tr>
       <tr>
-        <td>速度体验</td>
-        <td>首次加载取决于网速</td>
-        <td>首次打开快（本地），验证通过即渲染</td>
+        <td>收件人体验</td>
+        <td>点链接 → 在浏览器阅读</td>
+        <td>双击 HTML → 点 "Open · Unlock" → 在浏览器阅读</td>
       </tr>
       <tr>
-        <td>典型场景</td>
-        <td>线上投递、社群裂变、远程评审</td>
-        <td>制造厂房、展会 U 盘派发、涉密审稿</td>
-      </tr>
-      <tr>
-        <td>适合人群</td>
-        <td>个人、自由职业者、小型团队</td>
-        <td>对"文件不留云端"要求高且现场有网络的企业/机构</td>
+        <td>最佳场景</td>
+        <td>日常文档、频繁更新的草稿、需要详细打开分析</td>
+        <td>敏感或付费内容、希望文件交付后发送方仍保有权力</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## Cloud Share：在线外链的工作原理与使用细节
+## Online Share：在线外链的工作原理
 
 <div class="method-section">
   <h3>1. 上传即生成短链 / QR</h3>
-  <p>拖拽 PDF 至网站，系统返回一个加密 URL 与二维码。</p>
-  <h3>2. 实时权限回收</h3>
+  <p>把 PDF 拖到 <a href="https://maipdf.com/">maipdf.com</a>，系统存档并返回一个短 URL 与二维码。</p>
+  <h3>2. 实时权限可控</h3>
   <ul>
-    <li>修改阅读次数、失效时间，甚至直接替换 PDF 而短链不变</li>
-    <li>误发后可立即"Kill Link"，对方刷新即失效</li>
+    <li>随时修改打开次数、过期时间，甚至直接替换底层 PDF 而短链不变</li>
+    <li>如果链接发错人，立即撤销——下次刷新即被拒</li>
   </ul>
-  <h3>3. 行为追踪</h3>
-  <p>后台日志记录 访客标识、地区、设备型号与打开时间，可导出 CSV。</p>
-  <h3>4. 增强防护</h3>
+  <h3>3. 打开分析</h3>
+  <p>后台为每次打开记录 IP、地区、设备、时间。</p>
+  <h3>4. 查看器阻力（不是硬屏障）</h3>
   <ul>
-    <li>屏幕键监控（禁 F12、Ctrl+S、右键）</li>
-    <li>光标移出阅读框自动蒙版</li>
-    <li>选配动态浮水印、一次性邮箱验证码</li>
+    <li>禁用右键、CSS 中和打印</li>
+    <li>可选每页水印</li>
   </ul>
+  <p style="margin-top: 0.5rem; color: #6b7280; font-size: 0.95rem">有耐心的读者用浏览器开发者工具可以截获已解密的页面；水印提供取证线索，但不能阻断。</p>
 </div>
 
 <div class="pro-con-section">
   <div class="pro-section">
     <h3>优势</h3>
     <ul>
-      <li>不需要收回文件，只改云端权限即可</li>
-      <li>任何设备有浏览器即可读，无需安装</li>
-      <li>适合频繁更新版本或需统计阅读数据的营销/设计/教育场景</li>
+      <li>不需要重新发送：直接换文件、改权限即可</li>
+      <li>任意带浏览器的设备即可读——无需账号、无需安装</li>
+      <li>适合频繁更新的草稿、需要详细打开分析的场景</li>
     </ul>
   </div>
   <div class="con-section">
-    <h3>局限</h3>
+    <h3>取舍</h3>
     <ul>
-      <li>离线无法访问，地铁、机舱等弱网场合体验差</li>
-      <li>文件存于云端，虽有加密，但对极度敏感材料仍需企业合规把关</li>
+      <li>需要全程联网——飞机、地铁、受限网络体验差</li>
+      <li>PDF 存在 MaiPDF 服务器上，高合规场景需要先评估</li>
     </ul>
   </div>
 </div>
 
-## DRM HTML：本地文件 + 联网鉴权的混合模式
+## Secure Share：加锁 HTML 的工作原理
 
 <div class="method-section">
-  <h3>1. 本地化存储</h3>
-  <p>系统先上传 PDF 做加壳处理，再生成带 JS 的 HTML，打包回你电脑。</p>
-  <h3>2. 联网即验证</h3>
-  <p>HTML 内嵌脚本在每次打开时调用 MaiPDF API，比对阅读次数与到期日。验证失败即显示"Access Denied"。</p>
-  <h3>3. 拷贝不失控</h3>
-  <p>不论复制多少份，服务器只认"阅读码"，超过设定次数全部锁死。</p>
-  <h3>4. 修改权限的唯一通道</h3>
-  <p>只能通过官网「DRM Check/Update」页面输入修改码追加次数，无法替换文件内容。</p>
+  <h3>1. 一次性打包在 drm.maipdf.com</h3>
+  <p>上传 PDF（≤ 65 MB），设置打开次数与过期，服务端用 AES-256-GCM 加密、生成 license，回返一个自包含的加锁 HTML 文件。</p>
+  <h3>2. 每次打开都做服务端校验</h3>
+  <p>收件人点击"Open · Unlock"时，HTML 内的查看器回调 <code>drm.maipdf.com</code> 校验 license、原子递减打开次数、确认未过期。校验失败显示"License has been revoked." 等。</p>
+  <h3>3. 复制不会绕过 license</h3>
+  <p>HTML 可被复制无数份，但服务端只认一个 license——次数耗尽后所有副本同时停摆。</p>
+  <h3>4. 两种管理路径</h3>
+  <ul>
+    <li><strong>匿名：</strong>保存打包后显示的 License ID + 26 位 Modification Code，在 <code>/manage</code> 加次数、延期、暂停、恢复或删除——无需登录。</li>
+    <li><strong>登录态：</strong>打包前用 Google 登录，每个 license 自动出现在 <code>/dashboard</code>，一键管理无需粘贴码。</li>
+  </ul>
+  <p style="margin-top: 0.5rem; color: #6b7280; font-size: 0.95rem">已打包的文件内容不能事后修改——纠正错字需要重新打包并撤销旧 license。</p>
 </div>
 
 <div class="pro-con-section">
   <div class="pro-section">
     <h3>优势</h3>
     <ul>
-      <li>文件本体可放在内网文件服务器或仅随 U 盘分发，数据不留云端</li>
-      <li>首屏渲染速度快，适合大文件或弱网地区</li>
-      <li>符合"资料不得存公有云"政策的企业审计要求</li>
+      <li>文件就在收件人手里（内网、U 盘、邮件附件），你仍保有撤销与延期的权力</li>
+      <li>PDF 本体不在 MaiPDF 服务器持久化，只保留 license 行与一半的密钥</li>
+      <li>适合"交付后仍可控"的强约束场景</li>
     </ul>
   </div>
   <div class="con-section">
-    <h3>局限</h3>
+    <h3>取舍</h3>
     <ul>
-      <li>完全断网时打不开，需要临时热点或代理做一次握手</li>
-      <li>无法实时统计阅读行为，只能看剩余次数</li>
-      <li>无法"线上改错字"，内容一经生成不可再替换</li>
+      <li>打开时收件人必须联网——Secure Share 不是气隔工具</li>
+      <li>逐次访客遥测比 Online Share 简略：你看到的是剩余次数与过期状态，而不是每个读者的 IP 日志</li>
+      <li>不能"线上改错字"——纠错需要重新打包一份</li>
     </ul>
   </div>
 </div>
 
-## 选型指南：用一句话锁定你的场景
+## 一句话选型
 
 <div class="decision-guide">
   <ul>
-    <li><strong>我想随时改权限、看谁看过 → 选 Cloud Share</strong></li>
-    <li><strong>我必须把文件留在自己手里，但现场能上网 → 选 DRM HTML</strong></li>
-    <li><strong>我连网络也没有/不准外联 → 考虑传统本地加密软件或加密硬盘</strong>（MaiPDF 目前不支持完全离线运行）</li>
+    <li><strong>我想随时改权限、看谁打开过 → Online Share</strong>（<a href="https://maipdf.com/">maipdf.com</a>）</li>
+    <li><strong>文件必须跟着收件人走，但我仍要事后撤销/延期 → Secure Share</strong>（<a href="https://drm.maipdf.com/">drm.maipdf.com</a>）</li>
+    <li><strong>收件人完全没网 → 两个产品都不合适。</strong>Online Share 全程需联网，Secure Share 打开时需联网。真正的气隔分发请用本地加密工具或加密硬盘。</li>
   </ul>
 </div>
 
-## 实战 Tips
+## 实用 Tips
 
 <div class="tips-table">
   <table>
     <thead>
       <tr>
-        <th>方案</th>
-        <th>加强安全的小技巧</th>
+        <th>产品</th>
+        <th>实用建议</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Cloud Share</td>
+        <td>Online Share</td>
         <td>
           <ul>
-            <li>设置一次性邮箱验证码，防止外链被转发</li>
-            <li>开启动态浮水印显示访问 访客标识</li>
-            <li>将短链嵌到企业邮箱模板，回收权限更直观</li>
+            <li>分享有泄漏风险的材料时开启每页水印——水印是取证线索，不是阻断手段</li>
+            <li>默认设置较短过期；超时再延期，而不是创建无过期链接</li>
+            <li>敏感链接建议一人一链，分析数据会告诉你谁打开了什么</li>
           </ul>
         </td>
       </tr>
       <tr>
-        <td>DRM HTML</td>
+        <td>Secure Share</td>
         <td>
           <ul>
-            <li>发送前用 7-Zip 加密码再传 U 盘，双重保险</li>
-            <li>如果客户网络受限，可在展示现场自备 4G 路由做授权</li>
-            <li>开一个"仅 1 次阅读"临时文件，用完即废，防止文件长期漂流</li>
+            <li>如果用 Google 登录打包，无需单独保存 Modification Code——dashboard 通过登录态证明所有权</li>
+            <li>匿名打包请<strong>先把 Modification Code 存进密码管理器</strong>再离开结果页。无登录时遗失无法恢复</li>
+            <li>事先确认收件人在打开时有网络访问。<strong>没有纯离线模式。</strong></li>
+            <li>"仅 1 次阅读"用法：次数设 1、过期设短——标签页保持打开不消耗次数，关掉再开会消耗</li>
           </ul>
         </td>
       </tr>
@@ -191,15 +192,16 @@ tags: ["PDF安全", "文档分享", "DRM保护", "云安全"]
 ## 结语
 
 <div class="conclusion-panel">
-  <p>没有万能的加密方式，只有最适合的工作流。想要"文件不落地"又要"权限秒回收"几乎不可能兼得。搞清楚文件在何处存放、谁会打开、用何种网络，是你做决策的关键。希望本文能帮你在 Cloud Share 与 DRM HTML 之间快速定位最优解，既把文件送达，也把风险挡在门外。</p>
+  <p>没有万能的加密方式，只有最适合的工作流。Online Share 适合需要短链 + 实时更新 + 详尽分析的场景；Secure Share 适合"文件交付后发送方仍保有权力"的场景。两个产品都坦诚承认浏览器 DRM 的局限——有耐心的读者用开发者工具可截获已解密的页面，手机对着屏幕拍照也无法防止。选对工具、配合较短过期与水印，比寄望于"绝对防泄漏"现实得多。</p>
+  <p style="margin-top: 0.75rem"><strong>立即体验：</strong>Online Share 在 <a href="https://maipdf.com/">maipdf.com</a>，Secure Share 在 <a href="https://drm.maipdf.com/">drm.maipdf.com</a>。都免费，都不需要注册。</p>
 </div>
 
 <div class="related-articles">
   <h3>相关推荐</h3>
   <ul>
-    <li><a href="../../cn/pdf-offline-html-package/">PDF 离线安全阅读解决方案：一键式HTML包生成</a></li>
-    <li><a href="../../cn/dynamic-watermarks-on-pdf/">PDF动态水印：精确跟踪阅读行为</a></li>
-    <li><a href="../../cn/mobile-verification-document-security/">邮箱验证：增强PDF文档访问安全</a></li>
+    <li><a href="../../cn/pdf-offline-html-package/">PDF 安全分享方案：一键生成自包含的加锁 HTML 文件</a></li>
+    <li><a href="../../cn/offline-pdf-drm-mode/">MaiPDF Secure Share（加锁 HTML 包）：drm.maipdf.com 的 PDF 控权方案</a></li>
+    <li><a href="../../cn/dynamic-watermarks-on-pdf/">PDF 动态水印：精确跟踪阅读行为</a></li>
   </ul>
 </div>
 

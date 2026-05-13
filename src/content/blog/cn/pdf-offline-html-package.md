@@ -1,15 +1,16 @@
 ---
-title: "PDF 离线安全阅读新方案：一键生成 HTML 阅读包"
-description: "适用于无网络会议、课堂授课、隔离环境审阅与客户资料包的离线 PDF 阅读解决方案，保留权限控制且无需安装任何软件。"
+title: "PDF 安全分享方案：一键生成自包含的加锁 HTML 文件"
+description: "MaiPDF Secure Share（drm.maipdf.com）把 PDF 打包成一个自包含的加锁 HTML，AES-256-GCM 加密、打开次数与过期由服务端原子校验、可选每页水印。打开时需联网做一次性 license 校验。"
 pubDate: "Jan 17 2026"
-heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
-tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
+updatedDate: "May 12 2026"
+heroImage: "/maipdf2026/offline/inststruct.png"
+tags: ["PDF安全", "Secure Share", "drm.maipdf.com", "加锁HTML", "MaiPDF"]
 ---
 
-# PDF 离线安全阅读新方案：一键生成 HTML 阅读包
+# PDF 安全分享方案：一键生成自包含的加锁 HTML 文件
 
 <div class="intro-panel">
-  <p>在许多场合——登机途中、地下车库、内网会议室——没有稳定网络却仍需阅读或分发 PDF 文件。而传统做法要么提前打印，要么把整份 PDF 拷贝给对方，既不环保也失去控制权。MaiPDF Offline 提供了第三条道路：把 PDF 转换为可离线打开的 HTML 包，既能随时阅读，又可保留打开次数与到期日等权限控制。</p>
+  <p>有些场合，你需要把 PDF<strong>直接交到对方手里</strong>而不是让对方点链接：合同审阅、付费样章、内部报告。MaiPDF Secure Share（<a href="https://drm.maipdf.com/">drm.maipdf.com</a>）提供另一条路径——把 PDF 打包成一个<strong>自包含的加锁 HTML 文件</strong>：AES-256-GCM 加密、打开次数上限、过期时间、可选每页水印都内置。收件人双击 HTML，浏览器一次性向服务端校验 license，PDF 才在页面里渲染。任何时候都可以从 <code>/manage</code> 撤销或延期。</p>
 </div>
 
 ## 1️⃣ 为什么需要离线阅读包？
@@ -52,87 +53,86 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
   <p><strong>核心需求：</strong> 离线可看 + 权限可控 + 免安装软件。</p>
 </div>
 
-## 2️⃣ MaiPDF Offline 解决方案
+## 2️⃣ MaiPDF Secure Share 的真实能力
 
 <div class="features-table">
   <table>
     <thead>
       <tr>
         <th>功能</th>
-        <th>离线 HTML 包表现</th>
-        <th>免费/付费</th>
+        <th>实现方式</th>
+        <th>可用性</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>一键生成 HTML</td>
-        <td>上传 PDF → 获得压缩包 (index.html + assets)</td>
-        <td>免费 ≤ 100 MB/文件</td>
+        <td>一键生成加锁 HTML</td>
+        <td>上传 PDF → 服务端用 AES-256-GCM 加密 → 下载一个自包含的 <code>.html</code> 文件</td>
+        <td>免费，单文件 ≤ 65 MB</td>
       </tr>
       <tr>
-        <td>权限控制</td>
-        <td>打开次数、单次阅读时长、到期日</td>
+        <td>访问控制</td>
+        <td>打开次数上限（整数，可视为无上限）+ 过期时间戳，服务端原子校验</td>
         <td>免费</td>
       </tr>
       <tr>
-        <td>禁止下载/打印/复制</td>
-        <td>JavaScript 拦截菜单与快捷键</td>
+        <td>查看器阻力</td>
+        <td>禁用右键、CSS 中和打印对话框、标签页失焦时遮蒙</td>
+        <td>免费——但这只是 UX 阻力，不是不可破的屏障</td>
+      </tr>
+      <tr>
+        <td>每页水印</td>
+        <td>查看器在每页上叠加可选水印</td>
         <td>免费</td>
       </tr>
       <tr>
-        <td>动态水印</td>
-        <td>邮箱 / 时间戳 / 设备指纹</td>
-        <td>免费（基础模板）</td>
+        <td>反自动化诱饵</td>
+        <td>服务端返回 12 个候选密钥，其中 11 个是随机诱饵</td>
+        <td>免费，始终开启</td>
       </tr>
       <tr>
-        <td>访问日志回传</td>
-        <td>设备在线时上传 访客标识、时间、设备</td>
-        <td>免费 (<1 万次)</td>
-      </tr>
-      <tr>
-        <td>批量生成 & 品牌定制</td>
-        <td>Logo、水印模板、API</td>
-        <td>付费企业版</td>
+        <td>License 管理</td>
+        <td>匿名：License ID + 26 位 Modification Code，在 <code>/manage</code> 管理；登录：Google OAuth + dashboard</td>
+        <td>免费</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## 3️⃣ 三步生成离线阅读包
+## 3️⃣ 三步生成加锁 HTML
 
 <div class="steps-container">
   <div class="step-item">
     <div class="step-number">1</div>
     <div class="step-content">
-      <h3>上传文件</h3>
-      <p>打开浏览器 → 拖拽 PDF → 等待上传与加密（AES‑256）。</p>
-      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="上传 PDF 界面" class="small">
+      <h3>上传 PDF</h3>
+      <p>打开 <a href="https://drm.maipdf.com/">drm.maipdf.com</a>，把 PDF（≤ 65 MB）拖到上传区。点 Pack 之前，文件只在你浏览器里。</p>
+      <img src="/offlinepages/upload_section_offline_maipdf.png" alt="PDF 上传界面" class="small">
     </div>
   </div>
   <div class="step-item">
     <div class="step-number">2</div>
     <div class="step-content">
-      <h3>设定权限</h3>
-      <p>打开次数：1–999 次</p>
-      <p>单次时长：1–120 分钟</p>
-      <p>到期日：自定义日历</p>
-      <p>下载/打印：默认关闭，可选开启</p>
-      <img src="/offlinepages/security_setting.png" alt="安全设置界面" class="small">
+      <h3>设置规则</h3>
+      <p>打开次数上限：任意正整数，或不限。</p>
+      <p>过期时间戳：日历选择，或不设。</p>
+      <p>显示文件名（可选）：覆盖查看器里给收件人看的标题。</p>
+      <p>这就是全部打包时的设置项。</p>
+      <img src="/offlinepages/security_setting.png" alt="规则设置" class="small">
     </div>
   </div>
   <div class="step-item">
     <div class="step-number">3</div>
     <div class="step-content">
-      <h3>下载离线包</h3>
-      <p>平台返回 .zip→ 解压即得 index.html + assets/</p>
-      <p>发送离线包或放入 U 盘 / 企业网盘</p>
-      <img src="/offlinepages/result_download_zip_file.png" alt="下载离线包结果" class="small">
+      <h3>Pack &amp; Download</h3>
+      <p>服务端用 AES-256-GCM 加密 PDF、生成 license，回返一个自包含 HTML 文件（如 <code>MaiPDF-SecureShare-yourdocument-locked.html</code>）。记得保存结果页显示的 <strong>License ID</strong> 和 <strong>Modification Code</strong>——除非用 Google 登录打包，否则 Modification Code 是后续管理 license 的唯一凭据。</p>
+      <img src="/offlinepages/result_download_zip_file.png" alt="加锁 HTML 下载" class="small">
     </div>
   </div>
 </div>
 
 <div class="note-box">
-  <p>收件人无需安装任何 App，只需双击 index.html，在本地浏览器即可阅读；若设备联网，阅读日志将默默同步到后台便于审计。</p>
+  <p>收件人无需安装任何 App，双击 HTML 即可。点击"Open · Unlock"后，查看器会一次性回调 <code>drm.maipdf.com</code> 校验 license，通过后才解密并渲染 PDF。<strong>不存在纯离线模式</strong>：如果收件人完全断网，文件不会打开。</p>
 </div>
 
 ## 4️⃣ 与传统方案横向对比
@@ -144,7 +144,7 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
         <th>指标</th>
         <th>直接发 PDF</th>
         <th>专用 DRM 阅读器</th>
-        <th>MaiPDF Offline</th>
+        <th>MaiPDF Secure Share</th>
       </tr>
     </thead>
     <tbody>
@@ -152,37 +152,37 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
         <td>免安装</td>
         <td>✔</td>
         <td>× 需安装客户端</td>
-        <td>✔ 浏览器直开</td>
+        <td>✔ 任意现代浏览器直开</td>
       </tr>
       <tr>
-        <td>离线可读</td>
+        <td>无需联网即可阅读</td>
         <td>✔</td>
-        <td>部分 (需离线许可)</td>
-        <td>✔ 完全离线</td>
+        <td>部分（依许可类型而定）</td>
+        <td>× 打开时需联网做 license 校验</td>
       </tr>
       <tr>
         <td>权限粒度</td>
         <td>×</td>
         <td>细</td>
-        <td>细（次数/时长/到期）</td>
+        <td>打开次数 + 过期，服务端原子校验</td>
       </tr>
       <tr>
-        <td>阅读日志</td>
+        <td>事后撤销</td>
         <td>×</td>
         <td>✔</td>
-        <td>✔ (在线回传)</td>
+        <td>✔ 通过 <code>/manage</code> 或登录态 dashboard</td>
       </tr>
       <tr>
         <td>成本</td>
         <td>0</td>
-        <td>高 (授权费)</td>
-        <td>免费起步</td>
+        <td>高（按席授权）</td>
+        <td>当前免费</td>
       </tr>
       <tr>
         <td>部署复杂度</td>
         <td>低</td>
         <td>高</td>
-        <td>低</td>
+        <td>低——无需注册</td>
       </tr>
     </tbody>
   </table>
@@ -193,27 +193,27 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
 <div class="use-cases-grid">
   <div class="use-case-card">
     <div class="use-case-icon">📚</div>
-    <h3>培训讲义离线发放</h3>
-    <p>次数 50×、时长 60 min、禁止下载</p>
-    <p>学员课堂可看，课后自动失效</p>
+    <h3>培训讲义发放</h3>
+    <p>打开 50 次、过期设在课后第二天</p>
+    <p>课堂可看，结束后整体停摆</p>
   </div>
   <div class="use-case-card">
     <div class="use-case-icon">📖</div>
     <h3>电子书样章试读</h3>
-    <p>次数 3×、时长 20 min、到期三天</p>
-    <p>刺激购买正版，防二次传播</p>
+    <p>打开 3 次、到期三天</p>
+    <p>刺激购买正版，限制随手转发</p>
   </div>
   <div class="use-case-card">
     <div class="use-case-icon">🔒</div>
-    <h3>隔离网审阅报告</h3>
-    <p>次数 5×、时长 30 min、禁止下载</p>
-    <p>保证文件不出内网</p>
+    <h3>机密报告审阅</h3>
+    <p>打开 5 次、审阅窗口期内到期、每页带水印</p>
+    <p>从 <code>/manage</code> 实时撤销或延期</p>
   </div>
   <div class="use-case-card">
     <div class="use-case-icon">📋</div>
     <h3>客户资料包</h3>
-    <p>到期 7 天、水印显示设备信息</p>
-    <p>便于客户阅读也确保文件安全</p>
+    <p>到期 7 天、每页水印</p>
+    <p>客户在浏览器里直接打开；你可以不重新发送就延期或暂停访问</p>
   </div>
 </div>
 
@@ -222,34 +222,34 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
 <div class="faq-section">
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q1 离线包会被搜索引擎抓到吗？</strong></p>
+      <p><strong>Q1 加锁 HTML 会被搜索引擎抓到吗？</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A 离线包不依赖互联网，搜索引擎无法访问本地文件。分享在线链接时随机令牌≥32 位，不会被索引。</p>
+      <p>A 文件是你自主分发的本地资产，搜索引擎看不到——除非你把它放到公开 Web 服务器。License ID 本身是长随机串，猜中不切实际。</p>
     </div>
   </div>
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q2 收件人一直不联网，日志会丢失吗？</strong></p>
+      <p><strong>Q2 收件人完全没有网络怎么办？</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A 日志先保存在浏览器本地，等设备下一次联网自动回传。</p>
+      <p>A 文件不会打开。每次"Open · Unlock"都会回调 <code>drm.maipdf.com</code> 校验 license——没有这次握手，加密的 PDF 保持密文状态。<strong>不存在纯离线模式</strong>。如果你需要气隔分发，这不是合适的工具。</p>
     </div>
   </div>
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q3 文件很大 (>100 MB) 怎么办？</strong></p>
+      <p><strong>Q3 文件大于 65 MB 怎么办？</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A 可先压缩图片或拆分章节；如需更大上限可联系企业版。</p>
+      <p>A 当前上限是 65 MB——这是 Cloudflare Workers 平台 body 大小限制，不是产品任意上限。可以压缩图片、降采样扫描件，或拆分章节分别打包。</p>
     </div>
   </div>
   <div class="faq-item">
     <div class="faq-question">
-      <p><strong>Q4 能否二次编辑离线包？</strong></p>
+      <p><strong>Q4 加锁 HTML 能被收件人二次编辑或重新打包吗？</strong></p>
     </div>
     <div class="faq-answer">
-      <p>A HTML 与资源文件已加密，手动修改会导致校验失败而无法打开。</p>
+      <p>A HTML 里的加密 PDF 绑定服务端 license——修改文件会导致解密失败、产生永远无法打开的废文件。但要诚实地说：有耐心的收件人理论上可以用浏览器开发者工具，在成功打开的瞬间截获解密后的 PDF 字节流。产品 <code>/help</code> 页对此完全坦诚。</p>
     </div>
   </div>
 </div>
@@ -257,11 +257,8 @@ tags: ["PDF安全", "离线阅读", "文档控制", "HTML阅读包"]
 ## 结论
 
 <div class="conclusion-panel">
-  <p>MaiPDF Offline 离线阅读包方案在不需要安装任何软件的情况下，提供了文档的离线阅读与安全控制能力。对于频繁需要在无网环境分发文档、又担心传统 PDF 失控的场景，它提供了理想的平衡点：既便于接收方阅读，又保留了发送方的控制权。</p>
-</div>
-
-<div class="cta-section">
-  <a href="https://maipdf.com/pdf/drm.php" class="cta-button">立即尝试 MaiPDF 离线阅读包</a>
+  <p>MaiPDF Secure Share 是<strong>发送方可控的分发工具</strong>，不是什么"离线神器"。它把单个 HTML 文件交给收件人——容易打开，但每次打开都被一次性服务端 license 校验把守，事后可撤销、暂停、延期。正确的心态是：文件已经离开你的电脑，但你仍保有控制权——同时也要诚实承认浏览器 DRM 对开发者工具提取和截屏拍照存在局限。</p>
+  <p style="margin-top: 0.75rem"><strong>立即体验：</strong>打开 <a href="https://drm.maipdf.com/">drm.maipdf.com</a>，拖入 PDF，点 <em>Pack &amp; Download</em>。无需注册。</p>
 </div>
 
 ---
