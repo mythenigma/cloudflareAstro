@@ -8,8 +8,12 @@ Sitemap: https://article.maipdf.com/sitemap-index.xml
 Crawl-delay: 1
 
 # Disallow certain paths
-Disallow: /blog-backup/
-Disallow: /_astro/
+# NOTE: /blog-backup/ and /_astro/ are intentionally NOT blocked.
+#  - Old /blog-backup/ URLs are gone (return 410); they must stay crawlable so
+#    Google can see they're removed and drop them, instead of lingering forever
+#    in "Blocked by robots.txt".
+#  - /_astro/ holds the CSS/JS Google needs to render pages; blocking it hurt
+#    rendering signals.
 Disallow: /node_modules/
 Disallow: /search-index.json
 
