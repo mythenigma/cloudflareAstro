@@ -1,5 +1,6 @@
 import type { MiddlewareHandler } from "astro";
 import { BLOG_LEGACY_REDIRECTS } from "./data/blog-legacy-redirects.mjs";
+import { BLOG_GONE } from "./data/blog-gone.mjs";
 
 // Canonicalize URLs to match astro.config.mjs: trailingSlash: 'never'
 // Astro's trailingSlash config only affects build-time link generation.
@@ -38,6 +39,12 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   if (redirectTarget && redirectTarget !== normalizedPath) {
     url.pathname = redirectTarget;
     return Response.redirect(url.toString(), 301);
+  }
+
+  // Individually removed URLs (deleted in past consolidation rounds, reported as
+  // 404 in Search Console, no current equivalent) → 410 Gone for fast de-indexing.
+  if (BLOG_GONE.has(normalizedPath)) {
+    return new Response(null, { status: 410, statusText: "Gone" });
   }
 
   // Redirect any trailing slash to the non-trailing-slash version

@@ -312,4 +312,23 @@ export const BLOG_LEGACY_REDIRECTS = {
   "/blog/es/zero-cost-pdf-sharing": "/blog/es/share-pdf-online",
   // ===== End Round 5 - ES online maipdf consolidation =====
 
+  // ===== Round 6 - GSC 404 recovery: legacy English-era URLs → current /blog/en/* =====
+  "/en/pdf-online-drm-complete-guide": "/blog/en/pdf-online-drm-complete-guide",
+  "/en/maipdf-complete-workflow-guide-with-diagrams": "/blog/en/maipdf-complete-workflow-guide-with-diagrams",
+  "/en/offline-vs-online-pdf-sharing-comparison": "/blog/en/offline-vs-online-pdf-sharing-comparison",
+  "/en/prevent-pdf-downloads-view-only": "/blog/en/prevent-pdf-downloads-view-only",
+  "/blog/pdf-link-sharing-modern-alternative-email-attachments": "/blog/en/pdf-link-sharing-modern-alternative-email-attachments",
+  "/blog/share-pdf-securely": "/blog/en/share-pdf-securely",
+  "/blog/email-verified-pdf-links": "/blog/en/email-verified-pdf-links",
+  "/blog/pdf-sharing-with-qr-code-complete-guide": "/blog/en/pdf-sharing-with-qr-code-complete-guide",
+  "/blog/pdf-link-control": "/blog/en/pdf-link-control",
+  "/blog/free-online-drm-for-pdf": "/blog/en/free-online-drm-for-pdf",
+  "/blog/benefits-of-pdf-access-control": "/blog/en/benefits-of-pdf-access-control",
+  "/blog/drm-digital-certificate-file-protection-guide": "/blog/en/drm-digital-certificate-file-protection-guide",
+  "/blog/pdf-security-set-view-limits-prevent-unauthorized-access": "/blog/en/pdf-security-set-view-limits-prevent-unauthorized-access",
+  // Renamed-slug recoveries surfaced by the "Alternative page" report
+  "/blog/en/freelancer-portfolio-links-showcase-skills-land-more-clients": "/blog/en/freelancer-portfolio-links-win-more-clients-with-clear-sharing",
+  "/blog/en/how-to-upload-pdf-and-generate-secure-link": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  // ===== End Round 6 - GSC 404 recovery =====
+
 };
