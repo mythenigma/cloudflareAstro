@@ -60,10 +60,6 @@ export const BLOG_LEGACY_REDIRECTS = {
   // ===== Round 4 - DE online maipdf consolidation (2026-04-21) =====
   // ===== End Round 4 - DE online maipdf consolidation =====
 
-  "/blog/ja/first-post": "/blog/ja/share-design-portfolio-with-link",
-  "/blog/ja/pdf-to-qr": "/blog/ja/qr-code-pdf-sharing-made-easy",
-  "/blog/ja/qr-codes-future-digital-distribution": "/blog/ja/qr-codes-for-document-distribution",
-  "/blog/ja/generate-pdf-links-work-any-device": "/blog/ja/pdf-one-click-share-links-maipdf",
   "/blog/es/first-post": "/blog/es/share-design-portfolio-with-link",
   "/blog/es/pdf-to-qr": "/blog/es/qr-code-pdf-sharing-made-easy",
   "/blog/es/qr-codes-future-digital-distribution": "/blog/es/qr-code-pdf-sharing-made-easy",
