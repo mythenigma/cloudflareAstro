@@ -2,14 +2,15 @@
 title: "Modo MaiPDF Offline PDF DRM: Control Seguro de Documentos en Entornos Sin Conexión"
 description: "Conozca la funcionalidad de DRM offline de MaiPDF que permite controlar permisos de acceso a PDF, duración de visualización y operaciones de impresión/copia en entornos sin conexión sin necesidad de lectores especializados."
 pubDate: "Jan 17 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
-tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Archivos"]
+tags: ["Secure Share", ".maipdf", "PDF DRM", "native app"]
 ---
 
-# Modo MaiPDF Offline PDF DRM: Control Seguro de Documentos en Entornos Sin Conexión
+# MaiPDF Secure Share: paquetes .maipdf y app nativa
 
 <div class="intro-panel">
-  <p>En escenarios que requieren un control estricto de acceso a documentos sin conectividad de red garantizada, el modo "Offline PDF DRM" de MaiPDF ofrece a los usuarios una solución completa de seguridad de documentos sin conexión. Este artículo detalla toda la información públicamente disponible sobre esta función, ayudándole a comprender cómo proteger documentos PDF importantes en entornos sin conexión.</p>
+  <p><strong>Actualizado junio 2026.</strong> El flujo recomendado es empaquetar en <code>.maipdf</code> y abrir en la app nativa MaiPDF Secure (prevención de captura a nivel del SO). El empaquetado HTML en navegador sigue disponible como opción ligera.</p>
 </div>
 
 ## 1️⃣ Definición Básica
@@ -17,7 +18,7 @@ tags: ["Seguridad PDF", "DRM de Documentos", "Control Offline", "Cifrado de Arch
 <div class="feature-section">
   <div class="feature-content">
     <p><strong>Legible sin conexión:</strong> Convierte PDFs originales en paquetes HTML independientes que pueden abrirse en una máquina local. Siempre que el navegador local soporte HTML5/JavaScript, se puede leer sin conexión.</p>
-    <p><strong>DRM integrado:</strong> El HTML tiene scripts incorporados que realizan verificaciones de permisos localmente (recuento de vistas, fecha de caducidad, etc.) y registran registros de lectura, similar a Adobe DRM o Locklizard PDC, pero sin requerir lectores especializados.</p>
+    <p><strong>Licencia en servidor:</strong> Cada apertura valida la licencia en <code>drm.maipdf.com</code>. La app nativa añade bloqueo de captura de pantalla donde el sistema lo permite.</p>
   </div>
   <div class="feature-image">
     <img src="/maipdf2026/flowchart/en-access-control-decision.svg" alt="Interfaz de configuración de seguridad MaiPDF" class="medium">

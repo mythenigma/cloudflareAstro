@@ -1,32 +1,19 @@
 ---
-title: "Offline vs Online PDF Sharing: A Quick Choice Guide"
-description: "Choose offline packages or online links in under a minute with this simple comparison."
+title: "MaiPDF sharing: quick choice (June 2026)"
+description: "Link, native .maipdf app, or web HTML pack — pick in under a minute."
 pubDate: "Jan 15 2026"
-tags: ["Offline PDF", "Online Sharing", "PDF DRM", "PDF Security"]
+updatedDate: "Jun 23 2026"
+tags: ["Secure Share", ".maipdf", "PDF DRM", "native app"]
 ---
 
-# Locked HTML vs. Online PDF Sharing: A Quick Choice Guide
-
 <div class="intro-panel">
-  <p>Pick <strong>online</strong> when you want a link with live updates and analytics. Pick a <strong>locked HTML package</strong> when you want the file itself in the recipient's hands. Both still need internet to enforce rules.</p>
+  <p>Need a link with live updates? → <a href="https://maipdf.com/">maipdf.com</a>. Need <strong>prevent screenshot</strong> and a portable file? → <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure app</a>. Recipients refuse installs? → web HTML pack at drm.maipdf.com (browser limits apply).</p>
 </div>
 
-![File-vs-link PDF comparison](/diagram/en/offline-vs-online-pdf-comparison.svg)
+![Sharing models](/diagram/en/offline-vs-online-pdf-comparison.svg)
 
-## At a glance
-
-<div class="feature-grid">
-  <div class="feature-item">
-    <h4>🔗 Online (a link travels)</h4>
-    <p>View limits, expiry, identity verification. Detailed per-open analytics. Swap the underlying file without re-sending.</p>
-  </div>
-  <div class="feature-item">
-    <h4>📁 Locked HTML (a file travels)</h4>
-    <p>One self-contained file to hand over (USB, attachment, internal share). Sender-side control persists after delivery. Browser-based reading with internet at open time.</p>
-  </div>
-</div>
-
-<div class="intro-panel">
-  <p><strong>Try them:</strong> <a href="https://maipdf.com/">maipdf.com</a> for online links · <a href="https://drm.maipdf.com/">drm.maipdf.com</a> for locked HTML packages.</p>
-</div>
-
+| Need | Use |
+|---|---|
+| Fastest send, no install | Online link |
+| OS-level screenshot control | Native `.maipdf` |
+| Attachment, no install | Web HTML pack (legacy) |

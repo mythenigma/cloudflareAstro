@@ -2,15 +2,15 @@
 title: "PDF online DRM (complete guide): controls that work in a browser"
 description: "A practical guide to online PDF DRM-style sharing: view limits, session time, expiration, protected viewer modes, watermarking, verification, optional reading history, and file replacement."
 pubDate: "Apr 1 2026"
-updatedDate: "Apr 11 2026"
-tags: ["PDF DRM","Secure Sharing","Access Control","Workflow"]
+updatedDate: "Jun 23 2026"
+tags: ["PDF DRM","Secure Sharing","Access Control","prevent screenshot"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
 ---
 
 <div class="intro-panel">
-  <p>Picture a <strong>pricing sheet</strong> or <strong>contract draft</strong>: email it once and it lives in inboxes forever. <strong>Browser-first sharing</strong> means one link where you set <strong>expiry</strong>, <strong>open caps</strong>, and optional <strong>verification</strong>—then adjust or replace the file without resending a new attachment chain.</p>
-  <p>“DRM” here means <strong>those rules at the viewer</strong>, not a glossary of vendor acronyms. Below is the control set teams actually use.</p>
+  <p>Picture a <strong>pricing sheet</strong> or <strong>contract draft</strong>: email it once and it lives in inboxes forever. <strong>Browser-first sharing</strong> at <a href="https://maipdf.com/">maipdf.com</a> means one link with <strong>expiry</strong>, <strong>open caps</strong>, and optional <strong>verification</strong>.</p>
+  <p><strong>June 2026:</strong> Browser DRM cannot <strong>prevent screenshot</strong> at the OS level. For that, use <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure app</a>. This guide covers <em>online</em> controls only.</p>
 </div>
 
 ## What you can control online
@@ -98,6 +98,10 @@ flowchart TB
 ## Large access limits caveat
 
 If **Access limit** is above **10,000**, behavior can trend toward an effectively public link and **access records may not be logged**.
+
+## Need prevent screenshot?
+
+Browser controls in this guide do not block OS capture. Use [MaiPDF Secure](/blog/en/prevent-screenshot-pdf-drm-native-app) (`.maipdf` + native app).
 
 ---
 

@@ -125,7 +125,7 @@ You've outgrown free tools when you need:
 - **Digital signatures** — legally binding signatures with certificates
 - **Enterprise access control** — team-wide permission management
 
-For document sharing specifically, MaiPDF handles the gap between "basic cloud storage link" and "enterprise DRM" — giving you access controls, tracking, and management without enterprise complexity or cost.
+For document sharing, MaiPDF spans quick links ([maipdf.com](https://www.maipdf.com)), protected files (`.maipdf` + [Secure app](https://drm.maipdf.com/)), and optional comparison with paid enterprise DRM — see [vs LockLizard](/blog/en/maipdf-secure-vs-locklizard-pdf-drm).
 
 ## Getting Started
 

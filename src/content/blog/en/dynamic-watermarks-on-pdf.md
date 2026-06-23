@@ -2,11 +2,15 @@
 title: "Dynamic Watermarks on PDF — Trace Every Access with MaiPDF"
 description: "How dynamic watermarks on MaiPDF actually work: what gets stamped on every page, how a leaked screenshot traces back to the reader, how to combine with email verification, and when not to use them."
 pubDate: "Apr 3 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/dynamic_water_mark_example.jpg"
-tags: ["PDF Security", "Dynamic Watermarks", "Document Protection", "PDF Sharing", "DRM"]
+tags: ["PDF Security", "Dynamic Watermarks", "Secure Share", "prevent screenshot"]
 showDefaultCta: true
 ---
+
+<div class="intro-panel">
+  <p><strong>June 2026:</strong> Dynamic watermarks <em>trace</em> who leaked a screenshot. They do not <strong>prevent screenshot</strong> in the browser. For OS-level blocking, use <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure</a>.</p>
+</div>
 
 A static watermark says "this is my document." A **dynamic watermark** says "**you, specifically,** saw this page." One is decoration. The other is accountability — and accountability is the part that actually deters redistribution.
 

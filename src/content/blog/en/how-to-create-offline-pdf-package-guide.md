@@ -1,53 +1,46 @@
 ---
-title: "How to Create a Locked HTML PDF Package for Sharing"
-description: "A practical, non-hype guide to packing a PDF into a self-contained locked HTML file, opening it locally, and updating access when the policy changes."
+title: "How to pack a protected PDF (.maipdf or web HTML)"
+description: "Short guide: pack with MaiPDF Secure app (.maipdf) or legacy web HTML at drm.maipdf.com."
 pubDate: "Jan 21 2026"
-tags: ["maipdf", "offline", "pdf"]
+updatedDate: "Jun 23 2026"
+tags: ["Secure Share", ".maipdf", "PDF DRM", "native app"]
+showDefaultCta: false
 ---
 
 <div class="intro-panel">
-  <p>Sometimes you need to put a PDF <em>directly in someone's hands</em> instead of behind a link — restricted networks, training rooms, internal distribution. The answer is to pack the PDF as a <strong>locked HTML file</strong>: one self-contained file the recipient saves and opens in their browser. The viewer does a one-shot online license check at open time, so this is portable, not literally air-gapped.</p>
+  <p>Put a PDF in someone's hands with license rules — not a naked attachment. **Default (2026):** pack as <code>.maipdf</code> in the native app. **Fallback:** web HTML at <a href="https://drm.maipdf.com/pack.html">drm.maipdf.com/pack.html</a>.</p>
 </div>
 
-## At a glance
+## App path
 
 ```mermaid
-flowchart TD
-  A[Upload PDF] --> B[Configure rules]
-  B --> C[Pack & download locked HTML]
-  C --> D[Recipient opens HTML; viewer license-checks online]
+flowchart LR
+  A[PDF in app] --> B[.maipdf]
+  B --> C[Send file]
+  C --> D[Reader opens in MaiPDF Secure]
 ```
 
-## Four steps
+| Step | Action |
+|---|---|
+| 1 | Install from [drm.maipdf.com](https://drm.maipdf.com/) |
+| 2 | Pack with rules (expiry, opens, emails, devices) |
+| 3 | Send `.maipdf` |
+| 4 | Manage licenses in app or dashboard |
 
-<div class="steps-container">
-  <div class="step-card">
-    <div class="step-number">1</div>
-    <h3>Upload the PDF</h3>
-    <p>Drag a PDF onto the upload zone. The file stays in your browser until you click <em>Pack</em>.</p>
-    <img src="/offlinepages/upload_section_offline_maipdf.png" alt="Upload section">
-  </div>
-  <div class="step-card">
-    <div class="step-number">2</div>
-    <h3>Configure rules</h3>
-    <p>Set open count, expiry, and optionally toggle a per-page watermark. That is the full set of pack-time settings.</p>
-    <img src="/offlinepages/security_setting.png" alt="Rule settings">
-  </div>
-  <div class="step-card">
-    <div class="step-number">3</div>
-    <h3>Pack &amp; download</h3>
-    <p>The server encrypts the PDF and returns a single self-contained HTML file (delivered as a thin ZIP wrapper). Save the License ID + Modification Code shown next to the download.</p>
-    <img src="/offlinepages/result_download_zip_file.png" alt="Download result">
-  </div>
-  <div class="step-card">
-    <div class="step-number">4</div>
-    <h3>Recipient opens the HTML</h3>
-    <p>They unzip the wrapper if needed, then double-click the HTML. The viewer hits the licensing endpoint once to validate, and renders the PDF. Internet is required at open time.</p>
-    <img src="/offlinepages/click_html_inside_zip_to_view.png" alt="Open the locked HTML">
-  </div>
-</div>
+## Web HTML path (no install)
 
-<div class="intro-panel">
-  <p><strong>Try it:</strong> open <a href="https://drm.maipdf.com/">drm.maipdf.com</a>, drop a PDF, click <em>Pack &amp; Download</em>. No signup required.</p>
-</div>
+| Step | Action |
+|---|---|
+| 1 | Upload at [pack.html](https://drm.maipdf.com/pack.html) |
+| 2 | Download locked HTML + save License ID / Modification Code |
+| 3 | Recipient opens in browser (network required at unlock) |
 
+## Limits (both paths)
+
+- License check needs internet at open.
+- Web HTML: no OS-level screenshot block.
+- Neither stops a second camera at the screen.
+
+---
+
+**Related:** [Complete sharing models](/blog/en/online-vs-offline-pdf-security)

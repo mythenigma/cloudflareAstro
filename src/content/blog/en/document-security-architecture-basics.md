@@ -34,7 +34,7 @@ Controls how the viewer can interact with the PDF:
 |------|-------------|
 | **DynamoWatermark** | Stamps each page with a dynamic watermark tied to the viewer's session |
 | **SecureView** | View-only; no download, no print |
-| **FenceView** | Screenshot deterrent overlay (discourages but doesn't cryptographically block) |
+| **FenceView** | Screenshot deterrent overlay in browser — does not block OS capture; use MaiPDF Secure app for that |
 | **Unrestricted** | No additional restrictions beyond the link policy |
 
 ### 4. Email Verification

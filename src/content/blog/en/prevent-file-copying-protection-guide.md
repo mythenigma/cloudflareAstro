@@ -2,9 +2,9 @@
 title: "How to Prevent PDF Copying and Redistribution"
 description: "A practical guide to preventing PDF file copying: disable download, restrict text selection, add watermarks, and create accountability through email gates and access logs."
 pubDate: "Apr 3 2026"
-updatedDate: "Apr 10 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png"
-tags: ["PDF copy protection", "file security", "document protection", "watermark", "MaiPDF"]
+tags: ["PDF copy protection", "Secure Share", "document protection", "watermark"]
 showDefaultCta: true
 ---
 
@@ -12,6 +12,7 @@ showDefaultCta: true
 
 <div class="intro-panel">
   <p>"Copying" a PDF means different things: downloading the file, copy-pasting the text, printing it, or forwarding it to someone else. Each requires a different control. Here's how they map.</p>
+  <p><strong>June 2026:</strong> Browser controls below. System screenshots need <a href="https://drm.maipdf.com/">MaiPDF Secure</a> — see <a href="/blog/en/prevent-screenshot-pdf-drm-native-app">prevent screenshot guide</a>.</p>
 </div>
 
 ## Types of copying and what stops each

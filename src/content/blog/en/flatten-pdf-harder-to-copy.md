@@ -2,7 +2,8 @@
 title: "PDF Flatten on drm.maipdf.com: Stop Casual Copy/Paste, Not Real Threats"
 description: "drm.maipdf.com/flatten converts a PDF's text layer into images so normal viewers can't Ctrl+A select text. Honest low-tier protection — 100% client-side, no upload. Not encryption."
 pubDate: "May 12 2026"
-tags: ["MaiPDF", "Secure Share", "PDF Flatten", "Client-Side", "Privacy"]
+updatedDate: "Jun 23 2026"
+tags: ["MaiPDF", "Secure Share", ".maipdf", "PDF Flatten"]
 ---
 
 # PDF Flatten on drm.maipdf.com: Stop Casual Copy/Paste, Not Real Threats
@@ -17,7 +18,7 @@ tags: ["MaiPDF", "Secure Share", "PDF Flatten", "Client-Side", "Privacy"]
   <p style="font-size: 1.15rem; text-align: center; margin: 0"><em>"Many people only need to stop casual copy/paste — not hide nuclear secrets."</em></p>
 </div>
 
-If that's the problem you have — a quoted price, a draft you don't want skimmed into a spreadsheet, a form with prefilled values you don't want extracted as text — flatten is the right shape. If your problem is "this document must not leak," reach for the locked-HTML packing flow on the <a href="https://drm.maipdf.com/">home page</a> instead.
+If that's the problem you have — a quoted price, a draft you don't want skimmed into a spreadsheet — flatten is the right shape. If you need **revoke, device limits, or prevent screenshot**, use <code>.maipdf</code> + [MaiPDF Secure app](https://drm.maipdf.com/) (or legacy locked HTML at [pack.html](https://drm.maipdf.com/pack.html) when install is impossible).
 
 ## What "flatten" actually means
 

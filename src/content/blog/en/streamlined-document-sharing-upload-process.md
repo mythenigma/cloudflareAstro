@@ -2,12 +2,17 @@
 title: "🚀 Streamlined Document Sharing: Mastering the PDF Upload Process"
 description: "Learn how to efficiently upload and configure security settings for your PDFs to ensure safe sharing while maintaining control over your sensitive documents."
 pubDate: "Apr 3 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
-tags: ["PDF Upload", "Document Sharing", "Security Settings", "File Sharing", "Document Management"]
+tags: ["PDF Upload", "Document Sharing", "Secure Share", "PDF security"]
 noindex: true
 ---
 
-# 🚀 Streamlined Document Sharing: Mastering the PDF Upload Process
+# Streamlined Document Sharing: Mastering the PDF Upload Process
+
+<div class="intro-panel">
+  <p><strong>June 2026:</strong> This walkthrough covers <a href="https://maipdf.com/">online upload</a>. For protected file delivery with <strong>prevent screenshot</strong>, pack <code>.maipdf</code> in <a href="https://drm.maipdf.com/">MaiPDF Secure</a> instead.</p>
+</div>
 
 <div class="intro-panel">
   <p>The moment you upload a document is when your security journey begins.</p>
@@ -46,7 +51,7 @@ MaiPDF provides a comprehensive set of security options configurable during the 
 - **Download prevention**: Disable the ability to save or download the PDF
 - **Print restrictions**: Control whether your document can be printed
 - **Copy prevention**: Disable text selection and copying from your document
-- **Screen capture detection**: Alert you when someone attempts to screenshot your content
+- **Screenshot / recording (native app only)**: MaiPDF Secure can block or detect OS-level capture on supported platforms — browser links rely on watermarks for traceability, not blocking
 
 ### 3. Watermarking Configuration
 

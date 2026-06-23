@@ -2,9 +2,14 @@
 title: "PDF to HTML Conversion: When and Why to Convert Your Documents"
 description: "Understand when PDF-to-HTML conversion makes sense. Compare native browser PDF viewing vs HTML conversion, and learn a better alternative for document sharing."
 pubDate: "Apr 2 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/pdf native view on ui.png"
-tags: ["PDF to HTML", "Document Conversion", "PDF Sharing"]
+tags: ["PDF to HTML", "Document Conversion", "PDF Sharing", "Secure Share"]
 ---
+
+<div class="intro-panel">
+  <p><strong>Note (June 2026):</strong> Converting PDF → public HTML is different from <strong>protected packaging</strong>. For license-controlled delivery with optional screenshot prevention, use <code>.maipdf</code> + [MaiPDF Secure](https://drm.maipdf.com/) — not a generic PDF-to-HTML converter.</p>
+</div>
 
 # PDF to HTML Conversion: When and Why to Convert Your Documents
 

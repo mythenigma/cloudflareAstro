@@ -1,34 +1,28 @@
 ---
-title: "Offline vs Online PDF Sharing (Visual Comparison)"
-description: "A short visual comparison of offline PDF packages vs online PDF links—when each makes sense."
+title: "MaiPDF sharing models (visual)"
+description: "Visual summary: online link vs .maipdf native app vs web HTML pack. Updated June 2026."
 pubDate: "Jan 15 2026"
-tags: ["Offline PDF", "Online Sharing", "PDF Security", "Diagrams"]
+updatedDate: "Jun 23 2026"
+tags: ["Secure Share", ".maipdf", "PDF Security", "native app"]
 ---
 
-# Locked HTML vs. Online PDF Sharing (Visual Comparison)
-
 <div class="intro-panel">
-  <p>Online sharing is best for <strong>live updates and per-open analytics</strong>. A locked HTML package is best when the file itself needs to live with the recipient. Neither path is truly offline — both rely on a network check to enforce rules.</p>
+  <p>Three paths — not two. "Offline" in older diagrams meant locked HTML; the recommended secure path is now <strong>.maipdf + native app</strong>.</p>
 </div>
 
-![File-vs-link PDF comparison](/diagram/en/offline-vs-online-pdf-comparison.svg)
-
-## Side-by-side
+![Sharing models](/diagram/en/offline-vs-online-pdf-comparison.svg)
 
 <div class="feature-grid">
   <div class="feature-item">
-    <h4>🔗 Online sharing</h4>
-    <p><strong>What travels:</strong> a short link or QR code.</p>
-    <p><strong>Strengths:</strong> identity verification, view limits, expiry, detailed open logs, swap the file content without re-sending.</p>
+    <h4>🔗 Online link</h4>
+    <p><a href="https://maipdf.com/">maipdf.com</a> — analytics, easy revoke, no install.</p>
   </div>
   <div class="feature-item">
-    <h4>📁 Locked HTML package</h4>
-    <p><strong>What travels:</strong> a single self-contained file (laptop, USB, attachment).</p>
-    <p><strong>Strengths:</strong> sender-side control travels with the artifact; predictable browser-based reading with internet only needed at open time.</p>
+    <h4>📱 .maipdf + app</h4>
+    <p><a href="https://drm.maipdf.com/">drm.maipdf.com</a> — portable file, <strong>prevent screenshot</strong>.</p>
+  </div>
+  <div class="feature-item">
+    <h4>🌐 Web HTML pack</h4>
+    <p>Legacy browser pack — use when install is not an option.</p>
   </div>
 </div>
-
-<div class="intro-panel">
-  <p><strong>Try them:</strong> <a href="https://maipdf.com/">maipdf.com</a> for online links · <a href="https://drm.maipdf.com/">drm.maipdf.com</a> for locked HTML packages.</p>
-</div>
-

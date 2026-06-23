@@ -2,16 +2,17 @@
 title: "How to Securely Share PDFs with Modern Controls"
 description: "A practical guide to modern PDF sharing controls: view-only delivery, expiry, open limits, watermarking, and follow-up visibility."
 pubDate: "Apr 4 2026"
-updatedDate: "Apr 4 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
-tags: ["PDF Security", "Document Sharing", "Secure Distribution", "PDF Protection"]
+tags: ["PDF Security", "Document Sharing", "Secure Share", "prevent screenshot"]
 noindex: true
 ---
 
 # How to Securely Share PDFs with Modern Controls
 
 <div class="intro-panel">
-  <p>Secure PDF sharing is no longer just about sending a file through email. A modern workflow starts by deciding how the document should be read, how long it should stay available, whether it can be downloaded, and what signals you want back after distribution. The goal is simple: let the right people read the document without turning every share into a permanent, uncontrolled copy.</p>
+  <p>Secure PDF sharing is no longer just about sending a file through email. A modern workflow starts by deciding how the document should be read, how long it should stay available, whether it can be downloaded, and what signals you want back after distribution.</p>
+  <p><strong>June 2026:</strong> Controls below are for <a href="https://maipdf.com/">browser links</a>. For <strong>prevent screenshot</strong>, use <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure</a>.</p>
 </div>
 
 ![Modern PDF security controls overview](/maipdf2026/show_off/securityshowoff.png)

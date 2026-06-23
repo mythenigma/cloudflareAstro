@@ -1,127 +1,61 @@
 ---
-title: "DRM certificates vs practical PDF sharing controls: what to use"
-description: "Certificate-based DRM vs link-based access controls for PDFs. A decision framework covering cost, friction, security level, and when each approach makes sense."
+title: "PDF DRM at MaiPDF: links, .maipdf packages, and the native app"
+description: "How MaiPDF covers quick link sharing, portable .maipdf licenses, and a native reader with OS-level screenshot prevention — without a separate certificate stack."
 pubDate: "Apr 2 2026"
-updatedDate: "Apr 11 2026"
-tags: ["PDF DRM","Enterprise Security","Access Control","Verification"]
+updatedDate: "Jun 23 2026"
+tags: ["PDF DRM", "Secure Share", ".maipdf", "native app", "Access Control"]
 author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/email%20verify.png"
+showDefaultCta: false
 ---
 
-"DRM digital certificate" is a phrase that covers at least four different things depending on who is selling it: PKI certificates, device-bound licenses, signed PDF containers, or managed reader apps. Before you buy into any of them, it helps to understand what problem you're actually solving.
+"DRM digital certificate" usually means one of four things: PKI signing, device-bound licenses, encrypted containers, or a managed reader app. MaiPDF puts those patterns in one product family — and the **native Secure app is free for anyone to use**, not a paid enterprise-only stack.
 
-## Two fundamentally different models
-
-```mermaid
-flowchart LR
-  subgraph Certificate DRM
-    A1[Issue certs per user/device] --> A2[Managed reader required]
-    A2 --> A3[File decrypted locally]
-  end
-  subgraph Link-based controls
-    B1[Upload to server] --> B2[Configure rules]
-    B2 --> B3[Share URL]
-    B3 --> B4[Viewer renders in browser]
-  end
-```
-
-### Certificate-based DRM
-
-The document is **encrypted** and can only be opened with a **certificate** tied to a specific user or device. The reader application checks the certificate before decrypting.
-
-**Strengths:**
-- Strong identity binding (user + device)
-- Works offline once authorized
-- Meets strict compliance requirements (ITAR, HIPAA audit trails)
-
-**Costs:**
-- Certificate lifecycle management (issuance, renewal, revocation)
-- Every recipient needs a managed reader app
-- Onboarding friction: IT involvement, device registration
-- Typical pricing: $5-20 per user/month for enterprise plans
-
-### Link-based access controls
-
-The document stays **on the server** and renders in a **browser-based viewer**. Access rules (view limits, expiration, verification) are enforced server-side.
-
-**Strengths:**
-- Zero install for recipients - just click a link
-- Setup takes minutes, not days
-- Easy to revoke: disable the link
-- Works for one-off sharing and recurring workflows alike
-
-**Costs:**
-- Requires internet connection to view
-- Cannot prevent all screen capture
-- Less suitable for offline-heavy workflows
-
-## Decision matrix
-
-**Certificate DRM:**
-- Setup: days to weeks; requires app install on recipient's device
-- Offline viewing: yes
-- Revocation: depends on cert infrastructure
-- Audit: detailed, device-level
-- Cost: $5–20/month per recipient
-- Best for: regulated industries with strict compliance mandates
-
-**Link-based controls (MaiPDF):**
-- Setup: minutes; works in any browser, zero friction for recipients
-- Offline viewing: no
-- Revocation: instant (disable the link)
-- Audit: optional high-level access signals (keep privacy-first messaging)
-- Cost: free to low
-- Best for: most business sharing — proposals, training, client docs
-
-## When to pick certificate DRM
-
-You likely need certificate-based DRM if **all** of these are true:
-
-1. Your industry has specific compliance mandates requiring device-bound access
-2. Recipients are internal or long-term partners willing to install software
-3. Offline access is a hard requirement
-4. You have IT resources to manage certificate lifecycle
-
-## When link-based controls are enough
-
-For most teams, the real goal is simpler:
-
-- **Cap opens** so a forwarded link can't be used indefinitely
-- **Set expiration** so old links die automatically
-- **Verify identity** so only the intended recipient can view
-- **Deter leaks** with watermarks and a protected viewer
-
-![Specified email verification: PDF access only for authorized recipients](/maipdf2026/show_off/email%20verify.png)
-
-![Protected viewer: no print and no download](/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png)
-
-This covers proposals, contracts for review, training materials, hiring documents, and most client-facing sharing.
-
-## A practical middle ground
-
-Some teams use **both**: certificate DRM for a small set of highly classified documents, and link-based controls for everything else. This avoids forcing the heavy onboarding process on every recipient for every document.
-
-### Quick mapping (mobile-friendly)
-
-<div class="feature-grid">
-  <div class="feature-item">
-    <h4 data-icon="🏛️">Classified IP / regulated data</h4>
-    <p><strong>Certificate DRM</strong> when mandates require device-bound access.</p>
-  </div>
-  <div class="feature-item">
-    <h4 data-icon="📄">Client proposals / sales decks</h4>
-    <p><strong>Link-based</strong> + email verification when appropriate.</p>
-  </div>
-  <div class="feature-item">
-    <h4 data-icon="📚">Training materials</h4>
-    <p><strong>Link-based</strong> + view limits.</p>
-  </div>
-  <div class="feature-item">
-    <h4 data-icon="📰">Press embargoes</h4>
-    <p><strong>Link-based</strong> + expiration + watermark.</p>
-  </div>
-  <div class="feature-item">
-    <h4 data-icon="📝">Internal memos</h4>
-    <p><strong>Link-based</strong> with the simplest settings that match risk.</p>
-  </div>
+<div class="intro-panel">
+  <p><strong>June 2026:</strong> You do not need a company budget or a LockLizard-style quote. Individuals and teams alike can download MaiPDF Secure at <a href="https://drm.maipdf.com/">drm.maipdf.com</a>, pack <code>.maipdf</code> files, and share them today.</p>
 </div>
+
+## Three paths (June 2026)
+
+| Path | What you send | Reader | Screenshot control |
+|---|---|---|---|
+| **Online Share** — [maipdf.com](https://www.maipdf.com) | Short link / QR | Browser | Watermark + access rules only |
+| **Secure Share (web packer)** — [drm.maipdf.com/pack.html](https://drm.maipdf.com/pack.html) | Locked HTML (legacy quick pack) | Browser | Same browser ceiling |
+| **MaiPDF Secure app** — [drm.maipdf.com](https://drm.maipdf.com) | `.maipdf` package | Native app (Win / macOS / Android / iOS) | **OS-level block or detect** on supported platforms |
+
+The native app (June 2026) is the piece that closes the old gap between "browser DRM" and "install a reader, bind devices, revoke licenses." You pack in the app, distribute `.maipdf`, readers install MaiPDF Secure, sign in, and open under license rules.
+
+## When to use which
+
+**Online link** — brochures, drafts, anything that should open in one click with no install.
+
+**Web HTML pack** — you need a file attachment today and recipients will accept a browser viewer. Still needs network at open time; still cannot prevent system screenshots.
+
+**Native `.maipdf`** — contracts, courseware, or internal PDFs where you need device-bound access, revocation after delivery, and **prevent screenshot** on the reader's device (Android / Windows / macOS strongest; iOS detects and traces).
+
+## What the native path includes
+
+- Pack PDF → encrypted `.maipdf` with expiry, open limits, email allowlist, device cap
+- License create / extend / revoke from the app or [drm.maipdf.com dashboard](https://drm.maipdf.com/)
+- Account-gated open; compromised devices can be refused
+- Per-page trace watermarks on every platform
+
+## Honest limits
+
+- No product stops a **second camera** pointed at the screen.
+- iOS relies more on detection and content-hiding than hard blocking.
+- Web HTML output remains available but is **not** the recommended path for screenshot-sensitive files anymore.
+
+## Downloads
+
+- **iPhone / iPad:** App Store (when listed)
+- **Android:** Google Play or APK at [drm.maipdf.com](https://drm.maipdf.com/)
+- **Windows / macOS:** installers or store builds at [drm.maipdf.com](https://drm.maipdf.com/)
+
+## vs enterprise DRM (LockLizard)
+
+MaiPDF Secure matches LockLizard on the **core document workflow** (managed reader, revoke, device limits, screenshot controls). LockLizard is still the pick when **paid enterprise procurement** and vendor trust packets matter. MaiPDF is for **anyone** who wants those controls **without the enterprise price** — see [MaiPDF Secure vs LockLizard](/blog/en/maipdf-secure-vs-locklizard-pdf-drm).
+
+---
+
+**Related:** [MaiPDF Secure vs LockLizard](/blog/en/maipdf-secure-vs-locklizard-pdf-drm) · [Prevent screenshot on PDFs](/blog/en/prevent-screenshot-pdf-drm-native-app) · [Online vs Secure Share](/blog/en/online-vs-offline-pdf-security) · [PDF online DRM guide](/blog/en/pdf-online-drm-complete-guide)

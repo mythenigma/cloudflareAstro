@@ -2,15 +2,16 @@
 title: "🎨 Secure Portfolio Sharing for Designers: Protecting Your Creative Work"
 description: "Discover how designers can securely share their portfolios with clients and potential employers while maintaining control over their creative assets."
 pubDate: "Apr 3 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
-tags: ["Design Portfolio", "Creative Work Protection", "Secure Sharing", "Job Applications", "Portfolio Security"]
+tags: ["Design Portfolio", "Secure Share", "prevent screenshot", "Portfolio Security"]
 ---
 
-# 🎨 Secure Portfolio Sharing for Designers: Protecting Your Creative Work
+# Secure Portfolio Sharing for Designers: Protecting Your Creative Work
 
 <div class="intro-panel">
   <p>For designers, your portfolio represents both your professional value and your intellectual property.</p>
-  <p>This guide explores how to securely share your design work while maintaining control over who sees it and how it's used.</p>
+  <p><strong>June 2026:</strong> Share via <a href="https://maipdf.com/">maipdf.com</a> for watermarks and view limits. For unreleased work where clients might screenshot, use <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure</a> for OS-level capture control on supported devices.</p>
 </div>
 
 ![Portfolio Upload Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
@@ -78,7 +79,7 @@ MaiPDF offers designers specific advantages for portfolio protection:
 - **Dynamic watermarking**: Add viewer information to deter unauthorized use
 - **Download prevention**: Keep high-resolution designs secure
 - **Print restriction**: Prevent creation of physical copies
-- **Screen capture detection**: Discourage screenshots of your work
+- **OS-level screenshot control (native app)**: MaiPDF Secure can block or detect system capture — not available in the browser link product
 
 ![Dynamic Watermark Example](/maipdf2026/dynamic_water_mark_example.jpg)
 

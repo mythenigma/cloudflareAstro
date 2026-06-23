@@ -2,11 +2,15 @@
 title: "安全分享 PDF：锁的不是文件，是分发层的访问"
 description: "一篇讲透什么叫'安全分享 PDF'：不是给文件加密码，而是在分发链路上叠加四层访问控制——限次、有效期、手机号白名单验证、动态水印/禁下载。附不同敏感度下的最小够用组合。"
 pubDate: "Apr 4 2026"
-updatedDate: "Apr 21 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
-tags: ["PDF安全", "安全分享", "访问控制", "下载限制", "文档保护", "MaiPDF"]
+tags: ["PDF安全", "安全分享", "Secure Share", "防截图", "MaiPDF"]
 showDefaultCta: true
 ---
+
+<div class="intro-panel">
+  <p><strong>2026-06：</strong>下文是在线链接的控制项。要 <strong>PDF 防止截屏</strong> → <a href="https://drm.maipdf.com/">MaiPDF Secure</a>（免费）。</p>
+</div>
 
 # 安全分享 PDF：锁的不是文件，是分发层的访问
 

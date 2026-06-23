@@ -2,8 +2,9 @@
 title: "Watermark Protection Basics: Deter Leaks and Trace Sharing"
 description: "A practical guide to watermark protection for documents—what it deters, what it can’t stop, and how to deploy it effectively."
 pubDate: "Apr 4 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/dynamic_water_mark_example.jpg"
-tags: ["Watermarking", "Document Security", "Leak Prevention", "Tracking"]
+tags: ["Watermarking", "Document Security", "Secure Share", "prevent screenshot"]
 showDefaultCta: true
 ---
 
@@ -11,6 +12,7 @@ showDefaultCta: true
 
 <div class="intro-panel">
   <p>Watermarks work because people behave differently when they know content is traceable. This diagram shows the simplest “enable → protect → monitor” flow.</p>
+  <p><strong>June 2026:</strong> Watermarks <em>trace</em> leaks after the fact. To <strong>prevent screenshot</strong> at the OS level, pair with <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure</a>.</p>
 </div>
 
 ![Watermark protection flow](/diagram/en/simple-watermark-protection.svg)

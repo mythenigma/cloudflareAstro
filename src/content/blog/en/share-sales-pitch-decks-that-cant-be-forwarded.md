@@ -2,8 +2,9 @@
 title: "📊 Share Sales Pitch Decks That Can't Be Forwarded"
 description: "Protect your proposals, impress the right people, and maintain control. Learn how to securely share sales materials without risking unauthorized distribution."
 pubDate: "Apr 3 2026"
+updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
-tags: ["Sales Strategy", "Document Security", "Pitch Decks", "Sales Proposals"]
+tags: ["Sales Strategy", "Secure Share", "prevent screenshot", "Pitch Decks"]
 ---
 
 # 📊 Share Sales Pitch Decks That Can't Be Forwarded
@@ -175,7 +176,7 @@ Consider a typical scenario: pitching a $250,000 enterprise software solution wi
 - Set viewer-specific access limits
 - Track which stakeholders actually reviewed the materials
 - Update the document remotely as negotiations progress
-- Prevent screenshots of sensitive pricing pages
+- **Prevent screenshots of sensitive pricing pages** — requires MaiPDF Secure app (`.maipdf`); browser watermarks only trace leaks after the fact
 
 This controlled approach maintains your competitive advantage throughout the sales cycle.
 
