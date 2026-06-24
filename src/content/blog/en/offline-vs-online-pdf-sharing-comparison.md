@@ -1,28 +1,27 @@
 ---
 title: "MaiPDF sharing: link vs .maipdf vs web pack"
-description: "Updated June 2026: choose online links, native .maipdf packages, or the legacy web HTML packer."
+description: "Updated June 2026: online links, .maipdf desktop app, or pack.html web HTML — different security tiers."
 pubDate: "Feb 11 2026"
 updatedDate: "Jun 23 2026"
-heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
-tags: ["Secure Share", ".maipdf", "PDF Comparison", "native app", "MaiPDF"]
+heroImage: "/maipdf2026/offline/two%20comparison.png"
+tags: ["Secure Share", ".maipdf", "Locked HTML", "PDF Comparison"]
+showDefaultCta: false
 ---
 
-<div class="intro-panel">
-  <p>Old posts called this "offline vs online." Accurate framing in 2026: <strong>link</strong> (maipdf.com), <strong>.maipdf + app</strong> (drm.maipdf.com), or <strong>web HTML pack</strong> (legacy browser path). All three need network to enforce rules at open time.</p>
-</div>
+Three delivery modes at different security tiers. Web pack (PDF→HTML→ZIP) is not comparable to `.maipdf` native packing.
 
-![MaiPDF Secure Share](/offlinepages/offline-MaiPDF-Home-Page.png)
-
-| Dimension | Online link | `.maipdf` + app | Web HTML pack |
+| Dimension | Online link | `.maipdf` + app | Web HTML pack (pack.html) |
 |---|---|---|---|
-| What travels | URL | `.maipdf` file | HTML file |
+| What travels | URL | `.maipdf` file | HTML in ZIP |
+| Pack pipeline | Upload to maipdf.com | Native app | Browser: PDF→HTML→ZIP |
 | Install | No | Yes | No |
+| Security tier | Online viewer | **High** (native) | **Low** (browser) |
 | Prevent screenshot | No | Yes | No |
 | Revoke after send | Yes | Yes | Yes |
 | Rich open logs | Yes | License-focused | Limited |
 
-**Pick the app** when the file is sensitive and readers can install software. **Pick a link** for speed and analytics. **Pick web HTML** only when install is impossible.
+**Pick `.maipdf`** when screenshot control matters. **Pick a link** for speed. **Pick web HTML pack** only when install is impossible — accept browser security limits.
 
 <div class="intro-panel">
-  <p><a href="https://maipdf.com/">maipdf.com</a> · <a href="https://drm.maipdf.com/">drm.maipdf.com</a> (app + legacy pack)</p>
+  <p><a href="https://maipdf.com/">maipdf.com</a> · <a href="https://drm.maipdf.com/pack.html">pack.html</a> · <a href="https://drm.maipdf.com/">MaiPDF Secure app</a></p>
 </div>

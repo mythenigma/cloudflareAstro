@@ -10,6 +10,7 @@ export const BLOG_LEGACY_REDIRECTS = {
   "/blog/en/instant-pdf-link-generation": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
   "/blog/en/quick-pdf-links": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
   "/blog/en/upload-pdf-get-link": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
+  "/blog/en/how-to-create-offline-pdf-package-guide": "/blog/en/how-to-create-offline-pdf-package-complete-guide",
   "/blog/en/transform-pdfs-shareable-links-3-steps": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
   "/blog/en/pdf-link-generator-ultimate-tool-professional-sharing": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",
   "/blog/en/pdf-one-click-share-links-maipdf": "/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link",

@@ -8,7 +8,7 @@ tags: ["PDF to HTML", "Document Conversion", "PDF Sharing", "Secure Share"]
 ---
 
 <div class="intro-panel">
-  <p><strong>Note (June 2026):</strong> Converting PDF → public HTML is different from <strong>protected packaging</strong>. For license-controlled delivery with optional screenshot prevention, use <code>.maipdf</code> + [MaiPDF Secure](https://drm.maipdf.com/) — not a generic PDF-to-HTML converter.</p>
+  <p><strong>Note:</strong> Generic PDF-to-HTML conversion is unrelated to <strong>protected packaging</strong>. For license-controlled file handoff, see <a href="/blog/en/how-to-create-offline-pdf-package-complete-guide">pack.html web pack</a> or <a href="/blog/en/prevent-screenshot-pdf-drm-native-app">desktop .maipdf app</a>.</p>
 </div>
 
 # PDF to HTML Conversion: When and Why to Convert Your Documents
@@ -62,27 +62,26 @@ Upload your PDF to [MaiPDF](https://www.maipdf.com) and share the link. The reci
 
 ![Upload Share Flow](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
-## MaiPDF's Offline HTML Export
+## MaiPDF Secure Share (pack.html) — not "offline without internet"
 
-For scenarios where you genuinely need an HTML version (e.g., offline access on a device without internet), MaiPDF offers an **offline HTML package** export:
+For a **portable encrypted file** (attachment, USB), use [pack.html](https://drm.maipdf.com/pack.html):
 
-- The PDF is wrapped in a self-contained HTML file
-- Opens in any browser without internet
-- Retains all DRM protections (watermark, view limits)
-- Single file — no external dependencies
+- Pipeline: PDF → encrypt → HTML in ZIP
+- Opens in browser; **network required at unlock**
+- Cannot prevent OS screenshots
+- Not the same as `.maipdf` desktop packing
 
-This is different from a raw PDF-to-HTML conversion. The document rendering stays faithful to the original PDF, and security controls are preserved.
+→ [Complete pack guide](/blog/en/how-to-create-offline-pdf-package-complete-guide) · [Prevent screenshot](/blog/en/prevent-screenshot-pdf-drm-native-app)
 
-![PDF Sharing Features](/maipdf2026/show_off/show_off_page.png)
-
-## Decision Framework
+## Decision framework
 
 | Your Goal | Best Approach |
 |-----------|--------------|
 | Share a document quickly | Host the PDF, share a link |
 | Republish content on the web | Convert to HTML manually (edit for quality) |
 | Archive for search | Host PDF + extract text for indexing |
-| Offline access | Use MaiPDF offline HTML export |
+| Offline-style file handoff | [pack.html](https://drm.maipdf.com/pack.html) web pack (not air-gapped) |
+| Prevent screenshot on a file | MaiPDF Secure desktop app (`.maipdf`) |
 | Embed in a web page | Convert specific sections to HTML |
 
 ## Summary

@@ -1,19 +1,18 @@
 ---
-title: "MaiPDF sharing: quick choice (June 2026)"
-description: "Link, native .maipdf app, or web HTML pack — pick in under a minute."
+title: "MaiPDF sharing: quick choice"
+description: "Link, pack.html web HTML, or .maipdf desktop app — pick by security tier."
 pubDate: "Jan 15 2026"
 updatedDate: "Jun 23 2026"
-tags: ["Secure Share", ".maipdf", "PDF DRM", "native app"]
+tags: ["Secure Share", ".maipdf", "Locked HTML"]
+showDefaultCta: false
 ---
-
-<div class="intro-panel">
-  <p>Need a link with live updates? → <a href="https://maipdf.com/">maipdf.com</a>. Need <strong>prevent screenshot</strong> and a portable file? → <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure app</a>. Recipients refuse installs? → web HTML pack at drm.maipdf.com (browser limits apply).</p>
-</div>
-
-![Sharing models](/diagram/en/offline-vs-online-pdf-comparison.svg)
 
 | Need | Use |
 |---|---|
-| Fastest send, no install | Online link |
-| OS-level screenshot control | Native `.maipdf` |
-| Attachment, no install | Web HTML pack (legacy) |
+| Fast share, swap file behind same URL | [maipdf.com](https://maipdf.com/) link |
+| Portable file, **no install** | [pack.html](https://drm.maipdf.com/pack.html) — PDF→HTML→ZIP, browser |
+| **Prevent screenshot** | `.maipdf` + [MaiPDF Secure desktop app](https://drm.maipdf.com/) |
+
+Web pack and `.maipdf` are **different pipelines**, not "legacy vs recommended."
+
+→ [Full comparison](/blog/en/offline-vs-online-pdf-sharing-comparison)

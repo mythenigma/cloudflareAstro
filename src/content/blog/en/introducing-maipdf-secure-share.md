@@ -1,6 +1,6 @@
 ---
-title: "Introducing MaiPDF Secure: native app and .maipdf DRM (June 2026)"
-description: "MaiPDF Secure adds a native app for .maipdf packages with OS-level screenshot prevention. Web HTML packing at drm.maipdf.com remains for quick browser delivery."
+title: "Introducing MaiPDF Secure: desktop app for .maipdf (June 2026)"
+description: "June 2026 product line: MaiPDF Secure packs .maipdf with OS-level screenshot prevention. Coexists with pack.html web HTML — different pipeline, higher security tier."
 pubDate: "May 12 2026"
 updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/offline/offlinedrm.png"
@@ -8,48 +8,73 @@ tags: ["MaiPDF", "Secure Share", ".maipdf", "native app", "prevent screenshot"]
 showDefaultCta: false
 ---
 
-<div class="intro-panel">
-  <p><strong>June 2026 update.</strong> Secure Share launched in May as a web packer (locked HTML). This month we added the <strong>MaiPDF Secure native app</strong>: pack PDFs into <code>.maipdf</code>, distribute the file, readers open in the app under license control — including <strong>OS-level screenshot and screen-recording prevention</strong> where the platform allows it.</p>
-  <p><strong>For everyone:</strong> not an enterprise-only product. Free to download and use — students, freelancers, and companies alike. No high per-seat DRM pricing, no sales quote to get started.</p>
-</div>
+**June 2026** — MaiPDF added **MaiPDF Secure**, a desktop and mobile app that packs **`.maipdf`** files and reads them under license control, including **OS-level screenshot and screen-recording prevention** on supported platforms.
 
-![MaiPDF Secure](/maipdf2026/offline/offlinedrm.png)
+This sits **alongside** the existing **web packer** at [pack.html](https://drm.maipdf.com/pack.html) (May 2026). Web pack turns PDFs into **encrypted HTML inside a ZIP** for browser reading. The app uses a **native pipeline**. They share a license server; they are **not** the same security product.
 
-## What changed
+**Free for everyone** — students, freelancers, teams, enterprises evaluating without a sales quote.
 
-| Before (May 2026) | Now (June 2026) |
-|---|---|
-| Pack → locked HTML → browser | Pack → <code>.maipdf</code> → **native app** (recommended) |
-| Watermarks only for leaks | **Block or detect** system capture on Android, Windows, macOS; trace on iOS |
-| No install for readers | Readers install MaiPDF Secure once |
+---
 
-Web HTML packing at [drm.maipdf.com/pack.html](https://drm.maipdf.com/pack.html) still works for recipients who will not install software.
+## Two products on drm.maipdf.com
 
-## Native app basics
+| | pack.html | MaiPDF Secure app |
+|---|---|---|
+| Released | May 2026 | June 2026 |
+| Pack in | Browser | Desktop / mobile app |
+| Output | HTML in ZIP | `.maipdf` |
+| Prevent screenshot | No | Yes |
+| Best when | No install allowed | Capture control required |
 
-- Pack, license, and revoke from the app or [drm.maipdf.com dashboard](https://drm.maipdf.com/)
-- Google sign-in; device and license checked before open
-- Per-page trace watermarks on all platforms
+---
+
+## What the desktop app does
+
+- **Protect PDF** → export `.maipdf` with expiry, open limit, email allowlist, device cap
+- **Native protected viewer** with capture controls (platform-dependent)
+- **License lifecycle** — extend, revoke, delete from app or [dashboard](https://drm.maipdf.com/dashboard)
+- **Google sign-in** via Firebase; compromised devices may be refused
+- **Per-page trace watermarks** on all platforms
+
+![Desktop app](/maipdf2026/offline/offlinedrm.png)
+
+![Install and setup](/maipdf2026/offline/inststruct.png)
+
+Full walkthrough: [prevent screenshot guide](/blog/en/prevent-screenshot-pdf-drm-native-app).
+
+Web pack walkthrough: [complete HTML pack guide](/blog/en/how-to-create-offline-pdf-package-complete-guide).
+
+---
 
 ## Downloads
 
 | Platform | Where |
 |---|---|
+| Windows / macOS | [drm.maipdf.com](https://drm.maipdf.com/) |
+| Android | Google Play or site APK |
 | iPhone / iPad | App Store |
-| Android | Google Play or [drm.maipdf.com](https://drm.maipdf.com/) APK |
-| Windows | [drm.maipdf.com](https://drm.maipdf.com/) installer |
-| macOS | Mac App Store or [drm.maipdf.com](https://drm.maipdf.com/) DMG |
 
-Store listings entered review **June 21, 2026**; direct downloads are available meanwhile.
+Store listings entered review **June 2026**; direct downloads work meanwhile.
 
-## What it does not do
-
-- Stop a second camera pointed at the screen.
-- Replace [maipdf.com](https://maipdf.com/) for quick link sharing — that remains the default for low-friction sends.
+**Mainland China:** not first-wave on domestic stores; soft copyright registration in progress. Overseas store account or direct download until listed.
 
 ---
 
-**Read more:** [Prevent screenshot on PDFs](/blog/en/prevent-screenshot-pdf-drm-native-app) · [Three sharing models](/blog/en/online-vs-offline-pdf-security)
+## What it does not replace
+
+- **[maipdf.com](https://maipdf.com/)** — still the default for fast link sharing, QR, and rich access logs
+- **pack.html** — still the right tool when recipients refuse to install anything
+
+---
+
+## What it does not promise
+
+- Blocking a **second camera** at the screen
+- Air-gapped open (license check needs network, same as web pack)
+
+---
+
+**Read more:** [Prevent screenshot](/blog/en/prevent-screenshot-pdf-drm-native-app) · [Web vs app comparison](/blog/en/offline-pdf-drm-mode) · [Three sharing modes](/blog/en/online-vs-offline-pdf-security)
 
 <div class="cta-container">
   <a href="https://drm.maipdf.com/" target="_blank" rel="noopener noreferrer" class="cta-button">

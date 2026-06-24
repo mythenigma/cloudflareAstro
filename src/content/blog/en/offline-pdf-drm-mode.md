@@ -1,52 +1,93 @@
 ---
-title: "MaiPDF Secure Share: .maipdf packages and the native reader"
-description: "Secure Share now centers on .maipdf files opened in the MaiPDF Secure app — with OS-level screenshot prevention. Web HTML packing remains as a lighter legacy option."
+title: "MaiPDF Secure Share: web pack vs .maipdf desktop app"
+description: "Full comparison of pack.html (PDF→HTML→ZIP, browser) and MaiPDF Secure desktop app (.maipdf, OS screenshot block). Same license server, different products."
 pubDate: "Apr 3 2026"
 updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/offline/offlinedrm.png"
-tags: ["Secure Share", ".maipdf", "PDF DRM", "native app", "MaiPDF"]
+tags: ["Secure Share", ".maipdf", "Locked HTML", "PDF DRM"]
 showDefaultCta: false
 ---
 
-<div class="intro-panel">
-  <p><strong>Updated June 2026.</strong> Secure Share used to mean "pack PDF into locked HTML for the browser." The primary workflow is now a <strong>.maipdf</strong> package read in the <strong>MaiPDF Secure native app</strong> — same license server at <a href="https://drm.maipdf.com/">drm.maipdf.com</a>, but with OS-level screenshot and screen-recording controls the browser cannot provide.</p>
-</div>
+[drm.maipdf.com](https://drm.maipdf.com/) hosts **two products** that share license infrastructure but must not be confused:
 
-![MaiPDF Secure Share](/maipdf2026/offline/offlinedrm.png)
-
-## Recommended workflow (native app)
-
-1. Install MaiPDF Secure from [drm.maipdf.com](https://drm.maipdf.com/) (Play Store / App Store / desktop installer).
-2. Sign in, select a PDF, set license rules (expiry, open limit, allowed emails, device cap).
-3. Export a `.maipdf` file and send it like any attachment.
-4. Recipient opens it **only in the app** after account + license check.
-5. Revoke or extend from the app or web dashboard.
-
-## Legacy workflow (web HTML packer)
-
-[drm.maipdf.com/pack.html](https://drm.maipdf.com/pack.html) still produces a self-contained locked HTML file for quick browser-based delivery. Use it when recipients will not install an app. Limitations are unchanged: network required at open time, **no OS-level screenshot block**.
-
-## Comparison at a glance
-
-| | Native `.maipdf` + app | Web locked HTML |
-|---|---|---|
-| Install required | Yes | No |
-| Prevent screenshot | Yes (platform-dependent) | No |
-| License revoke | Yes | Yes |
-| Best for | Confidential PDFs | Quick handoff, low friction |
-
-## Limits
-
-- Internet needed for license check at open.
-- Cannot stop someone photographing the screen with another device.
-- 65 MB upload cap on the web packer; app follows the same backend limits.
+| Product | Where | Output | Reader |
+|---|---|---|---|
+| **Web packer** | [pack.html](https://drm.maipdf.com/pack.html) | HTML in ZIP | Browser |
+| **MaiPDF Secure** | Desktop / mobile app | `.maipdf` | App only |
 
 ---
 
-**Related:** [Prevent screenshot (announcement)](/blog/en/prevent-screenshot-pdf-drm-native-app) · [Online vs Secure Share](/blog/en/online-vs-offline-pdf-security)
+## Web pack (pack.html) — lower security tier
+
+**Pipeline:** PDF → AES-GCM-256 encrypt → key split (HTML half + server half) → **webpack** self-contained HTML → ZIP download.
+
+**Good for:**
+
+- Recipients who will **not install** software
+- Attachments, USB, internal shares when a **file** must travel
+- Open limits, expiry, revoke, optional watermark
+
+**Limits (pack.html FAQ, paraphrased):**
+
+- Internet required at **Unlock**
+- **Cannot prevent screenshot** — watermarks trace leaks, they do not block capture
+- Determined user with **browser devtools** can extract decrypted PDF during an open
+- Print/save blocking is UX friction (shortcuts, right-click), not a hard guarantee
+- We do **not** store your PDF after pack — only license metadata + server key half
+
+→ [Complete web pack guide](/blog/en/how-to-create-offline-pdf-package-complete-guide)
+
+---
+
+## MaiPDF Secure desktop app — higher security tier
+
+**Pipeline:** pack inside native app → encrypted **`.maipdf`** → open only in app → license check → native protected viewer.
+
+**Adds:**
+
+- **Prevent screenshot / screen recording** (OS-dependent; Android strongest on mobile)
+- Device integrity checks
+- No browser devtools extraction path
+
+![Desktop DRM entry](/maipdf2026/offline/offlinedrm.png)
+
+→ [Prevent screenshot complete guide](/blog/en/prevent-screenshot-pdf-drm-native-app)
+
+---
+
+## Side-by-side
+
+| | Web HTML pack | `.maipdf` + app |
+|---|---|---|
+| Pack where | Browser | Desktop / mobile app |
+| Technical path | PDF→HTML→ZIP | Native encrypt |
+| Install required | No | Yes |
+| Security tier | Browser sandbox | OS-level controls |
+| Prevent screenshot | **No** | **Yes** |
+| Revoke after send | Yes | Yes |
+| Network at open | Yes | Yes |
+| Free (current) | Yes | Yes |
+
+**Pick web pack** when install is a hard no and you accept browser limits.
+
+**Pick `.maipdf`** when contracts, courseware, or confidential PDFs need capture control.
+
+---
+
+## Shared backend
+
+Both paths use the same **license server** (opens, expiry, revoke). That does **not** mean the files or readers are interchangeable — a `.maipdf` will not open in the web HTML viewer and vice versa.
+
+---
+
+## Limits (both)
+
+- Cannot stop a **second camera** at the screen
+- 65 MB cap on web packer uploads
+- Repack required when PDF content changes
 
 <div class="cta-container">
   <a href="https://drm.maipdf.com/" target="_blank" rel="noopener noreferrer" class="cta-button">
-    Get MaiPDF Secure
+    drm.maipdf.com
   </a>
 </div>

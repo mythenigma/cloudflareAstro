@@ -1,45 +1,41 @@
 ---
-title: "Pack a PDF as .maipdf (recommended) or locked HTML (legacy)"
-description: "June 2026: pack PDFs in the MaiPDF Secure app as .maipdf for OS-level screenshot control. Web HTML packing at drm.maipdf.com remains for no-install delivery."
+title: "Secure Share: pack a PDF into locked HTML (web tool)"
+description: "drm.maipdf.com/pack.html encrypts your PDF and bundles HTML inside a ZIP. Browser-only — not .maipdf desktop packing."
 pubDate: "Apr 3 2026"
 updatedDate: "Jun 23 2026"
-heroImage: "/maipdf2026/offline/offlinedrm.png"
-tags: ["Secure Share", ".maipdf", "PDF DRM", "native app", "MaiPDF"]
+heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
+tags: ["Secure Share", "Locked HTML", "PDF DRM"]
 showDefaultCta: false
 ---
 
-<div class="intro-panel">
-  <p><strong>June 2026.</strong> Recommended: pack in the <a href="https://drm.maipdf.com/">MaiPDF Secure app</a> → <code>.maipdf</code> → reader installs the app. Legacy: <a href="https://drm.maipdf.com/pack.html">web HTML packer</a> → browser viewer (no OS-level screenshot block).</p>
-</div>
+**Secure Share** at [pack.html](https://drm.maipdf.com/pack.html): upload PDF → AES encrypt → webpack HTML bundle → **ZIP**. Recipient opens HTML in a browser.
 
-![MaiPDF Secure Share](/maipdf2026/offline/offlinedrm.png)
+Not `.maipdf`. Native packing is in the **MaiPDF Secure desktop app** — [prevent screenshot guide](/blog/en/prevent-screenshot-pdf-drm-native-app).
 
-## Native app (recommended)
+## Steps
 
-1. Install MaiPDF Secure (Play Store / App Store / [drm.maipdf.com](https://drm.maipdf.com/)).
-2. Sign in, select PDF, set expiry, open limit, allowed emails, device cap.
-3. Export `.maipdf` and send like any file.
-4. Recipient opens **only in the app** after license check.
-5. Revoke or extend from app or dashboard.
+1. Upload at [pack.html](https://drm.maipdf.com/pack.html) (max 65 MB).
+2. Set opens, expiry, optional watermark.
+3. Download ZIP; save License ID + Modification Code.
+4. Recipient: unzip → HTML → **Open · Unlock** (network at open).
+5. Manage at [manage](https://drm.maipdf.com/manage) or dashboard.
 
-**Gets you:** prevent screenshot (platform-dependent), license revoke, trace watermarks.
+![Upload](/offlinepages/upload_section_offline_maipdf.png)
 
-## Web HTML pack (legacy)
+## What you get / don't get
 
-1. Open [drm.maipdf.com/pack.html](https://drm.maipdf.com/pack.html).
-2. Upload PDF, set rules, download locked HTML.
-3. Recipient double-clicks → browser → one-shot license check at open.
+**Get:** portable file, server-enforced opens/expiry, leak-tracing watermarks.
 
-**Use when:** recipients will not install an app. **Limit:** browser cannot block system screenshots.
+**Don't get:** prevent screenshot, devtools-proof viewing, air-gapped open.
 
-## Pick one
+## When to use something else
 
-| Need | Path |
+| Need | Tool |
 |---|---|
-| Prevent screenshot | `.maipdf` + app |
-| No install | Web HTML (accept limits) |
-| Fastest send, rich logs | [maipdf.com](https://www.maipdf.com) link |
+| Fast link | [maipdf.com](https://www.maipdf.com) |
+| No install file handoff | **This web packer** |
+| Prevent screenshot | [Desktop app](/blog/en/prevent-screenshot-pdf-drm-native-app) |
 
 ---
 
-**Related:** [Prevent screenshot](/blog/en/prevent-screenshot-pdf-drm-native-app) · [vs LockLizard](/blog/en/maipdf-secure-vs-locklizard-pdf-drm) · [Three sharing models](/blog/en/online-vs-offline-pdf-security)
+**Related:** [Complete guide](/blog/en/how-to-create-offline-pdf-package-complete-guide)

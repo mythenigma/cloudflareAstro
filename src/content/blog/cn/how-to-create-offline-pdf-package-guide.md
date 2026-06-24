@@ -10,7 +10,8 @@ tags: ["Secure Share", "drm.maipdf.com", "加锁HTML", "PDF分发", "MaiPDF"]
 # 如何创建加锁 HTML PDF 文件：drm.maipdf.com 完整步骤指南
 
 <div class="intro-panel">
-  <p>需要把 PDF<strong>直接交到收件人手里</strong>但又想保有事后控制权？MaiPDF Secure Share（<a href="https://drm.maipdf.com/">drm.maipdf.com</a>）把 PDF 打包成一个自包含的加锁 HTML 文件——收件人双击就能打开，但每次打开都需联网做一次性 license 校验。本文一步步讲完打包流程，并诚实说明它能做什么、不能做什么。</p>
+  <p>需要把 PDF<strong>直接交到收件人手里</strong>但又想保有事后控制权？本文只讲 <strong>pack.html 网页打包</strong>（PDF → 加密 → webpack HTML → ZIP，浏览器打开）。<strong>不是</strong> 桌面 App 的 <code>.maipdf</code> 打包。要 <strong>PDF 防止截屏</strong> → <a href="/blog/cn/prevent-screenshot-pdf-drm-native-app">桌面 App 专文</a>。</p>
+  <p>工具地址：<a href="https://drm.maipdf.com/pack.html">drm.maipdf.com/pack.html</a>。每次打开需联网做 license 校验。</p>
 </div>
 
 ![上传区](/offlinepages/upload_section_offline_maipdf.png)

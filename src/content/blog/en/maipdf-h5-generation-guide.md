@@ -1,44 +1,32 @@
 ---
-title: "MaiPDF Secure packaging (replaces H5 / HTML workflow)"
-description: "The old H5/offline HTML workflow is now legacy. Pack .maipdf in the native app for screenshot control, or use web HTML when install is impossible."
+title: "MaiPDF H5 / locked HTML package — pack.html guide"
+description: "H5 and offline HTML mean pack.html: PDF to encrypted HTML in a ZIP. Not .maipdf desktop packing."
 pubDate: "Mar 26 2026"
 updatedDate: "Jun 23 2026"
-tags: ["Secure Share", ".maipdf", "native app", "PDF DRM"]
-heroImage: "/maipdf2026/show_off/en-offline-version.svg"
+heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
+tags: ["Secure Share", "Locked HTML", "PDF DRM"]
 showDefaultCta: false
 ---
 
-<div class="intro-panel">
-  <p><strong>June 2026.</strong> "H5 generation" in older posts meant a <strong>locked HTML package</strong> for the browser. That path still exists at <a href="https://drm.maipdf.com/pack.html">pack.html</a>. The recommended workflow is now <strong><code>.maipdf</code> + MaiPDF Secure app</strong>.</p>
-</div>
+Older posts called it **H5** or **offline HTML**. That means the **web packer** at [pack.html](https://drm.maipdf.com/pack.html):
 
-![Protected PDF packaging](/maipdf2026/show_off/en-offline-version.svg)
+**PDF → AES encrypt → webpack locked HTML → ZIP download** → browser unlock.
 
-## Recommended: app packaging
-
-| Step | What happens |
+| Step | Action |
 |---|---|
-| Upload / pick PDF | In MaiPDF Secure app |
-| Set rules | Expiry, opens, emails, devices |
-| Export | Single `.maipdf` file |
-| Reader | Installs app, signs in, opens under license |
+| 1 | Open [pack.html](https://drm.maipdf.com/pack.html) |
+| 2 | Upload PDF; set opens + expiry |
+| 3 | Download ZIP; save License ID + Modification Code |
+| 4 | Send file; recipient unlocks in browser |
 
-Use when readers can install software and you need **prevent screenshot** on supported platforms.
+Screenshots: [pack guide](/blog/en/how-to-create-offline-pdf-package-guide).
 
-## Legacy: HTML package
+## Not the same as .maipdf
 
-| Step | What happens |
-|---|---|
-| Upload | [drm.maipdf.com/pack.html](https://drm.maipdf.com/pack.html) |
-| Download | Locked HTML (thin ZIP wrapper) |
-| Reader | Browser, "Open · Unlock", license check |
+| | H5 / pack.html | `.maipdf` desktop app |
+|---|---|---|
+| Pack where | Browser | MaiPDF Secure app |
+| Output | HTML in ZIP | `.maipdf` |
+| Prevent screenshot | No | Yes |
 
-Use when **no install** is non-negotiable. Same license server; weaker capture control.
-
-## Not truly offline
-
-Both paths require **internet at open** for license verification. "Portable file" ≠ "air-gapped."
-
----
-
-**Related:** [Pack guide](/blog/en/how-to-create-offline-pdf-package-guide) · [H5 was not screenshot-proof](/blog/en/prevent-screenshot-pdf-drm-native-app)
+→ [Prevent screenshot](/blog/en/prevent-screenshot-pdf-drm-native-app)
