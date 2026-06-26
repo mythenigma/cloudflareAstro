@@ -112,6 +112,77 @@ body.dark-mode a:hover {
   color: #ffaa88;
 }
 
+/*
+ * Real dark mode (Tailwind `darkMode: 'class'` adds `dark` to <html>).
+ * Cards below hardcode a light background, so without these overrides the
+ * inherited light body text becomes unreadable (e.g. white text on white cards).
+ */
+.dark .feature-card,
+.dark .card,
+.dark .step,
+.dark .two-col-card,
+.dark .content-card {
+  background: #1e293b;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.dark .feature-card h1,
+.dark .feature-card h2,
+.dark .feature-card h3,
+.dark .feature-card p,
+.dark .card h1,
+.dark .card h2,
+.dark .card h3,
+.dark .card p,
+.dark .step h3,
+.dark .step p,
+.dark .two-col-card h3,
+.dark .two-col-card h4,
+.dark .two-col-card p,
+.dark .two-col-card li {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .key-feature {
+  background: #1e293b;
+  border-color: #334155;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .key-feature h3 {
+  color: #93c5fd;
+  border-bottom-color: #334155;
+}
+
+.dark .intro-panel {
+  background: linear-gradient(to right, #1e293b, #0f172a);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .card-grid > *:nth-child(odd) {
+  background-color: #1e293b;
+}
+
+.dark .card-grid > *:nth-child(even) {
+  background-color: #0f172a;
+}
+
+.dark .note-box {
+  background: #3a3320;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .tip-box {
+  background: rgba(74, 108, 247, 0.15);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark code {
+  background: #334155;
+  color: #e2e8f0;
+}
+
 /* Font utility classes */
 .font-inter {
   font-family: "Inter", sans-serif;
