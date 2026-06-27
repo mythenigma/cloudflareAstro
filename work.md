@@ -374,6 +374,7 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 | [public/robots.txt](public/robots.txt) | 抓取规则 |
 | [astro.config.mjs](astro.config.mjs) | `trailingSlash:'never'`、sitemap 配置 |
 | [src/pages/blog/index.astro](src/pages/blog/index.astro) | 博客首页语言分区(现 en/cn/es) |
+<<<<<<< Updated upstream
 | [src/pages/index.astro](src/pages/index.astro) | 站点首页 CTA（待加 Secure / drm 入口） |
 
 ### 生态外仓库（改博客时对照，不在本仓库）
@@ -383,3 +384,22 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 | **dongle** | `github/dongle`（本地常见 `~/Documents/GitHub/dongle`） | Flutter App；详读 `work.html` |
 | **AustraliaGuide** | `drm.maipdf.com` 源码 | Cloudflare D1 API、pack/dashboard |
 | **maipdf.com** | PHP 主站 | Cloud Share 在线分享 |
+=======
+---
+
+## 2026-06-27 — article.maipdf.com Learning Center 改版记录
+
+### 本轮已处理
+- 新增执行计划: `docs/plans/2026-06-27-article-maipdf-seo-learning-center.md`。
+- 首页 `src/pages/index.astro` 已从普通产品 landing 改为 MaiPDF Secure Sharing Guides / Learning Center。
+- `/blog` 首页 `src/pages/blog/index.astro` 已改为按主题组织，包含推荐文章、最新文章和语言入口。
+- Header / SearchBar / 全局样式做了第一轮暗色模式与移动端可读性整理。
+- 新增旧文章审计计划: `docs/plans/2026-06-27-app-drm-content-audit.md`。
+- 本地已跑过 `npm run build:fast`，构建通过；本地预览服务使用 `127.0.0.1:8787` 检查页面。
+
+### 继续前注意
+- 在继续修改前，先按用户要求从 GitHub 拉取最新代码。
+- 本地改动较多，拉取前应先 stash/备份，避免覆盖本轮首页、博客页、Header、暗色模式和计划文档。
+- 后续继续内容方向: App DRM、`.maipdf`、防截图、设备绑定、撤销访问、Online Sharing 与 App DRM 区分。
+
+>>>>>>> Stashed changes

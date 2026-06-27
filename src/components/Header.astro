@@ -3,162 +3,230 @@ import HeaderLink from './HeaderLink.astro';
 import SearchBar from './SearchBar.astro';
 
 interface Props {
-	title?: string;
+  title?: string;
 }
 
 const { title = 'MaiPDF' } = Astro.props;
 ---
 
-<header>
-	<nav>
-		<h2><a href="/">{title}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-		<div class="search-wrapper">
-			<SearchBar />
-		</div>
-		<div class="social-links">
-			<!-- Removed 3 icons as requested -->
-		</div>
-		<button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun-icon">
-				<circle cx="12" cy="12" r="5"></circle>
-				<line x1="12" y1="1" x2="12" y2="3"></line>
-				<line x1="12" y1="21" x2="12" y2="23"></line>
-				<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-				<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-				<line x1="1" y1="12" x2="3" y2="12"></line>
-				<line x1="21" y1="12" x2="23" y2="12"></line>
-				<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-				<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon">
-				<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-			</svg>
-		</button>
-	</nav>
+<script is:inline>
+  (() => {
+    try {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.classList.add('dark');
+        document.body?.classList.add('dark-mode');
+      }
+    } catch {}
+  })();
+</script>
+
+<header class="site-header">
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="brand-row">
+      <a class="brand" href="/" aria-label="MaiPDF Secure Sharing Guides home">{title}</a>
+      <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun-icon">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div class="nav-links">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/blog">Blog</HeaderLink>
+      <HeaderLink href="/about">About</HeaderLink>
+    </div>
+
+    <div class="search-area">
+      <SearchBar />
+    </div>
+  </nav>
 </header>
+
 <style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	header.dark {
-		background: rgb(34, 41, 57); /* Dark mode background */
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Adjust shadow for dark mode */
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    margin: 0;
+    padding: 0.85rem 1rem;
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.04);
+    backdrop-filter: blur(18px);
+  }
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		padding: 0.5em 0;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	nav a.dark {
-		color: rgb(200, 200, 200); /* Adjust link color for dark mode */
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	
-	.search-wrapper {
-		flex: 1;
-		max-width: 400px;
-		margin: 0 1rem;
-	}
-	
-	.theme-toggle {
-		padding: 0.5em 1em;
-		background: rgba(var(--accent), 0.1);
-		color: rgb(var(--accent));
-		border: 1px solid rgba(var(--accent), 0.2);
-		border-radius: 4px;
-		cursor: pointer;
-		transition: all 0.2s ease;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	.theme-toggle:hover {
-		background: rgba(var(--accent), 0.2);
-	}
-	
-	.theme-toggle .sun-icon {
-		display: block;
-	}
-	
-	.theme-toggle .moon-icon {
-		display: none;
-	}
-	
-	body.dark-mode .theme-toggle .sun-icon {
-		display: none;
-	}
-	
-	body.dark-mode .theme-toggle .moon-icon {
-		display: block;
-	}
+  .site-nav {
+    display: grid;
+    grid-template-columns: minmax(190px, 0.72fr) auto minmax(340px, 0.9fr);
+    gap: 1.25rem;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
 
-	@media (max-width: 768px) {
-		nav {
-			flex-direction: column;
-			align-items: flex-start;
-		}
-		
-		.internal-links {
-			order: 2;
-			width: 100%;
-			margin: 0.5em 0;
-		}
-		
-		.search-wrapper {
-			order: 3;
-			max-width: 100%;
-			width: 100%;
-			margin: 0.5em 0;
-		}
-		
-		.social-links {
-			display: none;
-		}
-		
-		.theme-toggle {
-			order: 4;
-			margin: 0.5em 0;
-		}
-	}
+  .brand-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-width: 0;
+  }
+
+  .brand {
+    color: #0f172a;
+    font-size: 1rem;
+    font-weight: 850;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    text-decoration: none;
+  }
+
+  .brand:hover {
+    color: #1d4ed8;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+  }
+
+  .nav-links :global(a) {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0.55rem 0.85rem;
+    border-radius: 999px;
+    border-bottom: none !important;
+    color: #334155;
+    font-weight: 750;
+    text-decoration: none;
+  }
+
+  .nav-links :global(a:hover),
+  .nav-links :global(a.active) {
+    color: #1d4ed8;
+    background: #eff6ff;
+  }
+
+  .search-area {
+    min-width: 0;
+  }
+
+  .theme-toggle {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    border: 1px solid #dbeafe;
+    border-radius: 999px;
+    background: #f8fafc;
+    color: #0f172a;
+    cursor: pointer;
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  }
+
+  .theme-toggle:hover {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+  }
+
+  .theme-toggle .moon-icon {
+    display: none;
+  }
+
+  :global(body.dark-mode) .site-header {
+    background: rgba(15, 23, 42, 0.92);
+    border-bottom-color: rgba(148, 163, 184, 0.22);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.22);
+  }
+
+  :global(body.dark-mode) .brand {
+    color: #f8fafc;
+  }
+
+  :global(body.dark-mode) .brand:hover {
+    color: #93c5fd;
+  }
+
+  :global(body.dark-mode) .nav-links :global(a) {
+    color: #cbd5e1;
+  }
+
+  :global(body.dark-mode) .nav-links :global(a:hover),
+  :global(body.dark-mode) .nav-links :global(a.active) {
+    color: #bfdbfe;
+    background: rgba(37, 99, 235, 0.18);
+  }
+
+  :global(body.dark-mode) .theme-toggle {
+    color: #e5e7eb;
+    background: rgba(15, 23, 42, 0.9);
+    border-color: rgba(148, 163, 184, 0.32);
+  }
+
+  :global(body.dark-mode) .theme-toggle .sun-icon {
+    display: none;
+  }
+
+  :global(body.dark-mode) .theme-toggle .moon-icon {
+    display: block;
+  }
+
+  @media (max-width: 900px) {
+    .site-header {
+      position: static;
+      padding: 0.75rem 1rem 0.95rem;
+    }
+
+    .site-nav {
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+    }
+
+    .brand {
+      font-size: 0.96rem;
+    }
+
+    .nav-links {
+      justify-content: flex-start;
+      overflow-x: auto;
+      padding-bottom: 0.1rem;
+    }
+
+    .nav-links :global(a) {
+      min-height: 36px;
+      padding: 0.45rem 0.75rem;
+      white-space: nowrap;
+    }
+  }
 </style>
-<script>
+
+<script is:inline>
   function toggleTheme() {
+    const root = document.documentElement;
     const body = document.body;
-    const header = document.querySelector('header');
-    body.classList.toggle('dark-mode');
-    header.classList.toggle('dark');
+    const nextDark = !body.classList.contains('dark-mode');
+    body.classList.toggle('dark-mode', nextDark);
+    root.classList.toggle('dark', nextDark);
+    try { localStorage.setItem('theme', nextDark ? 'dark' : 'light'); } catch {}
   }
 </script>

@@ -1,96 +1,582 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+
+const pageTitle = 'MaiPDF Secure Sharing Guides';
+const pageDescription = 'Practical guides for secure PDF sharing, App DRM, screenshot protection, .maipdf files, watermarks, QR codes, access limits, and Maiimg image sharing.';
+
+function getDisplayDate(data: { pubDate: Date; updatedDate?: Date }) {
+  const publishedAt = data.pubDate instanceof Date ? data.pubDate : new Date(data.pubDate);
+  const updatedAt = data.updatedDate
+    ? data.updatedDate instanceof Date
+      ? data.updatedDate
+      : new Date(data.updatedDate)
+    : null;
+  return updatedAt && updatedAt.getTime() > publishedAt.getTime() ? updatedAt : publishedAt;
+}
+
+const allPosts = (await getCollection('blog'))
+  .filter((post) => post.data.noindex !== true)
+  .sort((a, b) => getDisplayDate(b.data).valueOf() - getDisplayDate(a.data).valueOf());
+
+const featuredSlugs = [
+  'en/introducing-maipdf-secure-share',
+  'en/prevent-pdf-downloads-view-only',
+  'en/limit-pdf-views-drm',
+  'en/pdf-dynamic-watermark-security-guide',
+  'en/pdf-sharing-with-qr-code-complete-guide',
+  'en/maiimg-secure-image-sharing-access-control',
+];
+
+const featuredPosts = featuredSlugs
+  .map((slug) => allPosts.find((post) => post.id.replace(/\.md$/, '') === slug))
+  .filter(Boolean)
+  .slice(0, 6);
+
+const latestPosts = allPosts.slice(0, 6);
+
+const topics = [
+  {
+    title: 'Online PDF Sharing',
+    desc: 'Create secure PDF links and QR codes, set expiry, and track opens without asking readers to install anything.',
+    href: '/blog/en/share-pdf-online',
+    label: 'Fast browser sharing',
+  },
+  {
+    title: 'App DRM & .maipdf',
+    desc: 'Learn when protected .maipdf files and the MaiPDF App are better than ordinary browser links.',
+    href: 'https://drm.maipdf.com',
+    label: 'Stronger control',
+  },
+  {
+    title: 'Screenshot Protection',
+    desc: 'Understand why browsers cannot fully block screenshots and how app-based reading changes the risk model.',
+    href: '/blog/en/introducing-maipdf-secure-share',
+    label: 'New App capability',
+  },
+  {
+    title: 'View Limits & Expiry',
+    desc: 'Control how many times a PDF can be opened, when access ends, and how to revoke links later.',
+    href: '/blog/en/limit-pdf-views-drm',
+    label: 'Access rules',
+  },
+  {
+    title: 'Watermark & Tracking',
+    desc: 'Use dynamic watermarks and activity logs to identify leaks and make document forwarding riskier.',
+    href: '/blog/en/pdf-dynamic-watermark-security-guide',
+    label: 'Trace leaks',
+  },
+  {
+    title: 'Maiimg Image Sharing',
+    desc: 'Guides for secure image galleries, QR-code image delivery, portfolio links, and client review workflows.',
+    href: '/blog/en/maiimg-secure-image-sharing-access-control',
+    label: 'Image workflows',
+  },
+];
 ---
 
-<Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
-  <main class="max-w-4xl mx-auto px-6 py-10">
-    <!-- Hero Section -->
-    <section class="mb-12 text-center">
-      <h1 class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-        Share PDFs Securely
-      </h1>
-      <p class="text-xl max-w-2xl mx-auto leading-relaxed">
-        MaiPDF gives you full control over your shared documents with customizable access, dynamic watermarks, and open statistics.
-      </p>
-      <div class="mt-8">
-        <a href="https://maipdf.com" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 inline-block">
-          Try MaiPDF Now
-        </a>
+<Layout title={pageTitle} description={pageDescription}>
+  <main class="learning-home">
+    <section class="hero-section">
+      <div class="hero-copy">
+        <p class="eyebrow">MaiPDF Learning Center</p>
+        <h1>Secure PDF sharing guides for real-world document control</h1>
+        <p class="hero-text">
+          Learn how to share PDFs online, protect documents with the MaiPDF App, reduce screenshot leaks,
+          use dynamic watermarks, set view limits, create QR codes, and deliver images with Maiimg.
+        </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="btn primary" href="/blog">Read the guides</a>
+          <a class="btn secondary" href="https://maipdf.com">Try online sharing</a>
+          <a class="btn ghost" href="https://drm.maipdf.com">Explore App DRM</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="MaiPDF product map">
+        <div class="panel-card online">
+          <span class="pill">maipdf.com</span>
+          <h2>Online Sharing</h2>
+          <p>Fast PDF links, QR codes, expiry, watermarks, and open tracking in the browser.</p>
+        </div>
+        <div class="panel-card drm">
+          <span class="pill">drm.maipdf.com</span>
+          <h2>App DRM</h2>
+          <p>Protected .maipdf files, device binding, revocation, and screen-capture controls a web page cannot provide.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Browse by problem</p>
+        <h2>Find the right guide for the risk you are trying to solve</h2>
+      </div>
+      <div class="topic-grid">
+        {topics.map((topic) => (
+          <a class="topic-card" href={topic.href}>
+            <span>{topic.label}</span>
+            <h3>{topic.title}</h3>
+            <p>{topic.desc}</p>
+          </a>
+        ))}
       </div>
     </section>
 
-    <!-- Features Grid -->
-    <section class="mb-12">
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="feature-card">
-          <div class="text-blue-600 mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Access Control</h3>
-          <p>Limit views, set expirations, and require email verification before viewing your PDFs.</p>
-        </div>
-        
-        <div class="feature-card">
-          <div class="text-blue-600 mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Dynamic Watermarks</h3>
-          <p>Add personalized watermarks with viewer information to trace document leaks.</p>
-        </div>
-        
-        <div class="feature-card">
-          <div class="text-blue-600 mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Access Tracking</h3>
-          <p>Monitor who viewed your documents, when, and from which devices or locations.</p>
-        </div>
+    <section class="split-section">
+      <div class="split-card browser-card">
+        <p class="eyebrow">Browser-based sharing</p>
+        <h2>When speed matters</h2>
+        <p>
+          Use MaiPDF online sharing when you need a controlled link or QR code quickly: view limits,
+          expiration, watermarks, access records, and simple sharing by email, WeChat, WhatsApp, or social apps.
+        </p>
+        <a href="https://maipdf.com">Open MaiPDF online sharing →</a>
+      </div>
+      <div class="split-card app-card">
+        <p class="eyebrow">App-based DRM</p>
+        <h2>When screenshots and devices matter</h2>
+        <p>
+          Browsers cannot fully stop operating-system screenshots. For stronger control, use protected .maipdf files
+          in the MaiPDF App with screenshot protection, device binding, revocation, and traceable watermarks.
+        </p>
+        <a href="https://drm.maipdf.com">Learn about the MaiPDF App →</a>
       </div>
     </section>
 
-    <!-- How It Works -->
-    <section class="mb-12">
-      <h2 class="text-3xl font-bold mb-6 text-center">How It Works</h2>
-      <div class="grid md:grid-cols-3 gap-6 text-center">
-        <div class="p-4">
-          <div class="step-number mx-auto">1</div>
-          <h3 class="font-bold mt-3 mb-2">Upload Your PDF</h3>
-          <p>Simply drag and drop your PDF file onto the MaiPDF platform.</p>
+    <section class="section-block">
+      <div class="section-heading with-link">
+        <div>
+          <p class="eyebrow">Recommended guides</p>
+          <h2>Start with the core MaiPDF workflows</h2>
         </div>
-        <div class="p-4">
-          <div class="step-number mx-auto">2</div>
-          <h3 class="font-bold mt-3 mb-2">Set Security Options</h3>
-          <p>Choose view limits, expiration, access requirements, and watermark settings.</p>
-        </div>
-        <div class="p-4">
-          <div class="step-number mx-auto">3</div>
-          <h3 class="font-bold mt-3 mb-2">Share Your Link</h3>
-          <p>Send the generated link or QR code to your recipients via any messaging platform.</p>
-        </div>
+        <a href="/blog">View all articles →</a>
+      </div>
+      <div class="article-grid">
+        {featuredPosts.length > 0 ? featuredPosts.map((post) => (
+          <a class="article-card" href={`/blog/${post.id.replace(/\.md$/, '')}`}>
+            <p class="article-lang">{post.id.split('/')[0].toUpperCase()}</p>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+          </a>
+        )) : latestPosts.map((post) => (
+          <a class="article-card" href={`/blog/${post.id.replace(/\.md$/, '')}`}>
+            <p class="article-lang">{post.id.split('/')[0].toUpperCase()}</p>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+          </a>
+        ))}
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="mb-8 text-center">
-      <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg p-8">
-        <h2 class="text-2xl font-bold mb-4">Ready to secure your PDFs?</h2>
-        <p class="mb-6">Join thousands of users who trust MaiPDF for their document security needs.</p>
-        <a href="https://maipdf.com" class="bg-white text-blue-600 hover:bg-gray-100 font-semibold py-3 px-6 rounded-lg transition duration-300 inline-block">
-          Get Started Now
-        </a>
+    <section class="section-block latest-section">
+      <div class="section-heading with-link">
+        <div>
+          <p class="eyebrow">Latest articles</p>
+          <h2>Fresh tutorials and practical SEO guides</h2>
+        </div>
+        <a href="/blog">Browse the library →</a>
       </div>
-    </section>
-
-    <!-- Additional Information -->
-    <section class="text-center text-gray-600 dark:text-gray-400">
-      <p>Learn more about MaiPDF features in our <a href="/blog" class="text-blue-600 dark:text-blue-400 hover:underline">blog articles</a>.</p>
+      <div class="latest-list">
+        {latestPosts.map((post) => (
+          <a href={`/blog/${post.id.replace(/\.md$/, '')}`}>
+            <span>{post.id.split('/')[0].toUpperCase()}</span>
+            <strong>{post.data.title}</strong>
+            <p>{post.data.description}</p>
+          </a>
+        ))}
+      </div>
     </section>
   </main>
 </Layout>
+
+<style>
+  .learning-home {
+    width: min(1180px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 4rem 0 5rem;
+    color: #0f172a;
+  }
+
+  .hero-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+    gap: 2rem;
+    align-items: stretch;
+    margin-bottom: 4rem;
+  }
+
+  .hero-copy {
+    border-radius: 32px;
+    padding: clamp(2rem, 5vw, 4rem);
+    background:
+      radial-gradient(circle at 10% 10%, rgba(37, 99, 235, 0.18), transparent 30%),
+      linear-gradient(135deg, #eff6ff 0%, #f8fafc 52%, #eef2ff 100%);
+    border: 1px solid #dbeafe;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.85rem;
+    color: #2563eb;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  h1, h2, h3, p {
+    overflow-wrap: anywhere;
+  }
+
+  .hero-copy h1 {
+    max-width: 850px;
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(2.65rem, 5.8vw, 5.7rem);
+    line-height: 0.95;
+    letter-spacing: -0.07em;
+  }
+
+  .hero-text {
+    max-width: 760px;
+    margin: 1.5rem 0 0;
+    color: #334155;
+    font-size: clamp(1.08rem, 1.5vw, 1.35rem);
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0.78rem 1.15rem;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-1px);
+  }
+
+  .btn.primary {
+    color: #fff;
+    background: #2563eb;
+    box-shadow: 0 18px 35px rgba(37, 99, 235, 0.22);
+  }
+
+  .btn.secondary {
+    color: #1d4ed8;
+    background: #fff;
+    border: 1px solid #bfdbfe;
+  }
+
+  .btn.ghost {
+    color: #312e81;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+  }
+
+  .hero-panel {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .panel-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 240px;
+    border-radius: 28px;
+    padding: 2rem;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .panel-card::before {
+    content: '';
+    position: absolute;
+    inset: auto -20% -45% 25%;
+    height: 190px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.18);
+    filter: blur(3px);
+  }
+
+  .panel-card > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .panel-card.online {
+    background: linear-gradient(135deg, #1d4ed8, #06b6d4);
+  }
+
+  .panel-card.drm {
+    background: linear-gradient(135deg, #111827, #4f46e5 58%, #7c3aed);
+  }
+
+  .pill {
+    align-self: flex-start;
+    padding: 0.38rem 0.65rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .panel-card h2 {
+    margin: 1.2rem 0 0.65rem;
+    color: #fff;
+    font-size: 1.85rem;
+    line-height: 1.05;
+  }
+
+  .panel-card p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 1.6;
+  }
+
+  .section-block,
+  .split-section {
+    margin-top: 4rem;
+  }
+
+  .section-heading {
+    max-width: 760px;
+    margin-bottom: 1.4rem;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(1.75rem, 3vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+  }
+
+  .section-heading.with-link {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: none;
+  }
+
+  .section-heading.with-link > a {
+    flex: 0 0 auto;
+    color: #2563eb;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .topic-grid,
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .topic-card,
+  .article-card,
+  .latest-list a,
+  .split-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 18px 55px rgba(15, 23, 42, 0.06);
+  }
+
+  .topic-card,
+  .article-card {
+    display: block;
+    min-height: 210px;
+    padding: 1.45rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .topic-card span,
+  .article-lang,
+  .latest-list span {
+    display: inline-flex;
+    margin: 0 0 0.85rem;
+    color: #1d4ed8;
+    font-size: 0.72rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .topic-card h3,
+  .article-card h3 {
+    margin: 0 0 0.7rem;
+    color: #0f172a;
+    font-size: 1.25rem;
+    line-height: 1.18;
+  }
+
+  .topic-card p,
+  .article-card p,
+  .latest-list p {
+    margin: 0;
+    color: #475569;
+    line-height: 1.62;
+  }
+
+  .split-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .split-card {
+    padding: 2rem;
+  }
+
+  .split-card h2 {
+    margin: 0 0 1rem;
+    color: #0f172a;
+    font-size: 2rem;
+    line-height: 1.05;
+  }
+
+  .split-card p {
+    color: #475569;
+    line-height: 1.7;
+  }
+
+  .split-card a {
+    display: inline-flex;
+    margin-top: 0.5rem;
+    color: #2563eb;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .browser-card {
+    background: linear-gradient(180deg, #ffffff, #eff6ff);
+  }
+
+  .app-card {
+    background: linear-gradient(180deg, #ffffff, #f5f3ff);
+  }
+
+  .latest-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .latest-list a {
+    display: grid;
+    grid-template-columns: 54px minmax(0, 0.9fr) minmax(0, 1.25fr);
+    gap: 1rem;
+    align-items: start;
+    padding: 1rem 1.2rem;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .latest-list strong {
+    color: #0f172a;
+    line-height: 1.35;
+  }
+
+  @media (max-width: 900px) {
+    .learning-home {
+      width: min(100% - 1rem, 720px);
+      padding-top: 1.2rem;
+    }
+
+    .hero-section,
+    .split-section {
+      grid-template-columns: 1fr;
+    }
+
+    .topic-grid,
+    .article-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-heading.with-link {
+      display: block;
+    }
+
+    .section-heading.with-link > a {
+      display: inline-flex;
+      margin-top: 1rem;
+    }
+
+    .latest-list a {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+
+    .hero-copy,
+    .panel-card,
+    .split-card {
+      border-radius: 22px;
+    }
+  }
+
+  :global(body.dark-mode) .learning-home {
+    color: #e5e7eb;
+  }
+
+  :global(body.dark-mode) .hero-copy {
+    background:
+      radial-gradient(circle at 10% 10%, rgba(96, 165, 250, 0.22), transparent 32%),
+      linear-gradient(135deg, #0f172a 0%, #111827 52%, #1e1b4b 100%);
+    border-color: rgba(148, 163, 184, 0.28);
+  }
+
+  :global(body.dark-mode) .hero-copy h1,
+  :global(body.dark-mode) .section-heading h2,
+  :global(body.dark-mode) .topic-card h3,
+  :global(body.dark-mode) .article-card h3,
+  :global(body.dark-mode) .split-card h2,
+  :global(body.dark-mode) .latest-list strong {
+    color: #f8fafc;
+  }
+
+  :global(body.dark-mode) .hero-text,
+  :global(body.dark-mode) .topic-card p,
+  :global(body.dark-mode) .article-card p,
+  :global(body.dark-mode) .latest-list p,
+  :global(body.dark-mode) .split-card p {
+    color: #cbd5e1;
+  }
+
+  :global(body.dark-mode) .topic-card,
+  :global(body.dark-mode) .article-card,
+  :global(body.dark-mode) .latest-list a,
+  :global(body.dark-mode) .split-card {
+    background: #111827;
+    border-color: rgba(148, 163, 184, 0.24);
+    box-shadow: 0 18px 55px rgba(0, 0, 0, 0.28);
+  }
+
+  :global(body.dark-mode) .browser-card,
+  :global(body.dark-mode) .app-card {
+    background: #111827;
+  }
+
+  :global(body.dark-mode) .eyebrow,
+  :global(body.dark-mode) .topic-card span,
+  :global(body.dark-mode) .article-lang,
+  :global(body.dark-mode) .latest-list span,
+  :global(body.dark-mode) .section-heading.with-link > a,
+  :global(body.dark-mode) .split-card a {
+    color: #93c5fd;
+  }
+</style>
