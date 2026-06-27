@@ -5,7 +5,11 @@ pubDate: "Jan 17 2026"
 updatedDate: "May 12 2026"
 heroImage: "/maipdf2026/offline/inststruct.png"
 tags: ["PDF安全", "Secure Share", "drm.maipdf.com", "加锁HTML", "MaiPDF"]
+noindex: true
+
 ---
+
+> **Product direction note:** HTML package / PDF-to-HTML content is now de-emphasized. For current MaiPDF protected-reading workflows, prefer Online Cloud Sharing for fast browser links and App DRM / `.maipdf` for screenshot-aware protection, device binding, revocation, and protected reader controls.
 
 # PDF 安全分享方案：一键生成自包含的加锁 HTML 文件
 

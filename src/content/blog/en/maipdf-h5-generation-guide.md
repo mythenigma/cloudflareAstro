@@ -6,7 +6,11 @@ updatedDate: "Jun 23 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Secure Share", "Locked HTML", "PDF DRM"]
 showDefaultCta: false
+noindex: true
+
 ---
+
+> **Product direction note:** HTML package / PDF-to-HTML content is now de-emphasized. For current MaiPDF protected-reading workflows, prefer Online Cloud Sharing for fast browser links and App DRM / `.maipdf` for screenshot-aware protection, device binding, revocation, and protected reader controls.
 
 Older posts called it **H5** or **offline HTML**. That means the **web packer** at [pack.html](https://drm.maipdf.com/pack.html):
 

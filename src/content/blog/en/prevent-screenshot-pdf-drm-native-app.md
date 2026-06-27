@@ -1,6 +1,6 @@
 ---
 title: "Prevent screenshot on PDFs: MaiPDF Secure desktop app (complete guide)"
-description: "Pack .maipdf on Windows or macOS for OS-level screenshot and screen-recording block. Step-by-step, license rules, recipient flow, limits. Not pack.html web HTML."
+description: "Pack .maipdf on Windows or macOS for OS-level screenshot and screen-recording control. Step-by-step guide to license rules, recipient flow, limits, and App DRM."
 pubDate: "Jun 23 2026"
 updatedDate: "Jun 23 2026"
 heroImage: "/maipdf2026/offline/offlinedrm.png"
@@ -8,9 +8,9 @@ tags: ["prevent screenshot", "PDF DRM", ".maipdf", "native app"]
 showDefaultCta: false
 ---
 
-**Bottom line:** A PDF in a browser — whether a [maipdf.com](https://www.maipdf.com) link or a [pack.html](https://drm.maipdf.com/pack.html) locked HTML file — **cannot prevent screenshot**. The browser sandbox does not get OS-level control over Print Screen, snipping tools, or screen recorders.
+**Bottom line:** A PDF opened in a browser cannot reliably prevent screenshots. The browser sandbox does not get OS-level control over Print Screen, snipping tools, or screen recorders.
 
-To **prevent screenshot on PDFs**, pack **`.maipdf`** in the **MaiPDF Secure desktop app** (Windows / macOS) and have readers open the file **only inside that app**. Same license server as web pack, but a **different packing pipeline and a higher security tier**.
+To **prevent screenshot on PDFs**, protect the document as **`.maipdf`** in the **MaiPDF Secure desktop app** (Windows / macOS) and have readers open the file **only inside that app**. This is the current MaiPDF path for screenshot-aware protection, device binding, revocation, and protected-reader controls.
 
 ---
 
@@ -18,11 +18,10 @@ To **prevent screenshot on PDFs**, pack **`.maipdf`** in the **MaiPDF Secure des
 
 | Layer | What it can do | What it cannot do |
 |---|---|---|
-| Online link (maipdf.com) | Expiry, opens, watermark, Fence View | Block OS capture APIs |
-| Web HTML pack (pack.html) | Encrypted file, revoke, watermark | Block OS capture APIs |
-| **Desktop app (.maipdf)** | Native viewer + **SecureScreen**-class controls | Stop a second camera at the screen |
+| Online link (maipdf.com) | Expiry, opens, watermark, access tracking | Block OS capture APIs |
+| **MaiPDF App (.maipdf)** | Protected reader + **SecureScreen**-class controls | Stop a second camera at the screen |
 
-Web pack is still useful when install is impossible. It is not a substitute when screenshot control is a hard requirement.
+For current MaiPDF positioning, treat the browser link as the fast path and the `.maipdf` app workflow as the stronger protection path.
 
 ---
 
@@ -31,7 +30,6 @@ Web pack is still useful when install is impossible. It is not a substitute when
 | Method | Prevent screenshot? |
 |---|---|
 | [maipdf.com](https://www.maipdf.com) link | No — watermark / access control only |
-| [pack.html](https://drm.maipdf.com/pack.html) web HTML | No — still renders in browser |
 | **MaiPDF Secure + `.maipdf`** | **Yes** — OS-level block or detect (varies by platform) |
 
 ---
@@ -66,7 +64,7 @@ Domestic app stores (Huawei, Xiaomi, 应用宝, etc.) are **not first-wave**. So
 
 ### 1. Choose the source PDF
 
-Use the final version you want read. Like web pack, **content is frozen at pack time** — edits require a new `.maipdf` and a new send.
+Use the final version you want readers to see. Protected files are created from a specific source PDF, so later PDF edits should be protected again as a new `.maipdf` file.
 
 ### 2. Open Protect / Pack in the app
 
@@ -83,7 +81,7 @@ From the MaiPDF Secure home screen, start **Protect PDF** (DRM pack). Select you
 | **Allowed emails** | Optional — only listed Google accounts may open |
 | **Device limit** | Cap how many devices each account may bind |
 
-Rules are enforced server-side at open time — same D1 backend as pack.html, but the **file format and reader are native**.
+Rules are enforced server-side at open time, while the **file format and reader are native**.
 
 ### 4. Export `.maipdf`
 
@@ -121,7 +119,7 @@ Exact behavior can change with OS updates. **Test on the same OS your audience u
 
 ---
 
-## What the app adds beyond web pack
+## What the app adds beyond browser sharing
 
 - **Prevent screenshot / screen recording** where the OS allows
 - **Device integrity checks** — rooted / jailbroken / debug environments may be refused
@@ -131,20 +129,20 @@ Exact behavior can change with OS updates. **Test on the same OS your audience u
 ## What still does not work
 
 - **Second camera** pointed at the screen — no product can prevent this
-- **Air-gapped open** — license check still needs network at unlock (same as web pack)
+- **Air-gapped open** — license check still needs network at unlock
 - **Editing packed content** — repack required for PDF changes
 
 ---
 
-## When to use web pack instead
+## When to use online sharing instead
 
-Pick [pack.html](/blog/en/how-to-create-offline-pdf-package-complete-guide) when:
+Use a regular [MaiPDF online sharing](https://maipdf.com) link when:
 
-- Recipients **refuse to install** anything
-- Screenshot is not a hard requirement
-- You accept browser security limits in exchange for zero install
+- Recipients should not install anything
+- Screenshot control is not a hard requirement
+- You mainly need fast delivery, QR codes, view limits, expiry, watermarking, and access tracking
 
-Pick **`.maipdf`** when contracts, courseware, unreleased designs, or internal confidential PDFs need **capture control**.
+Use **`.maipdf`** when contracts, courseware, unreleased designs, or internal confidential PDFs need **capture control**, device binding, and revocation.
 
 ---
 
@@ -156,14 +154,14 @@ Pick **`.maipdf`** when contracts, courseware, unreleased designs, or internal c
 
 **vs LockLizard?** Similar category (managed reader, revoke, devices). LockLizard is a long-established **paid enterprise** vendor. MaiPDF Secure targets the same controls without enterprise pricing → [comparison](/blog/en/maipdf-secure-vs-locklizard-pdf-drm).
 
-**vs pack.html?** Web = PDF→HTML→ZIP, browser, lower tier. App = `.maipdf`, native, **prevent screenshot**.
+**Browser link or App DRM?** Browser link = fastest sharing, no install, good for QR codes and access tracking. App DRM = `.maipdf`, native reader, **prevent screenshot** where supported.
 
 ---
 
 ## Related
 
-- [Web HTML pack complete guide](/blog/en/how-to-create-offline-pdf-package-complete-guide) — when install is impossible
-- [Three sharing modes](/blog/en/online-vs-offline-pdf-security)
+- [Browser PDF Viewer vs App DRM](/blog/en/browser-pdf-viewer-vs-app-drm) — choose fast links or protected `.maipdf`
+- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)
 - [Introducing MaiPDF Secure](/blog/en/introducing-maipdf-secure-share)
 
 <div class="cta-container">

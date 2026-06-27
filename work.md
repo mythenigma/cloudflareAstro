@@ -374,7 +374,6 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 | [public/robots.txt](public/robots.txt) | 抓取规则 |
 | [astro.config.mjs](astro.config.mjs) | `trailingSlash:'never'`、sitemap 配置 |
 | [src/pages/blog/index.astro](src/pages/blog/index.astro) | 博客首页语言分区(现 en/cn/es) |
-<<<<<<< Updated upstream
 | [src/pages/index.astro](src/pages/index.astro) | 站点首页 CTA（待加 Secure / drm 入口） |
 
 ### 生态外仓库（改博客时对照，不在本仓库）
@@ -384,7 +383,6 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 | **dongle** | `github/dongle`（本地常见 `~/Documents/GitHub/dongle`） | Flutter App；详读 `work.html` |
 | **AustraliaGuide** | `drm.maipdf.com` 源码 | Cloudflare D1 API、pack/dashboard |
 | **maipdf.com** | PHP 主站 | Cloud Share 在线分享 |
-=======
 ---
 
 ## 2026-06-27 — article.maipdf.com Learning Center 改版记录
@@ -395,11 +393,37 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 - `/blog` 首页 `src/pages/blog/index.astro` 已改为按主题组织，包含推荐文章、最新文章和语言入口。
 - Header / SearchBar / 全局样式做了第一轮暗色模式与移动端可读性整理。
 - 新增旧文章审计计划: `docs/plans/2026-06-27-app-drm-content-audit.md`。
-- 本地已跑过 `npm run build:fast`，构建通过；本地预览服务使用 `127.0.0.1:8787` 检查页面。
+- 已按要求先从 GitHub 拉取最新 `origin/main`；拉取前本地改动已用 git stash 备份。
 
 ### 继续前注意
-- 在继续修改前，先按用户要求从 GitHub 拉取最新代码。
-- 本地改动较多，拉取前应先 stash/备份，避免覆盖本轮首页、博客页、Header、暗色模式和计划文档。
+- 远端新增了 App DRM / 防截图相关文章和全局样式更新；后续修改必须基于最新 GitHub 内容继续。
 - 后续继续内容方向: App DRM、`.maipdf`、防截图、设备绑定、撤销访问、Online Sharing 与 App DRM 区分。
 
->>>>>>> Stashed changes
+### 2026-06-27 继续执行
+- 新增英文 SEO 文章: `browser-pdf-viewer-vs-app-drm.md`、`what-is-a-maipdf-file.md`、`pdf-device-binding-explained.md`。
+- 首页和 `/blog` 推荐文章已优先指向 App DRM / `.maipdf` / 防截图 / 设备绑定主题。
+
+### 2026-06-27 素材接入
+- 从 dongle 项目复制 App UI 素材到 `public/app-screenshots/`。
+- 已在新增英文 SEO 文章中加入 App 截图：App overview、Protected viewer、License manager。
+
+### 2026-06-27 产品方向校正
+- 用户确认 PDF-to-HTML / locked HTML package 已不重要，后续内容应尽量不再强调。
+- 已将主要 HTML package / PDF-to-HTML 旧文标记为 `noindex: true` 并加参考说明，避免继续作为 SEO 主线。
+- `/blog` App DRM 主题匹配已移除 `offline` 关键词，避免把旧 HTML/offline 文章推到 App DRM 主题里。
+- 防截图主文已移除 `pack.html` 对比，把当前路径收敛为 Online Cloud Sharing vs App DRM / `.maipdf`。
+
+### 2026-06-27 新增 Secure PDF Reader 主文
+- 新增英文 SEO 文章 `src/content/blog/en/secure-pdf-reader-with-screenshot-protection.md`。
+- 文章使用 App Protected Viewer 与 DRM Pack Result 截图，重点解释 secure PDF reader、App DRM、`.maipdf`、防截图、设备绑定和水印追踪。
+- 首页和 `/blog` 推荐文章已把该文放到第一位，强化 App DRM / 防截图主线。
+
+### 2026-06-27 新增 Cloud Sharing vs App DRM 对比主文
+- 新增英文 SEO 文章 `src/content/blog/en/online-pdf-sharing-vs-app-drm.md`。
+- 文章明确区分 MaiPDF Online Cloud Sharing 与 App DRM / `.maipdf`：前者用于快速链接、二维码、水印、访问记录；后者用于防截图、设备绑定、撤销访问、受保护阅读器。
+- 首页和 `/blog` 推荐文章已将该文放到第一位，用作两条产品线的主解释入口。
+
+### 2026-06-27 新增撤销访问 SEO 文章
+- 新增英文 SEO 文章 `src/content/blog/en/how-to-revoke-access-to-a-pdf-after-sending.md`。
+- 文章承接 Online Cloud Sharing 与 App DRM 两条线，解释链接禁用、过期、访问次数、`.maipdf` license revoke、设备绑定和水印追踪。
+- 首页和 `/blog` 推荐文章已加入该文，强化“发出去以后还能控制”的卖点。

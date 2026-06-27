@@ -4,7 +4,11 @@ description: "Una solución de lectura de PDF offline para reuniones sin red, au
 pubDate: "Jan 17 2026"
 heroImage: "/offlinepages/offline-MaiPDF-Home-Page.png"
 tags: ["Seguridad PDF", "Lectura offline", "Control de documentos", "Paquete HTML"]
+noindex: true
+
 ---
+
+> **Product direction note:** HTML package / PDF-to-HTML content is now de-emphasized. For current MaiPDF protected-reading workflows, prefer Online Cloud Sharing for fast browser links and App DRM / `.maipdf` for screenshot-aware protection, device binding, revocation, and protected reader controls.
 
 # Solución de lectura segura offline de PDF: Generación de paquetes HTML con un clic
 

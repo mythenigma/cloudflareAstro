@@ -20,12 +20,12 @@ const allPosts = (await getCollection('blog'))
   .sort((a, b) => getDisplayDate(b.data).valueOf() - getDisplayDate(a.data).valueOf());
 
 const featuredSlugs = [
-  'en/introducing-maipdf-secure-share',
-  'en/prevent-pdf-downloads-view-only',
-  'en/limit-pdf-views-drm',
-  'en/pdf-dynamic-watermark-security-guide',
-  'en/pdf-sharing-with-qr-code-complete-guide',
-  'en/maiimg-secure-image-sharing-access-control',
+  'en/online-pdf-sharing-vs-app-drm',
+  'en/how-to-revoke-access-to-a-pdf-after-sending',
+  'en/secure-pdf-reader-with-screenshot-protection',
+  'en/prevent-screenshot-pdf-drm-native-app',
+  'en/what-is-a-maipdf-file',
+  'en/pdf-device-binding-explained',
 ];
 
 const featuredPosts = featuredSlugs
