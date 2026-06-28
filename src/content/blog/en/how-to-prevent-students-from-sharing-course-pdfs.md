@@ -12,7 +12,7 @@ When students pay for a course, worksheet, certification pack, or exam-prep PDF,
 
 The goal is not to make leaking impossible. No software can stop someone from taking a photo of a screen with another phone. The practical goal is to reduce easy sharing, keep access controlled, and make leaks easier to trace.
 
-MaiPDF helps with two levels of protection. If you need the broader course-business overview, start with [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses).
+MaiPDF helps with two levels of protection. If you need the broader course-business overview, start with [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses). For exam-focused materials, see [How to Protect Exam Prep PDFs from Sharing and Screenshots](/blog/en/protect-exam-prep-pdfs-from-sharing).
 
 1. **Online Cloud Sharing** for fast controlled links, QR codes, expiry, view limits, and watermarks.
 2. **App DRM / `.maipdf`** for stronger control with device binding, revocation, and screenshot-aware protected reading.

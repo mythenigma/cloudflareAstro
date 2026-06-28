@@ -158,4 +158,4 @@ Maiimg提供最佳的**自动删除图片**功能：
 **相关文章:**
 - [一键分享多张图片：图册分享](/blog/cn/one-click-share-multiple-images-gallery-sharing)
 - [社交媒体图片图册分享：完整指南](/blog/cn/social-media-image-gallery-sharing-guide)
-- [免费图片托管：完整指南](/blog/cn/free-image-hosting-maiimg-complete-guide)
+- [免费图片托管：完整指南](/blog/cn/maiimg-complete-workflow-guide-with-diagrams)

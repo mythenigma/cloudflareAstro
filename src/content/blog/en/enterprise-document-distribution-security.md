@@ -2,12 +2,18 @@
 title: "Enterprise Document Distribution: A Practical Security Workflow"
 description: "A clear, step-by-step workflow for distributing sensitive documents across teams and recipients—without losing control."
 pubDate: "Apr 4 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/user_control_panel_alotof_functions.png"
 tags: ["Enterprise", "Document Distribution", "Access Control", "Security", "Workflow"]
 showDefaultCta: true
 ---
 
 # Enterprise Document Distribution: A Practical Security Workflow
+
+
+> **2026 update:** This guide mainly covers browser-based Online Cloud Sharing: controlled links, expiry, view limits, watermarks, access records, and download/print restrictions. For files where screenshot risk, device sharing, refund abuse, or post-contract revocation matters, use the stronger App DRM path: protected `.maipdf` files opened in the MaiPDF App with device binding, license revocation, protected reading, and traceable watermarks. A browser cannot fully block operating-system screenshots, and no software can stop someone from photographing a screen with another phone.
+>
+> Start here if you are choosing between the two paths: [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm), [secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection), and [how to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
 
 <div class="intro-panel">
   <p>Enterprise distribution isn’t “send a PDF and hope.” It’s a repeatable workflow: define access, deliver safely, and keep a record of what happened.</p>

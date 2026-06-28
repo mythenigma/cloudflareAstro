@@ -2,11 +2,13 @@
 title: "PDF Link Sharing — A Better Alternative to Email Attachments"
 description: "Why PDF links beat email attachments in 2026: no 25 MB bounce-backs, better deliverability, mobile-first reading, trackable opens, and revisions that don't spawn new email threads."
 pubDate: "Apr 3 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["PDF sharing", "email attachments", "document links", "file delivery", "managed PDF links"]
 showDefaultCta: true
 ---
+**2026 update:** A link is safer than an attachment because access can expire, be limited, and be tracked. For files that should remain controlled after download-like distribution, use App DRM / **`.maipdf`** with license revocation. See [How to Revoke Access to a PDF After Sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
+
 
 Email attachments were designed for a world where "one file to one inbox" was the unit of sharing. That world ended around the time every reader pulled their email out of their pocket instead of their desktop. The modern equivalent — **a managed PDF link pasted into the same email** — isn't a stylistic upgrade. It fixes six specific, measurable things that attachments never could.
 

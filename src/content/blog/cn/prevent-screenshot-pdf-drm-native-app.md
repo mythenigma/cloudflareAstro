@@ -101,7 +101,7 @@ showDefaultCta: false
 
 ## 网页打包什么时候够用？
 
-对方**坚决不装 App**、且截屏不是硬性要求 → [pack.html 完整教程](/blog/en/how-to-create-offline-pdf-package-complete-guide)（英文，含截图）
+对方**坚决不装 App**、且截屏不是硬性要求 → [pack.html 完整教程](/blog/en/online-pdf-sharing-vs-app-drm)（英文，含截图）
 
 合同、付费课件、未公开设计稿等需要 **防止截屏** → 必须用本 App 的 `.maipdf`。
 
@@ -121,7 +121,7 @@ showDefaultCta: false
 
 **和 pack.html 区别？** 网页 = 不装 App、浏览器限制；要 **防止截屏** 用桌面 App。
 
-**和 LockLizard？** → [对比文](/blog/cn/maipdf-secure-vs-locklizard-pdf-drm)
+**和 LockLizard？** → [对比文](/blog/cn/prevent-screenshot-pdf-drm-native-app)
 
 <div class="cta-container">
   <a href="https://drm.maipdf.com/" target="_blank" rel="noopener noreferrer" class="cta-button">

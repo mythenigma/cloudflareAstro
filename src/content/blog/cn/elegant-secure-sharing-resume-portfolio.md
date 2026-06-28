@@ -292,7 +292,7 @@ language: "cn"
 
 您可能还喜欢：
 
-- [零成本 PDF 分享：把文件秒变链接与二维码](/blog/cn/zero-cost-pdf-sharing)
+- [零成本 PDF 分享：把文件秒变链接与二维码](/blog/cn/share-pdf-online)
 - [企业文档安全不可忽视：MaiPDF 精准权限管理实践指南](/blog/cn/enterprise-document-security)
-- [PDF加密防泄露，MaiPDF让分享更安心](/blog/cn/pdf-security-protection)
+- [PDF加密防泄露，MaiPDF让分享更安心](/blog/cn/share-pdf-securely)
 

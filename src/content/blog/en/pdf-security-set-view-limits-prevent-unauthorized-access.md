@@ -2,13 +2,18 @@
 title: "PDF Security: Set View Limits to Prevent Unauthorized Access"
 description: "Most PDF leaks aren't hacks — they're links that lived too long. A threat-model view of how view limits, expiry, watermarks and email gates work together to stop unauthorized access, with detection and revoke workflows when something slips through."
 pubDate: "Feb 11 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["PDF security", "view limits", "unauthorized access", "document protection", "access control", "incident response"]
 showDefaultCta: true
 ---
 
 # PDF Security: Set View Limits to Prevent Unauthorized Access
+
+
+> **2026 update:** This guide mainly covers browser-based Online Cloud Sharing: controlled links, expiry, view limits, watermarks, access records, and download/print restrictions. For files where screenshot risk, device sharing, refund abuse, or post-contract revocation matters, use the stronger App DRM path: protected `.maipdf` files opened in the MaiPDF App with device binding, license revocation, protected reading, and traceable watermarks. A browser cannot fully block operating-system screenshots, and no software can stop someone from photographing a screen with another phone.
+>
+> Start here if you are choosing between the two paths: [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm), [secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection), and [how to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
 
 <div class="intro-panel">
   <p><strong>Most document leaks aren't hacks. They're links that outlived the work they were sent for.</strong> A March proposal still opens in November. A draft contract drifts into a competitor's chat six months after review. None of these needed a breach — only a shared URL that never stopped working. This page is the security-focused read: the threat model, which control blocks which type of unauthorized access, and what to do when a leak is already in progress.</p>
@@ -234,10 +239,10 @@ Exported together, that is enough to answer the two questions any auditor actual
 ## Related reading
 
 - [Limit PDF Views: Pick a Number That Matches Real Reading](/blog/en/limit-pdf-views-drm) — the deep reference on view-limit numbers, mobile multiplier, presets, and the access log
-- [PDF Access Control: Setting View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — the configuration-focused companion on combining limit + expiry
+- [PDF Access Control: Setting View Limits and Time Restrictions](/blog/en/limit-pdf-views-drm) — the configuration-focused companion on combining limit + expiry
 - [Dynamic Watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the attribution layer that makes screenshots traceable
 - [Email-Verified PDF Links](/blog/en/email-verified-pdf-links) — the identity gate that pairs with view limits for high-risk sends
-- [PDF Security Protection: Layered Document Security](/blog/en/pdf-security-protection) — the complete controls overview
+- [PDF Security Protection: Layered Document Security](/blog/en/share-pdf-securely) — the complete controls overview
 
 <style>
   .access-control-table {

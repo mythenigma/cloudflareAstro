@@ -443,3 +443,107 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 - 已从 `how-to-share-paid-training-pdfs-securely.md`、`how-to-prevent-students-from-sharing-course-pdfs.md` 内链到该主文，并把首页和 `/blog` 推荐位加入该文。
 - 已改造旧文：`educator-pdf-sharing-guide.md`、`distribute-educational-resources-with-limited-access.md`、`pdf-prevent-forwarding-guide.md`、`prevent-pdf-downloads-view-only.md`、`free-online-drm-for-pdf.md`。
 - 旧文改造重点：明确 Online Cloud Sharing 是浏览器便捷分享；App DRM / `.maipdf` 才是设备绑定、撤销访问、受保护阅读器、防截图敏感场景的更强路径，并加到新主文/相关新文的内链。
+
+### 2026-06-27 批量新增付费内容转化文章 + 旧文二次改造
+- 批量新增英文 SEO 文章：`sell-pdf-workbooks-without-losing-control.md`、`protect-exam-prep-pdfs-from-sharing.md`、`how-to-revoke-course-pdf-access-after-refund.md`。
+- 三篇分别覆盖 PDF workbook 售卖、防考试资料外泄、退款后撤销访问，均围绕 Online Cloud Sharing vs App DRM / `.maipdf`、设备绑定、license revoke、水印追踪和防截图边界。
+- 继续改造旧文：`control-pdf-downloads-permissions.md`、`benefits-of-pdf-access-control.md`、`digital-watermarks-pdf-protection-guide.md`、`maipdf-print-restriction-guide.md`、`pdf-share-link-disable-download.md`、`limit-pdf-views-drm.md`，加入 2026 App DRM 分流提示和新主文内链。
+- 首页和 `/blog` 推荐位更新为：Cloud Sharing vs App DRM、Online Course DRM、Sell PDF Workbooks、Exam Prep Protection、Refund Revocation、Secure PDF Reader。
+
+### 2026-06-27 旧文重复清理与主文分流改造
+- 删除英文重复/薄旧文 92 篇；这些旧 slug 在 `src/data/blog-legacy-redirects.mjs` 已有 301 到保留主文，删除后避免重复内容继续生成静态页面。
+- 保留并强化主文：`share-pdf-online`、`how-to-upload-a-pdf-and-generate-a-secure-link`、`pdf-online-viewing-without-download`、`limit-pdf-views-drm`、`dynamic-watermarks-on-pdf`、`share-pdf-securely`、`maipdf-secure-efficient-sharing`、QR / email verification 等 canonical 页面。
+- 批量改造 16 篇保留旧文，统一补 2026 update：Online Cloud Sharing 负责浏览器链接/二维码/过期/访问次数/水印；App DRM / `.maipdf` 负责设备绑定、license revoke、受保护阅读器和防截图敏感场景。
+- 清理原则：重复或薄内容删除并走已有 redirect；能承接搜索意图的主文保留并加新 App DRM 内链。
+
+
+
+## 2026-06-27 — 下一轮 App DRM / 企业与客户资料 SEO 批处理
+
+- 新增 3 篇英文转化文章：
+  - `src/content/blog/en/pdf-drm-for-corporate-training-manuals.md`：企业培训手册 / franchise manual / partner enablement / certification guide 场景，强调 Online Cloud Sharing 与 App DRM 分层。
+  - `src/content/blog/en/protect-confidential-pdfs-before-sending.md`：客户 confidential PDF 发送前的保护清单，覆盖 link expiry、watermark、revocation、device binding。
+  - `src/content/blog/en/pdf-drm-for-consultants-and-coaches.md`：consultants / coaches / advisors 的付费框架、worksheet、template pack、client report 保护场景。
+- 批量改造 14 篇旧英文主文，补 `updatedDate: "Jun 27 2026"` 与 2026 App DRM update：说明旧文主要是 browser-based Online Cloud Sharing，高价值/需防截图/设备绑定/撤销访问的资料导向 `.maipdf` App DRM。
+- 修正 live 内容和页面里指向已删除重复旧文的内部链接，改为对应 canonical 主文，减少无意义 301 跳转和站内链接分散。
+- 清理 `maipdf-secure-vs-locklizard-pdf-drm.md` 中对 `pack.html` / web HTML package 的强调，改回当前主线：Online Cloud Sharing vs App DRM / `.maipdf`。
+- 首页与 `/blog` 推荐位加入企业培训和 confidential client PDF 两条新转化入口。
+
+
+## 2026-06-27 — 开门见山防截图免费工具文章
+
+- 新增 `src/content/blog/en/free-pdf-screenshot-protection-software.md`：标题为 **Free PDF Screenshot Protection Software: What Actually Works**。
+- 按用户反馈调整方向：不再继续扩散过多行业场景，改成直接回答搜索意图：普通 PDF / 密码 / 浏览器不能真正防截图；真正需要防截图应使用 protected native reader；MaiPDF App + `.maipdf` 是当前主推路径。
+- 文中明确边界：浏览器可以禁下载/禁打印/水印/过期/统计，但不能完整控制 OS 截图；App DRM 可降低截图/录屏风险、支持设备绑定与 license revoke；任何软件都不能阻止另一台手机拍屏幕。
+- 首页和 `/blog` 推荐位把 `free-pdf-screenshot-protection-software` 放到第一位，增强“免费防截图软件”这个直球搜索入口。
+
+
+## 2026-06-27 — 大胆删除旧 HTML pack / PDF-to-HTML 方向
+
+- 按用户反馈“该删的一样，大胆一点就删掉”，删除英文旧方向文章 15 篇，主要是 `pack.html`、locked HTML、PDF-to-HTML、offline HTML package、web pack、flatten PDF 等当前不再主推且容易分散 App DRM 叙事的内容。
+- 删除文件包括：
+  - `drm-digital-certificate-file-protection-guide.md`
+  - `flatten-pdf-harder-to-copy.md`
+  - `how-to-create-offline-pdf-package-complete-guide.md`
+  - `introducing-maipdf-secure-share.md`
+  - `maipdf-h5-generation-guide.md`
+  - `offline-pdf-drm-enterprise-solution.md`
+  - `offline-pdf-drm-mode.md`
+  - `offline-pdf-package-distribution-best-practices.md`
+  - `offline-pdf-sharing-complete-guide.md`
+  - `offline-vs-online-pdf-sharing-comparison.md`
+  - `offline-vs-online-pdf-sharing-quick-choice.md`
+  - `offline-vs-online-pdf-sharing-visual-comparison.md`
+  - `online-vs-offline-pdf-security.md`
+  - `pdf-offline-html-package.md`
+  - `pdf-to-html-conversion.md`
+- 为上述旧 URL 补充 301 redirect，主要导向 `online-pdf-sharing-vs-app-drm`，截图/防复制相关导向 `free-pdf-screenshot-protection-software` 或 `secure-pdf-reader-with-screenshot-protection`。
+- 同步清理 live 内容和页面里的站内链接，不再导向被删除旧文；保留 `maipdf-secure-vs-locklizard-pdf-drm.md`，但弱化绝对 OS-level 表述。
+
+
+## 2026-06-27 — 西语文章大胆压缩到 17 篇核心页
+
+- 按用户反馈“西班牙语117篇是开玩笑，压缩到17篇才合理”，删除西语低价值/重复/旧方向文章 100 篇，仅保留 17 篇核心西语页面。
+- 保留范围：PDF 上传生成链接、在线分享、安全分享、无下载在线阅读、访问次数/过期、禁下载/禁打印/防复制、水印、二维码、医疗/教育/企业少量场景、免费 PDF hosting、Maiimg 图片分享。
+- 删除的西语 URL 已补充 301 redirect，按主题导向对应 17 篇 canonical 西语主文，避免直接 404。
+- 同步替换站内指向被删西语 slug 的链接。
+
+
+## 2026-06-27 — 西语压缩规则修正：不是机械 17 篇，而是按内容厚度筛
+
+- 用户指出 17 不是硬数字，重点是删除“非常非常短”的薄内容，而不是把所有西语强行压到固定数量。
+- 重新统计刚删除的 100 篇西语文章正文长度：保留删除短薄/重复/旧方向文章，恢复正文较长且不属于旧 HTML/offline 方向的西语文章 26 篇。
+- 恢复标准：正文约 600 词以上、非 `pack.html` / PDF-to-HTML / offline HTML 旧方向、具备独立搜索意图或完整正文结构。
+- 同步移除这些恢复页面在 `blog-legacy-redirects.mjs` 中的 source redirect，避免已恢复页面被错误跳转。
+
+
+## 2026-06-27 — 西语二次精简：删除仍然太短的保留页
+
+- 二次检查恢复后的西语文章，发现原本保留的部分 canonical 页面正文仍低于约 350 词，属于“非常非常短”的薄内容。
+- 删除这些短页 6 篇，并导向更长或更合理的西语主文：`maipdf-print-restriction-guide`、`maiimg-secure-image-sharing-access-control`、`educator-pdf-sharing-guide`、`image-link-generator-free-image-url-generator`、`pdf-dynamic-watermark-security-guide`、`pdf-share-link-disable-download`。
+- 同时移除被恢复长文的错误 source redirect，保证恢复页面正常生成。
+
+
+## 2026-06-27 — 中文文章第一轮合并精简
+
+- 按“能合并就合并，取长补短，不是机械删/不删”的原则处理中文目录。
+- 第一轮优先处理两类：
+  1. 已经在 `blog-legacy-redirects.mjs` 里明确有 canonical 的中文重复页：删除源 Markdown，保留更强主文和 301 redirect。
+  2. 当前不再主推的旧 HTML / H5 / offline package / PDF-to-HTML 方向：删除旧文，导向 App DRM / 防截图 / 在线阅读主线。
+- 本轮删除中文源文件 92 篇，并保留/补充 redirect，避免旧 URL 直接 404。
+- 同步替换站内 live 内容里指向被删中文 slug 的链接。
+
+
+## 2026-06-27 — 中文文章第二轮短薄页合并
+
+- 第一轮后继续检查剩余中文页面，发现仍有 14 篇正文较短但没有被旧 redirect 覆盖的薄内容。
+- 本轮不是直接浪费旧 URL，而是按主题合并到更长主文：下载链接/替换链接 → 上传或 MaiPDF 总览；Maiimg 短文 → Maiimg 完整流程/链接生成；水印短文 → 动态水印主文；协作/合规短文 → 对应主文。
+- 删除短薄中文源文件 14 篇，补充 redirect 并清理站内链接。
+
+
+## 2026-06-27 — 删除文章改为 404，不再 redirect
+
+- 用户说明清理目的：Google 上无意义旧链接太多，需要“数量减少，质量增加”，先让已删页面降下来，而不是继续把旧垃圾 URL 全部 redirect 到主文。
+- 因此清理 `blog-legacy-redirects.mjs`：移除 `/blog/en/*`、`/blog/cn/*`、`/blog/es/*` 文章级旧 URL redirect 共 289 条。
+- 当前策略：被删除的文章 URL 直接 404；仅保留非语言路径的少量历史 redirect。
+- 同步检查站内内容，避免站内继续链接到已删除文章 URL。

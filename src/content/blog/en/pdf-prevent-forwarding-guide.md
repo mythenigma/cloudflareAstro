@@ -7,6 +7,8 @@ heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Prevent Forwarding", "Document Security", "Access Control", "Download Control", "PDF Protection"]
 showDefaultCta: true
 ---
+**2026 update:** For paid course PDFs and exam-prep files, also see [How to Prevent Students from Sharing Course PDFs](/blog/en/how-to-prevent-students-from-sharing-course-pdfs) and [How to Protect Exam Prep PDFs from Sharing and Screenshots](/blog/en/protect-exam-prep-pdfs-from-sharing).
+
 
 "Prevent forwarding" sounds like one setting. It isn't. Forwarding happens through **half a dozen different paths** — the raw file escaping as a download, the URL escaping a trusted inbox, a print-to-PDF copy, a screenshot, a camera photo of the screen. Each path needs its own control. Get the layering right and forwarding stops being frictionless; get it wrong and one weak layer defeats the rest.
 

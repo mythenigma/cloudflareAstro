@@ -2,11 +2,13 @@
 title: "Share PDF Securely — Keep Control After You Send It"
 description: "A protection-focused decision tree for sharing confidential PDFs: which controls matter per document type, how to stack them, what they actually block, and how to audit after the send."
 pubDate: "Apr 3 2026"
-updatedDate: "Jun 23 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["secure PDF sharing", "PDF security", "access control", "Secure Share", "prevent screenshot"]
 showDefaultCta: true
 ---
+**2026 update:** Secure PDF sharing now has two levels: Online Cloud Sharing for fast links, QR codes, expiry, view limits, and watermarks; App DRM / **`.maipdf`** for device binding, license revocation, and screenshot-aware protected reading. Start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm).
+
 
 <div class="intro-panel">
   <p><strong>June 2026.</strong> The six controls below apply to <a href="https://maipdf.com/">online link sharing</a> in the browser. For <strong>prevent screenshot</strong> (OS-level), pack <code>.maipdf</code> and use <a href="https://drm.maipdf.com/">MaiPDF Secure</a> — see <a href="/blog/en/prevent-screenshot-pdf-drm-native-app">native app guide</a>.</p>

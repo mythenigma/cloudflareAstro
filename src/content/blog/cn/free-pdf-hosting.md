@@ -128,7 +128,7 @@ MaiPDF提供免费PDF托管，具有：
 
 **相关文章:**
 - [上传PDF获取链接：简单文件分享](/blog/cn/upload-pdf-get-link)
-- [PDF安全：最佳实践](/blog/cn/pdf-security-best-practices-complete-guide-document-protection)
+- [PDF安全：最佳实践](/blog/cn/share-pdf-securely)
 - [不换链接更新 PDF 文件（替换文件指南）](https://sendpdfonline.com/article/replace-pdf-without-changing-link-zh)
 
 <style>

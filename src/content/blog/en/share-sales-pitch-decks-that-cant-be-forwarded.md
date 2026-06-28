@@ -2,12 +2,17 @@
 title: "📊 Share Sales Pitch Decks That Can't Be Forwarded"
 description: "Protect your proposals, impress the right people, and maintain control. Learn how to securely share sales materials without risking unauthorized distribution."
 pubDate: "Apr 3 2026"
-updatedDate: "Jun 23 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Sales Strategy", "Secure Share", "prevent screenshot", "Pitch Decks"]
 ---
 
 # 📊 Share Sales Pitch Decks That Can't Be Forwarded
+
+
+> **2026 update:** This guide mainly covers browser-based Online Cloud Sharing: controlled links, expiry, view limits, watermarks, access records, and download/print restrictions. For files where screenshot risk, device sharing, refund abuse, or post-contract revocation matters, use the stronger App DRM path: protected `.maipdf` files opened in the MaiPDF App with device binding, license revocation, protected reading, and traceable watermarks. A browser cannot fully block operating-system screenshots, and no software can stop someone from photographing a screen with another phone.
+>
+> Start here if you are choosing between the two paths: [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm), [secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection), and [how to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
 
 <div class="intro-panel">
   <p>You've crafted the perfect sales deck. It hits all the right pain points, outlines your value clearly, and presents pricing with confidence.</p>

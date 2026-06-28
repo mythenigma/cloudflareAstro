@@ -1,12 +1,15 @@
-﻿---
+---
 title: "🌐 Secure Document Distribution: Strategies for Safe PDF Sharing"
 description: "Discover best practices and strategies for securely distributing PDF documents to various audiences while maintaining control over sensitive information."
 pubDate: "Apr 3 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["Document Distribution", "PDF Sharing", "Secure Delivery", "Document Security", "Information Protection"]
 ---
 
 # 🌐 Secure Document Distribution: Strategies for Safe PDF Sharing
+**2026 update:** Modern document distribution should choose the right tier: browser links for low-friction access; App DRM / **`.maipdf`** for protected reading, license revocation, and device binding. See [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm).
+
 
 <div class="intro-panel">
   <p>How you distribute your documents is as important as the security features you implement.</p>

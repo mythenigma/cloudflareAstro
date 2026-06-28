@@ -1,13 +1,19 @@
-﻿---
+---
 title: "Document Distribution Compliance: A Checklist You Can Actually Use"
 description: "A simple compliance checklist for document sharing: identity, limits, logging, and governance."
 pubDate: "Apr 4 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/page_redirect_to_accessRecord.png"
 showDefaultCta: true
 tags: ["Compliance", "Audit Logs", "Security", "Access Control", "Governance"]
 ---
 
 # Document Distribution Compliance: A Checklist You Can Actually Use
+
+
+> **2026 update:** This guide mainly covers browser-based Online Cloud Sharing: controlled links, expiry, view limits, watermarks, access records, and download/print restrictions. For files where screenshot risk, device sharing, refund abuse, or post-contract revocation matters, use the stronger App DRM path: protected `.maipdf` files opened in the MaiPDF App with device binding, license revocation, protected reading, and traceable watermarks. A browser cannot fully block operating-system screenshots, and no software can stop someone from photographing a screen with another phone.
+>
+> Start here if you are choosing between the two paths: [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm), [secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection), and [how to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
 
 <div class="intro-panel">
   <p>Compliance becomes easy when it’s broken into capabilities you can verify: who accessed, under what rules, and whether you can prove it later.</p>

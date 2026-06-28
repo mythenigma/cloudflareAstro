@@ -2,13 +2,15 @@
 title: "PDF Sharing with QR Code: Complete Guide"
 description: "The setup-side guide to PDF-to-QR sharing: file specs, print specs, which controls carry over, how to test before you print, and how to update the document without reprinting the code."
 pubDate: "Apr 4 2026"
-updatedDate: "Apr 19 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/share pdf wordwide.png"
 tags: ["PDF Sharing", "QR Code", "Document Sharing", "MaiPDF"]
 showDefaultCta: true
 ---
 
 # PDF Sharing with QR Code: Complete Guide
+**2026 update:** QR-code PDF sharing is convenient, but it does not by itself stop screenshots or account sharing. For high-value materials, combine QR distribution with App DRM / **`.maipdf`** where appropriate. See [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection).
+
 
 <div class="intro-panel">
   <p>A QR code is just a picture of a URL. The sharing quality comes from the link behind it — the file you uploaded, the controls you set, and whether you tested the scan before printing. This guide walks the full setup.</p>

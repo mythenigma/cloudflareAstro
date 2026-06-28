@@ -2,11 +2,13 @@
 title: "Share PDF Online — A Cleaner Workflow Than Attachments"
 description: "Why sharing a PDF through a managed link beats attachments and folder drops: faster first open, better mobile reading, revisions that don't multiply, and a control panel that outlives the send."
 pubDate: "Apr 4 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/share_pdf_online-show.png"
 tags: ["share PDF", "online sharing", "document links", "file sharing", "PDF workflow"]
 showDefaultCta: true
 ---
+**2026 update:** Online sharing is the low-friction path for links and QR codes. When the document is paid, confidential, or screenshot-sensitive, route readers to App DRM / **`.maipdf`**. See [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm).
+
 
 Sharing a PDF online isn't "the same thing as attaching it, just with a URL." It flips the shape of the thing you're sending. An attachment is a **copy that escapes you**. An online link is a **destination you still own**. One of those keeps getting worse over time; the other keeps working.
 

@@ -2,13 +2,15 @@
 title: "MaiPDF: A Cleaner Way to Share PDFs Without Losing Control"
 description: "How the MaiPDF workflow actually looks in practice: one upload, one managed link, controls that match the risk, revisions handled behind the same URL, and an access log that tells you what happened after you hit send."
 pubDate: "Apr 4 2026"
-updatedDate: "Apr 19 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
 tags: ["MaiPDF", "PDF sharing", "secure workflow", "document links", "managed PDF delivery"]
 showDefaultCta: true
 ---
 
 # MaiPDF: A Cleaner Way to Share PDFs Without Losing Control
+**2026 update:** MaiPDF now includes both Online Cloud Sharing and App DRM. Browser links are best for fast distribution; **`.maipdf`** protected files are better for device binding, revocation, and screenshot-aware reading. See [What Is a .maipdf File?](/blog/en/what-is-a-maipdf-file).
+
 
 <div class="intro-panel">
   <p>The easiest way to make PDF sharing messy is to treat every document as an attachment problem — a file that gets emailed, forwarded, re-emailed as v2, and lives in ten different inboxes with nobody sure which copy is current. The cleaner way is to treat the document as one managed destination: upload once, share one link, add only the controls the situation actually needs, and keep updates flowing behind the same URL. That is the workflow this article walks through.</p>

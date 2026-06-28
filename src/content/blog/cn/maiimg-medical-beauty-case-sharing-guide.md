@@ -323,7 +323,7 @@ Maiimg为医美机构提供专业的案例分享解决方案：
 **相关指南：**
 - [Maiimg批量图片分享：完整指南](/blog/cn/maiimg-bulk-image-sharing-guide)
 - [Maiimg二维码图片分享：完整指南](/blog/cn/maiimg-qr-code-sharing-guide)
-- [Maiimg安全图片分享访问控制](/blog/cn/maiimg-secure-image-sharing-access-control)
+- [Maiimg安全图片分享访问控制](/blog/cn/maiimg-complete-workflow-guide-with-diagrams)
 
 <style>
 .intro-panel {

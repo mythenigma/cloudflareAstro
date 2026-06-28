@@ -2,12 +2,15 @@
 title: "QR Codes for Document Distribution: From Link to Scan"
 description: "A practical guide to distributing PDFs with QR codes across print and digital channels — placement, print specs, control presets, and what the access log actually tells you."
 pubDate: "Apr 4 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/Result_of_qr_link.png"
 tags: ["QR Codes", "Document Distribution", "Sharing Workflow"]
 showDefaultCta: true
 ---
 
 # QR Codes for Document Distribution: From Link to Scan
+**2026 update:** QR codes are excellent for low-friction browser access. If the QR code points to paid or screenshot-sensitive material, pair it with App DRM guidance or a protected `.maipdf` workflow. See [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses).
+
 
 <div class="intro-panel">
   <p>A QR code is a picture of a URL. Once it's printed or posted, anyone who sees it can scan it — so the real work is choosing the right link behind the code, placing it where your audience will actually scan, and watching the access log to see what happened.</p>

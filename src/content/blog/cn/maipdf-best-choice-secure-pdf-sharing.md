@@ -114,4 +114,4 @@ showDefaultCta: true
 
 - [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link)
 - [安全分享 PDF](/blog/cn/share-pdf-securely)
-- [不换链接更新 PDF 文件](/blog/cn/replace-pdf-keep-the-same-link)
+- [不换链接更新 PDF 文件](/blog/cn/maipdf-secure-efficient-sharing)

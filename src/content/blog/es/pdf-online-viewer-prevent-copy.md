@@ -85,5 +85,5 @@ La función de prevenir copia para visores PDF en línea es una herramienta impo
 ---
 
 **Artículos Relacionados:**
-- [DRM PDF en Línea: Guía Completa](/blog/es/pdf-online-drm-complete-guide)
-- [Seguridad PDF: Mejores Prácticas](/blog/es/pdf-security-best-practices-complete-guide-document-protection)
+- [DRM PDF en Línea: Guía Completa](/blog/es/share-pdf-securely)
+- [Seguridad PDF: Mejores Prácticas](/blog/es/share-pdf-securely)

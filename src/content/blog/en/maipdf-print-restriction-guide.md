@@ -2,11 +2,14 @@
 title: "MaiPDF Print Restriction Settings Guide"
 description: "How to disable printing on a shared PDF: what print-off actually blocks, why it must pair with download-off, and when to use it per document type. Setup walkthrough, audit tips, and FAQ."
 pubDate: "Apr 3 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/viewercontainer_noprint_nodownlaod.png"
 tags: ["PDF Print Restrictions", "Download Restrictions", "Content Protection", "MaiPDF"]
 showDefaultCta: true
 ---
+
+**2026 update:** This article mainly covers browser-based **Online Cloud Sharing** controls. For paid course files, workbooks, exam-prep PDFs, or documents that need device binding, license revocation, and screenshot-aware protected reading, use [MaiPDF App DRM](https://drm.maipdf.com) / **`.maipdf`**. Start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm) or [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses).
+
 
 You share a draft for review. The reader prints fifty copies and hands them out at a conference. The draft is now everywhere, on paper — and paper can't be revoked. **Disabling print stops that chain before it starts**, but only if you close the print-to-PDF back door at the same time. One control alone isn't enough.
 
@@ -160,7 +163,7 @@ They get the page chrome, not the PDF content. The PDF is rendered on the server
 - [Share PDF securely](/blog/en/share-pdf-securely) — the full protection stack print-off slots into
 - [PDF prevent-forwarding guide](/blog/en/pdf-prevent-forwarding-guide) — the sibling anti-forward piece
 - [PDF online viewing without download](/blog/en/pdf-online-viewing-without-download) — the download-off pair of this setting
-- [Control PDF downloads and permissions](/blog/en/control-pdf-downloads-permissions) — the download-off layer in depth
+- [Control PDF downloads and permissions](/blog/en/limit-pdf-views-drm) — the download-off layer in depth
 - [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the screenshot-traceability layer
 - [Prevent file copying — protection guide](/blog/en/prevent-file-copying-protection-guide) — the copy-prevention angle
-- [PDF online viewer — prevent copy](/blog/en/pdf-online-viewer-prevent-copy) — selection / copy-paste lockdown
+- [PDF online viewer — prevent copy](/blog/en/pdf-online-viewing-without-download) — selection / copy-paste lockdown

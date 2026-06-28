@@ -1,12 +1,15 @@
-﻿---
+---
 title: "Enterprise Document Security: Protecting Sensitive Files at Scale"
 description: "How enterprises protect PDFs and sensitive documents across teams, departments, and external partners. Practical controls for access, tracking, and compliance."
 pubDate: "Apr 2 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/how_to_control_panel.png"
 tags: ["Enterprise Security", "Document Security", "Compliance"]
 ---
 
 # Enterprise Document Security: Protecting Sensitive Files at Scale
+**2026 update:** For enterprise files, use Online Cloud Sharing for quick review links and App DRM / **`.maipdf`** for board packs, confidential manuals, and documents that need revocation or device binding. See [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection).
+
 
 Enterprise document security isn't just about passwords and encryption. It's about controlling *who* sees *what*, *when*, and having an audit trail to prove it. When hundreds of people share thousands of files daily, you need systematic controls — not manual vigilance.
 

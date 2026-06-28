@@ -96,6 +96,6 @@ Attached supersedes the previous version; use a **new filename** each time so th
 
 ## Related reading
 
-- [Share PDFs as Links, Not Attachments](/blog/en/share-pdf-as-link-not-attachment)
-- [Email PDF Links Instead of Attachments](/blog/en/email-pdf-links)
+- [Share PDFs as Links, Not Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)
+- [Email PDF Links Instead of Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)
 - [PDF Link Sharing: A Modern Alternative to Email Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)

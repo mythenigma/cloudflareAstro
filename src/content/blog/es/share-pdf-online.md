@@ -152,4 +152,4 @@ MaiPDF admite archivos de hasta **100 MB**.
 - [Compartir PDF de forma segura](/blog/es/share-pdf-securely)
 - [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
 - [Limitar visualizaciones PDF](/blog/es/limit-pdf-views-drm)
-- [Compartir PDF en redes y mensajería](/blog/es/social-media-pdf-sharing)
+- [Compartir PDF en redes y mensajería](/blog/es/share-pdf-online)

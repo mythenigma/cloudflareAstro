@@ -185,6 +185,6 @@ For course creators, coaches, educators, and training companies, the safer defau
 
 > Do not send the raw PDF. Send controlled access.
 
-If student forwarding is your main concern, also read [How to Prevent Students from Sharing Course PDFs](/blog/en/how-to-prevent-students-from-sharing-course-pdfs). For the broader online-course DRM model, read [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses).
+If student forwarding is your main concern, also read [How to Prevent Students from Sharing Course PDFs](/blog/en/how-to-prevent-students-from-sharing-course-pdfs). For the broader online-course DRM model, read [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses). If the product is a standalone workbook, read [How to Sell PDF Workbooks Without Losing Control](/blog/en/sell-pdf-workbooks-without-losing-control).
 
 Start with [MaiPDF online sharing](https://maipdf.com) for lightweight delivery, or use [MaiPDF App DRM](https://drm.maipdf.com) when you need protected `.maipdf` files, device binding, revocation, and screenshot-aware reading.

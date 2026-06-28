@@ -1,13 +1,19 @@
-﻿---
+---
 title: "MaiPDF Settings Explained: Access Controls on the Upload Screen"
 description: "Plain-English guide to every setting on the MaiPDF upload screen: access limit, session time, protection type, email verification, and read notification."
 pubDate: "Apr 4 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Document Security", "Security Architecture", "Encryption", "Access Control"]
 showDefaultCta: true
 ---
 
 # MaiPDF Settings Explained: Access Controls on the Upload Screen
+
+
+> **2026 update:** This guide mainly covers browser-based Online Cloud Sharing: controlled links, expiry, view limits, watermarks, access records, and download/print restrictions. For files where screenshot risk, device sharing, refund abuse, or post-contract revocation matters, use the stronger App DRM path: protected `.maipdf` files opened in the MaiPDF App with device binding, license revocation, protected reading, and traceable watermarks. A browser cannot fully block operating-system screenshots, and no software can stop someone from photographing a screen with another phone.
+>
+> Start here if you are choosing between the two paths: [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm), [secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection), and [how to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
 
 <div class="intro-panel">
   <p>Every setting on the MaiPDF upload screen controls a different aspect of how your PDF can be accessed. Here's what each one does and when to use it.</p>
@@ -63,7 +69,7 @@ Sends you an email each time the document is opened.
 
 **Related reading:**
 
-- [Convert PDFs to Shareable Links](/blog/en/convert-pdfs-to-shareable-links) — the 3-step setup guide
-- [PDF Temporary Sharing Links](/blog/en/pdf-temporary-sharing-link) — using expiry and view limits
-- [Email Verification for PDF Access](/blog/en/email-verification-for-pdf-access) — email gate explained in depth
-- [Prevent PDF Downloads: Complete Guide](/blog/en/prevent-pdf-downloads-complete-guide-view-only-sharing) — SecureView details
+- [Convert PDFs to Shareable Links](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the 3-step setup guide
+- [PDF Temporary Sharing Links](/blog/en/limit-pdf-views-drm) — using expiry and view limits
+- [Email Verification for PDF Access](/blog/en/email-verified-pdf-links) — email gate explained in depth
+- [Prevent PDF Downloads: Complete Guide](/blog/en/pdf-online-viewing-without-download) — SecureView details

@@ -172,4 +172,4 @@ No. El límite controla cantidad de accesos; la verificación ayuda a controlar 
 - [Compartir PDF en línea](/blog/es/share-pdf-online)
 - [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
 - [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
-- [Marca de agua dinámica en PDF](/blog/es/pdf-dynamic-watermark-security-guide)
+- [Marca de agua dinámica en PDF](/blog/es/share-pdf-securely)

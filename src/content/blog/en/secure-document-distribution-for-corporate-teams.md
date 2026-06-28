@@ -2,12 +2,14 @@
 title: "🛡️ Secure Document Distribution for Corporate Teams"
 description: "Keep sensitive company information protected even after sharing. Learn how modern access controls let you distribute internal documents without risking unwanted forwarding or leaks."
 pubDate: "Apr 3 2026"
-updatedDate: "Jun 23 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Corporate Security", "Document Sharing", "Secure Share", "PDF security"]
 ---
 
 # Secure Document Distribution for Corporate Teams
+**2026 update:** Corporate teams often need both paths: Online Cloud Sharing for quick reviews and App DRM / **`.maipdf`** for high-risk materials that need device binding and revocation. See [How to Revoke Access to a PDF After Sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
+
 
 <div class="intro-panel">
   <p>In today's corporate environment, information sharing is constant. Strategy decks, financial projections, personnel documents—all need to be distributed internally.</p>

@@ -3,11 +3,14 @@ title: "Email-Verified PDF Links: Stop Forwarded Access"
 description: "Why forwarded PDF links are the biggest sharing risk, and how email verification with an allowlist keeps your documents tied to the right people."
 heroImage: "/maipdf2026/show_off/email verify.png"
 pubDate: "Apr 4 2026"
+updatedDate: "Jun 27 2026"
 tags: ["PDF Security", "Access Control", "Email Verification"]
 showDefaultCta: true
 ---
 
 # Email-Verified PDF Links: Stop Forwarded Access
+**2026 update:** Email verification helps ensure that a forwarded browser link is not useful to strangers. For stronger post-distribution control, add App DRM / **`.maipdf`** with device binding and license revocation. See [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm).
+
 
 <div class="intro-panel">
   <p>You share a PDF link with one person. They forward it to five. Those five forward it again. Within hours, your "private" document is open to anyone. Email verification breaks that chain — every new reader must prove who they are before the PDF loads.</p>

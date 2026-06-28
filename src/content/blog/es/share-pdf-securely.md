@@ -155,5 +155,5 @@ No. Significa bloquear las vías fáciles y ganar trazabilidad sobre el resto.
 - [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
 - [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
 - [Limitar visualizaciones PDF](/blog/es/limit-pdf-views-drm)
-- [Marca de agua dinámica en PDF](/blog/es/pdf-dynamic-watermark-security-guide)
-- [Compartir PDF en redes y mensajería](/blog/es/social-media-pdf-sharing)
+- [Marca de agua dinámica en PDF](/blog/es/share-pdf-securely)
+- [Compartir PDF en redes y mensajería](/blog/es/share-pdf-online)

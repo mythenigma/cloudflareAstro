@@ -93,7 +93,7 @@ This is free data that most freelancers ignore because they share via attachment
 
 **Related reading:**
 
-- [How to Securely Share PDFs with Modern Controls](/blog/en/secure-pdf-sharing-options) — broader guide to controlled sharing
-- [Email PDF Links Instead of Attachments](/blog/en/email-pdf-links) — why links beat attachments for professional communication
-- [PDF Access Control: View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — deep dive into open limits and expiry
-- [Control PDF Access: Enable or Disable Downloads](/blog/en/control-pdf-downloads-permissions) — when to allow vs block downloads
+- [How to Securely Share PDFs with Modern Controls](/blog/en/share-pdf-securely) — broader guide to controlled sharing
+- [Email PDF Links Instead of Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — why links beat attachments for professional communication
+- [PDF Access Control: View Limits and Time Restrictions](/blog/en/limit-pdf-views-drm) — deep dive into open limits and expiry
+- [Control PDF Access: Enable or Disable Downloads](/blog/en/limit-pdf-views-drm) — when to allow vs block downloads

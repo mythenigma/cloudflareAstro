@@ -20,12 +20,12 @@ const allPosts = (await getCollection('blog'))
   .sort((a, b) => getDisplayDate(b.data).valueOf() - getDisplayDate(a.data).valueOf());
 
 const featuredSlugs = [
+  'en/free-pdf-screenshot-protection-software',
+  'en/secure-pdf-reader-with-screenshot-protection',
   'en/online-pdf-sharing-vs-app-drm',
   'en/pdf-drm-for-online-courses',
-  'en/how-to-share-paid-training-pdfs-securely',
-  'en/how-to-revoke-access-to-a-pdf-after-sending',
-  'en/secure-pdf-reader-with-screenshot-protection',
-  'en/prevent-screenshot-pdf-drm-native-app',
+  'en/protect-confidential-pdfs-before-sending',
+  'en/sell-pdf-workbooks-without-losing-control',
 ];
 
 const featuredPosts = featuredSlugs
@@ -45,13 +45,13 @@ const topics = [
   {
     title: 'App DRM & .maipdf',
     desc: 'Learn when protected .maipdf files and the MaiPDF App are better than ordinary browser links.',
-    href: 'https://drm.maipdf.com',
+    href: '/blog/en/online-pdf-sharing-vs-app-drm',
     label: 'Stronger control',
   },
   {
     title: 'Screenshot Protection',
     desc: 'Understand why browsers cannot fully block screenshots and how app-based reading changes the risk model.',
-    href: '/blog/en/introducing-maipdf-secure-share',
+    href: '/blog/en/secure-pdf-reader-with-screenshot-protection',
     label: 'New App capability',
   },
   {
@@ -63,7 +63,7 @@ const topics = [
   {
     title: 'Watermark & Tracking',
     desc: 'Use dynamic watermarks and activity logs to identify leaks and make document forwarding riskier.',
-    href: '/blog/en/pdf-dynamic-watermark-security-guide',
+    href: '/blog/en/dynamic-watermarks-on-pdf',
     label: 'Trace leaks',
   },
   {

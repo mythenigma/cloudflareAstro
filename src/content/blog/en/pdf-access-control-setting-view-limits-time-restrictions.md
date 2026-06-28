@@ -2,13 +2,18 @@
 title: "PDF Access Control: Setting View Limits and Time Restrictions"
 description: "A configuration walkthrough for the two PDF access-control dials — view limit (how many) and expiry (how long). How to combine them, document-type presets, setting them in the MaiPDF upload panel, and adjusting after sharing without breaking the link."
 pubDate: "Feb 11 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF access control", "view limit", "expiry", "time restrictions", "document security", "MaiPDF"]
 showDefaultCta: true
 ---
 
 # PDF Access Control: Setting View Limits and Time Restrictions
+
+
+> **2026 update:** This guide mainly covers browser-based Online Cloud Sharing: controlled links, expiry, view limits, watermarks, access records, and download/print restrictions. For files where screenshot risk, device sharing, refund abuse, or post-contract revocation matters, use the stronger App DRM path: protected `.maipdf` files opened in the MaiPDF App with device binding, license revocation, protected reading, and traceable watermarks. A browser cannot fully block operating-system screenshots, and no software can stop someone from photographing a screen with another phone.
+>
+> Start here if you are choosing between the two paths: [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm), [secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection), and [how to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending).
 
 <div class="intro-panel">
   <p>A PDF link with no access controls is active indefinitely for anyone who receives it. <strong>View limits and expiry dates are the two dials that bound that access</strong> — one limits <em>how many</em>, the other limits <em>how long</em>. Both can be set at upload time, both can be adjusted after you've shared the link. This page is the configuration walk-through: which dial to use when, the presets by document type, where to set them in the MaiPDF panel, and how to change them without breaking anyone's bookmark.</p>
@@ -187,10 +192,10 @@ You never need to reshare a new link to adjust access. The original URL respects
 ## Related reading
 
 - [Limit PDF Views: Pick a Number That Matches Real Reading](/blog/en/limit-pdf-views-drm) — the deep reference on the formula, mobile multiplier, and all nine view-limit scenario presets
-- [PDF Security: Set View Limits to Prevent Unauthorized Access](/blog/en/pdf-security-set-view-limits-prevent-unauthorized-access) — the security-angle companion: threat model, detection, incident response
-- [PDF View Count Limit Guide](/blog/en/pdf-set-view-count-limit-guide) — view limits in more detail
+- [PDF Security: Set View Limits to Prevent Unauthorized Access](/blog/en/limit-pdf-views-drm) — the security-angle companion: threat model, detection, incident response
+- [PDF View Count Limit Guide](/blog/en/limit-pdf-views-drm) — view limits in more detail
 - [View Limits + Watermarks: Why Use Both](/blog/en/pdf-link-view-limit-watermark) — pairing view limits with identity tracking
-- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-a-practical-tool-for-controlled-pdf-sharing) — product overview
+- [MaiPDF: A Practical Tool for Controlled PDF Sharing](/blog/en/maipdf-secure-efficient-sharing) — product overview
 
 <style>
   .access-control-table {

@@ -2,13 +2,16 @@
 title: "Limit PDF Views: Pick a Number That Matches Real Reading"
 description: "A working guide to PDF view limits on MaiPDF: the audience × rereads × 1.5 formula, why mobile burns 3–5 opens per real read, nine scenario presets (proposal / hiring / legal / press embargo / exam / event QR and more), pairing controls, replacing the file behind the same limited link, and the three signals worth watching in the access log."
 pubDate: "Apr 2 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/openlimit.png"
 tags: ["PDF view limits", "access control", "open limit", "document security", "PDF workflow"]
 showDefaultCta: true
 ---
 
 # Limit PDF Views: Pick a Number That Matches Real Reading
+
+
+**2026 update:** This article mainly covers browser-based **Online Cloud Sharing** controls. For paid course files, workbooks, exam-prep PDFs, or documents that need device binding, license revocation, and screenshot-aware protected reading, use [MaiPDF App DRM](https://drm.maipdf.com) / **`.maipdf`**. Start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm) or [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses).
 
 <div class="intro-panel">
   <p><strong>A view limit only works when the number matches how the document is actually read.</strong> Too low and a legitimate reader on a mobile refresh gets locked out. Too high and the limit stops being a control. This guide gives you the formula, the presets, the pairings, and the failure modes — skim the table of contents, read only the sections you do not already know.</p>
@@ -213,8 +216,8 @@ Estimate **audience × rereads × 1.5** before you type a number. Pair the limit
 
 ## Related reading
 
-- [PDF Access Control: Setting View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — the configuration companion covering view limit + expiry together and how to adjust them after sharing
-- [PDF Security: Set View Limits to Prevent Unauthorized Access](/blog/en/pdf-security-set-view-limits-prevent-unauthorized-access) — the security-angle companion: threat model, detection in the access log, incident response
+- [PDF Access Control: Setting View Limits and Time Restrictions](/blog/en/limit-pdf-views-drm) — the configuration companion covering view limit + expiry together and how to adjust them after sharing
+- [PDF Security: Set View Limits to Prevent Unauthorized Access](/blog/en/limit-pdf-views-drm) — the security-angle companion: threat model, detection in the access log, incident response
 - [Dynamic Watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the identification layer that pairs with view limits for high-risk sends
 - [Email-Verified PDF Links](/blog/en/email-verified-pdf-links) — the "who opened it" gate when a view limit is not enough
 - [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — where the limit is set during upload

@@ -73,7 +73,7 @@ This creates natural urgency without being aggressive, and sets the expectation 
 
 **Related reading:**
 
-- [PDF Temporary Sharing Links](/blog/en/pdf-temporary-sharing-link) — view limits and expiry in detail
-- [PDF Access Control: View Limits and Time Restrictions](/blog/en/pdf-access-control-setting-view-limits-time-restrictions) — combining both controls
+- [PDF Temporary Sharing Links](/blog/en/limit-pdf-views-drm) — view limits and expiry in detail
+- [PDF Access Control: View Limits and Time Restrictions](/blog/en/limit-pdf-views-drm) — combining both controls
 - [Create PDF Links That Actually Get Opened](/blog/en/create-pdf-links-actually-get-opened-5-strategies) — improve proposal open rates
-- [Email Verification for PDF Access](/blog/en/email-verification-for-pdf-access) — identify who opened your proposal
+- [Email Verification for PDF Access](/blog/en/email-verified-pdf-links) — identify who opened your proposal
