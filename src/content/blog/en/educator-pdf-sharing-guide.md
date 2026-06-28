@@ -2,6 +2,7 @@
 title: "Educator's Guide to PDF Sharing: Distribute Course Materials Securely"
 description: "How teachers, professors, and training departments share course materials, exams, and handouts using secure PDF links with access controls, view limits, and expiration dates."
 pubDate: "Apr 2 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/en-upload-screenshot.png"
 tags: ["Education", "PDF Sharing", "MaiPDF"]
 ---
@@ -9,6 +10,8 @@ tags: ["Education", "PDF Sharing", "MaiPDF"]
 # Educator's Guide to PDF Sharing: Distribute Course Materials Securely
 
 Teachers, professors, and corporate trainers share PDFs constantly — syllabi, lecture notes, exams, handouts, lab manuals. The challenge is sharing broadly enough for every student to access materials while preventing unauthorized redistribution.
+
+**2026 update:** MaiPDF now has two education workflows. Use [Online Cloud Sharing](https://maipdf.com) for fast browser links, QR codes, view limits, expiry, and tracking. Use [MaiPDF App DRM](https://drm.maipdf.com) / **`.maipdf`** when course materials are paid, screenshot-sensitive, device-bound, or need revocation after a refund or course end.
 
 ## What Educators Actually Need
 
@@ -19,6 +22,20 @@ Teachers, professors, and corporate trainers share PDFs constantly — syllabi, 
 | Expiration dates | Materials become unavailable after a term ends |
 | View tracking | Verify who accessed what (for accountability) |
 | Device compatibility | Students use phones, tablets, laptops, Chromebooks |
+| App DRM option | Protect high-value PDFs with `.maipdf`, device binding, revocation, and screenshot-aware reading |
+
+## When to use Online Sharing vs App DRM
+
+| Teaching material | Better path |
+|---|---|
+| Syllabus, public handout, reading list | Online Cloud Sharing |
+| Lecture notes for a large class | Online Cloud Sharing |
+| Homework packet with short access window | Online Cloud Sharing with expiry |
+| Paid workbook or coaching notes | App DRM / `.maipdf` |
+| Exam-prep pack or answer key | App DRM / `.maipdf` |
+| Corporate training manual | App DRM / `.maipdf` |
+
+Browser-based sharing is convenient, but a browser page cannot fully block OS-level screenshots. For the higher-security education path, see [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses) and [How to Prevent Students from Sharing Course PDFs](/blog/en/how-to-prevent-students-from-sharing-course-pdfs).
 
 ## Common Distribution Scenarios
 

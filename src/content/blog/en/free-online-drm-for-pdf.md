@@ -2,6 +2,7 @@
 title: "Free Online DRM for PDF – Simple, Secure, No Software Needed"
 description: "Protect your PDF documents from copying, printing, or unauthorized distribution with MaiPDF's free browser-based DRM solution. No software installation required."
 pubDate: "Apr 3 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 ---
 
@@ -10,6 +11,8 @@ heroImage: "/maipdf2026/show_off/securityshowoff.png"
 <div class="intro-panel">
   <p>Need to protect your PDF documents from being copied, printed, or freely distributed? MaiPDF offers a free, browser-based DRM-like experience to help you securely share your PDFs—without installing any software or paying for expensive tools.</p>
 </div>
+
+**2026 update:** This page describes **online DRM-style controls** for browser sharing: links, view limits, expiry, watermarks, and download restrictions. If you need stronger controls such as device binding, license revocation after a protected file is sent, or screenshot-aware reading, use [MaiPDF App DRM](https://drm.maipdf.com) / **`.maipdf`** instead. See [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm) for the decision guide.
 
 
 ![View Limit Access Control Decision Flow](/maipdf2026/flowchart/en-access-control-decision.svg)
@@ -107,7 +110,7 @@ Unlike traditional DRM solutions that require licenses or software installation,
     </div>
     <div class="use-case-content">
       <h3>Education</h3>
-      <p>Teachers sharing course materials with students</p>
+      <p>Teachers sharing course materials with students. For paid workbooks, exam-prep PDFs, or student-forwarding risk, see <a href="/blog/en/pdf-drm-for-online-courses">PDF DRM for Online Courses</a>.</p>
     </div>
   </div>
   

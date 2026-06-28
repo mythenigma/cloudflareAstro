@@ -427,3 +427,19 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 - 新增英文 SEO 文章 `src/content/blog/en/how-to-revoke-access-to-a-pdf-after-sending.md`。
 - 文章承接 Online Cloud Sharing 与 App DRM 两条线，解释链接禁用、过期、访问次数、`.maipdf` license revoke、设备绑定和水印追踪。
 - 首页和 `/blog` 推荐文章已加入该文，强化“发出去以后还能控制”的卖点。
+
+### 2026-06-27 新增付费培训资料 SEO 文章
+- 新增英文 SEO 文章 `src/content/blog/en/how-to-share-paid-training-pdfs-securely.md`。
+- 文章面向 course creators / coaches / educators / corporate training，主打 paid workbook、course PDF、exam prep、培训手册的防转发、设备绑定、撤销访问、水印追踪和 App DRM / `.maipdf` 受保护阅读。
+- 首页和 `/blog` 推荐文章已加入该文，强化“付费内容不能直接发原始 PDF”的转化场景。
+
+### 2026-06-27 新增学生转发防护 SEO 文章
+- 新增英文 SEO 文章 `src/content/blog/en/how-to-prevent-students-from-sharing-course-pdfs.md`。
+- 文章面向 teachers / coaches / course creators，解释如何用受控链接、水印、过期、访问次数、设备绑定、撤销访问和 App DRM / `.maipdf` 减少学生转发课程 PDF。
+- 已从付费培训资料文章内链到该文，形成 paid training → student forwarding 的长尾转化链路。
+
+### 2026-06-27 新增 Online Course PDF DRM 主文 + 旧文改造
+- 新增英文 SEO 主文 `src/content/blog/en/pdf-drm-for-online-courses.md`，作为 online courses / workbooks / notes / exam prep / training files 的上级入口。
+- 已从 `how-to-share-paid-training-pdfs-securely.md`、`how-to-prevent-students-from-sharing-course-pdfs.md` 内链到该主文，并把首页和 `/blog` 推荐位加入该文。
+- 已改造旧文：`educator-pdf-sharing-guide.md`、`distribute-educational-resources-with-limited-access.md`、`pdf-prevent-forwarding-guide.md`、`prevent-pdf-downloads-view-only.md`、`free-online-drm-for-pdf.md`。
+- 旧文改造重点：明确 Online Cloud Sharing 是浏览器便捷分享；App DRM / `.maipdf` 才是设备绑定、撤销访问、受保护阅读器、防截图敏感场景的更强路径，并加到新主文/相关新文的内链。

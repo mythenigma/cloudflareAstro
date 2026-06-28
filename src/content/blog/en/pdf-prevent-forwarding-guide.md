@@ -2,13 +2,15 @@
 title: "PDF Prevent Forwarding — Practical Guide for Controlled Sharing"
 description: "Forwarding isn't a single switch — it's the combined result of download, expiry, open-cap, email-gate, and watermark settings. How to layer them, audit them, and respond when something leaks anyway."
 pubDate: "Apr 4 2026"
-updatedDate: "Apr 20 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["PDF Prevent Forwarding", "Document Security", "Access Control", "Download Control", "PDF Protection"]
 showDefaultCta: true
 ---
 
 "Prevent forwarding" sounds like one setting. It isn't. Forwarding happens through **half a dozen different paths** — the raw file escaping as a download, the URL escaping a trusted inbox, a print-to-PDF copy, a screenshot, a camera photo of the screen. Each path needs its own control. Get the layering right and forwarding stops being frictionless; get it wrong and one weak layer defeats the rest.
+
+**2026 update:** This guide focuses on browser-based Online Cloud Sharing controls. For files that must remain controlled after distribution — paid training PDFs, exam packs, investor decks, board materials — use [MaiPDF App DRM](https://drm.maipdf.com) / **`.maipdf`** with device binding, revocation, and screenshot-aware protected reading. Start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm) if you are choosing between the two paths.
 
 ![The layers that stop forwarding are the same ones you'd use for any serious PDF share — they just all have to be on](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 

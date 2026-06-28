@@ -2,6 +2,7 @@
 title: "🔒 Distribute Educational Resources with Limited Access Controls"
 description: "Learn how educators can securely share teaching materials while maintaining control over who views them, how many times, and for how long."
 pubDate: "Apr 3 2026"
+updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/MaiPDF_settings_expiration_telegram.png"
 tags: ["Education", "Teaching Materials", "Document Security", "Digital Education"]
 ---
@@ -14,10 +15,25 @@ tags: ["Education", "Teaching Materials", "Document Security", "Digital Educatio
   <p>There's a better way to distribute your valuable content while maintaining control.</p>
 </div>
 
+**2026 update:** For education content, MaiPDF now separates fast **Online Cloud Sharing** from stronger **App DRM / `.maipdf`** protection. Use browser links for low-friction class delivery. Use App DRM when the PDF is paid, confidential, screenshot-sensitive, or should be revoked after a course ends.
+
 ![Security Controls for Educational Content](/maipdf2026/show_off/securityshowoff.png)
 
 
 ![View Limit Access Control Decision Flow](/maipdf2026/flowchart/en-access-control-decision.svg)
+
+## Choose the right protection level
+
+| Resource type | Recommended workflow |
+|---|---|
+| Free classroom worksheet | Online Cloud Sharing |
+| Temporary reading packet | Online link with expiry |
+| Student preview material | Online link with view limits |
+| Paid course workbook | App DRM / `.maipdf` |
+| Assessment material or answer key | App DRM / `.maipdf` |
+| Professional training manual | App DRM / `.maipdf` |
+
+Online sharing can limit access, track opens, and watermark pages, but it cannot fully prevent system screenshots in a browser. For paid or high-risk education files, read [PDF DRM for Online Courses](/blog/en/pdf-drm-for-online-courses) and [How to Share Paid Training PDFs Securely](/blog/en/how-to-share-paid-training-pdfs-securely).
 
 ## 📚 Why Traditional Distribution Methods Fall Short
 
