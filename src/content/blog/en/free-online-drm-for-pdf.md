@@ -6,6 +6,10 @@ updatedDate: "Jun 29 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 ---
 
+<div class="maipdf-legacy-note">
+  <strong>Current MaiPDF guidance:</strong> Older online/HTML/Offline DRM material is kept for context, but the product direction is now clearer: use <a href="/blog/en/online-pdf-sharing-vs-app-drm">Online Cloud Sharing vs App DRM</a> as the main decision page. Browser links are for fast access; App DRM / <code>.maipdf</code> is for protected-reader, license, device, revocation, and screenshot-aware workflows.
+</div>
+
 # Free Online DRM for PDF: Browser Sharing vs App DRM
 
 People often search for **free online DRM for PDF** when they want one thing: send a PDF, keep some control, and avoid losing the document forever after it is forwarded.
@@ -201,4 +205,17 @@ App DRM / `.maipdf` is a separate protected-file workflow. It does not rely on r
     align-items: flex-start;
   }
 }
+</style>
+<style>
+.maipdf-legacy-note {
+  margin: 1.25rem 0 1.75rem;
+  padding: 16px 18px;
+  border: 1px solid #fed7aa;
+  border-left: 5px solid #f97316;
+  border-radius: 14px;
+  background: #fff7ed;
+  color: #7c2d12;
+  line-height: 1.6;
+}
+.maipdf-legacy-note a { color: #1d4ed8; font-weight: 800; }
 </style>

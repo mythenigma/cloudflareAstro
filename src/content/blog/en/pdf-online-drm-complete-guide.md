@@ -8,6 +8,10 @@ author: "Alex Rivera"
 heroImage: "/maipdf2026/show_off/en-pdf-sharing-workflow-animation.svg"
 ---
 
+<div class="maipdf-legacy-note">
+  <strong>Current MaiPDF guidance:</strong> Older online/HTML/Offline DRM material is kept for context, but the product direction is now clearer: use <a href="/blog/en/online-pdf-sharing-vs-app-drm">Online Cloud Sharing vs App DRM</a> as the main decision page. Browser links are for fast access; App DRM / <code>.maipdf</code> is for protected-reader, license, device, revocation, and screenshot-aware workflows.
+</div>
+
 <div class="intro-panel">
   <p>Picture a <strong>pricing sheet</strong> or <strong>contract draft</strong>: email it once and it lives in inboxes forever. <strong>Browser-first sharing</strong> at <a href="https://maipdf.com/">maipdf.com</a> means one link with <strong>expiry</strong>, <strong>open caps</strong>, and optional <strong>verification</strong>.</p>
   <p><strong>June 2026:</strong> Browser DRM cannot <strong>prevent screenshot</strong> at the OS level. For that, use <code>.maipdf</code> + <a href="https://drm.maipdf.com/">MaiPDF Secure app</a>. This guide covers <em>online</em> controls only.</p>
@@ -108,3 +112,16 @@ Browser controls in this guide do not block OS capture. Use [MaiPDF Secure](/blo
 **Related:** [MaiPDF complete workflow guide (with diagrams)](/en/maipdf-complete-workflow-guide-with-diagrams) · [Secure PDF links](/en/secure-pdf-links) · [Prevent PDF downloads (view-only)](/en/prevent-pdf-downloads-view-only)
 
 [Go to Blog Index](/blog)
+<style>
+.maipdf-legacy-note {
+  margin: 1.25rem 0 1.75rem;
+  padding: 16px 18px;
+  border: 1px solid #fed7aa;
+  border-left: 5px solid #f97316;
+  border-radius: 14px;
+  background: #fff7ed;
+  color: #7c2d12;
+  line-height: 1.6;
+}
+.maipdf-legacy-note a { color: #1d4ed8; font-weight: 800; }
+</style>

@@ -1,779 +1,248 @@
 ---
-import BlogPost from '../layouts/BlogPost.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout
-  title="About MaiPDF"
-  description="Learn about MaiPDF and its features for secure PDF sharing"
-  lang="zh-CN"
+  title="About MaiPDF | Online Cloud Sharing and App DRM"
+  description="MaiPDF builds secure PDF sharing in two clear paths: Online Cloud Sharing for browser links and App DRM for protected .maipdf files in the MaiPDF Secure App."
+  lang="en"
 >
-<!-- Preload Chinese font for proper character display -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<BlogPost
-  title="About MaiPDF"
-  description="Learn about MaiPDF and its features for secure PDF sharing"
-  pubDate={new Date('August 08 2021')}
-  slug=""
-  id="about"
->
-  <section class="prose mx-auto">
-    <h1>About MaiPDF</h1>
-    <p>
-      <span class="text-purple-600 font-bold">MaiPDF</span> was founded in 2019, offering users a solution for securely sharing PDF files. While the platform has been continuously developed and refined, it has not yet gained widespread recognition. Over time, we've focused on research and development to improve the platform and provide users with a robust and reliable service.
-    </p>
-
-    <p>
-      <span class="text-purple-600 font-bold">MaiPDF</span> provides both online and offline modes for PDF sharing. The online mode allows you to generate links for your PDFs, giving you control over the number of views, download restrictions, and even email verification codes to access the PDF. Meanwhile, the offline mode ensures privacy by embedding PDFs within HTML pages, which can be downloaded and viewed without leaving a trace on the server.
-    </p>
-
-    <p>
-      <span class="text-purple-600 font-bold">Although</span> MaiPDF has been steadily growing, we're still in the development phase. The core functionalities of the online version are now stable, and we plan to migrate to faster servers to improve speed and user experience. We are also committed to releasing more informative articles like this one to help users better understand our platform and explore its full potential.
-    </p>
-
-    <h2>Other Platforms We Operate</h2>
-    <p>
-      <span class="text-purple-600 font-bold">In</span> addition to MaiPDF, we also operate <a href="https://privnote.chat" target="_blank">privnote.chat</a>, a platform offering encrypted, self-destructive messages for enhanced privacy. Unlike the traditional <a href="https://privnote.com" target="_blank">privnote.com</a>, privnote.chat goes a step further by integrating zero-width character encryption and the ability to encode messages into binary (0 and 1). This extra layer of security ensures that your information is transmitted securely and can be set to self-destruct after being read.
-    </p>
-
-    <p>
-      <span class="text-purple-600 font-bold">We</span> focus on building practical privacy and security tools. For MaiPDF, that means secure sharing workflows, access controls, and audit-style access records that help teams understand usage and investigate leaks when needed.
-    </p>
-
-    <p>
-      <span class="text-purple-600 font-bold">Stay</span> tuned as we continue to enhance MaiPDF and privnote.chat, and thank you for being part of this journey. If you're new to any of these platforms, feel free to explore and get started with securely sharing your PDFs and messages.
-    </p>
-  </section>
-
-  <!-- Diagrams Section -->
-  <section class="diagrams-section">
-    <div class="diagrams-container">
-      <h2>📊 Complete Diagram Gallery - Visual Guides to Our Features</h2>
-      
-      <!-- Language Selector -->
-      <div class="language-selector">
-        <button class="lang-btn active" onclick="filterDiagrams('all')">All Languages</button>
-        <button class="lang-btn" onclick="filterDiagrams('zh-cn')">中文 (Chinese)</button>
-        <button class="lang-btn" onclick="filterDiagrams('en')">English</button>
+  <main class="about-secure">
+    <section class="about-hero">
+      <p class="eyebrow">MaiPDF Secure</p>
+      <h1>Two practical paths for secure PDF sharing</h1>
+      <p class="lead">
+        MaiPDF helps people share PDFs with the right level of control. Use Online Cloud Sharing when readers need a fast browser link or QR code. Use App DRM when a document needs a protected reader, device rules, revocation, and stronger screenshot-aware controls.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="/blog/en/online-pdf-sharing-vs-app-drm">Read the product overview</a>
+        <a class="btn secondary" href="https://drm.maipdf.com">Explore App DRM</a>
       </div>
+    </section>
 
-      <!-- Chinese Diagrams -->
-      <div class="diagrams-group" data-language="zh-cn">
-        <h3>🇨🇳 中文流程图 (Chinese Flowcharts)</h3>
-        
-        <div class="diagram-list">
-          <!-- 1. MaiPDF Workflow -->
-          <div class="diagram-item">
-            <h4>📋 MaiPDF 核心工作流程</h4>
-            <p class="diagram-subtitle">MaiPDF Core Workflow</p>
-            <img src="/diagram/zh-cn/maipdf-workflow.svg" alt="MaiPDF Workflow" class="diagram-svg">
-            <p class="diagram-desc">展示从上传 PDF &rarr; 配置权限 &rarr; 生成链接 &rarr; 分享文档 &rarr; 用户查看 &rarr; 打开统计的完整流程</p>
-          </div>
+    <section class="split-paths" aria-label="MaiPDF product paths">
+      <article class="path-card online">
+        <span class="path-label">maipdf.com</span>
+        <h2>Online Cloud Sharing</h2>
+        <p>
+          The fast path for PDF links, QR codes, browser reading, expiry, view limits, dynamic watermarks, access records, and online file replacement.
+        </p>
+        <ul>
+          <li>Best for quick sharing and no-install readers</li>
+          <li>Works well for proposals, portfolios, reports, and class handouts</li>
+          <li>Controls the online link, not a local protected file</li>
+        </ul>
+        <a href="https://maipdf.com">Start online sharing →</a>
+      </article>
 
-          <!-- 2. PDF Sharing Process -->
-          <div class="diagram-item">
-            <h4>🔐 PDF 安全分享流程</h4>
-            <p class="diagram-subtitle">PDF Secure Sharing Process</p>
-            <img src="/diagram/zh-cn/pdf-sharing-process.svg" alt="PDF Sharing Process" class="diagram-svg">
-            <p class="diagram-desc">分为4个阶段：文件上传、权限配置、链接生成、用户查看与统计</p>
-          </div>
+      <article class="path-card appdrm">
+        <span class="path-label">drm.maipdf.com</span>
+        <h2>App DRM / .maipdf</h2>
+        <p>
+          The stronger path for valuable documents that should open inside the MaiPDF Secure App instead of an ordinary browser or generic PDF reader.
+        </p>
+        <ul>
+          <li>Protected .maipdf files and license checks</li>
+          <li>Device binding, recipient control, expiry, and revocation</li>
+          <li>Stronger screen-capture controls where the platform supports them</li>
+        </ul>
+        <a href="https://drm.maipdf.com">Open App DRM →</a>
+      </article>
+    </section>
 
-          <!-- 3. Online Browsing Flow -->
-          <div class="diagram-item">
-            <h4>🌐 PDF 在线浏览工作流程</h4>
-            <p class="diagram-subtitle">Online PDF Browsing Workflow</p>
-            <img src="/diagram/zh-cn/online-browsing-flow.svg" alt="Online Browsing Flow" class="diagram-svg">
-            <p class="diagram-desc">展示服务器端处理 vs 客户端展示的完整技术流程</p>
-          </div>
-
-          <!-- 4. Comparison -->
-          <div class="diagram-item">
-            <h4>⚖️ MaiPDF 功能对比</h4>
-            <p class="diagram-subtitle">MaiPDF Feature Comparison</p>
-            <img src="/diagram/zh-cn/maipdf-comparison.svg" alt="MaiPDF Comparison" class="diagram-svg">
-            <p class="diagram-desc">MaiPDF vs 传统分享方式的6个维度对比</p>
-          </div>
-
-          <!-- 5. Offline DRM Flow -->
-          <div class="diagram-item">
-            <h4>📦 离线 PDF DRM 模式流程</h4>
-            <p class="diagram-subtitle">Offline PDF DRM Mode Workflow</p>
-            <img src="/diagram/zh-cn/offline-drm-flow.svg" alt="Offline DRM Flow" class="diagram-svg">
-            <p class="diagram-desc">无需网络连接，从上传 &rarr; 加密 &rarr; 生成离线包 &rarr; 本地打开的完整流程</p>
-          </div>
-
-          <!-- 6. DRM Digital Certificate -->
-          <div class="diagram-item">
-            <h4>🔑 DRM 数字证书系统</h4>
-            <p class="diagram-subtitle">DRM Digital Certificate System</p>
-            <img src="/diagram/zh-cn/drm-digital-certificate.svg" alt="DRM Digital Certificate" class="diagram-svg">
-            <p class="diagram-desc">企业级数字版权管理系统架构、三层加密防护和证书生命周期管理</p>
-          </div>
-
-          <!-- 7. QR Code Sharing -->
-          <div class="diagram-item">
-            <h4>📱 PDF 二维码分享流程</h4>
-            <p class="diagram-subtitle">PDF QR Code Sharing Flow</p>
-            <img src="/diagram/zh-cn/qrcode-sharing-flow.svg" alt="QR Code Sharing" class="diagram-svg">
-            <p class="diagram-desc">从 PDF 上传 &rarr; 权限配置 &rarr; 二维码生成 &rarr; 多渠道分享 &rarr; 用户扫描查看</p>
-          </div>
-
-          <!-- 8. Image Sharing Features -->
-          <div class="diagram-item">
-            <h4>🖼️ 图片分享三大功能</h4>
-            <p class="diagram-subtitle">Image Sharing Three Features (Maiimg)</p>
-            <img src="/diagram/zh-cn/image-sharing-three-features.svg" alt="Image Sharing Features" class="diagram-svg">
-            <p class="diagram-desc">快速生成链接 &rarr; 一键禁用 &rarr; 查看打开记录的完整功能演示</p>
-          </div>
-
-          <!-- 9. Team Collaboration -->
-          <div class="diagram-item">
-            <h4>👥 PDF 团队协作流程</h4>
-            <p class="diagram-subtitle">PDF Team Collaboration Workflow</p>
-            <img src="/diagram/zh-cn/team-collaboration-workflow.svg" alt="Team Collaboration" class="diagram-svg">
-            <p class="diagram-desc">从初始分享 &rarr; 反馈收集 &rarr; 版本迭代 &rarr; 最终审批的完整协作工作流</p>
-          </div>
-
-          <!-- 10. Quick Share 3 Steps -->
-          <div class="diagram-item">
-            <h4>⚡ 快速分享 3 步</h4>
-            <p class="diagram-subtitle">Quick Share 3 Steps</p>
-            <img src="/diagram/zh-cn/quick-share-3steps.svg" alt="Quick Share 3 Steps" class="diagram-svg">
-            <p class="diagram-desc">上传文件 &rarr; 配置权限 &rarr; 生成链接的快速分享流程</p>
-          </div>
-
-          <!-- 11. QR Code Share 3 Steps -->
-          <div class="diagram-item">
-            <h4>📱 二维码分享 3 步</h4>
-            <p class="diagram-subtitle">QR Code Share 3 Steps</p>
-            <img src="/diagram/zh-cn/qrcode-share-3steps.svg" alt="QR Code Share 3 Steps" class="diagram-svg">
-            <p class="diagram-desc">上传 &rarr; 生成二维码 &rarr; 分享查看的简化流程</p>
-          </div>
-
-          <!-- 12. Access Tracking Flow -->
-          <div class="diagram-item">
-            <h4>📊 打开统计</h4>
-            <p class="diagram-subtitle">Open Statistics Flow</p>
-            <img src="/diagram/zh-cn/access-tracking-flow.svg" alt="Open Statistics Flow" class="diagram-svg">
-            <p class="diagram-desc">用户点击 &rarr; 系统记录 &rarr; 数据分析 &rarr; 查看报告的完整统计流程</p>
-          </div>
-
-          <!-- 13. Disable Link 4 Steps -->
-          <div class="diagram-item">
-            <h4>🚫 禁用链接 4 步</h4>
-            <p class="diagram-subtitle">Disable Link 4 Steps</p>
-            <img src="/diagram/zh-cn/disable-link-4steps.svg" alt="Disable Link 4 Steps" class="diagram-svg">
-            <p class="diagram-desc">进入管理 &rarr; 选择链接 &rarr; 确认禁用 &rarr; 立即生效的快速禁用流程</p>
-          </div>
-
-          <!-- 14. File Replace Flow -->
-          <div class="diagram-item">
-            <h4>🔄 文件替换流程</h4>
-            <p class="diagram-subtitle">File Replace Flow</p>
-            <img src="/diagram/zh-cn/file-replace-flow.svg" alt="File Replace Flow" class="diagram-svg">
-            <p class="diagram-desc">选择原文件 &rarr; 上传新文件 &rarr; 保持链接不变 &rarr; 自动更新的替换流程</p>
-          </div>
-
-          <!-- 15. Complete Security Workflow -->
-          <div class="diagram-item">
-            <h4>🛡️ 完整安全流程</h4>
-            <p class="diagram-subtitle">Complete Security Workflow</p>
-            <img src="/diagram/zh-cn/complete-security-workflow.svg" alt="Complete Security Workflow" class="diagram-svg">
-            <p class="diagram-desc">从上传加密 &rarr; 权限控制 &rarr; 访问验证 &rarr; 统计审计的完整安全体系</p>
-          </div>
-
-          <!-- 16. Document Management Best Practices -->
-          <div class="diagram-item">
-            <h4>📚 文档管理最佳实践</h4>
-            <p class="diagram-subtitle">Document Management Best Practices</p>
-            <img src="/diagram/zh-cn/document-management-best-practices.svg" alt="Document Management Best Practices" class="diagram-svg">
-            <p class="diagram-desc">文档分类 &rarr; 权限设置 &rarr; 版本控制 &rarr; 协作管理的完整实践指南</p>
-          </div>
-
-          <!-- 17. Features Comparison -->
-          <div class="diagram-item">
-            <h4>⚖️ 功能对比</h4>
-            <p class="diagram-subtitle">Features Comparison</p>
-            <img src="/diagram/zh-cn/features-comparison.svg" alt="Features Comparison" class="diagram-svg">
-            <p class="diagram-desc">多维度功能对比，帮助用户选择最适合的分享方式</p>
-          </div>
-
-          <!-- 18. File Lifecycle -->
-          <div class="diagram-item">
-            <h4>🔄 文件生命周期</h4>
-            <p class="diagram-subtitle">File Lifecycle</p>
-            <img src="/diagram/zh-cn/file-lifecycle.svg" alt="File Lifecycle" class="diagram-svg">
-            <p class="diagram-desc">从创建 &rarr; 分享 &rarr; 使用 &rarr; 归档的完整文件生命周期管理</p>
-          </div>
-
-          <!-- 19. File Upload Security -->
-          <div class="diagram-item">
-            <h4>🔒 文件上传安全</h4>
-            <p class="diagram-subtitle">File Upload Security</p>
-            <img src="/diagram/zh-cn/file-upload-security.svg" alt="File Upload Security" class="diagram-svg">
-            <p class="diagram-desc">文件验证 &rarr; 病毒扫描 &rarr; 加密存储 &rarr; 安全传输的完整安全流程</p>
-          </div>
-
-          <!-- 20. Maiimg Share 5 Steps -->
-          <div class="diagram-item">
-            <h4>🖼️ Maiimg 分享 5 步</h4>
-            <p class="diagram-subtitle">Maiimg Share 5 Steps</p>
-            <img src="/diagram/zh-cn/maiimg-share-5steps.svg" alt="Maiimg Share 5 Steps" class="diagram-svg">
-            <p class="diagram-desc">上传图片 &rarr; 配置设置 &rarr; 生成链接 &rarr; 分享访问 &rarr; 打开统计的完整流程</p>
-          </div>
-
-          <!-- 21. Permission Matrix -->
-          <div class="diagram-item">
-            <h4>🔐 权限矩阵</h4>
-            <p class="diagram-subtitle">Permission Matrix</p>
-            <img src="/diagram/zh-cn/permission-matrix.svg" alt="Permission Matrix" class="diagram-svg">
-            <p class="diagram-desc">不同用户角色和权限级别的完整权限矩阵展示</p>
-          </div>
-
-          <!-- 22. Scenario: Contract -->
-          <div class="diagram-item">
-            <h4>📄 合同场景应用</h4>
-            <p class="diagram-subtitle">Scenario: Contract</p>
-            <img src="/diagram/zh-cn/scenario-contract.svg" alt="Contract Scenario" class="diagram-svg">
-            <p class="diagram-desc">合同文档的安全分享、权限控制和打开统计应用场景</p>
-          </div>
-
-          <!-- 23. Scenario: Portfolio -->
-          <div class="diagram-item">
-            <h4>🎨 作品集场景应用</h4>
-            <p class="diagram-subtitle">Scenario: Portfolio</p>
-            <img src="/diagram/zh-cn/scenario-portfolio.svg" alt="Portfolio Scenario" class="diagram-svg">
-            <p class="diagram-desc">作品集的展示分享、访问控制和数据分析应用场景</p>
-          </div>
-
-          <!-- 24. Scenario: Teaching -->
-          <div class="diagram-item">
-            <h4>📖 教学场景应用</h4>
-            <p class="diagram-subtitle">Scenario: Teaching</p>
-            <img src="/diagram/zh-cn/scenario-teaching.svg" alt="Teaching Scenario" class="diagram-svg">
-            <p class="diagram-desc">教学资料的分发、权限管理和学习统计应用场景</p>
-          </div>
-
-          <!-- 25. Security Compliance -->
-          <div class="diagram-item">
-            <h4>✅ 安全合规</h4>
-            <p class="diagram-subtitle">Security Compliance</p>
-            <img src="/diagram/zh-cn/security-compliance.svg" alt="Security Compliance" class="diagram-svg">
-            <p class="diagram-desc">符合行业安全标准和合规要求的完整安全体系</p>
-          </div>
-
-          <!-- 26. Security Features 4 -->
-          <div class="diagram-item">
-            <h4>🛡️ 安全功能 4 大核心</h4>
-            <p class="diagram-subtitle">Security Features 4</p>
-            <img src="/diagram/zh-cn/security-features-4.svg" alt="Security Features 4" class="diagram-svg">
-            <p class="diagram-desc">加密传输、访问控制、水印保护和统计审计四大核心安全功能</p>
-          </div>
-
-          <!-- 27. Sharing Methods Compare -->
-          <div class="diagram-item">
-            <h4>📊 分享方式对比</h4>
-            <p class="diagram-subtitle">Sharing Methods Compare</p>
-            <img src="/diagram/zh-cn/sharing-methods-compare.svg" alt="Sharing Methods Compare" class="diagram-svg">
-            <p class="diagram-desc">不同分享方式的优缺点对比，帮助选择最适合的方案</p>
-          </div>
-
-          <!-- 28. Version Management -->
-          <div class="diagram-item">
-            <h4>📌 版本管理</h4>
-            <p class="diagram-subtitle">Version Management</p>
-            <img src="/diagram/zh-cn/version-management.svg" alt="Version Management" class="diagram-svg">
-            <p class="diagram-desc">文件版本控制、历史记录和版本回退的完整管理流程</p>
-          </div>
-
-          <!-- 29. API Architecture -->
-          <div class="diagram-item">
-            <h4>🔧 API 架构</h4>
-            <p class="diagram-subtitle">API Architecture</p>
-            <img src="/diagram/zh-cn/api-architecture.svg" alt="API Architecture" class="diagram-svg">
-            <p class="diagram-desc">系统 API 架构设计、接口规范和集成方案</p>
-          </div>
-
-          <!-- 30. Data Processing Flow -->
-          <div class="diagram-item">
-            <h4>⚙️ 数据处理流程</h4>
-            <p class="diagram-subtitle">Data Processing Flow</p>
-            <img src="/diagram/zh-cn/data-processing-flow.svg" alt="Data Processing Flow" class="diagram-svg">
-            <p class="diagram-desc">从数据上传 &rarr; 处理转换 &rarr; 存储管理 &rarr; 输出分发的完整数据处理流程</p>
-          </div>
-        </div>
+    <section class="about-section">
+      <div>
+        <p class="eyebrow">Direction</p>
+        <h2>MaiPDF is moving toward a clearer Secure App identity</h2>
       </div>
+      <p>
+        Older MaiPDF pages and diagrams sometimes used purple-blue gradients, rounded SaaS cards, many small buttons, red arrows, and legacy flowcharts. That style no longer represents the main product direction. New pages should feel closer to a professional DRM product: white and light-gray surfaces, deep blue emphasis, green success states, and clear security status messaging.
+      </p>
+    </section>
 
-      <!-- English Diagrams -->
-      <div class="diagrams-group" data-language="en">
-        <h3>🇺🇸 English Flowcharts</h3>
-        
-        <div class="diagram-list">
-          <!-- 1. Maiimg Image Hosting Workflow -->
-          <div class="diagram-item">
-            <h4>📤 Maiimg Free Image Hosting Workflow</h4>
-            <p class="diagram-subtitle">Maiimg Image Hosting Workflow</p>
-            <img src="/diagram/en/maiimg-image-hosting-workflow.svg" alt="Maiimg Image Hosting Workflow" class="diagram-svg">
-            <p class="diagram-desc">Complete workflow from upload &rarr; validation &rarr; link generation &rarr; access configuration &rarr; sharing &rarr; open statistics</p>
-          </div>
+    <section class="about-section grid-3">
+      <article>
+        <h3>Honest browser limits</h3>
+        <p>Browser links can add useful controls, but they cannot fully control the operating system or guarantee screenshot blocking.</p>
+      </article>
+      <article>
+        <h3>Stronger app control</h3>
+        <p>App DRM changes the risk model by requiring the protected file to open through the MaiPDF Secure App and a valid license.</p>
+      </article>
+      <article>
+        <h3>Traceable sharing</h3>
+        <p>Watermarks, access records, open limits, and expiry remain important because no software can stop every possible copy method.</p>
+      </article>
+    </section>
 
-          <!-- 2. Maiimg QR Code Sharing -->
-          <div class="diagram-item">
-            <h4>📱 Maiimg QR Code Image Sharing Workflow</h4>
-            <p class="diagram-subtitle">Maiimg QR Code Sharing Workflow</p>
-            <img src="/diagram/en/maiimg-qr-code-sharing-workflow.svg" alt="Maiimg QR Code Sharing" class="diagram-svg">
-            <p class="diagram-desc">Upload &rarr; configure &rarr; auto-generate QR &rarr; download &rarr; distribute &rarr; scan &amp; access workflow</p>
-          </div>
-
-          <!-- 3. MaiPDF One-Click Sharing -->
-          <div class="diagram-item">
-            <h4>🔗 MaiPDF One-Click PDF Sharing Workflow</h4>
-            <p class="diagram-subtitle">MaiPDF One-Click Sharing Workflow</p>
-            <img src="/diagram/en/maipdf-one-click-sharing-workflow.svg" alt="MaiPDF One-Click Sharing" class="diagram-svg">
-            <p class="diagram-desc">Upload &rarr; configure &rarr; generate link &rarr; share &rarr; view &rarr; track complete workflow</p>
-          </div>
-
-          <!-- 4. Maiimg Access Control -->
-          <div class="diagram-item">
-            <h4>🔒 Maiimg Secure Image Sharing - Access Control</h4>
-            <p class="diagram-subtitle">Maiimg Access Control Workflow</p>
-            <img src="/diagram/en/maiimg-access-control-workflow.svg" alt="Maiimg Access Control" class="diagram-svg">
-            <p class="diagram-desc">Upload &rarr; configure access control &rarr; advanced security &rarr; secure sharing &rarr; verify access &rarr; monitor &amp; control</p>
-          </div>
-
-          <!-- 5. PDF Dynamic Watermark -->
-          <div class="diagram-item">
-            <h4>💧 MaiPDF Dynamic Watermark Tracking Workflow</h4>
-            <p class="diagram-subtitle">PDF Dynamic Watermark Workflow</p>
-            <img src="/diagram/en/pdf-dynamic-watermark-workflow.svg" alt="PDF Dynamic Watermark" class="diagram-svg">
-            <p class="diagram-desc">Upload &rarr; enable watermark &rarr; share link &rarr; user opens &rarr; track access &rarr; trace leak source</p>
-          </div>
-
-          <!-- 6. Offline PDF DRM -->
-          <div class="diagram-item">
-            <h4>📦 MaiPDF Offline PDF DRM Workflow</h4>
-            <p class="diagram-subtitle">Offline PDF DRM Workflow</p>
-            <img src="/diagram/en/offline-pdf-drm-workflow.svg" alt="Offline PDF DRM" class="diagram-svg">
-            <p class="diagram-desc">Upload → configure permissions → generate package → distribute → local opening → DRM enforcement</p>
-          </div>
-
-          <!-- 7. Maiimg Bulk Sharing -->
-          <div class="diagram-item">
-            <h4>📁 Maiimg Bulk Image Sharing Workflow</h4>
-            <p class="diagram-subtitle">Maiimg Bulk Sharing Workflow</p>
-            <img src="/diagram/en/maiimg-bulk-sharing-workflow.svg" alt="Maiimg Bulk Sharing" class="diagram-svg">
-            <p class="diagram-desc">Select multiple → batch upload → create gallery → configure security → generate & share → track analytics</p>
-          </div>
-
-          <!-- 8. PDF QR Code Generation -->
-          <div class="diagram-item">
-            <h4>📱 MaiPDF QR Code Generation Workflow</h4>
-            <p class="diagram-subtitle">PDF QR Code Generation Workflow</p>
-            <img src="/diagram/en/pdf-qr-code-generation-workflow.svg" alt="PDF QR Code Generation" class="diagram-svg">
-            <p class="diagram-desc">Upload → configure settings → generate QR code → download/print → distribute → scan & access</p>
-          </div>
-
-          <!-- 9. Simple PDF Sharing 3 Steps -->
-          <div class="diagram-item">
-            <h4>⚡ PDF Sharing in 3 Steps</h4>
-            <p class="diagram-subtitle">Simple PDF Sharing 3 Steps</p>
-            <img src="/diagram/en/simple-pdf-sharing-3-steps.svg" alt="PDF Sharing 3 Steps" class="diagram-svg">
-            <p class="diagram-desc">Upload PDF &rarr; Generate Link &amp; QR &rarr; Share &amp; Access - simplified workflow</p>
-          </div>
-
-          <!-- 10. Features Overview -->
-          <div class="diagram-item">
-            <h4>📊 MaiPDF Core Features Overview</h4>
-            <p class="diagram-subtitle">Features Overview</p>
-            <img src="/diagram/en/features-overview.svg" alt="Features Overview" class="diagram-svg">
-            <p class="diagram-desc">Complete overview of online mode, offline mode, and core security features</p>
-          </div>
-
-          <!-- 11. Simple Image Sharing 3 Steps -->
-          <div class="diagram-item">
-            <h4>🖼️ Image Sharing in 3 Steps</h4>
-            <p class="diagram-subtitle">Simple Image Sharing 3 Steps</p>
-            <img src="/diagram/en/simple-image-sharing-3-steps.svg" alt="Image Sharing 3 Steps" class="diagram-svg">
-            <p class="diagram-desc">Upload image &rarr; Generate link &rarr; Share &amp; track - quick image sharing workflow</p>
-          </div>
-
-          <!-- 12. Simple QR Code Flow -->
-          <div class="diagram-item">
-            <h4>📱 QR Code Generation Flow</h4>
-            <p class="diagram-subtitle">Simple QR Code Flow</p>
-            <img src="/diagram/en/simple-qr-code-flow.svg" alt="QR Code Flow" class="diagram-svg">
-            <p class="diagram-desc">Upload &rarr; Configure &rarr; Generate QR &rarr; Download &amp; Share - simplified QR workflow</p>
-          </div>
-
-          <!-- 13. Simple Access Control Flow -->
-          <div class="diagram-item">
-            <h4>🔒 Access Control Flow</h4>
-            <p class="diagram-subtitle">Simple Access Control Flow</p>
-            <img src="/diagram/en/simple-access-control-flow.svg" alt="Access Control Flow" class="diagram-svg">
-            <p class="diagram-desc">Set permissions &rarr; Configure limits &rarr; Enable verification &rarr; Monitor access</p>
-          </div>
-
-          <!-- 14. Simple Bulk Upload Flow -->
-          <div class="diagram-item">
-            <h4>📁 Bulk Upload Flow</h4>
-            <p class="diagram-subtitle">Simple Bulk Upload Flow</p>
-            <img src="/diagram/en/simple-bulk-upload-flow.svg" alt="Bulk Upload Flow" class="diagram-svg">
-            <p class="diagram-desc">Select multiple files &rarr; Batch upload &rarr; Generate links &rarr; Share gallery</p>
-          </div>
-
-          <!-- 15. Simple Offline vs Online -->
-          <div class="diagram-item">
-            <h4>⚖️ Offline vs Online Comparison</h4>
-            <p class="diagram-subtitle">Simple Offline vs Online</p>
-            <img src="/diagram/en/simple-offline-vs-online.svg" alt="Offline vs Online" class="diagram-svg">
-            <p class="diagram-desc">Compare offline DRM mode and online sharing mode features and use cases</p>
-          </div>
-
-          <!-- 16. Simple Security Features -->
-          <div class="diagram-item">
-            <h4>🛡️ Security Features Overview</h4>
-            <p class="diagram-subtitle">Simple Security Features</p>
-            <img src="/diagram/en/simple-security-features.svg" alt="Security Features" class="diagram-svg">
-            <p class="diagram-desc">Encryption, access control, watermark protection, and open-statistics capabilities</p>
-          </div>
-
-          <!-- 17. Simple Tracking Analytics -->
-          <div class="diagram-item">
-            <h4>📊 Open Statistics & Analytics Flow</h4>
-            <p class="diagram-subtitle">Simple Open Statistics Analytics</p>
-            <img src="/diagram/en/simple-tracking-analytics.svg" alt="Open Statistics Analytics" class="diagram-svg">
-            <p class="diagram-desc">Track views &rarr; Analyze data &rarr; Generate reports &rarr; Monitor performance</p>
-          </div>
-
-          <!-- 18. Simple View Limit Flow -->
-          <div class="diagram-item">
-            <h4>👁️ View Limit Flow</h4>
-            <p class="diagram-subtitle">Simple View Limit Flow</p>
-            <img src="/diagram/en/simple-view-limit-flow.svg" alt="View Limit Flow" class="diagram-svg">
-            <p class="diagram-desc">Set view limit &rarr; Monitor usage &rarr; Auto-disable &rarr; Notify owner</p>
-          </div>
-
-          <!-- 19. Simple Watermark Protection -->
-          <div class="diagram-item">
-            <h4>💧 Watermark Protection Flow</h4>
-            <p class="diagram-subtitle">Simple Watermark Protection</p>
-            <img src="/diagram/en/simple-watermark-protection.svg" alt="Watermark Protection" class="diagram-svg">
-            <p class="diagram-desc">Enable watermark &rarr; Configure settings &rarr; Apply dynamically &rarr; Track leaks</p>
-          </div>
-
-          <!-- 20. Complete Security Workflow -->
-          <div class="diagram-item">
-            <h4>🔐 Complete Security Workflow</h4>
-            <p class="diagram-subtitle">Complete Security Workflow</p>
-            <img src="/diagram/en/complete-security-workflow.svg" alt="Complete Security Workflow" class="diagram-svg">
-            <p class="diagram-desc">End-to-end security from upload encryption to access verification and monitoring</p>
-          </div>
-
-          <!-- 21. Compliance Framework -->
-          <div class="diagram-item">
-            <h4>✅ Compliance Framework</h4>
-            <p class="diagram-subtitle">Compliance Framework</p>
-            <img src="/diagram/en/compliance-framework.svg" alt="Compliance Framework" class="diagram-svg">
-            <p class="diagram-desc">Industry compliance standards, security certifications, and regulatory requirements</p>
-          </div>
-
-          <!-- 22. Document Management Best Practices -->
-          <div class="diagram-item">
-            <h4>📚 Document Management Best Practices</h4>
-            <p class="diagram-subtitle">Document Management Best Practices</p>
-            <img src="/diagram/en/document-management-best-practices.svg" alt="Document Management Best Practices" class="diagram-svg">
-            <p class="diagram-desc">Best practices for document organization, access control, versioning, and collaboration</p>
-          </div>
-
-          <!-- 23. Email Verification Access Control -->
-          <div class="diagram-item">
-            <h4>📧 Email Verification Access Control</h4>
-            <p class="diagram-subtitle">Email Verification Access Control Workflow</p>
-            <img src="/diagram/en/email-verification-access-control-workflow.svg" alt="Email Verification Access Control" class="diagram-svg">
-            <p class="diagram-desc">Upload &rarr; Enable email verification &rarr; Send code &rarr; Verify &amp; access &rarr; Track</p>
-          </div>
-
-          <!-- 24. Enterprise Document Distribution -->
-          <div class="diagram-item">
-            <h4>🏢 Enterprise Document Distribution</h4>
-            <p class="diagram-subtitle">Enterprise Document Distribution Workflow</p>
-            <img src="/diagram/en/enterprise-document-distribution-workflow.svg" alt="Enterprise Document Distribution" class="diagram-svg">
-            <p class="diagram-desc">Enterprise-grade document distribution with advanced security and management features</p>
-          </div>
-
-          <!-- 25. Offline vs Online PDF Comparison -->
-          <div class="diagram-item">
-            <h4>⚖️ Offline vs Online PDF Comparison</h4>
-            <p class="diagram-subtitle">Offline vs Online PDF Comparison</p>
-            <img src="/diagram/en/offline-vs-online-pdf-comparison.svg" alt="Offline vs Online PDF Comparison" class="diagram-svg">
-            <p class="diagram-desc">Detailed comparison of offline DRM and online sharing modes with use case scenarios</p>
-          </div>
-
-          <!-- 26. PDF Analytics Tracking -->
-          <div class="diagram-item">
-            <h4>📊 PDF Analytics Tracking Workflow</h4>
-            <p class="diagram-subtitle">PDF Analytics Tracking Workflow</p>
-            <img src="/diagram/en/pdf-analytics-tracking-workflow.svg" alt="PDF Open Statistics Analytics" class="diagram-svg">
-            <p class="diagram-desc">Track views, downloads, geographic data, device info, and generate comprehensive analytics</p>
-          </div>
-
-          <!-- 27. Portfolio Sharing Workflow -->
-          <div class="diagram-item">
-            <h4>🎨 Portfolio Sharing Workflow</h4>
-            <p class="diagram-subtitle">Portfolio Sharing Workflow</p>
-            <img src="/diagram/en/portfolio-sharing-workflow.svg" alt="Portfolio Sharing" class="diagram-svg">
-            <p class="diagram-desc">Create portfolio &rarr; Configure access &rarr; Share professionally &rarr; Track engagement</p>
-          </div>
-
-          <!-- 28. QR Code Distribution Workflow -->
-          <div class="diagram-item">
-            <h4>📱 QR Code Distribution Workflow</h4>
-            <p class="diagram-subtitle">QR Code Distribution Workflow</p>
-            <img src="/diagram/en/qr-code-distribution-workflow.svg" alt="QR Code Distribution" class="diagram-svg">
-            <p class="diagram-desc">Generate QR codes &rarr; Print/download &rarr; Distribute via multiple channels &rarr; Track scans</p>
-          </div>
-
-          <!-- 29. Security Architecture -->
-          <div class="diagram-item">
-            <h4>🏗️ Security Architecture</h4>
-            <p class="diagram-subtitle">Security Architecture</p>
-            <img src="/diagram/en/security-architecture.svg" alt="Security Architecture" class="diagram-svg">
-            <p class="diagram-desc">Multi-layer security architecture with encryption, authentication, and monitoring systems</p>
-          </div>
-
-          <!-- 30. Bulk Image Gallery Workflow -->
-          <div class="diagram-item">
-            <h4>🖼️ Bulk Image Gallery Workflow</h4>
-            <p class="diagram-subtitle">Bulk Image Gallery Workflow</p>
-            <img src="/diagram/en/bulk-image-gallery-workflow.svg" alt="Bulk Image Gallery" class="diagram-svg">
-            <p class="diagram-desc">Upload multiple images &rarr; Create gallery &rarr; Configure settings &rarr; Share &amp; track</p>
-          </div>
-        </div>
+    <section class="about-section legacy-note">
+      <div>
+        <p class="eyebrow">Legacy content</p>
+        <h2>Older HTML / Offline DRM material is now secondary</h2>
       </div>
-    </div>
-  </section>
-</BlogPost>
-</Layout>
+      <p>
+        MaiPDF may still keep older HTML-package or Offline DRM references for existing users and historical documentation. They should not be the main message for new readers. The current recommendation is simple: Online Cloud Sharing for fast browser delivery, App DRM / .maipdf for stronger protected-reader workflows.
+      </p>
+      <a href="/blog/en/online-pdf-sharing-vs-app-drm">Compare Online Cloud Sharing and App DRM →</a>
+    </section>
 
-<script>
-function filterDiagrams(language) {
-  // Update button states
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  event.target.classList.add('active');
+    <section class="about-section grid-2">
+      <article>
+        <p class="eyebrow">Built since 2019</p>
+        <h2>Practical document control</h2>
+        <p>
+          MaiPDF has been developed as a practical tool for controlled PDF distribution: links, QR codes, watermarks, reading records, access limits, and stronger protected-file workflows when the document is sensitive.
+        </p>
+      </article>
+      <article>
+        <p class="eyebrow">Related tools</p>
+        <h2>Privacy-focused products</h2>
+        <p>
+          In addition to MaiPDF, we also operate privacy and sharing tools such as privnote.chat. The common goal is simple: help people share information with more control than ordinary attachments and public links.
+        </p>
+      </article>
+    </section>
 
-  // Show/hide diagram sections
-  const groups = document.querySelectorAll('.diagrams-group');
-  
-  if (language === 'all') {
-    groups.forEach(group => {
-      group.style.display = 'block';
-    });
-  } else {
-    groups.forEach(group => {
-      if (group.dataset.language === language) {
-        group.style.display = 'block';
-      } else {
-        group.style.display = 'none';
-      }
-    });
-  }
-}
-</script>
-
+    <section class="about-section resources">
+      <p class="eyebrow">Recommended reading</p>
+      <h2>Start with the current product explanation</h2>
+      <div class="resource-links">
+        <a href="/blog/en/online-pdf-sharing-vs-app-drm">Online PDF Sharing vs App DRM</a>
+        <a href="/blog/en/what-is-a-maipdf-file">What is a .maipdf file?</a>
+        <a href="/blog/en/secure-pdf-reader-with-screenshot-protection">Secure PDF reader with screenshot protection</a>
+        <a href="/blog/en/how-to-open-a-maipdf-file">How to open a .maipdf file</a>
+      </div>
+    </section>
+  </main>
 <style>
-/* Chinese font is loaded via link tag in head for better performance */
-/* Emoji font support */
-@font-face {
-  font-family: 'Apple Color Emoji';
-  src: local('Apple Color Emoji');
-}
-
-@font-face {
-  font-family: 'Segoe UI Emoji';
-  src: local('Segoe UI Emoji');
-}
-
-@font-face {
-  font-family: 'Noto Color Emoji';
-  src: local('Noto Color Emoji');
-}
-
-/* Ensure all text elements use Chinese font with emoji support */
-.prose {
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif !important;
-}
-
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose p,
-.prose span,
-.prose a {
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif !important;
-}
-
-.diagrams-section {
-  margin-top: 4rem;
-  padding: 2rem 0;
-  border-top: 2px solid #e2e8f0;
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
-}
-
-.diagrams-container {
-  max-width: 1200px;
+.about-secure {
+  max-width: 1120px;
   margin: 0 auto;
+  padding: 56px 20px 88px;
+  color: #0f172a;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
-
-.diagrams-container h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #1e293b;
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+.about-hero {
+  border: 1px solid #dbe4ef;
+  border-radius: 28px;
+  padding: clamp(32px, 6vw, 72px);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(37, 99, 235, 0.14), transparent 32%),
+    linear-gradient(135deg, #ffffff 0%, #f8fafc 54%, #eef5ff 100%);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
 }
-
-.language-selector {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin-bottom: 3rem;
-  flex-wrap: wrap;
+.eyebrow {
+  margin: 0 0 12px;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
-
-.lang-btn {
-  padding: 0.75rem 1.5rem;
-  background: #e2e8f0;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  font-size: 0.95rem;
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
-}
-
-.lang-btn:hover {
-  background: #cbd5e1;
-}
-
-.lang-btn.active {
-  background: #3b82f6;
-  color: white;
-  border-color: #1e40af;
-}
-
-.diagrams-group {
-  margin-bottom: 4rem;
-}
-
-.diagrams-group h3 {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #e2e8f0;
-  color: #1e293b;
-}
-
-.diagram-list {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-.diagram-item {
-  background: white;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 2rem;
-  transition: box-shadow 0.3s ease;
-}
-
-.diagram-item:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
-.diagram-item h4 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.2rem;
-  color: #1e40af;
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
-}
-
-.diagram-subtitle {
-  margin: 0 0 1.5rem 0;
-  color: #64748b;
-  font-size: 0.9rem;
-  font-style: italic;
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
-}
-
-.diagram-svg {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-  background: #f8fafc;
-  margin: 1.5rem 0;
-  border: 1px solid #e2e8f0;
-}
-
-.diagram-desc {
+.about-hero h1 {
+  max-width: 820px;
   margin: 0;
-  color: #475569;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  font-size: clamp(2.5rem, 7vw, 5.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
 }
-
-.diagrams-group h3 {
-  font-family: 'Noto Sans SC', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+.lead {
+  max-width: 760px;
+  margin: 26px 0 0;
+  color: #334155;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  line-height: 1.75;
 }
-
-.coming-soon-message {
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 20px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.btn.primary { background: #0f2f5f; color: #fff; }
+.btn.secondary { background: #e8f1ff; color: #0f2f5f; border: 1px solid #c7d7ef; }
+.split-paths {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 28px 0;
+}
+.path-card, .about-section {
+  border: 1px solid #dbe4ef;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 14px 45px rgba(15, 23, 42, 0.06);
+}
+.path-card {
+  padding: 30px;
+}
+.path-card h2, .about-section h2, .about-section h3 { color: #0f172a; }
+.path-card h2 { margin: 10px 0 12px; font-size: 1.65rem; }
+.path-card p, .path-card li, .about-section p { color: #475569; line-height: 1.7; }
+.path-card ul { padding-left: 1.2rem; }
+.path-card a, .legacy-note a, .resource-links a { color: #1d4ed8; font-weight: 800; text-decoration: none; }
+.path-label {
+  display: inline-flex;
+  padding: 7px 11px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.online .path-label { background: #eff6ff; color: #1d4ed8; }
+.appdrm .path-label { background: #ecfdf5; color: #047857; }
+.appdrm { border-top: 5px solid #047857; }
+.online { border-top: 5px solid #1d4ed8; }
+.about-section {
+  padding: 32px;
+  margin-top: 24px;
+}
+.grid-3, .grid-2 {
+  display: grid;
+  gap: 18px;
+}
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 article, .grid-2 article {
+  padding: 22px;
+  border-radius: 18px;
   background: #f8fafc;
-  border: 2px dashed #cbd5e1;
-  border-radius: 12px;
-  padding: 3rem 2rem;
-  text-align: center;
-  color: #64748b;
+  border: 1px solid #e7edf5;
 }
-
-.coming-soon-message p {
-  margin: 0.5rem 0;
-  font-size: 1rem;
+.legacy-note {
+  background: linear-gradient(135deg, #fff 0%, #fff7ed 100%);
+  border-color: #fed7aa;
 }
-
-.coming-soon-message p:first-child {
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #1e293b;
+.resources {
+  background: #f8fafc;
 }
-
-@media (max-width: 768px) {
-  .diagrams-container h2 {
-    font-size: 1.5rem;
-  }
-
-  .language-selector {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .lang-btn {
-    width: 100%;
-  }
-
-  .diagram-item {
-    padding: 1.5rem;
-  }
-
-  .diagram-svg {
-    margin: 1rem 0;
-  }
+.resource-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+.resource-links a {
+  padding: 16px 18px;
+  border: 1px solid #dbe4ef;
+  border-radius: 16px;
+  background: #fff;
+}
+@media (max-width: 800px) {
+  .split-paths, .grid-3, .grid-2, .resource-links { grid-template-columns: 1fr; }
+  .about-secure { padding-top: 28px; }
 }
 </style>
+
+</Layout>

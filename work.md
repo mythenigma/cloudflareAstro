@@ -658,3 +658,12 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 - Kept Online Cloud Sharing vs App DRM separation explicit: online links open in browser and support same-link replacement; `.maipdf` / App DRM opens in the app and is governed by license rules.
 - Updated `src/components/RelatedPosts.astro` so `what-is-a-maipdf-file` links to this new guide and this new guide links back to key App DRM articles.
 - Ran Windows Node `npm run build:fast`; build passed and generated `/blog/en/how-to-open-a-maipdf-file/index.html`; only existing Browserslist/empty chunk warnings remain.
+
+## 2026-06-29 About / legacy visual alignment
+
+- Rebuilt `src/pages/about.astro` from a diagram-gallery style page into a formal MaiPDF Secure product page with six sections: hero, Online Cloud Sharing vs App DRM cards, Secure App visual direction, security boundaries, legacy HTML/Offline note, and recommended reading.
+- Removed the old About page's large bilingual diagram repository, purple/blue SaaS styling, Offline DRM-first copy, and outdated HTML-package positioning.
+- Marked old/generic browser DRM pages with a legacy guidance card pointing readers to `online-pdf-sharing-vs-app-drm.md` as the canonical 2026 product explanation.
+- Updated `online-pdf-sharing-vs-app-drm.md` to explicitly be the canonical entry page for Online Cloud Sharing vs App DRM and to state the new visual direction: white/light-gray surfaces, deep blue structure, green safety states, clear license status, less old purple-gradient SaaS decoration.
+- Installed local Node.js v22.17.0 under `/home/adminjoe/.hermes/node` for WSL Astro builds, then ran `npm install --no-package-lock` and `npm run build:fast`; build passed.
+- Verified `/about/` through local HTTP static preview so `/_astro` CSS loaded correctly; confirmed the page renders with the intended white/light-gray/deep-blue/green professional DRM style.

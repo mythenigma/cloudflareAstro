@@ -15,9 +15,9 @@ MaiPDF has two practical ways to protect and share PDFs:
 
 ![MaiPDF App overview: Online Cloud Sharing and App DRM](/app-screenshots/maipdf-app-overview-en.png)
 
-Both are useful. They are not competitors so much as two different security levels.
+Both are useful. They are not competitors so much as two different security levels. This page is the main MaiPDF product explanation for 2026 and should be used as the canonical entry point when older pages mention HTML packages, Offline DRM, browser screenshot blocking, or generic “online DRM.”
 
-Use **Online Cloud Sharing** when access should be fast and easy. Use **App DRM** when screenshots, device binding, and post-distribution control matter more than one-click convenience.
+Use **Online Cloud Sharing** when access should be fast and easy. Use **App DRM** when screenshots, device binding, and post-distribution control matter more than one-click convenience. Visually and conceptually, new App DRM material should follow the MaiPDF Secure App direction: white content surfaces, deep blue structure, green safe states, clear license status, and less old-style purple-gradient SaaS decoration.
 
 ![MaiPDF two-path decision map: Online Cloud Sharing vs App DRM](/app-screenshots/maipdf-two-paths-decision-map.svg)
 
