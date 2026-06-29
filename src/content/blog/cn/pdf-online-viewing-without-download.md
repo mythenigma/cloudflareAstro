@@ -128,12 +128,3 @@ PDF 在线阅读容器是原生 Web 环境，不是 Adobe Reader 的网页版。
 ## 直接回答这个页面
 
 如果你想让对方"只能看、不能下"，在 [MaiPDF](https://maipdf.com)（或中文版 [maipdf.cn](https://maipdf.cn)）上传 PDF 之后，在文件设置面板把"允许下载"关掉就进入标准防护模式——接收方只能在浏览器里读，不能下载、不能打印；手机、平板、桌面、微信内置浏览器都能打开，不需要装额外 PDF 阅读器。**发之前先拿手机过一遍真实体验，再谈防下载**。
-
-## Related reading
-
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 禁下载的纯功能视角详解
-- [PDF 打印禁止设置](/blog/cn/maipdf-print-restriction-guide) —— 标准防护模式另一半，配合关下载用
-- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 禁下载挡不住截图，截图追责靠水印
-- [PDF 打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 禁下载 + 次数 的常见搭配配方
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 更完整的访问控制全景
-- [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link) —— 最快一条路径：上传即分享

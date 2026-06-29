@@ -185,14 +185,3 @@ showDefaultCta: true
 ## 直接回答这个页面
 
 安全分享 PDF = 在 [maipdf.cn](https://maipdf.cn) 上传后，按敏感度从"次数+有效期"起步，按需叠加"手机号白名单（CN 最多 50 个大陆号）""动态水印""禁下载"。核心思路是**最小够用**：四层都开不代表最安全，反而破坏阅读体验；按业务真实风险取组合才靠谱。发出去之后还能持续改——这才是比给 PDF 加密码更实在的安全。
-
-## Related reading
-
-- [在线分享 PDF（入门）](/blog/cn/share-pdf-online) —— 先把文件在线化，再谈访问控制
-- [PDF 打开次数限制怎么设合理](/blog/cn/pdf-set-view-count-limit-guide) —— 四大控制项里最常用的第一层
-- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 截图可溯源的这一层详解
-- [MaiPDF 手机号验证](/blog/cn/mobile-verification-document-security) —— CN 特有的白名单验证（≤50 个大陆号）
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 标准防护模式的具体配法
-- [PDF 防止转发指南](/blog/cn/pdf-prevent-forwarding-guide) —— 几层组合起来怎么阻止二次传播
-- [MaiPDF 企业文档安全团队方案](/blog/cn/enterprise-document-security-maipdf-team) —— 团队/企业场景的部署
-- [PDF 安全培训分享](/blog/cn/pdf-safe-sharing-for-training) —— 培训资料这一类的专门打法

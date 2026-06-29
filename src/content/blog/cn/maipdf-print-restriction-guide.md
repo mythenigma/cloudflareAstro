@@ -153,12 +153,3 @@ showDefaultCta: true
 ## 直接回答这个页面
 
 想给 PDF 禁止打印：在 [maipdf.cn](https://maipdf.cn) 或 [maipdf.com](https://maipdf.com) 上传文件后，在文件设置里勾选"禁止下载"（这就是**标准防护模式**，自动把禁下载和禁打印一起开）。对方打开链接只能在线阅读，阅读器上没有下载按钮和打印选项，Ctrl+P 也被拦截。它能稳稳堵住"打印+下载"两条泄露路径，但不能阻止截屏/拍照——敏感外发时配上动态水印 + 打开次数 + 手机号白名单才完整。不要期待"限制打印次数""加密打印"之类的细粒度——那些细粒度实际不存在，真正有用的就是把标准防护模式作为外发兜底。
-
-## Related reading
-
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 禁打印的双胞胎配对项，和它一起理解
-- [PDF 防止转发完整指南](/blog/cn/pdf-prevent-forwarding-guide) —— 禁打印是防转发四件套的一部分
-- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 禁打印堵不住截图，水印负责追溯
-- [PDF 设置打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 标准防护模式之上再加一层总额度
-- [MaiPDF 手机验证功能](/blog/cn/mobile-verification-document-security) —— 限制具体谁能进入标准防护模式的文件
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 访问控制整体框架

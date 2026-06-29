@@ -168,12 +168,3 @@ Extend the expiry in the control panel; the URL doesn't change. If the expiry ha
 
 **Should I use a watermark on a hiring portfolio?**
 Usually not. The work on a hiring portfolio is already yours-to-share; friction hurts more than the leakage risk. Save watermarks for **client work under NDA** or **design challenges** where the output is commercially sensitive.
-
-## Related reading
-
-- [Resume link generator — share your CV professionally](/blog/en/resume-link-generator-share-cv-professionally-securely) — the CV-sharing sibling piece
-- [Freelancer portfolio links — win more clients with clear sharing](/blog/en/freelancer-portfolio-links-win-more-clients-with-clear-sharing) — client-facing portfolio playbook
-- [Secure portfolio sharing for designers](/blog/en/secure-portfolio-sharing-for-designers) — deeper on the protected-portfolio side
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the general upload-to-share walkthrough
-- [Share PDF securely](/blog/en/share-pdf-securely) — the full protection stack for NDA-level client work
-- [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — when and how to watermark portfolio work

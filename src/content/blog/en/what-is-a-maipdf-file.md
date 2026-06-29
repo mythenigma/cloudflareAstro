@@ -125,11 +125,3 @@ For many businesses, that combination is enough to move from “PDF sent and los
 If you only need fast browser sharing, start with [MaiPDF online sharing](https://maipdf.com).
 
 If you need protected files, screenshot-aware reading, device binding, and revocation, start with [MaiPDF App DRM](https://drm.maipdf.com).
-
-## Related guides
-
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
-- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [PDF Device Binding Explained](/blog/en/pdf-device-binding-explained)
-- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
-- [Free PDF screenshot protection software](/blog/en/free-pdf-screenshot-protection-software)

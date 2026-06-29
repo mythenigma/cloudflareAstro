@@ -165,11 +165,3 @@ Sí. Ese es uno de los beneficios centrales del sistema.
 ### ¿Esto sustituye a la verificación por e-mail?
 
 No. El límite controla cantidad de accesos; la verificación ayuda a controlar identidad.
-
-## Artículos relacionados
-
-- [Compartir PDF de forma segura](/blog/es/share-pdf-securely)
-- [Compartir PDF en línea](/blog/es/share-pdf-online)
-- [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
-- [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
-- [Marca de agua dinámica en PDF](/blog/es/share-pdf-securely)

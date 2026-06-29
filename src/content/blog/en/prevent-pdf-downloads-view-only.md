@@ -138,11 +138,3 @@ Creating your first view-only document takes just minutes:
 The improved performance and user-friendly interface make this an ideal solution for anyone who needs to share documents securely. Your recipients get fast, easy access to your content, while you maintain complete control over how it's used.
 
 Try creating a view-only link today and see how simple secure document sharing can be.
-
-## Related MaiPDF guides
-
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
-- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
-- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
-- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

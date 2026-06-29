@@ -114,13 +114,3 @@ showDefaultCta: true
 ## 直接回答这个页面
 
 二维码分享 PDF 最值钱的不是生成那一步，是把**线下触点**（海报、名片、展位、包装、桌牌）**延伸成带访问控制的在线阅读入口**。在 [MaiPDF](https://maipdf.com) 或 [maipdf.cn](https://maipdf.cn) 上先设好次数、有效期、禁下载、（CN 版）手机号白名单，再让 QR 指向这条链接——线下几十几百人同时自助拿资料、活动结束自动收尾，而且 PDF 内容更新不用重做 QR。但如果你本来就在聊天窗口里，直接发链接比做 QR 更快更顺。
-
-## Related reading
-
-- [PDF 生成二维码的 UI 路径](/blog/cn/pdf-qr-code-generation-guide) —— 从 0 到 1 怎么生成、下载 QR 图片、打印前自测
-- [手机扫码阅读 PDF 的体验](/blog/cn/mobile-qr-scan-read-pdf-guide) —— 被扫方视角：扫完之后在手机上的阅读体验
-- [PDF 打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 活动型 QR 怎么设次数才合理
-- [PDF 在线浏览但不下载](/blog/cn/pdf-online-viewing-without-download) —— 扫码打开后的标准防护模式
-- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 大面积扫码场景下的截图溯源
-- [MaiPDF 手机验证功能](/blog/cn/mobile-verification-document-security) —— 内部活动 QR 配手机号白名单
-- [在线分享 PDF](/blog/cn/share-pdf-online) —— 链接分享的基础入门

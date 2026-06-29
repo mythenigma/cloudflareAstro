@@ -113,10 +113,3 @@ For most training teams, the best rollout is not “DRM everything.” Use tiers
 4. **Exam or certification files:** App DRM plus shorter license windows and traceable watermarks.
 
 This keeps the learner experience simple while still protecting the PDFs that create real business risk.
-
-## Related guides
-
-- [PDF DRM for online courses](/blog/en/pdf-drm-for-online-courses)
-- [How to share paid training PDFs securely](/blog/en/how-to-share-paid-training-pdfs-securely)
-- [How to prevent students from sharing course PDFs](/blog/en/how-to-prevent-students-from-sharing-course-pdfs)
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)

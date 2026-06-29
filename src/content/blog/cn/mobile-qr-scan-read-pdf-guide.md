@@ -100,12 +100,3 @@ MaiPDF 的阅读容器在移动端支持原生触摸手势：
 ## 直接回答这个页面
 
 用 MaiPDF 生成的 QR，被扫的那端体验很干净：微信扫一扫或系统相机扫一下，PDF 在手机浏览器里直接展开，不下载、不装 PDF 阅读器、不登录。双指缩放、左右滑动翻页，和读网页一样自然。上传者这端要做的是让这个体验别被拖垮——文件别太大、页数别太多、（CN 版）如果设了手机号白名单提前告诉受邀方会收到短信验证码，剩下的交给 MaiPDF。
-
-## Related reading
-
-- [PDF 生成二维码的 UI 路径](/blog/cn/pdf-qr-code-generation-guide) —— 上传者视角：怎么生成、下载 QR 图片、打印前自测
-- [二维码分享 PDF 的场景选择](/blog/cn/qr-code-pdf-sharing) —— 哪些场景适合用 QR、哪些直接发链接更好
-- [PDF 在线浏览但不下载](/blog/cn/pdf-online-viewing-without-download) —— 扫码打开后读到的是什么：标准防护模式详解
-- [MaiPDF 手机验证功能](/blog/cn/mobile-verification-document-security) —— CN 特有的手机号白名单对被扫方意味着什么
-- [PDF 打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 大面积扫码场景下的次数配方
-- [在线分享 PDF](/blog/cn/share-pdf-online) —— 链接分享的基础入门

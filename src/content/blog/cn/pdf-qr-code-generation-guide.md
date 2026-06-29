@@ -124,12 +124,3 @@ showDefaultCta: true
 ## 直接回答这个页面
 
 想生成 PDF 二维码，在 [MaiPDF](https://maipdf.com)（或 [maipdf.cn](https://maipdf.cn) 中文版）上传 PDF 之后，在文件设置面板里先把访问控制（打开次数 / 有效期 / 是否允许下载 / 手机号白名单）配好，然后生成，系统同时给出分享链接和高清二维码图。右键保存 QR 图用于海报/名片/包装/展板。所有设过的访问控制对扫码的人**全部同样生效**。后续换 PDF 内容不用重做二维码，只要用文件替换功能即可。
-
-## Related reading
-
-- [二维码分享 PDF 的场景选择](/blog/cn/qr-code-pdf-sharing) —— 从场景角度看什么时候值得用 QR，什么时候直接发链接更好
-- [手机扫码阅读 PDF 的体验](/blog/cn/mobile-qr-scan-read-pdf-guide) —— 被扫方视角：扫完之后在手机上的阅读体验
-- [PDF 打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 给 QR 背后的链接设合理次数的方法论
-- [PDF 在线浏览但不下载](/blog/cn/pdf-online-viewing-without-download) —— 扫码打开后的标准防护模式
-- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 扫码大面积分发时配水印溯源
-- [在线分享 PDF](/blog/cn/share-pdf-online) —— 链接分享的基础入门

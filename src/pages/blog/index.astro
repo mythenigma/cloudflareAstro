@@ -92,9 +92,9 @@ const latestPosts = posts.slice(0, 10);
         screenshot protection, device binding, watermarks, QR codes, view limits, and access tracking.
       </p>
       <div class="hero-links">
+        <a href="#start-here">Start here</a>
         <a href="#topics">Browse topics</a>
         <a href="#latest">Latest articles</a>
-        <a href="https://drm.maipdf.com">App DRM site</a>
       </div>
     </section>
 
@@ -105,6 +105,22 @@ const latestPosts = posts.slice(0, 10);
           <span>{section.label} articles</span>
         </a>
       ))}
+    </section>
+
+    <section class="section-block featured-block" id="start-here">
+      <div class="section-heading">
+        <p class="eyebrow">Recommended first reads</p>
+        <h2>Core articles that explain the new product story</h2>
+      </div>
+      <div class="featured-grid">
+        {featuredPosts.map((post) => (
+          <a class="featured-card" href={postHref(post.id)}>
+            <span>{post.id.split('/')[0].toUpperCase()}</span>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+          </a>
+        ))}
+      </div>
     </section>
 
     <section class="section-block" id="topics">
@@ -126,22 +142,6 @@ const latestPosts = posts.slice(0, 10);
               ))}
             </div>
           </section>
-        ))}
-      </div>
-    </section>
-
-    <section class="section-block featured-block">
-      <div class="section-heading">
-        <p class="eyebrow">Recommended first reads</p>
-        <h2>Core articles that explain the new product story</h2>
-      </div>
-      <div class="featured-grid">
-        {featuredPosts.map((post) => (
-          <a class="featured-card" href={postHref(post.id)}>
-            <span>{post.id.split('/')[0].toUpperCase()}</span>
-            <h3>{post.data.title}</h3>
-            <p>{post.data.description}</p>
-          </a>
         ))}
       </div>
     </section>

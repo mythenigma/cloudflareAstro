@@ -157,13 +157,3 @@ In the control panel, you can make print off the default setting for new uploads
 
 **What if the reader saves the page as HTML or via "View source"?**
 They get the page chrome, not the PDF content. The PDF is rendered on the server and streamed as images to the viewer; there's no usable PDF body in the HTML.
-
-## Related reading
-
-- [Share PDF securely](/blog/en/share-pdf-securely) — the full protection stack print-off slots into
-- [PDF prevent-forwarding guide](/blog/en/pdf-prevent-forwarding-guide) — the sibling anti-forward piece
-- [PDF online viewing without download](/blog/en/pdf-online-viewing-without-download) — the download-off pair of this setting
-- [Control PDF downloads and permissions](/blog/en/limit-pdf-views-drm) — the download-off layer in depth
-- [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the screenshot-traceability layer
-- [Prevent file copying — protection guide](/blog/en/prevent-file-copying-protection-guide) — the copy-prevention angle
-- [PDF online viewer — prevent copy](/blog/en/pdf-online-viewing-without-download) — selection / copy-paste lockdown

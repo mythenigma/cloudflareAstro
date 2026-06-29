@@ -123,13 +123,3 @@ MaiPDF 的**文件替换**就是为这个设计的：
 ## 直接回答这个页面
 
 给学员发培训资料要安全又好用，不是把设置拧到最严——是配一组**让学员能复习、让转发有痕迹、让你能收尾**的组合。到 [maipdf.cn](https://maipdf.cn) 或 [maipdf.com](https://maipdf.com) 上传课件（单文件 ≤100 MB），**禁下载 + 动态水印**是基础必选，打开次数按班级规模设（20–200 次都合理），有效期覆盖课程周期 + 2 周复习窗口。小班付费课再加手机号白名单（≤50 个大陆号）做定向分发。课件更新时用文件替换而不是发新链接。这一套做下来，你依然在掌控这件事。
-
-## Related reading
-
-- [PDF 设置打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 培训场景的次数怎么估
-- [PDF 动态水印](/blog/cn/pdf-dynamic-watermark-security-guide) —— 培训场景的必选项详解
-- [MaiPDF 手机验证功能](/blog/cn/mobile-verification-document-security) —— 小班付费课的定向分发
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 标准防护模式怎么挂
-- [PDF 二维码生成](/blog/cn/pdf-qr-code-generation-guide) —— 课堂扫码发讲义的基础
-- [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link) —— 从零开始的三步流程
-- [团队文档安全分享](/blog/cn/enterprise-document-security-maipdf-team) —— 教研团队统一管理的一些做法

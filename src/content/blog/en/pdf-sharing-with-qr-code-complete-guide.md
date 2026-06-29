@@ -98,10 +98,3 @@ Set a reminder to update the file, not the code. This is the feature most people
 ## Short answer
 
 Upload the PDF to MaiPDF, decide the controls (expiry, verification, watermark), generate the QR from the managed link, print it at 2 cm minimum with a quiet zone and a short URL fallback, and test the scan on a real iPhone and Android before the full print run. When the document changes, replace the file — the code keeps working.
-
-## Related reading
-
-- [QR Codes for Document Distribution](/blog/qr-codes-for-document-distribution/) — placement strategy, verticals, and what the access log tells you after the print run.
-- [How to Upload a PDF and Generate a Secure Link](/blog/how-to-upload-a-pdf-and-generate-a-secure-link/) — the link that sits behind the QR.
-- [Limit PDF Views: DRM for Shared Documents](/blog/limit-pdf-views-drm/) — the view-cap control that keeps a public QR from becoming a leak.
-- [Dynamic Watermarks on PDF](/blog/dynamic-watermarks-on-pdf/) — the watermark that stamps the scanner's identity on every opened page.

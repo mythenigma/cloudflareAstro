@@ -162,21 +162,3 @@ Core reading works normally — page rendering, scrolling, zoom, and search stay
 
 **Is there a "nuclear button" to kill the whole document everywhere?**
 Revoking the link is the nuclear button. After that, no copy of the URL works. Screenshots and copies already in the wild aren't recoverable — that's an information problem, not a technology one.
-
-## Related reading
-
-- [Share PDF securely](/blog/en/share-pdf-securely) — the wider protection stack this piece is a specialization of
-- [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the forensic layer in depth
-- [Email-verified PDF access](/blog/en/email-verified-pdf-links) — the identity-gate layer in depth
-- [Limit how many times a PDF link is opened](/blog/en/limit-pdf-views-drm) — the open-cap layer with the mobile multiplier
-- [PDF online viewing without download](/blog/en/pdf-online-viewing-without-download) — the view-only layer in depth
-- [MaiPDF print restriction settings guide](/blog/en/maipdf-print-restriction-guide) — the sibling piece focused specifically on the print-off control
-- [Prevent file copying — protection guide](/blog/en/prevent-file-copying-protection-guide) — the copy-prevention angle
-
-## Related MaiPDF guides
-
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
-- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
-- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
-- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

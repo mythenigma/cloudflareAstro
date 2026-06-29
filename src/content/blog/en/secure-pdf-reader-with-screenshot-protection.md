@@ -145,16 +145,3 @@ Use [MaiPDF online sharing](https://maipdf.com) when you want fast links, QR cod
 ### App DRM / `.maipdf`
 
 Use [MaiPDF App DRM](https://drm.maipdf.com) when you need a protected reader, screenshot-aware controls, device binding, revocation, and protected `.maipdf` files.
-
-## Related guides
-
-- [What Is a .maipdf File?](/blog/en/what-is-a-maipdf-file)
-- [PDF Device Binding Explained](/blog/en/pdf-device-binding-explained)
-- [Browser PDF Viewer vs App DRM](/blog/en/browser-pdf-viewer-vs-app-drm)
-- [Prevent Screenshot on PDFs with MaiPDF Secure](/blog/en/prevent-screenshot-pdf-drm-native-app)
-
-<div class="cta-container">
-  <a href="https://drm.maipdf.com/" target="_blank" rel="noopener noreferrer" class="cta-button">
-    Explore MaiPDF App DRM
-  </a>
-</div>

@@ -134,12 +134,3 @@ MaiPDF 中文版（maipdf.cn）对这个问题的解法是**手机号白名单**
 ## 直接回答这个页面
 
 想给 PDF 加手机号验证：在 [maipdf.cn](https://maipdf.cn) 上传文件后，在文件设置面板里勾选"手机号验证"，把最多 **50 个中国大陆手机号**填进白名单，生成分享链接即可。对方打开链接会先输入手机号、收短信验证码，通过后才能看到 PDF。境外号不支持。它的核心价值不是多加一层麻烦，而是**把"能打开"和"具体是谁"强绑定**——链接转出去也失效，访问日志直接对到人，敏感外发时这一层几乎不可替代。
-
-## Related reading
-
-- [PDF 设置打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 手机验证常配的"总额度控制"，两者叠加最稳
-- [PDF 动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 手机号 + 动态水印，身份链闭环
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 防止文件落地的必配项
-- [PDF 防止转发完整指南](/blog/cn/pdf-prevent-forwarding-guide) —— 手机白名单是防转发里最有效的一招
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 访问控制整体框架
-- [企业文档安全实践](/blog/cn/enterprise-document-security-maipdf-team) —— 手机验证在企业流程里的落地

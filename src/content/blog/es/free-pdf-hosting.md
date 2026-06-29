@@ -60,9 +60,3 @@ MaiPDF es completamente gratuito y no requiere registro. Puede comenzar a cargar
 4. Comparta el enlace o código QR generado
 
 ---
-
-## Artículos Relacionados
-
-- [Carga de PDF y Creación de Enlaces: Compartición Fácil de Archivos](/blog/es/upload-pdf-get-link)
-- [Compartición Segura de PDF: Mejores Prácticas](/blog/es/share-pdf-securely)
-- [Control de Acceso PDF: Implementación Práctica](/blog/es/limit-pdf-views-drm)

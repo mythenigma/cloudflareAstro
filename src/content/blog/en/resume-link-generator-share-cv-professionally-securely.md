@@ -160,13 +160,3 @@ Usually no — friction with no real upside for a standard application. Use a wa
 
 **My CV is 2 pages. Is the file size even an issue?**
 No — a 2-page CV is well under 1 MB. The attachment problems are mostly about inbox clutter, version control, and mobile opening, not size.
-
-## Related reading
-
-- [Share your design portfolio with a link](/blog/en/share-design-portfolio-with-link) — the portfolio-side sibling piece
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the general upload-to-share walkthrough
-- [PDF link vs. email attachment](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — the broader attachment-vs-link case
-- [Create PDF links that actually get opened](/blog/en/create-pdf-links-actually-get-opened-5-strategies) — open-rate strategies
-- [Share PDF securely](/blog/en/share-pdf-securely) — the full protection stack for a confidential search
-- [Email-verified PDF access](/blog/en/email-verified-pdf-links) — the identity-gate layer for confidential CV shares
-- [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — when watermarking a CV variant makes sense

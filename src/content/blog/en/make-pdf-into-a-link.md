@@ -81,11 +81,3 @@ Making a PDF into a link is really about changing the format of delivery. Instea
 ## Short answer
 
 To make a PDF into a link, upload it to MaiPDF, choose the lightest settings that fit the document, and share the generated URL or QR. That gives you one cleaner reading path than an attachment, plus the option to manage access later.
-
-## Related PDF link guides
-
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
-- [PDF link control: manage how your link behaves](/blog/en/pdf-link-control)
-- [PDF link sharing instead of email attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)
-- [PDF attachment vs link in email](/blog/en/pdf-attachment-vs-link-email-best-practices)
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)

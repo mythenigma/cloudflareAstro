@@ -175,11 +175,3 @@ Start with a protected reader.
 Use MaiPDF Online Cloud Sharing when you want fast links, QR codes, expiry, view limits, watermarks, and access tracking.
 
 Use the MaiPDF App and `.maipdf` when you actually care about screenshot-aware reading, device binding, revocation, and stronger control after the file leaves your computer.
-
-## Related guides
-
-- [Secure PDF reader with screenshot protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [Prevent screenshot PDF DRM native app](/blog/en/prevent-screenshot-pdf-drm-native-app)
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
-- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)
-- [PDF device binding explained](/blog/en/pdf-device-binding-explained)

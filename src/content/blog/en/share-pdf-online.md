@@ -131,12 +131,3 @@ No. It means every leak has a trail. Screenshots still exist. The difference is 
 
 **Do I need to worry about the link breaking one day?**
 Links stay active as long as the document exists under your control. If you don't set an expiry, it keeps working. If you set one, it dies on the date you chose — and you can always extend.
-
-## Related reading
-
-- [Share a PDF securely](/blog/en/share-pdf-securely) — the full protection-focused decision tree when the document is sensitive
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the step-by-step configuration walkthrough
-- [PDF link vs. email attachment](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — the direct comparison
-- [PDF online viewing without download](/blog/en/pdf-online-viewing-without-download) — when to keep the file out of readers' hands
-- [Limit how many times a PDF link is opened](/blog/en/limit-pdf-views-drm) — the view-count cap + mobile multiplier
-- [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — add traceability when it matters

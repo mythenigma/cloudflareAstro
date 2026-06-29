@@ -150,11 +150,3 @@ En esos casos puede seguir teniendo sentido compartir un archivo tradicional o d
 ## Respuesta corta
 
 MaiPDF sirve cuando quieres compartir un PDF con lectura web, reglas de acceso y capacidad de seguimiento posterior. No es solo una URL bonita: es una forma más controlable de distribuir un documento sin multiplicar copias.
-
-## Artículos relacionados
-
-- [Compartir PDF en línea](/blog/es/share-pdf-online)
-- [Compartir PDF de forma segura](/blog/es/share-pdf-securely)
-- [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
-- [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
-- [Limitar visualizaciones PDF](/blog/es/limit-pdf-views-drm)

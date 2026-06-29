@@ -145,11 +145,3 @@ Sí. Ese es uno de los mayores beneficios del flujo.
 ### ¿Cuál es el tamaño máximo?
 
 MaiPDF admite archivos de hasta **100 MB**.
-
-## Artículos relacionados
-
-- [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
-- [Compartir PDF de forma segura](/blog/es/share-pdf-securely)
-- [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
-- [Limitar visualizaciones PDF](/blog/es/limit-pdf-views-drm)
-- [Compartir PDF en redes y mensajería](/blog/es/share-pdf-online)

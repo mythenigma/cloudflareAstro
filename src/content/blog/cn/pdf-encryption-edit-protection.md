@@ -493,9 +493,3 @@ A: 验证修改码是否正确，检查文档是否已过期
 **一次加密，终生保护**
 
 </div>
-
-## 相关推荐阅读
-
-- [🔒 PDF加密防泄露，MaiPDF让分享更安心](../../cn/pdf-security-protection)
-- [📱 PDF 离线安全阅读新方案：一键生成 HTML 阅读包](../../cn/pdf-offline-html-package)
-- [🔥 如何让文件自毁：PDF文档定时销毁的终极安全解决方案](../../cn/file-self-destruction-guide)

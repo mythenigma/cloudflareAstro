@@ -148,12 +148,3 @@ Sí. Ese es uno de los puntos fuertes del enlace gestionado.
 ### ¿"Compartir seguro" significa "imposible de filtrar"?
 
 No. Significa bloquear las vías fáciles y ganar trazabilidad sobre el resto.
-
-## Artículos relacionados
-
-- [Compartir PDF en línea](/blog/es/share-pdf-online)
-- [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
-- [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
-- [Limitar visualizaciones PDF](/blog/es/limit-pdf-views-drm)
-- [Marca de agua dinámica en PDF](/blog/es/share-pdf-securely)
-- [Compartir PDF en redes y mensajería](/blog/es/share-pdf-online)

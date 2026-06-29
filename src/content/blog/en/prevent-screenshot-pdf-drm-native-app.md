@@ -157,15 +157,3 @@ Use **`.maipdf`** when contracts, courseware, unreleased designs, or internal co
 **Browser link or App DRM?** Browser link = fastest sharing, no install, good for QR codes and access tracking. App DRM = `.maipdf`, native reader, **prevent screenshot** where supported.
 
 ---
-
-## Related
-
-- [Browser PDF Viewer vs App DRM](/blog/en/browser-pdf-viewer-vs-app-drm) — choose fast links or protected `.maipdf`
-- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)
-- [Introducing MaiPDF Secure](/blog/en/secure-pdf-reader-with-screenshot-protection)
-
-<div class="cta-container">
-  <a href="https://drm.maipdf.com/" target="_blank" rel="noopener noreferrer" class="cta-button">
-    Download MaiPDF Secure
-  </a>
-</div>

@@ -104,12 +104,3 @@ showDefaultCta: true
 ## 一句话总结
 
 用链接分享设计作品集的核心，不是换个酷炫工具，是把"能不能顺利打开"和"事后还收不收得回"这两件事一次做对。到 [MaiPDF](https://maipdf.com) 上传 PDF，按求职/提案/竞标/活动四种场景挑一组合理的访问控制（次数、有效期、禁下载、水印至少挑两项），生成链接和二维码发出去。更新作品时用文件替换而不是发新链接。评审结束想收回时直接关链或改到过期——整个流程始终在你手里。
-
-## Related reading
-
-- [PDF 设置打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 作品集的次数到底设多少才合理
-- [PDF 动态水印](/blog/cn/pdf-dynamic-watermark-security-guide) —— 防转发盗图的最实用一招
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 禁下载的具体配法和边界
-- [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link) —— 从零开始的三步流程
-- [PDF 二维码生成](/blog/cn/pdf-qr-code-generation-guide) —— 面试名片、现场展示常用
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 更完整的访问控制全景

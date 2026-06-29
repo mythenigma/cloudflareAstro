@@ -119,12 +119,3 @@ showDefaultCta: true
 ## 直接回答这个页面
 
 在线分享 PDF 就是：把文件上传到 [maipdf.cn](https://maipdf.cn)（中文版）或 [maipdf.com](https://maipdf.com)（国际版），拿到链接和二维码，通过邮件/微信/线下扫码发出去，对方点开就看。比附件稳、比网盘门槛低、比直接发文件更可控。如果文件涉及时效、敏感度或需要识别查看者身份，再叠加访问控制——深入一步看《安全分享 PDF》。
-
-## Related reading
-
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 需要加访问控制时，这篇讲怎么把四层防护组合成最小够用的方案
-- [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link) —— 最短路径：从上传到拿到链接的全流程
-- [PDF 在线预览（无需下载）](/blog/cn/pdf-online-viewing-without-download) —— 为什么链接打开能直接读，不用先下载
-- [PDF 二维码生成](/blog/cn/pdf-qr-code-generation-guide) —— 线下物料/活动现场的扫码分享做法
-- [PDF 打开次数限制怎么设合理](/blog/cn/pdf-set-view-count-limit-guide) —— 发出去之后想收紧时最常用的一项
-- [MaiPDF 高效安全分享](/blog/cn/maipdf-secure-efficient-sharing) —— 一套组合方案的总览

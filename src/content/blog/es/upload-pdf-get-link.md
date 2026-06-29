@@ -170,11 +170,3 @@ Sí. Y también puedes reemplazar el archivo manteniendo la misma URL.
 ### ¿Cuál es el límite de tamaño?
 
 Hasta **100 MB** por archivo.
-
-## Artículos relacionados
-
-- [Compartir PDF en línea](/blog/es/share-pdf-online)
-- [Compartir PDF de forma segura](/blog/es/share-pdf-securely)
-- [Ver PDF en línea sin descargar](/blog/es/pdf-online-viewing-without-download)
-- [Limitar visualizaciones PDF](/blog/es/limit-pdf-views-drm)
-- [Compartir PDF en redes y mensajería](/blog/es/share-pdf-online)

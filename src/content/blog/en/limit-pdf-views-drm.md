@@ -223,21 +223,3 @@ Yes — very high caps on a public QR link eventually cross a threshold where th
 ## Short answer
 
 Estimate **audience × rereads × 1.5** before you type a number. Pair the limit with expiry by default; add download-off, dynamic watermark, or the email/phone whitelist when the document actually needs them. Remember that one mobile read burns 3–5 opens. If the limit turns out wrong, raise it in the control panel — the URL does not change. And when the document itself changes, replace the file behind the same link using the control panel (registered) or the modify-code (guest) so recipients keep the bookmark they already have.
-
-## Related reading
-
-- [PDF Access Control: Setting View Limits and Time Restrictions](/blog/en/limit-pdf-views-drm) — the configuration companion covering view limit + expiry together and how to adjust them after sharing
-- [PDF Security: Set View Limits to Prevent Unauthorized Access](/blog/en/limit-pdf-views-drm) — the security-angle companion: threat model, detection in the access log, incident response
-- [Dynamic Watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the identification layer that pairs with view limits for high-risk sends
-- [Email-Verified PDF Links](/blog/en/email-verified-pdf-links) — the "who opened it" gate when a view limit is not enough
-- [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — where the limit is set during upload
-- [PDF Link View Limit + Watermark Combo](/blog/en/pdf-link-view-limit-watermark) — the pair of controls together in one workflow
-- [MaiPDF: A Cleaner Way to Share PDFs Without Losing Control](/blog/en/maipdf-secure-efficient-sharing) — how the limit fits into the broader link-first workflow
-
-## Related MaiPDF guides
-
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
-- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
-- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
-- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

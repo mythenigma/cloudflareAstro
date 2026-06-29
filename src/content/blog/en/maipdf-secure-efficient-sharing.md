@@ -104,11 +104,3 @@ For everything in between — which is most business sharing — the link-first 
 ## Short answer
 
 Upload the PDF once, get a managed link, attach only the controls the document actually needs, share the link (or the QR tied to it), and use the access log to see what happened after. When the document changes, replace the file behind the same link — recipients keep the same URL, you keep one clean source of truth.
-
-## Related reading
-
-- [How to Upload a PDF and Generate a Secure Link](/blog/how-to-upload-a-pdf-and-generate-a-secure-link/) — the step-by-step for the upload itself.
-- [Limit PDF Views: DRM for Shared Documents](/blog/limit-pdf-views-drm/) — the view-cap control in depth.
-- [Dynamic Watermarks on PDF](/blog/dynamic-watermarks-on-pdf/) — the watermark system that discourages screenshot leaks.
-- [Email-Verified PDF Links](/blog/email-verified-pdf-links/) — the recommended control for partner and client sends.
-- [PDF Sharing with QR Code: Complete Guide](/blog/pdf-sharing-with-qr-code-complete-guide/) — the QR setup companion when the link needs to live in print.

@@ -1,93 +1,280 @@
 ---
-// RelatedPosts.astro - Display related blog posts based on tags or categories
+// RelatedPosts.astro - one canonical related-guides block per article.
+// Keep manual "Related" sections out of Markdown; this component owns the bottom block.
 import { getCollection } from 'astro:content';
 import FormattedDate from './FormattedDate.astro';
 
-const { currentPost, tags = [], limit = 3 } = Astro.props;
+const { currentPost, tags = [], limit = 4 } = Astro.props;
 
-// Get all blog posts
 const allPosts = (await getCollection('blog')).filter(
   (post) => post.data.noindex !== true,
 );
 
-// Headers by language
 const headerText = {
-  'en': 'You Might Also Like',
-  'ko': '함께 볼만한 글',
-  'ja': 'おすすめの記事',
-  'de': 'Das könnte Ihnen auch gefallen',
-  'fr': 'Vous pourriez aussi aimer',
-  'es': 'También podría interesarte',
-  'cn': '您可能还喜欢'
+  en: 'Related guides',
+  ko: '함께 볼만한 글',
+  ja: 'おすすめの記事',
+  de: 'Verwandte Leitfäden',
+  fr: 'Guides associés',
+  es: 'Guías relacionadas',
+  cn: '相关阅读',
 };
 
-// Function to score post relevance
-function scoreRelevance(post, tags) {
-  if (!post.data.title) return 0;
-  
+function normalizeId(id = '') {
+  return id.replace(/\.md$/, '');
+}
+
+function getLanguageFromPostId(id) {
+  const parts = normalizeId(id).split('/');
+  return parts.length > 0 && parts[0] ? parts[0] : 'en';
+}
+
+function textFor(post) {
+  return [
+    normalizeId(post.id),
+    post.data.title || '',
+    post.data.description || '',
+    ...(post.data.tags || []),
+  ].join(' ').toLowerCase();
+}
+
+function postSlug(post) {
+  return normalizeId(post.id).split('/').slice(1).join('/');
+}
+
+function detectCluster(text) {
+  if (/maiimg|image|photo|gallery|portfolio/.test(text)) return 'maiimg';
+  if (/screenshot|screen[- ]?capture|protected reader|\.maipdf|maipdf file|device binding|app drm|native app|revoke access|license/.test(text)) return 'appDrm';
+  if (/watermark|tracking|trace|analytics|access log|read alert/.test(text)) return 'watermark';
+  if (/view limit|open limit|expiry|expiration|disable download|view-only|forwarding|access control|revoke/.test(text)) return 'accessControl';
+  if (/pdf link|make-pdf|upload.*pdf|attachment|email|qr|qrcode|whatsapp|facebook|share pdf online/.test(text)) return 'pdfLink';
+  if (/course|student|training|workbook|exam|education|refund/.test(text)) return 'education';
+  if (/corporate|enterprise|confidential|consultant|coach|client|proposal|manual|sales deck/.test(text)) return 'enterprise';
+  return 'generalPdf';
+}
+
+const currentLanguage = getLanguageFromPostId(currentPost);
+const current = allPosts.find((post) => normalizeId(post.id) === normalizeId(currentPost));
+const currentText = current ? textFor(current) : `${currentPost} ${(tags || []).join(' ')}`.toLowerCase();
+const currentCluster = detectCluster(currentText);
+const currentSlug = normalizeId(currentPost).split('/').slice(1).join('/');
+
+const explicitRelated = {
+  'free-pdf-screenshot-protection-software': [
+    'secure-pdf-reader-with-screenshot-protection',
+    'online-pdf-sharing-vs-app-drm',
+    'what-is-a-maipdf-file',
+    'pdf-device-binding-explained',
+  ],
+  'online-pdf-sharing-vs-app-drm': [
+    'free-pdf-screenshot-protection-software',
+    'secure-pdf-reader-with-screenshot-protection',
+    'what-is-a-maipdf-file',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+  ],
+  'secure-pdf-reader-with-screenshot-protection': [
+    'free-pdf-screenshot-protection-software',
+    'what-is-a-maipdf-file',
+    'pdf-device-binding-explained',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'what-is-a-maipdf-file': [
+    'online-pdf-sharing-vs-app-drm',
+    'secure-pdf-reader-with-screenshot-protection',
+    'pdf-device-binding-explained',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+  ],
+  'pdf-device-binding-explained': [
+    'what-is-a-maipdf-file',
+    'secure-pdf-reader-with-screenshot-protection',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'how-to-revoke-access-to-a-pdf-after-sending': [
+    'pdf-device-binding-explained',
+    'what-is-a-maipdf-file',
+    'online-pdf-sharing-vs-app-drm',
+    'secure-pdf-reader-with-screenshot-protection',
+  ],
+  'make-pdf-into-a-link': [
+    'how-to-upload-a-pdf-and-generate-a-secure-link',
+    'pdf-link-control',
+    'pdf-link-sharing-modern-alternative-email-attachments',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'how-to-upload-a-pdf-and-generate-a-secure-link': [
+    'make-pdf-into-a-link',
+    'pdf-link-control',
+    'dynamic-watermarks-on-pdf',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'pdf-link-control': [
+    'make-pdf-into-a-link',
+    'how-to-upload-a-pdf-and-generate-a-secure-link',
+    'limit-pdf-views-drm',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'pdf-link-sharing-modern-alternative-email-attachments': [
+    'make-pdf-into-a-link',
+    'pdf-attachment-vs-link-email-best-practices',
+    'how-to-upload-a-pdf-and-generate-a-secure-link',
+    'share-pdf-securely',
+  ],
+  'free-online-drm-for-pdf': [
+    'online-pdf-sharing-vs-app-drm',
+    'secure-pdf-reader-with-screenshot-protection',
+    'prevent-pdf-downloads-view-only',
+    'free-pdf-screenshot-protection-software',
+  ],
+  'prevent-pdf-downloads-view-only': [
+    'pdf-share-link-disable-download',
+    'pdf-online-viewer-prevent-copy',
+    'online-pdf-sharing-vs-app-drm',
+    'secure-pdf-reader-with-screenshot-protection',
+  ],
+  'pdf-online-viewer-prevent-copy': [
+    'prevent-pdf-downloads-view-only',
+    'free-pdf-screenshot-protection-software',
+    'secure-pdf-reader-with-screenshot-protection',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'dynamic-watermarks-on-pdf': [
+    'limit-pdf-views-drm',
+    'share-pdf-securely',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  'limit-pdf-views-drm': [
+    'dynamic-watermarks-on-pdf',
+    'pdf-link-control',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+};
+
+const clusterAnchors = {
+  appDrm: [
+    'online-pdf-sharing-vs-app-drm',
+    'secure-pdf-reader-with-screenshot-protection',
+    'what-is-a-maipdf-file',
+    'pdf-device-binding-explained',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+    'free-pdf-screenshot-protection-software',
+  ],
+  pdfLink: [
+    'make-pdf-into-a-link',
+    'how-to-upload-a-pdf-and-generate-a-secure-link',
+    'pdf-link-control',
+    'pdf-link-sharing-modern-alternative-email-attachments',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  accessControl: [
+    'limit-pdf-views-drm',
+    'how-to-revoke-access-to-a-pdf-after-sending',
+    'pdf-share-link-disable-download',
+    'dynamic-watermarks-on-pdf',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  watermark: [
+    'dynamic-watermarks-on-pdf',
+    'limit-pdf-views-drm',
+    'share-pdf-securely',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  education: [
+    'pdf-drm-for-online-courses',
+    'how-to-share-paid-training-pdfs-securely',
+    'protect-exam-prep-pdfs-from-sharing',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  enterprise: [
+    'protect-confidential-pdfs-before-sending',
+    'pdf-drm-for-corporate-training-manuals',
+    'share-pdf-securely',
+    'online-pdf-sharing-vs-app-drm',
+  ],
+  generalPdf: [
+    'share-pdf-securely',
+    'online-pdf-sharing-vs-app-drm',
+    'make-pdf-into-a-link',
+    'dynamic-watermarks-on-pdf',
+  ],
+};
+
+function scorePost(post) {
+  const postText = textFor(post);
+  const slug = postSlug(post);
   let score = 0;
-  const title = post.data.title.toLowerCase();
-  
-  // Score based on matching tags/keywords
-  tags.forEach(tag => {
-    if (post.data.tags && post.data.tags.includes(tag)) {
-      score += 3; // Highest score for exact tag matches
-    } else if (title.includes(tag.toLowerCase())) {
-      score += 2; // Higher score for title matches
-    }
+
+  if (detectCluster(postText) === currentCluster) score += 18;
+  if (currentLanguage === 'en' && clusterAnchors[currentCluster]?.includes(slug)) score += 16;
+  if (currentLanguage === 'en' && clusterAnchors.generalPdf.includes(slug)) score += 4;
+
+  const postTags = (post.data.tags || []).map((tag) => tag.toLowerCase());
+  (tags || []).forEach((tag) => {
+    const normalized = String(tag).toLowerCase();
+    if (postTags.includes(normalized)) score += 6;
+    if (postText.includes(normalized)) score += 2;
   });
-  
+
+  const currentWords = currentText
+    .split(/[^a-z0-9.]+/)
+    .filter((word) => word.length > 4 && !['maipdf', 'guide', 'guides', 'pdfs', 'after', 'before', 'using'].includes(word));
+  for (const word of new Set(currentWords.slice(0, 20))) {
+    if (postText.includes(word)) score += 1;
+  }
+
+  // Prefer current MaiPDF product-definition pages over thin or unrelated legacy pages.
+  if (/online-pdf-sharing-vs-app-drm|secure-pdf-reader|free-pdf-screenshot|what-is-a-maipdf|pdf-device-binding|how-to-revoke-access/.test(slug)) score += 3;
+
   return score;
 }
 
-// Get the language from a post ID
-function getLanguageFromPostId(id) {
-  if (!id) return 'en'; // Default to English
-  const parts = id.split('/');
-  // The language should be the first part of the ID
-  return parts.length > 0 ? parts[0] : 'en';
+const sameLanguagePosts = allPosts.filter(
+  (post) => normalizeId(post.id) !== normalizeId(currentPost) && post.id.startsWith(`${currentLanguage}/`),
+);
+
+const explicitPosts = currentLanguage === 'en'
+  ? (explicitRelated[currentSlug] || [])
+      .map((slug) => sameLanguagePosts.find((post) => postSlug(post) === slug))
+      .filter(Boolean)
+  : [];
+
+const explicitIds = new Set(explicitPosts.map((post) => normalizeId(post.id)));
+
+const scoredPosts = sameLanguagePosts
+  .filter((post) => !explicitIds.has(normalizeId(post.id)))
+  .map((post) => ({ ...post, relevanceScore: scorePost(post) }))
+  .filter((post) => post.relevanceScore > 0)
+  .sort((a, b) => {
+    if (b.relevanceScore !== a.relevanceScore) return b.relevanceScore - a.relevanceScore;
+    return new Date(b.data.updatedDate || b.data.pubDate).getTime() - new Date(a.data.updatedDate || a.data.pubDate).getTime();
+  });
+
+let relatedPosts = [...explicitPosts, ...scoredPosts].slice(0, limit);
+
+// Last-resort fallback: keep the block consistent instead of showing one lonely link.
+if (relatedPosts.length < Math.min(limit, 3)) {
+  const fallback = sameLanguagePosts
+    .filter((post) => !relatedPosts.some((selected) => normalizeId(selected.id) === normalizeId(post.id)))
+    .sort((a, b) => new Date(b.data.updatedDate || b.data.pubDate).getTime() - new Date(a.data.updatedDate || a.data.pubDate).getTime());
+  relatedPosts = [...relatedPosts, ...fallback].slice(0, limit);
 }
 
-// Determine the current language
-const currentLanguage = getLanguageFromPostId(currentPost);
-
-// Filter related posts to the same language as the current post
-const relatedPosts = allPosts
-  .filter(post => {
-    return post.id !== currentPost && post.id.startsWith(currentLanguage + '/');
-  })
-  .map(post => ({
-    ...post,
-    relevanceScore: scoreRelevance(post, tags)
-  }))
-  .sort((a, b) => {
-    if (b.relevanceScore !== a.relevanceScore) {
-      return b.relevanceScore - a.relevanceScore;
-    }
-    // If same relevance, sort by date (newest first)
-    return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
-  })
-  .slice(0, limit);
-
-// Get the localized header text based on current language
-const header = headerText[currentLanguage] || headerText['en']; // Fallback to English
+const header = headerText[currentLanguage] || headerText.en;
 ---
 
 {relatedPosts.length > 0 && (
-  <div class="related-posts">
-    <h3 class="related-header">{header}</h3>
+  <div class="related-posts" aria-labelledby="related-guides-heading">
+    <h3 id="related-guides-heading" class="related-header">{header}</h3>
     <div class="related-grid">
-      {relatedPosts.map(post => (
-        <div class="related-post">
-          <div class="related-post-content">
-            <a href={`/blog/${post.id}`} class="related-title">
-              {post.data.title}
-            </a>
-            <div class="related-date">
-              <FormattedDate date={post.data.pubDate} />
-            </div>
-          </div>
-        </div>
+      {relatedPosts.map((post) => (
+        <a href={`/blog/${normalizeId(post.id)}`} class="related-post">
+          <span class="related-kicker">{post.id.split('/')[0].toUpperCase()}</span>
+          <strong class="related-title">{post.data.title}</strong>
+          {post.data.description && <p>{post.data.description}</p>}
+          <small><FormattedDate date={post.data.updatedDate || post.data.pubDate} /></small>
+        </a>
       ))}
     </div>
   </div>
@@ -97,53 +284,73 @@ const header = headerText[currentLanguage] || headerText['en']; // Fallback to E
   .related-posts {
     margin-top: 4rem;
     padding-top: 2rem;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #e2e8f0;
   }
-  
+
   .related-header {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    color: #333;
+    margin: 0 0 1.35rem;
+    color: #0f172a;
+    font-size: clamp(1.45rem, 2.2vw, 2rem);
+    font-weight: 850;
+    letter-spacing: -0.03em;
   }
-  
+
   .related-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
   }
-  
+
   .related-post {
-    background: #f8f9fa;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  
-  .related-post:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-  }
-  
-  .related-post-content {
-    padding: 1.2rem;
-  }
-  
-  .related-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #3498db;
-    text-decoration: none;
     display: block;
-    margin-bottom: 0.5rem;
-    line-height: 1.4;
+    padding: 1.15rem;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 14px 40px rgba(15, 23, 42, 0.05);
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
   }
-  
-  .related-date {
-    font-size: 0.85rem;
-    color: #666;
+
+  .related-post:hover {
+    transform: translateY(-2px);
+    border-color: #bfdbfe;
+    box-shadow: 0 18px 50px rgba(37, 99, 235, 0.1);
   }
-  
+
+  .related-kicker {
+    display: inline-block;
+    margin-bottom: 0.55rem;
+    color: #2563eb;
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+  }
+
+  .related-title {
+    display: block;
+    color: #0f172a;
+    font-size: 1.05rem;
+    line-height: 1.28;
+  }
+
+  .related-post p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0.55rem 0 0.8rem;
+    color: #475569;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .related-post small {
+    color: #64748b;
+    font-size: 0.82rem;
+  }
+
   @media (max-width: 768px) {
     .related-grid {
       grid-template-columns: 1fr;

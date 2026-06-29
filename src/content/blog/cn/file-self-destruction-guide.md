@@ -297,9 +297,3 @@ tags: ["文件自毁", "PDF安全", "数据保护", "文档加密", "MaiPDF"]
 试试MaiPDF的文件自毁功能，让数据安全从此有保障！
 
 </div>
-
-## 相关推荐阅读
-
-- [🔒 PDF加密防泄露，MaiPDF让分享更安心](../../cn/pdf-security-protection)
-- [📱 PDF 离线安全阅读新方案：一键生成 HTML 阅读包](../../cn/pdf-offline-html-package)
-- [💧 MaiPDF动态水印功能：精准追踪，让每个阅读行为可回溯](../../cn/dynamic-watermarks-on-pdf-cn)

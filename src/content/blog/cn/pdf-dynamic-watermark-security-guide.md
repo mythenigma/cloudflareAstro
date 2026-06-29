@@ -110,12 +110,3 @@ MaiPDF 的动态水印是**根据访问方式自动决定水印内容**的，不
 ## 直接回答这个页面
 
 想给 PDF 加动态水印：在 [maipdf.cn](https://maipdf.cn) 或 [maipdf.com](https://maipdf.com) 上传文件后，在文件设置里勾选动态水印开关，然后生成分享链接。对方每次打开，页面上都会自动盖上他自己的 IP 或邮箱。重点不是指望水印让文件变成金库——**它的核心价值是让每一次泄密都有具体的人对账**，配合打开次数、过期时间、手机号白名单一起用，外发链路才算真正收得住。
-
-## Related reading
-
-- [PDF 设置打开次数限制](/blog/cn/pdf-set-view-count-limit-guide) —— 水印常配的"入口框限"，先把可打开的次数收住
-- [MaiPDF 手机验证功能](/blog/cn/mobile-verification-document-security) —— CN 特有的 50 个大陆号白名单，配水印后身份链闭环
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 禁下载让对方拿不到原文件，水印负责在线访问的追溯
-- [PDF 防止转发完整指南](/blog/cn/pdf-prevent-forwarding-guide) —— 水印只是防转发组合里的一块，完整方案见这里
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 访问控制整体框架
-- [企业文档安全实践](/blog/cn/enterprise-document-security-maipdf-team) —— 水印在企业场景下的落地

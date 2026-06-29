@@ -169,20 +169,3 @@ No — watermarking is about **attribution after the fact**, not preventing extr
 
 **Does watermarking slow the viewer down?**
 The overlay is generated in milliseconds. Readers don't notice a difference.
-
-## Related reading
-
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the full upload-to-share workflow the watermark plugs into
-- [Limit how many times a PDF link is opened](/blog/en/limit-pdf-views-drm) — capping views so there are fewer watermarked copies in circulation
-- [Email-verified PDF access](/blog/en/email-verified-pdf-links) — turn anonymous stamps into named-reader stamps
-- [Share a PDF securely](/blog/en/share-pdf-securely) — the full security stack watermarks belong inside
-- [Digital watermarking technical implementation](/blog/en/digital-watermarking-technology-technical-implementation) — the deeper technical piece
-- [Watermark protection basics](/blog/en/watermark-protection-basics) — the ground-up explainer for new users
-
-## Related MaiPDF guides
-
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
-- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
-- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
-- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

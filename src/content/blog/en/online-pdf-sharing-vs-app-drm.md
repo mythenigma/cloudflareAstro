@@ -177,19 +177,3 @@ If you are not sure which one to use, start with this:
 
 - Need the reader to open the PDF immediately? Use [MaiPDF online sharing](https://maipdf.com).
 - Need screenshot-aware protection, device binding, and protected files? Use [MaiPDF App DRM](https://drm.maipdf.com).
-
-## Related guides
-
-- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
-- [What Is a .maipdf File?](/blog/en/what-is-a-maipdf-file)
-- [PDF Device Binding Explained](/blog/en/pdf-device-binding-explained)
-- [Browser PDF Viewer vs App DRM](/blog/en/browser-pdf-viewer-vs-app-drm)
-
-<div class="cta-container">
-  <a href="https://maipdf.com" target="_blank" rel="noopener noreferrer" class="cta-button">
-    Try MaiPDF Online Sharing
-  </a>
-  <a href="https://drm.maipdf.com" target="_blank" rel="noopener noreferrer" class="cta-button secondary">
-    Explore App DRM
-  </a>
-</div>

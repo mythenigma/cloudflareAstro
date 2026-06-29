@@ -147,11 +147,3 @@ Sí. Esa regla se puede ajustar más tarde.
 ### ¿Esto evita por completo las capturas?
 
 No. Para eso conviene combinarlo con marca de agua dinámica.
-
-## Artículos relacionados
-
-- [Compartir PDF de forma segura](/blog/es/share-pdf-securely)
-- [Compartir PDF en línea](/blog/es/share-pdf-online)
-- [Subir PDF y obtener enlace](/blog/es/upload-pdf-get-link)
-- [Desactivar descarga del enlace PDF](/blog/es/prevent-pdf-downloads)
-- [Evitar copia de archivos PDF](/blog/es/prevent-pdf-downloads)

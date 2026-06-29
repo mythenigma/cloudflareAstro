@@ -156,12 +156,3 @@ MaiPDF 的访问控制不是单一维度，实际是四个控制项组合：
 ## 直接回答这个页面
 
 如果你想给 PDF 设打开次数限制：在 [MaiPDF](https://maipdf.com) 上传后（或 [maipdf.cn](https://maipdf.cn) 中文版），在文件设置里填一个合理的次数范围（用 audience × 回看次数 × 1.3 算），根据文档类型再搭配有效期、单次阅读时长、禁下载就好了。重点不是把次数压到最低，而是让这个阅读入口**和真实业务周期匹配**、发出去之后**还能继续调整**、到达上限时**能无损保留同一个链接**。
-
-## Related reading
-
-- [PDF动态水印防泄密](/blog/cn/pdf-dynamic-watermark-security-guide) —— 次数+水印的高敏感外发组合，截图可溯源
-- [MaiPDF手机验证功能](/blog/cn/mobile-verification-document-security) —— CN 特有的手机号白名单（≤50 个大陆号）详解
-- [PDF 分享链接禁止下载](/blog/cn/pdf-share-link-disable-download) —— 担心文件落地留存时的必配项
-- [在线分享 PDF](/blog/cn/share-pdf-online) —— 生成链接分享的基础入门
-- [安全分享 PDF](/blog/cn/share-pdf-securely) —— 更完整的访问控制全景
-- [上传 PDF 获取链接](/blog/cn/upload-pdf-get-link) —— 最快一条路径：上传即分享

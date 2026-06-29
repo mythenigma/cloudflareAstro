@@ -598,3 +598,26 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
   - `how-to-revoke-access-to-a-pdf-after-sending`
 - Rationale: top navigation should explain the product architecture first (Online Cloud Sharing + App DRM / `.maipdf`) before pushing vertical scenario pages.
 - Ran `npm run build:fast`; build passed.
+
+
+## 2026-06-28 Blog index start-here ordering
+
+- Adjusted `/blog` page flow so `Recommended first reads` appears before topic browsing, with `id="start-here"`.
+- Updated hero quick links from `Browse topics / Latest / App DRM site` to `Start here / Browse topics / Latest articles`, reducing early outbound distraction and sending readers first to the core MaiPDF product-architecture pages.
+- Rationale: after the English knowledge-tree cleanup, readers and Google should see the canonical product explanation pages before scenario/topic lists.
+- Ran `npm run build:fast`; build passed.
+
+
+## 2026-06-28 Related guides cleanup
+
+- User flagged bottom related articles were inconsistent: some articles had one manual related block, some had two, while `BlogPost.astro` already rendered automatic related posts through `RelatedPosts.astro`.
+- Decision: one canonical related block should be owned by the template/component, not handwritten in Markdown. This avoids duplicated bottom sections and keeps design/selection consistent across the site.
+- Rewrote `src/components/RelatedPosts.astro`:
+  - Default limit is now 4 related guides.
+  - Header is standardized/localized (`Related guides`, `相关阅读`, `Guías relacionadas`, etc.).
+  - English pages use curated product clusters and explicit mappings for core pages: Online Cloud Sharing, App DRM / `.maipdf`, screenshot protection, device binding, revoke access, PDF link, access limits, watermark, education, enterprise, and Maiimg.
+  - Non-English pages still stay same-language and use relevance/fallback scoring.
+  - Cards now include title, short description, date, and consistent styling.
+- Removed handwritten Related/Related guides/You might also like/相关文章/Artículos relacionados sections from Markdown content so each article only shows one automatic related block. Restored one Chinese content section in `share-pdf-online.md` that mentioned “相关阅读” in the heading but was not itself a related-links block.
+- Verified remaining manual related-like headings in Markdown: 0.
+- Ran `npm run build:fast` twice; first run had expected Astro duplicate-id cache warnings after many Markdown edits, second run was clean except the usual Vite empty chunk warning. Final build passed.

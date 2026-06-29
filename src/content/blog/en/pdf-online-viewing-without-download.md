@@ -140,12 +140,3 @@ The screenshot works — that's a limit of every in-browser viewer. The real def
 
 **Is view-only the same as "no print"?**
 No. Download off stops saving; print off stops printing (including Print-to-PDF as a download workaround). For sensitive documents, enable **both**.
-
-## Related reading
-
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — the full upload-to-share workflow
-- [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the pairing that makes screenshots traceable
-- [Limit how many times a PDF link is opened](/blog/en/limit-pdf-views-drm) — the lifecycle layer on top of view-only
-- [Share a PDF securely](/blog/en/share-pdf-securely) — the wider decision tree across all controls
-- [Disable download on a shared PDF link](/blog/en/pdf-share-link-disable-download) — the tight walkthrough focused only on the download toggle
-- [Prevent copying in the online PDF viewer](/blog/en/pdf-online-viewing-without-download) — selection and copy-paste lockdown

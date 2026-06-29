@@ -182,18 +182,3 @@ Yes. The QR encodes the URL, and the URL doesn't change when you swap the file.
 
 **Is the share analytics-only, or can I actually block specific people?**
 Both layers exist. Telegram alerts are analytics. Email verification with a whitelist is an actual block — only the addresses you listed can open the PDF.
-
-## Related reading
-
-- [Limit how many times a PDF link is opened](/blog/en/limit-pdf-views-drm) — the view-limit calculator with the mobile 3–5× multiplier
-- [Require email verification before anyone opens your PDF](/blog/en/email-verified-pdf-links) — how the whitelist flow works end to end
-- [PDF link vs. email attachment](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — the full case for replacing attachments
-- [Dynamic watermarks on PDFs](/blog/en/dynamic-watermarks-on-pdf) — when and why to turn watermarking on
-- [Share a PDF securely](/blog/en/share-pdf-securely) — the wider decision tree across all controls
-
-## Related PDF link guides
-
-- [Make PDF Into a Link](/blog/en/make-pdf-into-a-link)
-- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
-- [PDF link control](/blog/en/pdf-link-control)
-- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
