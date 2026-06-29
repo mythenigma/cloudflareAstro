@@ -2,9 +2,9 @@
 title: "How to Prevent Students from Sharing Course PDFs"
 description: "A practical guide for teachers, coaches, and course creators who need to reduce unauthorized PDF forwarding with watermarks, access limits, device binding, and App DRM."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["prevent student PDF sharing", "course PDF DRM", "PDF watermark", "device binding", ".maipdf"]
-heroImage: "/app-screenshots/maipdf-app-license-manager.png"
+heroImage: "/app-screenshots/maipdf-app-license-management.svg"
 showDefaultCta: false
 ---
 
@@ -17,7 +17,7 @@ MaiPDF helps with two levels of protection. If you need the broader course-busin
 1. **Online Cloud Sharing** for fast controlled links, QR codes, expiry, view limits, and watermarks.
 2. **App DRM / `.maipdf`** for stronger control with device binding, revocation, and screenshot-aware protected reading.
 
-![MaiPDF license manager for student access and revocation](/app-screenshots/maipdf-app-license-manager.png)
+![MaiPDF license manager for student access and revocation](/app-screenshots/maipdf-app-license-management.svg)
 
 ## Why students share PDFs so easily
 

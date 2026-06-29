@@ -621,3 +621,40 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 - Removed handwritten Related/Related guides/You might also like/相关文章/Artículos relacionados sections from Markdown content so each article only shows one automatic related block. Restored one Chinese content section in `share-pdf-online.md` that mentioned “相关阅读” in the heading but was not itself a related-links block.
 - Verified remaining manual related-like headings in Markdown: 0.
 - Ran `npm run build:fast` twice; first run had expected Astro duplicate-id cache warnings after many Markdown edits, second run was clean except the usual Vite empty chunk warning. Final build passed.
+
+
+## 2026-06-28 free-online-drm-for-pdf mobile cleanup
+
+- User shared a mobile screenshot of `/blog/en/free-online-drm-for-pdf` showing awkward mobile rendering and confusing wording around “Totally Free & No Login Required”.
+- Rewrote `src/content/blog/en/free-online-drm-for-pdf.md` into cleaner Markdown instead of HTML-heavy custom blocks.
+- Clarified the page as “browser-based access control” rather than full App DRM: Online Cloud Sharing is no-install/no-login for ordinary browser reading; App DRM / `.maipdf` requires the MaiPDF App for protected reader, screenshot-aware controls, device binding, and revoke-after-send.
+- Removed custom benefit/use-case icon HTML that caused poor mobile layout and large image/icon behavior.
+- Updated `updatedDate` to Jun 28 2026.
+- Ran `npm run build:fast` twice; first build showed expected duplicate-id cache warning for the edited page, second build passed cleanly except the usual Vite empty chunk warning.
+
+## 2026-06-29 free-online-drm-for-pdf content correction
+
+- User clarified that the article still mixed Online Cloud Sharing screenshots/features with App DRM behavior; online replacement belongs to the online version, while the App version manages licenses and does not have a replace-file control panel flow.
+- Rewrote `src/content/blog/en/free-online-drm-for-pdf.md` again around two clearly separated paths: Online Cloud Sharing controls browser links/QR/replacement; App DRM / `.maipdf` controls protected-file licenses.
+- Added an App DRM section based on Flutter code (`dongle/lib/screens/drm_license_manage_page.dart`), covering My licenses, lookup, opens, expiry, max devices, recipients, device bindings, open events, revoke/delete/reactivate.
+- Added generated SVG asset `public/app-screenshots/maipdf-app-license-management.svg` to represent the App license-management UI instead of reusing online-control screenshots.
+- Replaced the numbered 1/2/3/4 decision area with inline number + title cards so the number and subheading appear on the same line.
+- Updated `updatedDate` to Jun 29 2026.
+- Ran Windows Node build via `cmd.exe /c "cd /d C:\\Users\\chanz\\Documents\\GitHub\\cloudflareAstro && npm run build:fast"` because the WSL npm symlink is broken; build passed. First run had expected duplicate-id cache warning for the edited page, second run was clean except usual Browserslist/empty chunk warnings.
+
+## 2026-06-29 related App DRM article consistency pass
+
+- Checked related English App DRM / `.maipdf` / Online Cloud Sharing articles for the same Online-vs-App confusion, especially replacement-file wording and license-management screenshots.
+- Updated `online-pdf-sharing-vs-app-drm.md` to explicitly say online replacement belongs to Online Cloud Sharing, while App DRM manages the license (opens, expiry, devices, recipients, open events, revocation) and new protected content should be a new `.maipdf` package.
+- Replaced older `maipdf-app-license-manager.png` references with the generated App license-management SVG in: `how-to-revoke-access-to-a-pdf-after-sending.md`, `how-to-revoke-course-pdf-access-after-refund.md`, `how-to-prevent-students-from-sharing-course-pdfs.md`, `pdf-device-binding-explained.md`, `protect-confidential-pdfs-before-sending.md`, and `sell-pdf-workbooks-without-losing-control.md`.
+- Updated touched article `updatedDate` values to Jun 29 2026 where applicable.
+- Verified no remaining English references to `maipdf-app-license-manager.png` and no obvious “App DRM replace/same-link” wording except the deliberate clarification that App DRM does not use online replacement.
+- Ran Windows Node `npm run build:fast` twice; first run had expected duplicate-id cache warnings after edits, second run passed cleanly except existing Browserslist and Vite empty chunk warnings.
+
+## 2026-06-29 how-to-open-a-maipdf-file article
+
+- Added new English article `src/content/blog/en/how-to-open-a-maipdf-file.md` for the search intent “How to Open a .maipdf File”.
+- Positioning: recipient-facing troubleshooting article explaining that `.maipdf` is opened with the MaiPDF App, not normal PDF readers; covers file picker/open-with flow, sign-in, license checks, expiry, open limits, device limit, wrong email, revoked license, and when to ask sender for help.
+- Kept Online Cloud Sharing vs App DRM separation explicit: online links open in browser and support same-link replacement; `.maipdf` / App DRM opens in the app and is governed by license rules.
+- Updated `src/components/RelatedPosts.astro` so `what-is-a-maipdf-file` links to this new guide and this new guide links back to key App DRM articles.
+- Ran Windows Node `npm run build:fast`; build passed and generated `/blog/en/how-to-open-a-maipdf-file/index.html`; only existing Browserslist/empty chunk warnings remain.

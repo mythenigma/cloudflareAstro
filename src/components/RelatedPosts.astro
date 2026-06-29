@@ -79,10 +79,16 @@ const explicitRelated = {
     'online-pdf-sharing-vs-app-drm',
   ],
   'what-is-a-maipdf-file': [
+    'how-to-open-a-maipdf-file',
     'online-pdf-sharing-vs-app-drm',
     'secure-pdf-reader-with-screenshot-protection',
     'pdf-device-binding-explained',
+  ],
+  'how-to-open-a-maipdf-file': [
+    'what-is-a-maipdf-file',
+    'pdf-device-binding-explained',
     'how-to-revoke-access-to-a-pdf-after-sending',
+    'online-pdf-sharing-vs-app-drm',
   ],
   'pdf-device-binding-explained': [
     'what-is-a-maipdf-file',
@@ -225,7 +231,7 @@ function scorePost(post) {
   }
 
   // Prefer current MaiPDF product-definition pages over thin or unrelated legacy pages.
-  if (/online-pdf-sharing-vs-app-drm|secure-pdf-reader|free-pdf-screenshot|what-is-a-maipdf|pdf-device-binding|how-to-revoke-access/.test(slug)) score += 3;
+  if (/online-pdf-sharing-vs-app-drm|secure-pdf-reader|free-pdf-screenshot|what-is-a-maipdf|how-to-open-a-maipdf|pdf-device-binding|how-to-revoke-access/.test(slug)) score += 3;
 
   return score;
 }

@@ -2,14 +2,14 @@
 title: "PDF Device Binding Explained: How App DRM Controls Reader Access"
 description: "A practical explanation of PDF device binding, why browser links cannot enforce it strongly, and how MaiPDF App DRM uses approved devices to reduce document forwarding risk."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["device binding", "PDF DRM", ".maipdf", "access control", "MaiPDF App"]
 showDefaultCta: false
 ---
 
 **PDF device binding** means a protected document can only be opened on approved devices, not just by anyone who receives a copy of the file or link.
 
-![MaiPDF App license manager and device access screen](/app-screenshots/maipdf-app-license-manager.png)
+![MaiPDF App license manager and device access screen](/app-screenshots/maipdf-app-license-management.svg)
 
 For sensitive PDFs, this matters because forwarding is the default behavior of ordinary files. A recipient can forward an email, upload a file to a chat group, or copy it to another laptop. Device binding changes the question from “Who has the file?” to “Is this device allowed to open it?”
 

@@ -2,9 +2,9 @@
 title: "How to Protect a Confidential PDF Before Sending It to Clients"
 description: "A practical checklist for sending confidential PDFs to clients with controlled links, watermarks, expiry, revocation, device binding, and App DRM when needed."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["confidential PDF", "client document security", "PDF access control", "App DRM", "secure PDF sharing"]
-heroImage: "/app-screenshots/maipdf-app-license-manager.png"
+heroImage: "/app-screenshots/maipdf-app-license-management.svg"
 showDefaultCta: false
 ---
 
@@ -19,7 +19,7 @@ MaiPDF supports two ways to send confidential PDFs with more control:
 1. **Online Cloud Sharing** — a managed browser link or QR code with expiry, view limits, watermarks, and access records.
 2. **App DRM / `.maipdf`** — a protected file opened inside the MaiPDF App with device binding, revocation, and screenshot-aware reading.
 
-![MaiPDF license manager for confidential PDF access](/app-screenshots/maipdf-app-license-manager.png)
+![MaiPDF license manager for confidential PDF access](/app-screenshots/maipdf-app-license-management.svg)
 
 ## The risk of sending the raw PDF
 

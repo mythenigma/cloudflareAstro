@@ -2,7 +2,7 @@
 title: "Online PDF Sharing vs App DRM: Which One Should You Use?"
 description: "Compare MaiPDF Online Cloud Sharing with MaiPDF App DRM. Learn when to use fast PDF links and QR codes, and when to use .maipdf files for screenshot protection, device binding, and revocation."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["online PDF sharing", "App DRM", ".maipdf", "PDF security", "MaiPDF"]
 heroImage: "/app-screenshots/maipdf-app-overview-en.png"
 showDefaultCta: false
@@ -65,7 +65,9 @@ Online Cloud Sharing can still provide strong practical controls:
 - access records
 - read tracking
 - QR code sharing
-- easy link replacement or management
+- easy online-link replacement or management
+
+That replacement point belongs to **Online Cloud Sharing**: the shared object is a browser link, so you can update the online document behind that link. It should not be described as an App DRM license-management feature.
 
 This is a major upgrade from sending raw PDF attachments, because the owner keeps some control after the link is shared.
 
@@ -102,6 +104,10 @@ This makes stronger controls possible:
 - screenshot-aware reading controls
 - traceable watermarks
 - license rules such as expiry or open limits
+
+![MaiPDF App DRM license management screen](/app-screenshots/maipdf-app-license-management.svg)
+
+In this path, the management object is the **license**, not an online link. You manage opens, expiry, device slots, recipients, open events, and revocation. If the protected PDF content itself needs a new version, create and share a new `.maipdf` package instead of using the online replacement flow.
 
 App DRM is best when the document is valuable enough to justify the reader installing an app.
 

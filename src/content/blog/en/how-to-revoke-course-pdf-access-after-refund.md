@@ -2,9 +2,9 @@
 title: "How to Revoke Course PDF Access After a Refund"
 description: "Learn how course creators can handle refunds and chargebacks by revoking controlled PDF access instead of losing control over downloaded files."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["revoke course PDF access", "PDF refund access", "App DRM", "PDF license revocation", ".maipdf"]
-heroImage: "/app-screenshots/maipdf-app-license-manager.png"
+heroImage: "/app-screenshots/maipdf-app-license-management.svg"
 showDefaultCta: false
 ---
 
@@ -18,7 +18,7 @@ A controlled PDF workflow solves a different problem:
 
 MaiPDF supports this through Online Cloud Sharing and App DRM / `.maipdf` protected files.
 
-![MaiPDF license manager for revoking course PDF access](/app-screenshots/maipdf-app-license-manager.png)
+![MaiPDF license manager for revoking course PDF access](/app-screenshots/maipdf-app-license-management.svg)
 
 ## Why refunds are hard with normal PDFs
 

@@ -2,9 +2,9 @@
 title: "How to Revoke Access to a PDF After Sending"
 description: "Learn how PDF access revocation works after a document has already been shared. Compare MaiPDF online links with App DRM and .maipdf protected files."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["revoke PDF access", "PDF access control", "App DRM", ".maipdf", "secure PDF sharing"]
-heroImage: "/app-screenshots/maipdf-app-license-manager.png"
+heroImage: "/app-screenshots/maipdf-app-license-management.svg"
 showDefaultCta: false
 ---
 
@@ -12,7 +12,7 @@ Sending a normal PDF is usually a one-way action. Once the file is attached to a
 
 A controlled PDF workflow changes that. With MaiPDF, you can choose between **Online Cloud Sharing** and **App DRM / `.maipdf`** depending on how strongly you need to control access after the document has already been sent.
 
-![MaiPDF license manager for access control and revocation](/app-screenshots/maipdf-app-license-manager.png)
+![MaiPDF license manager for access control and revocation](/app-screenshots/maipdf-app-license-management.svg)
 
 The key idea is simple:
 

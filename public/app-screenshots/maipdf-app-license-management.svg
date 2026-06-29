@@ -1,0 +1,106 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MaiPDF App DRM license management screen</title>
+  <desc id="desc">A generated product screenshot based on the MaiPDF Flutter app Licenses page, showing license status, opens, device bindings, open events, and revoke controls.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#F1ECFB"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title{font:800 34px Inter,Arial,sans-serif;fill:#0F172A}.sub{font:500 17px Inter,Arial,sans-serif;fill:#64748B}.label{font:800 15px Inter,Arial,sans-serif;fill:#0F172A}.muted{font:600 13px Inter,Arial,sans-serif;fill:#64748B}.tiny{font:700 11px Inter,Arial,sans-serif;fill:#64748B}.pill{font:800 12px Inter,Arial,sans-serif}.btn{font:800 13px Inter,Arial,sans-serif}.phoneText{font:800 14px Inter,Arial,sans-serif;fill:#0F172A}.phoneMuted{font:600 12px Inter,Arial,sans-serif;fill:#64748B}.num{font:900 18px Inter,Arial,sans-serif;fill:#7C3AED}
+    </style>
+  </defs>
+  <rect width="1200" height="820" rx="42" fill="url(#bg)"/>
+  <g transform="translate(72 70)">
+    <text class="title" x="0" y="0">App DRM: manage the license, not the web link</text>
+    <text class="sub" x="0" y="36">The MaiPDF App creates a protected .maipdf file and gives you license controls for opens, devices, recipients, expiry, and revocation.</text>
+  </g>
+
+  <g transform="translate(92 150)">
+    <rect width="410" height="560" rx="34" fill="#111827" filter="url(#shadow)"/>
+    <rect x="15" y="16" width="380" height="528" rx="27" fill="#F4F6F9"/>
+    <rect x="145" y="30" width="120" height="6" rx="3" fill="#D7DCE5"/>
+    <g transform="translate(35 56)">
+      <text class="phoneText" x="0" y="0">Licenses</text>
+      <text class="phoneMuted" x="0" y="26">Check status, manage opens, devices, expiry, and revoke access.</text>
+    </g>
+
+    <g transform="translate(35 102)">
+      <rect width="340" height="78" rx="16" fill="#FFFFFF" stroke="#E7EBF0"/>
+      <circle cx="38" cy="39" r="20" fill="#F1ECFB"/>
+      <text class="pill" x="24" y="44" fill="#6D28D9">PDF</text>
+      <text class="phoneText" x="70" y="31">proposal.maipdf</text>
+      <rect x="70" y="44" width="150" height="6" rx="3" fill="#E8EEF5"/>
+      <rect x="70" y="44" width="92" height="6" rx="3" fill="#7C3AED"/>
+      <text class="phoneMuted" x="70" y="64">active · 3/10 opens · 7 days</text>
+      <rect x="255" y="24" width="64" height="32" rx="10" fill="#7C3AED"/>
+      <text class="btn" x="268" y="45" fill="#FFFFFF">Manage</text>
+    </g>
+
+    <g transform="translate(35 194)">
+      <rect width="340" height="150" rx="16" fill="#FFFFFF" stroke="#E7EBF0"/>
+      <text class="phoneText" x="16" y="27">Client Proposal Q3.pdf</text>
+      <rect x="259" y="12" width="60" height="26" rx="13" fill="#ECFDF5"/>
+      <text class="pill" x="274" y="30" fill="#1A9E5C">active</text>
+      <rect x="16" y="48" width="308" height="50" rx="14" fill="#F7FAFE" stroke="#DCE5F3"/>
+      <text class="phoneMuted" x="30" y="70">Opens</text>
+      <text class="phoneText" x="250" y="70">7 left</text>
+      <rect x="30" y="82" width="260" height="7" rx="3.5" fill="#E3ECF6"/>
+      <rect x="30" y="82" width="92" height="7" rx="3.5" fill="#7C3AED"/>
+      <text class="tiny" x="30" y="113">Max devices: 2</text>
+      <text class="tiny" x="175" y="113">Expires: 2026-07-06</text>
+      <rect x="16" y="118" width="308" height="1" fill="#EEF2F7"/>
+      <text class="tiny" x="30" y="139">Copy license ID</text>
+    </g>
+
+    <g transform="translate(35 358)">
+      <rect width="340" height="92" rx="16" fill="#FFFFFF" stroke="#E7EBF0"/>
+      <text class="phoneText" x="16" y="28">Device bindings</text>
+      <text class="phoneMuted" x="16" y="50">Anyone with the file can open · 1 / 2 used</text>
+      <rect x="16" y="61" width="308" height="22" rx="11" fill="#F7FAFE" stroke="#DCE5F3"/>
+      <text class="tiny" x="30" y="76">iPhone 15 · MPD-4F92C1… · last seen today</text>
+    </g>
+
+    <g transform="translate(35 464)">
+      <rect width="340" height="62" rx="16" fill="#FFFFFF" stroke="#E7EBF0"/>
+      <text class="phoneText" x="16" y="26">Open events</text>
+      <text class="phoneMuted" x="16" y="46">14 events · who opened, when, on which device</text>
+    </g>
+
+    <g transform="translate(35 540)">
+      <rect width="340" height="1" fill="#E7EBF0"/>
+      <g transform="translate(12 13)"><circle cx="18" cy="8" r="8" fill="#7C3AED"/><text class="tiny" x="0" y="32" fill="#7C3AED">Home</text></g>
+      <g transform="translate(102 13)"><circle cx="18" cy="8" r="8" fill="#94A3B8"/><text class="tiny" x="0" y="32">Files</text></g>
+      <g transform="translate(194 13)"><circle cx="18" cy="8" r="8" fill="#7C3AED"/><text class="tiny" x="-10" y="32" fill="#7C3AED">Licenses</text></g>
+      <g transform="translate(296 13)"><circle cx="18" cy="8" r="8" fill="#94A3B8"/><text class="tiny" x="4" y="32">Me</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(560 165)">
+    <rect width="535" height="106" rx="24" fill="#FFFFFF" stroke="#E7EBF0" filter="url(#shadow)"/>
+    <circle cx="48" cy="53" r="24" fill="#F1ECFB"/><text class="num" x="42" y="60">1</text>
+    <text class="label" x="88" y="42">Create a protected .maipdf package</text>
+    <text class="muted" x="88" y="66">The app encrypts and packages the original PDF locally, then creates a license on drm.maipdf.com.</text>
+  </g>
+  <g transform="translate(560 295)">
+    <rect width="535" height="106" rx="24" fill="#FFFFFF" stroke="#E7EBF0" filter="url(#shadow)"/>
+    <circle cx="48" cy="53" r="24" fill="#F1ECFB"/><text class="num" x="42" y="60">2</text>
+    <text class="label" x="88" y="42">Share the protected file itself</text>
+    <text class="muted" x="88" y="66">Readers open the .maipdf in the MaiPDF App. Forwarding the file does not bypass the license check.</text>
+  </g>
+  <g transform="translate(560 425)">
+    <rect width="535" height="106" rx="24" fill="#FFFFFF" stroke="#E7EBF0" filter="url(#shadow)"/>
+    <circle cx="48" cy="53" r="24" fill="#F1ECFB"/><text class="num" x="42" y="60">3</text>
+    <text class="label" x="88" y="42">Manage license rules</text>
+    <text class="muted" x="88" y="66">Adjust opens, expiry, device slots, invite-only recipients, and review open events.</text>
+  </g>
+  <g transform="translate(560 555)">
+    <rect width="535" height="106" rx="24" fill="#FFFFFF" stroke="#E7EBF0" filter="url(#shadow)"/>
+    <circle cx="48" cy="53" r="24" fill="#F1ECFB"/><text class="num" x="42" y="60">4</text>
+    <text class="label" x="88" y="42">Revoke or reactivate access</text>
+    <text class="muted" x="88" y="66">There is no “replace file behind the link” flow here; control is done through the license.</text>
+  </g>
+</svg>

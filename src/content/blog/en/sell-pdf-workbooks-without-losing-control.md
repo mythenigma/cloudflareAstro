@@ -2,9 +2,9 @@
 title: "How to Sell PDF Workbooks Without Losing Control"
 description: "A practical guide for creators selling PDF workbooks, templates, and coaching materials with controlled access, watermarks, device binding, revocation, and App DRM."
 pubDate: "Jun 27 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Jun 29 2026"
 tags: ["sell PDF workbooks", "PDF workbook DRM", "App DRM", ".maipdf", "creator PDF security"]
-heroImage: "/app-screenshots/maipdf-app-license-manager.png"
+heroImage: "/app-screenshots/maipdf-app-license-management.svg"
 showDefaultCta: false
 ---
 
@@ -19,7 +19,7 @@ MaiPDF gives creators two delivery paths:
 1. **Online Cloud Sharing** for fast controlled browser links, QR codes, expiry, view limits, and watermarks.
 2. **App DRM / `.maipdf`** for stronger workbook protection with device binding, revocation, and screenshot-aware protected reading.
 
-![MaiPDF license manager for workbook access control](/app-screenshots/maipdf-app-license-manager.png)
+![MaiPDF license manager for workbook access control](/app-screenshots/maipdf-app-license-management.svg)
 
 ## Why normal PDF delivery loses control
 
