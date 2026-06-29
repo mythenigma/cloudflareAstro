@@ -19,6 +19,8 @@ Both are useful. They are not competitors so much as two different security leve
 
 Use **Online Cloud Sharing** when access should be fast and easy. Use **App DRM** when screenshots, device binding, and post-distribution control matter more than one-click convenience.
 
+![MaiPDF two-path decision map: Online Cloud Sharing vs App DRM](/app-screenshots/maipdf-two-paths-decision-map.svg)
+
 ## Quick decision table
 
 | Situation | Better choice |
@@ -102,6 +104,14 @@ This makes stronger controls possible:
 - license rules such as expiry or open limits
 
 App DRM is best when the document is valuable enough to justify the reader installing an app.
+
+![MaiPDF App DRM workflow for protected .maipdf files](/app-screenshots/maipdf-app-drm-workflow.svg)
+
+## What about the older HTML package workflow?
+
+MaiPDF still has legacy HTML-package behavior for users who already rely on it, but it should not be the main security message for new readers. A browser or HTML-based package is useful for access convenience, yet it does not provide the same security level as a protected native reader.
+
+For new high-value documents, the cleaner recommendation is simple: use Online Cloud Sharing for fast browser access, and use App DRM / `.maipdf` when the file needs stronger protection.
 
 ## Examples: which path should you choose?
 

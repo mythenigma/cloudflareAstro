@@ -190,3 +190,10 @@ Both layers exist. Telegram alerts are analytics. Email verification with a whit
 - [PDF link vs. email attachment](/blog/en/pdf-link-sharing-modern-alternative-email-attachments) — the full case for replacing attachments
 - [Dynamic watermarks on PDFs](/blog/en/dynamic-watermarks-on-pdf) — when and why to turn watermarking on
 - [Share a PDF securely](/blog/en/share-pdf-securely) — the wider decision tree across all controls
+
+## Related PDF link guides
+
+- [Make PDF Into a Link](/blog/en/make-pdf-into-a-link)
+- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
+- [PDF link control](/blog/en/pdf-link-control)
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)

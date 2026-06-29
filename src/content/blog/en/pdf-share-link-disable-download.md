@@ -17,6 +17,16 @@ showDefaultCta: true
   <p>When you send a PDF as an email attachment, the recipient saves a local copy the moment they open it. That copy is outside your control forever. A view-only link works differently — the reader sees every page in the browser, but there's no download button and no local file is saved.</p>
 </div>
 
+
+## Where this guide fits in MaiPDF's two-path model
+
+MaiPDF now has two main protection paths, and this guide should be read inside that structure:
+
+- **Online Cloud Sharing** is the fast path: upload a PDF, generate a link or QR code, control download behavior, set expiry or view limits, add watermarks, and track opens in the browser.
+- **App DRM / `.maipdf`** is the stricter path: package the PDF for the MaiPDF App protected reader when you need screenshot-aware controls, device binding, license checks, and revoke-after-send workflows.
+
+If you are not sure which path fits your file, start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm). If screenshots or protected-reader behavior are the main concern, read [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection) and [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software).
+
 ## How to create a view-only link in MaiPDF
 
 1. Upload your PDF at [maipdf.com](https://maipdf.com).
@@ -73,3 +83,11 @@ Already sent the link? Go to [Control Center](https://www.maipdf.com/6/control-c
 - [MaiPDF Print Restriction Settings Guide](/blog/en/maipdf-print-restriction-guide) — disabling print alongside download
 - [PDF Online Viewer Prevent Copy](/blog/en/pdf-online-viewing-without-download) — copy prevention in the viewer
 - [Control PDF Access: Enable or Disable Downloads](/blog/en/limit-pdf-views-drm) — when to allow vs block
+
+## Related MaiPDF guides
+
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
+- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
+- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

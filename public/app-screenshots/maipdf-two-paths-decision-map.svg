@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">MaiPDF two protection paths: Online Cloud Sharing and App DRM</title>
+  <desc id="desc">Decision map showing when to use Online Cloud Sharing and when to use App DRM with protected .maipdf files.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .font{font-family:Inter,Segoe UI,Arial,sans-serif}.title{font-size:44px;font-weight:800;fill:#0F172A}.sub{font-size:21px;fill:#475569}.cardTitle{font-size:30px;font-weight:800;fill:#fff}.cardSub{font-size:18px;fill:#EDE9FE}.label{font-size:22px;font-weight:750;fill:#0F172A}.body{font-size:20px;fill:#334155}.small{font-size:17px;fill:#64748B}.pill{font-size:17px;font-weight:700;fill:#fff}.warn{font-size:18px;fill:#7C2D12}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="640" y="70" text-anchor="middle" class="font title">MaiPDF has two protection paths</text>
+  <text x="640" y="108" text-anchor="middle" class="font sub">Choose speed and browser access for everyday sharing; choose App DRM for stronger control after distribution.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="155" width="520" height="445" rx="34" fill="#fff"/>
+    <rect x="80" y="155" width="520" height="118" rx="34" fill="url(#blue)"/>
+    <text x="340" y="208" text-anchor="middle" class="font cardTitle">Online Cloud Sharing</text>
+    <text x="340" y="244" text-anchor="middle" class="font cardSub">PDF link · QR code · browser viewer</text>
+    <text x="122" y="322" class="font label">Best when readers need:</text>
+    <text x="122" y="365" class="font body">✓ instant access without installing an app</text>
+    <text x="122" y="405" class="font body">✓ shareable links, QR codes, email, chat</text>
+    <text x="122" y="445" class="font body">✓ view limits, expiry, watermark, records</text>
+    <text x="122" y="485" class="font body">✓ low-friction client or public viewing</text>
+    <rect x="122" y="530" width="410" height="40" rx="20" fill="#DBEAFE"/>
+    <text x="327" y="556" text-anchor="middle" class="font small">Convenient control, not true OS screenshot blocking</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="680" y="155" width="520" height="445" rx="34" fill="#fff"/>
+    <rect x="680" y="155" width="520" height="118" rx="34" fill="url(#purple)"/>
+    <text x="940" y="208" text-anchor="middle" class="font cardTitle">App DRM / .maipdf</text>
+    <text x="940" y="244" text-anchor="middle" class="font cardSub">protected file · license · secure reader</text>
+    <text x="722" y="322" class="font label">Best when owners need:</text>
+    <text x="722" y="365" class="font body">✓ protected reader for sensitive PDFs</text>
+    <text x="722" y="405" class="font body">✓ device binding and license checks</text>
+    <text x="722" y="445" class="font body">✓ revoke or expire access after sending</text>
+    <text x="722" y="485" class="font body">✓ screenshot-aware controls where supported</text>
+    <rect x="722" y="530" width="410" height="40" rx="20" fill="#EDE9FE"/>
+    <text x="927" y="556" text-anchor="middle" class="font small">Stronger control, with the tradeoff of app installation</text>
+  </g>
+
+  <g>
+    <path d="M610 378 C630 350 650 350 670 378" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="640" cy="378" r="30" fill="#fff" stroke="#CBD5E1" stroke-width="3"/>
+    <text x="640" y="386" text-anchor="middle" class="font" font-size="24" font-weight="800" fill="#475569">vs</text>
+  </g>
+
+  <text x="640" y="655" text-anchor="middle" class="font warn">Honest boundary: no software can stop a second phone or external camera pointed at the screen.</text>
+</svg>

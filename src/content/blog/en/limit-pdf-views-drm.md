@@ -19,6 +19,16 @@ showDefaultCta: true
 
 ![Open limits pay for themselves when the number tracks the real review cycle of the document](/maipdf2026/show_off/openlimit.png)
 
+
+## Where this guide fits in MaiPDF's two-path model
+
+MaiPDF now has two main protection paths, and this guide should be read inside that structure:
+
+- **Online Cloud Sharing** is the fast path: upload a PDF, generate a link or QR code, control download behavior, set expiry or view limits, add watermarks, and track opens in the browser.
+- **App DRM / `.maipdf`** is the stricter path: package the PDF for the MaiPDF App protected reader when you need screenshot-aware controls, device binding, license checks, and revoke-after-send workflows.
+
+If you are not sure which path fits your file, start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm). If screenshots or protected-reader behavior are the main concern, read [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection) and [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software).
+
 ## Quick navigation
 
 - [Why view limits matter](#why-view-limits-matter) — most leaks are not hacks; they are links that lived too long
@@ -223,3 +233,11 @@ Estimate **audience × rereads × 1.5** before you type a number. Pair the limit
 - [How to Upload a PDF and Generate a Secure Link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link) — where the limit is set during upload
 - [PDF Link View Limit + Watermark Combo](/blog/en/pdf-link-view-limit-watermark) — the pair of controls together in one workflow
 - [MaiPDF: A Cleaner Way to Share PDFs Without Losing Control](/blog/en/maipdf-secure-efficient-sharing) — how the limit fits into the broader link-first workflow
+
+## Related MaiPDF guides
+
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
+- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
+- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

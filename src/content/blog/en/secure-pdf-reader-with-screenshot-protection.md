@@ -47,6 +47,8 @@ But the browser is not in full control of the operating system. It cannot reliab
 
 That is why browser sharing should be described honestly: it can reduce download and forwarding risk, but it is not the same as app-level screenshot protection.
 
+![MaiPDF two-path decision map: browser sharing vs protected reader](/app-screenshots/maipdf-two-paths-decision-map.svg)
+
 ## How App DRM changes the model
 
 App DRM moves the reading experience from a generic browser into a dedicated protected reader.
@@ -56,6 +58,8 @@ In the MaiPDF workflow, the owner protects the PDF as a **`.maipdf` file**. The 
 ![MaiPDF App DRM pack result](/app-screenshots/maipdf-app-drm-pack-result-en.png)
 
 This enables a stronger security model:
+
+![MaiPDF App DRM workflow for protected PDF files](/app-screenshots/maipdf-app-drm-workflow.svg)
 
 | Control | Browser sharing | Secure PDF reader / App DRM |
 |---|---|---|

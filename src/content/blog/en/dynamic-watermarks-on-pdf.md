@@ -18,6 +18,16 @@ A static watermark says "this is my document." A **dynamic watermark** says "**y
 
 ![A MaiPDF page with the viewer's session fingerprint stamped at the bottom](/maipdf2026/dynamic_water_mark_example.jpg)
 
+
+## Where this guide fits in MaiPDF's two-path model
+
+MaiPDF now has two main protection paths, and this guide should be read inside that structure:
+
+- **Online Cloud Sharing** is the fast path: upload a PDF, generate a link or QR code, control download behavior, set expiry or view limits, add watermarks, and track opens in the browser.
+- **App DRM / `.maipdf`** is the stricter path: package the PDF for the MaiPDF App protected reader when you need screenshot-aware controls, device binding, license checks, and revoke-after-send workflows.
+
+If you are not sure which path fits your file, start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm). If screenshots or protected-reader behavior are the main concern, read [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection) and [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software).
+
 ## Quick navigation
 
 - [What dynamic watermarking is (in 30 seconds)](#what-dynamic-watermarking-is-in-30-seconds)
@@ -168,3 +178,11 @@ The overlay is generated in milliseconds. Readers don't notice a difference.
 - [Share a PDF securely](/blog/en/share-pdf-securely) — the full security stack watermarks belong inside
 - [Digital watermarking technical implementation](/blog/en/digital-watermarking-technology-technical-implementation) — the deeper technical piece
 - [Watermark protection basics](/blog/en/watermark-protection-basics) — the ground-up explainer for new users
+
+## Related MaiPDF guides
+
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
+- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
+- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

@@ -547,3 +547,54 @@ curl.exe -sI https://article.maipdf.com/blog/ja/share-pdf-online                
 - 因此清理 `blog-legacy-redirects.mjs`：移除 `/blog/en/*`、`/blog/cn/*`、`/blog/es/*` 文章级旧 URL redirect 共 289 条。
 - 当前策略：被删除的文章 URL 直接 404；仅保留非语言路径的少量历史 redirect。
 - 同步检查站内内容，避免站内继续链接到已删除文章 URL。
+
+
+## 2026-06-28 English App DRM structure pass
+
+- User clarified: do not touch Maiimg for now; continue improving English MaiPDF article structure.
+- Confirmed product framing: two main paths should be Online Cloud Sharing and App DRM / `.maipdf`; legacy HTML/package behavior can remain for existing users but should not be promoted as a main blog narrative.
+- Audited English content: 130 English articles; no remaining `html package` / `PDF-to-HTML` / `locked HTML` / `offline HTML` wording detected in English markdown; Maiimg-related English articles intentionally left untouched in this pass.
+- Added two reusable SVG explanatory graphics under `public/app-screenshots/`:
+  - `maipdf-two-paths-decision-map.svg`
+  - `maipdf-app-drm-workflow.svg`
+- Updated core English App/DRM articles with clearer two-path explanation and visuals:
+  - `src/content/blog/en/online-pdf-sharing-vs-app-drm.md`
+  - `src/content/blog/en/free-pdf-screenshot-protection-software.md`
+  - `src/content/blog/en/secure-pdf-reader-with-screenshot-protection.md`
+- Added a concise legacy HTML note only inside the comparison article, positioning it as a supported legacy/convenience path, not the main security story.
+- Verified with `npm run build:fast` twice via Windows npm; final build passed.
+
+
+## 2026-06-28 English knowledge-tree internal linking pass
+
+- User approved the proposed English knowledge-tree direction: strengthen core pages, do not touch Maiimg yet, and avoid adding images to low-value pages.
+- Core App DRM pages updated:
+  - `src/content/blog/en/what-is-a-maipdf-file.md`: added App DRM workflow SVG and related links to the core App/DRM cluster.
+  - `src/content/blog/en/pdf-device-binding-explained.md`: added App DRM workflow SVG and related links to `.maipdf`, screenshot reader, revoke access, and App DRM overview pages.
+- Reworked 8 older English PDF security pages so they explicitly explain MaiPDF's two-path model: Online Cloud Sharing for fast browser links/QR/expiry/watermark/access records, App DRM / `.maipdf` for protected reader, screenshot-aware controls, device binding, license checks, and revoke-after-send.
+  - `share-pdf-securely.md`
+  - `prevent-pdf-downloads-view-only.md`
+  - `pdf-online-viewer-prevent-copy.md`
+  - `pdf-prevent-forwarding-guide.md`
+  - `free-online-drm-for-pdf.md`
+  - `pdf-share-link-disable-download.md`
+  - `limit-pdf-views-drm.md`
+  - `dynamic-watermarks-on-pdf.md`
+- Updated `free-online-drm-for-pdf.md` frontmatter to avoid misleading “No Software Needed” positioning; new framing is browser controls vs App DRM.
+- Organized PDF-link cluster without deleting Maiimg or link-intent pages: kept `make-pdf-into-a-link` as the simple-intent page, improved related links across upload/link/control/email pages, and repositioned `generate-pdf-links-that-work-on-any-device` as a cross-device checklist rather than a standalone generic page.
+- Verified there are 0 broken `/blog/en/...` internal links in markdown content.
+- Ran `npm run build:fast` twice via Windows npm; first run had expected Astro duplicate-id cache warnings after content edits, second run was clean except the usual Vite empty chunk warning. Final build passed.
+
+
+## 2026-06-28 Homepage/blog featured page alignment
+
+- Reviewed `src/pages/index.astro` and `src/pages/blog/index.astro` after English knowledge-tree cleanup.
+- Updated featured article slots on both home and blog index away from scenario articles and toward core product-definition pages:
+  - `free-pdf-screenshot-protection-software`
+  - `online-pdf-sharing-vs-app-drm`
+  - `secure-pdf-reader-with-screenshot-protection`
+  - `what-is-a-maipdf-file`
+  - `pdf-device-binding-explained`
+  - `how-to-revoke-access-to-a-pdf-after-sending`
+- Rationale: top navigation should explain the product architecture first (Online Cloud Sharing + App DRM / `.maipdf`) before pushing vertical scenario pages.
+- Ran `npm run build:fast`; build passed.

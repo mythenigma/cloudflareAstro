@@ -42,6 +42,9 @@ But a browser page has limited authority over the device itself. It cannot relia
 
 That is why device binding belongs in the **App DRM** layer, not the ordinary web-link layer.
 
+
+![MaiPDF App DRM workflow for device-bound protected PDFs](/app-screenshots/maipdf-app-drm-workflow.svg)
+
 ## Device binding vs password protection
 
 | Method | What it controls | Weakness |
@@ -126,3 +129,11 @@ It does help with the most common operational problem: the PDF being forwarded, 
 Use [MaiPDF online sharing](https://maipdf.com) when you want a fast link, QR code, watermark, expiry, and view limits without installation.
 
 Use [MaiPDF App DRM](https://drm.maipdf.com) when you need `.maipdf` files, device binding, screenshot-aware reading, and the ability to revoke access after the file has been distributed.
+
+## Related guides
+
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)
+- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
+- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [Prevent screenshot on PDFs with MaiPDF App DRM](/blog/en/prevent-screenshot-pdf-drm-native-app)

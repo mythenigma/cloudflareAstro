@@ -99,3 +99,10 @@ Attached supersedes the previous version; use a **new filename** each time so th
 - [Share PDFs as Links, Not Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)
 - [Email PDF Links Instead of Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)
 - [PDF Link Sharing: A Modern Alternative to Email Attachments](/blog/en/pdf-link-sharing-modern-alternative-email-attachments)
+
+## Related PDF link guides
+
+- [Make PDF Into a Link](/blog/en/make-pdf-into-a-link)
+- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
+- [PDF link control](/blog/en/pdf-link-control)
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)

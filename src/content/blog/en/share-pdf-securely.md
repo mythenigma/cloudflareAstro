@@ -18,6 +18,16 @@ Secure PDF sharing isn't a single setting — it's a **stack**. Six controls, ea
 
 ![Secure = the lightest stack that still closes the doors that matter for this document](/maipdf2026/show_off/securityshowoff.png)
 
+
+## Where this guide fits in MaiPDF's two-path model
+
+MaiPDF now has two main protection paths, and this guide should be read inside that structure:
+
+- **Online Cloud Sharing** is the fast path: upload a PDF, generate a link or QR code, control download behavior, set expiry or view limits, add watermarks, and track opens in the browser.
+- **App DRM / `.maipdf`** is the stricter path: package the PDF for the MaiPDF App protected reader when you need screenshot-aware controls, device binding, license checks, and revoke-after-send workflows.
+
+If you are not sure which path fits your file, start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm). If screenshots or protected-reader behavior are the main concern, read [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection) and [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software).
+
 ## Quick navigation
 
 - [The six real controls (and what each one stops)](#the-six-real-controls-and-what-each-one-stops)
@@ -192,3 +202,11 @@ Yes — that's the intended pattern. Generate one link per audience, each with i
 - [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — Level 4 (watermark) in depth
 - [Email-verified PDF access](/blog/en/email-verified-pdf-links) — Level 4 (identity gate) in depth
 - [PDF prevent-forwarding guide](/blog/en/pdf-prevent-forwarding-guide) — the anti-forward sibling topic
+
+## Related MaiPDF guides
+
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+- [Free PDF Screenshot Protection Software](/blog/en/free-pdf-screenshot-protection-software)
+- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
+- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [What is a .maipdf file?](/blog/en/what-is-a-maipdf-file)

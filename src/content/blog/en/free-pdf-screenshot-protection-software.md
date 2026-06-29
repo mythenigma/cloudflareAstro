@@ -43,6 +43,8 @@ The real question is:
 
 For high-value PDFs, that is the practical goal.
 
+![MaiPDF two-path decision map for choosing browser sharing or App DRM](/app-screenshots/maipdf-two-paths-decision-map.svg)
+
 ## Why browser tools cannot truly prevent screenshots
 
 Many online PDF tools say they can “disable download,” “disable print,” or “prevent copy.” These controls are useful, but they are not the same as screenshot protection.
@@ -71,6 +73,10 @@ That means browser-based PDF sharing is good for convenience and lightweight con
 For those searches, you should look at App DRM.
 
 ## The free tool path: MaiPDF App + `.maipdf`
+
+For screenshot-heavy use cases, the important difference is not “free versus paid PDF password.” It is **browser viewer versus protected reader**.
+
+A browser viewer can make sharing easier and add useful controls. A protected reader changes where the document is opened, checks whether the reader is still allowed to open it, and can apply stronger screen-capture controls on supported platforms.
 
 MaiPDF has two different sharing paths:
 

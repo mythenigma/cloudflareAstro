@@ -180,3 +180,10 @@ Yes. A link in an email is universal — every email client in existence renders
 - [PDF attachment vs. link: email best practices](/blog/en/pdf-attachment-vs-link-email-best-practices) — the sibling comparison piece, focused on email etiquette
 - [PDF online viewing without download](/blog/en/pdf-online-viewing-without-download) — why read-in-browser beats save-then-open
 - [Dynamic watermarks on PDF](/blog/en/dynamic-watermarks-on-pdf) — the accountability layer for sensitive sends
+
+## Related PDF link guides
+
+- [Make PDF Into a Link](/blog/en/make-pdf-into-a-link)
+- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
+- [PDF link control](/blog/en/pdf-link-control)
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)

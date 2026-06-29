@@ -15,6 +15,9 @@ It is useful when a regular PDF link is too easy to save, forward, or screenshot
 
 > Short version: use a normal MaiPDF online link when sharing speed matters. Use a `.maipdf` file when stronger reader control matters.
 
+
+![MaiPDF App DRM workflow: PDF to protected .maipdf file](/app-screenshots/maipdf-app-drm-workflow.svg)
+
 ## What a .maipdf file contains
 
 A `.maipdf` file is not just a renamed PDF. It is a protected package that can include:
@@ -122,3 +125,11 @@ For many businesses, that combination is enough to move from “PDF sent and los
 If you only need fast browser sharing, start with [MaiPDF online sharing](https://maipdf.com).
 
 If you need protected files, screenshot-aware reading, device binding, and revocation, start with [MaiPDF App DRM](https://drm.maipdf.com).
+
+## Related guides
+
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+- [Secure PDF Reader with Screenshot Protection](/blog/en/secure-pdf-reader-with-screenshot-protection)
+- [PDF Device Binding Explained](/blog/en/pdf-device-binding-explained)
+- [How to revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [Free PDF screenshot protection software](/blog/en/free-pdf-screenshot-protection-software)

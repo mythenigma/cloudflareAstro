@@ -52,3 +52,14 @@ Device compatibility is mostly process discipline: right PDF size, right link se
 ## Final takeaway
 
 Cross-device reliability is a release criterion, not a nice-to-have. If mobile test fails, do not ship the link.
+
+## Where this fits in the PDF link cluster
+
+This page is the cross-device checklist. For the full upload workflow, use [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link). For the simplest search intent, use [Make PDF Into a Link](/blog/en/make-pdf-into-a-link). For security decisions, use [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm).
+
+## Related PDF link guides
+
+- [Make PDF Into a Link](/blog/en/make-pdf-into-a-link)
+- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
+- [PDF link control](/blog/en/pdf-link-control)
+- [PDF attachment vs link in email](/blog/en/pdf-attachment-vs-link-email-best-practices)

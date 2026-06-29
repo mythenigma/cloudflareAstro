@@ -191,6 +191,14 @@ View limits count unique access attempts, not unique users. The same person open
 - Evolving documents
 - Maintaining consistent sharing URLs
 
+
+## Related PDF link guides
+
+- [Make PDF Into a Link](/blog/en/make-pdf-into-a-link)
+- [How to upload a PDF and generate a secure link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link)
+- [PDF link control](/blog/en/pdf-link-control)
+- [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm)
+
 <div class="cta-container">
   <h3>Start controlling your PDF links</h3>
   <p>Upload a PDF and experience flexible link management. Set limits, update content, and maintain control over document access.</p>
