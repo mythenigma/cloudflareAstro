@@ -402,5 +402,27 @@ MaiPDF is built for privacy-conscious users who need control over their shared c
     .step-number {
       margin-bottom: 1rem;
     }
+
+    /* Make screenshots larger on phones without changing desktop layout. */
+    .feature-image img.medium,
+    .account-image-container img.medium,
+    .step-content img.small,
+    .content-wrapper > p > img,
+    .content-wrapper > figure > img {
+      width: 100% !important;
+      max-width: 100% !important;
+      max-height: none !important;
+      height: auto !important;
+      object-fit: contain;
+    }
+
+    .feature-image img.medium,
+    .account-image-container img.medium,
+    .step-content img.small,
+    .content-wrapper > p > img,
+    .content-wrapper > figure {
+      margin: 1rem auto !important;
+      transform: none;
+    }
   }
 </style>

@@ -599,6 +599,77 @@ const buttonText = isMaiimg
   .cta-button:hover::before {
     left: 100%;
   }
+
+  /* Dark mode hard reset for article pages.
+     Many markdown files include scoped light-theme CSS; use !important here so
+     headings/cards/tables do not become gray-on-navy or white-on-white. */
+  :global(body.dark-mode) .prose,
+  :global(body.dark-mode) .content-wrapper {
+    color: #e5e7eb !important;
+  }
+
+  :global(body.dark-mode) .title h1,
+  :global(body.dark-mode) article h1,
+  :global(body.dark-mode) article h2,
+  :global(body.dark-mode) article h3,
+  :global(body.dark-mode) article h4,
+  :global(body.dark-mode) article tbody td:first-child,
+  :global(body.dark-mode) .related-header {
+    color: #f8fafc !important;
+    -webkit-text-fill-color: #f8fafc !important;
+    background: none !important;
+  }
+
+  :global(body.dark-mode) article p,
+  :global(body.dark-mode) article li,
+  :global(body.dark-mode) article td,
+  :global(body.dark-mode) article th,
+  :global(body.dark-mode) article figcaption,
+  :global(body.dark-mode) .content-wrapper span,
+  :global(body.dark-mode) .content-wrapper strong {
+    color: #e5e7eb !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+
+  :global(body.dark-mode) article h2 {
+    border-bottom-color: rgba(148, 163, 184, 0.35) !important;
+  }
+
+  :global(body.dark-mode) article table,
+  :global(body.dark-mode) article thead,
+  :global(body.dark-mode) article tbody,
+  :global(body.dark-mode) article tr,
+  :global(body.dark-mode) article th,
+  :global(body.dark-mode) article td {
+    background: #111827 !important;
+    border-color: rgba(148, 163, 184, 0.28) !important;
+  }
+
+  :global(body.dark-mode) .content-wrapper div,
+  :global(body.dark-mode) .content-wrapper section,
+  :global(body.dark-mode) .content-wrapper article,
+  :global(body.dark-mode) .content-wrapper aside,
+  :global(body.dark-mode) .content-wrapper details,
+  :global(body.dark-mode) .content-wrapper blockquote {
+    background: #111827 !important;
+    background-image: none !important;
+    border-color: rgba(148, 163, 184, 0.28) !important;
+  }
+
+  :global(body.dark-mode) .content-wrapper figure {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  :global(body.dark-mode) .content-wrapper figure img {
+    background: #f8fafc !important;
+  }
+
+  :global(body.dark-mode) article :not(pre) > code,
+  :global(body.dark-mode) .code-block {
+    background: rgba(30, 41, 59, 0.95) !important;
+    color: #93c5fd !important;
+  }
   
   /* Better mobile responsiveness */
   @media (max-width: 768px) {
@@ -656,6 +727,24 @@ const buttonText = isMaiimg
       max-height: min(58vh, 480px);
       height: auto;
       margin: 1rem auto;
+    }
+
+    /* Screenshots marked small/medium were too tiny on phones across several posts. */
+    article img.small,
+    article img.medium {
+      width: 100% !important;
+      max-width: 100% !important;
+      max-height: none !important;
+      height: auto !important;
+      object-fit: contain;
+    }
+
+    article img.tiny,
+    article img.icon,
+    article img.inline-icon {
+      width: revert;
+      max-width: revert;
+      max-height: revert;
     }
 
     figure {

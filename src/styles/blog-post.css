@@ -47,6 +47,108 @@
   border-radius: 0.25em;
 }
 
+/* Dark mode overrides for markdown/HTML content blocks. */
+body.dark-mode .content-wrapper {
+  color: #e5e7eb !important;
+}
+
+body.dark-mode .content-wrapper h1,
+body.dark-mode .content-wrapper h2,
+body.dark-mode .content-wrapper h3,
+body.dark-mode .content-wrapper h4 {
+  color: #f8fafc !important;
+  -webkit-text-fill-color: #f8fafc !important;
+  background: none !important;
+}
+
+body.dark-mode .content-wrapper p,
+body.dark-mode .content-wrapper li,
+body.dark-mode .content-wrapper td,
+body.dark-mode .content-wrapper th {
+  color: #e5e7eb !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+body.dark-mode .intro-panel,
+body.dark-mode .content-wrapper div,
+body.dark-mode .content-wrapper section,
+body.dark-mode .content-wrapper article,
+body.dark-mode .content-wrapper aside,
+body.dark-mode .content-wrapper details,
+body.dark-mode .content-wrapper blockquote {
+  background: #111827 !important;
+  background-image: none !important;
+  color: #e5e7eb !important;
+  border-color: rgba(148, 163, 184, 0.28) !important;
+  box-shadow: 0 10px 28px rgba(2, 6, 23, 0.32) !important;
+}
+
+body.dark-mode .content-wrapper table,
+body.dark-mode .content-wrapper thead,
+body.dark-mode .content-wrapper tbody,
+body.dark-mode .content-wrapper tr,
+body.dark-mode .content-wrapper th,
+body.dark-mode .content-wrapper td {
+  background: #111827 !important;
+  color: #e5e7eb !important;
+  border-color: rgba(148, 163, 184, 0.28) !important;
+}
+
+body.dark-mode .intro-panel p,
+body.dark-mode .content-wrapper [class*="card"] *,
+body.dark-mode .content-wrapper [class*="box"] *,
+body.dark-mode .content-wrapper [class*="panel"] *,
+body.dark-mode .content-wrapper [class*="section"] *,
+body.dark-mode .content-wrapper [class*="item"] *,
+body.dark-mode .content-wrapper [class*="step"] *,
+body.dark-mode .content-wrapper [class*="grid"] > * * {
+  color: #e5e7eb !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+body.dark-mode .content-wrapper [class*="card"] h1,
+body.dark-mode .content-wrapper [class*="card"] h2,
+body.dark-mode .content-wrapper [class*="card"] h3,
+body.dark-mode .content-wrapper [class*="card"] h4,
+body.dark-mode .content-wrapper [class*="box"] h1,
+body.dark-mode .content-wrapper [class*="box"] h2,
+body.dark-mode .content-wrapper [class*="box"] h3,
+body.dark-mode .content-wrapper [class*="box"] h4,
+body.dark-mode .content-wrapper [class*="panel"] h1,
+body.dark-mode .content-wrapper [class*="panel"] h2,
+body.dark-mode .content-wrapper [class*="panel"] h3,
+body.dark-mode .content-wrapper [class*="panel"] h4,
+body.dark-mode .content-wrapper [class*="section"] h1,
+body.dark-mode .content-wrapper [class*="section"] h2,
+body.dark-mode .content-wrapper [class*="section"] h3,
+body.dark-mode .content-wrapper [class*="section"] h4,
+body.dark-mode .content-wrapper [class*="item"] h1,
+body.dark-mode .content-wrapper [class*="item"] h2,
+body.dark-mode .content-wrapper [class*="item"] h3,
+body.dark-mode .content-wrapper [class*="item"] h4,
+body.dark-mode .content-wrapper [class*="step"] h1,
+body.dark-mode .content-wrapper [class*="step"] h2,
+body.dark-mode .content-wrapper [class*="step"] h3,
+body.dark-mode .content-wrapper [class*="step"] h4 {
+  color: #f8fafc !important;
+  -webkit-text-fill-color: #f8fafc !important;
+  background: none !important;
+}
+
+body.dark-mode .content-wrapper img,
+body.dark-mode .content-wrapper svg {
+  background: transparent;
+}
+
+body.dark-mode .content-wrapper figure {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body.dark-mode .content-wrapper figure img {
+  background: #f8fafc;
+}
+
 /* 引言面板 - 模仿截图中的样式 */
 .intro-panel {
   background: #f8fafc;
@@ -81,6 +183,23 @@
   .content-wrapper picture > img {
     max-width: 100%;
     max-height: min(58vh, 480px);
+  }
+
+  .content-wrapper img.small,
+  .content-wrapper img.medium {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  .content-wrapper img.icon,
+  .content-wrapper img.inline-icon,
+  .content-wrapper img.tiny {
+    width: revert;
+    max-width: revert;
+    max-height: revert;
   }
 
   .content-wrapper figure {
@@ -872,9 +991,12 @@
   .content-wrapper .step-content img {
     grid-column: 1 !important;
     grid-row: 3;
-    max-height: 140px !important;
+    width: 100% !important;
     max-width: 100% !important;
-    margin-top: 0.5rem !important;
+    max-height: none !important;
+    height: auto !important;
+    margin: 0.75rem auto 0 !important;
+    object-fit: contain;
   }
 }
 

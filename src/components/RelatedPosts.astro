@@ -357,6 +357,30 @@ const header = headerText[currentLanguage] || headerText.en;
     font-size: 0.82rem;
   }
 
+  :global(body.dark-mode) .related-posts {
+    border-top-color: rgba(148, 163, 184, 0.28);
+  }
+
+  :global(body.dark-mode) .related-header,
+  :global(body.dark-mode) .related-title {
+    color: #f8fafc;
+  }
+
+  :global(body.dark-mode) .related-post {
+    background: #111827;
+    border-color: rgba(148, 163, 184, 0.28);
+    box-shadow: 0 14px 40px rgba(2, 6, 23, 0.28);
+  }
+
+  :global(body.dark-mode) .related-post p,
+  :global(body.dark-mode) .related-post small {
+    color: #cbd5e1;
+  }
+
+  :global(body.dark-mode) .related-kicker {
+    color: #93c5fd;
+  }
+
   @media (max-width: 768px) {
     .related-grid {
       grid-template-columns: 1fr;
