@@ -1,7 +1,7 @@
 # MaiPDF 文章站 SEO 工作计划 (work.md)
 
 > 站点: **article.maipdf.com** (Astro + Cloudflare Workers Static Assets)
-> 最后更新: **2026-06-23**
+> 最后更新: **2026-07-10 16:48 CST**
 > 本文件是唯一的工作计划，取代之前所有 governance / tracker / inventory 草稿。
 
 ---
@@ -13,6 +13,20 @@
 - 站点现 **274 篇干净页**(en 128 / cn 96 / es 50)，薄页率 es 2% · en 14% · cn 19%。
 - **2026-06 新产品线**: 原生 DRM App（**dongle**）本月刚上线，博客大量内容仍只写在线版 `maipdf.com`，**需要系统性改版**（见 §0.1、§6 P0）。
 - **剩余核心工作 = 内容**: 旧文 AI 味重、排名差 → **重写为短稿、关键词前置**（见 §0.2）；优先 `防止截屏` / `prevent screenshot` 集群。
+
+---
+
+## 0.3 2026-07-10 首页双路径视觉更新（Hermes）
+
+- 按用户提供的英文“太极 / Online Sharing vs App DRM”素材，首页 `src/pages/index.astro` 已从普通学习中心 hero 改为更简洁的双路径概念：**Two practical ways to secure every PDF**。
+- 新素材保存到 `public/maipdf2026/concepts/`：
+  - `maipdf-one-pdf-two-ways-total-control-en.jpg`（本轮新图，首页正在使用）
+  - `maipdf-two-path-homepage-concept-en.jpg`
+  - `maipdf-two-path-product-intro-zh.jpg`
+  - `maipdf-two-path-taiji-hero-visual.jpg`
+- 响应式策略：宽屏左右两栏；平板/手机改为文字在上、概念图在下；手机按钮全宽、两条产品路径卡片压缩成可扫读的小卡。
+- 已验证：`npm run build:fast` 通过；本地预览 1440 / 768 / 390 三档无横向溢出，首页视觉图与 Online Sharing / App DRM 卡片可读。
+- 注意：素材图里的客户 logo / SOC2 等信任背书如果未来出现，必须先确认真实再使用；本轮首页只使用产品概念，不引用未验证背书。
 
 ---
 

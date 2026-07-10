@@ -80,27 +80,37 @@ const topics = [
     <section class="hero-section">
       <div class="hero-copy">
         <p class="eyebrow">MaiPDF Learning Center</p>
-        <h1>Secure PDF sharing guides for real-world document control</h1>
+        <h1>Two practical ways to secure every PDF</h1>
         <p class="hero-text">
-          Learn how to share PDFs online, protect documents with the MaiPDF App, reduce screenshot leaks,
-          use dynamic watermarks, set view limits, create QR codes, and deliver images with Maiimg.
+          Use a browser link when sharing must be fast. Move to MaiPDF App DRM when screenshots,
+          device rules, revocation, and protected <code>.maipdf</code> files matter.
         </p>
         <div class="hero-actions" aria-label="Primary actions">
-          <a class="btn primary" href="/blog">Read the guides</a>
+          <a class="btn primary" href="/blog/en/online-pdf-sharing-vs-app-drm">Choose the right path</a>
           <a class="btn secondary" href="https://maipdf.com">Try online sharing</a>
           <a class="btn ghost" href="https://drm.maipdf.com">Explore App DRM</a>
         </div>
       </div>
-      <aside class="hero-panel" aria-label="MaiPDF product map">
-        <div class="panel-card online">
-          <span class="pill">maipdf.com</span>
-          <h2>Online Sharing</h2>
-          <p>Fast PDF links, QR codes, expiry, watermarks, and open tracking in the browser.</p>
+      <aside class="hero-concept" aria-label="MaiPDF Online Sharing and App DRM concept">
+        <div class="concept-visual-frame">
+          <img
+            src="/maipdf2026/concepts/maipdf-one-pdf-two-ways-total-control-en.jpg"
+            alt="MaiPDF concept graphic: One PDF, two ways to share, total control with Online Sharing and App DRM"
+            loading="eager"
+            decoding="async"
+          />
         </div>
-        <div class="panel-card drm">
-          <span class="pill">drm.maipdf.com</span>
-          <h2>App DRM</h2>
-          <p>Protected .maipdf files, device binding, revocation, and screen-capture controls a web page cannot provide.</p>
+        <div class="concept-cards" aria-label="Two MaiPDF product paths">
+          <a class="concept-card online" href="https://maipdf.com">
+            <span>Online Sharing</span>
+            <strong>Link or QR code</strong>
+            <small>Fast browser reading, expiry, watermarks, view limits, and open tracking.</small>
+          </a>
+          <a class="concept-card drm" href="https://drm.maipdf.com">
+            <span>App DRM</span>
+            <strong>Protected .maipdf</strong>
+            <small>Screenshot-aware reader, device binding, revoke control, and license checks.</small>
+          </a>
         </div>
       </aside>
     </section>
@@ -284,67 +294,87 @@ const topics = [
     border: 1px solid #c7d2fe;
   }
 
-  .hero-panel {
+  .hero-concept {
     display: grid;
-    gap: 1rem;
+    gap: 0.9rem;
+    min-width: 0;
   }
 
-  .panel-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    min-height: 240px;
-    border-radius: 28px;
-    padding: 2rem;
-    color: #fff;
+  .concept-visual-frame {
+    position: relative;
+    min-height: clamp(300px, 36vw, 460px);
+    aspect-ratio: 4 / 3;
+    border-radius: 32px;
+    padding: clamp(0.7rem, 1.2vw, 1rem);
+    background:
+      radial-gradient(circle at 20% 12%, rgba(59, 130, 246, 0.18), transparent 32%),
+      linear-gradient(135deg, #ffffff 0%, #f8fafc 58%, #ecfeff 100%);
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
     overflow: hidden;
-    position: relative;
   }
 
-  .panel-card::before {
-    content: '';
-    position: absolute;
-    inset: auto -20% -45% 25%;
-    height: 190px;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.18);
-    filter: blur(3px);
+  .concept-visual-frame img {
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    display: block;
+    object-fit: cover;
+    object-position: center 18%;
+    border-radius: 24px;
   }
 
-  .panel-card > * {
-    position: relative;
-    z-index: 1;
+  .concept-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
   }
 
-  .panel-card.online {
-    background: linear-gradient(135deg, #1d4ed8, #06b6d4);
+  .concept-card {
+    display: grid;
+    gap: 0.35rem;
+    min-width: 0;
+    padding: 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #0f172a;
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    box-shadow: 0 16px 38px rgba(15, 23, 42, 0.07);
   }
 
-  .panel-card.drm {
-    background: linear-gradient(135deg, #111827, #4f46e5 58%, #7c3aed);
+  .concept-card.online {
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
   }
 
-  .pill {
-    align-self: flex-start;
-    padding: 0.38rem 0.65rem;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.16);
-    color: #fff;
-    font-size: 0.78rem;
-    font-weight: 800;
+  .concept-card.drm {
+    background: linear-gradient(135deg, #111827, #312e81);
+    color: #f8fafc;
   }
 
-  .panel-card h2 {
-    margin: 1.2rem 0 0.65rem;
-    color: #fff;
-    font-size: 1.85rem;
-    line-height: 1.05;
+  .concept-card span {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #2563eb;
   }
 
-  .panel-card p {
-    margin: 0;
-    color: rgba(255, 255, 255, 0.88);
-    line-height: 1.6;
+  .concept-card.drm span {
+    color: #a5b4fc;
+  }
+
+  .concept-card strong {
+    font-size: 1rem;
+    line-height: 1.15;
+  }
+
+  .concept-card small {
+    color: #475569;
+    line-height: 1.45;
+  }
+
+  .concept-card.drm small {
+    color: #cbd5e1;
   }
 
   .section-block,
@@ -523,9 +553,89 @@ const topics = [
     }
 
     .hero-copy,
-    .panel-card,
+    .concept-visual-frame,
     .split-card {
       border-radius: 22px;
+    }
+
+    .concept-visual-frame img {
+      border-radius: 16px;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .learning-home {
+      width: min(100% - 0.8rem, 420px);
+      padding-bottom: 3rem;
+    }
+
+    .hero-section {
+      gap: 0.85rem;
+      margin-bottom: 3rem;
+    }
+
+    .hero-copy {
+      padding: 1.35rem;
+    }
+
+    .hero-copy h1 {
+      font-size: clamp(2.25rem, 13vw, 3.1rem);
+      letter-spacing: -0.055em;
+    }
+
+    .hero-text {
+      margin-top: 1rem;
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+
+    .hero-actions {
+      display: grid;
+      gap: 0.65rem;
+    }
+
+    .btn {
+      width: 100%;
+      min-height: 44px;
+    }
+
+    .concept-visual-frame {
+      min-height: 245px;
+      padding: 0.45rem;
+    }
+
+    .concept-cards {
+      grid-template-columns: 1fr;
+      gap: 0.6rem;
+    }
+
+    .concept-card {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      align-items: center;
+      gap: 0.25rem 0.75rem;
+      padding: 0.9rem;
+    }
+
+    .concept-card span,
+    .concept-card strong,
+    .concept-card small {
+      min-width: 0;
+    }
+
+    .concept-card span {
+      grid-column: 1;
+      margin: 0;
+    }
+
+    .concept-card strong {
+      grid-column: 1;
+      font-size: 0.95rem;
+    }
+
+    .concept-card small {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      font-size: 0.78rem;
     }
   }
 
@@ -553,17 +663,27 @@ const topics = [
   :global(body.dark-mode) .topic-card p,
   :global(body.dark-mode) .article-card p,
   :global(body.dark-mode) .latest-list p,
-  :global(body.dark-mode) .split-card p {
+  :global(body.dark-mode) .split-card p,
+  :global(body.dark-mode) .concept-card.online small {
     color: #cbd5e1;
   }
 
   :global(body.dark-mode) .topic-card,
   :global(body.dark-mode) .article-card,
   :global(body.dark-mode) .latest-list a,
-  :global(body.dark-mode) .split-card {
+  :global(body.dark-mode) .split-card,
+  :global(body.dark-mode) .concept-card.online {
     background: #111827;
     border-color: rgba(148, 163, 184, 0.24);
     box-shadow: 0 18px 55px rgba(0, 0, 0, 0.28);
+  }
+
+  :global(body.dark-mode) .concept-visual-frame {
+    background:
+      radial-gradient(circle at 20% 12%, rgba(96, 165, 250, 0.22), transparent 34%),
+      linear-gradient(135deg, #0f172a 0%, #111827 58%, #172554 100%);
+    border-color: rgba(148, 163, 184, 0.26);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
   }
 
   :global(body.dark-mode) .browser-card,
