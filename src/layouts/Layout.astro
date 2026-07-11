@@ -11,6 +11,7 @@ interface Props {
 	image?: string;
 	lang?: string;
 	noindex?: boolean;
+	noAds?: boolean;
 	/** Override nav brand (e.g. MaiImg posts use MaiImg instead of MaiPDF). */
 	headerTitle?: string;
 	article?: {
@@ -26,6 +27,7 @@ const {
 	image,
 	lang = 'en', // Default to English, but allow override
 	noindex = false,
+	noAds = false,
 	headerTitle,
 	article
 } = Astro.props;
@@ -38,7 +40,7 @@ const navBrand = headerTitle ?? SITE_TITLE;
 		<head>
 			<!-- charset MUST be the very first thing in head -->
 			<meta charset="utf-8" />
-			<BaseHead title={title} description={description} image={image} article={article} noindex={noindex} />
+			<BaseHead title={title} description={description} image={image} article={article} noindex={noindex} noAds={noAds} />
 		</head>
 	<body>
 		<Header title={navBrand} />

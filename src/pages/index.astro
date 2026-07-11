@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 const pageTitle = 'MaiPDF Secure Sharing Guides | Online Sharing and App DRM';
-const pageDescription = 'A Taiji-style guide map for MaiPDF: choose fast online PDF sharing or stronger App DRM protection, then browse every related guide by theme.';
+const pageDescription = 'Choose fast online PDF sharing or stronger MaiPDF App DRM protection, then browse practical guides by problem and use case.';
 
 function getDisplayDate(data: { pubDate: Date; updatedDate?: Date }) {
   const publishedAt = data.pubDate instanceof Date ? data.pubDate : new Date(data.pubDate);
@@ -42,7 +42,7 @@ const statBlocks = [
 
 const decisionCards = [
   {
-    side: 'Yang / Online Sharing',
+    side: 'Online Sharing',
     title: 'A link or QR code when sharing needs to move fast',
     desc: 'Best for browser reading, public or semi-private delivery, quick client review, expiry, view limits, watermarking, and open tracking.',
     href: 'https://maipdf.com',
@@ -50,7 +50,7 @@ const decisionCards = [
     tone: 'light',
   },
   {
-    side: 'Yin / App DRM',
+    side: 'App DRM',
     title: 'A protected .maipdf file when control matters more',
     desc: 'Best for screenshot-aware reading, device binding, revocation, license checks, and content that should not behave like a normal attachment.',
     href: 'https://drm.maipdf.com',
@@ -71,14 +71,14 @@ type Theme = {
 const themeDefinitions: Omit<Theme, 'posts'>[] = [
   {
     id: 'online-sharing',
-    eyebrow: 'Yang path',
+    eyebrow: 'Fast sharing',
     title: 'Online PDF sharing, links, hosting, QR codes',
     desc: 'Guides for turning a PDF into a controlled web link or QR code without asking readers to install an app.',
     match: ['share', 'sharing', 'host', 'hosting', 'link', 'qr', 'qrcode', 'upload', 'online viewing', 'browser', 'whatsapp', 'facebook', 'wechat'],
   },
   {
     id: 'app-drm',
-    eyebrow: 'Yin path',
+    eyebrow: 'Stronger control',
     title: 'App DRM, .maipdf files, screenshot protection',
     desc: 'When browser controls are not enough: protected readers, screenshot protection, device binding, licenses, and revocation.',
     match: ['drm', 'maipdf file', '.maipdf', 'screenshot', 'reader', 'device', 'binding', 'revoke', 'license', 'certificate', 'prevent file copying'],
@@ -158,8 +158,8 @@ if (remainingPosts.length > 0) {
 const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
 ---
 
-<Layout title={pageTitle} description={pageDescription}>
-  <section class="taiji-hero" aria-labelledby="hero-title">
+<Layout title={pageTitle} description={pageDescription} noAds={true}>
+  <section class="home-hero" aria-labelledby="hero-title">
     <div class="hero-shell">
       <div class="hero-copy">
         <p class="eyebrow">MaiPDF secure sharing</p>
@@ -180,8 +180,8 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
         </div>
       </div>
 
-      <aside class="taiji-orbit" aria-label="Online sharing and App DRM balance illustration">
-        <div class="taiji-mark" aria-hidden="true">
+      <aside class="balance-orbit" aria-label="Online sharing and App DRM balance illustration">
+        <div class="balance-mark" aria-hidden="true">
           <span class="dot dot-light"></span>
           <span class="dot dot-dark"></span>
         </div>
@@ -280,7 +280,7 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
       linear-gradient(180deg, #f7f3eb 0%, #f0eadf 100%);
   }
 
-  .taiji-hero,
+  .home-hero,
   .dual-section,
   .featured-section,
   .guide-map {
@@ -288,7 +288,7 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
     margin: 0 auto;
   }
 
-  .taiji-hero {
+  .home-hero {
     display: grid;
     align-items: center;
     padding: clamp(2.5rem, 6vw, 5.5rem) 0 clamp(2rem, 5vw, 4rem);
@@ -389,14 +389,14 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
     line-height: 1;
   }
 
-  .taiji-orbit {
+  .balance-orbit {
     position: relative;
     min-height: min(78vw, 650px);
     display: grid;
     place-items: center;
   }
 
-  .taiji-mark {
+  .balance-mark {
     position: relative;
     width: min(90vw, 520px);
     aspect-ratio: 1;
@@ -411,7 +411,7 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
     box-shadow: 0 50px 120px rgba(0,0,0,.24), inset 0 0 0 1px rgba(255,255,255,.4);
   }
 
-  .taiji-mark::after {
+  .balance-mark::after {
     content: '';
     position: absolute;
     inset: 0;
@@ -665,12 +665,12 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
       grid-template-columns: 1fr;
     }
 
-    .taiji-orbit {
+    .balance-orbit {
       min-height: auto;
       padding: 2rem 0 4rem;
     }
 
-    .taiji-mark {
+    .balance-mark {
       width: min(82vw, 430px);
     }
 
@@ -697,14 +697,14 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
       font-size: 0.95rem;
     }
 
-    .taiji-hero,
+    .home-hero,
     .dual-section,
     .featured-section,
     .guide-map {
       width: min(100% - 1.25rem, 1180px);
     }
 
-    .taiji-hero {
+    .home-hero {
       padding-top: 2rem;
       padding-bottom: 2rem;
     }
@@ -751,7 +751,7 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
       display: none;
     }
 
-    .taiji-orbit {
+    .balance-orbit {
       display: none;
     }
 
