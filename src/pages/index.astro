@@ -685,6 +685,18 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
   }
 
   @media (max-width: 640px) {
+    :global(.site-header) {
+      padding: 0.65rem 0.85rem;
+    }
+
+    :global(.site-header .search-area) {
+      display: none;
+    }
+
+    :global(.site-header .brand) {
+      font-size: 0.95rem;
+    }
+
     .taiji-hero,
     .dual-section,
     .featured-section,
@@ -702,9 +714,10 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
     }
 
     .hero-copy h1 {
-      font-size: clamp(2.25rem, 10vw, 3.25rem);
-      line-height: 1.02;
-      letter-spacing: -0.045em;
+      font-size: clamp(2rem, 8.2vw, 2.65rem);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+      font-weight: 780;
     }
 
     .eyebrow {
@@ -735,14 +748,7 @@ const nonEmptyThemes = themes.filter((theme) => theme.posts.length > 0);
     }
 
     .hero-stats {
-      grid-template-columns: 1fr;
-      gap: 0.55rem;
-      margin-top: 1.2rem;
-    }
-
-    .hero-stats span {
-      padding: 0.8rem 0.95rem;
-      border-radius: 18px;
+      display: none;
     }
 
     .taiji-orbit {
