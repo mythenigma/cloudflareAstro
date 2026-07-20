@@ -1,6 +1,7 @@
 import type { MiddlewareHandler } from "astro";
 import { BLOG_LEGACY_REDIRECTS } from "./data/blog-legacy-redirects.mjs";
 import { BLOG_GONE } from "./data/blog-gone.mjs";
+import { MAIIMG_CLUSTER_REDIRECTS } from "./data/maiimg-cluster-redirects.mjs";
 
 // Canonicalize URLs to match astro.config.mjs: trailingSlash: 'never'
 // Astro's trailingSlash config only affects build-time link generation.
@@ -32,6 +33,13 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     /^\/blog-backup(\/|$)/.test(normalizedPath)
   ) {
     return new Response(null, { status: 410, statusText: "Gone" });
+  }
+
+  // Cross-domain redirects (e.g. maiimg-topic articles retired in favor of
+  // maiimg.com's own blog) — target is an absolute URL, used as-is.
+  const externalTarget = (MAIIMG_CLUSTER_REDIRECTS as Record<string, string>)[normalizedPath];
+  if (externalTarget) {
+    return Response.redirect(externalTarget, 301);
   }
 
   const redirectTarget = (BLOG_LEGACY_REDIRECTS as Record<string, string>)[normalizedPath];

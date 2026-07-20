@@ -3,7 +3,10 @@
 // middleware returns 410 Gone for these so Google de-indexes them quickly.
 // NOTE: existing pages are served by the assets layer and never reach the
 // middleware, so re-publishing any of these slugs later is unaffected.
+import { MAIIMG_CLUSTER_GONE_ES } from "./maiimg-cluster-redirects.mjs";
+
 export const BLOG_GONE = new Set([
+  ...MAIIMG_CLUSTER_GONE_ES,
   "/blog/cn/access-control-permission-matrix",
   "/blog/cn/document-management-best-practices-visual",
   "/blog/cn/maiimg-qrcode-image-sharing-guide",

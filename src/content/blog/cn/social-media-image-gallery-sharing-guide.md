@@ -361,4 +361,3 @@ Maiimg让**在社交媒体分享图片图册**变得简单：
 **相关文章：**
 - [一键分享多张图片：图册分享](/blog/cn/one-click-share-multiple-images-gallery-sharing)
 - [安全私密图片分享：客户图片交付](/blog/cn/secure-private-image-sharing-client-delivery)
-- [免费图片托管：完整指南](/blog/cn/maiimg-complete-workflow-guide-with-diagrams)
