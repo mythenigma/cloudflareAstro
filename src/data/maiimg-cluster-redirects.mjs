@@ -49,6 +49,26 @@ export const MAIIMG_CLUSTER_REDIRECTS = {
   "/blog/cn/maiimg-quick-image-sharing-guide": "https://maiimg.com/blog/zh-cn/how-to-generate-image-sharing-links",
   "/blog/cn/maiimg-real-estate-image-sharing-guide": "https://maiimg.com/blog/zh-cn/real-estate-photo-sharing-guide",
   "/blog/cn/maiimg-wedding-photography-delivery-guide": "https://maiimg.com/blog/zh-cn/wedding-photo-sharing-guide",
+
+  // 2026-07-20 second pass: thin (<300 word) shell articles that are also
+  // image/gallery topic, not PDF topic — same root cause as the first batch
+  // above, just discovered later during a shell-article word-count sweep.
+  "/blog/en/one-click-share-multiple-images-gallery-sharing": "https://maiimg.com/blog/en/how-to-create-online-image-galleries-guide",
+  "/blog/en/free-image-storage-online-image-storage": "https://maiimg.com/blog/en/free-image-host-complete-guide-2025",
+  "/blog/en/bulk-image-gallery-delivery": "https://maiimg.com/blog/en/client-gallery-delivery-playbook",
+  "/blog/en/safe-client-image-delivery-tool": "https://maiimg.com/blog/en/client-gallery-delivery-playbook",
+  "/blog/en/social-media-image-gallery-sharing-guide": "https://maiimg.com/blog/en/social-media-photo-sharing-guide",
+  "/blog/en/image-hosting-api-free-image-upload-api": "https://maiimg.com/blog/en/image-hosting-and-sharing-platforms-guide",
+  "/blog/en/image-link-generator-free-image-url-generator": "https://maiimg.com/blog/en/how-to-create-image-links-complete-guide",
+  "/blog/en/secure-private-image-sharing-client-delivery": "https://maiimg.com/blog/en/secure-image-sharing-guide",
+  "/blog/en/image-hosting-service-comparison-free-image-hosting": "https://maiimg.com/blog/en/best-free-image-hosting-sites-2025",
+  "/blog/cn/image-link-generator-free-image-url-generator": "https://maiimg.com/blog/zh-cn/how-to-generate-image-sharing-links",
+
+  // 2026-07-20 third pass: found while manually re-reading the CN "thin content"
+  // list after the word-count script turned out to undercount CJK text badly.
+  // No zh-cn-specific expiry article on maiimg.com yet, so this lands on the
+  // zh-cn blog index rather than forcing a loose English match.
+  "/blog/cn/auto-delete-images-expiration-guide": "https://maiimg.com/blog/zh-cn/",
 };
 
 // No usable Spanish landing exists on maiimg.com (its /blog/es/ is an
