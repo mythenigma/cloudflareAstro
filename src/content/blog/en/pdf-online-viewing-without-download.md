@@ -43,7 +43,7 @@ That difference matters twice. Once for engagement — fewer steps means more re
 | Clicking a "Download" button | ✅ yes | the button is gone from the viewer |
 | Right-click → Save As | ✅ yes | context menu is restricted |
 | Print → Save as PDF | ✅ yes if print is disabled | enable it alongside download-off for anything sensitive |
-| Selecting and copy-pasting the text | ✅ yes if selection is off | pair with FineView for tighter selection control |
+| Selecting and copy-pasting the text | ✅ yes in SecureView | for a screenshot rather than copy-paste, only App DRM helps |
 | Phone screenshot | ❌ no | nothing browser-side can stop the OS shortcut |
 | Phone camera photo of the screen | ❌ no | but a **dynamic watermark** still traces the leaker |
 | Screen recording | ❌ no | same — watermark + access log is your recourse |
@@ -56,7 +56,7 @@ The takeaway: view-only closes the **easy exit doors**. For screenshots and came
 1. **Upload** the PDF at [maipdf.com](https://maipdf.com).
 2. On the configuration screen, switch **Download** to **off**. (That's the one decision that defines "view-only.")
 3. If the document is sensitive, also turn **Print off** and **text selection off** in the same panel.
-4. Optionally pick **FineView** as the protection mode for tighter viewer behavior.
+4. Leave the view mode on **SecureView** (the default) so the download and print controls stay out of the viewer.
 5. Generate the link and test it once on your phone before sharing.
 
 ![The configuration panel — download/print toggles live next to expiry and session length](/maipdf2026/MaiPDF_settings_expiration_telegram.png)

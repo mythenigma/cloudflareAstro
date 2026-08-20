@@ -47,7 +47,7 @@ Es un flujo simple, pero resuelve muchos casos reales: propuestas, portfolios, d
 
 ## Paso 1 - Subir el PDF
 
-MaiPDF permite subir archivos de hasta **100 MB**, suficiente para la mayoría de informes, catálogos, presentaciones y portfolios.
+MaiPDF permite subir archivos de hasta **80 MB**, suficiente para la mayoría de informes, catálogos, presentaciones y portfolios.
 
 ![El primer paso es elegir el modo de compartir online antes de configurar la publicación](/maipdf2026/choose_online_for_sharing_online.png)
 
@@ -169,4 +169,4 @@ Sí. Y también puedes reemplazar el archivo manteniendo la misma URL.
 
 ### ¿Cuál es el límite de tamaño?
 
-Hasta **100 MB** por archivo.
+Hasta **80 MB** por archivo.

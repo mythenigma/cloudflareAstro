@@ -64,7 +64,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <td style="padding: 1rem; text-align: center; color: #6b7280;">10-25MB</td>
 <td style="padding: 1rem; text-align: center; color: #6b7280;">通常较大</td>
 <td style="padding: 1rem; text-align: center; color: #6b7280;">5-10GB</td>
-<td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">100MB</td>
+<td style="padding: 1rem; text-align: center; color: #10b981; font-weight: 600; background: #f0fdf4;">80MB</td>
 </tr>
 <tr style="border-bottom: 1px solid #e5e7eb; background: #fafafa;">
 <td style="padding: 1rem; font-weight: 500; color: #374151;">是否需要注册</td>
@@ -195,7 +195,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
 <li>支持大文件</li>
 <li>可设置密码保护</li>
-<li>支持文件夹分享</li>
+<li>一次一个文件（不支持文件夹或批量上传）</li>
 </ul>
 </div>
 
@@ -276,7 +276,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <div>
 <h4 style="color: #d97706; margin-top: 0;">⚠️ 注意事项</h4>
 <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
-<li>单文件最大100MB（满足大多数需求）</li>
+<li>单文件最大80MB（满足大多数需求）</li>
 <li>需要网络连接（在线查看）</li>
 </ul>
 
@@ -298,7 +298,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 
 **第一步：上传PDF文件**
 - 拖拽或点击上传
-- 支持最大100MB
+- 支持最大80MB
 - 秒速上传处理
 
 ![设置界面](/cn2025May/setting_example.png)
@@ -357,9 +357,9 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 </div>
 
 <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1.5rem; border-radius: 8px;">
-<h3 style="color: #d97706; margin-top: 0;">📦 大文件分享（>100MB）</h3>
+<h3 style="color: #d97706; margin-top: 0;">📦 大文件分享（>80MB）</h3>
 <p style="margin: 0.5rem 0;"><strong>推荐：云盘</strong></p>
-<p style="margin: 0.5rem 0; color: #374151;">MaiPDF限制100MB，超大文件建议使用云盘</p>
+<p style="margin: 0.5rem 0; color: #374151;">MaiPDF限制80MB，超大文件建议使用云盘</p>
 </div>
 
 <div style="background: #f3e8ff; border-left: 4px solid #a855f7; padding: 1.5rem; border-radius: 8px;">
@@ -459,7 +459,7 @@ tags: ["PDF分享", "工具对比", "免费工具", "文档分享", "在线工�
 <div style="background: white; border: 1px solid #e5e7eb; padding: 1.5rem; border-radius: 8px;">
 <h4 style="color: #374151; margin-top: 0;">☁️ 选择云盘</h4>
 <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #6b7280;">
-<li>文件很大（>100MB）</li>
+<li>文件很大（>80MB）</li>
 <li>需要长期存储</li>
 <li>团队协作</li>
 </ul>

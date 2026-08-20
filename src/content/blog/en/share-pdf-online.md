@@ -121,7 +121,7 @@ No. Any modern browser — mobile or desktop — opens a MaiPDF link without a p
 Yes. Core sharing is free. Some advanced controls (heavy-usage quotas, larger files) may need an account.
 
 **What's the file size limit?**
-Single-file upload cap is **100 MB**, which covers virtually every sensible PDF.
+Single-file upload cap is **80 MB**, which covers virtually every sensible PDF.
 
 **Does the link break if I revise the document?**
 No — that's the point. If you signed in when uploading, swap the file from the control panel. If you were a guest, use the **modify-code** you saved at upload time. Either way, the URL doesn't change.

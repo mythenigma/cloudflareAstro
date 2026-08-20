@@ -31,7 +31,7 @@ For the distribution-side playbook (industry examples, placement strategy, acces
 
 ## The setup in four steps
 
-1. **Upload the PDF to MaiPDF.** Files up to 100 MB are supported. The upload returns a single shareable link — that link is what the QR will encode.
+1. **Upload the PDF to MaiPDF.** Files up to 80 MB are supported. The upload returns a single shareable link — that link is what the QR will encode.
 2. **Choose controls before generating the code.** Expiry, view limits, password or email verification, watermark, and download restrictions are set on the link. Once printed, the code is fixed; the controls are not.
 3. **Generate the QR tied to that link.** MaiPDF builds the image directly from the managed URL, and the same PDF accepts different codes for different channels if you want per-channel analytics.
 4. **Test on real phones before printing.** iPhone and Android camera apps both handle QR natively now, but low-light scans, older devices, and printed-versus-screen codes all behave differently in practice.
@@ -40,7 +40,7 @@ For the distribution-side playbook (industry examples, placement strategy, acces
 
 ## File specs worth getting right
 
-- **Size.** MaiPDF accepts up to 100 MB per PDF. Large scan-heavy files still open, but mobile users on cellular connections will feel every megabyte — compress before upload when you can.
+- **Size.** MaiPDF accepts up to 80 MB per PDF. Large scan-heavy files still open, but mobile users on cellular connections will feel every megabyte — compress before upload when you can.
 - **First page matters.** Most scanners tap once and decide. Put the title, a one-line summary, and a visible hook on page 1.
 - **Mobile readability.** Single-column body, 11 pt minimum, avoid tables that need horizontal scrolling. A perfect QR flow that lands on an unreadable PDF still fails.
 

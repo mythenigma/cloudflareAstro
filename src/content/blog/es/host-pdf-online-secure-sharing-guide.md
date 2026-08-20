@@ -90,7 +90,7 @@ Prevenga la redistribución no autorizada con características protectoras:
 
 Seleccione una solución de alojamiento de PDF con estas características esenciales:
 
-- **Límites generosos de tamaño de archivo** (MaiPDF admite archivos de hasta 100MB)
+- **Límites generosos de tamaño de archivo** (MaiPDF admite archivos de hasta 80MB)
 - **Configuraciones de seguridad personalizadas** para diferentes niveles de sensibilidad de documentos
 - **Tiempo de actividad confiable** para garantizar que los documentos siempre sean accesibles
 - **Visualización compatible con móviles** para acceso en movimiento

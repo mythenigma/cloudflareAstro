@@ -60,7 +60,7 @@ Sent to the wrong person? The attachment is *in their archive forever*. With a l
 
 | Decision point | Email attachment | Managed PDF link |
 |---|---|---|
-| File size ceiling | ~25 MB (often less) | 100 MB per file |
+| File size ceiling | ~25 MB (often less) | 80 MB per file |
 | Bounce / spam-filter risk | high, especially with multiple recipients | near-zero — link is a few kilobytes |
 | First-open on phone | five steps, high drop-off | one click, loads in browser |
 | Reader needs to install / log in | sometimes (cloud-drive auth) | no |

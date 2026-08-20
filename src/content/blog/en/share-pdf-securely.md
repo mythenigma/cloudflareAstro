@@ -57,7 +57,7 @@ That's the real list. Things that **aren't** on MaiPDF (and should be ignored if
 
 ## Matching controls to document sensitivity
 
-| Document | Expiry | Open limit | Download | Email verify | Watermark | FineView |
+| Document | Expiry | Open limit | Download | Email verify | Watermark | App DRM |
 |---|---|---|---|---|---|---|
 | Public brochure | optional | unlimited | on | off | off | off |
 | Event handout via QR | event window | high | on | off | off | off |
@@ -111,9 +111,9 @@ The reader is now identified before they see the first page, and every page they
 ### Level 5 — Tightest viewer
 
 Add:
-- **FineView** protection mode.
+- **App DRM** instead of a browser link.
 
-FineView tightens what the viewer allows in the session — session handling, selection, screen-grab deterrents. Reserved for documents where a leak would be materially expensive: contract drafts, board decks, unreleased IP, pre-launch pricing.
+App DRM turns the file into an encrypted `.maipdf` that opens only in the MaiPDF app, where the operating system refuses screenshots outright. It costs your reader an install, so reserve it for documents where a leak would be materially expensive: contract drafts, board decks, unreleased IP, pre-launch pricing.
 
 Levels stack upward. Level 5 implies every level below it.
 
@@ -124,7 +124,7 @@ Levels stack upward. Level 5 implies every level below it.
 3. Set **Expiry** first, **Open limit** second — those two alone are Level 1 + 2.
 4. For Level 3+, toggle **Download off** and **Print off**.
 5. For Level 4+, add the **email whitelist** and enable **Dynamic watermark** with the email stamp.
-6. For Level 5, choose **FineView** as the protection mode.
+6. For Level 5, deliver through **App DRM** rather than a browser link.
 7. Generate the link and **open it once on your phone** using an address *not* on the whitelist if you added one — the most common failure mode is a lock that locks out nobody.
 
 ![Every security control lives in the same configuration panel — set them once, adjust them anytime](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
@@ -184,7 +184,7 @@ The PDF file itself stays on MaiPDF. The reader sees rendered pages through the 
 **What happens if the reader is on the whitelist but their email provider silently rejects the verification message?**
 You'll see the failed verification attempt in the access log. Remove the blocker (check the whitelist for typos, check the sender deliverability) and the reader can retry without any URL change.
 
-**Does FineView break ordinary reading?**
+**Does App DRM break ordinary reading?**
 No. It tightens session handling and selection behavior, but the core reading experience — page rendering, zoom, scrolling, search — stays normal. Readers notice friction only when attempting to extract content.
 
 **How do I revoke a link entirely?**

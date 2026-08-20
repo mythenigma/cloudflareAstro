@@ -1,6 +1,6 @@
 ---
 title: "How to Upload a PDF and Generate a Secure Link"
-description: "A scannable, image-rich walkthrough of turning a PDF into one managed link: the 3-step flow, what to actually configure, when to use FineView, and how to replace the file later without breaking the URL."
+description: "A scannable, image-rich walkthrough of turning a PDF into one managed link: the 3-step flow, what to actually configure, which view mode to use, and how to replace the file later without breaking the URL."
 pubDate: "Apr 4 2026"
 updatedDate: "Jun 27 2026"
 heroImage: "/maipdf2026/show_off/share_pdf_online-show.png"
@@ -20,7 +20,7 @@ Uploading the file is the easy part. The real upgrade is that the PDF **stops be
 - [The 3-step workflow](#the-3-step-workflow)
 - [Step 1 — Upload](#step-1--upload)
 - [Step 2 — Configure only what the document needs](#step-2--configure-only-what-the-document-needs)
-- [Choosing a protection mode: Standard vs. FineView](#choosing-a-protection-mode-standard-vs-fineview)
+- [Choosing a view mode: SecureView, Unrestricted, or App DRM](#choosing-a-view-mode-secureview-unrestricted-or-app-drm)
 - [Preset recipes by scenario](#preset-recipes-by-scenario)
 - [Step 3 — Share the link and QR](#step-3--share-the-link-and-qr)
 - [Replacing the file behind the link later](#replacing-the-file-behind-the-link-later)
@@ -79,29 +79,30 @@ After upload you land on the configuration screen. Resist the instinct to flip e
 
 For access limits specifically, the common mistake is typing the audience size directly. Mobile reading routinely registers as 3–5 opens per person. Multiply before you type — see [the view-limit calculator and mobile multiplier](/blog/en/limit-pdf-views-drm) for the math.
 
-## Choosing a protection mode: Standard vs. FineView
+## Choosing a view mode: SecureView, Unrestricted, or App DRM
 
-MaiPDF ships two real protection modes. Pick one per link.
+The upload page offers three view modes. Pick one per link.
 
 | Mode | What the reader can do | Use it for |
 |---|---|---|
-| **Standard Protection** | Read in the browser; no direct download button; copy/print blocked by default | most shares — proposals, reports, portfolios |
-| **FineView** | Standard + tighter viewer (screen-grab deterrent, stricter session handling) | anything you'd be unhappy to see re-posted: drafts, internal decks, contracts |
+| **SecureView** *(recommended)* | Reads in the browser; the download and print controls are removed from the viewer | most shares — proposals, reports, portfolios |
+| **Unrestricted** | Plain browser reading with no viewer restrictions | public brochures, anything you want maximally easy to open |
+| **App DRM** *(reader installs the app)* | The file becomes an encrypted `.maipdf`; the operating system itself refuses screenshots | anything where a screen capture would be genuinely costly: drafts, internal decks, contracts |
 
-A practical rule: default to **Standard**, step up to **FineView** when the cost of a leak is higher than the friction of a slightly stricter viewer.
+One thing worth being straight about: **no browser mode can block a screenshot.** A web page has no way to refuse a system shortcut such as Win+Shift+S. SecureView removes the obvious download and print paths and the watermark makes a leak traceable, but if capture itself has to fail, that is App DRM — and it costs your reader an install.
 
 ## Preset recipes by scenario
 
 | Scenario | Mode | Open limit | Expiry | Email verify | Watermark |
 |---|---|---|---|---|---|
-| Public brochure | Standard | unlimited or high | optional | off | off |
-| Client proposal | Standard | 20–40 | 7–14 days | optional | on |
-| Contract draft to 3-person legal panel | FineView | 8–10 | 3–5 days | on | on |
-| Portfolio for job applications | Standard | 30–60 | 30 days | off | optional |
-| Resume sent directly to a recruiter | Standard | 10–20 | 14 days | off | off |
-| Pricing sheet to one prospect | FineView | 5–8 | 3 days | on | on |
-| Event handout via printed QR | Standard | high | event window | off | off |
-| Board / investor deck | FineView | audience × 2 | meeting week | on | on |
+| Public brochure | Unrestricted | unlimited or high | optional | off | off |
+| Client proposal | SecureView | 20–40 | 7–14 days | optional | on |
+| Contract draft to 3-person legal panel | App DRM | 8–10 | 3–5 days | on | on |
+| Portfolio for job applications | SecureView | 30–60 | 30 days | off | optional |
+| Resume sent directly to a recruiter | SecureView | 10–20 | 14 days | off | off |
+| Pricing sheet to one prospect | SecureView | 5–8 | 3 days | on | on |
+| Event handout via printed QR | SecureView | high | event window | off | off |
+| Board / investor deck | App DRM | audience × 2 | meeting week | on | on |
 
 The rule of thumb: start from the row that looks closest to your case, then loosen one thing if you're worried about locking a reader out.
 
@@ -172,7 +173,7 @@ The decision isn't "link vs. email." Email is still the delivery vehicle. The qu
 No. Opening a MaiPDF link works in any modern browser — mobile or desktop — without a download or an account on the reader side.
 
 **What happens when the open limit is reached?**
-The link stops loading the document. You can raise the cap from the control panel if you need to let a late reader in, without regenerating anything.
+The link stops loading the document. There is no field to edit the cap afterwards — to let a late reader in, replace the share with a PDF carrying the count you now want. The URL and QR stay exactly as they are.
 
 **Can I change the settings after sending?**
 Yes. The whole point of a managed link is that the policy is editable — tighten, loosen, extend, or close it at any time.

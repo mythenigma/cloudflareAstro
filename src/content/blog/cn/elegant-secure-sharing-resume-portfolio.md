@@ -274,11 +274,11 @@ language: "cn"
   </div>
   <div class="faq-item">
     <h4>Q: 文档会保存多长时间？</h4>
-    <p>A: 文档在设定的有效期（仅离线版）后会自动删除，最长不超过30天，确保隐私安全。</p>
+    <p>A: 到了你设定的到期时间，链接就不再放人进入。另外服务器会定期清理——大约<strong>三个月无人读取</strong>的文件会被清除。想长期保留的资料，注意保持有访问或自行留底。</p>
   </div>
   <div class="faq-item">
     <h4>Q: 支持哪些文件格式？</h4>
-    <p>A: 目前主要支持PDF格式，未来会逐步支持更多办公文档格式。</p>
+    <p>A: <strong>只支持 PDF</strong>，单文件上限 80 MB。Word、Excel、PPT 需要先自行导出成 PDF 再上传。</p>
   </div>
   <div class="faq-item">
     <h4>Q: 如何确保文档不被截屏？</h4>

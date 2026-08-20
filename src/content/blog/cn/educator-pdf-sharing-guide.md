@@ -103,7 +103,7 @@ tags: ["教育数字化", "课程材料", "PDF分享", "学生管理", "教学�
 </div>
 
 <div class="note-box">
-  <p><strong>教育工作者福利：</strong>所有上述功能对个人用户完全免费，无需升级付费版即可应用于教学实践。</p>
+  <p><strong>教育工作者请注意：</strong>上述功能<strong>对所有人都是免费的</strong>——MaiPDF 没有付费版这个概念，不存在"升级后才能用"的功能。唯一的付费项是给分享去掉广告。</p>
 </div>
 
 ## 3️⃣ 教学场景应用指南 {#application-guide}
@@ -116,7 +116,7 @@ tags: ["教育数字化", "课程材料", "PDF分享", "学生管理", "教学�
         <h4>1. 材料准备与上传</h4>
         <ul>
           <li>将预习讲义整合为单一PDF文件</li>
-          <li>通过MaiPDF平台上传（支持100MB内文件）</li>
+          <li>通过MaiPDF平台上传（支持80MB内文件）</li>
         </ul>
         <img src="/maifle/MaiPDF中的上传界面.png" alt="上传界面" class="step-image">
       </div>

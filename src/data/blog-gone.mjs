@@ -75,6 +75,8 @@ export const BLOG_GONE = new Set([
   "/blog/en/share-pdf-without-registration-free-tool",
   "/blog/en/share-pdf-without-registration-free-tool",
   "/blog/es/benefits-of-pdf-access-control",
+  "/blog/cn/education-pdf-security-guide",
+  "/blog/cn/drm-digital-certificate-file-protection-guide",
   "/blog/es/drm-digital-certificate-file-protection-guide",
   "/blog/es/dynamic-watermarks-on-pdf",
   "/blog/es/email-pdf-links",

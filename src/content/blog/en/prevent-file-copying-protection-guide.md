@@ -66,7 +66,7 @@ Nothing blocks every path. The realistic goal is to stop casual copying and make
 
 ## How the dynamic watermark prevents redistribution
 
-When watermarking is enabled, each reader sees their email address (or a session ID) overlaid on every page. This doesn't technically prevent a screenshot, but it:
+When watermarking is enabled, every page carries a **code for that particular open** — not the reader's email or IP, which stay in the access record the code points to. This doesn't technically prevent a screenshot, but it:
 
 - **Identifies the source** if content leaks — you know exactly who it came back from
 - **Acts as a deterrent** — most people won't forward a document with their name embedded in it

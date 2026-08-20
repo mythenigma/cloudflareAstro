@@ -49,7 +49,7 @@ A diferencia de los códigos QR estáticos, con MaiPDF mantienes el control:
 ## Cómo crear códigos QR de PDF
 
 ### 1. Sube tu PDF
-Visita MaiPDF y sube tu documento. Soporta archivos de hasta 100MB.
+Visita MaiPDF y sube tu documento. Soporta archivos de hasta 80MB.
 
 ### 2. Configura las opciones de acceso
 - **Límites de visualización**: Limita cuántas veces se puede usar el código QR

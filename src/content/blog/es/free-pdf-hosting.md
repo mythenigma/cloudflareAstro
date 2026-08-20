@@ -28,7 +28,7 @@ noindex: true
       https://maipdf.com/file/yourcode@pdf
     </div>
     <p>Puede comenzar de inmediato sin registrarse o iniciar sesión. Esto lo hace perfecto para compartir documentos rápidamente, como informes, presentaciones, guías de instrucciones o propuestas.</p>
-    <p>Cada archivo puede tener hasta 100 MB, lo que le brinda mucho espacio para alojar documentos de alta calidad manteniendo imágenes y formato intactos.</p>
+    <p>Cada archivo puede tener hasta 80 MB, lo que le brinda mucho espacio para alojar documentos de alta calidad manteniendo imágenes y formato intactos.</p>
   </div>
   <div class="feature-image">
     <img src="/maipdf-images/upload_section.png" alt="Interfaz de carga de PDF que muestra el área simple de selección de archivos de MaiPDF" class="medium">

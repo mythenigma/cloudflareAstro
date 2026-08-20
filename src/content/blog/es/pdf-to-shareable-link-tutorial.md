@@ -39,14 +39,14 @@ noindex: true
 
 ![Interfaz de Carga](/maipdf2026/flowchart/en-upload-share-flow.svg)
 
-**Qué sucede**: Arrastre y suelte su archivo PDF (hasta 100MB) o haga clic para explorar
+**Qué sucede**: Arrastre y suelte su archivo PDF (hasta 80MB) o haga clic para explorar
 
 **Tiempo requerido**: 10-30 segundos dependiendo del tamaño del archivo
 
 **Sin registro necesario**: Comience a compartir inmediatamente
 
 **Características**:
-- ✅ Soporte para archivos hasta 100MB
+- ✅ Soporte para archivos hasta 80MB
 - ✅ Carga rápida y segura
 - ✅ Sin necesidad de crear cuenta
 - ✅ Procesamiento automático

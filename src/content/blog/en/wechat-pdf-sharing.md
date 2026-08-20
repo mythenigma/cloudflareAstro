@@ -46,7 +46,7 @@ WeChat has a native QR code scanner. MaiPDF auto-generates a QR code for every u
 
 | Feature | WeChat File | MaiPDF Link |
 |---------|------------|-------------|
-| File size limit | 200 MB | 100 MB (optimized for fast loading) |
+| File size limit | 200 MB | 80 MB (optimized for fast loading) |
 | Image quality | Compressed | Original quality preserved |
 | Preview in-app | No (must download) | Yes (opens in WeChat browser) |
 | Analytics | None | Opens, time, device tracked |

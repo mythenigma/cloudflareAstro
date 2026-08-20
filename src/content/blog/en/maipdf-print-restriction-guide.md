@@ -110,9 +110,9 @@ Print off rarely stands alone. It's Layer 1 of a protection stack that matches t
 | **Expiry** | access after a date | can't bypass |
 | **Email verification** | anonymous opens from random URL leaks | requires approved inbox |
 | **Dynamic watermark** | anonymous leaks via screenshot/camera | high — stamp travels with every copy |
-| **FineView mode** | screen-grab, selection tricks, session abuse | high |
+| **App DRM** | screen capture, screen recording, forwarding the file itself | high |
 
-The sensible recipe for a draft contract or board deck: **print off + download off + open limit + expiry + email verification + watermark + FineView**. For a sales proposal: **print off + download off + open limit + expiry + watermark**. Don't stack layers you don't need — over-restriction drives readers to insecure workarounds.
+The sensible recipe for a draft contract or board deck: **print off + download off + open limit + expiry + email verification + watermark** — and **App DRM** if a screen capture would genuinely hurt. For a sales proposal: **print off + download off + open limit + expiry + watermark**. Don't stack layers you don't need — over-restriction drives readers to insecure workarounds.
 
 ## Changing the setting after you've sent the link
 

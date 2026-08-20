@@ -144,4 +144,4 @@ Sí. Ese es uno de los mayores beneficios del flujo.
 
 ### ¿Cuál es el tamaño máximo?
 
-MaiPDF admite archivos de hasta **100 MB**.
+MaiPDF admite archivos de hasta **80 MB**.

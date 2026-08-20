@@ -26,7 +26,7 @@ The practical effect is small-feeling but significant. You stop tracking "which 
 
 ## What you actually do during upload
 
-The upload itself is a drag-and-drop: files up to 100 MB are accepted, no account is required to get a first link, and the result is a shareable URL the moment the upload finishes. Where the workflow earns its keep is the panel that appears alongside the link — the controls that decide how the document behaves once it leaves your screen.
+The upload itself is a drag-and-drop: files up to 80 MB are accepted, no account is required to get a first link, and the result is a shareable URL the moment the upload finishes. Where the workflow earns its keep is the panel that appears alongside the link — the controls that decide how the document behaves once it leaves your screen.
 
 ![The control panel lets you attach access rules — access limit, session length, watermark, email verification, read notify — before a single person opens it](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 

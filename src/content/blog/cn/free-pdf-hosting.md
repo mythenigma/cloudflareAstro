@@ -21,7 +21,7 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
       https://maipdf.com/file/yourcode@pdf
     </div>
     <p>无需注册或登录即可开始。这使其非常适合快速、一次性分享文档，如报告、演示文稿、说明指南或提案。</p>
-    <p>每个文件最多可达100 MB，为您提供充足的空间来托管高质量文档，保持图像和格式完整。</p>
+    <p>每个文件最多可达80 MB，为您提供充足的空间来托管高质量文档，保持图像和格式完整。</p>
   </div>
   <div class="feature-image fph">
     <img src="/cn2025May/maipdf_upload_pdf_cn.png" alt="MaiPDF 上传 PDF 界面" class="medium">
@@ -56,7 +56,7 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
     <div class="step-number">1</div>
     <div class="step-content">
       <h3>上传您的PDF</h3>
-      <p>上传任何大小不超过100MB的PDF文件</p>
+      <p>上传任何大小不超过80MB的PDF文件</p>
       <img src="/cn2025May/maipdf_upload_pdf_cn.png" alt="MaiPDF 上传 PDF" class="small">
     </div>
   </div>
@@ -91,7 +91,7 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
 ### 免费托管
 
 - ✅ 无需注册
-- ✅ 每个文件最多100MB
+- ✅ 每个文件最多80MB
 - ✅ 无限数量的文件
 - ✅ 无隐藏费用
 
@@ -114,7 +114,7 @@ tags: ["免费PDF托管", "PDF托管", "文档分享", "安全查看器"]
 MaiPDF提供免费PDF托管，具有：
 
 - ✅ 无需注册
-- ✅ 每个文件最多100MB
+- ✅ 每个文件最多80MB
 - ✅ 安全功能
 - ✅ 链接管理
 - ✅ 访问跟踪

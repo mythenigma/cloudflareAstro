@@ -76,12 +76,12 @@ This is the layer most people skip, and it's the one that turns "forwarding is a
 ### Layer 5 — **Dynamic watermark** (verified email)
 If email verification is on, the watermark stamps the **reader's real email** on every page. Every screenshot, every camera photo, every printed page (if you'd allowed printing) carries the leaker's name. The deterrent effect is large; the forensic power after a leak is larger.
 
-### Layer 6 — **FineView** protection mode
+### Layer 6 — **App DRM** instead of a browser link
 Tightens the viewer itself — session handling, selection behavior, screen-grab deterrents. Reserved for documents where the cost of a leak is materially high: contract drafts, board decks, unreleased IP.
 
 ## Policy templates by document type
 
-| Document | Download off | Print off | Open limit | Expiry | Email verify | Watermark | FineView |
+| Document | Download off | Print off | Open limit | Expiry | Email verify | Watermark | App DRM |
 |---|---|---|---|---|---|---|---|
 | Sales proposal / pitch deck | ✓ | ✓ | 20–40 | 7–14 days | optional | ✓ | – |
 | Contract draft under review | ✓ | ✓ | 8–10 | 3–7 days | ✓ | ✓ | ✓ |
@@ -99,7 +99,7 @@ Don't over-engineer the low-risk rows. A training handout with every control cra
 
 1. Upload the PDF at [maipdf.com](https://maipdf.com).
 2. Pick the row closest to your document from the template table.
-3. Configure the six controls in that order: **download/print → open limit → expiry → email whitelist → watermark → FineView**.
+3. Configure the controls in that order: **download/print → open limit → expiry → email whitelist → watermark** — then decide whether the document warrants **App DRM** instead of a browser link.
 4. Generate the link.
 5. **Test with a non-whitelisted email** — the most common failure mode for "prevent forwarding" is an email whitelist that doesn't actually lock anything because it was misconfigured.
 6. Open the access log 48 hours after sending and confirm only expected readers have opened it.
@@ -127,7 +127,7 @@ Even the full six-layer stack doesn't make forwarding impossible. It makes it **
 1. **Revoke the link immediately.** One click in the control panel. The URL stops working everywhere; old copies of the link become dead.
 2. **Identify the leaker.** Pull the leaked artifact (screenshot, forwarded email, printed page). Read the watermark off it. Cross-reference with the access log — session timestamp, verified email, device.
 3. **Generate a new link for the still-approved audience.** New URL, new access log; leaver is not on the new whitelist.
-4. **Tighten the policy for the next send.** If the leak came via email-verified reader screenshotting, the next version of this document goes out with FineView. If it came via someone outside the whitelist somehow, audit the whitelist for typos and forwarders.
+4. **Tighten the policy for the next send.** If the leak came via an email-verified reader screenshotting, note that no browser setting could have stopped that — the next version of this document goes out through App DRM. If it came via someone outside the whitelist somehow, audit the whitelist for typos and forwarders.
 5. **Document the incident.** Most organizations find they need internal guidance the moment a leak happens; write it down now, not the next time.
 
 ## Common failure points
@@ -152,12 +152,12 @@ No — and any tool claiming otherwise is overselling. The goal of anti-forwardi
 They notice the download/print buttons missing and (depending on your watermark opacity) see the watermark on the page. They don't see the expiry date or the open limit — those are invisible until hit.
 
 **What happens when a reader hits the open limit?**
-The link stops loading the document. Expected opens will see an "access-limit reached" page. You can raise the cap from the control panel without regenerating the URL if you need to let a late reader in.
+The link stops loading the document. Expected opens will see an "access-limit reached" page. There is no field to edit the cap afterwards — replace the share with a PDF carrying the higher count, and the URL stays the same, if you need to let a late reader in.
 
 **If I forgot to set email verification at first, can I add it retroactively?**
 Yes. All controls on the stack are editable from the control panel; every change applies to the next open without changing the URL.
 
-**Does FineView break accessibility?**
+**Does App DRM break accessibility?**
 Core reading works normally — page rendering, scrolling, zoom, and search stay intact. Some screen-reader tools may see friction; test with real assistive-tech users if that's a hard requirement, and consider a separate, audibly-tagged exception link for genuine accessibility needs.
 
 **Is there a "nuclear button" to kill the whole document everywhere?**

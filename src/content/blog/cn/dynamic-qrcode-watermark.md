@@ -432,7 +432,7 @@ Maipdf提供直观的打开统计查询功能，助您全面掌握文档流向�
   <div class="faq-item">
     <div class="faq-question">动态二维码水印功能是否需要额外付费？</div>
     <div class="faq-answer">
-      <p>Maipdf的基础功能包含简单水印，而动态二维码水印属于高级安全功能，通常包含在专业版和企业版订阅中。具体定价请参考Maipdf官网的最新价格信息。</p>
+      <p>不需要。MaiPDF <strong>没有专业版、企业版这类订阅分层</strong>，所有分享控制项（打开次数、到期、验证、水印、视图模式）对所有用户都是一样的，游客不注册也能用。唯一的付费项是<strong>给某个分享去掉广告</strong>，按月购买。</p>
     </div>
   </div>
   <div class="faq-item">
@@ -453,8 +453,8 @@ Maipdf提供直观的打开统计查询功能，助您全面掌握文档流向�
   </div>
   <div class="trend-card">
     <div class="trend-icon">⛓️</div>
-    <h4>区块链验证</h4>
-    <p>区块链技术将与水印追踪结合，提供不可篡改的打开统计和更强的法律证据支持。</p>
+    <h4>更强的证据链</h4>
+    <p>目前的证据能力来自访问记录：水印上的编号对应到一条包含时间、IP、浏览器（开了验证还有邮箱或手机号）的记录。<strong>没有使用区块链</strong>，这里只是说明现有记录已经能支撑多数追责场景。</p>
   </div>
   <div class="trend-card">
     <div class="trend-icon">👁️</div>

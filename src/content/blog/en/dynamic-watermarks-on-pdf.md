@@ -47,7 +47,7 @@ If you are not sure which path fits your file, start with [Online PDF Sharing vs
 
 When you enable **Dynamic Watermark** on a MaiPDF link, the viewer **isn't looking at a watermarked PDF file** — they're looking at the PDF through MaiPDF's viewer, which paints a **per-session fingerprint** onto every page **at view time**.
 
-That fingerprint is unique to their session: an 8–9-digit ID (or their verified email, or a timestamp — you choose). No two readers see the same one. If a screenshot of page 17 leaks, that screenshot carries the leaker's fingerprint. No re-rendering, no extraction, no "I'll just crop it off" — it's sitting on the page, in the same place the reader saw it.
+That fingerprint is unique to that open: a short numeric ID, drawn as two lines of digits. There is nothing to choose here — it is always the record number, never the reader's email or IP, which stay in the access record the number points to. No two opens carry the same one. If a screenshot of page 17 leaks, that screenshot carries the leaker's fingerprint. No re-rendering, no extraction, no "I'll just crop it off" — it's sitting on the page, in the same place the reader saw it.
 
 ![Server-side overlay: reader sees the watermark, reader never gets a file to strip it from](/maipdf2026/flowchart/en-watermark-protection-flow.svg)
 
@@ -100,10 +100,10 @@ A watermark is a deterrent and a forensic tool, not a lock. It becomes much stro
 | **Download off** | Reader can't get the raw unwatermarked PDF to redistribute |
 | **View limit** | Caps how many watermarked copies exist at all |
 | **Expiry** | Stops the watermarked link from being re-scanned forever |
-| **FineView mode** | Tightens what the viewer allows inside the session |
+| **App DRM** | The operating system itself refuses the screenshot — the only mode that actually blocks capture |
 | **Access log** | Lets you cross-reference a leaked stamp ID against which reader saw what, when |
 
-A sensible "confidential reader copy" recipe: **Dynamic watermark (verified email) + Download off + Email verification + View limit matched to the real audience × 1.5 + FineView**. See [the view-limit calculator](/blog/en/limit-pdf-views-drm) for why the ×1.5 matters.
+A sensible "confidential reader copy" recipe: **Dynamic watermark + Email verification + View limit matched to the real audience × 1.5 + SecureView** — and **App DRM** instead of SecureView when a screenshot would genuinely hurt. See [the view-limit calculator](/blog/en/limit-pdf-views-drm) for why the ×1.5 matters.
 
 ![Email verification turns an anonymous session ID watermark into a named-reader watermark](/maipdf2026/get_email_verification_before_read.jpg)
 
@@ -165,7 +165,7 @@ The watermark is **in the photo** — because it's in what they were looking at.
 Yes. Watermark toggle and content are editable in the control panel; changes apply to every subsequent session. If you want to drop the watermark entirely for a revised document, you can also [replace the file behind the link](/blog/en/how-to-upload-a-pdf-and-generate-a-secure-link#replacing-the-file-behind-the-link-later) without changing the URL.
 
 **Can a watermark block copy-paste or OCR?**
-No — watermarking is about **attribution after the fact**, not preventing extraction in the moment. For copy-paste and print control, pair it with **FineView** and **Download off**. For view-count caps, pair it with a **view limit**.
+No — watermarking is about **attribution after the fact**, not preventing extraction in the moment. For copy-paste and print control, pair it with **SecureView**, which removes the download and print controls from the viewer. If the worry is a screenshot rather than copy-paste, no browser mode helps — that is **App DRM**. For view-count caps, pair it with a **view limit**.
 
 **Does watermarking slow the viewer down?**
 The overlay is generated in milliseconds. Readers don't notice a difference.

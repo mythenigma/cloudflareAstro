@@ -24,7 +24,7 @@ heroImage: "/maipdf2026/Maipdf_LANDING_PAGE.png"
       https://maipdf.com/file/yourcode@pdf
     </div>
     <p>No signup or login is needed to start. This makes it perfect for quick, one-time sharing of documents like reports, presentations, instruction guides, or proposals.</p>
-    <p>Each file can be up to 100 MB in size, giving you plenty of space to host high-quality documents with images and formatting intact.</p>
+    <p>Each file can be up to 80 MB in size, giving you plenty of space to host high-quality documents with images and formatting intact.</p>
   </div>
   <div class="feature-image">
     <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="PDF Upload Interface showing MaiPDF's simple file selection area" class="medium">
@@ -66,7 +66,7 @@ With an account, you'll have a full dashboard showing all your hosted documents,
     <div class="step-number">1</div>
     <div class="step-content">
       <h3>Upload your PDF</h3>
-      <p>Upload any PDF file up to 100MB in size</p>
+      <p>Upload any PDF file up to 80MB in size</p>
       <img src="/maipdf2026/maipdf_header_login_or_upload_file.png" alt="MaiPDF upload interface with file selection button" class="small">
     </div>
   </div>
