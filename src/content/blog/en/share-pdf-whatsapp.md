@@ -1,194 +1,125 @@
-﻿---
-title: "Share PDF on WhatsApp: Send Documents as Links Instead of Files"
-description: "Share PDF documents on WhatsApp using clean links instead of large file attachments. Faster sharing, better mobile experience, and professional presentation."
+---
+title: "How to Send a PDF on WhatsApp (Android, iPhone, Web)"
+description: "Step-by-step: send a PDF in a WhatsApp chat, group or channel on Android, iPhone and WhatsApp Web. Plus how to send a PDF that can only be opened once."
 pubDate: "Apr 3 2026"
+updatedDate: "Oct 7 2026"
 heroImage: "/maipdf2026/show_off/shareandsend.png"
-tags: ["WhatsApp sharing", "PDF links", "mobile sharing", "instant messaging"]
+tags: ["WhatsApp", "send PDF", "WhatsApp channel", "one-time view", "PDF links"]
 ---
 
-# Share PDF on WhatsApp: Send Documents as Links Instead of Files
+# How to Send a PDF on WhatsApp (Android, iPhone, Web)
 
-WhatsApp makes it easy to share documents, but large PDF files can be slow to send and download. MaiPDF offers a better solution - convert your PDF into a shareable link that works perfectly in WhatsApp conversations, providing instant access without the wait.
+**Quick answer:** open the chat, tap the attach button (📎 on Android, **+** on iPhone), choose **Document**, pick your PDF and tap **Send**. WhatsApp sends documents up to 2 GB without compressing them.
 
-![WhatsApp PDF Link Sharing](/maipdf2026/show_off/shareandsend.png)
+That covers most cases. Read on if you want to send a PDF you just downloaded, post one in a WhatsApp channel, or send a PDF that **can only be opened once**. WhatsApp can't do that last one by itself, but there is a simple workaround.
 
+![Send a PDF on WhatsApp](/maipdf2026/show_off/shareandsend.png)
 
-![Upload Share Track Workflow](/maipdf2026/flowchart/en-upload-share-flow.svg)
+## Send a PDF on Android
 
-## Why Links Work Better Than Files on WhatsApp
+1. Open the WhatsApp chat or group.
+2. Tap the **paperclip** icon 📎 in the message box.
+3. Tap **Document**.
+4. Find your PDF. Use **Browse other docs** if it isn't in the recent list.
+5. Tap the file, then tap **Send**.
 
-**Faster Sharing**: Links send instantly, while large PDF files can take minutes to upload and send through WhatsApp.
+## Send a PDF on iPhone
 
-**No Storage Issues**: Recipients don't need storage space on their phones to view your documents.
+1. Open the WhatsApp chat or group.
+2. Tap **+** next to the message box.
+3. Tap **Document**. This opens the Files app.
+4. Go to the folder with your PDF (for example **Downloads** or **iCloud Drive**) and tap it.
+5. Tap **Send**.
 
-**Better Mobile Experience**: Documents open in an optimized web viewer instead of cluttering the phone's storage.
+## Send a PDF from WhatsApp Web or Desktop
 
-**Always Accessible**: Links remain clickable in chat history, while files might be automatically deleted by WhatsApp after time.
+1. Open the chat on [web.whatsapp.com](https://web.whatsapp.com) or in the desktop app.
+2. Click **+** (or the paperclip) next to the message box.
+3. Click **Document**, choose the PDF from your computer, and click **Send**.
 
-**Professional Appearance**: Clean links look more professional than bulky file attachments in business conversations.
+## Send a PDF you just downloaded
 
-![Upload and Generate Link](/maipdf2026/Maipdf_LANDING_PAGE.png)
+You don't have to open WhatsApp first:
 
-## How to Share PDFs on WhatsApp Using Links
+- **Android:** open the **Files** or **Downloads** app, long-press the PDF, tap **Share**, then choose **WhatsApp** and the chat.
+- **iPhone:** open the PDF in the **Files** app, tap the **Share** button, choose **WhatsApp**, then pick the chat.
 
-**Step 1: Upload Your PDF** - Visit MaiPDF and upload your document. Processing takes just seconds.
+## Send a PDF in a WhatsApp channel
 
-**Step 2: Copy the Link** - Get a clean, professional URL that's perfect for messaging.
+Channels are one-way: only admins can post. Open your channel and tap the attach button. If your app shows a **Document** option there, it works the same way as in a chat.
 
-![Link Generation Result](/maipdf2026/Result_of_qr_link.png)
+If you don't see a Document option, post the PDF as a **link** instead. Upload the PDF to a link service like [MaiPDF](https://maipdf.com), then paste the link into the channel update. Followers tap the link and the PDF opens in their browser. You don't need to post a new file every time it changes either, because you can [replace the file behind the same link](/blog/en/modify-pdf-links).
 
-**Step 3: Paste in WhatsApp** - Simply paste the link into your WhatsApp conversation and send.
+## Can you send a "view once" PDF on WhatsApp?
 
-**Step 4: Recipients Click and View** - Friends, family, or colleagues can access the document immediately.
+**No.** WhatsApp's **View once** setting only works for photos, videos and voice messages. A PDF sent as a document stays in the chat. The other person can save it, forward it and open it as many times as they like.
 
-## Perfect for WhatsApp Business
+If you need a PDF that can only be opened once, send a **link** with an open limit instead:
 
-**Client Communications**: Share contracts, proposals, and reports with clients through WhatsApp Business without file size limitations.
+1. Upload the PDF on [MaiPDF](https://maipdf.com). You don't need an account.
+2. Set **Access Limit** to **1**. After one open, the link stops working.
+3. Optional: choose **SecureView** so the PDF is shown in a viewer without a download button.
+4. Copy the link and paste it into WhatsApp.
 
-**Customer Support**: Provide user manuals, troubleshooting guides, or product information quickly and professionally.
+![MaiPDF upload settings: access limit, expiration and Telegram alerts](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
 
-**Team Collaboration**: Share meeting notes, project updates, or important documents with team members instantly.
+Be realistic about the limits: nobody can stop someone from photographing their screen. An open limit stops the link from being reused or forwarded. It can't stop a determined reader from copying what they see. For stronger protection on phones, the [MaiPDF app](/blog/en/prevent-screenshot-pdf-drm-native-app) turns screenshots and screen recordings black.
 
-**Marketing Materials**: Distribute brochures, catalogs, or promotional content through WhatsApp marketing campaigns.
+## When a link is better than a PDF file
 
-![Professional PDF Viewer](/maipdf2026/pdf native view on ui.png)
+Sending the file is fine for everyday things like a menu, a ticket or a school form. A link is better when:
 
-## Mobile-Optimized Viewing Experience
+| You want to… | PDF file in WhatsApp | PDF link |
+|---|---|---|
+| Stop the PDF being forwarded or saved | ❌ | ✅ view-only, open limits |
+| Make it stop working after a date | ❌ | ✅ [expiration date](https://maipdf.com/home/expiration.html) |
+| Know when someone opens it | ❌ only "read" ticks on the message | ✅ [Telegram alert](https://maipdf.com/home/pdfreadalert.html) on every open |
+| Fix a typo after sending | ❌ send a new file | ✅ replace the file, same link |
+| Send to a channel or many groups | One copy per chat | One link everywhere |
 
-When recipients click your WhatsApp PDF link, they get a mobile-optimized viewing experience:
+Note that WhatsApp's blue ticks only tell you the **message** was seen. They don't tell you whether anyone actually opened the PDF.
 
-**Touch-Friendly Interface**: Smooth scrolling, pinch-to-zoom, and easy navigation designed for smartphones.
+## Send a PDF link on WhatsApp with MaiPDF
 
-**Fast Loading**: Documents appear within seconds, even on cellular connections.
+1. **Upload** your PDF on [maipdf.com](https://maipdf.com).
+2. **Choose your rules** before you share:
+   - **Access Limit**: how many times the link can be opened.
+   - **Expiration**: the date the link stops working.
+   - **Email Verification**: only people on your list can open it. They confirm a code sent to their email.
+   - **Telegram Read Alerts**: connect [@maipdfbot](https://t.me/maipdfbot) and get a message every time the PDF is opened.
+   - **Dynamic Watermark**: show the reader's email or IP on each page.
+3. **Generate** the link and QR code.
+4. **Save your Read Code and Modify Code.** You need both later to check access records, replace the file or delete the link. There is no way to recover a lost Modify Code.
+5. **Paste the link** into WhatsApp.
 
-**No App Required**: Works in any mobile browser without needing special PDF reader apps.
+![Link and QR code ready to share](/maipdf2026/Result_of_qr_link.png)
 
-**Portrait and Landscape**: Seamless viewing in any phone orientation.
+The person you send it to just taps the link. The PDF opens in their phone's browser, with no app and no download needed.
 
-**Quality Preservation**: Text remains crisp and images display clearly on mobile screens.
+After sharing, you can check who opened the PDF and when in the access records:
 
-## Control What Recipients Can Do
+![Access records for a shared PDF](/maipdf2026/how_to_fill_access_record_for_check.png)
 
-**View-Only Sharing**: Share documents that can be read but not downloaded to phones.
+## FAQ
 
-**Download Enabled**: Allow recipients to save documents locally if needed.
+**What is the maximum PDF size on WhatsApp?**
+2 GB when you send it as a **Document**. Photos and videos sent from the gallery are compressed. Documents are not.
 
-**Access Tracking**: Monitor when and how often your shared documents are viewed.
+**Why can't I see the Document option?**
+Update WhatsApp to the latest version. On iPhone, Document is under **+**. On Android, it is under the paperclip 📎.
 
-![Settings Configuration](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
+**Can I unsend a PDF on WhatsApp?**
+You can use **Delete for everyone** for a limited time after sending. If the other person has already downloaded the file, they keep their copy. With a link, you can delete the link or let it expire at any time.
 
-**Time Limits**: Set expiration dates for time-sensitive information.
+**Can I tell if someone opened my PDF on WhatsApp?**
+Not with WhatsApp alone. Blue ticks only mean the message was read. A MaiPDF link records each open, and can send you a Telegram alert the moment it happens.
 
-**View Counts**: Limit how many times the document can be accessed.
+**Does the other person need an app to open a PDF link?**
+No. The link opens in any phone or computer browser.
 
-## WhatsApp Group Sharing
+## Related guides
 
-**Educational Groups**: Teachers can share course materials, assignments, or study guides with student groups.
-
-**Family Groups**: Share travel itineraries, event information, or important family documents.
-
-**Business Teams**: Distribute meeting agendas, project documents, or company updates.
-
-**Community Groups**: Share newsletters, announcements, or informational documents with community members.
-
-## Advantages Over WhatsApp's Built-in File Sharing
-
-**No Size Limits**: WhatsApp restricts file sizes, but PDF links work for documents of any size.
-
-**Persistent Access**: Links remain active and clickable, while WhatsApp files may be automatically deleted.
-
-**Better Performance**: Links load faster than downloading large files through WhatsApp.
-
-**Professional Presentation**: Clean links enhance your professional image in business conversations.
-
-**Cross-Platform Compatibility**: Links work the same whether recipients use iPhone, Android, or WhatsApp Web.
-
-![Share Worldwide](/maipdf2026/show_off/share pdf wordwide.png)
-
-## Privacy and Security on WhatsApp
-
-**Secure Links**: Each PDF gets a unique, secure URL that can't be guessed by others.
-
-**Controlled Access**: You decide who can view or download your documents.
-
-**No WhatsApp Storage**: Documents aren't stored in WhatsApp's servers, reducing privacy concerns.
-
-**Direct Control**: Disable links anytime if you need to revoke access.
-
-![Security Settings](/maipdf2026/MaiPDF_settings_expiration_telegram.png)
-
-## Perfect for Various WhatsApp Use Cases
-
-**Business Consultations**: Share proposals, quotes, or service agreements with clients during WhatsApp consultations.
-
-**Real Estate**: Send property brochures, floor plans, or contracts to potential buyers through WhatsApp.
-
-**Healthcare**: Share test results, treatment plans, or medical information with patients securely.
-
-**Education**: Distribute course materials, homework assignments, or study guides to students and parents.
-
-**Legal Services**: Share contracts, legal advice, or document drafts with clients through secure messaging.
-
-## Quick QR Code Option
-
-**Instant Mobile Sharing**: Generate QR codes that friends can scan to access your PDF immediately.
-
-**Group Settings**: Display QR codes during video calls for easy document sharing.
-
-**Offline to Online**: Include QR codes in printed materials that link to digital PDFs.
-
-**Event Sharing**: Share event programs, schedules, or information through QR codes in WhatsApp status.
-
-![QR Code Generation](/maipdf2026/Result_of_qr_link.png)
-
-## Managing WhatsApp PDF Shares
-
-**Real-Time Analytics**: See when your WhatsApp-shared documents are being accessed.
-
-![Access Tracking](/maipdf2026/how_to_fill_access_record_for_check.png)
-
-**Settings Updates**: Change permissions even after sharing links in WhatsApp conversations.
-
-**Usage Monitoring**: Track engagement levels and see which documents are most popular.
-
-![Change Settings Anytime](/maipdf2026/user_control_panel_alotof_functions.png)
-
-## Best Practices for WhatsApp PDF Sharing
-
-**Clear Context**: Always explain what the document contains before sharing the link.
-
-**Check Permissions**: Ensure your sharing settings match the intended audience.
-
-**Test Links**: Click your own links to verify they work before sharing.
-
-**Mobile First**: Remember that most WhatsApp users will view on mobile devices.
-
-**Professional Timing**: Share business documents during appropriate hours.
-
-## Getting Started with WhatsApp PDF Sharing
-
-Ready to start sharing PDFs through WhatsApp links?
-
-1. **Upload Your PDF**: Visit MaiPDF and upload your document
-2. **Configure Settings**: Choose view-only or download permissions
-3. **Copy the Link**: Get your professional URL instantly
-4. **Share on WhatsApp**: Paste the link into any conversation
-5. **Monitor Usage**: Track how your documents are being accessed
-
-![Homepage Interface](/maipdf2026/Maipdf_LANDING_PAGE.png)
-
-## Why WhatsApp Users Love PDF Links
-
-**Instant Access**: No waiting for large files to download on mobile data.
-
-**Storage Savings**: Documents don't take up precious phone storage space.
-
-**Always Available**: Links work from chat history anytime, anywhere.
-
-**Professional Quality**: High-quality document viewing optimized for mobile screens.
-
-**Easy Sharing**: Simple copy-paste sharing that works in any WhatsApp conversation.
-
-The combination of WhatsApp's massive user base and MaiPDF's fast, mobile-optimized document sharing creates the perfect solution for modern communication needs. Whether you're sharing business documents, educational materials, or personal information, PDF links provide a better experience than traditional file attachments.
-
-Try sharing your next PDF as a link in WhatsApp and see how much easier document sharing can be. Your contacts will appreciate the fast, professional access, while you'll enjoy the enhanced control and tracking capabilities that come with link-based sharing.
+- [Revoke access to a PDF after sending](/blog/en/how-to-revoke-access-to-a-pdf-after-sending)
+- [Replace a shared PDF without changing the link](/blog/en/modify-pdf-links)
+- [Share a PDF link with view-only access](/blog/en/pdf-share-link-disable-download)
+- [Share a PDF on Facebook](/blog/en/share-pdf-facebook)
