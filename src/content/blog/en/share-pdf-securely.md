@@ -1,17 +1,21 @@
 ---
-title: "Share PDF Securely — Keep Control After You Send It"
-description: "A protection-focused decision tree for sharing confidential PDFs: which controls matter per document type, how to stack them, what they actually block, and how to audit after the send."
+title: "How to Share a PDF Securely (and Send a Secure PDF File)"
+description: "Send a PDF as a secure link instead of an attachment: set an expiry date, limit opens, turn off downloads, verify readers by email and see who opened it. Free, no account needed."
 pubDate: "Apr 3 2026"
-updatedDate: "Jun 27 2026"
+updatedDate: "Oct 7 2026"
 heroImage: "/maipdf2026/show_off/securityshowoff.png"
 tags: ["secure PDF sharing", "PDF security", "access control", "Secure Share", "prevent screenshot"]
 showDefaultCta: true
 ---
-**2026 update:** Secure PDF sharing now has two levels: Online Cloud Sharing for fast links, QR codes, expiry, view limits, and watermarks; App DRM / **`.maipdf`** for device binding, license revocation, and screenshot-aware protected reading. Start with [Online PDF Sharing vs App DRM](/blog/en/online-pdf-sharing-vs-app-drm).
-
-
 <div class="intro-panel">
-  <p><strong>June 2026.</strong> The six controls below apply to <a href="https://maipdf.com/">online link sharing</a> in the browser. For <strong>prevent screenshot</strong> (OS-level), pack <code>.maipdf</code> and use <a href="https://drm.maipdf.com/">MaiPDF Secure</a> — see <a href="/blog/en/prevent-screenshot-pdf-drm-native-app">native app guide</a>.</p>
+  <p><strong>Quick answer:</strong> don't send the PDF as an attachment. Once a file is sent, you can't take it back. Send a secure link instead:</p>
+  <ol>
+    <li>Upload the PDF on <a href="https://maipdf.com/">maipdf.com</a>. It's free and you don't need an account.</li>
+    <li>Before you share, set an <strong>expiry date</strong>, an <strong>open limit</strong>, and turn off downloads.</li>
+    <li>For confidential files, add <strong>email verification</strong> so only people on your list can open it, and a <strong>watermark</strong> with each reader's email.</li>
+    <li>Send the link. Check the access records to see who opened it and when.</li>
+  </ol>
+  <p>These controls work in any browser. If you also need to block screenshots, use the <a href="/blog/en/prevent-screenshot-pdf-drm-native-app">MaiPDF app</a>.</p>
 </div>
 
 Secure PDF sharing isn't a single setting — it's a **stack**. Six controls, each solving a different failure mode, layered to match the document's actual sensitivity. The goal isn't to lock everything down (that just drives readers to insecure workarounds). The goal is to keep the document inside a clear, adjustable sharing boundary **after** it leaves your hands.
